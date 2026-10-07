@@ -12,9 +12,9 @@ class Settings(BaseSettings):
     DEBUG: bool = False
 
     # Database
-    DATABASE_URL: str = "postgresql://localhost:5432/ssc_prep"
+    DATABASE_URL: str = "postgresql+psycopg://postgres:postgres@localhost:5432/ssc_prep"
 
-    # JWT Authentication
+    # JWT Authentication (to be implemented in a later stage)
     SECRET_KEY: str = "change-this-secret-key-in-production"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
