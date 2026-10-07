@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-content antialiased;
+    font-family: "Inter", "Noto Sans Devanagari", system-ui, sans-serif;
+    line-height: 1.7;
+  }
+
+  /* Avoid pure black/white — use design tokens instead */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-content;
+  }
+}
