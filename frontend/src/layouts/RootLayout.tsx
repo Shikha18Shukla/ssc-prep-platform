@@ -25,6 +25,12 @@ export function RootLayout() {
                 >
                   Dashboard
                 </Link>
+                <Link
+                  to="/ssc"
+                  className="text-sm font-medium text-content hover:text-primary transition hidden sm:inline"
+                >
+                  Start Practice
+                </Link>
                 <span className="text-xs text-gray-400 hidden sm:inline">|</span>
                 <span className="text-sm text-gray-600 max-w-[160px] truncate hidden md:inline">
                   {user?.full_name || user?.email}

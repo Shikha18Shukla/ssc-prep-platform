@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { RootLayout } from "@/layouts/RootLayout";
 import { ProtectedRoute } from "@/components/common";
-import { HomePage, LoginPage, SignupPage, DashboardPage } from "@/pages";
+import { HomePage, LoginPage, SignupPage, DashboardPage, SSCPage } from "@/pages";
 
 export function AppRoutes() {
   return (
@@ -15,6 +15,7 @@ export function AppRoutes() {
         {/* Protected Routes */}
         <Route element={<ProtectedRoute />}>
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/ssc" element={<SSCPage />} />
         </Route>
 
         {/* Catch-all fallback */}
