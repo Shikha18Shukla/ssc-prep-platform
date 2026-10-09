@@ -82,6 +82,7 @@ class ChapterRead(ChapterBase):
 
     id: uuid.UUID
     subject_id: uuid.UUID
+    subcategory_id: uuid.UUID | None = None
     created_at: datetime
     updated_at: datetime
 

@@ -11,6 +11,7 @@ from app.database.base import Base, TimestampMixin
 if TYPE_CHECKING:
     from app.models.chapter import Chapter
     from app.models.exam import Exam
+    from app.models.subcategory import Subcategory
     from app.models.test_attempt import TestAttempt
 
 
@@ -66,6 +67,12 @@ class Subject(Base, TimestampMixin):
         back_populates="subject",
         cascade="all, delete-orphan",
         order_by="Chapter.display_order",
+    )
+    subcategories: Mapped[list["Subcategory"]] = relationship(
+        "Subcategory",
+        back_populates="subject",
+        cascade="all, delete-orphan",
+        order_by="Subcategory.display_order",
     )
     test_attempts: Mapped[list["TestAttempt"]] = relationship(
         "TestAttempt",

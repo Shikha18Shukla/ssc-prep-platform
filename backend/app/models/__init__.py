@@ -4,6 +4,7 @@ from app.models.chapter import Chapter
 from app.models.exam import Exam
 from app.models.question import Difficulty, Question, QuestionOption
 from app.models.subject import Subject
+from app.models.subcategory import Subcategory
 from app.models.test_attempt import TestAttempt, TestAttemptStatus
 from app.models.test_question import TestQuestion
 from app.models.user import User
@@ -13,6 +14,7 @@ __all__ = [
     "User",
     "Exam",
     "Subject",
+    "Subcategory",
     "Chapter",
     "Difficulty",
     "Question",

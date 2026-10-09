@@ -30,6 +30,58 @@ export type Difficulty = "easy" | "medium" | "hard" | "pyq";
 /** Allowed number of questions per test. */
 export type QuestionCount = 10 | 15 | 20 | 25;
 
+/** Practice mode selected for question availability checks. */
+export type PracticeLevel = "EASY" | "MEDIUM" | "HARD" | "PYQ";
+
+/** Database-backed exam catalog records. */
+export interface CatalogExam {
+  id: string;
+  name: string;
+  slug: string;
+  description: string | null;
+  is_active: boolean;
+}
+
+export interface CatalogSubject {
+  id: string;
+  exam_id: string;
+  name: string;
+  slug: string;
+  description: string | null;
+  display_order: number;
+  is_active: boolean;
+}
+
+export interface CatalogSubcategory {
+  id: string;
+  subject_id: string;
+  name: string;
+  slug: string;
+  description: string | null;
+  display_order: number;
+  is_active: boolean;
+}
+
+export interface CatalogChapter {
+  id: string;
+  subject_id: string;
+  subcategory_id: string | null;
+  name: string;
+  slug: string;
+  description: string | null;
+  display_order: number;
+  is_active: boolean;
+}
+
+export interface ChapterAvailability {
+  chapter_id: string;
+  level: PracticeLevel;
+  available_question_count: number;
+  allowed_question_counts: QuestionCount[];
+  requested_question_count: QuestionCount | null;
+  can_satisfy_request: boolean | null;
+}
+
 /** Seconds allocated per question. */
 export const SECONDS_PER_QUESTION = 36 as const;
 
