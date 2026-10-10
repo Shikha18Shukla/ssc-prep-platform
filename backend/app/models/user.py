@@ -45,6 +45,13 @@ class User(Base, TimestampMixin):
         default=True,
         nullable=False,
     )
+    # Explicitly granted by an operator; never accepted from public auth payloads.
+    is_admin: Mapped[bool] = mapped_column(
+        Boolean,
+        default=False,
+        nullable=False,
+        server_default="false",
+    )
 
     # Relationships
     test_attempts: Mapped[list["TestAttempt"]] = relationship(

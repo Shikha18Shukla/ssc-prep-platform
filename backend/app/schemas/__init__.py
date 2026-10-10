@@ -22,6 +22,15 @@ from app.schemas.common import (
     UserBase,
     UserRead,
 )
+from app.schemas.questions import (
+    ImportIssue,
+    QuestionImportSummary,
+    QuestionListResponse,
+    QuestionManagementRead,
+    QuestionOptionInput,
+    QuestionStatusUpdate,
+    QuestionUpdate,
+)
 
 __all__ = [
     "RegisterRequest",
@@ -42,4 +51,11 @@ __all__ = [
     "QuestionRead",
     "TestAttemptBase",
     "TestAttemptRead",
+    "ImportIssue",
+    "QuestionImportSummary",
+    "QuestionListResponse",
+    "QuestionManagementRead",
+    "QuestionOptionInput",
+    "QuestionStatusUpdate",
+    "QuestionUpdate",
 ]

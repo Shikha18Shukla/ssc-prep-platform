@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks";
 import { ApiError } from "@/services/api";
+import { createTest } from "@/services/tests";
 import {
   getActiveExams,
   getChapterAvailability,
@@ -50,6 +51,7 @@ const secondaryButtonClass =
 
 export default function SSCPage() {
   const { token } = useAuth();
+  const navigate = useNavigate();
   const [step, setStep] = useState(0);
   const [exams, setExams] = useState<CatalogExam[]>([]);
   const [subjects, setSubjects] = useState<CatalogSubject[]>([]);
@@ -63,6 +65,8 @@ export default function SSCPage() {
   const [selectedQuestionCount, setSelectedQuestionCount] =
     useState<QuestionCount | null>(null);
   const [availability, setAvailability] = useState<ChapterAvailability | null>(null);
+  const [startLoading, setStartLoading] = useState(false);
+  const [startError, setStartError] = useState("");
 
   const [examsLoading, setExamsLoading] = useState(true);
   const [subjectsLoading, setSubjectsLoading] = useState(false);
@@ -266,6 +270,27 @@ export default function SSCPage() {
     ? selectedQuestionCount * SECONDS_PER_QUESTION
     : 0;
   const durationMinutes = durationSeconds / 60;
+
+  async function startTest() {
+    if (!token || !selectedExamId || !selectedSubjectId || !selectedChapterId || !selectedLevel || !selectedQuestionCount) return;
+    setStartLoading(true);
+    setStartError("");
+    try {
+      const attempt = await createTest(token, {
+        exam_id: selectedExamId,
+        subject_id: selectedSubjectId,
+        subcategory_id: selectedSubcategoryId,
+        chapter_id: selectedChapterId,
+        difficulty: selectedLevel,
+        question_count: selectedQuestionCount,
+      });
+      navigate(`/tests/${attempt.id}`);
+    } catch (error) {
+      setStartError(errorMessage(error));
+    } finally {
+      setStartLoading(false);
+    }
+  }
 
   return (
     <div
@@ -532,12 +557,12 @@ export default function SSCPage() {
                   </div>
                 ))}
               </dl>
-              <p className="mt-5 rounded-md border-l-4 border-l-[#FF6B35] bg-[#FF6B35]/10 p-4 text-sm text-[#713112]">
-                Your selection is ready. Test creation is not part of this flow, so no test has been started.
-              </p>
+              {startError && <p role="alert" className="mt-5 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">{startError}</p>}
               <div className="mt-5 flex flex-col gap-3 sm:flex-row">
                 <button type="button" onClick={() => setStep(5)} className={secondaryButtonClass}>← Change question count</button>
-                <Link to="/dashboard" className={primaryButtonClass}>Finish and return to Dashboard</Link>
+                <button type="button" disabled={startLoading} onClick={() => void startTest()} className={primaryButtonClass}>
+                  {startLoading ? "Creating test…" : "Start Test"}
+                </button>
               </div>
             </section>
           )}

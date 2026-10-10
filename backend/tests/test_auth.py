@@ -87,6 +87,7 @@ def test_1_successful_registration(client: TestClient, db_session: Session):
             "full_name": "Aspirant Rahul",
             "email": "rahul.ssc@example.com",
             "password": "Password123",
+            "is_admin": True,
         },
     )
 
@@ -105,6 +106,7 @@ def test_1_successful_registration(client: TestClient, db_session: Session):
     assert db_user.password_hash.startswith("$argon2id$")
     assert db_user.password_hash != "Password123"
     assert verify_password("Password123", db_user.password_hash) is True
+    assert db_user.is_admin is False
 
 
 def test_2_duplicate_email_registration(client: TestClient):
