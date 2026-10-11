@@ -2,7 +2,6 @@
 
 from enum import Enum
 from datetime import datetime
-from typing import Literal
 import uuid
 
 from pydantic import BaseModel
@@ -17,7 +16,7 @@ class PracticeLevel(str, Enum):
     PYQ = "PYQ"
 
 
-QuestionCount = Literal[10, 15, 20, 25]
+QuestionCount = int
 
 
 class SubcategoryRead(BaseModel):

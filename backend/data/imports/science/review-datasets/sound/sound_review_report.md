@@ -1,0 +1,8 @@
+# Sound Chapter Source Review — 2026-10-10
+
+- Existing catalog chapter: Sound (`sound`), catalog ID `d12ea943-a2eb-4ba5-b71b-6b8865b7cb9a`.
+- The filename-matched `sound.pdf` OCR transcript is misleading: its existing page 2 decision routes that question to Magnetic Effect & Heating. The OCR content is not assigned by filename alone.
+- The existing `optics and human eye.pdf` transcript has Sound questions on physical PDF pages 2–12. All 11 source question pages were rendered and visually inspected. Topic mapping is content-based.
+- Imported and verified: 5 rows (2 ordinary, 3 PYQ), pages 4, 9, 10, 11, 12. Page 3 duplicates page 4 (same stem, options/order, correct option C, PYQ 2017); page 4 was retained. Page 2 remains pending because the marked answer conflicts with the correct mechanical property. Page 5 remains pending because its explanation is incomplete/imprecise; page 6 has no usable explanation; pages 7 and 8 have incomplete source explanations.
+- The five prepared rows were compared against all 126 active question stems and the 93 pre-existing Science importer rows. No exact match was found; their highest lexical lead was 0.525 and concerned an unrelated Amoeba question. The largest lead across all reviewed pages was 0.818 for pending page 8, a generic “Which of the following statements is INCORRECT?” match to a Circulatory System blood-function question. Its options, answer, explanation, and topic differ. No semantic duplicate was confirmed.
+- `sound_review.csv` preserves all 11 page dispositions. The ordinary and PYQ CSVs contain only the five approved imported rows; no pending or duplicate Sound candidate was included.

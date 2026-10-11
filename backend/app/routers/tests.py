@@ -20,8 +20,9 @@ from app.schemas.tests import (
     TestResultRead,
     TestSummary,
     TestOption,
+    TestAvailabilityRead,
 )
-from app.services.test_service import create_test, deadline, get_active_test, save_answer, submit_test
+from app.services.test_service import create_test, deadline, get_active_test, get_test_availability, save_answer, submit_test
 
 router = APIRouter(prefix="/tests", tags=["Tests"], dependencies=[Depends(get_current_user)])
 
@@ -44,7 +45,9 @@ def _current(attempt: TestAttempt, db: Session) -> ActiveTestRead:
         exam_id=attempt.exam_id,
         subject_id=attempt.subject_id,
         chapter_id=attempt.chapter_id,
-        difficulty="PYQ" if attempt.is_pyq else (attempt.difficulty.value if attempt.difficulty else ""),
+        # Every pre-feature attempt was chapter-wise because the old schema required a chapter.
+        test_type=attempt.test_type or "CHAPTER_WISE",
+        difficulty="PYQ" if attempt.is_pyq else (attempt.difficulty.value if attempt.difficulty else None),
         question_count=attempt.question_count,
         duration_seconds=attempt.duration_seconds,
         started_at=attempt.started_at,
@@ -96,6 +99,22 @@ def start_test(
 ):
     attempt = create_test(db, current_user.id, payload)
     return _current(attempt, db)
+
+
+@router.get("/availability", response_model=TestAvailabilityRead)
+def test_availability(
+    exam_id: uuid.UUID,
+    subject_id: uuid.UUID,
+    test_type: str,
+    chapter_id: uuid.UUID | None = None,
+    subcategory_id: uuid.UUID | None = None,
+    difficulty: str | None = None,
+    question_count: int | None = None,
+    db: Session = Depends(get_db),
+):
+    return get_test_availability(
+        db, exam_id, subject_id, test_type, chapter_id, subcategory_id, difficulty, question_count,
+    )
 
 
 @router.get("/{attempt_id}", response_model=ActiveTestRead)

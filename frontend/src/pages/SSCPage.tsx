@@ -2,52 +2,28 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks";
 import { ApiError } from "@/services/api";
-import { createTest } from "@/services/tests";
-import {
-  getActiveExams,
-  getChapterAvailability,
-  getExamSubjects,
-  getSubjectSubcategories,
-  getSubjectChapters,
-} from "@/services/catalog";
-import type {
-  CatalogChapter,
-  CatalogExam,
-  CatalogSubject,
-  CatalogSubcategory,
-  ChapterAvailability,
-  PracticeLevel,
-  QuestionCount,
-} from "@/types";
+import { createTest, getTestAvailability } from "@/services/tests";
+import type { TestSelection } from "@/services/tests";
+import { getActiveExams, getExamSubjects, getSubjectSubcategories, getSubjectChapters } from "@/services/catalog";
+import type { CatalogChapter, CatalogExam, CatalogSubject, CatalogSubcategory, PracticeLevel, QuestionCount } from "@/types";
 
-const STEPS = ["Exam", "Subject", "Category", "Chapter", "Level", "Questions", "Summary"];
-const QUESTION_COUNTS: QuestionCount[] = [10, 15, 20, 25];
 const SECONDS_PER_QUESTION = 36;
 const UNAVAILABLE_EXAMS = ["Railway", "Banking", "Police"];
-
-const LEVELS: {
-  id: PracticeLevel;
-  title: string;
-  description: string;
-}[] = [
-  { id: "EASY", title: "Easy", description: "Concept Building" },
+const LEVELS: Array<{ id: PracticeLevel; title: string; description: string }> = [
+  { id: "EASY", title: "Easy", description: "Concept building" },
   { id: "MEDIUM", title: "Medium", description: "Build consistency" },
   { id: "HARD", title: "Hard", description: "Challenge yourself" },
   { id: "PYQ", title: "Previous Year Questions", description: "Practice SSC PYQs" },
 ];
 
 function errorMessage(error: unknown): string {
-  if (error instanceof ApiError) return error.message;
-  if (error instanceof Error) return error.message;
+  if (error instanceof ApiError || error instanceof Error) return error.message;
   return "Something went wrong while loading the SSC practice options.";
 }
 
-const cardClass =
-  "w-full rounded-lg border border-[#2D3436]/15 bg-white p-5 text-left transition hover:border-[#007BFF] hover:shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] focus-visible:ring-offset-2";
-const primaryButtonClass =
-  "inline-flex min-h-11 items-center justify-center rounded-md bg-[#007BFF] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#0069d9] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] focus-visible:ring-offset-2 disabled:cursor-wait disabled:opacity-60";
-const secondaryButtonClass =
-  "inline-flex min-h-11 items-center justify-center rounded-md border border-[#2D3436]/25 bg-white px-5 py-2.5 text-sm font-semibold text-[#2D3436] transition hover:border-[#007BFF] hover:text-[#007BFF] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] focus-visible:ring-offset-2";
+const cardClass = "w-full rounded-lg border border-[#2D3436]/15 bg-white p-5 text-left transition hover:border-[#007BFF] hover:shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] focus-visible:ring-offset-2";
+const primaryButtonClass = "inline-flex min-h-11 items-center justify-center rounded-md bg-[#007BFF] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#0069d9] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] focus-visible:ring-offset-2 disabled:cursor-wait disabled:opacity-60";
+const secondaryButtonClass = "inline-flex min-h-11 items-center justify-center rounded-md border border-[#2D3436]/25 bg-white px-5 py-2.5 text-sm font-semibold text-[#2D3436] transition hover:border-[#007BFF] hover:text-[#007BFF] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] focus-visible:ring-offset-2";
 
 export default function SSCPage() {
   const { token } = useAuth();
@@ -57,517 +33,185 @@ export default function SSCPage() {
   const [subjects, setSubjects] = useState<CatalogSubject[]>([]);
   const [subcategories, setSubcategories] = useState<CatalogSubcategory[]>([]);
   const [chapters, setChapters] = useState<CatalogChapter[]>([]);
-  const [selectedExamId, setSelectedExamId] = useState<string | null>(null);
-  const [selectedSubjectId, setSelectedSubjectId] = useState<string | null>(null);
-  const [selectedSubcategoryId, setSelectedSubcategoryId] = useState<string | null>(null);
-  const [selectedChapterId, setSelectedChapterId] = useState<string | null>(null);
-  const [selectedLevel, setSelectedLevel] = useState<PracticeLevel | null>(null);
-  const [selectedQuestionCount, setSelectedQuestionCount] =
-    useState<QuestionCount | null>(null);
-  const [availability, setAvailability] = useState<ChapterAvailability | null>(null);
-  const [startLoading, setStartLoading] = useState(false);
-  const [startError, setStartError] = useState("");
-
-  const [examsLoading, setExamsLoading] = useState(true);
-  const [subjectsLoading, setSubjectsLoading] = useState(false);
-  const [subcategoriesLoading, setSubcategoriesLoading] = useState(false);
-  const [chaptersLoading, setChaptersLoading] = useState(false);
-  const [availabilityLoading, setAvailabilityLoading] = useState(false);
-  const [countValidationLoading, setCountValidationLoading] = useState(false);
-  const [examsError, setExamsError] = useState("");
-  const [subjectsError, setSubjectsError] = useState("");
-  const [subcategoriesError, setSubcategoriesError] = useState("");
+  const [examId, setExamId] = useState<string | null>(null);
+  const [subjectId, setSubjectId] = useState<string | null>(null);
+  const [testType, setTestType] = useState<"CHAPTER_WISE" | "MISCELLANEOUS" | null>(null);
+  const [subcategoryId, setSubcategoryId] = useState<string | null>(null);
+  const [categoryChosen, setCategoryChosen] = useState(false);
+  const [chapterId, setChapterId] = useState<string | null>(null);
+  const [level, setLevel] = useState<PracticeLevel | null>(null);
+  const [questionCount, setQuestionCount] = useState<QuestionCount | null>(null);
+  const [availableCount, setAvailableCount] = useState<number | null>(null);
+  const [availableCounts, setAvailableCounts] = useState<QuestionCount[]>([]);
+  const [chaptersLoaded, setChaptersLoaded] = useState(false);
   const [chaptersError, setChaptersError] = useState("");
-  const [availabilityError, setAvailabilityError] = useState("");
-  const [reload, setReload] = useState({ exams: 0, subjects: 0, subcategories: 0, chapters: 0, availability: 0 });
+  const [subcategoriesError, setSubcategoriesError] = useState("");
+  const [loading, setLoading] = useState({ exams: true, subjects: false, subcategories: false, chapters: false, availability: false, count: false, start: false });
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    if (!token) {
-      setExamsError("Your session has expired. Please sign in again.");
-      setExamsLoading(false);
-      return;
-    }
-
+    if (!token) { setError("Your session has expired. Please sign in again."); setLoading(v => ({ ...v, exams: false })); return; }
     let current = true;
-    setExamsLoading(true);
-    setExamsError("");
-    getActiveExams(token)
-      .then((items) => {
-        if (current) setExams(items);
-      })
-      .catch((error: unknown) => {
-        if (current) setExamsError(errorMessage(error));
-      })
-      .finally(() => {
-        if (current) setExamsLoading(false);
-      });
-
-    return () => {
-      current = false;
-    };
-  }, [token, reload.exams]);
+    getActiveExams(token).then(setExams).catch(e => current && setError(errorMessage(e))).finally(() => current && setLoading(v => ({ ...v, exams: false })));
+    return () => { current = false; };
+  }, [token]);
 
   useEffect(() => {
-    if (!token || !selectedExamId) return;
+    if (!token || !examId) return;
     let current = true;
-    setSubjects([]);
-    setSubjectsError("");
-    setSubjectsLoading(true);
-    getExamSubjects(token, selectedExamId)
-      .then((items) => {
-        if (current) setSubjects(items);
-      })
-      .catch((error: unknown) => {
-        if (current) setSubjectsError(errorMessage(error));
-      })
-      .finally(() => {
-        if (current) setSubjectsLoading(false);
-      });
-    return () => {
-      current = false;
-    };
-  }, [token, selectedExamId, reload.subjects]);
+    setLoading(v => ({ ...v, subjects: true }));
+    getExamSubjects(token, examId).then(items => current && setSubjects(items)).catch(e => current && setError(errorMessage(e))).finally(() => current && setLoading(v => ({ ...v, subjects: false })));
+    return () => { current = false; };
+  }, [token, examId]);
 
   useEffect(() => {
-    if (!token || !selectedSubjectId) return;
+    if (!token || !subjectId) return;
     let current = true;
     setSubcategories([]);
     setSubcategoriesError("");
-    setSubcategoriesLoading(true);
-    getSubjectSubcategories(token, selectedSubjectId)
-      .then((items) => {
-        if (!current) return;
-        setSubcategories(items);
-        if (items.length === 0 && step === 2) setStep(3);
-      })
-      .catch((error: unknown) => { if (current) setSubcategoriesError(errorMessage(error)); })
-      .finally(() => { if (current) setSubcategoriesLoading(false); });
+    setLoading(v => ({ ...v, subcategories: true }));
+    getSubjectSubcategories(token, subjectId).then(items => current && setSubcategories(items)).catch(e => current && setSubcategoriesError(errorMessage(e))).finally(() => current && setLoading(v => ({ ...v, subcategories: false })));
     return () => { current = false; };
-  }, [token, selectedSubjectId, reload.subcategories]);
+  }, [token, subjectId]);
 
   useEffect(() => {
-    if (!token || !selectedSubjectId) return;
+    if (!token || !subjectId || testType !== "CHAPTER_WISE" || step !== 4) return;
     let current = true;
     setChapters([]);
+    setChaptersLoaded(false);
     setChaptersError("");
-    setChaptersLoading(true);
-    getSubjectChapters(token, selectedSubjectId, selectedSubcategoryId ?? undefined)
-      .then((items) => {
-        if (current) setChapters(items);
-      })
-      .catch((error: unknown) => {
-        if (current) setChaptersError(errorMessage(error));
-      })
-      .finally(() => {
-        if (current) setChaptersLoading(false);
-      });
-    return () => {
-      current = false;
-    };
-  }, [token, selectedSubjectId, selectedSubcategoryId, reload.chapters]);
+    setLoading(v => ({ ...v, chapters: true }));
+    getSubjectChapters(token, subjectId, subcategoryId ?? undefined).then(items => {
+      if (!current) return;
+      setChapters(items);
+      setChaptersLoaded(true);
+    }).catch(e => {
+      if (current) setChaptersError(errorMessage(e));
+    }).finally(() => current && setLoading(v => ({ ...v, chapters: false })));
+    return () => { current = false; };
+  }, [token, subjectId, testType, subcategoryId, step]);
+
+  const selectedExam = exams.find(item => item.id === examId);
+  const selectedSubject = subjects.find(item => item.id === subjectId);
+  const selectedChapter = chapters.find(item => item.id === chapterId);
+  const selectedSubcategory = subcategories.find(item => item.id === subcategoryId);
+  const needsDifficulty = selectedSubject?.slug === "maths" || selectedSubject?.slug === "reasoning";
+
+  function selection(count?: number): Omit<TestSelection, "question_count"> & { question_count?: number } {
+    return { exam_id: examId!, subject_id: subjectId!, test_type: testType!, subcategory_id: testType === "CHAPTER_WISE" ? subcategoryId : null, chapter_id: testType === "CHAPTER_WISE" ? chapterId : null, difficulty: level, ...(count === undefined ? {} : { question_count: count }) };
+  }
 
   useEffect(() => {
-    if (!token || !selectedChapterId || !selectedLevel || step !== 5) return;
+    if (step !== 6 || !token || !examId || !subjectId || !testType || (testType === "CHAPTER_WISE" && !chapterId)) return;
     let current = true;
-    setAvailability(null);
-    setAvailabilityError("");
-    setAvailabilityLoading(true);
-    getChapterAvailability(token, selectedChapterId, selectedLevel)
-      .then((result) => {
-        if (current) setAvailability(result);
-      })
-      .catch((error: unknown) => {
-        if (current) setAvailabilityError(errorMessage(error));
-      })
-      .finally(() => {
-        if (current) setAvailabilityLoading(false);
-      });
-    return () => {
-      current = false;
-    };
-  }, [token, selectedChapterId, selectedLevel, step, reload.availability]);
+    setLoading(value => ({ ...value, availability: true }));
+    setAvailableCount(null);
+    setAvailableCounts([]);
+    setError("");
+    getTestAvailability(token, {
+      exam_id: examId,
+      subject_id: subjectId,
+      test_type: testType,
+      subcategory_id: testType === "CHAPTER_WISE" ? subcategoryId : null,
+      chapter_id: testType === "CHAPTER_WISE" ? chapterId : null,
+      difficulty: level,
+    }).then(result => {
+      if (!current) return;
+      setAvailableCount(result.available_question_count);
+      setAvailableCounts(result.allowed_question_counts);
+    }).catch(error => {
+      if (current) setError(errorMessage(error));
+    }).finally(() => current && setLoading(value => ({ ...value, availability: false })));
+    return () => { current = false; };
+  }, [step, token, examId, subjectId, testType, chapterId, subcategoryId, level]);
 
-  const selectedExam = exams.find((exam) => exam.id === selectedExamId);
-  const selectedSubject = subjects.find((subject) => subject.id === selectedSubjectId);
-  const selectedSubcategory = subcategories.find((subcategory) => subcategory.id === selectedSubcategoryId);
-  const selectedChapter = chapters.find((chapter) => chapter.id === selectedChapterId);
-  const selectedLevelInfo = LEVELS.find((level) => level.id === selectedLevel);
-
-  function chooseExam(exam: CatalogExam) {
-    setSelectedExamId(exam.id);
-    setSelectedSubjectId(null);
-    setSelectedSubcategoryId(null);
-    setSelectedChapterId(null);
-    setSelectedLevel(null);
-    setSelectedQuestionCount(null);
-    setAvailability(null);
-    setStep(1);
+  function chooseExam(item: CatalogExam) {
+    setExamId(item.id); setSubjectId(null); setTestType(null); setChapterId(null); setSubcategoryId(null); setLevel(null); setQuestionCount(null); setError(""); setStep(1);
   }
-
-  function chooseSubject(subject: CatalogSubject) {
-    setSelectedSubjectId(subject.id);
-    setSelectedSubcategoryId(null);
-    setSelectedChapterId(null);
-    setSelectedLevel(null);
-    setSelectedQuestionCount(null);
-    setAvailability(null);
-    setStep(2);
+  function chooseSubject(item: CatalogSubject) {
+    setSubjectId(item.id); setTestType(null); setChapterId(null); setSubcategoryId(null); setCategoryChosen(false); setLevel(null); setQuestionCount(null); setError(""); setStep(2);
   }
-
-  function chooseSubcategory(subcategory: CatalogSubcategory) {
-    setSelectedSubcategoryId(subcategory.id);
-    setSelectedChapterId(null);
-    setSelectedLevel(null);
-    setSelectedQuestionCount(null);
-    setAvailability(null);
-    setStep(3);
+  function continueFromType() {
+    if (!testType) return;
+    setError(""); setLevel(null); setQuestionCount(null);
+    setStep(testType === "CHAPTER_WISE" ? 3 : needsDifficulty ? 5 : 6);
   }
-
-  function chooseChapter(chapter: CatalogChapter) {
-    setSelectedChapterId(chapter.id);
-    setSelectedLevel(null);
-    setSelectedQuestionCount(null);
-    setAvailability(null);
+  function chooseChapter(item: CatalogChapter) {
+    setChapterId(item.id); setLevel(null); setQuestionCount(null); setAvailableCount(null); setAvailableCounts([]); setError(""); setStep(needsDifficulty ? 5 : 6);
+  }
+  function chooseCategory(id: string | null) {
+    setSubcategoryId(id);
+    setCategoryChosen(true);
+    setChapterId(null);
+    setChapters([]);
+    setChaptersLoaded(false);
+    setChaptersError("");
+    setLoading(v => ({ ...v, chapters: true }));
     setStep(4);
   }
-
-  function chooseLevel(level: PracticeLevel) {
-    setSelectedLevel(level);
-    setSelectedQuestionCount(null);
-    setAvailability(null);
-    setAvailabilityError("");
-    setStep(5);
+  function chooseLevel(item: PracticeLevel) {
+    setLevel(item); setError(""); setQuestionCount(null); setAvailableCount(null); setAvailableCounts([]); setStep(6);
   }
-
-  async function chooseQuestionCount(count: QuestionCount) {
-    if (!token || !selectedChapterId || !selectedLevel) return;
-    setCountValidationLoading(true);
-    setAvailabilityError("");
+  async function chooseCount(count: QuestionCount) {
+    if (!token || !examId || !subjectId || !testType || (testType === "CHAPTER_WISE" && !chapterId)) return;
+    setLoading(v => ({ ...v, count: true })); setError("");
     try {
-      const result = await getChapterAvailability(
-        token,
-        selectedChapterId,
-        selectedLevel,
-        count,
-      );
-      setAvailability(result);
+      const result = await getTestAvailability(token, selection(count));
+      setAvailableCount(result.available_question_count);
       if (!result.can_satisfy_request) {
-        setAvailabilityError(
-          `There are only ${result.available_question_count} active questions for this selection. Choose a smaller count or another level.`,
-        );
+        setError(`Only ${result.available_question_count} eligible questions are available for this selection. Choose another option or a smaller question count.`);
         return;
       }
-      setSelectedQuestionCount(count);
-      setStep(6);
-    } catch (error) {
-      setAvailabilityError(errorMessage(error));
-    } finally {
-      setCountValidationLoading(false);
-    }
+      setQuestionCount(count); setStep(7);
+    } catch (e) { setError(errorMessage(e)); }
+    finally { setLoading(v => ({ ...v, count: false })); }
   }
-
-  const durationSeconds = selectedQuestionCount
-    ? selectedQuestionCount * SECONDS_PER_QUESTION
-    : 0;
-  const durationMinutes = durationSeconds / 60;
-
   async function startTest() {
-    if (!token || !selectedExamId || !selectedSubjectId || !selectedChapterId || !selectedLevel || !selectedQuestionCount) return;
-    setStartLoading(true);
-    setStartError("");
-    try {
-      const attempt = await createTest(token, {
-        exam_id: selectedExamId,
-        subject_id: selectedSubjectId,
-        subcategory_id: selectedSubcategoryId,
-        chapter_id: selectedChapterId,
-        difficulty: selectedLevel,
-        question_count: selectedQuestionCount,
-      });
-      navigate(`/tests/${attempt.id}`);
-    } catch (error) {
-      setStartError(errorMessage(error));
-    } finally {
-      setStartLoading(false);
-    }
+    if (!token || !examId || !subjectId || !testType || !questionCount || (testType === "CHAPTER_WISE" && !chapterId)) return;
+    setLoading(v => ({ ...v, start: true })); setError("");
+    try { const attempt = await createTest(token, { ...selection(questionCount), question_count: questionCount }); navigate(`/tests/${attempt.id}`); }
+    catch (e) { setError(errorMessage(e)); }
+    finally { setLoading(v => ({ ...v, start: false })); }
   }
 
-  return (
-    <div
-      className="mx-auto max-w-4xl bg-[#F8F9FA] text-[#2D3436]"
-      style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}
-    >
-      <div className="rounded-lg border border-[#2D3436]/10 bg-white p-5 shadow-sm sm:p-8">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-[#007BFF]">
-              SSC Practice
-            </p>
-            <h1 className="mt-1 text-2xl font-bold sm:text-3xl">
-              Set up your practice
-            </h1>
-            <p className="mt-2 text-sm text-[#2D3436]/70">
-              Choose a subject, chapter, level, and question count.
-            </p>
-          </div>
-          <Link to="/dashboard" className={secondaryButtonClass}>
-            Back to Dashboard
-          </Link>
-        </div>
+  function back() {
+    if (step === 7) setStep(6);
+    else if (step === 6) setStep(needsDifficulty ? 5 : testType === "CHAPTER_WISE" ? 4 : 2);
+    else if (step === 5) setStep(testType === "CHAPTER_WISE" ? 4 : 2);
+    else if (step === 4) setStep(3);
+    else if (step === 3) setStep(2);
+    else if (step > 0) setStep(step - 1);
+    setError("");
+  }
 
-        <ol
-          aria-label="Practice setup progress"
-          className="mt-7 grid grid-cols-3 gap-2 sm:grid-cols-6"
-        >
-          {STEPS.filter((label) => label !== "Category" || subcategories.length > 0 || step === 2).map((label, visibleIndex) => {
-            const index = STEPS.indexOf(label);
-            const activeIndex = step;
-            return (
-            <li
-              key={label}
-              aria-current={activeIndex === index ? "step" : undefined}
-              className={`rounded-md px-2 py-2 text-center text-xs font-semibold sm:text-sm ${
-                activeIndex === index
-                  ? "bg-[#007BFF] text-white"
-                  : index < activeIndex
-                    ? "bg-[#28C76F]/15 text-[#197a45]"
-                    : "bg-[#F8F9FA] text-[#2D3436]/55"
-              }`}
-            >
-              <span className="mr-1">{visibleIndex + 1}.</span>{label}
-            </li>
-          );})}
-        </ol>
+  const steps: Array<{ step: number; label: string }> = [
+    { step: 0, label: "Exam" }, { step: 1, label: "Subject" }, { step: 2, label: "Test type" },
+    ...(testType === "CHAPTER_WISE" ? [{ step: 3, label: "Category" }, { step: 4, label: "Chapter" }] : []),
+    ...(needsDifficulty && testType ? [{ step: 5, label: "Difficulty" }] : []),
+    { step: 6, label: "Questions" }, { step: 7, label: "Summary" },
+  ];
+  const activeProgress = steps.findIndex(item => item.step === step);
+  const durationSeconds = (questionCount ?? 0) * SECONDS_PER_QUESTION;
 
-        <div className="mt-8" aria-live="polite">
-          {step > 0 && step < 6 && (
-            <button
-              type="button"
-              onClick={() => setStep((current) => current === 3 && subcategories.length === 0 ? 1 : current === 2 && subcategories.length === 0 ? 1 : Math.max(0, current - 1))}
-              className={`${secondaryButtonClass} mb-5`}
-            >
-              ← Back
-            </button>
-          )}
-
-          {step === 0 && (
-            <section aria-labelledby="exam-step-heading">
-              <h2 id="exam-step-heading" className="text-xl font-bold">
-                Choose an exam
-              </h2>
-              {examsLoading ? (
-                <p className="mt-4 text-sm text-[#2D3436]/70">Loading active exams…</p>
-              ) : examsError ? (
-                <div role="alert" className="mt-4 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">
-                  <p>{examsError} Check that the API is running and you are signed in.</p>
-                  <button type="button" onClick={() => setReload((value) => ({ ...value, exams: value.exams + 1 }))} className="mt-3 font-semibold underline">Retry</button>
-                </div>
-              ) : (
-                <>
-                  {!exams.some((exam) => exam.slug === "ssc") && (
-                    <p role="status" className="mt-4 rounded-md bg-[#FF6B35]/10 p-4 text-sm text-[#8d3b17]">
-                      SSC is not active in the catalog yet. Run the backend seed script to enable SSC and configure its subjects.
-                    </p>
-                  )}
-                  <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                    {exams.map((exam) => (
-                      <button
-                        key={exam.id}
-                        type="button"
-                        onClick={() => chooseExam(exam)}
-                        className={`${cardClass} border-l-4 border-l-[#007BFF]`}
-                      >
-                        <span className="text-lg font-bold">{exam.name}</span>
-                        {exam.description && (
-                          <span className="mt-1 block text-sm text-[#2D3436]/70">
-                            {exam.description}
-                          </span>
-                        )}
-                        <span className="mt-3 block text-sm font-semibold text-[#007BFF]">
-                          Select exam →
-                        </span>
-                      </button>
-                    ))}
-                    {UNAVAILABLE_EXAMS.map((name) => (
-                      <div
-                        key={name}
-                        aria-disabled="true"
-                        className="rounded-lg border border-dashed border-[#2D3436]/20 bg-[#F8F9FA] p-5 text-[#2D3436]/55"
-                      >
-                        <span className="font-semibold">{name}</span>
-                        <span className="ml-2 text-xs font-semibold text-[#FF6B35]">
-                          Unavailable
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </>
-              )}
-            </section>
-          )}
-
-          {step === 1 && (
-            <section aria-labelledby="subject-step-heading">
-              <h2 id="subject-step-heading" className="text-xl font-bold">
-                Choose a subject
-              </h2>
-              <p className="mt-1 text-sm text-[#2D3436]/65">{selectedExam?.name}</p>
-              {subjectsLoading ? (
-                <p className="mt-4 text-sm text-[#2D3436]/70">Loading subjects…</p>
-              ) : subjectsError ? (
-                <div role="alert" className="mt-4 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">
-                  <p>{subjectsError}</p>
-                  <button type="button" onClick={() => setReload((value) => ({ ...value, subjects: value.subjects + 1 }))} className="mt-3 font-semibold underline">Retry</button>
-                </div>
-              ) : subjects.length === 0 ? (
-                <p className="mt-4 rounded-md bg-[#FF6B35]/10 p-4 text-sm text-[#8d3b17]">
-                  No active subjects are configured for this exam. Run the backend seed script to add the SSC subjects.
-                </p>
-              ) : (
-                <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {subjects.map((subject) => (
-                    <button key={subject.id} type="button" onClick={() => chooseSubject(subject)} className={cardClass}>
-                      <span className="text-lg font-bold">{subject.name}</span>
-                      {subject.description && <span className="mt-1 block text-sm text-[#2D3436]/70">{subject.description}</span>}
-                      <span className="mt-3 block text-sm font-semibold text-[#007BFF]">Choose subject →</span>
-                    </button>
-                  ))}
-                </div>
-              )}
-            </section>
-          )}
-
-          {step === 2 && (
-            <section aria-labelledby="category-step-heading">
-              <h2 id="category-step-heading" className="text-xl font-bold">Choose a category</h2>
-              <p className="mt-1 text-sm text-[#2D3436]/65">{selectedSubject?.name}</p>
-              {subcategoriesLoading ? <p className="mt-4 text-sm">Loading categories…</p> : subcategoriesError ? <div role="alert" className="mt-4 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">{subcategoriesError}<button type="button" onClick={() => setReload((v) => ({ ...v, subcategories: v.subcategories + 1 }))} className="ml-2 underline">Retry</button></div> : <div className="mt-4 grid gap-3 sm:grid-cols-2">{subcategories.map((subcategory) => <button key={subcategory.id} type="button" onClick={() => chooseSubcategory(subcategory)} className={cardClass}><span className="text-lg font-bold">{subcategory.name}</span><span className="mt-3 block text-sm font-semibold text-[#007BFF]">Choose category →</span></button>)}</div>}
-            </section>
-          )}
-
-          {step === 3 && (
-            <section aria-labelledby="chapter-step-heading">
-              <h2 id="chapter-step-heading" className="text-xl font-bold">Choose a chapter</h2>
-              <p className="mt-1 text-sm text-[#2D3436]/65">{selectedSubject?.name}{selectedSubcategory ? ` · ${selectedSubcategory.name}` : ""}</p>
-              {chaptersLoading ? (
-                <p className="mt-4 text-sm text-[#2D3436]/70">Loading chapters…</p>
-              ) : chaptersError ? (
-                <div role="alert" className="mt-4 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">
-                  <p>{chaptersError}</p>
-                  <button type="button" onClick={() => setReload((value) => ({ ...value, chapters: value.chapters + 1 }))} className="mt-3 font-semibold underline">Retry</button>
-                </div>
-              ) : chapters.length === 0 ? (
-                <div className="mt-4 rounded-md border border-[#FF6B35]/30 bg-[#FF6B35]/10 p-4 text-sm text-[#713112]">
-                  <p className="font-semibold">No chapters are available yet.</p>
-                  <p className="mt-1">Chapters need to be populated for this subject before practice can be set up. No sample chapters or questions have been added.</p>
-                </div>
-              ) : (
-                <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                  {chapters.map((chapter) => (
-                    <button key={chapter.id} type="button" onClick={() => chooseChapter(chapter)} className={cardClass}>
-                      <span className="text-lg font-bold">{chapter.name}</span>
-                      {chapter.description && <span className="mt-1 block text-sm text-[#2D3436]/70">{chapter.description}</span>}
-                      <span className="mt-3 block text-sm font-semibold text-[#007BFF]">Choose chapter →</span>
-                    </button>
-                  ))}
-                </div>
-              )}
-            </section>
-          )}
-
-          {step === 4 && (
-            <section aria-labelledby="level-step-heading">
-              <h2 id="level-step-heading" className="text-xl font-bold">Choose a level</h2>
-              <p className="mt-1 text-sm text-[#2D3436]/65">{selectedChapter?.name}</p>
-              <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                {LEVELS.map((level) => (
-                  <button key={level.id} type="button" onClick={() => chooseLevel(level.id)} className={cardClass}>
-                    <span className="text-lg font-bold">{level.title}</span>
-                    <span className="mt-1 block text-sm text-[#2D3436]/70">{level.description}</span>
-                    {level.id === "PYQ" && <span className="mt-2 inline-block rounded-full bg-[#FF6B35]/10 px-2.5 py-1 text-xs font-semibold text-[#a7471a]">Filtered as previous-year questions</span>}
-                  </button>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {step === 5 && (
-            <section aria-labelledby="count-step-heading">
-              <h2 id="count-step-heading" className="text-xl font-bold">Choose question count</h2>
-              <p className="mt-1 text-sm text-[#2D3436]/65">
-                {selectedLevelInfo?.title} · 36 seconds per question
-              </p>
-              {availabilityLoading ? (
-                <p className="mt-4 text-sm text-[#2D3436]/70">Checking active questions…</p>
-              ) : availabilityError && !availability ? (
-                <div role="alert" className="mt-4 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">
-                  <p>{availabilityError}</p>
-                  <button type="button" onClick={() => setReload((value) => ({ ...value, availability: value.availability + 1 }))} className="mt-3 font-semibold underline">Retry</button>
-                </div>
-              ) : availability && availability.allowed_question_counts.length === 0 ? (
-                <div role="status" className="mt-4 rounded-md bg-[#FF6B35]/10 p-4 text-sm text-[#713112]">
-                  <p className="font-semibold">There are not enough active questions for this selection.</p>
-                  <p className="mt-1">Found {availability.available_question_count}; at least 10 are needed. Try another level or ask an administrator to populate this chapter’s question bank.</p>
-                </div>
-              ) : availability ? (
-                <>
-                  <p className="mt-4 text-sm text-[#2D3436]/70">
-                    {availability.available_question_count} active question{availability.available_question_count === 1 ? "" : "s"} available for this level.
-                  </p>
-                  <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                    {QUESTION_COUNTS.map((count) => {
-                      const enabled = availability.allowed_question_counts.includes(count);
-                      return (
-                        <button
-                          key={count}
-                          type="button"
-                          disabled={!enabled || countValidationLoading}
-                          onClick={() => void chooseQuestionCount(count)}
-                          className={`rounded-lg border p-4 text-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] disabled:cursor-not-allowed disabled:opacity-45 ${enabled ? "border-[#007BFF]/40 bg-white hover:border-[#007BFF] hover:shadow-sm" : "border-[#2D3436]/10 bg-[#F8F9FA]"}`}
-                        >
-                          <span className="block text-2xl font-bold">{count}</span>
-                          <span className="mt-1 block text-sm text-[#2D3436]/70">{(count * SECONDS_PER_QUESTION) / 60} minutes</span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                  {countValidationLoading && <p className="mt-3 text-sm text-[#2D3436]/70">Rechecking availability…</p>}
-                  {availabilityError && <p role="alert" className="mt-3 rounded-md bg-[#EA5455]/10 p-3 text-sm text-[#a72f38]">{availabilityError}</p>}
-                </>
-              ) : null}
-            </section>
-          )}
-
-          {step === 6 && (
-            <section aria-labelledby="summary-step-heading">
-              <h2 id="summary-step-heading" className="text-xl font-bold">Review your selection</h2>
-              <dl className="mt-4 grid gap-3 sm:grid-cols-2">
-                {[
-                  ["Exam", selectedExam?.name],
-                  ["Subject", selectedSubject?.name],
-                  ...(selectedSubcategory ? [["Category", selectedSubcategory.name] as [string, string]] : []),
-                  ["Chapter", selectedChapter?.name],
-                  ["Level", selectedLevelInfo?.title],
-                  ["Question count", selectedQuestionCount ? `${selectedQuestionCount} questions` : undefined],
-                  ["Duration", `${durationMinutes} minutes (${durationSeconds} seconds)`],
-                ].map(([label, value]) => (
-                  <div key={label} className="rounded-md bg-[#F8F9FA] p-4">
-                    <dt className="text-xs font-semibold uppercase tracking-wide text-[#2D3436]/60">{label}</dt>
-                    <dd className="mt-1 font-semibold">{value}</dd>
-                  </div>
-                ))}
-              </dl>
-              {startError && <p role="alert" className="mt-5 rounded-md bg-[#EA5455]/10 p-4 text-sm text-[#a72f38]">{startError}</p>}
-              <div className="mt-5 flex flex-col gap-3 sm:flex-row">
-                <button type="button" onClick={() => setStep(5)} className={secondaryButtonClass}>← Change question count</button>
-                <button type="button" disabled={startLoading} onClick={() => void startTest()} className={primaryButtonClass}>
-                  {startLoading ? "Creating test…" : "Start Test"}
-                </button>
-              </div>
-            </section>
-          )}
-        </div>
+  return <main className="mx-auto max-w-4xl bg-[#F8F9FA] text-[#2D3436]" style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}>
+    <div className="rounded-lg border border-[#2D3436]/10 bg-white p-5 shadow-sm sm:p-8">
+      <header className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div><p className="text-sm font-semibold uppercase tracking-wide text-[#007BFF]">SSC Practice</p><h1 className="mt-1 text-2xl font-bold sm:text-3xl">Set up your practice</h1><p className="mt-2 text-sm text-[#2D3436]/70">Choose a subject, test type, and question count.</p></div>
+        <Link to="/dashboard" className={secondaryButtonClass}>Back to Dashboard</Link>
+      </header>
+      <ol aria-label="Practice setup progress" className="mt-7 grid grid-cols-3 gap-2 sm:grid-cols-4 lg:grid-cols-8">{steps.map(({ label }, index) => <li key={label} aria-current={activeProgress === index ? "step" : undefined} className={`rounded-md px-2 py-2 text-center text-xs font-semibold sm:text-sm ${activeProgress === index ? "bg-[#007BFF] text-white" : index < activeProgress ? "bg-[#28C76F]/15 text-[#197a45]" : "bg-[#F8F9FA] text-[#2D3436]/55"}`}><span className="mr-1">{index + 1}.</span>{label}</li>)}</ol>
+      <div className="mt-8" aria-live="polite">
+        {step > 0 && step < 7 && <button type="button" onClick={back} className={`${secondaryButtonClass} mb-5`}>{step === 4 ? "← Back to categories" : "← Back"}</button>}
+        {error && (step === 1 || step === 3) && <p role="alert" className="mb-5 rounded-md bg-red-50 p-4 text-sm text-red-800">{error}</p>}
+        {step === 0 && <section aria-labelledby="exam-heading"><h2 id="exam-heading" className="text-xl font-bold">Choose an exam</h2>{loading.exams ? <p role="status" className="mt-4">Loading active exams…</p> : error ? <p role="alert" className="mt-4 text-red-700">{error}</p> : <div className="mt-4 grid gap-3 sm:grid-cols-2">{exams.map(item => <button key={item.id} type="button" onClick={() => chooseExam(item)} className={cardClass}><span className="text-lg font-bold">{item.name}</span>{item.description && <span className="mt-1 block text-sm text-[#2D3436]/70">{item.description}</span>}</button>)}{UNAVAILABLE_EXAMS.map(name => <div key={name} aria-disabled="true" className="rounded-lg border border-dashed p-5 text-[#2D3436]/55">{name} · Unavailable</div>)}</div>}</section>}
+        {step === 1 && <section aria-labelledby="subject-heading"><h2 id="subject-heading" className="text-xl font-bold">Choose a subject</h2><p className="mt-1 text-sm text-gray-600">{selectedExam?.name}</p>{loading.subjects ? <p role="status" className="mt-4">Loading subjects…</p> : <div className="mt-4 grid gap-3 sm:grid-cols-2">{subjects.map(item => <button key={item.id} type="button" onClick={() => chooseSubject(item)} className={cardClass}><span className="text-lg font-bold">{item.name}</span>{item.description && <span className="mt-1 block text-sm text-gray-600">{item.description}</span>}</button>)}</div>}</section>}
+        {step === 2 && <section aria-labelledby="type-heading"><h2 id="type-heading" className="text-xl font-bold">Choose a test type</h2><p className="mt-1 text-sm text-gray-600">{selectedSubject?.name}</p><div className="mt-4 grid gap-3 sm:grid-cols-2">{(["CHAPTER_WISE", "MISCELLANEOUS"] as const).map(type => { const selected = testType === type; return <button key={type} type="button" aria-pressed={selected} onClick={() => setTestType(type)} className={`${cardClass} ${selected ? "border-[#007BFF] bg-blue-50 ring-2 ring-[#007BFF]/30" : ""}`}><span className="text-lg font-bold">{type === "CHAPTER_WISE" ? "Chapter-wise Test" : "Miscellaneous Test"}</span><span className="mt-2 block text-sm text-[#2D3436]/70">{type === "CHAPTER_WISE" ? "Practice questions from one selected chapter." : "Practice questions randomly drawn across this subject’s chapters."}</span><span className="mt-3 block text-sm font-semibold text-[#007BFF]">{selected ? "Selected" : "Select test type"}</span></button>; })}</div><button type="button" disabled={!testType} onClick={continueFromType} className={`${primaryButtonClass} mt-5`}>Continue</button></section>}
+        {step === 3 && testType === "CHAPTER_WISE" && <section aria-labelledby="category-heading"><h2 id="category-heading" className="text-xl font-bold">Choose a category</h2><p className="mt-1 text-sm text-gray-600">{selectedSubject?.name}</p><nav aria-label={`${selectedSubject?.name ?? "Subject"} categories`} className="mt-4 max-w-lg"><div className="flex flex-col gap-2"><button type="button" aria-pressed={categoryChosen && subcategoryId === null} onClick={() => chooseCategory(null)} className={`${secondaryButtonClass} w-full justify-start text-left ${categoryChosen && subcategoryId === null ? "border-[#007BFF] bg-blue-50 text-[#007BFF]" : ""}`}>All categories</button>{subcategories.map(item => <button key={item.id} type="button" aria-pressed={categoryChosen && subcategoryId === item.id} onClick={() => chooseCategory(item.id)} className={`${secondaryButtonClass} w-full justify-start text-left ${categoryChosen && subcategoryId === item.id ? "border-[#007BFF] bg-blue-50 text-[#007BFF]" : ""}`}>{item.name}</button>)}</div>{loading.subcategories && <p role="status" className="mt-3 text-sm text-gray-600">Loading categories…</p>}{subcategoriesError && <p role="alert" className="mt-3 rounded-md bg-red-50 p-3 text-sm text-red-800">Unable to load categories: {subcategoriesError}</p>}{!loading.subcategories && !subcategoriesError && subcategories.length === 0 && <p className="mt-3 text-sm text-gray-600">No categories are configured for this subject. Choose All categories to browse its chapters.</p>}</nav></section>}
+        {step === 4 && testType === "CHAPTER_WISE" && <section aria-labelledby="chapter-heading"><h2 id="chapter-heading" className="text-xl font-bold">Choose a chapter</h2><p className="mt-1 text-sm text-gray-600">{selectedSubject?.name}{categoryChosen ? ` · ${selectedSubcategory?.name ?? "All categories"}` : ""}</p><div aria-live="polite" className="mt-4">{loading.chapters || (!chaptersLoaded && !chaptersError) ? <p role="status" className="text-sm text-gray-600">Loading chapters…</p> : chaptersError ? <p role="alert" className="rounded-md bg-red-50 p-4 text-sm text-red-800">Unable to load chapters: {chaptersError}</p> : chapters.length ? <div className="grid gap-3 sm:grid-cols-2">{chapters.map(item => <button key={item.id} type="button" onClick={() => chooseChapter(item)} className={cardClass}><span className="text-lg font-bold">{item.name}</span>{item.description && <span className="mt-1 block text-sm text-gray-600">{item.description}</span>}</button>)}</div> : <p role="status" className="rounded-md bg-orange-50 p-4 text-sm">No chapters are available for the selected category.</p>}</div></section>}
+        {step === 5 && needsDifficulty && <section aria-labelledby="level-heading"><h2 id="level-heading" className="text-xl font-bold">{level === "PYQ" ? "Previous year questions" : "Choose a difficulty"}</h2><p className="mt-1 text-sm text-gray-600">{selectedSubject?.name}{selectedChapter ? ` · ${selectedChapter.name}` : " · all eligible chapters"}</p><div className="mt-4 grid gap-3 sm:grid-cols-2">{LEVELS.map(item => { const selected = level === item.id; return <button key={item.id} type="button" aria-pressed={selected} onClick={() => chooseLevel(item.id)} className={`${cardClass} ${selected ? "border-[#007BFF] bg-blue-50 ring-2 ring-[#007BFF]/30" : ""}`}><span className="text-lg font-bold">{item.title}</span><span className="mt-1 block text-sm text-gray-600">{item.description}</span>{item.id === "PYQ" && <span className="mt-2 inline-block rounded-full bg-orange-50 px-2.5 py-1 text-xs font-semibold text-orange-800">Filtered independently from difficulty</span>}</button>; })}</div></section>}
+        {step === 6 && <section aria-labelledby="count-heading"><h2 id="count-heading" className="text-xl font-bold">Choose question count</h2><p className="mt-1 text-sm text-gray-600">{level ? LEVELS.find(item => item.id === level)?.title : "All difficulty levels"} · 36 seconds per question</p>{!needsDifficulty && <fieldset className="mt-4"><legend className="text-sm font-semibold">Question set</legend><div className="mt-2 flex flex-wrap gap-2"><button type="button" aria-pressed={!level} onClick={() => { setLevel(null); setAvailableCount(null); setAvailableCounts([]); }} className={`${secondaryButtonClass} ${!level ? "border-[#007BFF] text-[#007BFF]" : ""}`}>Standard questions</button><button type="button" aria-pressed={level === "PYQ"} onClick={() => { setLevel("PYQ"); setAvailableCount(null); setAvailableCounts([]); }} className={`${secondaryButtonClass} ${level === "PYQ" ? "border-[#007BFF] text-[#007BFF]" : ""}`}>Previous Year Questions (PYQ)</button></div></fieldset>}{loading.availability ? <p role="status" className="mt-4 text-sm">Checking eligible questions…</p> : availableCount !== null && <p className="mt-4 text-sm text-gray-600">{availableCount} eligible active questions available.</p>}{!loading.availability && availableCounts.length === 0 && availableCount === 0 && <p role="status" className="mt-4 rounded-md bg-orange-50 p-4 text-sm text-orange-900">No eligible verified questions are available for this selection yet. More verified questions are needed before a test can start.</p>}<div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">{availableCounts.map(count => <button key={count} type="button" disabled={loading.count || loading.availability} onClick={() => void chooseCount(count)} className={`${cardClass} text-center disabled:opacity-50`}><span className="block text-2xl font-bold">{count}</span><span className="mt-1 block text-sm text-gray-600">{count * SECONDS_PER_QUESTION / 60} minutes</span></button>)}</div>{loading.count && <p role="status" className="mt-3 text-sm">Confirming question availability…</p>}{error && <p role="alert" className="mt-3 rounded-md bg-red-50 p-3 text-sm text-red-800">{error}</p>}</section>}
+        {step === 7 && <section aria-labelledby="summary-heading"><h2 id="summary-heading" className="text-xl font-bold">Review your selection</h2><dl className="mt-4 grid gap-3 sm:grid-cols-2">{[["Exam", selectedExam?.name], ["Subject", selectedSubject?.name], ["Test type", testType === "CHAPTER_WISE" ? "Chapter-wise" : "Miscellaneous"], ...(selectedSubcategory && testType === "CHAPTER_WISE" ? [["Category", selectedSubcategory.name] as [string, string]] : []), ...(selectedChapter ? [["Chapter", selectedChapter.name] as [string, string]] : []), ["Question set", level ? LEVELS.find(item => item.id === level)?.title : needsDifficulty ? "" : "Standard questions"], ["Question count", questionCount ? `${questionCount} questions` : ""], ["Duration", `${durationSeconds / 60} minutes (${durationSeconds} seconds)`]].map(([label, value]) => <div key={label} className="rounded-md bg-[#F8F9FA] p-4"><dt className="text-xs font-semibold uppercase tracking-wide text-gray-500">{label}</dt><dd className="mt-1 font-semibold">{value}</dd></div>)}</dl>{error && <p role="alert" className="mt-4 rounded-md bg-red-50 p-4 text-sm text-red-800">{error}</p>}<div className="mt-5 flex flex-col gap-3 sm:flex-row"><button type="button" onClick={() => setStep(6)} className={secondaryButtonClass}>← Change question count</button><button type="button" disabled={loading.start} onClick={() => void startTest()} className={primaryButtonClass}>{loading.start ? "Creating test…" : "Start Test"}</button></div></section>}
       </div>
     </div>
-  );
+  </main>;
 }

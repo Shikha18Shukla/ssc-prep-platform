@@ -27,8 +27,8 @@ export type SSCSubject = "gk-gs" | "maths" | "english" | "reasoning";
 /** Question difficulty levels. */
 export type Difficulty = "easy" | "medium" | "hard" | "pyq";
 
-/** Allowed number of questions per test. */
-export type QuestionCount = 10 | 15 | 20 | 25;
+/** Supported test lengths, including short tests when a verified pool is smaller than ten. */
+export type QuestionCount = number;
 
 /** Practice mode selected for question availability checks. */
 export type PracticeLevel = "EASY" | "MEDIUM" | "HARD" | "PYQ";
@@ -77,8 +77,8 @@ export interface ChapterAvailability {
   chapter_id: string;
   level: PracticeLevel;
   available_question_count: number;
-  allowed_question_counts: QuestionCount[];
-  requested_question_count: QuestionCount | null;
+  allowed_question_counts: number[];
+  requested_question_count: number | null;
   can_satisfy_request: boolean | null;
 }
 

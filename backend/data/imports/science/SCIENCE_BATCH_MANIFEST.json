@@ -1,0 +1,1329 @@
+{
+  "generated_on": "2026-10-10",
+  "subject_slug": "gk-gs",
+  "subcategory_slug": "science",
+  "total_source_pdfs": 21,
+  "total_source_pages": 473,
+  "question_page_candidates": 452,
+  "verified": 102,
+  "needs_review": 333,
+  "rejected_confirmed": 8,
+  "duplicate_records_confirmed": 9,
+  "duplicate_pairs_to_review": 10,
+  "duplicate_pairs_confirmed": 7,
+  "ready_for_import": 107,
+  "dry_run_performed": true,
+  "real_import_performed": true,
+  "imported_batches": [
+    {
+      "chapter_slug": "animal-kingdom",
+      "ordinary_questions": 0,
+      "pyq_questions": 3,
+      "active_questions": 3,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "tissues",
+      "ordinary_questions": 6,
+      "pyq_questions": 2,
+      "active_questions": 8,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "digestive-system",
+      "ordinary_questions": 5,
+      "pyq_questions": 7,
+      "active_questions": 12,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "circulatory-system",
+      "ordinary_questions": 11,
+      "pyq_questions": 4,
+      "active_questions": 15,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "brain-and-nervous-system",
+      "ordinary_questions": 9,
+      "pyq_questions": 5,
+      "active_questions": 14,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "excretory-system",
+      "ordinary_questions": 8,
+      "pyq_questions": 2,
+      "active_questions": 10,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "disease",
+      "ordinary_questions": 10,
+      "pyq_questions": 1,
+      "active_questions": 11,
+      "status": "present in live DB; historically documented import; no re-import"
+    },
+    {
+      "chapter_slug": "glands",
+      "ordinary_questions": 1,
+      "pyq_questions": 1,
+      "active_questions": 2,
+      "status": "present in live DB; exact import event/time UNKNOWN"
+    },
+    {
+      "chapter_slug": "cell",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "chemical-reaction",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 2,
+      "pyq_questions": 0,
+      "active_questions": 2,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "chemistry-in-every-day-life",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "electricity",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 3,
+      "active_questions": 3,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "gravitation-work-energy",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "magnetic-effect-and-heating",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "matter-and-atom",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "metals-and-non-metals",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "motion-and-force",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "nutrition",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "optics-and-human-eye",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "periodic-table",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "plant-kingdom",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "reproduction",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "skeleton-system",
+      "batch": "source-page-supplement",
+      "ordinary_questions": 0,
+      "pyq_questions": 1,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "acid-base-and-salt",
+      "batch": "approved-science-follow-up",
+      "ordinary_questions": 2,
+      "pyq_questions": 0,
+      "active_questions": 2,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "sound",
+      "batch": "approved-science-follow-up",
+      "ordinary_questions": 2,
+      "pyq_questions": 3,
+      "active_questions": 5,
+      "status": "imported and verified on 2026-10-10"
+    },
+    {
+      "chapter_slug": "respiratory-system",
+      "batch": "approved-gap-fill",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10; source page 17"
+    },
+    {
+      "chapter_slug": "carbon-and-its-compound",
+      "batch": "approved-gap-fill",
+      "ordinary_questions": 1,
+      "pyq_questions": 0,
+      "active_questions": 1,
+      "status": "imported and verified on 2026-10-10; source page 6"
+    },
+    {
+      "chapter_slug": "physics-revision",
+      "batch": "original-physics-revision",
+      "ordinary_questions": 5,
+      "pyq_questions": 0,
+      "active_questions": 5,
+      "status": "five original questions imported and verified on 2026-10-10; NCERT-checked; not source-derived"
+    }
+  ],
+  "chapter_coverage": {
+    "cell": {
+      "chapter_name": "Cell",
+      "catalog_chapter_id": "24be0c8f-9b9f-47cc-95db-01b766b8016a",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 1,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "digestive-system": {
+      "chapter_name": "Digestive System",
+      "catalog_chapter_id": "79d7f2e8-b911-4a6e-89fe-676b6a5ed7c3",
+      "active_ordinary": 5,
+      "active_pyq": 7,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 16,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 3,
+      "test_availability": "O 5 / PYQ 7",
+      "api_available_ordinary": 5,
+      "allowed_ordinary_test_counts": [
+        5
+      ],
+      "api_available_pyq": 7,
+      "allowed_pyq_test_counts": [
+        7
+      ]
+    },
+    "circulatory-system": {
+      "chapter_name": "Circulatory System",
+      "catalog_chapter_id": "c0f428cb-d838-4a93-82ec-74000df22efc",
+      "active_ordinary": 11,
+      "active_pyq": 4,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 16,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 10, 11 / PYQ 4",
+      "api_available_ordinary": 11,
+      "allowed_ordinary_test_counts": [
+        10,
+        11
+      ],
+      "api_available_pyq": 4,
+      "allowed_pyq_test_counts": [
+        4
+      ]
+    },
+    "respiratory-system": {
+      "chapter_name": "Respiratory System",
+      "catalog_chapter_id": "6afa7d76-1379-4a79-9ff5-1f934331af92",
+      "active_ordinary": 0,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 1,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ —",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "brain-and-nervous-system": {
+      "chapter_name": "Brain & Nervous System",
+      "catalog_chapter_id": "2237850c-bf16-4627-970a-33f548ae8398",
+      "active_ordinary": 9,
+      "active_pyq": 5,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 6,
+      "rejected_mapped": 1,
+      "duplicate_mapped": 1,
+      "test_availability": "O 9 / PYQ 5",
+      "api_available_ordinary": 9,
+      "allowed_ordinary_test_counts": [
+        9
+      ],
+      "api_available_pyq": 5,
+      "allowed_pyq_test_counts": [
+        5
+      ]
+    },
+    "excretory-system": {
+      "chapter_name": "Excretory System",
+      "catalog_chapter_id": "f5dabc77-d970-46a4-960f-deb6ecb2c8fb",
+      "active_ordinary": 8,
+      "active_pyq": 2,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 7,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 3,
+      "test_availability": "O 8 / PYQ 2",
+      "api_available_ordinary": 8,
+      "allowed_ordinary_test_counts": [
+        8
+      ],
+      "api_available_pyq": 2,
+      "allowed_pyq_test_counts": [
+        2
+      ]
+    },
+    "nutrition": {
+      "chapter_name": "Nutrition",
+      "catalog_chapter_id": "d581e071-f539-4716-97e4-2e73e6b5c625",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "disease": {
+      "chapter_name": "Disease",
+      "catalog_chapter_id": "79eeb111-c0df-4863-aac2-94086844f83b",
+      "active_ordinary": 10,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 14,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 10 / PYQ 1",
+      "api_available_ordinary": 10,
+      "allowed_ordinary_test_counts": [
+        10
+      ],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "glands": {
+      "chapter_name": "Glands",
+      "catalog_chapter_id": "3a7d5736-5a65-434b-8c2c-0f17905bab57",
+      "active_ordinary": 1,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 13,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ 1",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "skeleton-system": {
+      "chapter_name": "Skeleton System",
+      "catalog_chapter_id": "4e271000-7906-4bc3-965b-4e6d2692d137",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "reproduction": {
+      "chapter_name": "Reproduction",
+      "catalog_chapter_id": "c8514f3d-1208-4b1e-81a8-0f053f6b3a55",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "plant-kingdom": {
+      "chapter_name": "Plant Kingdom",
+      "catalog_chapter_id": "c328f94b-f3f5-419f-a2f1-899e760e7240",
+      "active_ordinary": 1,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 1,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ —",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "animal-kingdom": {
+      "chapter_name": "Animal Kingdom",
+      "catalog_chapter_id": "9472b181-01f6-492f-bb4f-f9ef38e12866",
+      "active_ordinary": 0,
+      "active_pyq": 3,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 3",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 3,
+      "allowed_pyq_test_counts": [
+        3
+      ]
+    },
+    "tissues": {
+      "chapter_name": "Tissues",
+      "catalog_chapter_id": "223afb7a-d83c-4e12-ba7d-ff3137575099",
+      "active_ordinary": 6,
+      "active_pyq": 2,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 9,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 6 / PYQ 2",
+      "api_available_ordinary": 6,
+      "allowed_ordinary_test_counts": [
+        6
+      ],
+      "api_available_pyq": 2,
+      "allowed_pyq_test_counts": [
+        2
+      ]
+    },
+    "matter-and-atom": {
+      "chapter_name": "Matter & Atom",
+      "catalog_chapter_id": "1f372c5a-abf6-45b0-9975-10092037915f",
+      "active_ordinary": 1,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ —",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "metals-and-non-metals": {
+      "chapter_name": "Metals & Non Metals",
+      "catalog_chapter_id": "0f365ed8-5137-4d4c-9b21-ce76b6dbc842",
+      "active_ordinary": 1,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ —",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "acid-base-and-salt": {
+      "chapter_name": "Acid Base & Salt",
+      "catalog_chapter_id": "8ce267a1-1920-4aff-a043-48fa730e76af",
+      "active_ordinary": 2,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 2 / PYQ —",
+      "api_available_ordinary": 2,
+      "allowed_ordinary_test_counts": [
+        2
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "carbon-and-its-compound": {
+      "chapter_name": "Carbon & Its Compound",
+      "catalog_chapter_id": "7699583e-02b8-4cb9-8b47-72708bd426be",
+      "active_ordinary": 0,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 1,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 1,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ —",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "periodic-table": {
+      "chapter_name": "Periodic Table",
+      "catalog_chapter_id": "47a79886-a191-4b02-b044-446ca513d507",
+      "active_ordinary": 1,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ —",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "chemical-reaction": {
+      "chapter_name": "Chemical Reaction",
+      "catalog_chapter_id": "b19ea070-a111-409b-9975-f203fea66276",
+      "active_ordinary": 2,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 2 / PYQ —",
+      "api_available_ordinary": 2,
+      "allowed_ordinary_test_counts": [
+        2
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "chemistry-in-every-day-life": {
+      "chapter_name": "Chemistry in Every Day Life",
+      "catalog_chapter_id": "da188972-c61c-4249-bdfd-0784761ced7b",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 1,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "motion-and-force": {
+      "chapter_name": "Motion & Force",
+      "catalog_chapter_id": "029386c9-bbf0-45d3-813e-bf0d52fdf091",
+      "active_ordinary": 1,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ —",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "gravitation-work-energy": {
+      "chapter_name": "Gravitation Work Energy",
+      "catalog_chapter_id": "2e7ec7ef-13e8-4adf-a35a-9c6f4f6fe05c",
+      "active_ordinary": 1,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O 1 / PYQ —",
+      "api_available_ordinary": 1,
+      "allowed_ordinary_test_counts": [
+        1
+      ],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    },
+    "optics-and-human-eye": {
+      "chapter_name": "Optics & Human Eye",
+      "catalog_chapter_id": "a7bd204b-eb86-43eb-9c2d-f72e7e1dce30",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "sound": {
+      "chapter_name": "Sound",
+      "catalog_chapter_id": "d12ea943-a2eb-4ba5-b71b-6b8865b7cb9a",
+      "active_ordinary": 2,
+      "active_pyq": 3,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 5,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 1,
+      "test_availability": "O 2 / PYQ 3",
+      "api_available_ordinary": 2,
+      "allowed_ordinary_test_counts": [
+        2
+      ],
+      "api_available_pyq": 3,
+      "allowed_pyq_test_counts": [
+        3
+      ]
+    },
+    "electricity": {
+      "chapter_name": "Electricity",
+      "catalog_chapter_id": "24ba6660-d222-4a7b-b4e3-dce738a85260",
+      "active_ordinary": 0,
+      "active_pyq": 3,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 3",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 3,
+      "allowed_pyq_test_counts": [
+        3
+      ]
+    },
+    "magnetic-effect-and-heating": {
+      "chapter_name": "Magnetic Effect & Heating",
+      "catalog_chapter_id": "b21dfc94-3eaf-4e83-9882-192cf418b2c4",
+      "active_ordinary": 0,
+      "active_pyq": 1,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ 1",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 1,
+      "allowed_pyq_test_counts": [
+        1
+      ]
+    },
+    "physics-revision": {
+      "chapter_name": "Physics Revision",
+      "catalog_chapter_id": "cdb02090-57d4-4069-9f48-7cae60310379",
+      "active_ordinary": 0,
+      "active_pyq": 0,
+      "verified_prepared_not_imported_ordinary": 0,
+      "verified_prepared_not_imported_pyq": 0,
+      "pending_mapped": 0,
+      "rejected_mapped": 0,
+      "duplicate_mapped": 0,
+      "test_availability": "O — / PYQ —",
+      "api_available_ordinary": 0,
+      "allowed_ordinary_test_counts": [],
+      "api_available_pyq": 0,
+      "allowed_pyq_test_counts": []
+    }
+  },
+  "ocr_labels_only": {
+    "difficulty": {
+      "EASY": 83,
+      "MEDIUM": 348,
+      "HARD": 20,
+      "UNREAD": 1
+    },
+    "pyq_label": {
+      "PYQ label detected": 172,
+      "No OCR PYQ label": 280
+    },
+    "pyq_year": {
+      "2022": 31,
+      "2018": 13,
+      "2017": 47,
+      "2023": 31,
+      "2021": 26,
+      "2020": 6,
+      "2024": 4,
+      "2019": 11,
+      "YEAR_UNREAD": 3
+    }
+  },
+  "ocr_field_extraction_only": {
+    "question_text_detected": 451,
+    "four_options_detected": 315,
+    "explanation_detected": 447,
+    "answer_phrase_mapped": 126,
+    "four_options_and_text": 311,
+    "partial_or_uncertain": 141
+  },
+  "batches": [
+    {
+      "source_pdf": "animal kingdom.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "EASY": 7,
+        "MEDIUM": 13
+      },
+      "ocr_pyq_year_labels": {
+        "2022": 3,
+        "2018": 1,
+        "2017": 2,
+        "2023": 1,
+        "2021": 2
+      },
+      "verified": 11,
+      "ready_for_import": 11
+    },
+    {
+      "source_pdf": "brain and nervous system - science.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 15,
+        "EASY": 5
+      },
+      "ocr_pyq_year_labels": {
+        "2017": 2,
+        "2020": 1
+      },
+      "verified": 10,
+      "ready_for_import": 10
+    },
+    {
+      "source_pdf": "cell -science.pdf",
+      "question_pages": 40,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 27,
+        "EASY": 9,
+        "HARD": 4
+      },
+      "ocr_pyq_year_labels": {
+        "2017": 6,
+        "2022": 3,
+        "2024": 2,
+        "2020": 2,
+        "2023": 5,
+        "2019": 1,
+        "2018": 1,
+        "2021": 2
+      },
+      "verified": 9,
+      "ready_for_import": 9
+    },
+    {
+      "source_pdf": "chemical reactions.pdf",
+      "question_pages": 10,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 7,
+        "EASY": 3
+      },
+      "ocr_pyq_year_labels": {
+        "2022": 1
+      },
+      "verified": 2,
+      "ready_for_import": 2
+    },
+    {
+      "source_pdf": "chemistry in every day life.pdf",
+      "question_pages": 30,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 22,
+        "EASY": 8
+      },
+      "ocr_pyq_year_labels": {
+        "2017": 2,
+        "2022": 2,
+        "2023": 1,
+        "2021": 1
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "circulatory system - science.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 17,
+        "EASY": 3
+      },
+      "ocr_pyq_year_labels": {
+        "2019": 2,
+        "2017": 4,
+        "2020": 2,
+        "2022": 1
+      },
+      "verified": 10,
+      "ready_for_import": 10
+    },
+    {
+      "source_pdf": "Digestive system - science.pdf",
+      "question_pages": 30,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 22,
+        "EASY": 7,
+        "HARD": 1
+      },
+      "ocr_pyq_year_labels": {
+        "2022": 3,
+        "2023": 2,
+        "2017": 7,
+        "2021": 3,
+        "YEAR_UNREAD": 1
+      },
+      "verified": 10,
+      "ready_for_import": 10
+    },
+    {
+      "source_pdf": "Disease.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 18,
+        "EASY": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2018": 1,
+        "2021": 1
+      },
+      "verified": 3,
+      "ready_for_import": 3
+    },
+    {
+      "source_pdf": "excretory system - science.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 17,
+        "EASY": 3
+      },
+      "ocr_pyq_year_labels": {
+        "2023": 1,
+        "2022": 2,
+        "2021": 3
+      },
+      "verified": 2,
+      "ready_for_import": 2
+    },
+    {
+      "source_pdf": "Glands.pdf",
+      "question_pages": 30,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 28,
+        "EASY": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2017": 3,
+        "2024": 1,
+        "2022": 1,
+        "2018": 2,
+        "2023": 2
+      },
+      "verified": 2,
+      "ready_for_import": 2
+    },
+    {
+      "source_pdf": "gravitational work and energy.pdf",
+      "question_pages": 30,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 25,
+        "HARD": 3,
+        "EASY": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2021": 3,
+        "2017": 5,
+        "2019": 1,
+        "2022": 1,
+        "2018": 2
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "matter and atoms.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 16,
+        "HARD": 2,
+        "EASY": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2022": 2,
+        "2018": 1,
+        "2023": 3,
+        "2021": 3,
+        "2017": 1,
+        "2019": 2
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "metal and non metals.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 16,
+        "EASY": 3,
+        "HARD": 1
+      },
+      "ocr_pyq_year_labels": {
+        "2019": 1,
+        "2023": 3,
+        "2018": 1,
+        "2022": 4
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "motion and force.pdf",
+      "question_pages": 10,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 7,
+        "EASY": 2,
+        "HARD": 1
+      },
+      "ocr_pyq_year_labels": {
+        "2017": 2,
+        "2021": 1
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "nutrition - science.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 15,
+        "EASY": 5
+      },
+      "ocr_pyq_year_labels": {
+        "2019": 1,
+        "YEAR_UNREAD": 1
+      },
+      "verified": 10,
+      "ready_for_import": 10
+    },
+    {
+      "source_pdf": "optics and human eye.pdf",
+      "question_pages": 11,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 11
+      },
+      "ocr_pyq_year_labels": {
+        "2017": 3,
+        "2024": 1,
+        "2019": 1,
+        "2023": 2,
+        "2021": 1
+      },
+      "verified": 0,
+      "ready_for_import": 0
+    },
+    {
+      "source_pdf": "periodic table.pdf",
+      "question_pages": 10,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 8,
+        "EASY": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2023": 1,
+        "2017": 1,
+        "2018": 1
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "reproduction.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "EASY": 4,
+        "MEDIUM": 14,
+        "HARD": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2023": 3,
+        "2022": 3,
+        "2017": 3
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    },
+    {
+      "source_pdf": "respiratory system - science.pdf",
+      "question_pages": 21,
+      "ocr_difficulty_labels": {
+        "EASY": 7,
+        "MEDIUM": 12,
+        "HARD": 2
+      },
+      "ocr_pyq_year_labels": {
+        "2021": 3,
+        "2017": 1,
+        "2023": 1,
+        "2018": 1,
+        "2019": 1
+      },
+      "verified": 14,
+      "ready_for_import": 14
+    },
+    {
+      "source_pdf": "sound.pdf",
+      "question_pages": 20,
+      "ocr_difficulty_labels": {
+        "HARD": 1,
+        "MEDIUM": 14,
+        "EASY": 5
+      },
+      "ocr_pyq_year_labels": {
+        "2022": 3,
+        "2017": 2,
+        "2021": 1,
+        "2023": 3,
+        "2018": 2
+      },
+      "verified": 4,
+      "ready_for_import": 4
+    },
+    {
+      "source_pdf": "Tissues.pdf",
+      "question_pages": 30,
+      "ocr_difficulty_labels": {
+        "MEDIUM": 24,
+        "HARD": 3,
+        "EASY": 2,
+        "UNREAD": 1
+      },
+      "ocr_pyq_year_labels": {
+        "2023": 3,
+        "YEAR_UNREAD": 1,
+        "2017": 3,
+        "2019": 1,
+        "2021": 2,
+        "2022": 2,
+        "2020": 1
+      },
+      "verified": 1,
+      "ready_for_import": 1
+    }
+  ],
+  "database_snapshot": {
+    "verification": "post-import read-only database query; approved 7-row transaction verified and TestAvailabilityRead validated for ordinary/PYQ across all 28 chapters",
+    "snapshot_date": "2026-10-10",
+    "total_active_questions": 133,
+    "science_active_questions": 100,
+    "science_chapter_count": 28,
+    "imported_at": "2026-10-10; see follow-up import_events created_at_range"
+  },
+  "prepared_not_imported_batches": [
+    {
+      "batch": "respiratory-system-cross-corpus",
+      "chapter_slug": "respiratory-system",
+      "ordinary_rows": 1,
+      "pyq_rows": 0,
+      "source_pages": [
+        "circulatory system - science.pdf p. 17"
+      ],
+      "status": "verified; prepared; not imported",
+      "duplicate_check": "No exact/semantic duplicate found in 133 active questions or prepared Science importer rows"
+    },
+    {
+      "batch": "carbon-and-its-compound-cross-corpus",
+      "chapter_slug": "carbon-and-its-compound",
+      "ordinary_rows": 1,
+      "pyq_rows": 0,
+      "source_pages": [
+        "excretory system - science.pdf p. 6"
+      ],
+      "status": "verified; prepared; not imported",
+      "duplicate_check": "No exact/semantic duplicate found in 133 active questions or prepared Science importer rows"
+    }
+  ],
+  "import_csv_rows": 107,
+  "verified_unimported_rows": 0,
+  "current_work_production_import_performed": true,
+  "prior_database_imports_confirmed": true,
+  "readiness_notes": [
+    "import_csv_rows includes previously imported batches; imported_batches identifies rows present in live database.",
+    "The source-page-supplement batch was transactionally imported and post-verified: 18 rows (8 ordinary, 10 PYQ) across 15 chapters; page 6 duplicate and pending Sound row remain excluded.",
+    "Post-import chapter test availability was checked through the test-availability route handler and validated against TestAvailabilityRead for ordinary and PYQ modes across all 28 Science chapters.",
+    "Follow-up review 2026-10-10: 5 Sound questions (2 ordinary, 3 PYQ) and 2 Acid Base & Salt ordinary questions were imported and verified. Sound page 3 remains excluded as a duplicate; page 2 and pages 5-8 remain excluded/pending. Database totals are 133 active overall / 100 Science.",
+    "Circulatory ordinary availability now includes exact eligible pool size 11 alongside standard size 10; no questions were added or mixed.",
+    "Focused regression before the approved follow-up import: 31 tests passed, including isolated ordinary/PYQ selection cases and Sound/Acid Base importer dry-run coverage.",
+    "Post-import focused regression 2026-10-10: 31 tests passed, 37 deselected; no browser or HTTP end-to-end verification was performed.",
+    "Approved follow-up import 2026-10-10: exactly 7 rows committed in one existing transactional importer call (4 ordinary, 3 PYQ); 0 rejected, 0 duplicates, 0 errors. Exact source pages and chapter mappings are verified. Pre-existing question/option fingerprint unchanged.",
+    "Source review follow-up 2026-10-10: respiratory system - science.pdf pp.2-22 visually rechecked and contains 19 distinct Brain & Nervous System questions, one Skeleton question, and one repeated Brain question; none maps to Respiratory System. A cross-corpus review verified one ordinary MEDIUM Respiratory System question from circulatory system - science.pdf p.17. It is prepared, not imported; live database remains 133 total / 100 Science with 25 populated chapters.",
+    "Carbon & Its Compound review verified one ordinary MEDIUM fatty-acid classification question from excretory system - science.pdf p.6. The chemical reactions.pdf p.8 saponification question remains pending because its explanation is clipped. Other carbon-related items map to existing specific chemistry chapters.",
+    "Focused source-review validation 2026-10-10: tests/test_science_import_candidates.py passed 18 tests. The Respiratory System and Carbon & Its Compound candidate dry-runs each accepted 1 row with 0 imported, rejected, duplicate, or error counts against the isolated seeded SQLite test database; no production database write occurred.",
+    "Carbon review follow-up 2026-10-10: one verified ordinary MEDIUM question is prepared from excretory system - science.pdf p.6; one saponification question from chemical reactions.pdf p.8 remains NEEDS_REVIEW and excluded. Live/prepared duplicate check found no duplicate for p.6. The active database remains unchanged.",
+    "Approved gap-fill import 2026-10-10: the exact two already-reviewed source-derived rows (Respiratory System 1 ordinary; Carbon & Its Compound 1 ordinary) passed a live transactional dry-run (2 accepted, 0 rejected/duplicates/errors) and were committed in one call. Post-import total 135 active overall / 102 Science.",
+    "Approved original Physics Revision batch 2026-10-10: five original ordinary questions were explicitly labeled with original provenance and NCERT verification; no PYQ metadata was assigned. The live transactional dry-run accepted exactly 5 (0 rejected/duplicates/errors), and one transaction inserted 5. Post-import totals 140 active overall / 107 Science / 560 active options.",
+    "Latest read-only availability check validated ordinary and PYQ responses against TestAvailabilityRead for all 28 Science chapters; no chapter has both modes empty. 26 chapters have ordinary pools, 18 have PYQ pools, and exact short pool lengths are offered. HTTP/browser flow is not verified; pytest TestClient startup stalled on this Windows environment."
+  ],
+  "import_events": [
+    {
+      "batch": "source-page-supplement",
+      "imported_on": "2026-10-10",
+      "created_at_range": [
+        "2026-10-10T18:43:07.289641+05:30",
+        "2026-10-10T18:43:07.289641+05:30"
+      ],
+      "csv_files": 15,
+      "rows_requested": 18,
+      "rows_inserted": 18,
+      "ordinary_inserted": 8,
+      "pyq_inserted": 10,
+      "pre_import_total_active": 108,
+      "post_import_total_active": 126,
+      "pre_import_science_active": 75,
+      "post_import_science_active": 93,
+      "transactional_importer": "app.services.question_import_service.import_questions",
+      "result": "committed; 0 rejected, 0 duplicates, 0 errors",
+      "excluded": [
+        {
+          "source_pdf": "chemical reactions.pdf",
+          "source_page": "6",
+          "status": "DUPLICATE"
+        },
+        {
+          "source_pdf": "optics and human eye.pdf",
+          "source_page": "2",
+          "status": "NEEDS_REVIEW"
+        }
+      ]
+    },
+    {
+      "batch": "approved-science-follow-up",
+      "imported_on": "2026-10-10",
+      "created_at_range": [
+        "2026-10-10T19:24:26.506676+05:30",
+        "2026-10-10T19:24:26.506676+05:30"
+      ],
+      "csv_files": 3,
+      "rows_requested": 7,
+      "rows_inserted": 7,
+      "ordinary_inserted": 4,
+      "pyq_inserted": 3,
+      "pre_import_total_active": 126,
+      "post_import_total_active": 133,
+      "pre_import_science_active": 93,
+      "post_import_science_active": 100,
+      "pre_import_options": 504,
+      "post_import_options": 532,
+      "pre_import_existing_question_option_sha256": "45d51633c73497f6917d700a531ae80a022f0eade80ecf780de5a9359f69ad84",
+      "post_import_fingerprint_excluding_inserted_rows": "45d51633c73497f6917d700a531ae80a022f0eade80ecf780de5a9359f69ad84",
+      "transactional_importer": "app.services.question_import_service.import_questions",
+      "result": "committed; 0 rejected, 0 duplicates, 0 errors",
+      "chapters": [
+        {
+          "chapter_slug": "acid-base-and-salt",
+          "ordinary_inserted": 2,
+          "pyq_inserted": 0
+        },
+        {
+          "chapter_slug": "sound",
+          "ordinary_inserted": 2,
+          "pyq_inserted": 3
+        }
+      ],
+      "excluded": [
+        {
+          "source_pdf": "optics and human eye.pdf",
+          "source_page": "2",
+          "status": "NEEDS_REVIEW"
+        },
+        {
+          "source_pdf": "optics and human eye.pdf",
+          "source_page": "3",
+          "status": "DUPLICATE"
+        },
+        {
+          "source_pdf": "optics and human eye.pdf",
+          "source_pages": "5-8",
+          "status": "NEEDS_REVIEW"
+        }
+      ]
+    },
+    {
+      "batch": "approved-gap-fill",
+      "imported_on": "2026-10-10",
+      "created_at_range": [
+        "2026-10-10T19:49:51.349630+05:30",
+        "2026-10-10T19:49:51.349630+05:30"
+      ],
+      "csv_files": 2,
+      "rows_requested": 2,
+      "rows_inserted": 2,
+      "ordinary_inserted": 2,
+      "pyq_inserted": 0,
+      "pre_import_total_active": 133,
+      "post_import_total_active": 135,
+      "pre_import_science_active": 100,
+      "post_import_science_active": 102,
+      "transactional_importer": "app.services.question_import_service.import_questions",
+      "result": "committed; 0 rejected, 0 duplicates, 0 errors",
+      "chapters": [
+        {
+          "chapter_slug": "respiratory-system",
+          "ordinary_inserted": 1,
+          "pyq_inserted": 0
+        },
+        {
+          "chapter_slug": "carbon-and-its-compound",
+          "ordinary_inserted": 1,
+          "pyq_inserted": 0
+        }
+      ]
+    },
+    {
+      "batch": "original-physics-revision",
+      "imported_on": "2026-10-10",
+      "created_at_range": [
+        "2026-10-10T19:51:54.549671+05:30",
+        "2026-10-10T19:51:54.549671+05:30"
+      ],
+      "csv_files": 2,
+      "rows_requested": 5,
+      "rows_inserted": 5,
+      "ordinary_inserted": 5,
+      "pyq_inserted": 0,
+      "pre_import_total_active": 135,
+      "post_import_total_active": 140,
+      "pre_import_science_active": 102,
+      "post_import_science_active": 107,
+      "transactional_importer": "app.services.question_import_service.import_questions",
+      "result": "committed; 0 rejected, 0 duplicates, 0 errors",
+      "chapters": [
+        {
+          "chapter_slug": "physics-revision",
+          "ordinary_inserted": 5,
+          "pyq_inserted": 0
+        }
+      ],
+      "provenance": "Original authored questions, individually labeled in source field with NCERT validation URLs; not source-PDF or previous-year questions."
+    }
+  ]
+}

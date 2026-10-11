@@ -3,6 +3,8 @@
 import uuid
 from datetime import datetime
 
+from typing import Literal
+
 from pydantic import BaseModel, ConfigDict, Field
 
 from app.models.test_attempt import TestAttemptStatus
@@ -12,9 +14,17 @@ class TestCreate(BaseModel):
     exam_id: uuid.UUID
     subject_id: uuid.UUID
     subcategory_id: uuid.UUID | None = None
-    chapter_id: uuid.UUID
-    difficulty: str
-    question_count: int = Field(ge=10, le=25, multiple_of=5)
+    test_type: Literal["CHAPTER_WISE", "MISCELLANEOUS"]
+    chapter_id: uuid.UUID | None = None
+    # PYQ is an independent selection mode, not a difficulty level.
+    difficulty: str | None = None
+    question_count: int = Field(ge=1, le=25)
+
+
+class TestAvailabilityRead(BaseModel):
+    available_question_count: int
+    allowed_question_counts: list[int]
+    can_satisfy_request: bool
 
 
 class TestOption(BaseModel):
@@ -36,8 +46,9 @@ class ActiveTestRead(BaseModel):
     id: uuid.UUID
     exam_id: uuid.UUID
     subject_id: uuid.UUID
-    chapter_id: uuid.UUID
-    difficulty: str
+    chapter_id: uuid.UUID | None
+    test_type: Literal["CHAPTER_WISE", "MISCELLANEOUS"]
+    difficulty: str | None
     question_count: int
     duration_seconds: int
     started_at: datetime

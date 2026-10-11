@@ -74,7 +74,7 @@ export default function TestPage() {
 
   return <main className="mx-auto max-w-5xl px-4 py-6 text-[#2D3436] sm:py-10" style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}>
     <header className="mb-5 flex flex-wrap items-center justify-between gap-4 rounded-lg border bg-white p-4">
-      <div><p className="text-sm font-semibold text-[#007BFF]">SSC Practice · {test.difficulty}</p><h1 className="text-xl font-bold">Question {current + 1} of {test.question_count}</h1></div>
+      <div><p className="text-sm font-semibold text-[#007BFF]">SSC Practice · {test.test_type === "MISCELLANEOUS" ? "Miscellaneous" : "Chapter-wise"}{test.difficulty ? ` · ${test.difficulty}` : ""}</p><h1 className="text-xl font-bold">Question {current + 1} of {test.question_count}</h1></div>
       <div role="timer" aria-live="off" className={`rounded-md px-4 py-2 text-xl font-bold tabular-nums ${remaining <= 60 ? "bg-red-100 text-red-800" : "bg-blue-50 text-blue-800"}`}>Time left {clock(remaining)}</div>
     </header>
     <div className="grid gap-5 lg:grid-cols-[1fr_250px]">

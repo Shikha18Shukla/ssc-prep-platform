@@ -9,6 +9,12 @@ from app.schemas.catalog import PracticeLevel
 QUESTION_COUNTS = (10, 15, 20, 25)
 
 
+def _allowed_question_counts(available_count: int) -> list[int]:
+    if 0 < available_count < QUESTION_COUNTS[0]:
+        return [available_count]
+    return [count for count in QUESTION_COUNTS if count <= available_count]
+
+
 def list_active_exams(db: Session) -> list[Exam]:
     return list(
         db.execute(select(Exam).where(Exam.is_active.is_(True)).order_by(Exam.slug))
@@ -83,9 +89,7 @@ def list_active_chapters_for_selection(
         Chapter.subject_id == subject_id,
         Chapter.is_active.is_(True),
     )
-    if subcategory_id is None:
-        chapter_query = chapter_query.where(Chapter.subcategory_id.is_(None))
-    else:
+    if subcategory_id is not None:
         active_subcategory = db.execute(
             select(Subcategory.id).where(
                 Subcategory.id == subcategory_id,
@@ -137,16 +141,15 @@ def get_chapter_availability(
         )
 
     available_count = db.execute(question_query).scalar_one()
+    allowed_counts = _allowed_question_counts(available_count)
     return {
         "chapter_id": chapter_id,
         "level": level,
         "available_question_count": available_count,
-        "allowed_question_counts": [
-            count for count in QUESTION_COUNTS if count <= available_count
-        ],
+        "allowed_question_counts": allowed_counts,
         "requested_question_count": requested_question_count,
         "can_satisfy_request": (
-            available_count >= requested_question_count
+            requested_question_count in allowed_counts
             if requested_question_count is not None
             else None
         ),

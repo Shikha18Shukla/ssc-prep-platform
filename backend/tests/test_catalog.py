@@ -9,6 +9,7 @@ from sqlalchemy.orm import Session
 
 from app.auth.security import create_access_token
 from app.database.seed import seed_database
+from app.database.ssc_catalog import SSC_CATALOG
 from app.models import Chapter, Difficulty, Exam, Question, Subject, Subcategory, User
 
 
@@ -172,10 +173,19 @@ def test_lists_only_active_exams_subjects_and_chapters(
     assert chapters.status_code == 200
     assert [item["slug"] for item in chapters.json()] == ["arithmetic"]
 
-    # Without a subcategory filter only direct subject chapters are returned.
-    assert client.get(
+    advanced_chapters = client.get(
+        f"/api/exams/subjects/{subject_id}/chapters",
+        params={"subcategory_id": str(catalog_records["other_category"].id)},
+        headers=catalog_headers,
+    )
+    assert [item["slug"] for item in advanced_chapters.json()] == ["geometry"]
+
+    # No filter means all active chapters for the subject, including categorized chapters.
+    all_chapters = client.get(
         f"/api/exams/subjects/{subject_id}/chapters", headers=catalog_headers
-    ).json() == []
+    )
+    assert all_chapters.status_code == 200
+    assert [item["slug"] for item in all_chapters.json()] == ["arithmetic", "geometry"]
 
     wrong_category_id = str(catalog_records["inactive_category"].id)
     assert client.get(
@@ -192,6 +202,99 @@ def test_lists_only_active_exams_subjects_and_chapters(
     assert db_session.scalar(select(func.count(Chapter.id))) == 3
 
 
+def test_gk_gs_category_and_all_chapter_filters_return_seeded_catalog(
+    client: TestClient,
+    db_session: Session,
+    catalog_headers: dict[str, str],
+) -> None:
+    assert seed_database(db_session) == []
+    subject = db_session.execute(select(Subject).where(Subject.slug == "gk-gs")).scalar_one()
+    categories_response = client.get(
+        f"/api/exams/subjects/{subject.id}/subcategories", headers=catalog_headers
+    )
+    assert categories_response.status_code == 200, categories_response.text
+    categories = categories_response.json()
+    expected_names = {name for name, _ in SSC_CATALOG["gk-gs"] if name is not None}
+    assert {item["name"] for item in categories} == expected_names == {
+        "Science", "Computer", "Static GK", "Geography", "Economics", "Polity", "History"
+    }
+
+    all_response = client.get(
+        f"/api/exams/subjects/{subject.id}/chapters", headers=catalog_headers
+    )
+    assert all_response.status_code == 200, all_response.text
+    all_chapters = all_response.json()
+    per_category_ids = set()
+    for category in categories:
+        response = client.get(
+            f"/api/exams/subjects/{subject.id}/chapters",
+            params={"subcategory_id": category["id"]},
+            headers=catalog_headers,
+        )
+        assert response.status_code == 200, response.text
+        chapters = response.json()
+        assert chapters, f"{category['name']} should have seeded chapters"
+        assert all(item["subject_id"] == str(subject.id) for item in chapters)
+        assert all(item["subcategory_id"] == category["id"] for item in chapters)
+        per_category_ids.update(item["id"] for item in chapters)
+
+    assert {item["id"] for item in all_chapters} == per_category_ids
+
+
+@pytest.mark.parametrize(
+    ("subject_slug", "expected_categories"),
+    [("maths", {"Arithmetic Maths", "Advanced Maths"}), ("reasoning", set())],
+)
+def test_seeded_subject_categories_match_catalog_hierarchy(
+    client: TestClient,
+    db_session: Session,
+    catalog_headers: dict[str, str],
+    subject_slug: str,
+    expected_categories: set[str],
+) -> None:
+    assert seed_database(db_session) == []
+    subject = db_session.execute(
+        select(Subject).where(Subject.slug == subject_slug)
+    ).scalar_one()
+
+    categories_response = client.get(
+        f"/api/exams/subjects/{subject.id}/subcategories", headers=catalog_headers
+    )
+    assert categories_response.status_code == 200, categories_response.text
+    categories = categories_response.json()
+    assert {item["name"] for item in categories} == expected_categories
+
+    if categories:
+        category_chapter_ids: set[str] = set()
+        for category in categories:
+            response = client.get(
+                f"/api/exams/subjects/{subject.id}/chapters",
+                params={"subcategory_id": category["id"]},
+                headers=catalog_headers,
+            )
+            assert response.status_code == 200, response.text
+            chapters = response.json()
+            assert chapters
+            assert all(item["subject_id"] == str(subject.id) for item in chapters)
+            assert all(item["subcategory_id"] == category["id"] for item in chapters)
+            category_chapter_ids.update(item["id"] for item in chapters)
+
+        all_chapters_response = client.get(
+            f"/api/exams/subjects/{subject.id}/chapters", headers=catalog_headers
+        )
+        assert all_chapters_response.status_code == 200, all_chapters_response.text
+        assert {item["id"] for item in all_chapters_response.json()} == category_chapter_ids
+    else:
+        all_chapters_response = client.get(
+            f"/api/exams/subjects/{subject.id}/chapters", headers=catalog_headers
+        )
+        assert all_chapters_response.status_code == 200, all_chapters_response.text
+        chapters = all_chapters_response.json()
+        assert chapters
+        assert all(item["subject_id"] == str(subject.id) for item in chapters)
+        assert all(item["subcategory_id"] is None for item in chapters)
+
+
 def test_availability_separates_difficulty_from_pyq_and_validates_counts(
     client: TestClient,
     catalog_headers: dict[str, str],
@@ -205,7 +308,7 @@ def test_availability_separates_difficulty_from_pyq_and_validates_counts(
     )
     assert easy.status_code == 200
     assert easy.json()["available_question_count"] == 4
-    assert easy.json()["allowed_question_counts"] == []
+    assert easy.json()["allowed_question_counts"] == [4]
 
     pyq = client.get(
         f"/api/exams/chapters/{chapter_id}/availability",
@@ -221,7 +324,33 @@ def test_availability_separates_difficulty_from_pyq_and_validates_counts(
         params={"level": "EASY", "question_count": 11},
         headers=catalog_headers,
     )
-    assert invalid_count.status_code == 422
+    assert invalid_count.status_code == 200
+    assert invalid_count.json()["can_satisfy_request"] is False
+
+
+def test_catalog_service_offers_exact_short_pool_for_difficulty_and_pyq(
+    db_session: Session,
+    catalog_records: dict[str, object],
+) -> None:
+    from app.schemas.catalog import PracticeLevel
+    from app.services.catalog_service import get_chapter_availability
+
+    chapter_id = catalog_records["chapter"].id
+    ordinary = get_chapter_availability(
+        db_session, chapter_id, PracticeLevel.EASY, requested_question_count=4,
+    )
+    assert ordinary is not None
+    assert ordinary["available_question_count"] == 4
+    assert ordinary["allowed_question_counts"] == [4]
+    assert ordinary["can_satisfy_request"] is True
+
+    pyq = get_chapter_availability(
+        db_session, chapter_id, PracticeLevel.PYQ, requested_question_count=5,
+    )
+    assert pyq is not None
+    assert pyq["available_question_count"] == 4
+    assert pyq["allowed_question_counts"] == [4]
+    assert pyq["can_satisfy_request"] is False
 
 
 def test_unknown_or_inactive_parent_ids_return_not_found(

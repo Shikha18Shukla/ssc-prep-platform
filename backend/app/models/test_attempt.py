@@ -13,6 +13,7 @@ from sqlalchemy import (
     ForeignKey,
     Index,
     Integer,
+    String,
     Uuid,
     func,
 )
@@ -74,6 +75,10 @@ class TestAttempt(Base, TimestampMixin):
         ForeignKey("chapters.id", ondelete="RESTRICT"),
         nullable=True,
         index=True,
+    )
+    test_type: Mapped[str | None] = mapped_column(
+        String(20),
+        nullable=True,
     )
     difficulty: Mapped[Difficulty | None] = mapped_column(
         SAEnum(Difficulty, name="difficulty_level"),

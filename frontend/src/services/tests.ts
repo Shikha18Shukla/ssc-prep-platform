@@ -12,8 +12,9 @@ export interface ActiveTest {
   id: string;
   exam_id: string;
   subject_id: string;
-  chapter_id: string;
-  difficulty: string;
+  chapter_id: string | null;
+  test_type: "CHAPTER_WISE" | "MISCELLANEOUS";
+  difficulty: string | null;
   question_count: number;
   duration_seconds: number;
   started_at: string;
@@ -54,10 +55,35 @@ export interface DashboardHistory {
   previous_tests: TestSummary[];
 }
 
-export function createTest(token: string, selection: {
-  exam_id: string; subject_id: string; subcategory_id: string | null;
-  chapter_id: string; difficulty: string; question_count: number;
-}) {
+export interface TestSelection {
+  exam_id: string;
+  subject_id: string;
+  test_type: "CHAPTER_WISE" | "MISCELLANEOUS";
+  subcategory_id: string | null;
+  chapter_id: string | null;
+  difficulty: string | null;
+  question_count: number;
+}
+export interface TestAvailability {
+  available_question_count: number;
+  allowed_question_counts: number[];
+  can_satisfy_request: boolean;
+}
+
+export function getTestAvailability(token: string, selection: Omit<TestSelection, "question_count"> & { question_count?: number }) {
+  const params: Record<string, string> = {
+    exam_id: selection.exam_id,
+    subject_id: selection.subject_id,
+    test_type: selection.test_type,
+  };
+  if (selection.chapter_id) params.chapter_id = selection.chapter_id;
+  if (selection.subcategory_id) params.subcategory_id = selection.subcategory_id;
+  if (selection.difficulty) params.difficulty = selection.difficulty;
+  if (selection.question_count !== undefined) params.question_count = String(selection.question_count);
+  return apiFetch<TestAvailability>("/tests/availability", { token, params });
+}
+
+export function createTest(token: string, selection: TestSelection) {
   return apiFetch<ActiveTest>("/tests", { token, method: "POST", body: JSON.stringify(selection) });
 }
 export function getTest(token: string, id: string) {

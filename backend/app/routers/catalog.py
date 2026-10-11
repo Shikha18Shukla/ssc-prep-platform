@@ -82,7 +82,7 @@ def get_chapters(
 def get_availability(
     chapter_id: uuid.UUID,
     level: PracticeLevel,
-    question_count: Annotated[int | None, Query(ge=10, le=25, multiple_of=5)] = None,
+    question_count: Annotated[int | None, Query(ge=1, le=25)] = None,
     db: Session = Depends(get_db),
 ) -> ChapterAvailability:
     availability = get_chapter_availability(db, chapter_id, level, question_count)
