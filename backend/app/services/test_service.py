@@ -130,8 +130,6 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
     if is_pyq and requested_level not in {"PYQ"}:
         raise HTTPException(status_code=422, detail="PYQ selection is invalid")
     if not is_pyq:
-        if subject.slug in DIFFICULTY_SUBJECT_SLUGS and difficulty is None:
-            raise HTTPException(status_code=422, detail="Select a difficulty for Maths or Reasoning tests")
         if subject.slug not in DIFFICULTY_SUBJECT_SLUGS and difficulty is not None:
             raise HTTPException(status_code=422, detail="Difficulty selection is only supported for Maths and Reasoning")
 

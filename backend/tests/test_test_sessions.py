@@ -81,6 +81,36 @@ def create_payload(records, count=10):
     }
 
 
+def ensure_percentage_test_pool(db_session: Session, chapter: Chapter):
+    """Provide 30 ordinary questions per difficulty for count-option integration tests."""
+    for difficulty in (Difficulty.EASY, Difficulty.MEDIUM, Difficulty.HARD):
+        existing = db_session.query(Question).filter_by(
+            chapter_id=chapter.id, difficulty=difficulty, is_active=True, is_pyq=False,
+        ).count()
+        for index in range(existing, 30):
+            question = Question(
+                chapter_id=chapter.id,
+                question_text=f"Percentage {difficulty.value} pool fixture item {index}",
+                difficulty=difficulty,
+                is_pyq=False,
+                is_active=True,
+                explanation="Fixture explanation.",
+            )
+            db_session.add(question)
+            db_session.flush()
+            db_session.add_all(
+                QuestionOption(
+                    question_id=question.id,
+                    option_key=key,
+                    option_text=f"Fixture {index} option {key}",
+                    display_order=position,
+                    is_correct=key == "A",
+                )
+                for position, key in enumerate("ABCD", start=1)
+            )
+    db_session.commit()
+
+
 def test_create_test_selects_random_distinct_questions_and_hides_answers(client: TestClient, test_setup):
     response = client.post("/api/tests", json=create_payload(test_setup), headers=test_setup["headers"])
     assert response.status_code == 201, response.text
@@ -259,15 +289,85 @@ def test_miscellaneous_rejects_chapter_and_keeps_questions_in_selected_subject(c
     assert response.status_code == 201, response.text
 
 
-def test_difficulty_is_required_only_for_maths_and_reasoning(client, test_setup):
+def test_maths_supports_mixed_difficulty_ordinary_tests_and_other_subjects_reject_difficulty(client, test_setup):
     payload = create_payload(test_setup)
     payload["difficulty"] = None
-    assert client.post("/api/tests", json=payload, headers=test_setup["headers"]).status_code == 422
+    response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert response.status_code == 201, response.text
+    body = response.json()
+    assert len(body["questions"]) == 10
+    assert "correct_option" not in body["questions"][0]
     payload["subject_id"] = str(test_setup["extra"]["english"]["subject"].id)
     payload["chapter_id"] = str(test_setup["extra"]["english"]["chapter"].id)
     payload["difficulty"] = "EASY"
     response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
     assert response.status_code == 422
+
+
+def test_mixed_difficulty_percentage_selection_supports_all_standard_counts(client, test_setup, db_session):
+    payload = create_payload(test_setup, 10)
+    payload["difficulty"] = None
+    params = {key: value for key, value in payload.items() if key != "question_count"}
+    params.pop("difficulty")
+    availability = client.get("/api/tests/availability", params=params, headers=test_setup["headers"])
+    assert availability.status_code == 200
+    assert availability.json()["allowed_question_counts"] == [10, 15, 20, 25]
+    for count in (10, 15, 20, 25):
+        payload["question_count"] = count
+        started = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+        assert started.status_code == 201, started.text
+        active = started.json()
+        questions = active["questions"]
+        assert len(questions) == count
+        assert len({item["question_text"] for item in questions}) == count
+        assert all("correct_option" not in item and "explanation" not in item for item in questions)
+        assert all("is_correct" not in option for item in questions for option in item["options"])
+        from app.models import TestAttempt, TestQuestion
+        attempt = db_session.get(TestAttempt, uuid.UUID(active["id"]))
+        rows = db_session.query(TestQuestion).filter_by(test_attempt_id=attempt.id).all()
+        assert len({row.question_id for row in rows}) == count
+        assert all(not row.question.is_pyq for row in rows)
+        assert client.post(f"/api/tests/{active['id']}/submit", headers=test_setup["headers"]).status_code == 200
+
+
+@pytest.mark.parametrize("difficulty", ["EASY", "MEDIUM", "HARD"])
+@pytest.mark.parametrize("count", [10, 15, 20, 25])
+def test_percentage_difficulty_selection_has_distinct_ordinary_question_counts(
+    client, test_setup, db_session, difficulty, count,
+):
+    ensure_percentage_test_pool(db_session, test_setup["chapter"])
+    payload = create_payload(test_setup, count)
+    payload["difficulty"] = difficulty
+    response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert response.status_code == 201, response.text
+    active = response.json()
+    assert active["question_count"] == count
+    assert active["duration_seconds"] == count * 36
+    assert len(active["questions"]) == count
+    assert all("correct_option" not in q and "explanation" not in q for q in active["questions"])
+    from app.models import TestAttempt, TestQuestion
+    attempt = db_session.get(TestAttempt, uuid.UUID(active["id"]))
+    rows = db_session.query(TestQuestion).filter_by(test_attempt_id=attempt.id).all()
+    assert len(rows) == count
+    assert len({row.question_id for row in rows}) == count
+    assert all(not row.question.is_pyq and row.question.difficulty.value == difficulty for row in rows)
+
+
+def test_percentage_attempt_order_persists_on_refresh_and_resamples_on_new_attempt(client, test_setup, db_session):
+    ensure_percentage_test_pool(db_session, test_setup["chapter"])
+    payload = create_payload(test_setup, 25)
+    payload["difficulty"] = "HARD"
+    headers = test_setup["headers"]
+    first = client.post("/api/tests", json=payload, headers=headers)
+    second = client.post("/api/tests", json=payload, headers=headers)
+    assert first.status_code == second.status_code == 201
+    first_body, second_body = first.json(), second.json()
+    first_order = [item["question_text"] for item in first_body["questions"]]
+    second_order = [item["question_text"] for item in second_body["questions"]]
+    assert first_order != second_order
+    refreshed = client.get(f"/api/tests/{first_body['id']}", headers=headers)
+    assert refreshed.status_code == 200
+    assert [item["question_text"] for item in refreshed.json()["questions"]] == first_order
 
 
 def test_pyq_selection_is_separate_from_difficulty(client, test_setup, db_session):
