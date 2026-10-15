@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-5 (all values are given below):\nCompany sales by year (units):\nYear | A | B\nP | 350 | 1150\nQ | 550 | 850\nR | 750 | 950\nS | 650 | 350\nT | 450 | 250\nQuestion: Let L1 be the absolute difference between the companies’ total sales and L2 be A’s average annual sales. Find L1:L2.",
+      "options": {
+        "A": "11:17",
+        "B": "16:11",
+        "C": "11:16",
+        "D": "13:12"
+      },
+      "correct_option": "B",
+      "explanation": "A totals 2,750 and B totals 3,550, so L1=800. A’s average is 2,750/5=550. Thus 800:550=16:11.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-6 (all values are given below):\nRefrigerator production by company (units):\nA 300; B 210; C 180; D 120; E 60; F 150\nQuestion: A’s production is what percent of E’s production?",
+      "options": {
+        "A": "500%",
+        "B": "600%",
+        "C": "400%",
+        "D": "200%"
+      },
+      "correct_option": "A",
+      "explanation": "300/60 × 100 = 500%.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-7 (all values are given below):\nBooks sold by two shops (books):\nMonth | S1 | S2\nM1 | 50 | 5\nM2 | 40 | 10\nM3 | 20 | 60\nM4 | 15 | 30\nM5 | 5 | 25\nQuestion: Let J1 be the combined total sold by both shops over five months and J2 the absolute difference between their totals. Find J1+J2.",
+      "options": {
+        "A": "160",
+        "B": "200",
+        "C": "130",
+        "D": "260"
+      },
+      "correct_option": "D",
+      "explanation": "S1 sold 130 and S2 sold 130. Therefore J1=260, J2=0, and J1+J2=260.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-9 (all values are given below):\nToy production by year (units):\nToy | 2016 | 2017 | 2018\nBicycle | 1500 | 2000 | 2500\nTrain | 1600 | 1800 | 2000\nCar | 1800 | 1600 | 2600\nBus | 2000 | 1600 | 3000\nQuestion: Find the ratio of cars plus trains produced in 2017 and 2018 to buses produced in all three years.",
+      "options": {
+        "A": "30:41",
+        "B": "33:40",
+        "C": "40:33",
+        "D": "35:41"
+      },
+      "correct_option": "C",
+      "explanation": "Cars and trains in 2017–18 total 1,600+2,600+1,800+2,000=8,000. Buses total 2,000+1,600+3,000=6,600. The ratio simplifies to 40:33.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-10 (all values are given below):\nArticles: cost price and profit (rupees):\nD | 700 | 200\nE | 600 | 150\nF | 400 | 300\nG | 500 | 400\nH | 300 | 250\nI | 800 | 350\nQuestion: Which statements are NOT correct? I. Profit on D, E and F is 30.63% of the cost price of G, H and I. II. Total cost price : total profit is 1:2.",
+      "options": {
+        "A": "Both I and II",
+        "B": "Neither I nor II",
+        "C": "Only II",
+        "D": "Only I"
+      },
+      "correct_option": "B",
+      "explanation": "Profit D+E+F=650 and cost G+H+I=1,600, so I is false (650/1,600=40.625%). Total cost=3,300 and profit=1,650, or 2:1, so II is also false.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-11 (all values are given below):\nAnnual profit percentage:\nYear | Profit %\n2016 | 45\n2017 | 70\n2018 | 60\n2019 | 40\n2020 | 55\nQuestion: What was the average profit percentage over these five years?",
+      "options": {
+        "A": "54%",
+        "B": "55%",
+        "C": "44%",
+        "D": "48%"
+      },
+      "correct_option": "A",
+      "explanation": "(45+70+60+40+55)/5 = 270/5 = 54%.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-12 (all values are given below):\nTeachers in five schools (people):\nSchool | Male | Female\nL | 160 | 180\nM | 180 | 170\nN | 170 | 120\nP | 150 | 110\nQ | 130 | 130\nQuestion: Which statement is correct? I. Male teachers at L are 135.44% of female teachers at P. II. Female teachers at M and N together : male teachers at N and P together = 29:32.",
+      "options": {
+        "A": "Both I and II",
+        "B": "Neither I nor II",
+        "C": "Only I",
+        "D": "Only II"
+      },
+      "correct_option": "D",
+      "explanation": "Statement I gives 160/110×100≈145.45%, so it is false. For II, (170+120):(170+150)=290:320=29:32, so only II is true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-13 (all values are given below):\nCalculators sold by shops L and M (units):\nMonth | L | M\nD | 350 | 305\nE | 340 | 310\nF | 320 | 360\nG | 315 | 330\nH | 305 | 325\nQuestion: Let J1 be L’s average monthly sales and J2 the absolute difference between the shops’ five-month totals. Find J2/J1.",
+      "options": {
+        "A": "326",
+        "B": "125",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "L totals 1,630, giving J1=1,630/5=326. M also totals 1,630, so J2=0 and J2/J1=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-14 (all values are given below):\nBooks sold (thousands):\nBranch | 2010 | 2011\nC1 | 67 | 75\nC2 | 79 | 91\nC3 | 85 | 76\nC4 | 66 | 86\nC5 | 83 | 72\nQuestion: Find the ratio of C2’s two-year sales to C4’s two-year sales.",
+      "options": {
+        "A": "76:85",
+        "B": "85:76",
+        "C": "169:153",
+        "D": "153:169"
+      },
+      "correct_option": "B",
+      "explanation": "C2 total=79+91=170 and C4 total=66+86=152. Simplifying 170:152 gives 85:76.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 14; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-15 (all values are given below):\nPatient temperature by time (°C):\n10:00 a.m. 34.5; 11:00 a.m. 35; 12:00 noon 38; 1:00 p.m. 38.5; 2:00 p.m. 34; 3:00 p.m. 34\nQuestion: At what time was the patient’s temperature highest?",
+      "options": {
+        "A": "1:00 p.m.",
+        "B": "12:00 noon",
+        "C": "10:00 a.m.",
+        "D": "11:00 a.m."
+      },
+      "correct_option": "A",
+      "explanation": "The largest listed temperature is 38.5°C, at 1:00 p.m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 15; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-16 (all values are given below):\nCompany income and expenditure (thousand rupees):\nYear | Income | Expenditure\nY1 | 700 | 300\nY2 | 500 | 200\nY3 | 400 | 300\nY4 | 800 | 200\nY5 | 300 | 150\nQuestion: In which year were savings lowest?",
+      "options": {
+        "A": "Y4",
+        "B": "Y2",
+        "C": "Y5",
+        "D": "Y3"
+      },
+      "correct_option": "D",
+      "explanation": "Savings are 400, 300, 100, 600 and 150 thousand rupees, respectively. The minimum is 100 in Y3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 16; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-17 (all values are given below):\nSix articles: cost price and profit (rupees):\nArticle | Cost | Profit\nJ | 650 | 150\nK | 550 | 100\nL | 350 | 250\nM | 450 | 350\nN | 250 | 200\nP | 750 | 300\nQuestion: Which statement is correct? I. Combined cost of J and K is 100% more than combined profit of L and M. II. Profit of N and P : cost of K and M = 2:1.",
+      "options": {
+        "A": "Only II",
+        "B": "Both I and II",
+        "C": "Only I",
+        "D": "Neither I nor II"
+      },
+      "correct_option": "C",
+      "explanation": "J+K cost=1,200, exactly 100% more than L+M profit=600. N+P profit : K+M cost=500:1,000=1:2, not 2:1. Only I is correct.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 17; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-18 (all values are given below):\nStudent marks:\nSubject | 2015 | 2016\nMathematics | 40 | 56\nHistory | 45 | 40\nScience | 67 | 68\nHindi | 34 | 90\nCivics | 40 | 60\nQuestion: History marks in 2016 are what percent of the student’s total Civics marks across both years?",
+      "options": {
+        "A": "55%",
+        "B": "40%",
+        "C": "50%",
+        "D": "60%"
+      },
+      "correct_option": "B",
+      "explanation": "History 2016=40; Civics total=40+60=100. Thus 40/100×100=40%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 18; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-19 (all values are given below):\nPopulation (thousands):\nYear | State P | State Q\nA | 150 | 300\nB | 250 | 200\nC | 175 | 125\nD | 100 | 75\nE | 50 | 150\nQuestion: What is the absolute difference between the two states’ total populations over all five years?",
+      "options": {
+        "A": "125",
+        "B": "150",
+        "C": "75",
+        "D": "275"
+      },
+      "correct_option": "A",
+      "explanation": "P totals 725 and Q totals 850 thousand. Their absolute difference is 125 thousand.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 19; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset PDF-20 (all values are given below):\nIncome and expenditure (thousand rupees):\nCompany | Expenditure | Income\nA | 45 | 35\nB | 40 | 50\nC | 45 | 40\nD | 30 | 40\nE | 45 | 50\nQuestion: Which company had the greatest percentage loss?",
+      "options": {
+        "A": "E",
+        "B": "B",
+        "C": "C",
+        "D": "A"
+      },
+      "correct_option": "D",
+      "explanation": "Only A and C made losses. A lost 10/45×100≈22.22%; C lost 5/45×100≈11.11%. A’s percentage loss is greater.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Data Interpretation PDF, page 20; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-01 (all values are given below):\nFruit sales (kg):\nStall | Apples | Pears | Plums\nA | 24 | 18 | 12\nB | 30 | 15 | 15\nC | 21 | 24 | 15\nQuestion: How many kilograms of apples did all three stalls sell?",
+      "options": {
+        "A": "69 kg",
+        "B": "78 kg",
+        "C": "75 kg",
+        "D": "81 kg"
+      },
+      "correct_option": "C",
+      "explanation": "24+30+21=75 kg.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-01 (all values are given below):\nFruit sales (kg):\nStall | Apples | Pears | Plums\nA | 24 | 18 | 12\nB | 30 | 15 | 15\nC | 21 | 24 | 15\nQuestion: What is the ratio of pears sold by C to pears sold by A?",
+      "options": {
+        "A": "3:4",
+        "B": "4:3",
+        "C": "4:5",
+        "D": "3:5"
+      },
+      "correct_option": "B",
+      "explanation": "24:18 simplifies to4:3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-01 (all values are given below):\nFruit sales (kg):\nStall | Apples | Pears | Plums\nA | 24 | 18 | 12\nB | 30 | 15 | 15\nC | 21 | 24 | 15\nQuestion: How many kilograms of fruit did stall B sell in total?",
+      "options": {
+        "A": "60 kg",
+        "B": "55 kg",
+        "C": "45 kg",
+        "D": "65 kg"
+      },
+      "correct_option": "A",
+      "explanation": "30+15+15=60 kg.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-02 (all values are given below):\nQuarterly sales (thousand units):\nProduct | Q1 | Q2 | Q3 | Q4\nP | 20 | 24 | 28 | 32\nQ | 18 | 20 | 22 | 26\nR | 25 | 20 | 30 | 25\nQuestion: What were product P’s total sales for the year?",
+      "options": {
+        "A": "96 thousand",
+        "B": "100 thousand",
+        "C": "108 thousand",
+        "D": "104 thousand"
+      },
+      "correct_option": "D",
+      "explanation": "20+24+28+32=104 thousand.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-02 (all values are given below):\nQuarterly sales (thousand units):\nProduct | Q1 | Q2 | Q3 | Q4\nP | 20 | 24 | 28 | 32\nQ | 18 | 20 | 22 | 26\nR | 25 | 20 | 30 | 25\nQuestion: By how many thousand units did Q4 sales of P exceed Q1 sales of Q?",
+      "options": {
+        "A": "12 thousand",
+        "B": "10 thousand",
+        "C": "14 thousand",
+        "D": "16 thousand"
+      },
+      "correct_option": "C",
+      "explanation": "32−18=14 thousand.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-02 (all values are given below):\nQuarterly sales (thousand units):\nProduct | Q1 | Q2 | Q3 | Q4\nP | 20 | 24 | 28 | 32\nQ | 18 | 20 | 22 | 26\nR | 25 | 20 | 30 | 25\nQuestion: What is the average quarterly sale of R?",
+      "options": {
+        "A": "24 thousand",
+        "B": "25 thousand",
+        "C": "26 thousand",
+        "D": "30 thousand"
+      },
+      "correct_option": "B",
+      "explanation": "(25+20+30+25)/4=25 thousand.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-03 (all values are given below):\nStudents choosing activities (students):\nSchool | Music | Art | Drama\nL | 35 | 25 | 20\nM | 30 | 32 | 18\nN | 28 | 22 | 30\nQuestion: How many students at school M chose Art?",
+      "options": {
+        "A": "32",
+        "B": "30",
+        "C": "28",
+        "D": "35"
+      },
+      "correct_option": "A",
+      "explanation": "The table gives 32 students.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-03 (all values are given below):\nStudents choosing activities (students):\nSchool | Music | Art | Drama\nL | 35 | 25 | 20\nM | 30 | 32 | 18\nN | 28 | 22 | 30\nQuestion: How many more students at L chose Music than Drama?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "18",
+        "D": "15"
+      },
+      "correct_option": "D",
+      "explanation": "35−20=15 students.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-03 (all values are given below):\nStudents choosing activities (students):\nSchool | Music | Art | Drama\nL | 35 | 25 | 20\nM | 30 | 32 | 18\nN | 28 | 22 | 30\nQuestion: How many students chose Drama across all three schools?",
+      "options": {
+        "A": "66",
+        "B": "70",
+        "C": "68",
+        "D": "72"
+      },
+      "correct_option": "C",
+      "explanation": "20+18+30=68 students.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-04 (all values are given below):\nHousehold budget shares (percent of monthly budget):\nFood 30%; Housing 25%; Transport 15%; Education 10%; Other 20%. Monthly budget = Rs 40,000.\nQuestion: How much is spent on food?",
+      "options": {
+        "A": "Rs 10,000",
+        "B": "Rs 12,000",
+        "C": "Rs 8,000",
+        "D": "Rs 14,000"
+      },
+      "correct_option": "B",
+      "explanation": "30% of Rs40,000 = Rs12,000.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-04 (all values are given below):\nHousehold budget shares (percent of monthly budget):\nFood 30%; Housing 25%; Transport 15%; Education 10%; Other 20%. Monthly budget = Rs 40,000.\nQuestion: What is the difference between housing and transport spending?",
+      "options": {
+        "A": "Rs 4,000",
+        "B": "Rs 3,000",
+        "C": "Rs 5,000",
+        "D": "Rs 6,000"
+      },
+      "correct_option": "A",
+      "explanation": "(25−15)% of Rs40,000=Rs4,000.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-04 (all values are given below):\nHousehold budget shares (percent of monthly budget):\nFood 30%; Housing 25%; Transport 15%; Education 10%; Other 20%. Monthly budget = Rs 40,000.\nQuestion: What percentage of the budget is spent on education and transport together?",
+      "options": {
+        "A": "20%",
+        "B": "30%",
+        "C": "35%",
+        "D": "25%"
+      },
+      "correct_option": "D",
+      "explanation": "10%+15%=25%.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-05 (all values are given below):\nBooks borrowed (books):\nClass | January | February\n5A | 42 | 38\n5B | 35 | 45\n5C | 48 | 40\nQuestion: How many books did class 5A borrow over both months?",
+      "options": {
+        "A": "78",
+        "B": "82",
+        "C": "80",
+        "D": "84"
+      },
+      "correct_option": "C",
+      "explanation": "42+38=80 books.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-05 (all values are given below):\nBooks borrowed (books):\nClass | January | February\n5A | 42 | 38\n5B | 35 | 45\n5C | 48 | 40\nQuestion: Which class borrowed the most books in February?",
+      "options": {
+        "A": "5A",
+        "B": "5B",
+        "C": "5C",
+        "D": "They tied"
+      },
+      "correct_option": "B",
+      "explanation": "February values are 38,45,40; the maximum is45.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-05 (all values are given below):\nBooks borrowed (books):\nClass | January | February\n5A | 42 | 38\n5B | 35 | 45\n5C | 48 | 40\nQuestion: How many books did all classes borrow in January?",
+      "options": {
+        "A": "125",
+        "B": "120",
+        "C": "128",
+        "D": "130"
+      },
+      "correct_option": "A",
+      "explanation": "42+35+48=125.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-06 (all values are given below):\nRainfall (mm):\nMonth | June | July | August | September\nTown A | 120 | 160 | 140 | 100\nTown B | 90 | 150 | 180 | 120\nQuestion: How much rainfall did Town A receive in July?",
+      "options": {
+        "A": "140 mm",
+        "B": "150 mm",
+        "C": "180 mm",
+        "D": "160 mm"
+      },
+      "correct_option": "D",
+      "explanation": "Read the July value for Town A:160 mm.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-06 (all values are given below):\nRainfall (mm):\nMonth | June | July | August | September\nTown A | 120 | 160 | 140 | 100\nTown B | 90 | 150 | 180 | 120\nQuestion: What was Town B’s total rainfall over these four months?",
+      "options": {
+        "A": "520 mm",
+        "B": "550 mm",
+        "C": "540 mm",
+        "D": "560 mm"
+      },
+      "correct_option": "C",
+      "explanation": "90+150+180+120=540 mm.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-06 (all values are given below):\nRainfall (mm):\nMonth | June | July | August | September\nTown A | 120 | 160 | 140 | 100\nTown B | 90 | 150 | 180 | 120\nQuestion: By how many millimetres did Town B’s August rainfall exceed Town A’s August rainfall?",
+      "options": {
+        "A": "20 mm",
+        "B": "40 mm",
+        "C": "30 mm",
+        "D": "60 mm"
+      },
+      "correct_option": "B",
+      "explanation": "180−140=40 mm.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-07 (all values are given below):\nBags collected for recycling (bags):\nGroup | Paper | Plastic\nA | 36 | 24\nB | 28 | 32\nC | 40 | 20\nD | 26 | 34\nQuestion: How many paper bags did the four groups collect?",
+      "options": {
+        "A": "130",
+        "B": "120",
+        "C": "128",
+        "D": "136"
+      },
+      "correct_option": "A",
+      "explanation": "36+28+40+26=130.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-07 (all values are given below):\nBags collected for recycling (bags):\nGroup | Paper | Plastic\nA | 36 | 24\nB | 28 | 32\nC | 40 | 20\nD | 26 | 34\nQuestion: What is the ratio of plastic bags collected by A to those collected by D?",
+      "options": {
+        "A": "17:12",
+        "B": "3:4",
+        "C": "2:3",
+        "D": "12:17"
+      },
+      "correct_option": "D",
+      "explanation": "24:34 simplifies to12:17.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-07 (all values are given below):\nBags collected for recycling (bags):\nGroup | Paper | Plastic\nA | 36 | 24\nB | 28 | 32\nC | 40 | 20\nD | 26 | 34\nQuestion: How many bags did group C collect in total?",
+      "options": {
+        "A": "56",
+        "B": "64",
+        "C": "60",
+        "D": "58"
+      },
+      "correct_option": "C",
+      "explanation": "40+20=60 bags.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-08 (all values are given below):\nMarks in a quiz (points):\nStudent | Round 1 | Round 2 | Round 3\nAsha | 18 | 20 | 22\nBala | 20 | 16 | 24\nCharu | 15 | 21 | 18\nQuestion: What is Asha’s total score?",
+      "options": {
+        "A": "58",
+        "B": "60",
+        "C": "62",
+        "D": "64"
+      },
+      "correct_option": "B",
+      "explanation": "18+20+22=60 points.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-08 (all values are given below):\nMarks in a quiz (points):\nStudent | Round 1 | Round 2 | Round 3\nAsha | 18 | 20 | 22\nBala | 20 | 16 | 24\nCharu | 15 | 21 | 18\nQuestion: What is the difference between Bala’s highest and lowest round scores?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "24−16=8 points.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset E-08 (all values are given below):\nMarks in a quiz (points):\nStudent | Round 1 | Round 2 | Round 3\nAsha | 18 | 20 | 22\nBala | 20 | 16 | 24\nCharu | 15 | 21 | 18\nQuestion: How many points did Charu score in Rounds 1 and 3 combined?",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "39",
+        "D": "33"
+      },
+      "correct_option": "D",
+      "explanation": "15+18=33 points.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-01 (all values are given below):\nMonthly output (thousand units):\nFactory | Jan | Feb | Mar | Apr\nA | 32 | 40 | 36 | 44\nB | 28 | 35 | 42 | 45\nC | 40 | 38 | 46 | 36\nQuestion: By what percent did A’s output rise from January to April?",
+      "options": {
+        "A": "25%",
+        "B": "30%",
+        "C": "37.5%",
+        "D": "40%"
+      },
+      "correct_option": "C",
+      "explanation": "(44−32)/32×100=37.5%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-01 (all values are given below):\nMonthly output (thousand units):\nFactory | Jan | Feb | Mar | Apr\nA | 32 | 40 | 36 | 44\nB | 28 | 35 | 42 | 45\nC | 40 | 38 | 46 | 36\nQuestion: What is the ratio of B’s four-month output to C’s?",
+      "options": {
+        "A": "16:15",
+        "B": "15:16",
+        "C": "3:4",
+        "D": "4:5"
+      },
+      "correct_option": "B",
+      "explanation": "B=150, C=160 thousand; ratio 150:160=15:16.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-01 (all values are given below):\nMonthly output (thousand units):\nFactory | Jan | Feb | Mar | Apr\nA | 32 | 40 | 36 | 44\nB | 28 | 35 | 42 | 45\nC | 40 | 38 | 46 | 36\nQuestion: What was the average monthly output of all three factories in March?",
+      "options": {
+        "A": "41.33 thousand",
+        "B": "40 thousand",
+        "C": "42 thousand",
+        "D": "43.33 thousand"
+      },
+      "correct_option": "A",
+      "explanation": "(36+42+46)/3=124/3=41.33 thousand.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-02 (all values are given below):\nTravel bookings (people):\nRoute | Mon | Tue | Wed\nNorth | 240 | 300 | 360\nSouth | 180 | 270 | 330\nEast | 200 | 250 | 350\nWest | 160 | 220 | 280\nQuestion: North bookings on Tuesday were what percent of all Tuesday bookings?",
+      "options": {
+        "A": "27.5%",
+        "B": "30%",
+        "C": "32.5%",
+        "D": "28.85%"
+      },
+      "correct_option": "D",
+      "explanation": "Tuesday total=1,040; 300/1,040×100≈28.85%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-02 (all values are given below):\nTravel bookings (people):\nRoute | Mon | Tue | Wed\nNorth | 240 | 300 | 360\nSouth | 180 | 270 | 330\nEast | 200 | 250 | 350\nWest | 160 | 220 | 280\nQuestion: What is the difference between total North and total West bookings?",
+      "options": {
+        "A": "220",
+        "B": "260",
+        "C": "240",
+        "D": "280"
+      },
+      "correct_option": "C",
+      "explanation": "North=900; West=660; difference=240.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-02 (all values are given below):\nTravel bookings (people):\nRoute | Mon | Tue | Wed\nNorth | 240 | 300 | 360\nSouth | 180 | 270 | 330\nEast | 200 | 250 | 350\nWest | 160 | 220 | 280\nQuestion: South bookings increased by what percent from Monday to Wednesday?",
+      "options": {
+        "A": "75%",
+        "B": "83.33%",
+        "C": "80%",
+        "D": "85%"
+      },
+      "correct_option": "B",
+      "explanation": "Increase=150; 150/180×100=83.33%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-03 (all values are given below):\nLibrary holdings (books):\nSection | Fiction | Science | History\nA | 420 | 280 | 300\nB | 360 | 340 | 250\nC | 480 | 320 | 350\nQuestion: What percent of all listed books are Science books?",
+      "options": {
+        "A": "30.32%",
+        "B": "28%",
+        "C": "32%",
+        "D": "35%"
+      },
+      "correct_option": "A",
+      "explanation": "Science=940; grand total=3,100; 940/3,100×100≈30.32%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-03 (all values are given below):\nLibrary holdings (books):\nSection | Fiction | Science | History\nA | 420 | 280 | 300\nB | 360 | 340 | 250\nC | 480 | 320 | 350\nQuestion: Find the ratio of Section C holdings to Section B holdings.",
+      "options": {
+        "A": "19:23",
+        "B": "6:5",
+        "C": "5:4",
+        "D": "23:19"
+      },
+      "correct_option": "D",
+      "explanation": "C=1,150, B=950; 1,150:950=23:19.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-03 (all values are given below):\nLibrary holdings (books):\nSection | Fiction | Science | History\nA | 420 | 280 | 300\nB | 360 | 340 | 250\nC | 480 | 320 | 350\nQuestion: How many more Fiction than History books are listed altogether?",
+      "options": {
+        "A": "320",
+        "B": "340",
+        "C": "360",
+        "D": "400"
+      },
+      "correct_option": "C",
+      "explanation": "Fiction=1,260; History=900; difference=360.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-04 (all values are given below):\nOnline orders (orders):\nDay | Electronics | Clothing | Home\nMon | 125 | 180 | 95\nTue | 150 | 160 | 110\nWed | 175 | 210 | 105\nThu | 200 | 190 | 130\nQuestion: Electronics orders on Thursday were what percent more than Monday?",
+      "options": {
+        "A": "50%",
+        "B": "60%",
+        "C": "55%",
+        "D": "65%"
+      },
+      "correct_option": "B",
+      "explanation": "Increase=75; 75/125×100=60%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-04 (all values are given below):\nOnline orders (orders):\nDay | Electronics | Clothing | Home\nMon | 125 | 180 | 95\nTue | 150 | 160 | 110\nWed | 175 | 210 | 105\nThu | 200 | 190 | 130\nQuestion: What is the ratio of Clothing orders to Home orders over all four days?",
+      "options": {
+        "A": "740:440",
+        "B": "37:20",
+        "C": "22:37",
+        "D": "3:2"
+      },
+      "correct_option": "A",
+      "explanation": "Clothing=740, Home=440; ratio is 37:22 (equivalently 740:440).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-04 (all values are given below):\nOnline orders (orders):\nDay | Electronics | Clothing | Home\nMon | 125 | 180 | 95\nTue | 150 | 160 | 110\nWed | 175 | 210 | 105\nThu | 200 | 190 | 130\nQuestion: What was the average total number of orders per day?",
+      "options": {
+        "A": "450",
+        "B": "460",
+        "C": "465",
+        "D": "457.5"
+      },
+      "correct_option": "D",
+      "explanation": "Daily totals 400,420,490,520 sum=1,830; average=457.5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-05 (all values are given below):\nCrop yield (tonnes):\nFarm | Wheat | Rice | Maize\nP | 48 | 36 | 24\nQ | 42 | 45 | 33\nR | 55 | 40 | 25\nS | 35 | 50 | 30\nQuestion: What percent of the total yield came from Farm R?",
+      "options": {
+        "A": "20.5%",
+        "B": "24%",
+        "C": "25.92%",
+        "D": "27.5%"
+      },
+      "correct_option": "C",
+      "explanation": "R=120; total=463; 120/463×100≈25.92%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-05 (all values are given below):\nCrop yield (tonnes):\nFarm | Wheat | Rice | Maize\nP | 48 | 36 | 24\nQ | 42 | 45 | 33\nR | 55 | 40 | 25\nS | 35 | 50 | 30\nQuestion: Find the ratio of total rice yield to total maize yield.",
+      "options": {
+        "A": "3:2",
+        "B": "171:112",
+        "C": "19:14",
+        "D": "112:171"
+      },
+      "correct_option": "B",
+      "explanation": "Rice=171, maize=112.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-05 (all values are given below):\nCrop yield (tonnes):\nFarm | Wheat | Rice | Maize\nP | 48 | 36 | 24\nQ | 42 | 45 | 33\nR | 55 | 40 | 25\nS | 35 | 50 | 30\nQuestion: How many tonnes did Farms P and S produce together?",
+      "options": {
+        "A": "223",
+        "B": "218",
+        "C": "225",
+        "D": "230"
+      },
+      "correct_option": "A",
+      "explanation": "P=108; S=115; combined=223.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-06 (all values are given below):\nMonthly electricity use (kWh):\nHouse | May | June | July\nA | 240 | 300 | 360\nB | 320 | 280 | 400\nC | 200 | 260 | 340\nQuestion: House A’s July use was what percent of the three houses’ July total?",
+      "options": {
+        "A": "30%",
+        "B": "33%",
+        "C": "36%",
+        "D": "32.73%"
+      },
+      "correct_option": "D",
+      "explanation": "July total=1,100; 360/1,100×100≈32.73%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-06 (all values are given below):\nMonthly electricity use (kWh):\nHouse | May | June | July\nA | 240 | 300 | 360\nB | 320 | 280 | 400\nC | 200 | 260 | 340\nQuestion: What is the difference between House B’s total and House C’s total use?",
+      "options": {
+        "A": "180 kWh",
+        "B": "220 kWh",
+        "C": "200 kWh",
+        "D": "240 kWh"
+      },
+      "correct_option": "C",
+      "explanation": "B=1,000; C=800; difference=200 kWh.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-06 (all values are given below):\nMonthly electricity use (kWh):\nHouse | May | June | July\nA | 240 | 300 | 360\nB | 320 | 280 | 400\nC | 200 | 260 | 340\nQuestion: By what percent did House A use increase from May to July?",
+      "options": {
+        "A": "40%",
+        "B": "50%",
+        "C": "45%",
+        "D": "60%"
+      },
+      "correct_option": "B",
+      "explanation": "(360−240)/240×100=50%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-07 (all values are given below):\nTournament points (points):\nTeam | League | Cup | Friendly\nFalcons | 38 | 24 | 18\nTigers | 32 | 30 | 20\nWolves | 40 | 18 | 26\nEagles | 28 | 34 | 22\nQuestion: What is the average Friendly score across the four teams?",
+      "options": {
+        "A": "21.5",
+        "B": "20.5",
+        "C": "21",
+        "D": "22"
+      },
+      "correct_option": "A",
+      "explanation": "(18+20+26+22)/4=86/4=21.5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-07 (all values are given below):\nTournament points (points):\nTeam | League | Cup | Friendly\nFalcons | 38 | 24 | 18\nTigers | 32 | 30 | 20\nWolves | 40 | 18 | 26\nEagles | 28 | 34 | 22\nQuestion: League points of Falcons and Wolves together are what percent of all League points?",
+      "options": {
+        "A": "50%",
+        "B": "54%",
+        "C": "60%",
+        "D": "56.52%"
+      },
+      "correct_option": "D",
+      "explanation": "78/(38+32+40+28)×100=78/138×100≈56.52%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-07 (all values are given below):\nTournament points (points):\nTeam | League | Cup | Friendly\nFalcons | 38 | 24 | 18\nTigers | 32 | 30 | 20\nWolves | 40 | 18 | 26\nEagles | 28 | 34 | 22\nQuestion: What is the ratio of Tigers’ total points to Eagles’ total points?",
+      "options": {
+        "A": "42:41",
+        "B": "4:5",
+        "C": "82:84",
+        "D": "5:4"
+      },
+      "correct_option": "C",
+      "explanation": "Tigers=82, Eagles=84; simplifies 41:42.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-08 (all values are given below):\nWater supplied (thousand litres):\nZone | Morning | Afternoon | Evening\n1 | 18 | 12 | 15\n2 | 20 | 14 | 16\n3 | 16 | 18 | 14\n4 | 22 | 10 | 20\n5 | 14 | 16 | 18\nQuestion: What percent of Zone 3’s daily supply was delivered in the afternoon?",
+      "options": {
+        "A": "35%",
+        "B": "37.5%",
+        "C": "40%",
+        "D": "42.5%"
+      },
+      "correct_option": "B",
+      "explanation": "Zone3 total=48; 18/48×100=37.5%.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-08 (all values are given below):\nWater supplied (thousand litres):\nZone | Morning | Afternoon | Evening\n1 | 18 | 12 | 15\n2 | 20 | 14 | 16\n3 | 16 | 18 | 14\n4 | 22 | 10 | 20\n5 | 14 | 16 | 18\nQuestion: Find the ratio of total morning supply to total evening supply.",
+      "options": {
+        "A": "90:83",
+        "B": "83:90",
+        "C": "10:9",
+        "D": "9:8"
+      },
+      "correct_option": "A",
+      "explanation": "Morning=90; evening=83.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset M-08 (all values are given below):\nWater supplied (thousand litres):\nZone | Morning | Afternoon | Evening\n1 | 18 | 12 | 15\n2 | 20 | 14 | 16\n3 | 16 | 18 | 14\n4 | 22 | 10 | 20\n5 | 14 | 16 | 18\nQuestion: Which zone received the greatest total daily supply?",
+      "options": {
+        "A": "Zone 2",
+        "B": "Zone 3",
+        "C": "Zone 5",
+        "D": "Zone 4"
+      },
+      "correct_option": "D",
+      "explanation": "Totals:45,50,48,52,48; greatest is 52 in Zone4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-01 (all values are given below):\nExport revenue (million dollars):\nFirm | 2022 | 2023 | 2024\nA | 24 | 30 | 36\nB | 20 | 28 | 32\nC | 18 | 24 | 30\nD | 28 | 26 | 34\nQuestion: By what percent did combined revenue rise from 2022 to 2024?",
+      "options": {
+        "A": "45%",
+        "B": "50%",
+        "C": "46.67%",
+        "D": "55%"
+      },
+      "correct_option": "C",
+      "explanation": "2022=90; 2024=132; rise 42/90×100=46.67%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-01 (all values are given below):\nExport revenue (million dollars):\nFirm | 2022 | 2023 | 2024\nA | 24 | 30 | 36\nB | 20 | 28 | 32\nC | 18 | 24 | 30\nD | 28 | 26 | 34\nQuestion: Firm B’s three-year revenue is what percent of the four firms’ total revenue?",
+      "options": {
+        "A": "22.5%",
+        "B": "24.24%",
+        "C": "25.64%",
+        "D": "28%"
+      },
+      "correct_option": "B",
+      "explanation": "B=80; grand total=330; 80/330×100≈24.24%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-01 (all values are given below):\nExport revenue (million dollars):\nFirm | 2022 | 2023 | 2024\nA | 24 | 30 | 36\nB | 20 | 28 | 32\nC | 18 | 24 | 30\nD | 28 | 26 | 34\nQuestion: What is the ratio of Firm A’s 2023–24 revenue to Firm C’s three-year revenue?",
+      "options": {
+        "A": "11:12",
+        "B": "12:11",
+        "C": "5:6",
+        "D": "7:8"
+      },
+      "correct_option": "A",
+      "explanation": "A=66; C=72; ratio=11:12.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-02 (all values are given below):\nVehicle registrations (vehicles):\nRegion | Cars | Motorcycles | Buses\nNorth | 840 | 1260 | 300\nSouth | 720 | 1440 | 360\nEast | 960 | 1080 | 240\nWest | 680 | 1220 | 400\nQuestion: Motorcycles are what percent of all registrations?",
+      "options": {
+        "A": "45%",
+        "B": "48%",
+        "C": "55%",
+        "D": "52.63%"
+      },
+      "correct_option": "D",
+      "explanation": "Motorcycles=5,000; total=9,500; share≈52.63%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-02 (all values are given below):\nVehicle registrations (vehicles):\nRegion | Cars | Motorcycles | Buses\nNorth | 840 | 1260 | 300\nSouth | 720 | 1440 | 360\nEast | 960 | 1080 | 240\nWest | 680 | 1220 | 400\nQuestion: If East car registrations rise 12.5%, how many will there be?",
+      "options": {
+        "A": "1,060",
+        "B": "1,100",
+        "C": "1,080",
+        "D": "1,120"
+      },
+      "correct_option": "C",
+      "explanation": "960×1.125=1,080.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-02 (all values are given below):\nVehicle registrations (vehicles):\nRegion | Cars | Motorcycles | Buses\nNorth | 840 | 1260 | 300\nSouth | 720 | 1440 | 360\nEast | 960 | 1080 | 240\nWest | 680 | 1220 | 400\nQuestion: Find the ratio of South and West bus registrations together to North and East car registrations together.",
+      "options": {
+        "A": "9:19",
+        "B": "19:45",
+        "C": "45:19",
+        "D": "2:5"
+      },
+      "correct_option": "B",
+      "explanation": "Buses=760; cars=1,800; ratio=19:45.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-03 (all values are given below):\nDepartment salaries (thousand rupees):\nDepartment | Junior | Senior | Manager\nP | 28 | 42 | 70\nQ | 32 | 48 | 80\nR | 30 | 45 | 75\nS | 36 | 54 | 90\nQuestion: The workforce proportions of P, Q, R and S are 10:8:12:10. What is the weighted mean salary across the departments?",
+      "options": {
+        "A": "Rs 45,530",
+        "B": "Rs 44,500",
+        "C": "Rs 46,465",
+        "D": "Rs 48,000"
+      },
+      "correct_option": "A",
+      "explanation": "Department means are P=40.6, Q=46.4, R=43.5, S=52.2 thousand. Weighted mean=(10×40.6+8×46.4+12×43.5+10×52.2)/40=45.53 thousand.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-03 (all values are given below):\nDepartment salaries (thousand rupees):\nDepartment | Junior | Senior | Manager\nP | 28 | 42 | 70\nQ | 32 | 48 | 80\nR | 30 | 45 | 75\nS | 36 | 54 | 90\nQuestion: Across all four departments, manager pay is what percent more than junior pay?",
+      "options": {
+        "A": "125%",
+        "B": "145%",
+        "C": "175%",
+        "D": "150%"
+      },
+      "correct_option": "D",
+      "explanation": "Manager total=315; junior total=126; difference/126×100=150%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-03 (all values are given below):\nDepartment salaries (thousand rupees):\nDepartment | Junior | Senior | Manager\nP | 28 | 42 | 70\nQ | 32 | 48 | 80\nR | 30 | 45 | 75\nS | 36 | 54 | 90\nQuestion: For Department Q, senior salaries are what percent of its combined junior and manager salaries?",
+      "options": {
+        "A": "40%",
+        "B": "45%",
+        "C": "42.86%",
+        "D": "48%"
+      },
+      "correct_option": "C",
+      "explanation": "48/(32+80)×100=42.86%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-04 (all values are given below):\nProduction and defects (units):\nPlant | Produced | Defective\nA | 2400 | 48\nB | 3000 | 45\nC | 1800 | 54\nD | 2800 | 56\nQuestion: Which plant has the lowest defect rate?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct_option": "B",
+      "explanation": "Rates: A2%, B1.5%, C3%, D2%; minimum B.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-04 (all values are given below):\nProduction and defects (units):\nPlant | Produced | Defective\nA | 2400 | 48\nB | 3000 | 45\nC | 1800 | 54\nD | 2800 | 56\nQuestion: What is the overall defect rate?",
+      "options": {
+        "A": "2.03%",
+        "B": "1.8%",
+        "C": "2.2%",
+        "D": "2.5%"
+      },
+      "correct_option": "A",
+      "explanation": "Defects=203; output=10,000; rate=2.03%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-04 (all values are given below):\nProduction and defects (units):\nPlant | Produced | Defective\nA | 2400 | 48\nB | 3000 | 45\nC | 1800 | 54\nD | 2800 | 56\nQuestion: If Plant C reduces defects by one-third with unchanged output, how many fewer defects will it have?",
+      "options": {
+        "A": "16",
+        "B": "20",
+        "C": "24",
+        "D": "18"
+      },
+      "correct_option": "D",
+      "explanation": "One-third of 54=18.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-05 (all values are given below):\nExam results (students):\nSchool | Appeared | Passed\nA | 480 | 360\nB | 520 | 390\nC | 450 | 360\nD | 550 | 385\nQuestion: Which school has the highest pass percentage?",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correct_option": "C",
+      "explanation": "Rates: A75%, B75%, C80%, D70%; C highest.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-05 (all values are given below):\nExam results (students):\nSchool | Appeared | Passed\nA | 480 | 360\nB | 520 | 390\nC | 450 | 360\nD | 550 | 385\nQuestion: What percent of all appeared students passed?",
+      "options": {
+        "A": "72.5%",
+        "B": "74.75%",
+        "C": "76%",
+        "D": "78%"
+      },
+      "correct_option": "B",
+      "explanation": "Passed=1,495; appeared=2,000; 74.75%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-05 (all values are given below):\nExam results (students):\nSchool | Appeared | Passed\nA | 480 | 360\nB | 520 | 390\nC | 450 | 360\nD | 550 | 385\nQuestion: How many additional passes would D need to match School C’s pass rate?",
+      "options": {
+        "A": "55",
+        "B": "45",
+        "C": "50",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "explanation": "At80% of550=440; 440−385=55.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-06 (all values are given below):\nWarehouse inventory (crates):\nWarehouse | Start | Received | Dispatched\nA | 620 | 180 | 250\nB | 540 | 260 | 310\nC | 700 | 150 | 420\nD | 480 | 320 | 270\nQuestion: What is the ratio of total closing stock in A and C to that in B and D?",
+      "options": {
+        "A": "51:49",
+        "B": "7:6",
+        "C": "5:4",
+        "D": "49:51"
+      },
+      "correct_option": "D",
+      "explanation": "Closing A550,C430=980; B490,D530=1,020; ratio49:51.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-06 (all values are given below):\nWarehouse inventory (crates):\nWarehouse | Start | Received | Dispatched\nA | 620 | 180 | 250\nB | 540 | 260 | 310\nC | 700 | 150 | 420\nD | 480 | 320 | 270\nQuestion: Closing stock across all warehouses is what percent of total starting stock?",
+      "options": {
+        "A": "82.5%",
+        "B": "87.5%",
+        "C": "85.47%",
+        "D": "90%"
+      },
+      "correct_option": "C",
+      "explanation": "Closing=2,000; start=2,340; 85.47%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-06 (all values are given below):\nWarehouse inventory (crates):\nWarehouse | Start | Received | Dispatched\nA | 620 | 180 | 250\nB | 540 | 260 | 310\nC | 700 | 150 | 420\nD | 480 | 320 | 270\nQuestion: If 15% of Warehouse B closing stock is damaged, how many usable crates remain?",
+      "options": {
+        "A": "410",
+        "B": "416.5",
+        "C": "420",
+        "D": "425"
+      },
+      "correct_option": "B",
+      "explanation": "B closing=490; usable=85%×490=416.5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-07 (all values are given below):\nMonthly spending (rupees):\nCategory | January | February | March\nRent | 12000 | 12000 | 12000\nFood | 8000 | 9000 | 7500\nTravel | 3000 | 4500 | 3500\nUtilities | 2500 | 2000 | 3000\nQuestion: Food was what percent of total three-month spending?",
+      "options": {
+        "A": "31.01%",
+        "B": "28%",
+        "C": "33%",
+        "D": "35%"
+      },
+      "correct_option": "A",
+      "explanation": "Food=24,500; all=79,000; 24,500/79,000×100≈31.01%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-07 (all values are given below):\nMonthly spending (rupees):\nCategory | January | February | March\nRent | 12000 | 12000 | 12000\nFood | 8000 | 9000 | 7500\nTravel | 3000 | 4500 | 3500\nUtilities | 2500 | 2000 | 3000\nQuestion: By what percent did total spending change from January to February?",
+      "options": {
+        "A": "6.5%",
+        "B": "8.5%",
+        "C": "10%",
+        "D": "7.84%"
+      },
+      "correct_option": "D",
+      "explanation": "Jan=25,500; Feb=27,500; rise 2,000/25,500=7.84%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-07 (all values are given below):\nMonthly spending (rupees):\nCategory | January | February | March\nRent | 12000 | 12000 | 12000\nFood | 8000 | 9000 | 7500\nTravel | 3000 | 4500 | 3500\nUtilities | 2500 | 2000 | 3000\nQuestion: In March, rent and food together were what percent of total spending?",
+      "options": {
+        "A": "70%",
+        "B": "72.5%",
+        "C": "75%",
+        "D": "77.5%"
+      },
+      "correct_option": "C",
+      "explanation": "19,500/26,000×100=75%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-08 (all values are given below):\nPassenger counts (thousands):\nStation | 06–09 | 09–12 | 12–15 | 15–18\nP | 18 | 26 | 34 | 22\nQ | 24 | 30 | 28 | 18\nR | 20 | 24 | 36 | 20\nS | 16 | 22 | 30 | 32\nQuestion: What share of all passengers travelled during 12–15?",
+      "options": {
+        "A": "30%",
+        "B": "32%",
+        "C": "34%",
+        "D": "36%"
+      },
+      "correct_option": "B",
+      "explanation": "12–15=128; total=400; share=32%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-08 (all values are given below):\nPassenger counts (thousands):\nStation | 06–09 | 09–12 | 12–15 | 15–18\nP | 18 | 26 | 34 | 22\nQ | 24 | 30 | 28 | 18\nR | 20 | 24 | 36 | 20\nS | 16 | 22 | 30 | 32\nQuestion: Station S’s peak-period count (15–18) is what percent greater than its 06–09 count?",
+      "options": {
+        "A": "100%",
+        "B": "80%",
+        "C": "90%",
+        "D": "110%"
+      },
+      "correct_option": "A",
+      "explanation": "(32−16)/16×100=100%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-08 (all values are given below):\nPassenger counts (thousands):\nStation | 06–09 | 09–12 | 12–15 | 15–18\nP | 18 | 26 | 34 | 22\nQ | 24 | 30 | 28 | 18\nR | 20 | 24 | 36 | 20\nS | 16 | 22 | 30 | 32\nQuestion: Find the ratio of Q’s total to P’s total passengers.",
+      "options": {
+        "A": "5:4",
+        "B": "4:5",
+        "C": "6:5",
+        "D": "1:1"
+      },
+      "correct_option": "D",
+      "explanation": "Q=100 and P=100, ratio 1:1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-09 (all values are given below):\nCrop procurement (tonnes):\nDistrict | Wheat | Rice | Pulses\nA | 150 | 120 | 60\nB | 180 | 90 | 80\nC | 120 | 160 | 70\nD | 210 | 130 | 90\nQuestion: Rice is what percent of total procurement?",
+      "options": {
+        "A": "30%",
+        "B": "40%",
+        "C": "34.25%",
+        "D": "45%"
+      },
+      "correct_option": "C",
+      "explanation": "Rice=500; total=1,460; 500/1,460×100≈34.25%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-09 (all values are given below):\nCrop procurement (tonnes):\nDistrict | Wheat | Rice | Pulses\nA | 150 | 120 | 60\nB | 180 | 90 | 80\nC | 120 | 160 | 70\nD | 210 | 130 | 90\nQuestion: District C’s pulses are what percent of its wheat and rice combined?",
+      "options": {
+        "A": "20%",
+        "B": "25%",
+        "C": "28%",
+        "D": "30%"
+      },
+      "correct_option": "B",
+      "explanation": "70/(120+160)×100=25%.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "data-interpretation",
+      "question_text": "Dataset H-09 (all values are given below):\nCrop procurement (tonnes):\nDistrict | Wheat | Rice | Pulses\nA | 150 | 120 | 60\nB | 180 | 90 | 80\nC | 120 | 160 | 70\nD | 210 | 130 | 90\nQuestion: What is the ratio of total wheat and pulses procurement to rice procurement?",
+      "options": {
+        "A": "48:25",
+        "B": "25:48",
+        "C": "19:10",
+        "D": "2:1"
+      },
+      "correct_option": "A",
+      "explanation": "Wheat=660, pulses=300, rice=500; 960:500=48:25.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

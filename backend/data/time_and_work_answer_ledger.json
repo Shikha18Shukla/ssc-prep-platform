@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 4; exam/year not stated",
+    "question": "A can complete a job in 10 days and B can complete it in 15 days. How long will they take working together?",
+    "expected_answer": "6 days",
+    "calculation": "Their combined daily rate is 1/10 + 1/15 = 1/6 of the job."
+  },
+  {
+    "row": 2,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 5; exam/year not stated",
+    "question": "M can complete a job in 10 days, N in 30 days, and P in 45 days. How long do they take together?",
+    "expected_answer": "6 3/7 days",
+    "calculation": "Using 90 work units, their rates are 9, 3, and 2 units/day. Time = 90/14 = 45/7 days."
+  },
+  {
+    "row": 3,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 6; exam/year not stated",
+    "question": "Ajay and Vijay finish a job together in 28 days. With Manoj's help, they finish it in 21 days. How long would Manoj take alone?",
+    "expected_answer": "84 days",
+    "calculation": "The three-person rate is 1/21 and Ajay plus Vijay work at 1/28. Manoj’s rate is 1/84."
+  },
+  {
+    "row": 4,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 7; exam/year not stated",
+    "question": "A and B finish a job in 12 days, B and C in 15 days, and A and C in 20 days. How long do all three take together?",
+    "expected_answer": "10 days",
+    "calculation": "The sum of the pair rates is 1/12+1/15+1/20=1/5, which is twice the combined rate."
+  },
+  {
+    "row": 5,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 8; exam/year not stated",
+    "question": "Anand and Ravi finish a job in 12 days, Ravi and Chinmay in 16 days, and Chinmay and Anand in 48 days. How long does Ravi take alone?",
+    "expected_answer": "16 days",
+    "calculation": "Adding pair rates gives 1/12+1/16+1/48=1/6, twice the sum of all individual rates; subtract the other pair rates to get Ravi’s rate 1/16."
+  },
+  {
+    "row": 6,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 9; exam/year not stated",
+    "question": "A and B finish a job in 8 days, B and C in 12 days, and all three in 6 days. How long will A and C take together?",
+    "expected_answer": "8 days",
+    "calculation": "A+C rate = 1/6 - (1/12 - 1/6?) Equivalently, A+B+C=1/6 and B=(1/8+1/12-1/6)=1/24, so A+C=1/8."
+  },
+  {
+    "row": 7,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 10; exam/year not stated",
+    "question": "A completes 2/3 of a job in 8 days and B completes 3/5 of the same job in 6 days. How long will they take together?",
+    "expected_answer": "5 5/11 days",
+    "calculation": "A’s rate is 1/12 and B’s is 1/10; combined rate 11/60 gives 60/11 days."
+  },
+  {
+    "row": 8,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 11; exam/year not stated",
+    "question": "A completes half a job in 5 days, B completes three-fifths in 9 days, and C completes two-thirds in 8 days. How long do they take together?",
+    "expected_answer": "4 days",
+    "calculation": "Their rates are 1/10, 1/15, and 1/12; the sum is 1/4 job/day."
+  },
+  {
+    "row": 9,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 12; exam/year not stated",
+    "question": "X completes 20% of a job in 8 days and Y completes 25% in 6 days. How many days do they need together to complete 40% of the job?",
+    "expected_answer": "6 days",
+    "calculation": "X’s full-job time is 40 days and Y’s is 24 days. Their combined rate is 1/40+1/24=1/15; 40% takes 6 days."
+  },
+  {
+    "row": 10,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 13; exam/year not stated",
+    "question": "A, B, and C can complete a job alone in 72, 24, and 36 days. How long do they take together?",
+    "expected_answer": "12 days",
+    "calculation": "Their combined rate is 1/72+1/24+1/36=1/12."
+  },
+  {
+    "row": 11,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 14; exam/year not stated",
+    "question": "A completes a job in x days and B in 3x days. Together they finish it in 12 days. Find x.",
+    "expected_answer": "16",
+    "calculation": "1/x+1/(3x)=1/12, so 4/(3x)=1/12 and x=16."
+  },
+  {
+    "row": 12,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 15; exam/year not stated",
+    "question": "X and Y make a machine together in 12 days. Y alone takes 48 days. How long does X take alone?",
+    "expected_answer": "16 days",
+    "calculation": "X’s rate is 1/12-1/48=1/16."
+  },
+  {
+    "row": 13,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 16; exam/year not stated",
+    "question": "A, B, and C together finish a job in 30 minutes. A and B together take 50 minutes. How long does C take alone?",
+    "expected_answer": "75 minutes",
+    "calculation": "C’s rate is 1/30-1/50=1/75 job/minute."
+  },
+  {
+    "row": 14,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 17; exam/year not stated",
+    "question": "A can finish a job in 5 days; with his son he finishes in 3 days. How long does the son take alone?",
+    "expected_answer": "7 1/2 days",
+    "calculation": "The son’s rate is 1/3-1/5=2/15, so his time is 15/2 days."
+  },
+  {
+    "row": 15,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 18; exam/year not stated",
+    "question": "A and B finish a job in 4 1/2 hours, B and C in 3 hours, and C and A in 2 1/4 hours. How long do all three take together?",
+    "expected_answer": "2 hours",
+    "calculation": "Adding the pair rates gives 2/9+1/3+4/9=1 job/hour, twice the three-person rate."
+  },
+  {
+    "row": 16,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 19; exam/year not stated",
+    "question": "P and Q can complete a job in 15 and 10 days. Q starts and leaves after 5 days. How long does P take to finish the remaining work?",
+    "expected_answer": "7 1/2 days",
+    "calculation": "Q completes 1/2 the job in 5 days; P completes the remaining half in 7.5 days."
+  },
+  {
+    "row": 17,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 20; exam/year not stated",
+    "question": "A and B take 10 and 20 days to finish a job. They work together for 5 days, then A leaves. How many additional days does B need?",
+    "expected_answer": "5 days",
+    "calculation": "Together they complete 3/4 in 5 days, leaving 1/4; B’s rate 1/20 completes it in 5 days."
+  },
+  {
+    "row": 18,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 21; exam/year not stated",
+    "question": "A king and queen can finish a job in 14 and 21 days. They start together, but the king leaves 3 days before completion. How long does the job take?",
+    "expected_answer": "10.2 days",
+    "calculation": "Let total time be T. (T-3)/14 + T/21=1, so 5T=51 and T=10.2 days."
+  },
+  {
+    "row": 19,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 01_.pdf, page 22; exam/year not stated",
+    "question": "Ram and Lakshmana take 16 and 20 days to finish a job. They work together for 4 days, then Ram leaves. How many more days does Lakshmana need?",
+    "expected_answer": "11 days",
+    "calculation": "Using 80 units, their rates are 5 and 4 units/day. They complete 36 units together, leaving 44; Lakshmana needs 11 days."
+  },
+  {
+    "row": 20,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 6; exam/year not stated",
+    "question": "A and B take 25 and 20 days to finish a job. They work together for 10 days, then A leaves. How many total days are needed?",
+    "expected_answer": "12 days",
+    "calculation": "Together they complete 9/10 in 10 days; the remaining 1/10 takes B 2 days. Total = 12 days."
+  },
+  {
+    "row": 21,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 7; exam/year not stated",
+    "question": "A, B, and C take 20, 24, and 30 days alone. All start; A leaves after 4 days and B leaves 6 days before completion. How long does the job take?",
+    "expected_answer": "14 days",
+    "calculation": "First 4 days complete 1/2. C works the final 6 days for 1/5. B+C work for T-10 days at 3/40 per day, so 1/2+1/5+(3/40)(T-10)=1, giving T=14."
+  },
+  {
+    "row": 22,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 9; exam/year not stated",
+    "question": "A and B together finish a job in 15 days. After 5 days A leaves, and B finishes the rest in 15 more days. How long would A take alone?",
+    "expected_answer": "45 days",
+    "calculation": "A+B rate is 1/15. B’s rate is (1-5/15)/15=2/45; A’s rate is 1/45."
+  },
+  {
+    "row": 23,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 10; exam/year not stated",
+    "question": "A and B take 20 days together. After 4 days A leaves, and B completes the remainder in 24 more days. How long would A take alone?",
+    "expected_answer": "60 days",
+    "calculation": "Four joint days complete 1/5; B does the remaining 4/5 in 24 days, so B takes 30 days alone. A’s rate is 1/20-1/30=1/60."
+  },
+  {
+    "row": 24,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 11; exam/year not stated",
+    "question": "A and B finish a job in 30 days. After working together for 20 days, B leaves and A completes the rest in 20 days. How long would A take alone?",
+    "expected_answer": "60 days",
+    "calculation": "A+B complete 2/3 in 20 days; the remaining 1/3 in 20 days gives A rate 1/60."
+  },
+  {
+    "row": 25,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 12; exam/year not stated",
+    "question": "A takes 60 days to finish a job. After working 15 days, B alone finishes the remainder in 30 days. How long do A and B take together?",
+    "expected_answer": "24 days",
+    "calculation": "B completes 3/4 in 30 days, so rate 1/40; combined rate 1/60+1/40=1/24."
+  },
+  {
+    "row": 26,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 13; exam/year not stated",
+    "question": "A and B take 20 and 40 days alone and work on alternate days, starting with A. On which day is the job completed?",
+    "expected_answer": "27th day",
+    "calculation": "Each two-day cycle completes 3/40. After 26 days they have done 39/40; A finishes the remainder on day 27."
+  },
+  {
+    "row": 27,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 14; exam/year not stated",
+    "question": "A and B take 16 and 12 days alone. They work on alternate days, starting with A. When is the job completed?",
+    "expected_answer": "13 3/4 days",
+    "calculation": "A two-day cycle completes 7/48. After 12 days, 6/48 remains; A completes 3/48 on day 13, leaving 3/48, which B completes in 3/4 day."
+  },
+  {
+    "row": 28,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 15; exam/year not stated",
+    "question": "Ganga and Saraswati take 8 and 12 hours to harvest a field. They work alternate one-hour shifts, starting with Ganga at 9:00 a.m. When is the field finished?",
+    "expected_answer": "6:30 p.m.",
+    "calculation": "Their two-hour cycle completes 5/24. After 8 hours, 5/6 is done; Ganga’s next hour leaves 1/24 and Saraswati finishes that in half an hour."
+  },
+  {
+    "row": 29,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: Time and Work 02.pdf, page 16; exam/year not stated",
+    "question": "Fatima and Zahira take 12 and 15 days alone. They work alternate days, starting with Fatima. How long does the job take?",
+    "expected_answer": "13 1/4 days",
+    "calculation": "A two-day cycle completes 3/20. After 12 days, 1/10 remains; A’s day leaves 1/60, completed by Zahira in 1/4 day."
+  },
+  {
+    "row": 30,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 6; exam/year not stated",
+    "question": "A takes 10 days, B 30 days, and C 60 days to finish a job. A works each day with B and C alternating as helpers, starting with B. How long does the job take?",
+    "expected_answer": "8 days",
+    "calculation": "Daily rates alternate 1/10+1/30=2/15 and 1/10+1/60=7/60; each two-day cycle completes 1/4, so four cycles take 8 days."
+  },
+  {
+    "row": 31,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 7; exam/year not stated",
+    "question": "A, B, and C take 20, 15, and 12 days alone. B and C help A on alternate days, starting with B. How long does the job take?",
+    "expected_answer": "8 days",
+    "calculation": "A+B rate is 7/60 and A+C is 2/15; each two-day cycle completes 1/4, so 4 cycles take 8 days."
+  },
+  {
+    "row": 32,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 9; exam/year not stated",
+    "question": "A, B, and C take 6, 12, and 8 days alone. They work on alternate days in that order, starting with A. How long does the job take?",
+    "expected_answer": "7 1/2 days",
+    "calculation": "A three-day cycle completes 1/6+1/12+1/8=3/8. After two cycles, 3/4 is done; A completes the remaining 1/4 at 1/6 per day in 1 1/2 days, for a total of 7 1/2 days."
+  },
+  {
+    "row": 33,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 11; exam/year not stated",
+    "question": "Forty-five men dig a pond in 18 days. How many men are needed to finish the same pond in 15 days?",
+    "expected_answer": "54 men",
+    "calculation": "Work is proportional to men-days: 45×18 = m×15, so m=54."
+  },
+  {
+    "row": 34,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 12; exam/year not stated",
+    "question": "Fifteen men working 8 hours daily finish a job in 20 days. How many hours daily must 20 men work to finish it in 12 days?",
+    "expected_answer": "10 hours",
+    "calculation": "Men-hours are constant: 15×8×20=20×h×12, so h=10."
+  },
+  {
+    "row": 35,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 13; exam/year not stated",
+    "question": "Twenty-four men working 7 hours daily finish a job in 27 days. How many days will 14 men working 9 hours daily need?",
+    "expected_answer": "36 days",
+    "calculation": "24×7×27=14×9×d, so d=36."
+  },
+  {
+    "row": 36,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 14; exam/year not stated",
+    "question": "Forty men build a 200-m wall in 12 days at 8 hours per day. How many days will 30 men need to build a 300-m wall at 6 hours per day?",
+    "expected_answer": "32 days",
+    "calculation": "Time scales with wall length and inversely with men and hours: 12×(300/200)×(40/30)×(8/6)=32."
+  },
+  {
+    "row": 37,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 15; exam/year not stated",
+    "question": "Eighteen men working 6 hours daily build a meeting hall in 30 days. How many men are needed to build a hall 16 times as large in 27 days at 6 hours daily?",
+    "expected_answer": "320 men",
+    "calculation": "Required men =18×30×16/27=320."
+  },
+  {
+    "row": 38,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 16; exam/year not stated",
+    "question": "A fort has food for 1,500 people for 50 days. After 15 days, more people arrive and the remaining food lasts 25 days. How many people arrived?",
+    "expected_answer": "600 people",
+    "calculation": "Food remaining is 1,500×35 person-days. Thus the new population is 1,500×35/25=2,100; 600 arrived."
+  },
+  {
+    "row": 39,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 17; exam/year not stated",
+    "question": "A fort has food for 200 soldiers for 31 days. After 27 days, 120 soldiers leave. How many more days beyond the original plan will the remaining food last?",
+    "expected_answer": "6 days",
+    "calculation": "Remaining food is 200×4=800 soldier-days. For 80 soldiers it lasts 10 days, which is 6 days more than the planned 4."
+  },
+  {
+    "row": 40,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 18; exam/year not stated",
+    "question": "Forty-five men can finish a job in 16 days. After 4 days, 36 more men join. How many additional days are needed?",
+    "expected_answer": "6 2/3 days",
+    "calculation": "Total work is 720 man-days; 180 are done. The remaining 540 require 540/81=20/3 days."
+  },
+  {
+    "row": 41,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 19; exam/year not stated",
+    "question": "Twenty men finish a job in 18 days. They work for 3 days, then 5 more men join. How many more days are needed?",
+    "expected_answer": "12 days",
+    "calculation": "Total work is 360 man-days; 60 are done, leaving 300. At 25 men, 300/25=12 days."
+  },
+  {
+    "row": 42,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 22; exam/year not stated",
+    "question": "Forty men finish a job in 30 days. Every 10 days, 5 men leave. How long does the job take?",
+    "expected_answer": "36 days",
+    "calculation": "Total work is 1,200 man-days. The first 30 days use 400+350+300=1,050; the remaining 150 takes 6 days with 25 men."
+  },
+  {
+    "row": 43,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 03.pdf, page 23; exam/year not stated",
+    "question": "Sixty men finish a job in 40 days. After each 10-day interval, 5 men leave. How long does the work take?",
+    "expected_answer": "47 1/2 days",
+    "calculation": "Total work is 2,400 man-days. In four 10-day periods, 600+550+500+450=2,100 are done. The remaining 300 takes 7.5 days with 40 men."
+  },
+  {
+    "row": 44,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 6; exam/year not stated",
+    "question": "A contractor plans a road in 40 days with 25 men. After 24 days, only one-third is complete. How many extra men are needed to finish 4 days early?",
+    "expected_answer": "75 men",
+    "calculation": "Remaining 2/3 must be built in 12 days. The current 25 workers produced 1/3 in 24 days, so required crew is 100; 75 extra."
+  },
+  {
+    "row": 45,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 7; exam/year not stated",
+    "question": "Two hundred eighty laborers plan to build a 5-km road in 100 days. After 80 days, 3.5 km is built. How many additional laborers are needed to finish on time?",
+    "expected_answer": "200 laborers",
+    "calculation": "At the observed rate, 280 laborers build 3.5 km in 80 days. To build the remaining 1.5 km in 20 days requires 480 laborers total, or 200 more."
+  },
+  {
+    "row": 46,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 8; exam/year not stated",
+    "question": "Raghav completes a job in 6 days. Rahul is 50% more efficient than Raghav. How long does Rahul take?",
+    "expected_answer": "4 days",
+    "calculation": "A 50% higher rate means Rahul’s time is 6/1.5=4 days."
+  },
+  {
+    "row": 47,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 9; exam/year not stated",
+    "question": "Chandan completes a job in 15 days. Shivkumar is 50% more efficient. How long does Shivkumar take?",
+    "expected_answer": "10 days",
+    "calculation": "His rate is 1.5 times Chandan’s, so his time is 15/1.5=10 days."
+  },
+  {
+    "row": 48,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 10; exam/year not stated",
+    "question": "A is 70% more efficient than B. A alone takes 9 days. How long do they take together?",
+    "expected_answer": "5 2/3 days",
+    "calculation": "Their rate ratio is 17:10. The combined rate is 27/17 of B’s; since A’s rate is 1/9, combined rate is 27/(17×9)=3/17, giving 17/3 days."
+  },
+  {
+    "row": 49,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 11; exam/year not stated",
+    "question": "X works three times as fast as Y and finishes a job 40 days earlier. How long do they take together?",
+    "expected_answer": "15 days",
+    "calculation": "Let X’s time be t and Y’s 3t. Their difference 2t=40, so t=20 and Y=60; their combined time is 15 days."
+  },
+  {
+    "row": 50,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 12; exam/year not stated",
+    "question": "Rajan and Kamlesh take 4 and 6 days alone. Akash is 1 1/2 times as efficient as Rajan. How long do all three take together?",
+    "expected_answer": "1 5/19 days",
+    "calculation": "Rates are 1/4, 1/6, and 3/8; total 19/24 job/day, so time is 24/19 days."
+  },
+  {
+    "row": 51,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 13; exam/year not stated",
+    "question": "A, B, and C together finish a job in 6 days. A is twice as efficient as B and three times as efficient as C. How long does C take alone?",
+    "expected_answer": "33 days",
+    "calculation": "Rates A:B:C=6:3:2; total 11 units/day. The job is 66 units, so C at 2 units/day takes 33 days."
+  },
+  {
+    "row": 52,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 15; exam/year not stated",
+    "question": "A does three times as much work per day as B. Together they complete 2/5 of a job in 9 days. How long would B take alone?",
+    "expected_answer": "90 days",
+    "calculation": "Combined rate is 2/45. Since A:B=3:1, B’s rate is one-fourth of that, 1/90."
+  },
+  {
+    "row": 53,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 18; exam/year not stated",
+    "question": "A and B take 15 and 10 days to finish a contract worth ₹30,000. What is A’s share if pay is proportional to work done?",
+    "expected_answer": "₹12,000",
+    "calculation": "Their rates are 2:3, so A receives 2/5 of ₹30,000."
+  },
+  {
+    "row": 54,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 19; exam/year not stated",
+    "question": "A alone finishes a job in 6 days for ₹900. A and a helper finish it together in 4 days. How much should the helper receive?",
+    "expected_answer": "₹300",
+    "calculation": "A’s rate is 1/6; the helper’s is 1/4-1/6=1/12. Their contribution ratio is 2:1, so helper receives ₹300."
+  },
+  {
+    "row": 55,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 20; exam/year not stated",
+    "question": "A and B earn ₹250 for a job. A takes 5 days, B 15 days, and together with C they finish in 3 days. How much does C earn?",
+    "expected_answer": "₹50",
+    "calculation": "Rates A+B+C=1/3; A+B=1/5+1/15=4/15, so C=1/15. In 3 days C contributes 1/5 of the job, or ₹50."
+  },
+  {
+    "row": 56,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 21; exam/year not stated",
+    "question": "A and B take 12 and 15 days alone. With C, they finish in 5 days for ₹960. How much does A receive if pay is proportional to work?",
+    "expected_answer": "₹400",
+    "calculation": "Rates A:B:C = 5:4:3: A’s share is 5/12 of ₹960 = ₹400."
+  },
+  {
+    "row": 57,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 04_.pdf, page 22; exam/year not stated",
+    "question": "Three workers are paid ₹1,200 for a job. They take 8, 12, and 16 days alone. A fourth helper joins and they finish in 3 days. How much should the helper receive?",
+    "expected_answer": "₹225",
+    "calculation": "The first three rates total 13/48; the four-person rate is 1/3, so the helper rate is 1/16. In 3 days the helper contributes 3/16 of the job, worth ₹225."
+  },
+  {
+    "row": 58,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 4; exam/year not stated",
+    "question": "Three men or five women can finish a job in 12 days. How long will six men and five women take?",
+    "expected_answer": "4 days",
+    "calculation": "One man’s rate is 1/36 and one woman’s 1/60. The team rate is 6/36+5/60=1/4 job/day."
+  },
+  {
+    "row": 59,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 7; exam/year not stated",
+    "question": "Twenty men or 24 women finish a job in 20 days. How long will 30 men and 12 women take?",
+    "expected_answer": "10 days",
+    "calculation": "Their rates are 1/20 and 1/20 for the two full groups. The new team rate is 30/400+12/480=1/10."
+  },
+  {
+    "row": 60,
+    "difficulty": "EASY",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 8; exam/year not stated",
+    "question": "One man or two women or three children can finish a job in 88 days. How long will one man, one woman, and one child take together?",
+    "expected_answer": "48 days",
+    "calculation": "Their combined rate is 1/88+1/176+1/264=1/48."
+  },
+  {
+    "row": 61,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 9; exam/year not stated",
+    "question": "Forty men, 60 women, or 80 children can finish a job in 6 months. How long will 10 men, 10 women, and 10 children take?",
+    "expected_answer": "11 1/13 months",
+    "calculation": "The three groups contribute 1/4+1/6+1/8=13/24 of the job per 6 months; time is 144/13 months."
+  },
+  {
+    "row": 62,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 10; exam/year not stated",
+    "question": "Two men and three women finish a job in 10 days; three men and two women finish it in 8 days. How long will two men and one woman take?",
+    "expected_answer": "12 1/2 days",
+    "calculation": "Solving 2m+3w=1/10 and 3m+2w=1/8 gives m=7w/2 and w=1/100. Thus 2m+w=2/25 job/day."
+  },
+  {
+    "row": 63,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 11; exam/year not stated",
+    "question": "Three men and four boys finish a job in 12 days; four men and three boys finish it in 10 days. How long will two men and three boys take?",
+    "expected_answer": "17 1/2 days",
+    "calculation": "Solving the two rate equations gives one man’s rate 9/2 times one boy’s and 2m+3b=2/35 job/day."
+  },
+  {
+    "row": 64,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 12; exam/year not stated",
+    "question": "Two men and one woman finish a job in 14 days; two men and four women finish it in 8 days. If a man earns ₹90 per day, what is a woman’s daily wage?",
+    "expected_answer": "₹60",
+    "calculation": "The rate equations give the man-to-woman efficiency ratio 3:2; wages have the same ratio."
+  },
+  {
+    "row": 65,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 13; exam/year not stated",
+    "question": "Three men and two women finish a job in 12 days; three men and five women finish it in 8 days. If a man earns ₹120 per day, what is a woman’s daily wage?",
+    "expected_answer": "₹90",
+    "calculation": "The rate equations give man-to-woman efficiency 4:3, hence the woman’s wage is 120×3/4=₹90."
+  },
+  {
+    "row": 66,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 14; exam/year not stated",
+    "question": "A and B together finish a job in 12 days, and B and C in 16 days. A works 5 days, B 7 days, and C finishes the remainder in 13 days. How long does B take alone?",
+    "expected_answer": "None of these",
+    "calculation": "From 5A+7B+13C=1, A+B=1/12, and B+C=1/16, we get B=1/48, so B needs 48 days."
+  },
+  {
+    "row": 67,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 15; exam/year not stated",
+    "question": "A and B finish a job in 30 days and B and C in 20 days. A works 5 days, B 15 days, then C finishes the job in 18 days. How long does C take alone?",
+    "expected_answer": "24 days",
+    "calculation": "Substitute A=1/30-B and C=1/20-B into 5A+15B+18C=1; this gives C=1/24."
+  },
+  {
+    "row": 68,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 16; exam/year not stated",
+    "question": "A and B together take T days. A alone takes T+3 days and B alone T+12 days. Find T.",
+    "expected_answer": "6 days",
+    "calculation": "T/(T+3)+T/(T+12)=1, so T²=36 and T=6."
+  },
+  {
+    "row": 69,
+    "difficulty": "HARD",
+    "source": "Verified from supplied PDF: _Time and Work 05_ Class Notes.pdf, page 18; exam/year not stated",
+    "question": "Anu and Manu work together on a design. Manu alone needs 8 hours more than their joint time; Anu alone needs 4.5 hours more. How long does Anu take alone?",
+    "expected_answer": "10.5 hours",
+    "calculation": "Let their joint time be t. t/(t+8)+t/(t+4.5)=1 gives t²=36; Anu takes t+4.5=10.5 hours."
+  },
+  {
+    "row": 70,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "question": "A team completes a job in 18 days when it works 5 hours each day. At the same pace and staffing, how many days will it need if it works 6 hours each day?",
+    "expected_answer": "15 days",
+    "calculation": "The total work is 18×5=90 team-hours. At 6 hours per day, it takes 90/6=15 days."
+  },
+  {
+    "row": 71,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "question": "A completes 2/3 of a task in 8 days, and B completes the remaining 1/3 in 3 days. What is the ratio of B’s daily work rate to A’s?",
+    "expected_answer": "4:3",
+    "calculation": "A’s rate is (2/3)/8=1/12 and B’s is (1/3)/3=1/9. Thus B:A=(1/9):(1/12)=4:3."
+  },
+  {
+    "row": 72,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "question": "A completes 3/5 of a job in 12 days. How many days for the whole job at the same rate?",
+    "expected_answer": "20 days",
+    "calculation": "The full time is 12÷(3/5)=20 days."
+  },
+  {
+    "row": 73,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "question": "A and B finish a task together in 8 days. A alone takes 12 days. How long does B take alone?",
+    "expected_answer": "24 days",
+    "calculation": "B’s rate is 1/8-1/12=1/24."
+  },
+  {
+    "row": 74,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "question": "A takes 15 days to finish a job. What fraction does A complete in 6 days?",
+    "expected_answer": "2/5",
+    "calculation": "A completes 6/15=2/5 of the work."
+  },
+  {
+    "row": 75,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "question": "A machine produces 240 parts in 6 hours. How many parts will it produce in 9 hours at the same rate?",
+    "expected_answer": "360 parts",
+    "calculation": "Its rate is 40 parts/hour; 40×9=360."
+  },
+  {
+    "row": 76,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "question": "A and B finish in 12 days, B and C in 15 days, and A and C in 20 days. How long does B take alone?",
+    "expected_answer": "20 days",
+    "calculation": "B’s rate is half[(A+B)+(B+C)-(A+C)]=1/2(1/12+1/15-1/20)=1/20."
+  },
+  {
+    "row": 77,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "question": "A and B finish a job in 10 days. A works alone for 4 days, then B alone finishes in 12 days. How long does A take alone?",
+    "expected_answer": "40 days",
+    "calculation": "Let their daily rates be a and b. From a+b=1/10 and 4a+12b=1, subtracting 4(a+b)=2/5 gives 8b=3/5, so a=1/40."
+  },
+  {
+    "row": 78,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 8 and 12 days alone. They alternate full days starting with A. When is the job finished?",
+    "expected_answer": "9 1/2 days",
+    "calculation": "Each two-day cycle completes 5/24. After 8 days 20/24 is done; A’s day completes 3/24, leaving 1/24 for half of B’s day."
+  },
+  {
+    "row": 79,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 12 and 18 days. A works alone for 3 days, then B joins. How many total days are needed?",
+    "expected_answer": "8.4 days",
+    "calculation": "A completes 1/4; remaining 3/4 at combined rate 5/36 takes 27/5 days; total 8.4 days."
+  },
+  {
+    "row": 80,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 10 and 15 days. After working together for 3 days, A leaves. How many days from the start until completion?",
+    "expected_answer": "10.5 days",
+    "calculation": "They complete 1/2 in 3 days, and B needs 7.5 more days; total 10.5 days."
+  },
+  {
+    "row": 81,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 12 and 18 days. They work together for 4 days; A leaves, and C completes the remainder in 6 days. How long would C take alone?",
+    "expected_answer": "13.5 days",
+    "calculation": "After 4 days 5/9 is done, leaving 4/9. C’s rate is (4/9)/6=2/27, so time 27/2=13.5 days."
+  },
+  {
+    "row": 82,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A, B, and C take 10, 15, and 20 days respectively. How long do they take together?",
+    "expected_answer": "60/13 days",
+    "calculation": "Their combined rate is 1/10+1/15+1/20=13/60, so the time is 60/13 days."
+  },
+  {
+    "row": 83,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A, B, and C take 12, 18, and 24 days. A works the first 2 days, B the next 3 days, and C finishes the job. How many days does C work?",
+    "expected_answer": "16 days",
+    "calculation": "A and B complete 2/12+3/18=1/3; C completes 2/3 at 1/24 per day, taking 16 days."
+  },
+  {
+    "row": 84,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A completes a job in 16 days. B is 25% more efficient. How many days do they take together?",
+    "expected_answer": "64/9 days",
+    "calculation": "B’s rate is 5/64; combined with A’s 1/16=4/64, rate is 9/64."
+  },
+  {
+    "row": 85,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 20 and 30 days. They alternate days starting with A. How long until completion?",
+    "expected_answer": "24 days",
+    "calculation": "Each pair completes 1/20+1/30=1/12; 12 cycles complete the job in 24 days."
+  },
+  {
+    "row": 86,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 10 and 12 days. A works alone for 2 days; B joins, then A leaves after 3 more days. How many days does B need to finish the rest?",
+    "expected_answer": "3 days",
+    "calculation": "A completes 1/5; together they complete 3×11/60=11/20. The remainder is 1/4; B at 1/12 takes 3 days."
+  },
+  {
+    "row": 87,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A and B together take 8 days. A is twice as efficient as B. How long will A take alone?",
+    "expected_answer": "12 days",
+    "calculation": "Let B rate be r, A=2r; 3r=1/8, so A rate=1/12."
+  },
+  {
+    "row": 88,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 12 and 16 days, while C takes 24 days. They work together for 4 days, then A leaves. How many additional days do B and C need?",
+    "expected_answer": "2.4 days",
+    "calculation": "All three complete 3/16 per day, so 4 days complete 3/4. Remaining 1/4 at B+C rate 5/48 takes 12/5=2.4 days."
+  },
+  {
+    "row": 89,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A and B take 15 and 20 days. A works every day; B works every second day, starting on day 2. How long until the job is complete?",
+    "expected_answer": "11 1/4 days",
+    "calculation": "Each 2-day cycle completes 2/15+1/20=11/60. After 10 days, 1/12 remains; A at 1/15 per day needs 1.25 days."
+  },
+  {
+    "row": 90,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "question": "A can complete a project in 24 days. B is 50% more efficient than A. They work together for 8 days, then B leaves. How much longer does A need?",
+    "expected_answer": "4 days",
+    "calculation": "Combined rate is 1/24+1/16=5/48; in 8 days they complete 5/6, leaving 1/6. A’s rate 1/24 needs 4 days."
+  }
+]

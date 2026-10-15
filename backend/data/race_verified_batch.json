@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1200 m race bike A beats B by 100 m. In a 600 m race B beats C by 100 m. If A beats C by 30 seconds in a 720 m race, find C’s speed.",
+      "options": {
+        "A": "16/3 m/s",
+        "B": "17/3 m/s",
+        "C": "18/3 m/s",
+        "D": "26/3 m/s"
+      },
+      "correct_option": "B",
+      "explanation": "The speed ratios are A:B=12:11 and B:C=6:5, so A:B:C=72:66:55. For 720 m, the time difference between C and A is (720/55v)(17/72)=170/(55v)=30; hence v=17/3 m/s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 2; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1000 m race Kamal beats Ravi by 120 m. If Kamal runs at 40 km/h, what is Ravi’s speed?",
+      "options": {
+        "A": "35.2 km/h",
+        "B": "38.7 km/h",
+        "C": "26.8 km/h",
+        "D": "29.6 km/h"
+      },
+      "correct_option": "A",
+      "explanation": "When Kamal finishes, Ravi has run 880 m, so speed ratio K:R=1000:880=25:22. Ravi’s speed=40×22/25=35.2 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 2; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 400 m race A runs at 16 m/s. A gives B a 15 m start and still wins by 10 seconds. What is B’s speed?",
+      "options": {
+        "A": "10 m/s",
+        "B": "13 m/s",
+        "C": "9 m/s",
+        "D": "11 m/s"
+      },
+      "correct_option": "D",
+      "explanation": "A takes 400/16=25 s. B runs 385 m and takes 25+10=35 s, so B’s speed=385/35=11 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 3; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Ajit runs 2 2/3 times as fast as Madhav. Madhav starts 160 m ahead. How far from Ajit’s start should the finish be for them to arrive together?",
+      "options": {
+        "A": "225 m",
+        "B": "200 m",
+        "C": "256 m",
+        "D": "240 m"
+      },
+      "correct_option": "C",
+      "explanation": "Let the finish be x metres from Ajit’s start. Equal times give x/(8v/3)=(x−160)/v, so 3x=8x−1280 and x=256 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 4; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 5 km race S gives T a 500 m start. They finish together. If T’s speed is 13.5 km/h, what is S’s speed?",
+      "options": {
+        "A": "20 km/h",
+        "B": "15 km/h",
+        "C": "17.5 km/h",
+        "D": "16.5 km/h"
+      },
+      "correct_option": "B",
+      "explanation": "T runs 4.5 km in 4.5/13.5=1/3 h. S covers 5 km in that time, so S’s speed is 15 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two runners start together on a 4225 m circular track in opposite directions at 54 km/h and 63 km/h. When do they first meet again?",
+      "options": {
+        "A": "130 seconds",
+        "B": "120 seconds",
+        "C": "140 seconds",
+        "D": "150 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "Convert speeds to 15 and 17.5 m/s. Relative speed=32.5 m/s; time for one combined lap=4225/32.5=130 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two cyclists ride around a 75 km circular track at 30 km/h and 25 km/h. After how many hours will both next be at their starting point together?",
+      "options": {
+        "A": "16 hours",
+        "B": "14 hours",
+        "C": "7 hours",
+        "D": "15 hours"
+      },
+      "correct_option": "D",
+      "explanation": "Lap times are 75/30=2.5 h and 75/25=3 h. Their first common return time is LCM(2.5,3)=15 h.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Sony and Mony run in the same direction on a 200 m circular track at 18 km/h and 24 km/h. When will they next meet at the starting point together?",
+      "options": {
+        "A": "100 seconds",
+        "B": "110 seconds",
+        "C": "120 seconds",
+        "D": "90 seconds"
+      },
+      "correct_option": "C",
+      "explanation": "18 km/h=5 m/s, giving a 40 s lap; 24 km/h=20/3 m/s, giving a 30 s lap. LCM(40,30)=120 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two people run in opposite directions on a 100 m circular track at 20 m/s and 30 m/s. At how many distinct points do they meet?",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "explanation": "Meetings recur every 100/(20+30)=2 s. The first runner advances 40 m between meetings, so the meeting locations cycle through 100/gcd(100,40)=5 distinct points.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "P and Q run in the same direction from one point on a circular track. P runs at 6 m/s; Q runs at a natural-number speed below 6. If they meet at exactly two distinct points, what can Q’s speed be?",
+      "options": {
+        "A": "2 m/s",
+        "B": "3 m/s",
+        "C": "4 m/s",
+        "D": "1 m/s"
+      },
+      "correct_option": "A",
+      "explanation": "For speeds 6 and b, meeting positions repeat after (6−b)/gcd(6,b) distinct points. Testing b=1,…,5 gives 5,2,1,1,1 respectively; only b=2 works.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Verified from supplied Race PDF, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner completes a 100 m sprint in 20 seconds. What is the average speed?",
+      "options": {
+        "A": "4 m/s",
+        "B": "6 m/s",
+        "C": "8 m/s",
+        "D": "5 m/s"
+      },
+      "correct_option": "D",
+      "explanation": "100/20=5 m/s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Riya covers 200 m in 32 seconds. What is her speed in m/s?",
+      "options": {
+        "A": "5.25 m/s",
+        "B": "6.5 m/s",
+        "C": "6.25 m/s",
+        "D": "7.25 m/s"
+      },
+      "correct_option": "C",
+      "explanation": "200/32=6.25 m/s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A 400 m runner maintains 7.5 m/s. How long does the race take?",
+      "options": {
+        "A": "50 seconds",
+        "B": "53 1/3 seconds",
+        "C": "55 seconds",
+        "D": "60 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "400/7.5=160/3=53 1/3 seconds.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 300 m race, Dev finishes in 50 seconds. At the instant he finishes, how far has an equally paced rival who runs at 5.5 m/s travelled?",
+      "options": {
+        "A": "275 m",
+        "B": "250 m",
+        "C": "280 m",
+        "D": "290 m"
+      },
+      "correct_option": "A",
+      "explanation": "Distance=5.5×50=275 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 200 m race, Meera runs at 8 m/s and Tara at 7 m/s. By how many metres does Meera win?",
+      "options": {
+        "A": "20 m",
+        "B": "30 m",
+        "C": "35 m",
+        "D": "25 m"
+      },
+      "correct_option": "D",
+      "explanation": "Meera takes 25 s; Tara covers 7×25=175 m, leaving 25 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner gives a competitor a 20 m head start in a 200 m race. Both run at 5 m/s. By how many seconds does the runner win?",
+      "options": {
+        "A": "2 seconds",
+        "B": "5 seconds",
+        "C": "4 seconds",
+        "D": "8 seconds"
+      },
+      "correct_option": "C",
+      "explanation": "The rival runs 180 m and finishes 20/5=4 s earlier than the full 200 m time? Actually the head-start runner has 180 m left and finishes 4 s before the 200 m runner.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A cyclist completes a 1 km race in 2 minutes. What is the average speed in km/h?",
+      "options": {
+        "A": "25 km/h",
+        "B": "30 km/h",
+        "C": "32 km/h",
+        "D": "36 km/h"
+      },
+      "correct_option": "B",
+      "explanation": "1 km in 2/60 h gives 30 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner’s speed is 12 km/h. How far does the runner travel in 15 minutes?",
+      "options": {
+        "A": "3 km",
+        "B": "2 km",
+        "C": "2.5 km",
+        "D": "4 km"
+      },
+      "correct_option": "A",
+      "explanation": "15 min=0.25 h; 12×0.25=3 km.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 500 m race, A finishes in 80 s and B in 100 s. How many metres does A beat B by?",
+      "options": {
+        "A": "80 m",
+        "B": "90 m",
+        "C": "120 m",
+        "D": "100 m"
+      },
+      "correct_option": "D",
+      "explanation": "In 80 s B covers 500×80/100=400 m; margin=100 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Runner L runs at 9 m/s and runner M at 8 m/s. In a 100 m race, how many metres does L beat M by?",
+      "options": {
+        "A": "10 m",
+        "B": "12 m",
+        "C": "11 1/9 m",
+        "D": "15 m"
+      },
+      "correct_option": "C",
+      "explanation": "When L covers 100 m in 100/9 s, M covers 800/9 m; margin=100/9=11 1/9 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A 600 m race is completed by Arjun in 120 seconds. What is his speed in km/h?",
+      "options": {
+        "A": "15 km/h",
+        "B": "18 km/h",
+        "C": "16.2 km/h",
+        "D": "21.6 km/h"
+      },
+      "correct_option": "B",
+      "explanation": "600/120=5 m/s; 5×3.6=18 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 250 m race, Nisha runs at 10 m/s and wins by 25 m. What is the speed of the runner-up?",
+      "options": {
+        "A": "9 m/s",
+        "B": "8 m/s",
+        "C": "9.5 m/s",
+        "D": "10.5 m/s"
+      },
+      "correct_option": "A",
+      "explanation": "Nisha takes 25 s; runner-up covers 225 m in 25 s, so 9 m/s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner covers 800 m in 4 minutes. What is the runner’s speed in km/h?",
+      "options": {
+        "A": "10 km/h",
+        "B": "14 km/h",
+        "C": "16 km/h",
+        "D": "12 km/h"
+      },
+      "correct_option": "D",
+      "explanation": "800 m/4 min=200 m/min=12 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A 100 m runner starts 10 m behind the start line and runs at 5 m/s; the opponent starts at the line at 4.5 m/s. How far ahead is the first runner when the opponent finishes?",
+      "options": {
+        "A": "2 m",
+        "B": "5/9 m",
+        "C": "1 1/9 m",
+        "D": "10 m"
+      },
+      "correct_option": "C",
+      "explanation": "Opponent time=100/4.5=200/9 s. First runner covers 5×200/9=1000/9 m from their own start; after the 10 m setback, position=910/9 m, so lead=10/9 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1.2 km race, a runner averages 4 m/s. How many minutes does the race take?",
+      "options": {
+        "A": "4 minutes",
+        "B": "5 minutes",
+        "C": "6 minutes",
+        "D": "8 minutes"
+      },
+      "correct_option": "B",
+      "explanation": "1200/4=300 seconds=5 minutes.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two runners start together on a straight 300 m course at 6 m/s and 5 m/s. When the faster finishes, how far behind is the slower?",
+      "options": {
+        "A": "50 m",
+        "B": "40 m",
+        "C": "60 m",
+        "D": "75 m"
+      },
+      "correct_option": "A",
+      "explanation": "Fast time=50 s; slower covers 250 m, so trails 50 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner completes one 400 m lap in 80 seconds. What is the lap speed in km/h?",
+      "options": {
+        "A": "16 km/h",
+        "B": "20 km/h",
+        "C": "22.5 km/h",
+        "D": "18 km/h"
+      },
+      "correct_option": "D",
+      "explanation": "400/80=5 m/s=18 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 150 m race, P beats Q by 30 m. If P’s speed is 10 m/s, what is Q’s speed?",
+      "options": {
+        "A": "7 m/s",
+        "B": "9 m/s",
+        "C": "8 m/s",
+        "D": "10 m/s"
+      },
+      "correct_option": "C",
+      "explanation": "P takes 15 s; Q covers 120 m in 15 s, so 8 m/s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A sprinter runs 100 m in 12.5 seconds. At the same speed, how far will the sprinter run in 20 seconds?",
+      "options": {
+        "A": "150 m",
+        "B": "160 m",
+        "C": "165 m",
+        "D": "180 m"
+      },
+      "correct_option": "B",
+      "explanation": "Speed=8 m/s; 8×20=160 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 600 m race, K finishes 20 seconds before J. If J’s speed is 5 m/s, what is K’s speed?",
+      "options": {
+        "A": "6 m/s",
+        "B": "5.5 m/s",
+        "C": "6.5 m/s",
+        "D": "7 m/s"
+      },
+      "correct_option": "A",
+      "explanation": "J time=600/5=120 s; K time=100 s; speed=600/100=6 m/s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner’s pace is 4 minutes per kilometre. What is the speed in km/h?",
+      "options": {
+        "A": "12 km/h",
+        "B": "16 km/h",
+        "C": "18 km/h",
+        "D": "15 km/h"
+      },
+      "correct_option": "D",
+      "explanation": "One kilometre in 4/60 h gives 15 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A and B run a 100 m race in 16 s and 20 s. How far has B run when A crosses the finish?",
+      "options": {
+        "A": "75 m",
+        "B": "84 m",
+        "C": "80 m",
+        "D": "90 m"
+      },
+      "correct_option": "C",
+      "explanation": "B’s speed=5 m/s; in 16 s B covers 80 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner completes 5 laps of a 200 m track in 2 minutes. What is the average speed in m/s?",
+      "options": {
+        "A": "7.5 m/s",
+        "B": "8 1/3 m/s",
+        "C": "8 m/s",
+        "D": "9 m/s"
+      },
+      "correct_option": "B",
+      "explanation": "Distance=1000 m; time=120 s; speed=25/3=8 1/3 m/s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A 400 m runner takes 50 seconds. How long would the same runner take for 160 m at unchanged speed?",
+      "options": {
+        "A": "20 seconds",
+        "B": "18 seconds",
+        "C": "22 seconds",
+        "D": "25 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "Speed=8 m/s; 160/8=20 s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 100 m race, A finishes in 10 s and B in 12 s. How many metres does B cover in the time A finishes?",
+      "options": {
+        "A": "80 m",
+        "B": "85 m",
+        "C": "90 m",
+        "D": "83 1/3 m"
+      },
+      "correct_option": "D",
+      "explanation": "B speed=100/12; in 10 s covers 250/3=83 1/3 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner moves at 6 m/s. How far ahead is the runner after 45 seconds?",
+      "options": {
+        "A": "240 m",
+        "B": "260 m",
+        "C": "270 m",
+        "D": "300 m"
+      },
+      "correct_option": "C",
+      "explanation": "6×45=270 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 300 m race, C runs at 7.5 m/s and D at 6 m/s. How many seconds earlier does C finish?",
+      "options": {
+        "A": "8 seconds",
+        "B": "10 seconds",
+        "C": "12 seconds",
+        "D": "15 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "Times are 40 s and 50 s; difference=10 s.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner covers 1.5 km in 5 minutes. What is the speed in km/h?",
+      "options": {
+        "A": "18 km/h",
+        "B": "15 km/h",
+        "C": "16 km/h",
+        "D": "20 km/h"
+      },
+      "correct_option": "A",
+      "explanation": "1.5/(5/60)=18 km/h.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 400 m race, A gives B a 40 m start and wins by 8 seconds. A runs at 8 m/s. Find B’s speed.",
+      "options": {
+        "A": "5.8 m/s",
+        "B": "6.4 m/s",
+        "C": "7 m/s",
+        "D": "180/29 m/s"
+      },
+      "correct_option": "D",
+      "explanation": "A takes50 s. B covers360 m in58 s, so B’s speed=360/58=180/29 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 500 m race, P beats Q by 50 m. In a 400 m race, Q beats R by 40 m. If P runs a 600 m race, by how many metres does P beat R?",
+      "options": {
+        "A": "108 m",
+        "B": "120 m",
+        "C": "114 m",
+        "D": "126 m"
+      },
+      "correct_option": "C",
+      "explanation": "P:Q=500:450=10:9 and Q:R=400:360=10:9. Thus P:R=100:81. When P runs600 m, R runs486 m; margin=114 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A gives B a 30 m start in a 300 m race. They finish together. If A runs at 6 m/s, what is B’s speed?",
+      "options": {
+        "A": "5 m/s",
+        "B": "5.4 m/s",
+        "C": "5.5 m/s",
+        "D": "6 m/s"
+      },
+      "correct_option": "B",
+      "explanation": "A time=300/6=50 s; B covers 270 m in 50 s, so 5.4 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 500 m track two runners start together in the same direction at 7 m/s and 5 m/s. When does the faster first lap the slower?",
+      "options": {
+        "A": "250 seconds",
+        "B": "200 seconds",
+        "C": "300 seconds",
+        "D": "350 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "Relative speed=2 m/s; one-lap gain=500 m; time=250 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 400 m circular track, runners at 5 m/s and 3 m/s start together in opposite directions. When do they first meet?",
+      "options": {
+        "A": "40 seconds",
+        "B": "60 seconds",
+        "C": "80 seconds",
+        "D": "50 seconds"
+      },
+      "correct_option": "D",
+      "explanation": "Relative speed=8 m/s; 400/8=50 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 600 m race, A beats B by 60 m, and B beats C by 30 m. How far does A beat C?",
+      "options": {
+        "A": "90 m",
+        "B": "96 m",
+        "C": "87 m",
+        "D": "105 m"
+      },
+      "correct_option": "C",
+      "explanation": "A:B=600:540=10:9; B:C=600:570=20:19. Thus A:C=200:171. When A runs600, C runs513; margin87 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner covers 1000 m at 5 m/s. A second runner starts 20 seconds later at 6 m/s. How long after the second runner starts will they catch the first?",
+      "options": {
+        "A": "80 seconds",
+        "B": "100 seconds",
+        "C": "120 seconds",
+        "D": "150 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "First runner’s head start distance=5×20=100 m. Relative speed=1 m/s; catch time=100 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A wins a 200 m race against B by 20 m. If B’s speed is 9 m/s, what is A’s speed?",
+      "options": {
+        "A": "10 m/s",
+        "B": "9.5 m/s",
+        "C": "10.5 m/s",
+        "D": "11 m/s"
+      },
+      "correct_option": "A",
+      "explanation": "When A finishes, B covers180 m. Time=180/9=20 s; A speed=200/20=10 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1 km race, A runs at 18 km/h and B at 15 km/h. How long after A finishes does B finish?",
+      "options": {
+        "A": "30 seconds",
+        "B": "45 seconds",
+        "C": "60 seconds",
+        "D": "40 seconds"
+      },
+      "correct_option": "D",
+      "explanation": "A time=1000/5=200 s; B time=1000/(25/6)=240 s; difference=40 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two runners start together on a 300 m circular track in the same direction at 8 m/s and 6 m/s. How long until they first meet again at the start?",
+      "options": {
+        "A": "300 seconds",
+        "B": "450 seconds",
+        "C": "150 seconds",
+        "D": "750 seconds"
+      },
+      "correct_option": "C",
+      "explanation": "Lap times are 37.5 s and 50 s; the first common return is150 s (four laps and three laps).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A gives B a 50 m start in a 450 m race. A runs at 10 m/s and both finish together. Find B’s speed.",
+      "options": {
+        "A": "8 m/s",
+        "B": "8 8/9 m/s",
+        "C": "9 m/s",
+        "D": "9.5 m/s"
+      },
+      "correct_option": "B",
+      "explanation": "A time=45 s; B runs400 m in45 s; speed=80/9=8 8/9 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 500 m race, A beats B by 25 m. In a 300 m race, B beats C by 15 m. Find the distance by which A beats C in a 500 m race.",
+      "options": {
+        "A": "48.75 m",
+        "B": "45 m",
+        "C": "50 m",
+        "D": "55 m"
+      },
+      "correct_option": "A",
+      "explanation": "A:B=500:475=20:19; B:C=300:285=20:19; A:C=400:361. When A runs500, C runs451.25; margin48.75 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A and B run a 400 m race. A runs at 8 m/s; B runs at 7.5 m/s but starts 5 seconds earlier. Who wins, and by how much time?",
+      "options": {
+        "A": "A by 2 s",
+        "B": "B by 2 1/3 s",
+        "C": "A by 1 2/3 s",
+        "D": "B by 1 2/3 s"
+      },
+      "correct_option": "D",
+      "explanation": "A takes50 s; B takes400/7.5=53 1/3 s after own start, so finishes at48 1/3 s from A’s start. B wins by1 2/3 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Runners start together on a 600 m track in the same direction at 9 m/s and 7.5 m/s. When does the faster runner overtake the slower?",
+      "options": {
+        "A": "300 seconds",
+        "B": "450 seconds",
+        "C": "400 seconds",
+        "D": "600 seconds"
+      },
+      "correct_option": "C",
+      "explanation": "Relative speed=1.5 m/s; one lap gain=600 m; time=400 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A finishes a 1200 m race in 4 minutes; B finishes in 4 minutes 30 seconds. How far does A beat B by?",
+      "options": {
+        "A": "120 m",
+        "B": "133 1/3 m",
+        "C": "140 m",
+        "D": "160 m"
+      },
+      "correct_option": "B",
+      "explanation": "In 240 s B covers 1200×240/270=1066 2/3 m; margin=133 1/3 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runs 400 m in 50 s. B starts 4 s later and runs at 9 m/s. How long after B starts does B catch A?",
+      "options": {
+        "A": "32 seconds",
+        "B": "28 seconds",
+        "C": "36 seconds",
+        "D": "40 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "At B’s start A is32 m ahead; relative speed=9−8=1 m/s, so catch time=32 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A gives B a 2-second start in a 500 m race. If B runs at 8 m/s and they finish together, what is A’s speed?",
+      "options": {
+        "A": "7.5 m/s",
+        "B": "8 m/s",
+        "C": "8.5 m/s",
+        "D": "1000/129 m/s"
+      },
+      "correct_option": "D",
+      "explanation": "B takes62.5 s after starting; A runs64.5 s, so speed=500/64.5=1000/129 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 400 m track, two runners move in opposite directions at 6 m/s and 4 m/s. How many meetings occur in 3 minutes, counting a meeting at the start as the first?",
+      "options": {
+        "A": "4",
+        "B": "6",
+        "C": "5",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "explanation": "Relative lap time=400/(6+4)=40 s. In180 s they meet at0,40,80,120,160 s:5 meetings.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 300 m race, A beats B by 30 m. In a separate 500 m race, A beats C by 50 m. Find B:C speed ratio.",
+      "options": {
+        "A": "10:9",
+        "B": "1:1",
+        "C": "9:10",
+        "D": "8:9"
+      },
+      "correct_option": "B",
+      "explanation": "A:B=300:270=10:9; A:C=500:450=10:9, hence B:C=1:1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner averages 12 m/s for the first 300 m of a 600 m race and 8 m/s for the rest. What is the average speed for the whole race?",
+      "options": {
+        "A": "9.6 m/s",
+        "B": "10 m/s",
+        "C": "9 m/s",
+        "D": "8.5 m/s"
+      },
+      "correct_option": "A",
+      "explanation": "Total time=300/12+300/8=25+37.5=62.5 s; 600/62.5=9.6 m/s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Three runners complete a 100 m race in 10 s, 12 s and 15 s. When the fastest finishes, how far behind is the slowest?",
+      "options": {
+        "A": "30 m",
+        "B": "35 m",
+        "C": "40 m",
+        "D": "33 1/3 m"
+      },
+      "correct_option": "D",
+      "explanation": "Slowest speed=100/15; in10 s covers 66 2/3 m; gap=33 1/3 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A gives another runner a 60 m start in a 600 m race. Their speeds are 10 m/s and 8 m/s respectively. What is the actual time margin?",
+      "options": {
+        "A": "5 seconds",
+        "B": "10 seconds",
+        "C": "7.5 seconds",
+        "D": "12.5 seconds"
+      },
+      "correct_option": "C",
+      "explanation": "The first runner takes60 s; the other covers540 m at8 m/s in67.5 s, so the first wins by7.5 s.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A and B run a 1000 m race. A’s speed is 10 m/s and B’s is 9.5 m/s. If B gets a 50 m head start, who wins?",
+      "options": {
+        "A": "A by 2 seconds",
+        "B": "They tie",
+        "C": "B by 5 seconds",
+        "D": "B by 10 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "A takes100 s. B runs950 m at9.5 m/s=100 s, so they tie.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Three competitors run a 600 m race. A runs at 8 m/s and starts 5 seconds before B, who runs at 9 m/s. C runs at 7.5 m/s and starts 10 seconds before A. Who finishes last?",
+      "options": {
+        "A": "B",
+        "B": "A",
+        "C": "C",
+        "D": "A and C tie"
+      },
+      "correct_option": "A",
+      "explanation": "Measure time from A’s start: A finishes at75 s; B at5+600/9=71 2/3 s; C starts10 s earlier and finishes at−10+600/7.5=70 s. B finishes last.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner completes a 1500 m race in 3 minutes. Another completes it in 3 minutes 20 seconds. At the first runner’s finish, how many metres remain for the second?",
+      "options": {
+        "A": "120 m",
+        "B": "180 m",
+        "C": "200 m",
+        "D": "150 m"
+      },
+      "correct_option": "D",
+      "explanation": "At180 s the second covers1500×180/200=1350 m; 150 m remain.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1000 m race A beats B by 100 m. In a 600 m race B beats C by 60 m. In a 1200 m race, by how much does A beat C?",
+      "options": {
+        "A": "240 m",
+        "B": "252 m",
+        "C": "228 m",
+        "D": "276 m"
+      },
+      "correct_option": "C",
+      "explanation": "A:B=10:9 and B:C=10:9, so A:C=100:81. When A runs1200, C covers972; margin=228 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A and B race over 800 m. A runs 10 m/s for the first 400 m and 8 m/s thereafter. B runs uniformly at 9 m/s. Who wins and by how much time?",
+      "options": {
+        "A": "A by 1 s",
+        "B": "B by 1 1/9 s",
+        "C": "A by 2 s",
+        "D": "B by 2 s"
+      },
+      "correct_option": "B",
+      "explanation": "A time=400/10+400/8=90 s; B time=800/9=88 8/9 s; B wins by10/9 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Three runners start together on a 600 m circular track at 8, 6 and 4 m/s in the same direction. When are all three next together at the start?",
+      "options": {
+        "A": "300 seconds",
+        "B": "450 seconds",
+        "C": "600 seconds",
+        "D": "750 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "Lap times are75,100,150 s; their first common return is300 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Runners A and B start at the same point on a 500 m track in opposite directions at 7 m/s and 5 m/s. At what time do they meet for the fourth time after starting?",
+      "options": {
+        "A": "125 seconds",
+        "B": "150 seconds",
+        "C": "200 seconds",
+        "D": "166 2/3 seconds"
+      },
+      "correct_option": "D",
+      "explanation": "They meet every500/(7+5)=125/3 s. The fourth meeting occurs after500/3=166 2/3 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1500 m race A beats B by 150 m and B beats C by 100 m. How many metres does A beat C by in a 1500 m race?",
+      "options": {
+        "A": "250 m",
+        "B": "300 m",
+        "C": "240 m",
+        "D": "360 m"
+      },
+      "correct_option": "C",
+      "explanation": "A:B=10:9; B:C=1500:1400=15:14. A:C=25:21. C covers1260 m when A finishes; margin=240 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner gives B a 100 m head start in a 1 km race. A runs at 12 m/s and B at 10 m/s. How many seconds earlier does A finish?",
+      "options": {
+        "A": "5 seconds",
+        "B": "6 2/3 seconds",
+        "C": "8 seconds",
+        "D": "10 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "A takes1000/12=83 1/3 s. B runs900 m in90 s; A wins by6 2/3 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 600 m circular track, two runners move in the same direction at 9 m/s and 7 m/s. How many times does the faster pass the slower in 15 minutes, excluding the initial shared start?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "Relative lap time=600/(9−7)=300 s=5 min; they meet after5,10,15 min. Excluding the initial start gives3 passes.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner covers the first 1/3 of a 900 m race at 6 m/s and the rest at 9 m/s. What is the total race time?",
+      "options": {
+        "A": "110 s",
+        "B": "120 s",
+        "C": "125 s",
+        "D": "116 2/3 s"
+      },
+      "correct_option": "D",
+      "explanation": "300/6+600/9=50+66 2/3=116 2/3 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 400 m race A finishes 20 seconds before B. A runs at 10 m/s. What is B’s speed?",
+      "options": {
+        "A": "6 m/s",
+        "B": "7 m/s",
+        "C": "20/3 m/s",
+        "D": "8 m/s"
+      },
+      "correct_option": "C",
+      "explanation": "A time=40 s; B time=60 s; speed=400/60=20/3 m/s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two runners start together on a 720 m circular track in opposite directions at 8 m/s and 4 m/s. When do they meet for the fifth time after starting?",
+      "options": {
+        "A": "180 seconds",
+        "B": "300 seconds",
+        "C": "240 seconds",
+        "D": "360 seconds"
+      },
+      "correct_option": "B",
+      "explanation": "They meet every720/12=60 s; the fifth meeting after the start is300 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A beats B by 80 m in a 400 m race. B beats C by 100 m in a 500 m race. Find A:C speed ratio.",
+      "options": {
+        "A": "25:16",
+        "B": "5:4",
+        "C": "4:5",
+        "D": "16:25"
+      },
+      "correct_option": "A",
+      "explanation": "A:B=400:320=5:4; B:C=500:400=5:4. Thus A:C=25:16.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A and B run a 1000 m race. A runs at 10 m/s. B gets a 100 m start and runs at 9 m/s. Who wins and by how many seconds?",
+      "options": {
+        "A": "A by 5 s",
+        "B": "B by 5 s",
+        "C": "A by 10 s",
+        "D": "They tie"
+      },
+      "correct_option": "D",
+      "explanation": "A takes100 s; B runs900 m in100 s, so they tie.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 400 m track three runners move in the same direction at 10, 8 and 6 m/s. After how long will all be together at the starting point again?",
+      "options": {
+        "A": "160 seconds",
+        "B": "240 seconds",
+        "C": "200 seconds",
+        "D": "300 seconds"
+      },
+      "correct_option": "C",
+      "explanation": "Lap times 40,50,66 2/3 s. LCM of rational lap periods is 200 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner wins a 1200 m race over B by 120 m. B wins a 900 m race over C by 90 m. What is A’s winning margin over C in a 1800 m race?",
+      "options": {
+        "A": "300 m",
+        "B": "342 m",
+        "C": "324 m",
+        "D": "378 m"
+      },
+      "correct_option": "B",
+      "explanation": "A:B=10:9 and B:C=10:9; A:C=100:81. In1800 m, C covers1458 m; margin=342 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A starts 15 seconds before B on a 900 m course. A runs at 6 m/s and B at 8 m/s. How long after B starts does B catch A?",
+      "options": {
+        "A": "45 seconds",
+        "B": "40 seconds",
+        "C": "50 seconds",
+        "D": "60 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "A has a 90 m lead at B’s start; relative speed=2 m/s, catch time=45 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1000 m race, P runs the first 400 m at 8 m/s and the remaining 600 m at 12 m/s. Q runs uniformly at 10 m/s. Who finishes first, and by how much?",
+      "options": {
+        "A": "P by 2 seconds",
+        "B": "Q by 5 seconds",
+        "C": "P by 5 seconds",
+        "D": "They tie"
+      },
+      "correct_option": "D",
+      "explanation": "P takes50+50=100 s; Q also takes100 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Two runners start together in opposite directions on a 900 m track at 7 m/s and 5 m/s. How far from the starting point is their second meeting?",
+      "options": {
+        "A": "100 m",
+        "B": "300 m",
+        "C": "150 m",
+        "D": "450 m"
+      },
+      "correct_option": "C",
+      "explanation": "Second meeting is after2×900/12=150 s; first runner travels1050 m, i.e.150 m past the start.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 500 m race A beats B by 50 m. In a 700 m race B beats C by 70 m. In a 1000 m race, what is the A–C margin?",
+      "options": {
+        "A": "180 m",
+        "B": "190 m",
+        "C": "200 m",
+        "D": "210 m"
+      },
+      "correct_option": "B",
+      "explanation": "A:B=10:9; B:C=10:9; A:C=100:81. C covers810 m when A finishes1000; margin=190 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runner takes 80 seconds to cover 600 m. A second runner takes 75 seconds for the same distance but starts 10 seconds later. How long after the first starts does the second catch up?",
+      "options": {
+        "A": "160 seconds",
+        "B": "140 seconds",
+        "C": "150 seconds",
+        "D": "170 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "Speeds are7.5 and8 m/s. The second starts10 s later with a75 m deficit; relative speed=.5 m/s; catch is150 s after second starts, or160 s after first.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 1000 m track A and B run in the same direction at 12 m/s and 8 m/s. Starting together, at what time do they meet for the third time, counting their initial meeting as time zero?",
+      "options": {
+        "A": "500 seconds",
+        "B": "1000 seconds",
+        "C": "1250 seconds",
+        "D": "750 seconds"
+      },
+      "correct_option": "D",
+      "explanation": "Relative speed=4 m/s; one-lap gain time=1000/4=250 s. Third meeting after start is750 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A runs a 400 m race in 50 s; B runs it in 60 s. C starts 5 s after A and finishes 10 s after B. What is C’s speed?",
+      "options": {
+        "A": "6 m/s",
+        "B": "7 m/s",
+        "C": "80/13 m/s",
+        "D": "8 m/s"
+      },
+      "correct_option": "C",
+      "explanation": "B finishes at60 s; C finishes at70 s from A’s start, runs for65 s, speed=400/65=80/13 m/s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "In a 1500 m race, A beats B by 300 m and B beats C by 250 m. What is A’s winning margin over C?",
+      "options": {
+        "A": "550 m",
+        "B": "500 m",
+        "C": "600 m",
+        "D": "750 m"
+      },
+      "correct_option": "B",
+      "explanation": "A:B=5:4; B:C=1500:1250=6:5; hence A:C=3:2. C covers1000 m when A finishes; margin500 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "Three runners cover a 1200 m race at constant speeds in the ratio 6:5:4. How many metres remain for the slowest when the middle runner finishes?",
+      "options": {
+        "A": "240 m",
+        "B": "180 m",
+        "C": "300 m",
+        "D": "360 m"
+      },
+      "correct_option": "A",
+      "explanation": "When the middle runner covers1200 m, the slowest covers1200×4/5=960 m, leaving240 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A gives B a 40 m head start in a 400 m race. A runs at 10 m/s and B at 9 m/s. Who wins and by how much time?",
+      "options": {
+        "A": "A by 1 s",
+        "B": "B by 4/9 s",
+        "C": "B by 1 s",
+        "D": "They tie"
+      },
+      "correct_option": "D",
+      "explanation": "A takes40 s; B runs360 m at9 m/s, also taking40 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A races over 1200 m, covering the first 600 m at 12 m/s and the rest at 8 m/s. B runs uniformly at 9.5 m/s. Who wins and by how much time?",
+      "options": {
+        "A": "B by 1 s",
+        "B": "A by 2 s",
+        "C": "A by 25/19 s",
+        "D": "B by 3 s"
+      },
+      "correct_option": "C",
+      "explanation": "A takes50+75=125 s. B takes1200/9.5=2400/19≈126.316 s, so A wins25/19 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "On a 600 m track, runners at 8 m/s and 5 m/s start at the same point in the same direction. How far does the faster runner travel before first lapping the slower?",
+      "options": {
+        "A": "1200 m",
+        "B": "1600 m",
+        "C": "1400 m",
+        "D": "1800 m"
+      },
+      "correct_option": "B",
+      "explanation": "Time to gain one lap=600/(8−5)=200 s; faster distance=8×200=1600 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "arithmetic-maths",
+      "chapter_slug": "race",
+      "question_text": "A and B start at opposite ends of a 1 km straight course and run toward each other at 6 m/s and 4 m/s. After how long do they meet?",
+      "options": {
+        "A": "100 seconds",
+        "B": "80 seconds",
+        "C": "125 seconds",
+        "D": "150 seconds"
+      },
+      "correct_option": "A",
+      "explanation": "Their closing distance is1000 m at10 m/s; time=100 s.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

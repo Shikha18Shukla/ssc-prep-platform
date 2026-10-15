@@ -1,0 +1,812 @@
+[
+  {
+    "row": 1,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 5; exam/year not stated",
+    "dataset": "Dataset PDF-5 (all values are given below):\nCompany sales by year (units):\nYear | A | B\nP | 350 | 1150\nQ | 550 | 850\nR | 750 | 950\nS | 650 | 350\nT | 450 | 250",
+    "question": "Let L1 be the absolute difference between the companies’ total sales and L2 be A’s average annual sales. Find L1:L2.",
+    "expected_answer": "16:11",
+    "calculation": "A totals 2,750 and B totals 3,550, so L1=800. A’s average is 2,750/5=550. Thus 800:550=16:11."
+  },
+  {
+    "row": 2,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 6; exam/year not stated",
+    "dataset": "Dataset PDF-6 (all values are given below):\nRefrigerator production by company (units):\nA 300; B 210; C 180; D 120; E 60; F 150",
+    "question": "A’s production is what percent of E’s production?",
+    "expected_answer": "500%",
+    "calculation": "300/60 × 100 = 500%."
+  },
+  {
+    "row": 3,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 7; exam/year not stated",
+    "dataset": "Dataset PDF-7 (all values are given below):\nBooks sold by two shops (books):\nMonth | S1 | S2\nM1 | 50 | 5\nM2 | 40 | 10\nM3 | 20 | 60\nM4 | 15 | 30\nM5 | 5 | 25",
+    "question": "Let J1 be the combined total sold by both shops over five months and J2 the absolute difference between their totals. Find J1+J2.",
+    "expected_answer": "260",
+    "calculation": "S1 sold 130 and S2 sold 130. Therefore J1=260, J2=0, and J1+J2=260."
+  },
+  {
+    "row": 4,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 9; exam/year not stated",
+    "dataset": "Dataset PDF-9 (all values are given below):\nToy production by year (units):\nToy | 2016 | 2017 | 2018\nBicycle | 1500 | 2000 | 2500\nTrain | 1600 | 1800 | 2000\nCar | 1800 | 1600 | 2600\nBus | 2000 | 1600 | 3000",
+    "question": "Find the ratio of cars plus trains produced in 2017 and 2018 to buses produced in all three years.",
+    "expected_answer": "40:33",
+    "calculation": "Cars and trains in 2017–18 total 1,600+2,600+1,800+2,000=8,000. Buses total 2,000+1,600+3,000=6,600. The ratio simplifies to 40:33."
+  },
+  {
+    "row": 5,
+    "difficulty": "HARD",
+    "source": "Verified from supplied Data Interpretation PDF, page 10; exam/year not stated",
+    "dataset": "Dataset PDF-10 (all values are given below):\nArticles: cost price and profit (rupees):\nD | 700 | 200\nE | 600 | 150\nF | 400 | 300\nG | 500 | 400\nH | 300 | 250\nI | 800 | 350",
+    "question": "Which statements are NOT correct? I. Profit on D, E and F is 30.63% of the cost price of G, H and I. II. Total cost price : total profit is 1:2.",
+    "expected_answer": "Neither I nor II",
+    "calculation": "Profit D+E+F=650 and cost G+H+I=1,600, so I is false (650/1,600=40.625%). Total cost=3,300 and profit=1,650, or 2:1, so II is also false."
+  },
+  {
+    "row": 6,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 11; exam/year not stated",
+    "dataset": "Dataset PDF-11 (all values are given below):\nAnnual profit percentage:\nYear | Profit %\n2016 | 45\n2017 | 70\n2018 | 60\n2019 | 40\n2020 | 55",
+    "question": "What was the average profit percentage over these five years?",
+    "expected_answer": "54%",
+    "calculation": "(45+70+60+40+55)/5 = 270/5 = 54%."
+  },
+  {
+    "row": 7,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 12; exam/year not stated",
+    "dataset": "Dataset PDF-12 (all values are given below):\nTeachers in five schools (people):\nSchool | Male | Female\nL | 160 | 180\nM | 180 | 170\nN | 170 | 120\nP | 150 | 110\nQ | 130 | 130",
+    "question": "Which statement is correct? I. Male teachers at L are 135.44% of female teachers at P. II. Female teachers at M and N together : male teachers at N and P together = 29:32.",
+    "expected_answer": "Only II",
+    "calculation": "Statement I gives 160/110×100≈145.45%, so it is false. For II, (170+120):(170+150)=290:320=29:32, so only II is true."
+  },
+  {
+    "row": 8,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 13; exam/year not stated",
+    "dataset": "Dataset PDF-13 (all values are given below):\nCalculators sold by shops L and M (units):\nMonth | L | M\nD | 350 | 305\nE | 340 | 310\nF | 320 | 360\nG | 315 | 330\nH | 305 | 325",
+    "question": "Let J1 be L’s average monthly sales and J2 the absolute difference between the shops’ five-month totals. Find J2/J1.",
+    "expected_answer": "0",
+    "calculation": "L totals 1,630, giving J1=1,630/5=326. M also totals 1,630, so J2=0 and J2/J1=0."
+  },
+  {
+    "row": 9,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 14; exam/year not stated",
+    "dataset": "Dataset PDF-14 (all values are given below):\nBooks sold (thousands):\nBranch | 2010 | 2011\nC1 | 67 | 75\nC2 | 79 | 91\nC3 | 85 | 76\nC4 | 66 | 86\nC5 | 83 | 72",
+    "question": "Find the ratio of C2’s two-year sales to C4’s two-year sales.",
+    "expected_answer": "85:76",
+    "calculation": "C2 total=79+91=170 and C4 total=66+86=152. Simplifying 170:152 gives 85:76."
+  },
+  {
+    "row": 10,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 15; exam/year not stated",
+    "dataset": "Dataset PDF-15 (all values are given below):\nPatient temperature by time (°C):\n10:00 a.m. 34.5; 11:00 a.m. 35; 12:00 noon 38; 1:00 p.m. 38.5; 2:00 p.m. 34; 3:00 p.m. 34",
+    "question": "At what time was the patient’s temperature highest?",
+    "expected_answer": "1:00 p.m.",
+    "calculation": "The largest listed temperature is 38.5°C, at 1:00 p.m."
+  },
+  {
+    "row": 11,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 16; exam/year not stated",
+    "dataset": "Dataset PDF-16 (all values are given below):\nCompany income and expenditure (thousand rupees):\nYear | Income | Expenditure\nY1 | 700 | 300\nY2 | 500 | 200\nY3 | 400 | 300\nY4 | 800 | 200\nY5 | 300 | 150",
+    "question": "In which year were savings lowest?",
+    "expected_answer": "Y3",
+    "calculation": "Savings are 400, 300, 100, 600 and 150 thousand rupees, respectively. The minimum is 100 in Y3."
+  },
+  {
+    "row": 12,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 17; exam/year not stated",
+    "dataset": "Dataset PDF-17 (all values are given below):\nSix articles: cost price and profit (rupees):\nArticle | Cost | Profit\nJ | 650 | 150\nK | 550 | 100\nL | 350 | 250\nM | 450 | 350\nN | 250 | 200\nP | 750 | 300",
+    "question": "Which statement is correct? I. Combined cost of J and K is 100% more than combined profit of L and M. II. Profit of N and P : cost of K and M = 2:1.",
+    "expected_answer": "Only I",
+    "calculation": "J+K cost=1,200, exactly 100% more than L+M profit=600. N+P profit : K+M cost=500:1,000=1:2, not 2:1. Only I is correct."
+  },
+  {
+    "row": 13,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 18; exam/year not stated",
+    "dataset": "Dataset PDF-18 (all values are given below):\nStudent marks:\nSubject | 2015 | 2016\nMathematics | 40 | 56\nHistory | 45 | 40\nScience | 67 | 68\nHindi | 34 | 90\nCivics | 40 | 60",
+    "question": "History marks in 2016 are what percent of the student’s total Civics marks across both years?",
+    "expected_answer": "40%",
+    "calculation": "History 2016=40; Civics total=40+60=100. Thus 40/100×100=40%."
+  },
+  {
+    "row": 14,
+    "difficulty": "EASY",
+    "source": "Verified from supplied Data Interpretation PDF, page 19; exam/year not stated",
+    "dataset": "Dataset PDF-19 (all values are given below):\nPopulation (thousands):\nYear | State P | State Q\nA | 150 | 300\nB | 250 | 200\nC | 175 | 125\nD | 100 | 75\nE | 50 | 150",
+    "question": "What is the absolute difference between the two states’ total populations over all five years?",
+    "expected_answer": "125",
+    "calculation": "P totals 725 and Q totals 850 thousand. Their absolute difference is 125 thousand."
+  },
+  {
+    "row": 15,
+    "difficulty": "MEDIUM",
+    "source": "Verified from supplied Data Interpretation PDF, page 20; exam/year not stated",
+    "dataset": "Dataset PDF-20 (all values are given below):\nIncome and expenditure (thousand rupees):\nCompany | Expenditure | Income\nA | 45 | 35\nB | 40 | 50\nC | 45 | 40\nD | 30 | 40\nE | 45 | 50",
+    "question": "Which company had the greatest percentage loss?",
+    "expected_answer": "A",
+    "calculation": "Only A and C made losses. A lost 10/45×100≈22.22%; C lost 5/45×100≈11.11%. A’s percentage loss is greater."
+  },
+  {
+    "row": 16,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-01 (all values are given below):\nFruit sales (kg):\nStall | Apples | Pears | Plums\nA | 24 | 18 | 12\nB | 30 | 15 | 15\nC | 21 | 24 | 15",
+    "question": "How many kilograms of apples did all three stalls sell?",
+    "expected_answer": "75 kg",
+    "calculation": "24+30+21=75 kg."
+  },
+  {
+    "row": 17,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-01 (all values are given below):\nFruit sales (kg):\nStall | Apples | Pears | Plums\nA | 24 | 18 | 12\nB | 30 | 15 | 15\nC | 21 | 24 | 15",
+    "question": "What is the ratio of pears sold by C to pears sold by A?",
+    "expected_answer": "4:3",
+    "calculation": "24:18 simplifies to4:3."
+  },
+  {
+    "row": 18,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-01 (all values are given below):\nFruit sales (kg):\nStall | Apples | Pears | Plums\nA | 24 | 18 | 12\nB | 30 | 15 | 15\nC | 21 | 24 | 15",
+    "question": "How many kilograms of fruit did stall B sell in total?",
+    "expected_answer": "60 kg",
+    "calculation": "30+15+15=60 kg."
+  },
+  {
+    "row": 19,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-02 (all values are given below):\nQuarterly sales (thousand units):\nProduct | Q1 | Q2 | Q3 | Q4\nP | 20 | 24 | 28 | 32\nQ | 18 | 20 | 22 | 26\nR | 25 | 20 | 30 | 25",
+    "question": "What were product P’s total sales for the year?",
+    "expected_answer": "104 thousand",
+    "calculation": "20+24+28+32=104 thousand."
+  },
+  {
+    "row": 20,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-02 (all values are given below):\nQuarterly sales (thousand units):\nProduct | Q1 | Q2 | Q3 | Q4\nP | 20 | 24 | 28 | 32\nQ | 18 | 20 | 22 | 26\nR | 25 | 20 | 30 | 25",
+    "question": "By how many thousand units did Q4 sales of P exceed Q1 sales of Q?",
+    "expected_answer": "14 thousand",
+    "calculation": "32−18=14 thousand."
+  },
+  {
+    "row": 21,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-02 (all values are given below):\nQuarterly sales (thousand units):\nProduct | Q1 | Q2 | Q3 | Q4\nP | 20 | 24 | 28 | 32\nQ | 18 | 20 | 22 | 26\nR | 25 | 20 | 30 | 25",
+    "question": "What is the average quarterly sale of R?",
+    "expected_answer": "25 thousand",
+    "calculation": "(25+20+30+25)/4=25 thousand."
+  },
+  {
+    "row": 22,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-03 (all values are given below):\nStudents choosing activities (students):\nSchool | Music | Art | Drama\nL | 35 | 25 | 20\nM | 30 | 32 | 18\nN | 28 | 22 | 30",
+    "question": "How many students at school M chose Art?",
+    "expected_answer": "32",
+    "calculation": "The table gives 32 students."
+  },
+  {
+    "row": 23,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-03 (all values are given below):\nStudents choosing activities (students):\nSchool | Music | Art | Drama\nL | 35 | 25 | 20\nM | 30 | 32 | 18\nN | 28 | 22 | 30",
+    "question": "How many more students at L chose Music than Drama?",
+    "expected_answer": "15",
+    "calculation": "35−20=15 students."
+  },
+  {
+    "row": 24,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-03 (all values are given below):\nStudents choosing activities (students):\nSchool | Music | Art | Drama\nL | 35 | 25 | 20\nM | 30 | 32 | 18\nN | 28 | 22 | 30",
+    "question": "How many students chose Drama across all three schools?",
+    "expected_answer": "68",
+    "calculation": "20+18+30=68 students."
+  },
+  {
+    "row": 25,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-04 (all values are given below):\nHousehold budget shares (percent of monthly budget):\nFood 30%; Housing 25%; Transport 15%; Education 10%; Other 20%. Monthly budget = Rs 40,000.",
+    "question": "How much is spent on food?",
+    "expected_answer": "Rs 12,000",
+    "calculation": "30% of Rs40,000 = Rs12,000."
+  },
+  {
+    "row": 26,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-04 (all values are given below):\nHousehold budget shares (percent of monthly budget):\nFood 30%; Housing 25%; Transport 15%; Education 10%; Other 20%. Monthly budget = Rs 40,000.",
+    "question": "What is the difference between housing and transport spending?",
+    "expected_answer": "Rs 4,000",
+    "calculation": "(25−15)% of Rs40,000=Rs4,000."
+  },
+  {
+    "row": 27,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-04 (all values are given below):\nHousehold budget shares (percent of monthly budget):\nFood 30%; Housing 25%; Transport 15%; Education 10%; Other 20%. Monthly budget = Rs 40,000.",
+    "question": "What percentage of the budget is spent on education and transport together?",
+    "expected_answer": "25%",
+    "calculation": "10%+15%=25%."
+  },
+  {
+    "row": 28,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-05 (all values are given below):\nBooks borrowed (books):\nClass | January | February\n5A | 42 | 38\n5B | 35 | 45\n5C | 48 | 40",
+    "question": "How many books did class 5A borrow over both months?",
+    "expected_answer": "80",
+    "calculation": "42+38=80 books."
+  },
+  {
+    "row": 29,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-05 (all values are given below):\nBooks borrowed (books):\nClass | January | February\n5A | 42 | 38\n5B | 35 | 45\n5C | 48 | 40",
+    "question": "Which class borrowed the most books in February?",
+    "expected_answer": "5B",
+    "calculation": "February values are 38,45,40; the maximum is45."
+  },
+  {
+    "row": 30,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-05 (all values are given below):\nBooks borrowed (books):\nClass | January | February\n5A | 42 | 38\n5B | 35 | 45\n5C | 48 | 40",
+    "question": "How many books did all classes borrow in January?",
+    "expected_answer": "125",
+    "calculation": "42+35+48=125."
+  },
+  {
+    "row": 31,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-06 (all values are given below):\nRainfall (mm):\nMonth | June | July | August | September\nTown A | 120 | 160 | 140 | 100\nTown B | 90 | 150 | 180 | 120",
+    "question": "How much rainfall did Town A receive in July?",
+    "expected_answer": "160 mm",
+    "calculation": "Read the July value for Town A:160 mm."
+  },
+  {
+    "row": 32,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-06 (all values are given below):\nRainfall (mm):\nMonth | June | July | August | September\nTown A | 120 | 160 | 140 | 100\nTown B | 90 | 150 | 180 | 120",
+    "question": "What was Town B’s total rainfall over these four months?",
+    "expected_answer": "540 mm",
+    "calculation": "90+150+180+120=540 mm."
+  },
+  {
+    "row": 33,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-06 (all values are given below):\nRainfall (mm):\nMonth | June | July | August | September\nTown A | 120 | 160 | 140 | 100\nTown B | 90 | 150 | 180 | 120",
+    "question": "By how many millimetres did Town B’s August rainfall exceed Town A’s August rainfall?",
+    "expected_answer": "40 mm",
+    "calculation": "180−140=40 mm."
+  },
+  {
+    "row": 34,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-07 (all values are given below):\nBags collected for recycling (bags):\nGroup | Paper | Plastic\nA | 36 | 24\nB | 28 | 32\nC | 40 | 20\nD | 26 | 34",
+    "question": "How many paper bags did the four groups collect?",
+    "expected_answer": "130",
+    "calculation": "36+28+40+26=130."
+  },
+  {
+    "row": 35,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-07 (all values are given below):\nBags collected for recycling (bags):\nGroup | Paper | Plastic\nA | 36 | 24\nB | 28 | 32\nC | 40 | 20\nD | 26 | 34",
+    "question": "What is the ratio of plastic bags collected by A to those collected by D?",
+    "expected_answer": "12:17",
+    "calculation": "24:34 simplifies to12:17."
+  },
+  {
+    "row": 36,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-07 (all values are given below):\nBags collected for recycling (bags):\nGroup | Paper | Plastic\nA | 36 | 24\nB | 28 | 32\nC | 40 | 20\nD | 26 | 34",
+    "question": "How many bags did group C collect in total?",
+    "expected_answer": "60",
+    "calculation": "40+20=60 bags."
+  },
+  {
+    "row": 37,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-08 (all values are given below):\nMarks in a quiz (points):\nStudent | Round 1 | Round 2 | Round 3\nAsha | 18 | 20 | 22\nBala | 20 | 16 | 24\nCharu | 15 | 21 | 18",
+    "question": "What is Asha’s total score?",
+    "expected_answer": "60",
+    "calculation": "18+20+22=60 points."
+  },
+  {
+    "row": 38,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-08 (all values are given below):\nMarks in a quiz (points):\nStudent | Round 1 | Round 2 | Round 3\nAsha | 18 | 20 | 22\nBala | 20 | 16 | 24\nCharu | 15 | 21 | 18",
+    "question": "What is the difference between Bala’s highest and lowest round scores?",
+    "expected_answer": "8",
+    "calculation": "24−16=8 points."
+  },
+  {
+    "row": 39,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset E-08 (all values are given below):\nMarks in a quiz (points):\nStudent | Round 1 | Round 2 | Round 3\nAsha | 18 | 20 | 22\nBala | 20 | 16 | 24\nCharu | 15 | 21 | 18",
+    "question": "How many points did Charu score in Rounds 1 and 3 combined?",
+    "expected_answer": "33",
+    "calculation": "15+18=33 points."
+  },
+  {
+    "row": 40,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-01 (all values are given below):\nMonthly output (thousand units):\nFactory | Jan | Feb | Mar | Apr\nA | 32 | 40 | 36 | 44\nB | 28 | 35 | 42 | 45\nC | 40 | 38 | 46 | 36",
+    "question": "By what percent did A’s output rise from January to April?",
+    "expected_answer": "37.5%",
+    "calculation": "(44−32)/32×100=37.5%."
+  },
+  {
+    "row": 41,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-01 (all values are given below):\nMonthly output (thousand units):\nFactory | Jan | Feb | Mar | Apr\nA | 32 | 40 | 36 | 44\nB | 28 | 35 | 42 | 45\nC | 40 | 38 | 46 | 36",
+    "question": "What is the ratio of B’s four-month output to C’s?",
+    "expected_answer": "15:16",
+    "calculation": "B=150, C=160 thousand; ratio 150:160=15:16."
+  },
+  {
+    "row": 42,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-01 (all values are given below):\nMonthly output (thousand units):\nFactory | Jan | Feb | Mar | Apr\nA | 32 | 40 | 36 | 44\nB | 28 | 35 | 42 | 45\nC | 40 | 38 | 46 | 36",
+    "question": "What was the average monthly output of all three factories in March?",
+    "expected_answer": "41.33 thousand",
+    "calculation": "(36+42+46)/3=124/3=41.33 thousand."
+  },
+  {
+    "row": 43,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-02 (all values are given below):\nTravel bookings (people):\nRoute | Mon | Tue | Wed\nNorth | 240 | 300 | 360\nSouth | 180 | 270 | 330\nEast | 200 | 250 | 350\nWest | 160 | 220 | 280",
+    "question": "North bookings on Tuesday were what percent of all Tuesday bookings?",
+    "expected_answer": "28.85%",
+    "calculation": "Tuesday total=1,040; 300/1,040×100≈28.85%."
+  },
+  {
+    "row": 44,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-02 (all values are given below):\nTravel bookings (people):\nRoute | Mon | Tue | Wed\nNorth | 240 | 300 | 360\nSouth | 180 | 270 | 330\nEast | 200 | 250 | 350\nWest | 160 | 220 | 280",
+    "question": "What is the difference between total North and total West bookings?",
+    "expected_answer": "240",
+    "calculation": "North=900; West=660; difference=240."
+  },
+  {
+    "row": 45,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-02 (all values are given below):\nTravel bookings (people):\nRoute | Mon | Tue | Wed\nNorth | 240 | 300 | 360\nSouth | 180 | 270 | 330\nEast | 200 | 250 | 350\nWest | 160 | 220 | 280",
+    "question": "South bookings increased by what percent from Monday to Wednesday?",
+    "expected_answer": "83.33%",
+    "calculation": "Increase=150; 150/180×100=83.33%."
+  },
+  {
+    "row": 46,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-03 (all values are given below):\nLibrary holdings (books):\nSection | Fiction | Science | History\nA | 420 | 280 | 300\nB | 360 | 340 | 250\nC | 480 | 320 | 350",
+    "question": "What percent of all listed books are Science books?",
+    "expected_answer": "30.32%",
+    "calculation": "Science=940; grand total=3,100; 940/3,100×100≈30.32%."
+  },
+  {
+    "row": 47,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-03 (all values are given below):\nLibrary holdings (books):\nSection | Fiction | Science | History\nA | 420 | 280 | 300\nB | 360 | 340 | 250\nC | 480 | 320 | 350",
+    "question": "Find the ratio of Section C holdings to Section B holdings.",
+    "expected_answer": "23:19",
+    "calculation": "C=1,150, B=950; 1,150:950=23:19."
+  },
+  {
+    "row": 48,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-03 (all values are given below):\nLibrary holdings (books):\nSection | Fiction | Science | History\nA | 420 | 280 | 300\nB | 360 | 340 | 250\nC | 480 | 320 | 350",
+    "question": "How many more Fiction than History books are listed altogether?",
+    "expected_answer": "360",
+    "calculation": "Fiction=1,260; History=900; difference=360."
+  },
+  {
+    "row": 49,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-04 (all values are given below):\nOnline orders (orders):\nDay | Electronics | Clothing | Home\nMon | 125 | 180 | 95\nTue | 150 | 160 | 110\nWed | 175 | 210 | 105\nThu | 200 | 190 | 130",
+    "question": "Electronics orders on Thursday were what percent more than Monday?",
+    "expected_answer": "60%",
+    "calculation": "Increase=75; 75/125×100=60%."
+  },
+  {
+    "row": 50,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-04 (all values are given below):\nOnline orders (orders):\nDay | Electronics | Clothing | Home\nMon | 125 | 180 | 95\nTue | 150 | 160 | 110\nWed | 175 | 210 | 105\nThu | 200 | 190 | 130",
+    "question": "What is the ratio of Clothing orders to Home orders over all four days?",
+    "expected_answer": "740:440",
+    "calculation": "Clothing=740, Home=440; ratio is 37:22 (equivalently 740:440)."
+  },
+  {
+    "row": 51,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-04 (all values are given below):\nOnline orders (orders):\nDay | Electronics | Clothing | Home\nMon | 125 | 180 | 95\nTue | 150 | 160 | 110\nWed | 175 | 210 | 105\nThu | 200 | 190 | 130",
+    "question": "What was the average total number of orders per day?",
+    "expected_answer": "457.5",
+    "calculation": "Daily totals 400,420,490,520 sum=1,830; average=457.5."
+  },
+  {
+    "row": 52,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-05 (all values are given below):\nCrop yield (tonnes):\nFarm | Wheat | Rice | Maize\nP | 48 | 36 | 24\nQ | 42 | 45 | 33\nR | 55 | 40 | 25\nS | 35 | 50 | 30",
+    "question": "What percent of the total yield came from Farm R?",
+    "expected_answer": "25.92%",
+    "calculation": "R=120; total=463; 120/463×100≈25.92%."
+  },
+  {
+    "row": 53,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-05 (all values are given below):\nCrop yield (tonnes):\nFarm | Wheat | Rice | Maize\nP | 48 | 36 | 24\nQ | 42 | 45 | 33\nR | 55 | 40 | 25\nS | 35 | 50 | 30",
+    "question": "Find the ratio of total rice yield to total maize yield.",
+    "expected_answer": "171:112",
+    "calculation": "Rice=171, maize=112."
+  },
+  {
+    "row": 54,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-05 (all values are given below):\nCrop yield (tonnes):\nFarm | Wheat | Rice | Maize\nP | 48 | 36 | 24\nQ | 42 | 45 | 33\nR | 55 | 40 | 25\nS | 35 | 50 | 30",
+    "question": "How many tonnes did Farms P and S produce together?",
+    "expected_answer": "223",
+    "calculation": "P=108; S=115; combined=223."
+  },
+  {
+    "row": 55,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-06 (all values are given below):\nMonthly electricity use (kWh):\nHouse | May | June | July\nA | 240 | 300 | 360\nB | 320 | 280 | 400\nC | 200 | 260 | 340",
+    "question": "House A’s July use was what percent of the three houses’ July total?",
+    "expected_answer": "32.73%",
+    "calculation": "July total=1,100; 360/1,100×100≈32.73%."
+  },
+  {
+    "row": 56,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-06 (all values are given below):\nMonthly electricity use (kWh):\nHouse | May | June | July\nA | 240 | 300 | 360\nB | 320 | 280 | 400\nC | 200 | 260 | 340",
+    "question": "What is the difference between House B’s total and House C’s total use?",
+    "expected_answer": "200 kWh",
+    "calculation": "B=1,000; C=800; difference=200 kWh."
+  },
+  {
+    "row": 57,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-06 (all values are given below):\nMonthly electricity use (kWh):\nHouse | May | June | July\nA | 240 | 300 | 360\nB | 320 | 280 | 400\nC | 200 | 260 | 340",
+    "question": "By what percent did House A use increase from May to July?",
+    "expected_answer": "50%",
+    "calculation": "(360−240)/240×100=50%."
+  },
+  {
+    "row": 58,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-07 (all values are given below):\nTournament points (points):\nTeam | League | Cup | Friendly\nFalcons | 38 | 24 | 18\nTigers | 32 | 30 | 20\nWolves | 40 | 18 | 26\nEagles | 28 | 34 | 22",
+    "question": "What is the average Friendly score across the four teams?",
+    "expected_answer": "21.5",
+    "calculation": "(18+20+26+22)/4=86/4=21.5."
+  },
+  {
+    "row": 59,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-07 (all values are given below):\nTournament points (points):\nTeam | League | Cup | Friendly\nFalcons | 38 | 24 | 18\nTigers | 32 | 30 | 20\nWolves | 40 | 18 | 26\nEagles | 28 | 34 | 22",
+    "question": "League points of Falcons and Wolves together are what percent of all League points?",
+    "expected_answer": "56.52%",
+    "calculation": "78/(38+32+40+28)×100=78/138×100≈56.52%."
+  },
+  {
+    "row": 60,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-07 (all values are given below):\nTournament points (points):\nTeam | League | Cup | Friendly\nFalcons | 38 | 24 | 18\nTigers | 32 | 30 | 20\nWolves | 40 | 18 | 26\nEagles | 28 | 34 | 22",
+    "question": "What is the ratio of Tigers’ total points to Eagles’ total points?",
+    "expected_answer": "82:84",
+    "calculation": "Tigers=82, Eagles=84; simplifies 41:42."
+  },
+  {
+    "row": 61,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-08 (all values are given below):\nWater supplied (thousand litres):\nZone | Morning | Afternoon | Evening\n1 | 18 | 12 | 15\n2 | 20 | 14 | 16\n3 | 16 | 18 | 14\n4 | 22 | 10 | 20\n5 | 14 | 16 | 18",
+    "question": "What percent of Zone 3’s daily supply was delivered in the afternoon?",
+    "expected_answer": "37.5%",
+    "calculation": "Zone3 total=48; 18/48×100=37.5%."
+  },
+  {
+    "row": 62,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-08 (all values are given below):\nWater supplied (thousand litres):\nZone | Morning | Afternoon | Evening\n1 | 18 | 12 | 15\n2 | 20 | 14 | 16\n3 | 16 | 18 | 14\n4 | 22 | 10 | 20\n5 | 14 | 16 | 18",
+    "question": "Find the ratio of total morning supply to total evening supply.",
+    "expected_answer": "90:83",
+    "calculation": "Morning=90; evening=83."
+  },
+  {
+    "row": 63,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset M-08 (all values are given below):\nWater supplied (thousand litres):\nZone | Morning | Afternoon | Evening\n1 | 18 | 12 | 15\n2 | 20 | 14 | 16\n3 | 16 | 18 | 14\n4 | 22 | 10 | 20\n5 | 14 | 16 | 18",
+    "question": "Which zone received the greatest total daily supply?",
+    "expected_answer": "Zone 4",
+    "calculation": "Totals:45,50,48,52,48; greatest is 52 in Zone4."
+  },
+  {
+    "row": 64,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-01 (all values are given below):\nExport revenue (million dollars):\nFirm | 2022 | 2023 | 2024\nA | 24 | 30 | 36\nB | 20 | 28 | 32\nC | 18 | 24 | 30\nD | 28 | 26 | 34",
+    "question": "By what percent did combined revenue rise from 2022 to 2024?",
+    "expected_answer": "46.67%",
+    "calculation": "2022=90; 2024=132; rise 42/90×100=46.67%."
+  },
+  {
+    "row": 65,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-01 (all values are given below):\nExport revenue (million dollars):\nFirm | 2022 | 2023 | 2024\nA | 24 | 30 | 36\nB | 20 | 28 | 32\nC | 18 | 24 | 30\nD | 28 | 26 | 34",
+    "question": "Firm B’s three-year revenue is what percent of the four firms’ total revenue?",
+    "expected_answer": "24.24%",
+    "calculation": "B=80; grand total=330; 80/330×100≈24.24%."
+  },
+  {
+    "row": 66,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-01 (all values are given below):\nExport revenue (million dollars):\nFirm | 2022 | 2023 | 2024\nA | 24 | 30 | 36\nB | 20 | 28 | 32\nC | 18 | 24 | 30\nD | 28 | 26 | 34",
+    "question": "What is the ratio of Firm A’s 2023–24 revenue to Firm C’s three-year revenue?",
+    "expected_answer": "11:12",
+    "calculation": "A=66; C=72; ratio=11:12."
+  },
+  {
+    "row": 67,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-02 (all values are given below):\nVehicle registrations (vehicles):\nRegion | Cars | Motorcycles | Buses\nNorth | 840 | 1260 | 300\nSouth | 720 | 1440 | 360\nEast | 960 | 1080 | 240\nWest | 680 | 1220 | 400",
+    "question": "Motorcycles are what percent of all registrations?",
+    "expected_answer": "52.63%",
+    "calculation": "Motorcycles=5,000; total=9,500; share≈52.63%."
+  },
+  {
+    "row": 68,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-02 (all values are given below):\nVehicle registrations (vehicles):\nRegion | Cars | Motorcycles | Buses\nNorth | 840 | 1260 | 300\nSouth | 720 | 1440 | 360\nEast | 960 | 1080 | 240\nWest | 680 | 1220 | 400",
+    "question": "If East car registrations rise 12.5%, how many will there be?",
+    "expected_answer": "1,080",
+    "calculation": "960×1.125=1,080."
+  },
+  {
+    "row": 69,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-02 (all values are given below):\nVehicle registrations (vehicles):\nRegion | Cars | Motorcycles | Buses\nNorth | 840 | 1260 | 300\nSouth | 720 | 1440 | 360\nEast | 960 | 1080 | 240\nWest | 680 | 1220 | 400",
+    "question": "Find the ratio of South and West bus registrations together to North and East car registrations together.",
+    "expected_answer": "19:45",
+    "calculation": "Buses=760; cars=1,800; ratio=19:45."
+  },
+  {
+    "row": 70,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-03 (all values are given below):\nDepartment salaries (thousand rupees):\nDepartment | Junior | Senior | Manager\nP | 28 | 42 | 70\nQ | 32 | 48 | 80\nR | 30 | 45 | 75\nS | 36 | 54 | 90",
+    "question": "The workforce proportions of P, Q, R and S are 10:8:12:10. What is the weighted mean salary across the departments?",
+    "expected_answer": "Rs 45,530",
+    "calculation": "Department means are P=40.6, Q=46.4, R=43.5, S=52.2 thousand. Weighted mean=(10×40.6+8×46.4+12×43.5+10×52.2)/40=45.53 thousand."
+  },
+  {
+    "row": 71,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-03 (all values are given below):\nDepartment salaries (thousand rupees):\nDepartment | Junior | Senior | Manager\nP | 28 | 42 | 70\nQ | 32 | 48 | 80\nR | 30 | 45 | 75\nS | 36 | 54 | 90",
+    "question": "Across all four departments, manager pay is what percent more than junior pay?",
+    "expected_answer": "150%",
+    "calculation": "Manager total=315; junior total=126; difference/126×100=150%."
+  },
+  {
+    "row": 72,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-03 (all values are given below):\nDepartment salaries (thousand rupees):\nDepartment | Junior | Senior | Manager\nP | 28 | 42 | 70\nQ | 32 | 48 | 80\nR | 30 | 45 | 75\nS | 36 | 54 | 90",
+    "question": "For Department Q, senior salaries are what percent of its combined junior and manager salaries?",
+    "expected_answer": "42.86%",
+    "calculation": "48/(32+80)×100=42.86%."
+  },
+  {
+    "row": 73,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-04 (all values are given below):\nProduction and defects (units):\nPlant | Produced | Defective\nA | 2400 | 48\nB | 3000 | 45\nC | 1800 | 54\nD | 2800 | 56",
+    "question": "Which plant has the lowest defect rate?",
+    "expected_answer": "B",
+    "calculation": "Rates: A2%, B1.5%, C3%, D2%; minimum B."
+  },
+  {
+    "row": 74,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-04 (all values are given below):\nProduction and defects (units):\nPlant | Produced | Defective\nA | 2400 | 48\nB | 3000 | 45\nC | 1800 | 54\nD | 2800 | 56",
+    "question": "What is the overall defect rate?",
+    "expected_answer": "2.03%",
+    "calculation": "Defects=203; output=10,000; rate=2.03%."
+  },
+  {
+    "row": 75,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-04 (all values are given below):\nProduction and defects (units):\nPlant | Produced | Defective\nA | 2400 | 48\nB | 3000 | 45\nC | 1800 | 54\nD | 2800 | 56",
+    "question": "If Plant C reduces defects by one-third with unchanged output, how many fewer defects will it have?",
+    "expected_answer": "18",
+    "calculation": "One-third of 54=18."
+  },
+  {
+    "row": 76,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-05 (all values are given below):\nExam results (students):\nSchool | Appeared | Passed\nA | 480 | 360\nB | 520 | 390\nC | 450 | 360\nD | 550 | 385",
+    "question": "Which school has the highest pass percentage?",
+    "expected_answer": "C",
+    "calculation": "Rates: A75%, B75%, C80%, D70%; C highest."
+  },
+  {
+    "row": 77,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-05 (all values are given below):\nExam results (students):\nSchool | Appeared | Passed\nA | 480 | 360\nB | 520 | 390\nC | 450 | 360\nD | 550 | 385",
+    "question": "What percent of all appeared students passed?",
+    "expected_answer": "74.75%",
+    "calculation": "Passed=1,495; appeared=2,000; 74.75%."
+  },
+  {
+    "row": 78,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-05 (all values are given below):\nExam results (students):\nSchool | Appeared | Passed\nA | 480 | 360\nB | 520 | 390\nC | 450 | 360\nD | 550 | 385",
+    "question": "How many additional passes would D need to match School C’s pass rate?",
+    "expected_answer": "55",
+    "calculation": "At80% of550=440; 440−385=55."
+  },
+  {
+    "row": 79,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-06 (all values are given below):\nWarehouse inventory (crates):\nWarehouse | Start | Received | Dispatched\nA | 620 | 180 | 250\nB | 540 | 260 | 310\nC | 700 | 150 | 420\nD | 480 | 320 | 270",
+    "question": "What is the ratio of total closing stock in A and C to that in B and D?",
+    "expected_answer": "49:51",
+    "calculation": "Closing A550,C430=980; B490,D530=1,020; ratio49:51."
+  },
+  {
+    "row": 80,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-06 (all values are given below):\nWarehouse inventory (crates):\nWarehouse | Start | Received | Dispatched\nA | 620 | 180 | 250\nB | 540 | 260 | 310\nC | 700 | 150 | 420\nD | 480 | 320 | 270",
+    "question": "Closing stock across all warehouses is what percent of total starting stock?",
+    "expected_answer": "85.47%",
+    "calculation": "Closing=2,000; start=2,340; 85.47%."
+  },
+  {
+    "row": 81,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-06 (all values are given below):\nWarehouse inventory (crates):\nWarehouse | Start | Received | Dispatched\nA | 620 | 180 | 250\nB | 540 | 260 | 310\nC | 700 | 150 | 420\nD | 480 | 320 | 270",
+    "question": "If 15% of Warehouse B closing stock is damaged, how many usable crates remain?",
+    "expected_answer": "416.5",
+    "calculation": "B closing=490; usable=85%×490=416.5."
+  },
+  {
+    "row": 82,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-07 (all values are given below):\nMonthly spending (rupees):\nCategory | January | February | March\nRent | 12000 | 12000 | 12000\nFood | 8000 | 9000 | 7500\nTravel | 3000 | 4500 | 3500\nUtilities | 2500 | 2000 | 3000",
+    "question": "Food was what percent of total three-month spending?",
+    "expected_answer": "31.01%",
+    "calculation": "Food=24,500; all=79,000; 24,500/79,000×100≈31.01%."
+  },
+  {
+    "row": 83,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-07 (all values are given below):\nMonthly spending (rupees):\nCategory | January | February | March\nRent | 12000 | 12000 | 12000\nFood | 8000 | 9000 | 7500\nTravel | 3000 | 4500 | 3500\nUtilities | 2500 | 2000 | 3000",
+    "question": "By what percent did total spending change from January to February?",
+    "expected_answer": "7.84%",
+    "calculation": "Jan=25,500; Feb=27,500; rise 2,000/25,500=7.84%."
+  },
+  {
+    "row": 84,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-07 (all values are given below):\nMonthly spending (rupees):\nCategory | January | February | March\nRent | 12000 | 12000 | 12000\nFood | 8000 | 9000 | 7500\nTravel | 3000 | 4500 | 3500\nUtilities | 2500 | 2000 | 3000",
+    "question": "In March, rent and food together were what percent of total spending?",
+    "expected_answer": "75%",
+    "calculation": "19,500/26,000×100=75%."
+  },
+  {
+    "row": 85,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-08 (all values are given below):\nPassenger counts (thousands):\nStation | 06–09 | 09–12 | 12–15 | 15–18\nP | 18 | 26 | 34 | 22\nQ | 24 | 30 | 28 | 18\nR | 20 | 24 | 36 | 20\nS | 16 | 22 | 30 | 32",
+    "question": "What share of all passengers travelled during 12–15?",
+    "expected_answer": "32%",
+    "calculation": "12–15=128; total=400; share=32%."
+  },
+  {
+    "row": 86,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-08 (all values are given below):\nPassenger counts (thousands):\nStation | 06–09 | 09–12 | 12–15 | 15–18\nP | 18 | 26 | 34 | 22\nQ | 24 | 30 | 28 | 18\nR | 20 | 24 | 36 | 20\nS | 16 | 22 | 30 | 32",
+    "question": "Station S’s peak-period count (15–18) is what percent greater than its 06–09 count?",
+    "expected_answer": "100%",
+    "calculation": "(32−16)/16×100=100%."
+  },
+  {
+    "row": 87,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-08 (all values are given below):\nPassenger counts (thousands):\nStation | 06–09 | 09–12 | 12–15 | 15–18\nP | 18 | 26 | 34 | 22\nQ | 24 | 30 | 28 | 18\nR | 20 | 24 | 36 | 20\nS | 16 | 22 | 30 | 32",
+    "question": "Find the ratio of Q’s total to P’s total passengers.",
+    "expected_answer": "1:1",
+    "calculation": "Q=100 and P=100, ratio 1:1."
+  },
+  {
+    "row": 88,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-09 (all values are given below):\nCrop procurement (tonnes):\nDistrict | Wheat | Rice | Pulses\nA | 150 | 120 | 60\nB | 180 | 90 | 80\nC | 120 | 160 | 70\nD | 210 | 130 | 90",
+    "question": "Rice is what percent of total procurement?",
+    "expected_answer": "34.25%",
+    "calculation": "Rice=500; total=1,460; 500/1,460×100≈34.25%."
+  },
+  {
+    "row": 89,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-09 (all values are given below):\nCrop procurement (tonnes):\nDistrict | Wheat | Rice | Pulses\nA | 150 | 120 | 60\nB | 180 | 90 | 80\nC | 120 | 160 | 70\nD | 210 | 130 | 90",
+    "question": "District C’s pulses are what percent of its wheat and rice combined?",
+    "expected_answer": "25%",
+    "calculation": "70/(120+160)×100=25%."
+  },
+  {
+    "row": 90,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "dataset": "Dataset H-09 (all values are given below):\nCrop procurement (tonnes):\nDistrict | Wheat | Rice | Pulses\nA | 150 | 120 | 60\nB | 180 | 90 | 80\nC | 120 | 160 | 70\nD | 210 | 130 | 90",
+    "question": "What is the ratio of total wheat and pulses procurement to rice procurement?",
+    "expected_answer": "48:25",
+    "calculation": "Wheat=660, pulses=300, rice=500; 960:500=48:25."
+  }
+]
