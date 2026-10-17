@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "A joint family has a father, a mother, three married sons, and one unmarried daughter. Two sons each have two daughters; the third has one son. How many female members are in the family?",
+      "explanation": "Count the mother (1), unmarried daughter (1), wives of the three married sons (3), and four granddaughters (4): 1+1+3+4=9. The grandson and male family members do not add to the female count.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 02_.pdf, lecture slide 5; exam/year not stated; wording clarified from bilingual slide",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "6",
+        "D": "9"
+      },
+      "correct_option": "D"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "F is the brother of G. G is the husband of H. H is the daughter of I, and I is the wife of J. How is F related to J?",
+      "explanation": "I is J's wife and H is I's daughter, so H is J's daughter. G is H's husband and F is G's brother. Thus F is the brother of J's daughter's husband.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 02_.pdf, lecture slide 8; exam/year not stated",
+      "options": {
+        "A": "Daughter's husband's brother",
+        "B": "Brother",
+        "C": "Father",
+        "D": "Daughter's husband's father"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Himmat is the husband of Kavita. Sharda is the daughter of Ravi and Ketaki, and Kavita and Sharda are full sisters. How is Ravi related to Himmat?",
+      "explanation": "Ravi is Sharda's father. Since Kavita and Sharda are full sisters, Ravi is also Kavita's father. Himmat is Kavita's husband, so Ravi is Himmat's father-in-law.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 02_.pdf, lecture slide 10; exam/year not stated; full-sibling relation stated explicitly",
+      "options": {
+        "A": "Brother",
+        "B": "Father",
+        "C": "Uncle",
+        "D": "Father-in-law"
+      },
+      "correct_option": "D"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "H is the husband of G. J is H's son. L is J's son. L and M are full siblings. N is M's mother and is married to J. How is N related to H?",
+      "explanation": "N is married to J, who is H's son. Therefore N is H's daughter-in-law. The full-sibling statement also makes N L's mother, consistent with the slide's family chain.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 02_.pdf, lecture slide 11; exam/year not stated; marriage and full-sibling links stated to remove ambiguity",
+      "options": {
+        "A": "Daughter-in-law",
+        "B": "Daughter",
+        "C": "Sister",
+        "D": "Mother"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Kartik is the paternal grandfather of Deepak. Nirupama is Deepak's mother, and Ankit is both Nirupama's husband and Deepak's father. How is Kartik related to Ankit?",
+      "explanation": "Ankit is Deepak's father. Kartik is Deepak's paternal grandfather, so Kartik is the father of Ankit.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 02_.pdf, lecture slide 12; exam/year not stated; Ankit's parentage of Deepak made explicit",
+      "options": {
+        "A": "Brother",
+        "B": "Son",
+        "C": "Uncle",
+        "D": "Father"
+      },
+      "correct_option": "D"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Karishma introduces Reshma and says, ‘She is my father-in-law's daughter's daughter.’ How is Reshma related to Karishma?",
+      "explanation": "Karishma's father-in-law's daughter is her husband's sister. That daughter's daughter is Karishma's niece.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 02_.pdf, lecture slide 13; exam/year not stated",
+      "options": {
+        "A": "Sister",
+        "B": "Cousin",
+        "C": "Sister-in-law",
+        "D": "Niece"
+      },
+      "correct_option": "D"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: A is the son of B; A−B: A is the sister of B; A×B: A is the wife of B; A÷B: A is the father of B. Assume the stated parents are spouses. How is Q related to D in Q÷E+R−C×D?",
+      "explanation": "Q is E's father and R is E's other parent, so Q and R are spouses. R is C's sister, and C is D's wife. Therefore Q is the husband of D's wife's sister.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 4; exam/year not stated; co-parent spouse assumption made explicit",
+      "options": {
+        "A": "Sister's husband",
+        "B": "Wife's sister's husband",
+        "C": "Son",
+        "D": "Husband"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: A is the sister of B; A−B: A is the brother of B; A×B: A is the wife of B; A÷B: A is the father of B. Assume sibling links denote full siblings. How is F related to Y in F−H×L÷O+Y?",
+      "explanation": "F is H's brother; H is L's wife. L is O's father, and O is Y's sister, so O and Y share parents. H is their mother; F is their mother's brother.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 6; exam/year not stated; full-sibling relation stated",
+      "options": {
+        "A": "Father's father",
+        "B": "Mother's brother",
+        "C": "Mother's father",
+        "D": "Father's brother"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A%B: A is the daughter of B; A$B: A is the son of B; A*B: A is the sister of B. How is H related to J in H%I$J$K*L?",
+      "explanation": "H is the daughter of I, and I is the son of J. Thus H is J's granddaughter.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 7; exam/year not stated",
+      "options": {
+        "A": "Grandson",
+        "B": "Uncle",
+        "C": "Granddaughter",
+        "D": "Son"
+      },
+      "correct_option": "C"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: A is the father of B; A−B: A is the sister of B; A×B: A is the brother of B; A÷B: A is the daughter of B. Assume sibling links denote full siblings. How is S related to U in R+S×T−V÷U?",
+      "explanation": "R is S's father. S is T's brother, T is V's sister, and V is U's daughter. Under the stated full-sibling convention, S is also U's child; since S is identified as a brother, S is U's son.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 8; exam/year not stated; full-sibling relation stated",
+      "options": {
+        "A": "Husband",
+        "B": "Son",
+        "C": "Brother",
+        "D": "Daughter"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: A is the sister of B; A@B: A is the brother of B; A#B: A is the wife of B; A÷B: A is the father of B. Assume stated sibling links denote full siblings. How is W related to U in W@E+R÷H#U?",
+      "explanation": "W is E's brother and E is R's sister, so W is R's brother. R is H's father; H is U's wife. Therefore W is the brother of U's wife's father.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 9; exam/year not stated; full-sibling relation stated",
+      "options": {
+        "A": "Wife's father",
+        "B": "Wife's brother",
+        "C": "Wife's father's brother",
+        "D": "Wife's father's father"
+      },
+      "correct_option": "C"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A$B: A is the son of B; A+B: A is the brother of B; A@B: A is the wife of B; A÷B: A is the father of B. Assume sibling links denote full siblings. How is E related to N in E$F÷G+M@N?",
+      "explanation": "E is F's son and F is G's father, so E and G are siblings. G is M's brother, so E is M's brother. M is N's wife; hence E is N's wife's brother.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 11; exam/year not stated; sibling links clarified",
+      "options": {
+        "A": "Father",
+        "B": "Brother",
+        "C": "Wife's brother",
+        "D": "Wife's father"
+      },
+      "correct_option": "C"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: A is the daughter of B; A−B: A is the brother of B; A×B: A is the wife of B; A÷B: A is the father of B. Assume O and P are full siblings. How is M related to Q in M÷N×O−P+Q?",
+      "explanation": "M is N's father; N is O's wife. O is P's brother, and P is Q's daughter, so O is Q's son. Therefore M is the father of Q's son's wife.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 12; exam/year not stated; full-sibling link stated",
+      "options": {
+        "A": "Son's wife's father",
+        "B": "Wife's father",
+        "C": "Wife's brother",
+        "D": "Son's wife's brother"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: B is the father of A; A#B: B is the sister of A; A@B: B is the brother of A. Assume the sibling links denote full siblings. How is E related to A in A@B#C+D+E?",
+      "explanation": "B is A's brother and C is B's sister, so A, B, and C are siblings. D is C's father and E is D's father. E is two generations above A, so E is A's grandfather.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Blood relation 03_.pdf, lecture slide 17; exam/year not stated; full-sibling relation stated",
+      "options": {
+        "A": "Grandfather",
+        "B": "Father",
+        "C": "Uncle",
+        "D": "Son"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Rita is the sister of Mohan. Mohan is the father of Kiran. How is Rita related to Kiran?",
+      "explanation": "Rita is the sister of Kiran's father, so she is Kiran's paternal aunt.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Paternal aunt",
+        "B": "Maternal aunt",
+        "C": "Sister",
+        "D": "Grandmother"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Asha is the daughter of Neha. Neha is the daughter of Lata. How is Lata related to Asha?",
+      "explanation": "Neha is Asha's mother, and Lata is Neha's mother. Lata is Asha's maternal grandmother.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Mother",
+        "B": "Paternal grandmother",
+        "C": "Maternal grandmother",
+        "D": "Aunt"
+      },
+      "correct_option": "C"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Pointing to a boy, Meena says, ‘He is the son of my father's only son.’ Meena has one brother, and her father has no other sons. How is the boy related to Meena?",
+      "explanation": "Meena's father's only son is her brother. The boy is her brother's son, so he is her nephew.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Brother",
+        "B": "Nephew",
+        "C": "Cousin",
+        "D": "Uncle"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "P is the father of Q. Q and R are full siblings. How is P related to R?",
+      "explanation": "P is Q's father, and R is Q's full sibling. Therefore P is also R's father.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Uncle",
+        "B": "Father",
+        "C": "Brother",
+        "D": "Grandfather"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Asha is the daughter of Ravi. Ravi is the son of Mohan. How is Mohan related to Asha?",
+      "explanation": "Ravi is Asha's father. Mohan is Ravi's father, so Mohan is Asha's paternal grandfather.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Maternal grandfather",
+        "B": "Paternal grandfather",
+        "C": "Uncle",
+        "D": "Father"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Tara is the daughter of Arjun and Meera. Rohit is Tara's son. How is Arjun related to Rohit?",
+      "explanation": "Arjun is Tara's father, and Tara is Rohit's mother. Arjun is Rohit's maternal grandfather.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Paternal grandfather",
+        "B": "Maternal grandfather",
+        "C": "Uncle",
+        "D": "Father"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Kamal is the brother of Leela. Leela is the mother of Nitin. How is Kamal related to Nitin?",
+      "explanation": "Kamal is the brother of Nitin's mother, so he is Nitin's maternal uncle.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Paternal uncle",
+        "B": "Maternal uncle",
+        "C": "Brother",
+        "D": "Grandfather"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Ravi and Sita are full siblings. Ravi is the father of Arjun, and Sita is the mother of Beena. How are Arjun and Beena related?",
+      "explanation": "Arjun is the child of Ravi and Beena is the child of Ravi's full sister Sita. Children of siblings are first cousins.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Brother and sister",
+        "B": "First cousins",
+        "C": "Uncle and niece",
+        "D": "Father and daughter"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "Neha is the mother of Pooja. Pooja is married to Karan. How is Neha related to Karan?",
+      "explanation": "Neha is the mother of Karan's wife, so Neha is his mother-in-law.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Sister-in-law",
+        "B": "Mother-in-law",
+        "C": "Aunt",
+        "D": "Daughter-in-law"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "A woman’s brother has a daughter, and that daughter has a son, R. How is R related to the woman?",
+      "explanation": "The woman's brother's daughter is her niece. That niece's son is her great-nephew (also called a grandnephew).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Nephew",
+        "B": "Cousin",
+        "C": "Great-nephew",
+        "D": "Grandson"
+      },
+      "correct_option": "C"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "J is married to K. L is K's sister. L is the mother of M. How is L related to J?",
+      "explanation": "L is the sister of J's spouse K, so L is J's sister-in-law.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Sister-in-law",
+        "B": "Mother-in-law",
+        "C": "Daughter",
+        "D": "Cousin"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "N is the sister of M. M is the father of P and is married to L, P's mother. How is N related to P?",
+      "explanation": "M is P's father and N is M's sister. Thus N is P's paternal aunt.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Maternal aunt",
+        "B": "Paternal aunt",
+        "C": "Sister",
+        "D": "Grandmother"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "P is the brother of Q. Q is the father of R. R is the mother of S. How is P related to S?",
+      "explanation": "P is the brother of S's maternal grandfather Q. Q is R's father, and R is S's mother. So P is the brother of S's mother's father.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Mother's maternal uncle",
+        "B": "Mother's father's brother",
+        "C": "Father's paternal uncle",
+        "D": "Mother's father"
+      },
+      "correct_option": "B"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "E is the mother of A. A is the father of B. B and C are full siblings. C is the father of D. How is E related to D?",
+      "explanation": "A is C's father because B and C are full siblings. E is A's mother, C is D's father, so E is D's paternal great-grandmother.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Paternal grandmother",
+        "B": "Maternal great-grandmother",
+        "C": "Paternal great-grandmother",
+        "D": "Paternal great-aunt"
+      },
+      "correct_option": "C"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "The symbols mean: A+B: A is the father of B; A−B: A is the mother of B; A×B: A is the sister of B. How is P related to S in P×R−B+S?",
+      "explanation": "P is R's sister, R is B's mother, and B is S's father. Therefore P is the sister of S's father's mother: S's father's maternal aunt.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Father's maternal aunt",
+        "B": "Mother's paternal aunt",
+        "C": "Father's sister",
+        "D": "Mother's aunt"
+      },
+      "correct_option": "A"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "blood-relation",
+      "question_text": "A is the brother of B. B is the mother of C. C is the father of D. E is the sister of A. Assume A and B, and A and E, are full siblings. How is E related to D?",
+      "explanation": "E is A's sister and A and B are full siblings, so E is also B's sister. B is C's mother, and C is D's father. Thus E is the sister of D's paternal grandmother: D's father's maternal aunt.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question",
+      "options": {
+        "A": "Father's maternal aunt",
+        "B": "Father's paternal aunt",
+        "C": "Mother's paternal aunt",
+        "D": "Grandmother"
+      },
+      "correct_option": "A"
+    }
+  ]
+}

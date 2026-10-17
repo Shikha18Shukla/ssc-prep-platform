@@ -1,0 +1,460 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In any code language, INDIA is written as 914491. How will POLICE be written in that language?",
+      "options": {
+        "A": "161512935",
+        "B": "15654835",
+        "C": "161545545",
+        "D": "16171717"
+      },
+      "correct_option": "A",
+      "explanation": "Replace each letter by its A1Z26 position and concatenate: P=16, O=15, L=12, I=9, C=3, E=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 01_.pdf, PDF page 10; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If MANGO is written as 50 in a code language, how is GOA written in that language?",
+      "options": {
+        "A": "23",
+        "B": "33",
+        "C": "32",
+        "D": "27"
+      },
+      "correct_option": "A",
+      "explanation": "The code is the sum of alphabet positions: G+O+A=7+15+1=23.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 7; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If PILOT is written as 144 in a symbolic language, how will TRAIN be written in the same language?",
+      "options": {
+        "A": "133",
+        "B": "124",
+        "C": "132",
+        "D": "125"
+      },
+      "correct_option": "B",
+      "explanation": "The code is twice the sum of alphabet positions. TRAIN gives 2×(20+18+1+9+14)=124.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 8; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If MACHINE is coded as 19-7-9-14-15-20-11, how will DANGER be coded?",
+      "options": {
+        "A": "10-7-20-13-11-24",
+        "B": "11-7-16-20-11-24",
+        "C": "13-7-20-9-11-25",
+        "D": "13-7-20-10-11-25"
+      },
+      "correct_option": "A",
+      "explanation": "Each alphabet position is increased by 6: DANGER positions 4,1,14,7,5,18 become 10,7,20,13,11,24.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 9; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code language, MORE is coded as 14-12-9-22 and KNOW as 16-13-12-4. How will SAID be coded?",
+      "options": {
+        "A": "7-26-18-22",
+        "B": "8-26-18-23",
+        "C": "8-26-17-23",
+        "D": "7-25-18-23"
+      },
+      "correct_option": "B",
+      "explanation": "Each letter is replaced by its reverse alphabet position (27 minus its A1Z26 position). SAID maps to 8-26-18-23.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 10; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If GO is written as 32 in a code language, how is COME written in that language?",
+      "options": {
+        "A": "72",
+        "B": "88",
+        "C": "89",
+        "D": "76"
+      },
+      "correct_option": "A",
+      "explanation": "Add reverse alphabet positions: C=24, O=12, M=14, E=22; total 72. GO gives 20+12=32.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 11; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If DISPUR is written as DISRUP in a certain code, how will SHIMLA be written in that code?",
+      "options": {
+        "A": "SHIALM",
+        "B": "SHKBLM",
+        "C": "MAORUP",
+        "D": "KLMOST"
+      },
+      "correct_option": "A",
+      "explanation": "The 4th and 6th letters are interchanged. SHIMLA becomes SHIALM.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 14; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If COLOUR is coded as DNMNVP, how will DEMAND be coded?",
+      "options": {
+        "A": "EDNBMB",
+        "B": "EDNZOC",
+        "C": "EDNZOB",
+        "D": "EDLBMC"
+      },
+      "correct_option": "C",
+      "explanation": "The position shifts are +1,−1,+1,−1,+1,−2. Applying them to DEMAND yields EDNZOB.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 15; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code, NAIL is written as 2637 and LANE as 3278. How is E written in that code?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "8",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "explanation": "N, A and L are common to both words; their digits are 2, 3 and 7. The remaining digit in LANE is 8, so E=8.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 19; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code, DRAW is written as 7932 and WEAR as 4729. How is E written in that code?",
+      "options": {
+        "A": "7",
+        "B": "4",
+        "C": "9",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "The words share W, A and R, and the codes share 7, 9 and 2. The remaining digit 4 represents E.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 20; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code language, NEAR is written as 4968 and REAP as 9865. How will P be written in that code language?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "5"
+      },
+      "correct_option": "D",
+      "explanation": "R, E and A are shared; their codes are the three digits common to 4968 and 9865 (9, 8, 6). The remaining digit for P is 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 21; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a code language, 'She will come' is 'vu de ja', 'Come and eat' is 'te vu ma', and 'all will eat' is 'ma nu ja'. What is the code for 'all'?",
+      "options": {
+        "A": "nu",
+        "B": "ja",
+        "C": "ma",
+        "D": "te"
+      },
+      "correct_option": "A",
+      "explanation": "'Will' and 'eat' are shared by the first/third and second/third statements, giving ja and ma; the remaining code in the third statement, nu, is 'all'.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 23; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a code language, 639 means 'water is drink', 316 means 'juice is drink', and 219 means 'water or juice'. What is the code for 'or'?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "9",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "explanation": "Digits 3 and 6 are the shared codes for 'is' and 'drink'. In the third statement, 9 is water and 1 is juice, leaving 2 for 'or'.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 02_.pdf, PDF page 24; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If 'light' is called 'morning', 'morning' is called 'dark', 'dark' is called 'night', 'night' is called 'sunshine', and 'sunshine' is called 'dusk', when do we sleep?",
+      "options": {
+        "A": "Night",
+        "B": "Light",
+        "C": "Dusk",
+        "D": "Sunshine"
+      },
+      "correct_option": "D",
+      "explanation": "We sleep at night; the code calls night 'sunshine'.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 6; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If a train is called a bus, a bus is called a tractor, a tractor is called a car, a car is called a scooter, a scooter is called a cycle, and a cycle is called a moped, which is used to plough a field?",
+      "options": {
+        "A": "Train",
+        "B": "Bus",
+        "C": "Tractor",
+        "D": "Car"
+      },
+      "correct_option": "D",
+      "explanation": "A tractor is used to plough a field. In the substitution, a tractor is called a car.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 7; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If air is called green, green is called blue, blue is called sky, sky is called yellow, yellow is called water, and water is called pink, what is the colour of the sky?",
+      "options": {
+        "A": "Blue",
+        "B": "Sky",
+        "C": "Yellow",
+        "D": "Water"
+      },
+      "correct_option": "B",
+      "explanation": "The real colour is blue; blue is called sky.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 8; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "If honey is called chocolate, chocolate is called sugar, sugar is called joy, and joy is called freedom, which is made from cocoa beans?",
+      "options": {
+        "A": "Chocolate",
+        "B": "Sugar",
+        "C": "Honey",
+        "D": "Joy"
+      },
+      "correct_option": "B",
+      "explanation": "Cocoa beans make chocolate; chocolate is called sugar in this code.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 9; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a coding language TEAR is called 7%9# and PERY is called &%#8. How is ARTERY called?",
+      "options": {
+        "A": "9#7%#8",
+        "B": "9#%7#8",
+        "C": "9%7#%8",
+        "D": "9%7%#8"
+      },
+      "correct_option": "A",
+      "explanation": "TEAR gives T=7,E=%,A=9,R=#; PERY confirms P=&,Y=8. Substitute ARTERY letter by letter.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 12; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code, 13479 is written as AQFJL and 5268 as DMPN. How is 396824 written?",
+      "options": {
+        "A": "QLNPMF",
+        "B": "QLPNMF",
+        "C": "QLPMNF",
+        "D": "QLPNME"
+      },
+      "correct_option": "B",
+      "explanation": "Use the digit-to-letter mapping in the examples: 3=Q,9=L,6=P,8=N,2=M,4=F, yielding QLPNMF.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 13; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "A code table maps W=5, P=6, J=9, Q=1, E=2, T=3, I=@, A=4, U=©, F=8, D=%, B=★, V=7, M=#, H=$. For MBUVWE, apply these rules: (i) if the first letter is a consonant and the fourth is a vowel, code both as the fourth letter; (ii) if the second is a vowel and last is a consonant, code both as 8; (iii) if the first and last are consonants, interchange their codes. What is the code?",
+      "options": {
+        "A": "#★#52",
+        "B": "7★©#52",
+        "C": "#★©752",
+        "D": "#★★7528"
+      },
+      "correct_option": "C",
+      "explanation": "For MBUVWE, the fourth letter V is a consonant, the second B is a consonant, and the last E is a vowel. None of the three conditions applies; substitute the table directly: #★©752.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 15; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "Using this matrix, encode PAST: rows 0–4 are A R S N C / N C A R S / S N C A R / R S N C A / C A R S N; rows 5–9 are O E L P T / T O E L P / P T O E L / L P T O E / E L P T O. Use the row number followed by column number.",
+      "options": {
+        "A": "75,21,14,65",
+        "B": "86,12,31,76",
+        "C": "58,41,12,67",
+        "D": "88,77,41,67"
+      },
+      "correct_option": "B",
+      "explanation": "Locate each letter: P at row 8 column 6, A at row 1 column 2, S at row 3 column 1, T at row 7 column 6.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 19; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "Using the stated two-block letter matrix (rows 0–4: A R S N C / N C A R S / S N C A R / R S N C A / C A R S N; rows 5–9: O E L P T / T O E L P / P T O E L / L P T O E / E L P T O), encode RATE as row number followed by column number.",
+      "options": {
+        "A": "13,12,98,67",
+        "B": "42,23,56,76",
+        "C": "30,14,95,89",
+        "D": "24,43,89,95"
+      },
+      "correct_option": "A",
+      "explanation": "R is at (1,3), A at (1,2), T at (9,8), and E at (6,7).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 20; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "Using the stated two-block letter matrix (rows 0–4: A R S N C / N C A R S / S N C A R / R S N C A / C A R S N; rows 5–9: O E L P T / T O E L P / P T O E L / L P T O E / E L P T O), encode POET as row number followed by column number.",
+      "options": {
+        "A": "69,88,67,65",
+        "B": "75,55,65,67",
+        "C": "77,88,98,89",
+        "D": "21,67,76,78"
+      },
+      "correct_option": "A",
+      "explanation": "P is at (6,9), O at (8,8), E at (6,7), and T at (6,5).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 21; source question; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "Using the stated two-block letter matrix (rows 0–4: A R S N C / N C A R S / S N C A R / R S N C A / C A R S N; rows 5–9: O E L P T / T O E L P / P T O E L / L P T O E / E L P T O), encode NEST as row number followed by column number.",
+      "options": {
+        "A": "32,56,20,89",
+        "B": "10,65,41,76",
+        "C": "32,76,34,98",
+        "D": "21,67,14,59"
+      },
+      "correct_option": "D",
+      "explanation": "N is at (2,1), E at (6,7), S at (1,4), and T at (5,9).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coding Decoding 03_.pdf, PDF page 22; source question; exam/year not stated"
+    }
+  ]
+}

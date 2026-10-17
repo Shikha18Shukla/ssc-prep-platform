@@ -1,0 +1,242 @@
+[
+  {
+    "row": 1,
+    "question": "If every letter is moved two places forward in the alphabet, how is DOG coded?",
+    "difficulty": "EASY",
+    "expected_answer": "FQI",
+    "independent_reasoning": "Move each letter forward by 2: D→F, O→Q, G→I. The code is FQI.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 2,
+    "question": "Using opposite letters (A↔Z, B↔Y, and so on), how is BED coded?",
+    "difficulty": "EASY",
+    "expected_answer": "YVW",
+    "independent_reasoning": "Opposite alphabet pairs total 27: B↔Y, E↔V, and D↔W. Therefore BED is coded YVW.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 3,
+    "question": "A word is coded by writing its letters in reverse order. How is GARDEN coded?",
+    "difficulty": "EASY",
+    "expected_answer": "NEDRAG",
+    "independent_reasoning": "Reversing the order of the letters in GARDEN gives NEDRAG.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 4,
+    "question": "In a code, move the first letter two places forward, the second one place forward, and the third two places backward. How is MAP coded?",
+    "difficulty": "EASY",
+    "expected_answer": "OBN",
+    "independent_reasoning": "M+2=O, A+1=B, and P−2=N. The coded form is OBN.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 5,
+    "question": "In a word code, each vowel is replaced by the next vowel in the cycle A, E, I, O, U, A; consonants stay unchanged. How is PLANE coded?",
+    "difficulty": "EASY",
+    "expected_answer": "PLENI",
+    "independent_reasoning": "Only vowels change: A→E and E→I. P, L, and N remain unchanged, so PLANE becomes PLENI.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 6,
+    "question": "Write each letter of BANK as its alphabetical rank within that word, with rank 1 assigned to the alphabetically earliest letter. What is the code?",
+    "difficulty": "EASY",
+    "expected_answer": "2143",
+    "independent_reasoning": "Alphabetically BANK's letters order as A, B, K, N. In the original order, B has rank 2, A rank 1, N rank 4, and K rank 3, giving 2143.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 7,
+    "question": "A number is coded by reversing its digits. What is the code for 47062?",
+    "difficulty": "EASY",
+    "expected_answer": "26074",
+    "independent_reasoning": "Reverse the digit order: 4-7-0-6-2 becomes 2-6-0-7-4, or 26074.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 8,
+    "question": "A word is coded by swapping each adjacent pair of letters. How is MINT coded?",
+    "difficulty": "EASY",
+    "expected_answer": "IMTN",
+    "independent_reasoning": "Swap positions 1–2 and 3–4: MI becomes IM and NT becomes TN. The code is IMTN.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 9,
+    "question": "A word is coded as (number of vowels)(number of consonants). What is the code for ORANGE?",
+    "difficulty": "EASY",
+    "expected_answer": "33",
+    "independent_reasoning": "ORANGE has O, A, E (3 vowels) and R, N, G (3 consonants), so its code is 33.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 10,
+    "question": "Find the next term: A, D, H, M, S, ?",
+    "difficulty": "EASY",
+    "expected_answer": "Z",
+    "independent_reasoning": "The forward jumps are +3, +4, +5, and +6. The next jump is +7: S (19) + 7 = Z (26).",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 11,
+    "question": "A word is coded by writing letters in odd-numbered positions first, followed by letters in even-numbered positions. How is POCKET coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "PCEOKT",
+    "independent_reasoning": "Odd positions 1, 3, 5 give P, C, E; even positions 2, 4, 6 give O, K, T. The result is PCEOKT.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 12,
+    "question": "Letters in odd positions move two places forward and letters in even positions move three places backward. How is BRAVE coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "DOCSG",
+    "independent_reasoning": "By position: B+2=D, R−3=O, A+2=C, V−3=S, E+2=G. The code is DOCSG.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 13,
+    "question": "The code for a three-letter word is the sum of the squares of the alphabet positions of its letters. What is the code for CAB?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "14",
+    "independent_reasoning": "C, A, B have positions 3, 1, 2. Their squared positions sum to 3²+1²+2²=9+1+4=14.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 14,
+    "question": "Reverse a word and then move every resulting letter one place backward, with A wrapping to Z. How is FROG coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "FNQE",
+    "independent_reasoning": "FROG reversed is GORF. Moving each letter back one gives F, N, Q, E; hence FNQE.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 15,
+    "question": "A word of five letters is coded by moving its first two letters to the end, keeping their order. How is PLANT coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "ANTPL",
+    "independent_reasoning": "Move the initial pair PL after the remaining ANT: PLANT becomes ANTPL.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 16,
+    "question": "Each digit is replaced by its complement to 9. If 248 is coded as 751, how is 603 coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "396",
+    "independent_reasoning": "Subtract each digit from 9: 9−6=3, 9−0=9, and 9−3=6. Thus 603 is coded 396.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 17,
+    "question": "Letters in odd positions move three places forward and letters in even positions move two places backward. How is CLOUD coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "FJRSG",
+    "independent_reasoning": "C+3=F, L−2=J, O+3=R, U−2=S, and D+3=G. Therefore CLOUD is FJRSG.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 18,
+    "question": "Arrange the letters of ZEBRA in alphabetical order to form its code.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "ABERZ",
+    "independent_reasoning": "In ascending alphabetical order the letters are A, B, E, R, Z, giving ABERZ.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 19,
+    "question": "The code for a word is the sum of the absolute differences between the alphabet positions of each pair of consecutive letters. What is the code for CODE?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "24",
+    "independent_reasoning": "C-O differs by 12 positions, O-D by 11, and D-E by 1. The total is 12+11+1=24.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 20,
+    "question": "Find the next letter cluster: ACE, BDF, CEG, ?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "DFH",
+    "independent_reasoning": "Each of the three positions advances one letter from one cluster to the next: A-B-C-D, C-D-E-F, and E-F-G-H. The next cluster is DFH.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 21,
+    "question": "In a code, vowels are replaced as A=@, E=#, I=$, O=%, U=&, while consonants remain unchanged. How is IDEA coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "$D#@",
+    "independent_reasoning": "Replace I with $, E with #, and A with @; D is a consonant and stays unchanged. IDEA becomes $D#@.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 22,
+    "question": "In a word code, each consonant moves one place forward and each vowel moves two places forward. How is MATH coded?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "NCUI",
+    "independent_reasoning": "M→N, A→C, T→U, and H→I under the consonant +1 and vowel +2 rule. Thus MATH becomes NCUI.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 23,
+    "question": "Replace every letter by its opposite in the alphabet, then reverse the resulting string. How is PLANT coded?",
+    "difficulty": "HARD",
+    "expected_answer": "GMZOK",
+    "independent_reasoning": "The opposite-letter form of PLANT is KOZMG. Reversing that string gives GMZOK.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 24,
+    "question": "Move the first letter forward 1 place, the second backward 2 places, the third forward 3 places, and the fourth backward 4 places. How is CODE coded?",
+    "difficulty": "HARD",
+    "expected_answer": "DMGA",
+    "independent_reasoning": "C+1=D, O−2=M, D+3=G, and E−4=A. The resulting code is DMGA.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 25,
+    "question": "The code for a word is the sum of each letter's alphabet position multiplied by its position in the word, counting from 1. What is the code for CAB?",
+    "difficulty": "HARD",
+    "expected_answer": "11",
+    "independent_reasoning": "For CAB the weighted sum is C×1 + A×2 + B×3 = 3+2+6=11.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 26,
+    "question": "Find the next pair: AZ, BY, CX, DW, ?",
+    "difficulty": "HARD",
+    "expected_answer": "EV",
+    "independent_reasoning": "The first letter advances A, B, C, D, E; the second retreats Z, Y, X, W, V. The next pair is EV.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 27,
+    "question": "Split a six-letter word into two groups of three. Rotate the first group one place right and the second group one place left, then join them. How is MARKET coded?",
+    "difficulty": "HARD",
+    "expected_answer": "RMAETK",
+    "independent_reasoning": "Split MARKET as MAR|KET. Rotating MAR right gives RMA; rotating KET left gives ETK. Joining them gives RMAETK.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 28,
+    "question": "Reverse the word, move every resulting letter two places forward, then swap each adjacent pair. How is BIRD coded?",
+    "difficulty": "HARD",
+    "expected_answer": "TFDK",
+    "independent_reasoning": "BIRD reversed is DRIB. Moving each letter forward two gives FTKD. Swapping adjacent pairs (FT and KD) gives TFDK.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 29,
+    "question": "For a word, multiply the alphabet position of its first letter by that of its last letter, then add the positions of all middle letters. What is the code for TIGER?",
+    "difficulty": "HARD",
+    "expected_answer": "381",
+    "independent_reasoning": "T=20 and R=18, so the endpoints give 20×18=360. The middle letters I, G, E have positions 9, 7, 5, summing to 21. Total=381.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  },
+  {
+    "row": 30,
+    "question": "Remove all vowels, reverse the remaining consonants, and write their A1Z26 positions consecutively. How is PLANE coded?",
+    "difficulty": "HARD",
+    "expected_answer": "141216",
+    "independent_reasoning": "Removing A and E from PLANE leaves PLN. Reversing gives NLP; their A1Z26 positions are 14, 12, 16. Concatenating them gives 141216.",
+    "source": "Original question authored for SSC Prep Platform; not a PYQ."
+  }
+]

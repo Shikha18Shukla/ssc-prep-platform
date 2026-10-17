@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code language, 'EACH' is written as '97', 'EASY' is written as '64'. How will 'ECHO' be written in that language?",
+      "options": {"A": "85", "B": "82", "C": "83", "D": "86"},
+      "correct_option": "C",
+      "explanation": "The code is the sum of reverse alphabet positions (A=26, B=25, …, Z=1), plus 6. EACH gives 22+26+24+19+6=97 and EASY gives 22+26+8+2+6=64. ECHO gives 22+24+19+12+6=83.",
+      "difficulty": "MEDIUM",
+      "is_pyq": true,
+      "pyq_year": 2023,
+      "pyq_exam_name": "SSC CGL Tier I, 26 July 2023 Shift 2",
+      "source": "https://questions.examside.com/past-years/ssc/question/in-a-certain-code-language-each-is-written-as-97-easy-ssc-cgl-tier-i-general-intelligence-and-reasoning-gsfbtn7kd28ciwew ; secondary ExamSIDE source; no official SSC corroboration"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "Select the option related to the fifth letter-cluster in the same way as the second is related to the first and the fourth to the third: SCOOTER : SGWSTIZ :: AEROPLANE : FPDPUUYMJ :: HELICOPTER : ?",
+      "options": {"A": "RETPOCILEH", "B": "SGWTTIPTNR", "C": "SFUQPDJMFI", "D": "SGWTTIPLEH"},
+      "correct_option": "B",
+      "explanation": "Reverse the input and add successive shifts of +1, +2, … to its letters. SCOOTER reversed is RETOOCS; applying shifts gives SGWSTIZ. AEROPLANE reversed is ENALPOREA; the same shifts give FPDPUUYMJ. HELICOPTER reversed is RETPOCILEH; shifts +1 through +10 give SGWTTIPTNR.",
+      "difficulty": "HARD",
+      "is_pyq": true,
+      "pyq_year": 2023,
+      "pyq_exam_name": "SSC CGL Tier I, 26 July 2023 Shift 2",
+      "source": "https://questions.examside.com/past-years/ssc/question/pselect-the-option-that-is-related-to-the-fifth-letter-clu-ssc-cgl-tier-i-general-intelligence-and-reasoning-fb5k9f3yp6jm8jwd ; secondary ExamSIDE source; no official SSC corroboration"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "In a certain code language, 'NUMERICAL' is written as 'ICALRNUME' and 'SCATTERED' as 'EREDTSCAT'. How will 'EXPLOSION' be written?",
+      "options": {"A": "SIONOXEPL", "B": "SIONOEXPL", "C": "SIONOXELP", "D": "SIONOEXLP"},
+      "correct_option": "B",
+      "explanation": "The examples show that the output order is input positions 6–9, then position 5, then positions 1–4. NUMERICAL becomes ICAL + R + NUME = ICALRNUME; SCATTERED becomes ERED + T + SCAT = EREDTSCAT. Applying the same order to EXPLOSION gives SION + O + EXPL = SIONOEXPL.",
+      "difficulty": "MEDIUM",
+      "is_pyq": true,
+      "pyq_year": 2022,
+      "pyq_exam_name": "SSC CGL Tier I, 2 December 2022 Shift 1",
+      "source": "https://testbook.com/question-answer/in-a-certain-code-language-numericalrsquo--63a2b8d27caaafdffd034fed ; secondary solution; archived paper URL documented in review report; no official SSC corroboration"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "coding-decoding",
+      "question_text": "Directions: In a certain code language, MOBILE is written as PRELOH and SILENT is written as VLOHQW. How will PAINTING be written in that language?",
+      "options": {"A": "SDLQVKPI", "B": "SDLQWLQJ", "C": "RCKPWLQJ", "D": "RCKPVKPI"},
+      "correct_option": "B",
+      "explanation": "Each letter is shifted three places forward, wrapping after Z. P→S, A→D, I→L, N→Q, T→W, I→L, N→Q, G→J, giving SDLQWLQJ. The supplied examples confirm +3 (MOBILE→PRELOH and SILENT→VLOHQW).",
+      "difficulty": "MEDIUM",
+      "is_pyq": true,
+      "pyq_year": 2022,
+      "pyq_exam_name": "SSC CGL Tier I, 3 December 2022 Shift 1",
+      "source": "https://media.getmyuni.com/assets/downloadables/1980ab93-83ca-4082-b4be-6eccb28fc632.pdf ; secondary archived paper; Careers360 question/options URL documented in review report; no official SSC corroboration"
+    }
+  ]
+}
