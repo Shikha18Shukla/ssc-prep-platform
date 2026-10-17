@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "Two parallel chords of a circle have lengths 10 cm and 4 cm, lie on the same side of the centre, and are 3 cm apart. Find the circle's diameter.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2√29 cm",
+    "independent_reasoning": "The perpendicular distances x,y from centre satisfy x²=r²−25, y²=r²−4 and y−x=3. Thus (y−x)(y+x)=21, so y+x=7, x=2,y=5; r²=29, diameter=2√29 cm.",
+    "source": "Geometry 1.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 2,
+    "question": "Two triangles have AB=DB, AC=DC, and BC is common. Which congruence criterion proves △ABC≅△DBC?",
+    "difficulty": "EASY",
+    "expected_answer": "SSS",
+    "independent_reasoning": "The three corresponding sides are equal: AB=DB, AC=DC, and BC=BC; use SSS.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 3,
+    "question": "A circle has radius 5 cm. A chord is 6 cm long. Find its distance from the centre.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "4",
+    "independent_reasoning": "The perpendicular from the centre bisects the chord; distance=√(5²−3²)=4 cm.",
+    "source": "Geometry 4.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 4,
+    "question": "From an external point, two tangents are drawn to the same circle. One tangent segment is 12 cm. Find the other tangent segment.",
+    "difficulty": "EASY",
+    "expected_answer": "12 cm",
+    "independent_reasoning": "Tangent segments from a common external point have equal lengths.",
+    "source": "Geometry 4.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 5,
+    "question": "Two circles of radii 4 cm and 6 cm have centres 10 cm apart. Find the length of a direct common tangent segment.",
+    "difficulty": "HARD",
+    "expected_answer": "4√6 cm",
+    "independent_reasoning": "For a direct common tangent, L²=d²−(R−r)²=100−4=96; L=4√6 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 6,
+    "question": "At the intersection of two straight lines, one angle is 68°. Find the vertically opposite angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "68°",
+    "independent_reasoning": "Vertically opposite angles are equal.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 7,
+    "question": "Two adjacent angles form a straight line. If one is 73°, find the other.",
+    "difficulty": "EASY",
+    "expected_answer": "107°",
+    "independent_reasoning": "A linear pair sums to 180°; 180−73=107°.",
+    "source": "Geometry 2.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 8,
+    "question": "Two parallel lines are cut by a transversal. If an interior angle on one side is 118°, find the interior angle on the same side of the transversal at the other line.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "62°",
+    "independent_reasoning": "Co-interior angles between parallel lines are supplementary: 180−118=62°.",
+    "source": "Geometry 2.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 9,
+    "question": "Two parallel lines are cut by a transversal. An acute corresponding angle is 54°. Find the obtuse angle at the other intersection.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "126°",
+    "independent_reasoning": "The matching acute angle is 54°; its adjacent linear-pair angle is 180−54=126°.",
+    "source": "Geometry 2.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 10,
+    "question": "In a triangle, an exterior angle is 125° and one remote interior angle is 48°. Find the other remote interior angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "77°",
+    "independent_reasoning": "Exterior-angle theorem: 125=48+x, so x=77°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 11,
+    "question": "The interior angles of a triangle include 47° and 68°. Find the third angle.",
+    "difficulty": "EASY",
+    "expected_answer": "65°",
+    "independent_reasoning": "Triangle angle sum is 180°; 180−47−68=65°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 12,
+    "question": "AB is parallel to CD. A zig-zag transversal makes angles 125° and 35° with the parallel directions at the two bends. Find the acute angle between its two segments.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "90°",
+    "independent_reasoning": "The first segment's acute inclination is 180−125=55°; the second is 35° on the other side. Their included angle is 55+35=90°.",
+    "source": "Geometry 2.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 13,
+    "question": "A cyclic quadrilateral has one interior angle of 112°. Find its opposite angle.",
+    "difficulty": "EASY",
+    "expected_answer": "68°",
+    "independent_reasoning": "Opposite angles of a cyclic quadrilateral are supplementary: 180−112=68°.",
+    "source": "Geometry 3.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 14,
+    "question": "A chord of a circle is 10 cm long and is 12 cm from the centre. Find the circle's diameter.",
+    "difficulty": "EASY",
+    "expected_answer": "26 cm",
+    "independent_reasoning": "The perpendicular bisects the chord; radius=√(12²+5²)=13 cm, so diameter=26 cm.",
+    "source": "Geometry 5.pdf, PDF page 28; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 15,
+    "question": "Two concentric circles have radii 5 cm and 3 cm. A chord of the larger circle is tangent to the smaller circle. Find the chord length.",
+    "difficulty": "EASY",
+    "expected_answer": "8 cm",
+    "independent_reasoning": "The perpendicular from the common centre to the chord is 3 cm. Half-chord=√(5²−3²)=4 cm, so the chord is 8 cm.",
+    "source": "Geometry 5.pdf, PDF page 29; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 16,
+    "question": "A radius is drawn to the point where a tangent touches a circle. What is the angle between the radius and tangent?",
+    "difficulty": "EASY",
+    "expected_answer": "90°",
+    "independent_reasoning": "The tangent at a point is perpendicular to the radius through that point.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 17,
+    "question": "From an external point P, PT is a tangent of length 12 cm, and a secant meets the circle at A then B. If PA=x cm and AB=7 cm, find x.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9 cm",
+    "independent_reasoning": "Tangent-secant theorem gives PT²=PA·PB, so 144=x(x+7). Thus x²+7x−144=0=(x−9)(x+16), and the positive length is 9 cm.",
+    "source": "Geometry 5.pdf, PDF page 31; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 18,
+    "question": "O is the circumcentre of △PQR. If ∠QOR=110° and ∠OPR=25°, find ∠PRQ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "60°",
+    "independent_reasoning": "OP=OR, so ∠PRO=25°. In isosceles △QOR, ∠ORQ=(180−110)/2=35°. Thus ∠PRQ=25+35=60°.",
+    "source": "Geometry 6.pdf, PDF page 28; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 19,
+    "question": "In △ABC, D and E lie on AB and AC, respectively, and DE∥BC. If AD:DB=2:3, find AE:EC.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2:3",
+    "independent_reasoning": "Thales/intercept theorem: parallel DE cuts the two sides proportionally, AD/DB=AE/EC=2/3.",
+    "source": "Geometry 5.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 20,
+    "question": "The centroid G of a triangle divides median AD in the ratio AG:GD. Find this ratio.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2:1",
+    "independent_reasoning": "The centroid lies two-thirds of the way from each vertex along a median, so AG:GD=2:1.",
+    "source": "Geometry 5.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 21,
+    "question": "Two complementary angles are in the ratio 2:3. Find the smaller angle.",
+    "difficulty": "EASY",
+    "expected_answer": "36°",
+    "independent_reasoning": "Let angles be 2x,3x; 5x=90, x=18; smaller=36°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 22,
+    "question": "Two supplementary angles are equal. Find each angle.",
+    "difficulty": "EASY",
+    "expected_answer": "90°",
+    "independent_reasoning": "Equal angles sum to 180°, so each is 90°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 23,
+    "question": "A triangle has angles 90° and 35°. Find the third angle.",
+    "difficulty": "EASY",
+    "expected_answer": "55°",
+    "independent_reasoning": "180−90−35=55°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 24,
+    "question": "An isosceles triangle has vertex angle 40°. Find each base angle.",
+    "difficulty": "EASY",
+    "expected_answer": "70°",
+    "independent_reasoning": "Base angles equal; each=(180−40)/2=70°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 25,
+    "question": "An equilateral triangle has side 9 cm. Find its perimeter.",
+    "difficulty": "EASY",
+    "expected_answer": "27 cm",
+    "independent_reasoning": "Perimeter=3×9=27 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 26,
+    "question": "In a triangle, the two opposite interior angles to an exterior angle are 52° and 61°. Find the exterior angle.",
+    "difficulty": "EASY",
+    "expected_answer": "113°",
+    "independent_reasoning": "Exterior angle equals sum of remote interior angles=52+61=113°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 27,
+    "question": "A triangle has side lengths 5 cm, 7 cm, and x cm. Which is the least possible integer x?",
+    "difficulty": "EASY",
+    "expected_answer": "3 cm",
+    "independent_reasoning": "Triangle inequality requires x>|7−5|=2, so least integer x=3 (also x<12).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 28,
+    "question": "A right triangle has legs 6 cm and 8 cm. Find the hypotenuse.",
+    "difficulty": "EASY",
+    "expected_answer": "10 cm",
+    "independent_reasoning": "Pythagoras: c=√(6²+8²)=10 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 29,
+    "question": "A right triangle has hypotenuse 13 cm and one leg 5 cm. Find the other leg.",
+    "difficulty": "EASY",
+    "expected_answer": "12 cm",
+    "independent_reasoning": "Other leg=√(13²−5²)=12 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 30,
+    "question": "A linear pair has angle measures (3x+10)° and (2x+20)°. Find x.",
+    "difficulty": "EASY",
+    "expected_answer": "30",
+    "independent_reasoning": "3x+10+2x+20=180; 5x=150; x=30.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 31,
+    "question": "Two vertically opposite angles measure (4x−5)° and (3x+15)°. Find x.",
+    "difficulty": "EASY",
+    "expected_answer": "20",
+    "independent_reasoning": "Set equal: 4x−5=3x+15; x=20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 32,
+    "question": "Two parallel lines are cut by a transversal. A corresponding angle is 72°. Find its alternate interior angle.",
+    "difficulty": "EASY",
+    "expected_answer": "72°",
+    "independent_reasoning": "Corresponding and alternate interior angles are equal for parallel lines.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 33,
+    "question": "The sum of interior angles of a quadrilateral is what?",
+    "difficulty": "EASY",
+    "expected_answer": "360°",
+    "independent_reasoning": "A quadrilateral can be divided into two triangles; total=2×180=360°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 34,
+    "question": "Find each interior angle of a regular hexagon.",
+    "difficulty": "EASY",
+    "expected_answer": "120°",
+    "independent_reasoning": "Interior angle=(n−2)180/n=4×180/6=120°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 35,
+    "question": "Find the sum of the interior angles of a decagon.",
+    "difficulty": "EASY",
+    "expected_answer": "1440°",
+    "independent_reasoning": "Sum=(n−2)180=8×180=1440°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 36,
+    "question": "Find each exterior angle of a regular 15-sided polygon.",
+    "difficulty": "EASY",
+    "expected_answer": "24°",
+    "independent_reasoning": "Exterior angles sum to 360°; each=360/15=24°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 37,
+    "question": "A polygon has interior-angle sum 1260°. How many sides does it have?",
+    "difficulty": "EASY",
+    "expected_answer": "9",
+    "independent_reasoning": "(n−2)180=1260 gives n−2=7, n=9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 38,
+    "question": "A rectangle has length 12 cm and width 5 cm. Find its diagonal.",
+    "difficulty": "EASY",
+    "expected_answer": "13 cm",
+    "independent_reasoning": "Diagonal=√(12²+5²)=13 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 39,
+    "question": "A square has diagonal 10√2 cm. Find its side.",
+    "difficulty": "EASY",
+    "expected_answer": "10 cm",
+    "independent_reasoning": "For a square d=s√2; s=10 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 40,
+    "question": "A rhombus has diagonals 10 cm and 24 cm. Find its side length.",
+    "difficulty": "EASY",
+    "expected_answer": "13 cm",
+    "independent_reasoning": "Diagonals bisect perpendicularly; side=√(5²+12²)=13 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 41,
+    "question": "A parallelogram has adjacent angles x° and (2x−30)°. Find x.",
+    "difficulty": "EASY",
+    "expected_answer": "70°",
+    "independent_reasoning": "Adjacent angles sum 180: x+2x−30=180; x=70.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 42,
+    "question": "A rhombus has diagonals 16 cm and 30 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "240 cm²",
+    "independent_reasoning": "Area of a rhombus is half the product of its diagonals: (16×30)/2=240 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 43,
+    "question": "In △ABC, AB=AC and ∠A=44°. Find each base angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "68°",
+    "independent_reasoning": "Base angles equal; each=(180−44)/2=68°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 44,
+    "question": "The angles of a triangle are in ratio 2:3:4. Find the largest angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "80°",
+    "independent_reasoning": "Nine parts=180°, one=20°; largest=4×20=80°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 45,
+    "question": "A right triangle has one acute angle 32°. Find the other acute angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "58°",
+    "independent_reasoning": "Acute angles in a right triangle sum to 90°; 90−32=58°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 46,
+    "question": "In △ABC, ∠A=50° and ∠B=70°. The bisectors of A and B meet at I. Find ∠AIB.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "120°",
+    "independent_reasoning": "Incenter angle=90°+C/2; C=60°, so ∠AIB=120°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 47,
+    "question": "In △ABC, AD bisects ∠A. If AB=10, AC=15, and BD=8, find DC.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12 cm",
+    "independent_reasoning": "Angle-bisector theorem BD/DC=AB/AC=2/3; DC=12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 48,
+    "question": "In △ABC, DE∥BC, with AD=6, DB=4, and AE=9. Find EC.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "6 cm",
+    "independent_reasoning": "Intercept theorem AD/DB=AE/EC; 6/4=9/EC gives EC=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 49,
+    "question": "Triangles ABC and DEF are similar with side scale AB:DE=3:5. If area of ABC is 54 cm², find area DEF.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "150 cm²",
+    "independent_reasoning": "Areas scale as square of side ratio: 54×(5/3)²=150 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 50,
+    "question": "Two similar triangles have corresponding sides 8 cm and 12 cm. If the smaller perimeter is 30 cm, find the larger perimeter.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "45 cm",
+    "independent_reasoning": "Perimeters scale as corresponding sides: 30×12/8=45 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "A 1.5 m pole casts a 2 m shadow. At the same time, a tree casts a 12 m shadow. Find the tree's height.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9 m",
+    "independent_reasoning": "Similar triangles: height/shadow=1.5/2; tree height=12×0.75=9 m.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "A 10 m ladder reaches 8 m up a wall. How far is its foot from the wall?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "6 m",
+    "independent_reasoning": "By Pythagoras, horizontal distance=√(10²−8²)=6 m.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "The diagonal of a rectangle is 25 cm and one side is 7 cm. Find the other side.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "24 cm",
+    "independent_reasoning": "√(25²−7²)=24 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "A square's side is increased from 8 cm to 12 cm. By how much does the square of its diagonal increase?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "160 cm²",
+    "independent_reasoning": "For side s, diagonal squared is 2s²; change=2(12²−8²)=160 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "A parallelogram has one angle 118°. Find its adjacent angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "62°",
+    "independent_reasoning": "Adjacent angles in a parallelogram are supplementary; 180−118=62°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "A rhombus has one interior angle 64°. Find its smallest angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "64°",
+    "independent_reasoning": "Opposite angles equal 64°; adjacent angles are 116°, so smallest=64°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "A quadrilateral has angles 75°, 92°, and 108°. Find its fourth angle.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "85°",
+    "independent_reasoning": "Fourth=360−(75+92+108)=85°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "A regular polygon has exterior angle 30°. Find its number of sides.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12",
+    "independent_reasoning": "n=360/30=12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "A regular octagon has how many diagonals?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "20",
+    "independent_reasoning": "Diagonals=n(n−3)/2=8×5/2=20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "A regular pentagon has interior angle sum what?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "540°",
+    "independent_reasoning": "Sum=(5−2)×180=540°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "A cyclic quadrilateral has opposite angles (3x+10)° and (5x−6)°. Find x.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "22",
+    "independent_reasoning": "Opposite angles sum 180: 8x+4=180; x=22.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "In △ABC, AB=AC and ∠A=36°. The bisector of ∠B meets AC at D. Find ∠BDC.",
+    "difficulty": "HARD",
+    "expected_answer": "72°",
+    "independent_reasoning": "Base angles B=C=72°. In △BCD, ∠CBD=36° and ∠BCD=72°, so ∠BDC=180−36−72=72°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "In △ABC, AD is an angle bisector, AB=12 cm, AC=18 cm, BC=20 cm. Find BD.",
+    "difficulty": "HARD",
+    "expected_answer": "8 cm",
+    "independent_reasoning": "BD/DC=12/18=2/3 and BD+DC=20; BD=8 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "A line parallel to one side of a triangle cuts the other two sides in ratios 3:2 from the corresponding vertices. If the smaller triangle area is 81 cm², find the whole triangle area.",
+    "difficulty": "HARD",
+    "expected_answer": "225 cm²",
+    "independent_reasoning": "Side scale small:whole=3:(3+2)=3/5; area scale=9/25; whole=81×25/9=225 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "Two similar triangles have area ratio 25:49. A corresponding side of the smaller triangle is 15 cm. Find the corresponding side of the larger triangle.",
+    "difficulty": "HARD",
+    "expected_answer": "21 cm",
+    "independent_reasoning": "Side ratio=√25:√49=5:7; larger side=15×7/5=21 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "A right triangle has altitude from the right angle to its hypotenuse, splitting the hypotenuse into 9 cm and 16 cm segments. Find the altitude.",
+    "difficulty": "HARD",
+    "expected_answer": "12 cm",
+    "independent_reasoning": "Altitude is geometric mean: h²=9×16, so h=12 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "In a right triangle, the hypotenuse is 25 cm and one leg is 15 cm. Find the radius of its incircle.",
+    "difficulty": "HARD",
+    "expected_answer": "5 cm",
+    "independent_reasoning": "Other leg=20; for right triangle r=(a+b−c)/2=(15+20−25)/2=5 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "The sides of a triangle are 13 cm, 14 cm, and 15 cm. Find its inradius.",
+    "difficulty": "HARD",
+    "expected_answer": "4 cm",
+    "independent_reasoning": "Heron area: s=21, A=√(21×8×7×6)=84; r=A/s=4 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "A triangle has sides 10 cm, 17 cm, and 21 cm. Find the length of the median to the 21 cm side.",
+    "difficulty": "HARD",
+    "expected_answer": "√337/2 cm",
+    "independent_reasoning": "Median formula m²=(2a²+2b²−c²)/4=(200+578−441)/4=337/4; m=√337/2 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "In triangle ABC, AB=10 cm, AC=14 cm, and BC=16 cm. Find the length of the angle bisector from A.",
+    "difficulty": "HARD",
+    "expected_answer": "10√7/3 cm",
+    "independent_reasoning": "Angle-bisector length²=bc[1−a²/(b+c)²]=10×14[1−256/576]=700/9; length=10√7/3 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "In an isosceles triangle with equal sides 13 cm and base 10 cm, find the radius of the incircle.",
+    "difficulty": "HARD",
+    "expected_answer": "10/3 cm",
+    "independent_reasoning": "Height=12; area=60; semiperimeter=18; inradius=A/s=60/18=10/3 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "A regular polygon has each interior angle 165°. Find the number of sides.",
+    "difficulty": "HARD",
+    "expected_answer": "24",
+    "independent_reasoning": "Exterior angle=180−165=15°; n=360/15=24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "The interior-angle sum of a polygon is four times its exterior-angle sum. How many sides does it have?",
+    "difficulty": "HARD",
+    "expected_answer": "10",
+    "independent_reasoning": "(n−2)180=4×360=1440; n−2=8, n=10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "A convex polygon has 54 diagonals. Find its number of sides.",
+    "difficulty": "HARD",
+    "expected_answer": "12",
+    "independent_reasoning": "n(n−3)/2=54 ⇒ n²−3n−108=0 ⇒(n−12)(n+9)=0; n=12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "In a cyclic quadrilateral, one angle is twice its opposite angle. Find the larger of the two opposite angles.",
+    "difficulty": "HARD",
+    "expected_answer": "120°",
+    "independent_reasoning": "Let angles x and 2x. x+2x=180 ⇒ larger=120°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "A cyclic quadrilateral has consecutive angles (2x+10)°, (3x−5)°, and (x+20)°. Find the fourth angle.",
+    "difficulty": "HARD",
+    "expected_answer": "35°",
+    "independent_reasoning": "Opposite first and third sum 180: (2x+10)+(x+20)=180 ⇒x=50. The second angle is 145°; its opposite is 35°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "Two chords AB and CD intersect at P inside a circle. If AP=4, PB=9, CP=6, find PD.",
+    "difficulty": "HARD",
+    "expected_answer": "6 cm",
+    "independent_reasoning": "AP×PB=CP×PD; 36=6PD; PD=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "From point P, a tangent PT and a secant PAB are drawn. If PA=5 cm and AB=7 cm, find PT.",
+    "difficulty": "HARD",
+    "expected_answer": "√60 cm cm",
+    "independent_reasoning": "PT²=PA·PB=5×12=60; PT=√60 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "A chord of a circle of radius 17 cm is 8 cm from the centre. Find the chord length.",
+    "difficulty": "HARD",
+    "expected_answer": "30 cm",
+    "independent_reasoning": "Half-chord=√(17²−8²)=15; chord=30 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "Two parallel chords of lengths 16 cm and 30 cm lie on opposite sides of a circle's centre. Their distances from the centre are 15 cm and 8 cm. Find the circle's radius.",
+    "difficulty": "HARD",
+    "expected_answer": "17 cm",
+    "independent_reasoning": "For chord 16, half=8 and distance=15; r²=8²+15²=289, so r=17 cm. For chord30 half=15, d=8 also gives17.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "A circle has radius 10 cm. A chord subtends a central angle of 120°. Find the chord length.",
+    "difficulty": "HARD",
+    "expected_answer": "10√3 cm cm",
+    "independent_reasoning": "Chord=2R sin(θ/2)=20 sin60=10√3 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "An inscribed angle intercepts a major arc of 250°. Find the measure of that inscribed angle.",
+    "difficulty": "HARD",
+    "expected_answer": "125°",
+    "independent_reasoning": "An inscribed angle equals half its intercepted arc: 250/2=125°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "Two tangents from P touch a circle at A and B. If ∠AOB=136°, find ∠APB.",
+    "difficulty": "HARD",
+    "expected_answer": "44°",
+    "independent_reasoning": "OA⊥PA and OB⊥PB; quadrilateral OAPB has two right angles, so ∠APB=180−136=44°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "A circle is inscribed in a triangle with side lengths 13, 14, and 15 cm. Find the total length of the three tangent segments from each vertex to its two contact points.",
+    "difficulty": "HARD",
+    "expected_answer": "42 cm",
+    "independent_reasoning": "At each vertex the two tangent segments are equal; their combined total across vertices equals the triangle perimeter 42 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "A triangle has sides 7 cm, 15 cm, and 20 cm. Find the radius of its circumcircle.",
+    "difficulty": "HARD",
+    "expected_answer": "25/2 cm",
+    "independent_reasoning": "Heron s=21; area=√(21×14×6×1)=42. Circumradius abc/(4A)=7×15×20/168=25/2 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "In △ABC, medians AD and BE meet at G. If area △ABC is 90 cm², find area △ABG.",
+    "difficulty": "HARD",
+    "expected_answer": "30 cm²",
+    "independent_reasoning": "The centroid partitions the triangle into six equal-area small triangles; ABG comprises two, so area=90/3=30 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "In triangle ABC, D is midpoint of BC. If AB²+AC²=250 cm² and BC=10 cm, find AD.",
+    "difficulty": "HARD",
+    "expected_answer": "10 cm",
+    "independent_reasoning": "Apollonius: AB²+AC²=2(AD²+BD²). 250=2(AD²+25); AD²=100; AD=10 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "A triangle has sides 5 cm, 12 cm, and 13 cm. Find the distance from the right-angle vertex to the midpoint of the hypotenuse.",
+    "difficulty": "HARD",
+    "expected_answer": "6.5 cm",
+    "independent_reasoning": "In a right triangle, median to hypotenuse equals half the hypotenuse, 13/2=6.5 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "The sides of a triangle are 9 cm, 10 cm, and 17 cm. Find the median to the side of length 17 cm.",
+    "difficulty": "HARD",
+    "expected_answer": "√73/2 cm",
+    "independent_reasoning": "Median²=(2×9²+2×10²−17²)/4=(162+200−289)/4=73/4; median=√73/2 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "A point lies inside an equilateral triangle of side 6 cm. Its perpendicular distances from the three sides are 1 cm, 2 cm, and h cm. Find h.",
+    "difficulty": "HARD",
+    "expected_answer": "3√3−3 cm cm",
+    "independent_reasoning": "Area total=√3/4×36=9√3. Also area=1/2×6×(1+2+h)=3(3+h); h=3√3−3 cm.",
+    "source": "Original SSC-style practice question"
+  }
+]

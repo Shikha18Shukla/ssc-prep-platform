@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "The distance between P(0,b) and Q(a,0) is:",
+    "difficulty": "EASY",
+    "expected_answer": "√(a²+b²)",
+    "independent_reasoning": "Distance formula gives √((a−0)²+(0−b)²)=√(a²+b²).",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 2,
+    "question": "P divides the segment joining A(5,−2) and B(9,6) internally in the ratio 3:1. Find P.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(8,4)",
+    "independent_reasoning": "Section formula gives ((3·9+1·5)/4,(3·6+1·(−2))/4)=(8,4).",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 3,
+    "question": "P(1,10/3) divides the segment joining A(−3,2) and B(3,4). In what ratio AP:PB does it divide it?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2:1",
+    "independent_reasoning": "Using the x-coordinate section formula, 1=(3m−3n)/(m+n), so m=2n. The y-coordinate then is (4m+2n)/(m+n)=10/3, confirming AP:PB=2:1.",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 4,
+    "question": "Find the coordinates of the point that divides the segment joining (2,4) and (6,8) externally in the ratio 5:3.",
+    "difficulty": "HARD",
+    "expected_answer": "(12,14)",
+    "independent_reasoning": "External section formula: ((5·6−3·2)/(5−3),(5·8−3·4)/(5−3))=(12,14).",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 5,
+    "question": "Find the ratio in which the segment joining A(3,−5) and B(5,4) is divided by the x-axis.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5:4",
+    "independent_reasoning": "At the x-axis y=0. For AP:PB=m:n, (4m−5n)/(m+n)=0, hence m:n=5:4.",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 6,
+    "question": "Find the slope of the line through P(−4,7) and Q(2,3).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "−2/3",
+    "independent_reasoning": "Slope=(3−7)/(2−(−4))=−4/6=−2/3.",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 21; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 7,
+    "question": "What angle does the line through (√3,1) and (√15,√5) make with the positive x-axis?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "30°",
+    "independent_reasoning": "Its slope is (√5−1)/(√15−√3)=1/√3, so the inclination θ satisfies tanθ=1/√3 and θ=30°.",
+    "source": "Coordinate Geometry  01_.pdf, PDF page 22; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 8,
+    "question": "Find the reflection of (7,4) in the point (1,3).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(−5,2)",
+    "independent_reasoning": "The reflection point is the opposite endpoint of a segment whose midpoint is (1,3): (x,y)=(2·1−7,2·3−4)=(−5,2).",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 23; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 9,
+    "question": "Find the perpendicular distance from (−3,4) to the line 3x+4y−5=0.",
+    "difficulty": "HARD",
+    "expected_answer": "2/5",
+    "independent_reasoning": "Distance=|3(−3)+4(4)−5|/√(3²+4²)=|2|/5=2/5.",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 10,
+    "question": "Find the area of the triangle with vertices (3,4), (−4,3), and (8,6).",
+    "difficulty": "HARD",
+    "expected_answer": "9/2",
+    "independent_reasoning": "Shoelace gives half of |3(3−6)+(−4)(6−4)+8(4−3)|=|-9-8+8|/2=9/2 square units.",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 11,
+    "question": "Find the area of the quadrilateral with consecutive vertices (−4,5), (0,7), (5,−5), and (−4,−2).",
+    "difficulty": "HARD",
+    "expected_answer": "121/2",
+    "independent_reasoning": "Shoelace: absolute difference of diagonal sums is 121; area=121/2 square units.",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 12,
+    "question": "For what value of k do the lines 5x+20y=11 and 2x+ky=17 intersect?",
+    "difficulty": "HARD",
+    "expected_answer": "k ≠ 8",
+    "independent_reasoning": "They are parallel when determinant 5k−40=0, i.e. k=8. They intersect for every other real k.",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 13,
+    "question": "For what value of k do x+3y+7=0 and 4x+ky+19=0 have no solution?",
+    "difficulty": "HARD",
+    "expected_answer": "12",
+    "independent_reasoning": "No solution requires equal x/y coefficient ratios but unequal constant ratios: 1/4=3/k gives k=12; 7/19≠1/4.",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 14,
+    "question": "A line ax+by=c, where a,b,c>0, meets the coordinate axes at P and Q. Find the area of triangle OPQ.",
+    "difficulty": "HARD",
+    "expected_answer": "c²/(2ab)",
+    "independent_reasoning": "The intercepts are c/a and c/b, so the right-triangle area is (1/2)(c/a)(c/b)=c²/(2ab).",
+    "source": "Coordinate Geometry 02_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 15,
+    "question": "In which quadrant does (−4,7) lie?",
+    "difficulty": "EASY",
+    "expected_answer": "II",
+    "independent_reasoning": "x<0 and y>0 identify Quadrant II.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 16,
+    "question": "Which point lies on the y-axis?",
+    "difficulty": "EASY",
+    "expected_answer": "(0,−5)",
+    "independent_reasoning": "Every point on the y-axis has x-coordinate 0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 17,
+    "question": "Find the distance between (1,2) and (4,6).",
+    "difficulty": "EASY",
+    "expected_answer": "5",
+    "independent_reasoning": "Distance=√((4−1)²+(6−2)²)=√25=5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 18,
+    "question": "Find the midpoint of (−2,5) and (6,1).",
+    "difficulty": "EASY",
+    "expected_answer": "(2,3)",
+    "independent_reasoning": "Average corresponding coordinates: ((−2+6)/2,(5+1)/2)=(2,3).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 19,
+    "question": "Reflect (3,−8) across the x-axis.",
+    "difficulty": "EASY",
+    "expected_answer": "(3,8)",
+    "independent_reasoning": "Reflection across the x-axis preserves x and changes the sign of y.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 20,
+    "question": "Reflect (−6,2) in the origin.",
+    "difficulty": "EASY",
+    "expected_answer": "(6,−2)",
+    "independent_reasoning": "Origin reflection maps (x,y) to (−x,−y).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 21,
+    "question": "What is the slope of the line through (−1,4) and (3,4)?",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "The y-coordinates are equal, so the line is horizontal and its slope is 0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 22,
+    "question": "What is the slope of the vertical line through (5,−2) and (5,9)?",
+    "difficulty": "EASY",
+    "expected_answer": "undefined",
+    "independent_reasoning": "The slope denominator Δx is zero for a vertical line.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 23,
+    "question": "What is the y-coordinate of every point on the x-axis?",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "The x-axis is defined by y=0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 24,
+    "question": "A point has x<0 and y<0. In which quadrant is it?",
+    "difficulty": "EASY",
+    "expected_answer": "III",
+    "independent_reasoning": "Both coordinates negative define Quadrant III.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 25,
+    "question": "Translate (2,−3) by the vector (−4,5).",
+    "difficulty": "EASY",
+    "expected_answer": "(−2,2)",
+    "independent_reasoning": "Add vector components: (2−4,−3+5)=(−2,2).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 26,
+    "question": "What is the absolute value of the abscissa of (−7,0)?",
+    "difficulty": "EASY",
+    "expected_answer": "7",
+    "independent_reasoning": "The abscissa is the first coordinate, −7; its absolute value is 7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 27,
+    "question": "In the point (−4,−6), what is the ordinate?",
+    "difficulty": "EASY",
+    "expected_answer": "−6",
+    "independent_reasoning": "The ordinate is the second coordinate, which is −6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 28,
+    "question": "Which pair of points lies on the same horizontal line?",
+    "difficulty": "EASY",
+    "expected_answer": "(−3,4) and (2,4)",
+    "independent_reasoning": "Points on the same horizontal line have equal y-coordinates; only this pair has matching second coordinates.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 29,
+    "question": "The midpoint of A(1,−2) and B(x,6) is (4,2). Find x.",
+    "difficulty": "EASY",
+    "expected_answer": "7",
+    "independent_reasoning": "The midpoint x-coordinate gives (1+x)/2=4, hence x=7; the y-coordinate also averages to 2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 30,
+    "question": "Which quadrant contains (5,−1)?",
+    "difficulty": "EASY",
+    "expected_answer": "IV",
+    "independent_reasoning": "Positive x and negative y define Quadrant IV.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 31,
+    "question": "Find the distance from (−3,4) to the origin.",
+    "difficulty": "EASY",
+    "expected_answer": "5",
+    "independent_reasoning": "Distance from origin is √(x²+y²)=√(9+16)=5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 32,
+    "question": "A point is 4 units left and 3 units above the origin. What are its coordinates?",
+    "difficulty": "EASY",
+    "expected_answer": "(−4,3)",
+    "independent_reasoning": "Left means negative x and above means positive y.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 33,
+    "question": "If P=(a,b), what are the coordinates of its reflection in the y-axis?",
+    "difficulty": "EASY",
+    "expected_answer": "(−a,b)",
+    "independent_reasoning": "Reflection across the y-axis reverses x and preserves y.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 34,
+    "question": "Find the slope of the line through (2,−1) and (6,7).",
+    "difficulty": "EASY",
+    "expected_answer": "2",
+    "independent_reasoning": "Slope=(7−(−1))/(6−2)=8/4=2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 35,
+    "question": "A line has slope 3 and passes through (0,−2). What is its y-intercept?",
+    "difficulty": "EASY",
+    "expected_answer": "−2",
+    "independent_reasoning": "At x=0 the point on the line is (0,−2), so the y-intercept is −2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 36,
+    "question": "Which ordered pair satisfies y=2x+1?",
+    "difficulty": "EASY",
+    "expected_answer": "(2,5)",
+    "independent_reasoning": "Substitution gives 5=2·2+1; the other listed pairs fail the equation.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 37,
+    "question": "How many units apart are the parallel lines x=−2 and x=5?",
+    "difficulty": "EASY",
+    "expected_answer": "7",
+    "independent_reasoning": "Their horizontal separation is |5−(−2)|=7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 38,
+    "question": "The point (x,−4) lies on the y-axis. Find x.",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "Points on the y-axis have x-coordinate zero.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 39,
+    "question": "What is the reflection of (−2,−7) across the x-axis?",
+    "difficulty": "EASY",
+    "expected_answer": "(−2,7)",
+    "independent_reasoning": "An x-axis reflection preserves the abscissa and negates the ordinate.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 40,
+    "question": "Find the centroid of the triangle with vertices (0,0), (6,0), and (0,9).",
+    "difficulty": "EASY",
+    "expected_answer": "(2,3)",
+    "independent_reasoning": "The centroid averages vertex coordinates: ((0+6+0)/3,(0+0+9)/3)=(2,3).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 41,
+    "question": "A point on the x-axis is 6 units from the origin and lies to the left. Find it.",
+    "difficulty": "EASY",
+    "expected_answer": "(−6,0)",
+    "independent_reasoning": "On x-axis y=0; left of origin means x=−6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 42,
+    "question": "For what value of t is (t,2) in Quadrant I?",
+    "difficulty": "EASY",
+    "expected_answer": "t>0",
+    "independent_reasoning": "Quadrant I requires both coordinates positive; y=2 is positive and so t must be positive.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 43,
+    "question": "Which non-origin point is equidistant from the x- and y-axes?",
+    "difficulty": "EASY",
+    "expected_answer": "(4,−4)",
+    "independent_reasoning": "Distances to the axes are |y| and |x|; here both are 4. The origin is excluded by the stem.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 44,
+    "question": "Find the point that divides (−4,3) and (8,−5) internally in the ratio 1:2.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(0,1/3)",
+    "independent_reasoning": "Section formula gives ((1·8+2·(−4))/3,(1·(−5)+2·3)/3)=(0,1/3).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 45,
+    "question": "The midpoint of A(−3,5) and B(x,y) is (2,−1). Find B.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(7,−7)",
+    "independent_reasoning": "From (−3+x)/2=2, x=7; from (5+y)/2=−1, y=−7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 46,
+    "question": "Find the ratio in which P(2,1) divides the segment joining A(−1,−2) and B(5,4).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1:1",
+    "independent_reasoning": "P is the midpoint: coordinates average to ((−1+5)/2,(−2+4)/2)=(2,1), so the ratio is 1:1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 47,
+    "question": "A point divides A(1,−3) and B(7,9) in ratio 2:1 internally. Find its y-coordinate.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5",
+    "independent_reasoning": "y=(2·9+1·(−3))/3=15/3=5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 48,
+    "question": "Find the slope of the line through (−2,5) and (4,−7).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "−2",
+    "independent_reasoning": "Slope=(−7−5)/(4−(−2))=−12/6=−2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 49,
+    "question": "A line through (3,−2) is parallel to the line through (−1,4) and (2,10). Find its slope.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2",
+    "independent_reasoning": "The reference slope is (10−4)/(2−(−1))=6/3=2; parallel lines have equal slopes.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 50,
+    "question": "Find the equation of the line with slope −3 passing through (2,5).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "y=−3x+11",
+    "independent_reasoning": "Point-slope form: y−5=−3(x−2), hence y=−3x+11.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "Find the x-intercept of 2x+3y=12.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "6",
+    "independent_reasoning": "Set y=0, obtaining 2x=12 and x=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "Find the y-intercept of 5x−2y=8.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "−4",
+    "independent_reasoning": "Set x=0; −2y=8, so y=−4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "Are (1,2), (3,6), and (5,10) collinear?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "Yes",
+    "independent_reasoning": "Each point satisfies y=2x, so all three lie on the same line.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "Find the intersection point of x+y=7 and x−y=1.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(4,3)",
+    "independent_reasoning": "Adding the equations gives 2x=8, so x=4; then y=3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "The distance between (x,1) and (2,5) is 5. If x>2, find x.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5",
+    "independent_reasoning": "(x−2)²+16=25 gives (x−2)²=9; x>2 selects x=5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "Find the point where y=2x+1 meets the x-axis.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(−1/2,0)",
+    "independent_reasoning": "Set y=0: 2x+1=0, so x=−1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "A line through (1,3) and (5,11) meets the y-axis at what value?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "Slope=2, so y−3=2(x−1), or y=2x+1; y-intercept=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "Find the distance from (−2,7) to the line y=3.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "4",
+    "independent_reasoning": "The horizontal line has constant y=3; perpendicular distance is |7−3|=4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "The midpoint of A and B is (3,−2). If A=(−1,4), find B.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(7,−8)",
+    "independent_reasoning": "Coordinate sums must be twice the midpoint: B=(6−(−1),−4−4)=(7,−8).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "Find the slope of a line perpendicular to y=(1/4)x−6.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "−4",
+    "independent_reasoning": "Perpendicular nonvertical slopes multiply to −1; reciprocal of 1/4 with opposite sign is −4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "For which value of k are (2,1), (5,7), and (8,k) collinear?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "13",
+    "independent_reasoning": "First two give slope 6/3=2. From (5,7), moving to x=8 raises y by 2·3=6; k=13.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "A line has intercepts 4 on x-axis and 6 on y-axis. Find its equation in intercept form.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "x/4+y/6=1",
+    "independent_reasoning": "Intercept form is x/a+y/b=1, with a=4 and b=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "A triangle has vertices (−2,0), (4,0), and (1,h). Its area is 12. If h>0, find h.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "4",
+    "independent_reasoning": "The base length is 6; 6h/2=12 gives h=4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "Find the point that divides (−3,2) and (9,8) externally in ratio 2:1.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(21,14)",
+    "independent_reasoning": "External formula yields ((2·9−1·(−3))/(2−1),(2·8−1·2)/(2−1))=(21,14).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "A line passes through (−2,3) and is parallel to 4x−2y=7. Find its y-intercept.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "7",
+    "independent_reasoning": "The given line has slope 2. Through (−2,3): y−3=2(x+2), so y=2x+7 and its y-intercept is 7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "Three consecutive vertices of an axis-parallel rectangle are (−1,2), (5,2), and (5,−3). Find the fourth vertex.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "(−1,−3)",
+    "independent_reasoning": "The first pair defines the top horizontal side and the second pair the right vertical side; the missing corner combines x=−1 with y=−3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "A point (a,−6) is 10 units from (2,−6). Find the possible values of a.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "−8 or 12",
+    "independent_reasoning": "Equal y-coordinates make distance |a−2|=10, giving a=−8 or 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "Find k if the distance between (k,−4) and (3,8) is 13 and k<3.",
+    "difficulty": "HARD",
+    "expected_answer": "−2",
+    "independent_reasoning": "(k−3)²+12²=13² gives (k−3)²=25; k=−2 or 8, and k<3 selects −2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "Find the circumcentre of the triangle with vertices (0,0), (6,0), and (0,8).",
+    "difficulty": "HARD",
+    "expected_answer": "(3,4)",
+    "independent_reasoning": "The triangle is right-angled at the origin, so its circumcentre is the midpoint of its hypotenuse from (6,0) to (0,8): (3,4).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "Find the value of t for which (1,2), (4,6), and (t,10) are collinear.",
+    "difficulty": "HARD",
+    "expected_answer": "7",
+    "independent_reasoning": "Slope between the first points is 4/3. Collinearity requires (10−6)/(t−4)=4/3, giving t=7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "Find the perpendicular distance from (2,−1) to 6x−8y+3=0.",
+    "difficulty": "HARD",
+    "expected_answer": "23/10",
+    "independent_reasoning": "Distance=|12+8+3|/√(36+64)=23/10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "The lines 2x+y=10 and x−y=2 intersect at P. Find the distance from P to (1,−1).",
+    "difficulty": "HARD",
+    "expected_answer": "3√2",
+    "independent_reasoning": "Solving gives P=(4,2). The distance to (1,−1) is √((4−1)²+(2+1)²)=√18=3√2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "Two lines 3x+ky=5 and 6x+4y=9 are parallel and distinct. Find k.",
+    "difficulty": "HARD",
+    "expected_answer": "2",
+    "independent_reasoning": "Parallelism requires 3/6=k/4=1/2, so k=2. Their constants are not in the same ratio (5/9≠1/2), so they are distinct.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "Find the equation of the line through the intersection of x+y=5 and 2x−y=1, with slope 3.",
+    "difficulty": "HARD",
+    "expected_answer": "y=3x−3",
+    "independent_reasoning": "Solving gives intersection (2,3). Point-slope form y−3=3(x−2), hence y=3x−3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "A triangle has vertices (0,0), (p,0), and (0,q), with area 30 and p:q=5:3. If p,q>0, find p+q.",
+    "difficulty": "HARD",
+    "expected_answer": "16",
+    "independent_reasoning": "pq/2=30 gives pq=60. With p:q=5:3, let p=5u,q=3u;15u²=60 so u=2 and p+q=16.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "Find the point on the x-axis equidistant from A(−2,3) and B(4,3).",
+    "difficulty": "HARD",
+    "expected_answer": "(1,0)",
+    "independent_reasoning": "Let P=(x,0). Equate squared distances: (x+2)²+9=(x−4)²+9; simplifying gives 12x=12, so x=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "A line cuts positive intercepts a and b and has equation x/a+y/b=1. If its intercept triangle has area 24 and a:b=3:4, find a+b.",
+    "difficulty": "HARD",
+    "expected_answer": "14",
+    "independent_reasoning": "ab/2=24 gives ab=48. Set a=3u,b=4u;12u²=48 so u=2 and a+b=14.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "Find the area of the triangle with vertices (a,0), (0,b), and (−a,0), where a,b>0.",
+    "difficulty": "HARD",
+    "expected_answer": "ab",
+    "independent_reasoning": "The base on the x-axis has length 2a and height b; area=(2a·b)/2=ab.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "Find the value of m if the line through (−1,4) and (m,−2) is perpendicular to 2x+3y=7.",
+    "difficulty": "HARD",
+    "expected_answer": "−5",
+    "independent_reasoning": "The given line slope is −2/3, so a perpendicular line has slope 3/2. Thus (−2−4)/(m+1)=−6/(m+1)=3/2, giving m=−5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "The points A(0,0), B(6,0), and C(3,k) form a right angle at C. If k>0, find k.",
+    "difficulty": "HARD",
+    "expected_answer": "3",
+    "independent_reasoning": "At C, vectors CA=(−3,−k), CB=(3,−k). Perpendicularity gives CA·CB=−9+k²=0; k=3 since k>0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "A line through (2,−3) has x-intercept 5. Find its slope.",
+    "difficulty": "HARD",
+    "expected_answer": "1",
+    "independent_reasoning": "Slope between (2,−3) and (5,0) is (0+3)/(5−2)=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "A point P divides A(−4,1) and B(8,7) internally so that AP:PB=2:1. Find the distance OP.",
+    "difficulty": "HARD",
+    "expected_answer": "√41",
+    "independent_reasoning": "P=((2·8+1·(−4))/3,(2·7+1)/3)=(4,5), so OP=√(4²+5²)=√41.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "Find the area of the quadrilateral with vertices (0,0), (6,0), (5,4), and (1,3) in this order.",
+    "difficulty": "HARD",
+    "expected_answer": "35/2",
+    "independent_reasoning": "Shoelace diagonal sums differ by |39−4|=35; area=35/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "Find the distance between the parallel lines 3x−4y+8=0 and 6x−8y−5=0.",
+    "difficulty": "HARD",
+    "expected_answer": "21/10",
+    "independent_reasoning": "Divide the second equation by 2: 3x−4y−5/2=0. Distance=|8−(−5/2)|/√(9+16)=21/10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "Find the equation of the line through (−2,5) and perpendicular to 3x−2y=8.",
+    "difficulty": "HARD",
+    "expected_answer": "2x+3y−11=0",
+    "independent_reasoning": "Given slope is 3/2; perpendicular slope=−2/3. Through point: y−5=−2/3(x+2), which rearranges to 2x+3y−11=0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "For what value of k are (k,1), (2,3), and (6,11) collinear?",
+    "difficulty": "HARD",
+    "expected_answer": "1",
+    "independent_reasoning": "Slope from (2,3) to (6,11) is 2, so line is y=2x−1. Setting y=1 gives x=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "Find the equation of the perpendicular bisector of the segment joining (−2,1) and (4,5).",
+    "difficulty": "HARD",
+    "expected_answer": "3x+2y−9=0",
+    "independent_reasoning": "The midpoint is (1,3); segment slope is 2/3, so the perpendicular slope is −3/2. Through (1,3): y−3=−3(x−1)/2, or 3x+2y−9=0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "A line through (1,−2) is perpendicular to the line joining (−3,4) and (5,0). Find its y-intercept.",
+    "difficulty": "HARD",
+    "expected_answer": "−4",
+    "independent_reasoning": "The joining line slope is (0−4)/(5+3)=−1/2; a perpendicular line has slope 2. Through (1,−2): y=2x−4, so its y-intercept is −4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "Find the area of the triangle formed by x=0, y=0, and 2x+5y=20.",
+    "difficulty": "HARD",
+    "expected_answer": "20",
+    "independent_reasoning": "Intercepts are (10,0) and (0,4); area=10·4/2=20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "A point P=(x,y) is equidistant from A(−1,2), B(5,2), and C(2,5). Find P.",
+    "difficulty": "HARD",
+    "expected_answer": "(2,2)",
+    "independent_reasoning": "Equidistance from A and B places P on their perpendicular bisector x=2. Equating distances to A and C gives 9+(y−2)²=(y−5)², so 6y=12 and y=2.",
+    "source": "Original SSC-style practice question"
+  }
+]

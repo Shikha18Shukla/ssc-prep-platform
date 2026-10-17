@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 1 + 1/(1 + 1/(1 + 1/(1 + 1/(1 + 2/3)))).",
+      "options": {
+        "A": "8/5",
+        "B": "17/2",
+        "C": "34/21",
+        "D": "21/13"
+      },
+      "correct_option": "C",
+      "explanation": "Evaluating from the inner fraction: 1+2/3 = 5/3 → 3/5 → 8/5 → 5/8 → 13/8 → 8/13 → 21/13 → 13/21 → 34/21.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "If x = 1 + 1/(1 + 1/(1 + 1/(1 + 1/2))), then the value of 2x + 7/4 is:",
+      "options": {
+        "A": "5",
+        "B": "7/8",
+        "C": "4",
+        "D": "13/8"
+      },
+      "correct_option": "A",
+      "explanation": "x = 13/8, so 2x + 7/4 = 13/4 + 7/4 = 20/4 = 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 1 − 1/(1 − 1/(1 − 1/(1 − 2/3))).",
+      "options": {
+        "A": "2/3",
+        "B": "1/3",
+        "C": "−2/3",
+        "D": "−1/3"
+      },
+      "correct_option": "B",
+      "explanation": "Evaluating from the inner fraction: 1−2/3 = 1/3 → 3 → −2 → −1/2 → 3/2 → 2/3 → 1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "If a, b, c and d are integers such that 1/(a + 1/(b + 1/(c + 1/d))) = 29/154, then a + b + c + d = ?",
+      "options": {
+        "A": "12",
+        "B": "14",
+        "C": "15",
+        "D": "13"
+      },
+      "correct_option": "B",
+      "explanation": "154/29 = 5 + 9/29 ⇒ a = 5; 29/9 = 3 + 2/9 ⇒ b = 3; 9/2 = 4 + 1/2 ⇒ c = 4 and d = 2; sum = 5+3+4+2 = 14.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of [ (3 1/5 − 3/5) ÷ 8/5 ] ÷ [ 1 1/7 ÷ { 6/7 − (1/7 ÷ 1/5) } ] is:",
+      "options": {
+        "A": "13/8",
+        "B": "13/16",
+        "C": "13/7",
+        "D": "13/64"
+      },
+      "correct_option": "D",
+      "explanation": "Numerator: (16/5 − 3/5) ÷ 8/5 = (13/5)·(5/8) = 13/8. Denominator: (8/7) ÷ (6/7 − 5/7) = (8/7) ÷ (1/7) = 8. Result = (13/8)/8 = 13/64.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: [∛(⁶√(5⁹))]⁴ × [∛(⁶√(5⁹))]⁴",
+      "options": {
+        "A": "5⁸",
+        "B": "5²",
+        "C": "5¹²",
+        "D": "5⁴"
+      },
+      "correct_option": "D",
+      "explanation": "∛(⁶√(5⁹)) = 5^(9/6·1/3) = 5^(1/2); each fourth power is 5² and the product is 5⁴.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 3/7 ÷ 9/21 + 2 − 4/3 + 1/2 of 12/5 × 25/18 ÷ 5/9 is:",
+      "options": {
+        "A": "4",
+        "B": "17/3",
+        "C": "2",
+        "D": "14/3"
+      },
+      "correct_option": "D",
+      "explanation": "3/7 ÷ 9/21 = 1; (1/2 of 12/5) = 6/5; 6/5 × 25/18 ÷ 5/9 = (5/3)·(9/5) = 3; total = 1 + 2 − 4/3 + 3 = 6 − 4/3 = 14/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 90 × 3 ÷ 9 + 4 ÷ 2 × 3 of 4 × 8 ÷ (18 × 2 − 4)?",
+      "options": {
+        "A": "42",
+        "B": "48",
+        "C": "40",
+        "D": "36"
+      },
+      "correct_option": "D",
+      "explanation": "(18×2−4) = 32; 3 of 4 = 12; 4÷2×12×8÷32 = 6; 90×3÷9 = 30; total = 30 + 6 = 36.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 36 ÷ 8 × 4 + 2 ÷ 4 − 1 + 5 of 3 ÷ (4 × 2 − 3) − 3.",
+      "options": {
+        "A": "16",
+        "B": "18",
+        "C": "31/2",
+        "D": "35/2"
+      },
+      "correct_option": "D",
+      "explanation": "5 of 3 = 15; (4×2−3) = 5, so 15÷5 = 3; 36÷8×4 = 18 and 2÷4 = 1/2; total = 18 + 1/2 − 1 + 3 − 3 = 35/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 5 ÷ 5 of 5 × 2 + 2 ÷ 2 of 2 × 5 − (5 − 2) ÷ 6 × 2 is:",
+      "options": {
+        "A": "9/5",
+        "B": "19",
+        "C": "23/2",
+        "D": "19/10"
+      },
+      "correct_option": "D",
+      "explanation": "5÷(5 of 5)×2 = 5÷25×2 = 2/5; 2÷(2 of 2)×5 = 2÷4×5 = 5/2; (5−2)÷6×2 = 1; total = 2/5 + 5/2 − 1 = 19/10.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 16 ÷ 4 of 4 × [3 ÷ 4 of {4 × 3 ÷ (3 + 3)}] ÷ (2 ÷ 4 of 8) is:",
+      "options": {
+        "A": "16",
+        "B": "6",
+        "C": "9",
+        "D": "48"
+      },
+      "correct_option": "B",
+      "explanation": "4 of 4 = 16, so 16÷16 = 1; {4×3÷6} = 2 and 4 of 2 = 8, so 3÷8 = 3/8; 4 of 8 = 32, so 2÷32 = 1/16; total = 1 × 3/8 ÷ 1/16 = 6.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 01_.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the number of factors of 2³ × 3⁴ × 5⁶.",
+      "options": {
+        "A": "125",
+        "B": "130",
+        "C": "120",
+        "D": "140"
+      },
+      "correct_option": "D",
+      "explanation": "Number of factors = (3+1)(4+1)(6+1) = 4·5·7 = 140.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the number of factors of 720.",
+      "options": {
+        "A": "25",
+        "B": "40",
+        "C": "30",
+        "D": "35"
+      },
+      "correct_option": "C",
+      "explanation": "720 = 2⁴·3²·5, so the number of factors is (4+1)(2+1)(1+1) = 5·3·2 = 30.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the number of even factors of 2³ × 3⁴ × 5⁶.",
+      "options": {
+        "A": "115",
+        "B": "105",
+        "C": "110",
+        "D": "104"
+      },
+      "correct_option": "B",
+      "explanation": "An even factor needs at least one 2: 3 choices for the power of 2, then 5 and 7 choices for 3 and 5, giving 3·5·7 = 105.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/(2×3) + 1/(3×4) + 1/(4×5) + ... + 1/(19×20) is:",
+      "options": {
+        "A": "3/19",
+        "B": "3/20",
+        "C": "9/20",
+        "D": "2/19"
+      },
+      "correct_option": "C",
+      "explanation": "Telescoping: (1/2 − 1/3) + (1/3 − 1/4) + ... + (1/19 − 1/20) = 1/2 − 1/20 = 9/20.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/(2×5) + 1/(5×8) + 1/(8×11) + ... + 1/(23×26) is:",
+      "options": {
+        "A": "1/11",
+        "B": "2/13",
+        "C": "3/11",
+        "D": "4/13"
+      },
+      "correct_option": "B",
+      "explanation": "Each term is (1/3)(1/k − 1/(k+3)); the sum telescopes to (1/3)(1/2 − 1/26) = (1/3)(12/26) = 2/13.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 20; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/20 + 1/30 + 1/42 + ... + 1/132 is:",
+      "options": {
+        "A": "2/5",
+        "B": "3/4",
+        "C": "1/6",
+        "D": "4/5"
+      },
+      "correct_option": "C",
+      "explanation": "Terms are 1/(4×5) + 1/(5×6) + ... + 1/(11×12) = 1/4 − 1/12 = 2/12 = 1/6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 22; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 5/(2²×3²) + 7/(3²×4²) + 9/(4²×5²) + ... + 39/(19²×20²) is:",
+      "options": {
+        "A": "299/200",
+        "B": "399/100",
+        "C": "99/400",
+        "D": "299/300"
+      },
+      "correct_option": "C",
+      "explanation": "Each term is 1/k² − 1/(k+1)² for k = 2..19; the sum telescopes to 1/4 − 1/400 = 99/400.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 25; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: 1 + 2 + 3 + ... + 99 + 100 + 99 + ... + 2 + 1",
+      "options": {
+        "A": "10000",
+        "B": "9900",
+        "C": "9999",
+        "D": "9990"
+      },
+      "correct_option": "A",
+      "explanation": "A symmetric sum up to the middle term n equals n²; here n = 100, so the sum is 100² = 10000.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 26; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: √(1 + 2 + 3 + ... + 78 + 79 + 78 + ... + 2 + 1)",
+      "options": {
+        "A": "6084",
+        "B": "6241",
+        "C": "79",
+        "D": "78"
+      },
+      "correct_option": "C",
+      "explanation": "The sum equals 79² = 6241, so its square root is 79.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 27; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the number of even factors of 842.",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "8",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "explanation": "842 = 2·421; an even factor must contain one factor of 2, and 421 is prime, giving 1·2 = 2 even factors.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/9 + 1/6 + 1/12 + 1/20 + ... + 1/72 is:",
+      "options": {
+        "A": "0.33",
+        "B": "0.77",
+        "C": "0.66",
+        "D": "0.5"
+      },
+      "correct_option": "D",
+      "explanation": "Apart from 1/9 the terms are 1/(2×3)+1/(3×4)+...+1/(8×9) = 1/2 − 1/9; adding 1/9 gives exactly 1/2 = 0.5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Simplification 02_.pdf, PDF page 23; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 12 + 8 ÷ 4.",
+      "options": {
+        "A": "11",
+        "B": "5",
+        "C": "20",
+        "D": "14"
+      },
+      "correct_option": "D",
+      "explanation": "Division first: 8÷4 = 2, so 12 + 2 = 14.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 15 − 3 × 4.",
+      "options": {
+        "A": "−3",
+        "B": "48",
+        "C": "7",
+        "D": "3"
+      },
+      "correct_option": "D",
+      "explanation": "Multiplication first: 3×4 = 12, so 15 − 12 = 3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of (7 + 5) × 2.",
+      "options": {
+        "A": "19",
+        "B": "24",
+        "C": "14",
+        "D": "26"
+      },
+      "correct_option": "B",
+      "explanation": "Bracket first: 12 × 2 = 24.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 36 ÷ 6 + 5 × 2.",
+      "options": {
+        "A": "16",
+        "B": "17",
+        "C": "6",
+        "D": "22"
+      },
+      "correct_option": "A",
+      "explanation": "36÷6 = 6 and 5×2 = 10, so 6 + 10 = 16.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 1/2 + 1/4?",
+      "options": {
+        "A": "2/6",
+        "B": "1/6",
+        "C": "2/8",
+        "D": "3/4"
+      },
+      "correct_option": "D",
+      "explanation": "1/2 = 2/4, so 2/4 + 1/4 = 3/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 2/3 − 1/6?",
+      "options": {
+        "A": "1/6",
+        "B": "2/9",
+        "C": "1/3",
+        "D": "1/2"
+      },
+      "correct_option": "D",
+      "explanation": "2/3 = 4/6, so 4/6 − 1/6 = 3/6 = 1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 3/5 × 10/9?",
+      "options": {
+        "A": "1/3",
+        "B": "2/3",
+        "C": "30/45",
+        "D": "3/2"
+      },
+      "correct_option": "B",
+      "explanation": "(3×10)/(5×9) = 30/45 = 2/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 3/4 ÷ 9/8?",
+      "options": {
+        "A": "2/3",
+        "B": "1/2",
+        "C": "27/32",
+        "D": "3/2"
+      },
+      "correct_option": "A",
+      "explanation": "3/4 × 8/9 = 24/36 = 2/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 0.5 + 0.25.",
+      "options": {
+        "A": "0.125",
+        "B": "0.55",
+        "C": "0.30",
+        "D": "0.75"
+      },
+      "correct_option": "D",
+      "explanation": "0.50 + 0.25 = 0.75.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 1.2 × 0.5.",
+      "options": {
+        "A": "0.6",
+        "B": "0.06",
+        "C": "6",
+        "D": "1.7"
+      },
+      "correct_option": "A",
+      "explanation": "1.2 × 0.5 = 0.6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 2³ + 3².",
+      "options": {
+        "A": "36",
+        "B": "13",
+        "C": "25",
+        "D": "17"
+      },
+      "correct_option": "D",
+      "explanation": "2³ = 8 and 3² = 9, so 8 + 9 = 17.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of √144 + √81.",
+      "options": {
+        "A": "225",
+        "B": "21",
+        "C": "12",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "explanation": "√144 = 12 and √81 = 9, so 12 + 9 = 21.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 5 + 3 × 2 − 4.",
+      "options": {
+        "A": "16",
+        "B": "7",
+        "C": "12",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "explanation": "3×2 = 6, so 5 + 6 − 4 = 7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 10 − 2 × 3 + 8 ÷ 4.",
+      "options": {
+        "A": "0",
+        "B": "12",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "D",
+      "explanation": "2×3 = 6 and 8÷4 = 2, so 10 − 6 + 2 = 6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of (12 + 18) ÷ 5.",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "6",
+        "D": "30"
+      },
+      "correct_option": "C",
+      "explanation": "12 + 18 = 30 and 30 ÷ 5 = 6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 7/8 − 3/8?",
+      "options": {
+        "A": "1/2",
+        "B": "3/8",
+        "C": "1/4",
+        "D": "4/16"
+      },
+      "correct_option": "A",
+      "explanation": "7/8 − 3/8 = 4/8 = 1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 2/5 + 3/10?",
+      "options": {
+        "A": "7/10",
+        "B": "5/15",
+        "C": "1/2",
+        "D": "3/5"
+      },
+      "correct_option": "A",
+      "explanation": "2/5 = 4/10, so 4/10 + 3/10 = 7/10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 4² − 2³.",
+      "options": {
+        "A": "16",
+        "B": "4",
+        "C": "0",
+        "D": "8"
+      },
+      "correct_option": "D",
+      "explanation": "4² = 16 and 2³ = 8, so 16 − 8 = 8.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 2.5 + 1.75.",
+      "options": {
+        "A": "3.25",
+        "B": "4.25",
+        "C": "3.75",
+        "D": "4.75"
+      },
+      "correct_option": "B",
+      "explanation": "2.50 + 1.75 = 4.25.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 0.6 ÷ 0.2.",
+      "options": {
+        "A": "0.03",
+        "B": "3",
+        "C": "12",
+        "D": "0.3"
+      },
+      "correct_option": "B",
+      "explanation": "0.6 ÷ 0.2 = 3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 3/4 of 20.",
+      "options": {
+        "A": "5",
+        "B": "12",
+        "C": "15",
+        "D": "60"
+      },
+      "correct_option": "C",
+      "explanation": "3/4 × 20 = 15.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 25% of 80.",
+      "options": {
+        "A": "25",
+        "B": "40",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "D",
+      "explanation": "25% of 80 = 80/4 = 20.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 18 ÷ 3 × 2.",
+      "options": {
+        "A": "27",
+        "B": "12",
+        "C": "3",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "18÷3 = 6 and 6 × 2 = 12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 8 + 2 × (5 − 3).",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "20",
+        "D": "17"
+      },
+      "correct_option": "B",
+      "explanation": "(5−3) = 2, 2×2 = 4, so 8 + 4 = 12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 1/3 + 1/6 + 1/2?",
+      "options": {
+        "A": "1",
+        "B": "3/11",
+        "C": "2/3",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "Using sixths: 2/6 + 1/6 + 3/6 = 6/6 = 1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 9² − 8².",
+      "options": {
+        "A": "145",
+        "B": "17",
+        "C": "81",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "9² − 8² = 81 − 64 = 17.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 1.5 × 4 − 2.",
+      "options": {
+        "A": "10",
+        "B": "6",
+        "C": "8",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "1.5 × 4 = 6, so 6 − 2 = 4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 100 ÷ 4 + 6 × 3.",
+      "options": {
+        "A": "25",
+        "B": "39",
+        "C": "48",
+        "D": "43"
+      },
+      "correct_option": "D",
+      "explanation": "100÷4 = 25 and 6×3 = 18, so 25 + 18 = 43.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 12 ÷ 3 + 4 × 2 − 6.",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "8",
+        "D": "14"
+      },
+      "correct_option": "A",
+      "explanation": "12÷3 = 4 and 4×2 = 8, so 4 + 8 − 6 = 6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 24 ÷ (8 − 4) × 3.",
+      "options": {
+        "A": "2",
+        "B": "24",
+        "C": "6",
+        "D": "18"
+      },
+      "correct_option": "D",
+      "explanation": "24÷4 = 6 and 6 × 3 = 18.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 2/3 + 3/4 − 5/6?",
+      "options": {
+        "A": "5/12",
+        "B": "1/12",
+        "C": "1",
+        "D": "7/12"
+      },
+      "correct_option": "D",
+      "explanation": "Using twelfths: 8/12 + 9/12 − 10/12 = 7/12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 5/6 × 3/10 ÷ 1/4?",
+      "options": {
+        "A": "4",
+        "B": "1/8",
+        "C": "1/4",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "5/6 × 3/10 = 1/4, and 1/4 ÷ 1/4 = 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 0.75 × 1.6.",
+      "options": {
+        "A": "12",
+        "B": "1.35",
+        "C": "0.12",
+        "D": "1.2"
+      },
+      "correct_option": "D",
+      "explanation": "0.75 × 1.6 = 1.2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of √2.25.",
+      "options": {
+        "A": "0.15",
+        "B": "1.25",
+        "C": "1.5",
+        "D": "15"
+      },
+      "correct_option": "C",
+      "explanation": "1.5 × 1.5 = 2.25, so √2.25 = 1.5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 40% of 250.",
+      "options": {
+        "A": "62.5",
+        "B": "100",
+        "C": "625",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "explanation": "40% of 250 = 0.4 × 250 = 100.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 15% of 480 + 25% of 240.",
+      "options": {
+        "A": "144",
+        "B": "132",
+        "C": "120",
+        "D": "168"
+      },
+      "correct_option": "B",
+      "explanation": "15% of 480 = 72 and 25% of 240 = 60, so the sum is 132.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 3⁴ ÷ 3² × 3.",
+      "options": {
+        "A": "81",
+        "B": "27",
+        "C": "3",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "explanation": "3⁴÷3² = 9 and 9 × 3 = 27.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of (0.2)³.",
+      "options": {
+        "A": "0.6",
+        "B": "0.08",
+        "C": "0.0008",
+        "D": "0.008"
+      },
+      "correct_option": "D",
+      "explanation": "0.2 × 0.2 × 0.2 = 0.008.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 5/8 ÷ 15/16?",
+      "options": {
+        "A": "2/3",
+        "B": "75/128",
+        "C": "3/2",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "5/8 × 16/15 = 80/120 = 2/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of 7/12 + 5/18 − 1/4?",
+      "options": {
+        "A": "1/2",
+        "B": "11/18",
+        "C": "13/18",
+        "D": "5/9"
+      },
+      "correct_option": "B",
+      "explanation": "Using thirty-sixths: 21/36 + 10/36 − 9/36 = 22/36 = 11/18.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 1.25 × 0.8 + 0.2.",
+      "options": {
+        "A": "1.25",
+        "B": "1.2",
+        "C": "0.3",
+        "D": "1.0"
+      },
+      "correct_option": "B",
+      "explanation": "1.25 × 0.8 = 1.0, so 1.0 + 0.2 = 1.2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 16 ÷ 4 + 3 × (7 − 5)².",
+      "options": {
+        "A": "22",
+        "B": "10",
+        "C": "28",
+        "D": "16"
+      },
+      "correct_option": "D",
+      "explanation": "(7−5)² = 4 and 3×4 = 12, so 16÷4 + 12 = 4 + 12 = 16.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "What is the value of (3/7) × (14/9) ÷ (2/3)?",
+      "options": {
+        "A": "1/3",
+        "B": "1",
+        "C": "2/3",
+        "D": "3/2"
+      },
+      "correct_option": "B",
+      "explanation": "3/7 × 14/9 = 2/3, and 2/3 ÷ 2/3 = 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of √1296.",
+      "options": {
+        "A": "1296",
+        "B": "24",
+        "C": "36",
+        "D": "32"
+      },
+      "correct_option": "C",
+      "explanation": "36 × 36 = 1296, so √1296 = 36.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 20% of 15% of 400.",
+      "options": {
+        "A": "12",
+        "B": "120",
+        "C": "1.2",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "explanation": "15% of 400 = 60 and 20% of 60 = 12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the value of 3/4 of 1/2 + 1/8.",
+      "options": {
+        "A": "3/8",
+        "B": "7/8",
+        "C": "5/8",
+        "D": "1/2"
+      },
+      "correct_option": "D",
+      "explanation": "3/4 × 1/2 = 3/8 and 3/8 + 1/8 = 4/8 = 1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/(1×2) + 1/(2×3) + ... + 1/(9×10) is:",
+      "options": {
+        "A": "9/10",
+        "B": "9/100",
+        "C": "10/11",
+        "D": "1/90"
+      },
+      "correct_option": "A",
+      "explanation": "Telescoping: (1 − 1/2) + (1/2 − 1/3) + ... + (1/9 − 1/10) = 1 − 1/10 = 9/10.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/(1×3) + 1/(3×5) + 1/(5×7) + 1/(7×9) is:",
+      "options": {
+        "A": "1/3",
+        "B": "4/9",
+        "C": "8/9",
+        "D": "1/9"
+      },
+      "correct_option": "B",
+      "explanation": "Each term is (1/2)(1/k − 1/(k+2)); the sum is (1/2)(1 − 1/9) = (1/2)(8/9) = 4/9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/(2×4) + 1/(4×6) + 1/(6×8) + 1/(8×10) is:",
+      "options": {
+        "A": "1/5",
+        "B": "2/5",
+        "C": "1/4",
+        "D": "1/10"
+      },
+      "correct_option": "A",
+      "explanation": "Each term is (1/2)(1/k − 1/(k+2)); the sum is (1/2)(1/2 − 1/10) = (1/2)(2/5) = 1/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1/6 + 1/12 + 1/20 + 1/30 is:",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1/3",
+        "D": "2/25"
+      },
+      "correct_option": "C",
+      "explanation": "Terms are 1/(2×3)+1/(3×4)+1/(4×5)+1/(5×6) = 1/2 − 1/6 = 1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of 1 + 1/(2 + 1/(3 + 1/4)) is:",
+      "options": {
+        "A": "4/3",
+        "B": "7/4",
+        "C": "30/43",
+        "D": "43/30"
+      },
+      "correct_option": "D",
+      "explanation": "Inner: 3+1/4 = 13/4 → 4/13 → 2+4/13 = 30/13 → 13/30 → 1 + 13/30 = 43/30.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of (3/8 + 5/12) ÷ (7/8 − 3/4) is:",
+      "options": {
+        "A": "3/19",
+        "B": "19/3",
+        "C": "1/8",
+        "D": "19/24"
+      },
+      "correct_option": "B",
+      "explanation": "(9/24 + 10/24) = 19/24 and (7/8 − 3/4) = 1/8, so 19/24 × 8 = 19/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of [(0.9)² − (0.8)²] ÷ (0.9 − 0.8) is:",
+      "options": {
+        "A": "1.7",
+        "B": "17",
+        "C": "0.17",
+        "D": "0.017"
+      },
+      "correct_option": "A",
+      "explanation": "(0.81 − 0.64) ÷ 0.1 = 0.17 ÷ 0.1 = 1.7.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of √0.0004 + ³√0.008 is:",
+      "options": {
+        "A": "0.6",
+        "B": "0.06",
+        "C": "0.42",
+        "D": "0.22"
+      },
+      "correct_option": "D",
+      "explanation": "√0.0004 = 0.02 and ³√0.008 = 0.2, so the sum is 0.22.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of √1.44 × ³√0.027 is:",
+      "options": {
+        "A": "0.036",
+        "B": "3.6",
+        "C": "0.36",
+        "D": "0.12"
+      },
+      "correct_option": "C",
+      "explanation": "√1.44 = 1.2 and ³√0.027 = 0.3, so the product is 0.36.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of (³√8 + ⁴√16) × √25 is:",
+      "options": {
+        "A": "20",
+        "B": "40",
+        "C": "14",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "explanation": "³√8 = 2, ⁴√16 = 2 and √25 = 5, so (2 + 2) × 5 = 20.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "The value of (√2)⁴ × (³√2)⁶ is:",
+      "options": {
+        "A": "8",
+        "B": "32",
+        "C": "4",
+        "D": "16"
+      },
+      "correct_option": "D",
+      "explanation": "(√2)⁴ = 2² = 4 and (³√2)⁶ = 2² = 4, so the product is 16.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: √12 × √27.",
+      "options": {
+        "A": "9",
+        "B": "324",
+        "C": "39",
+        "D": "18"
+      },
+      "correct_option": "D",
+      "explanation": "√12 × √27 = √324 = 18.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: (√5 + √3)(√5 − √3).",
+      "options": {
+        "A": "8",
+        "B": "2",
+        "C": "√2",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "explanation": "Using (a+b)(a−b) = a²−b²: 5 − 3 = 2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the total number of factors of 360.",
+      "options": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "36"
+      },
+      "correct_option": "C",
+      "explanation": "360 = 2³·3²·5, so the number of factors is 4·3·2 = 24.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Find the number of prime factors in 12³ (counting repetition).",
+      "options": {
+        "A": "3",
+        "B": "12",
+        "C": "6",
+        "D": "9"
+      },
+      "correct_option": "D",
+      "explanation": "12³ = (2²·3)³ = 2⁶·3³, so the number of prime factors is 6 + 3 = 9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: (√7 + √3)² − 2√21.",
+      "options": {
+        "A": "2√21",
+        "B": "14",
+        "C": "4",
+        "D": "10"
+      },
+      "correct_option": "D",
+      "explanation": "Expanding: (√7)² + (√3)² + 2√21 − 2√21 = 7 + 3 = 10.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: (16/81)^(3/4).",
+      "options": {
+        "A": "27/8",
+        "B": "2/3",
+        "C": "8/27",
+        "D": "64/729"
+      },
+      "correct_option": "C",
+      "explanation": "16^(3/4) = 8 and 81^(3/4) = 27, so the value is 8/27.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: √(7 + 4√3) + √(7 − 4√3).",
+      "options": {
+        "A": "7",
+        "B": "4",
+        "C": "4√3",
+        "D": "2√3"
+      },
+      "correct_option": "B",
+      "explanation": "7 + 4√3 = (2 + √3)² and 7 − 4√3 = (2 − √3)², so the sum is (2 + √3) + (2 − √3) = 4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: 2/3 of 3/4 of 4/5 of 100.",
+      "options": {
+        "A": "45",
+        "B": "80",
+        "C": "40",
+        "D": "50"
+      },
+      "correct_option": "C",
+      "explanation": "(2/3)(3/4) = 1/2, (1/2)(4/5) = 2/5 and (2/5)(100) = 40.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: (1/2 + 1/3) ÷ (1/2 − 1/3).",
+      "options": {
+        "A": "5/6",
+        "B": "1/5",
+        "C": "5",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "(5/6) ÷ (1/6) = 5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: 0.008 × 0.5 ÷ 0.002.",
+      "options": {
+        "A": "2",
+        "B": "0.02",
+        "C": "0.2",
+        "D": "20"
+      },
+      "correct_option": "A",
+      "explanation": "0.008 × 0.5 = 0.004 and 0.004 ÷ 0.002 = 2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "simplification",
+      "question_text": "Simplify: 5² × 5³ ÷ 5⁴.",
+      "options": {
+        "A": "125",
+        "B": "25",
+        "C": "1",
+        "D": "5"
+      },
+      "correct_option": "D",
+      "explanation": "5² × 5³ = 5⁵ and 5⁵ ÷ 5⁴ = 5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

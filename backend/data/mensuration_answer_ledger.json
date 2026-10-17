@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "A square has diagonal 15√2 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "225",
+    "independent_calculation": "For square d=s√2, s=15; area=s²=225 cm².",
+    "source": "Mensuration 1.pdf, PDF page 7; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 2,
+    "question": "A square has perimeter 96 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "576",
+    "independent_calculation": "Side=96/4=24 cm; area=24²=576 cm².",
+    "source": "Mensuration 1.pdf, PDF page 8; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 3,
+    "question": "A square has diagonal 20 cm. Find its perimeter.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "40√2",
+    "independent_calculation": "Side=20/√2=10√2; perimeter=4×10√2=40√2 cm.",
+    "source": "Mensuration 1.pdf, PDF page 9; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 4,
+    "question": "Find the ratio of the areas of the incircle and circumcircle of a square.",
+    "difficulty": "EASY",
+    "expected_answer": "1:2",
+    "independent_calculation": "R/r=√2 for a square, so πr²:πR²=1:2.",
+    "source": "Mensuration 1.pdf, PDF page 10; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 5,
+    "question": "A rhombus has area 315 cm² and perimeter 180 cm. Find its altitude.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "7",
+    "independent_calculation": "Side=180/4=45 cm; area=base×height, so height=315/45=7 cm.",
+    "source": "Mensuration 1.pdf, PDF page 11; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 6,
+    "question": "A rhombus has diagonals 6 cm and 8 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "24",
+    "independent_calculation": "Area=d₁d₂/2=6×8/2=24 cm².",
+    "source": "Mensuration 1.pdf, PDF page 12; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 7,
+    "question": "A rhombus has side 13 cm and one diagonal 10 cm. Find the other diagonal.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "24",
+    "independent_calculation": "Diagonals bisect at right angles: half of other diagonal=√(13²−5²)=12; full diagonal=24 cm.",
+    "source": "Mensuration 1.pdf, PDF page 13; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 8,
+    "question": "A rhombus has perimeter 40 cm and one diagonal 16 cm. Find the other diagonal.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12",
+    "independent_calculation": "Side=10; half first diagonal=8; other half=√(10²−8²)=6, so diagonal=12 cm.",
+    "source": "Mensuration 1.pdf, PDF page 14; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 9,
+    "question": "A square has area 200 cm². Its side is doubled. What is the new area?",
+    "difficulty": "EASY",
+    "expected_answer": "800",
+    "independent_calculation": "Area scales as side²; new area=4×200=800 cm².",
+    "source": "Mensuration 1.pdf, PDF page 16; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 10,
+    "question": "A square wire encloses 121 cm². It is reshaped into a circle. Using π=22/7, find the circle's area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "154",
+    "independent_calculation": "Square side=11, perimeter/wire=44; circle radius=44/(2π)=7; area=π×49=154 cm².",
+    "source": "Mensuration 1.pdf, PDF page 17; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 11,
+    "question": "Using π=22/7, find the greatest circle area that fits inside a square of side 21 cm.",
+    "difficulty": "EASY",
+    "expected_answer": "346.5",
+    "independent_calculation": "Inscribed circle diameter=21, r=10.5; area=(22/7)×10.5²=346.5 cm².",
+    "source": "Mensuration 1.pdf, PDF page 18; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 12,
+    "question": "An equilateral triangle is drawn on a square's diagonal. What is the ratio of the triangle area to the square area?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "√3:2",
+    "independent_calculation": "Square diagonal=d; triangle area=√3d²/4; square area=d²/2; ratio=√3:2.",
+    "source": "Mensuration 1.pdf, PDF page 19; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 13,
+    "question": "Find the area of an isosceles triangle with sides 5 cm, 5 cm and base 8 cm.",
+    "difficulty": "EASY",
+    "expected_answer": "12",
+    "independent_calculation": "Altitude bisects base: h=√(5²−4²)=3; area=8×3/2=12 cm².",
+    "source": "Mensuration 02.pdf, PDF page 11; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 14,
+    "question": "An isosceles triangle has perimeter 40 cm and equal-side:base ratio 7:6. Find its area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "24√10",
+    "independent_calculation": "Sides 14,14,12; altitude=√(14²−6²)=4√10; area=12×4√10/2=24√10 cm².",
+    "source": "Mensuration 02.pdf, PDF page 13; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 15,
+    "question": "Find the area of a triangle with sides 8 cm, 6 cm and 4 cm.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "3√15",
+    "independent_calculation": "Heron: s=9; area=√[9×1×3×5]=3√15 cm².",
+    "source": "Mensuration 02.pdf, PDF page 16; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 16,
+    "question": "A 5-12-13 right triangle has a median drawn to its hypotenuse. Find the median length.",
+    "difficulty": "EASY",
+    "expected_answer": "6.5",
+    "independent_calculation": "In a right triangle, median to hypotenuse equals half the hypotenuse: 13/2=6.5 cm.",
+    "source": "Mensuration 02.pdf, PDF page 18; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 17,
+    "question": "An isosceles triangle has base 10 cm and area 20 cm². Find the length of each equal side.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "√41",
+    "independent_calculation": "Height=2A/b=4; each side=√(5²+4²)=√41 cm.",
+    "source": "Mensuration 02.pdf, PDF page 12; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 18,
+    "question": "A right triangle has inradius 3 cm and circumradius 12.5 cm. Find its area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "84",
+    "independent_calculation": "For right triangle hypotenuse=2R=25; area=r×semiperimeter. Legs satisfy a+b=25+2r=31 and a²+b²=625; ab=168; area=ab/2=84 cm².",
+    "source": "Mensuration 02.pdf, PDF page 19; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 19,
+    "question": "A rectangular field has one side 15 m and diagonal 17 m. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "120",
+    "independent_calculation": "Other side=√(17²−15²)=8 m; area=15×8=120 m².",
+    "source": "Mensuration 3.pdf, PDF page 9; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 20,
+    "question": "A 25 m by 16 m courtyard is paved with 20 cm by 10 cm tiles. How many tiles are needed?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "20000",
+    "independent_calculation": "Courtyard=400 m²; tile=0.2×0.1=0.02 m²; count=400/0.02=20,000.",
+    "source": "Mensuration 3.pdf, PDF page 10; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 21,
+    "question": "A parallelogram has adjacent sides 60 cm and 40 cm and a diagonal 80 cm. Find its area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "600√15 cm²",
+    "independent_calculation": "Triangle sides 60,40,80 have s=90; Heron area=√(90×30×50×10)=300√15 cm²; the parallelogram is twice that, so area=600√15 cm².",
+    "source": "Mensuration 3.pdf, PDF page 12; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 22,
+    "question": "A parallelogram has adjacent sides 12 cm and 14 cm; one diagonal is 16 cm. Find the other diagonal.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2√106 cm",
+    "independent_calculation": "Parallelogram law: d₁²+d₂²=2(12²+14²)=680; d₂²=424; d₂=2√106 cm.",
+    "source": "Mensuration 3.pdf, PDF page 13; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 23,
+    "question": "A parallelogram's sides are in ratio 3:2, its area is 243 cm², and included angle is 30°. Find its perimeter.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "90",
+    "independent_calculation": "Let sides 3x,2x. Area=3x·2x·sin30=3x²=243, x=9; perimeter=2(27+18)=90 cm.",
+    "source": "Mensuration 3.pdf, PDF page 15; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 24,
+    "question": "A trapezium has area 384 cm², parallel-side ratio 3:5, and height 12 cm. Find the shorter parallel side.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "24",
+    "independent_calculation": "384=12(a+b)/2 gives a+b=64; ratio parts total 8, one part=8; shorter=3×8=24 cm.",
+    "source": "Mensuration 3.pdf, PDF page 19; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 25,
+    "question": "A trapezium has area 180 cm² and height 9 cm. One parallel side is 6 cm longer than the other. Find the shorter side.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "17",
+    "independent_calculation": "Sum of parallel sides=2A/h=40; solve x+(x+6)=40, x=17 cm.",
+    "source": "Mensuration 3.pdf, PDF page 20; slide deck labels section as PYQ but individual exam/year not stated"
+  },
+  {
+    "row": 26,
+    "question": "A rectangle measures 18 cm by 7 cm. Find its perimeter.",
+    "difficulty": "EASY",
+    "expected_answer": "50",
+    "independent_calculation": "P=2(18+7)=50 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 27,
+    "question": "A rectangle has area 96 cm² and length 12 cm. Find its width.",
+    "difficulty": "EASY",
+    "expected_answer": "8",
+    "independent_calculation": "Width=area/length=96/12=8 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 28,
+    "question": "Find the area of a triangle with base 18 cm and perpendicular height 7 cm.",
+    "difficulty": "EASY",
+    "expected_answer": "63",
+    "independent_calculation": "A=bh/2=18×7/2=63 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 29,
+    "question": "A parallelogram has base 15 cm and altitude 8 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "120",
+    "independent_calculation": "A=base×height=15×8=120 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 30,
+    "question": "A trapezium has parallel sides 8 cm and 14 cm and height 6 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "66",
+    "independent_calculation": "A=(8+14)×6/2=66 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 31,
+    "question": "A circle has radius 7 cm. Using π=22/7, find its circumference.",
+    "difficulty": "EASY",
+    "expected_answer": "44",
+    "independent_calculation": "C=2πr=2×22/7×7=44 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 32,
+    "question": "A circle has diameter 14 cm. Using π=22/7, find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "154",
+    "independent_calculation": "r=7; A=πr²=154 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 33,
+    "question": "Find the area of a semicircle of radius 14 cm. Use π=22/7.",
+    "difficulty": "EASY",
+    "expected_answer": "308",
+    "independent_calculation": "A=πr²/2=(22/7×196)/2=308 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 34,
+    "question": "A square has side 13 cm. Find the length of its diagonal.",
+    "difficulty": "EASY",
+    "expected_answer": "13√2",
+    "independent_calculation": "d=s√2=13√2 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 35,
+    "question": "A cube has side 5 cm. Find its volume.",
+    "difficulty": "EASY",
+    "expected_answer": "125",
+    "independent_calculation": "V=a³=5³=125 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 36,
+    "question": "A cube has side 4 cm. Find its total surface area.",
+    "difficulty": "EASY",
+    "expected_answer": "96",
+    "independent_calculation": "TSA=6a²=6×16=96 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 37,
+    "question": "A cuboid measures 8 cm × 5 cm × 3 cm. Find its volume.",
+    "difficulty": "EASY",
+    "expected_answer": "120",
+    "independent_calculation": "V=lbh=8×5×3=120 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 38,
+    "question": "A cylinder has radius 7 cm and height 10 cm. Find its volume using π=22/7.",
+    "difficulty": "EASY",
+    "expected_answer": "1540",
+    "independent_calculation": "V=πr²h=22/7×49×10=1540 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 39,
+    "question": "A cylinder has radius 7 cm and height 5 cm. Find its curved surface area using π=22/7.",
+    "difficulty": "EASY",
+    "expected_answer": "220",
+    "independent_calculation": "CSA=2πrh=2×22/7×7×5=220 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 40,
+    "question": "A cone has radius 3 cm and height 4 cm. Find its volume using π=3.14.",
+    "difficulty": "EASY",
+    "expected_answer": "37.68",
+    "independent_calculation": "V=πr²h/3=3.14×9×4/3=37.68 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 41,
+    "question": "A sphere has radius 3 cm. Find its volume using π=3.14.",
+    "difficulty": "EASY",
+    "expected_answer": "113.04",
+    "independent_calculation": "V=4πr³/3=4×3.14×27/3=113.04 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 42,
+    "question": "A hemisphere has radius 7 cm. Find its total surface area using π=22/7.",
+    "difficulty": "EASY",
+    "expected_answer": "462",
+    "independent_calculation": "TSA=3πr²=3×22/7×49=462 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 43,
+    "question": "Convert 2.5 m² to cm².",
+    "difficulty": "EASY",
+    "expected_answer": "25000",
+    "independent_calculation": "1 m²=10,000 cm²; 2.5×10,000=25,000 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 44,
+    "question": "A triangle has base 12 cm and height 9 cm. Find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "54",
+    "independent_calculation": "Area=bh/2=12×9/2=54 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 45,
+    "question": "A cuboid is 10 cm long, 4 cm wide and 3 cm high. Find its lateral surface area.",
+    "difficulty": "EASY",
+    "expected_answer": "84",
+    "independent_calculation": "LSA=2h(l+b)=6×14=84 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 46,
+    "question": "A circle has radius 14 cm. Using π=22/7, find its area.",
+    "difficulty": "EASY",
+    "expected_answer": "616",
+    "independent_calculation": "A=πr²=22/7×196=616 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 47,
+    "question": "A rectangular garden is 30 m by 18 m. A 2 m-wide path runs inside along its boundary. Find the planted area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "364",
+    "independent_calculation": "Inner dimensions 26×14; planted area=364 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 48,
+    "question": "A circular track has radius 35 m. Find the distance around it using π=22/7.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "220",
+    "independent_calculation": "C=2πr=220 m.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 49,
+    "question": "A 90° sector has radius 14 cm. Find its area using π=22/7.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "154",
+    "independent_calculation": "Sector area=90/360×π×14²=154 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 50,
+    "question": "A wheel of radius 35 cm makes 200 complete revolutions. Find distance travelled in metres using π=22/7.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "440",
+    "independent_calculation": "Circumference=220 cm; distance=44,000 cm=440 m.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "A cube's side is increased by 20%. By what percentage does its volume increase?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "72.8",
+    "independent_calculation": "Volume factor=1.2³=1.728; increase=72.8%.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "A cuboid 12 cm × 8 cm × 5 cm is painted on all faces. Find painted area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "392",
+    "independent_calculation": "TSA=2(lb+bh+hl)=2(96+40+60)=392 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "A closed cylinder has radius 7 cm and height 12 cm. Find total surface area using π=22/7.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "836",
+    "independent_calculation": "TSA=2πr(r+h)=44×19=836 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "A cone has radius 7 cm and slant height 25 cm. Find curved surface area using π=22/7.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "550",
+    "independent_calculation": "CSA=πrl=22/7×7×25=550 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "A sphere's radius changes from 3 cm to 6 cm. By what factor does its volume change?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "8",
+    "independent_calculation": "Volume is proportional to r³; factor=(6/3)³=8.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "A metal cube of side 6 cm is melted into cubes of side 2 cm. How many small cubes are made?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "27",
+    "independent_calculation": "Volume ratio=6³/2³=27.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "A room 8 m long, 6 m wide and 4 m high is painted on four walls. Find wall area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "112",
+    "independent_calculation": "Four-wall area=2h(l+b)=8(8+6)=112 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "A circular lawn of radius 14 m has a concentric path 7 m wide. Find the path area using π=22/7.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "770",
+    "independent_calculation": "Outer radius=21; area=π(21²−14²)=π×245=770 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "A triangle has sides 13 cm, 14 cm and 15 cm. Find its area.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "84",
+    "independent_calculation": "Heron s=21; area=√(21×8×7×6)=84 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "A parallelogram has base 24 cm and area 360 cm². Find its altitude.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "15",
+    "independent_calculation": "h=A/b=360/24=15 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "A wire forms a square of area 484 cm², then is reshaped into a circle. Find circle area using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "616",
+    "independent_calculation": "Square side=22; wire length=88; circle r=88/(2π)=14; area=616 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "A rectangular plot has perimeter 94 m and diagonal 37 m. Find its area.",
+    "difficulty": "HARD",
+    "expected_answer": "420",
+    "independent_calculation": "l+b=47; l²+b²=37²=1369; 2lb=47²−1369=840; area=420 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "A circle of radius 14 cm is cut from a square of side 28 cm. Find remaining area using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "168 cm²",
+    "independent_calculation": "Square area=784; circle area=616; remainder=168 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "A 90° sector of radius 28 cm is removed from a circle. Find remaining area using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "1848",
+    "independent_calculation": "Remaining 3/4×π×28²=3/4×2464=1848 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "A solid consists of a cylinder of radius 7 cm and height 10 cm with a hemisphere on top. Find external curved area using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "748",
+    "independent_calculation": "Cylinder CSA=440; hemisphere CSA=2πr²=308; total=748 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "A cylinder of radius 6 cm and height 8 cm is melted into a cone of radius 4 cm. Find cone height.",
+    "difficulty": "HARD",
+    "expected_answer": "54",
+    "independent_calculation": "π×36×8=(1/3)π×16×h; h=54 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "A cone of radius 7 cm and height 24 cm is cut from a cylinder with the same base and height. Find remaining volume using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "2464 cm³",
+    "independent_calculation": "Cylinder=π×49×24=3696; cone=1232; difference=2464 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "A sphere of radius 6 cm is melted into identical spheres of radius 2 cm. How many are formed?",
+    "difficulty": "HARD",
+    "expected_answer": "27",
+    "independent_calculation": "Volume ratio=(6/2)³=27.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "A closed cubical tank has capacity 13,824 litres. Find its total outer surface area in m².",
+    "difficulty": "HARD",
+    "expected_answer": "34.56 m²",
+    "independent_calculation": "13,824 L=13.824 m³; side=2.4 m; TSA=6×2.4²=34.56 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "A cuboid 20 cm × 15 cm × 10 cm is cut into the largest possible equal cubes. How many cubes result?",
+    "difficulty": "HARD",
+    "expected_answer": "24",
+    "independent_calculation": "Largest cube side=gcd(20,15,10)=5; count=(20/5)(15/5)(10/5)=24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "A circular path 3.5 m wide surrounds a circular pond of radius 10.5 m. Find path area using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "269.5 m²",
+    "independent_calculation": "Outer radius=14; annulus area=π(196−110.25)=269.5 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "A rectangle 30 cm by 20 cm has a semicircle of diameter 20 cm attached along one short side. Find the perimeter using π=3.14.",
+    "difficulty": "HARD",
+    "expected_answer": "111.4 cm",
+    "independent_calculation": "Three exposed rectangle sides=30+30+20=80; semicircle arc=πr=31.4; total=111.4 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "A square and an equilateral triangle have equal perimeters. If the triangle side is 12 cm, find the square area.",
+    "difficulty": "HARD",
+    "expected_answer": "81",
+    "independent_calculation": "Triangle perimeter=36; square side=9; area=81 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "A right triangle with legs 9 cm and 12 cm is revolved about the 9 cm leg. Find the volume of the resulting cone using π=3.14.",
+    "difficulty": "HARD",
+    "expected_answer": "1356.48 cm³",
+    "independent_calculation": "Cone r=12,h=9; V=π×144×9/3=1356.48 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "A cylindrical vessel of radius 14 cm contains water to 10 cm. A solid sphere of radius 7 cm is immersed. By how much does water level rise?",
+    "difficulty": "HARD",
+    "expected_answer": "7/3 cm",
+    "independent_calculation": "Displaced volume=4π×343/3; vessel base area=π×196; rise=(1372/3)/196=7/3 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "A cone and a hemisphere have the same radius 6 cm. If cone height is 8 cm, find the ratio of cone volume to hemisphere volume.",
+    "difficulty": "HARD",
+    "expected_answer": "2:3",
+    "independent_calculation": "Cone=π×36×8/3=96π; hemisphere=2π×216/3=144π; ratio=2:3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "A cube of side 12 cm is painted on all faces and cut into 1 cm cubes. How many small cubes have exactly two painted faces?",
+    "difficulty": "HARD",
+    "expected_answer": "120",
+    "independent_calculation": "Exactly two faces occur on edge interiors: 12 edges×(12−2)=120.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "A cube of side 10 cm is painted externally and cut into 1 cm cubes. How many small cubes have no paint?",
+    "difficulty": "HARD",
+    "expected_answer": "512",
+    "independent_calculation": "Interior cubes=(10−2)³=512.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "A room 12 m × 8 m × 4 m has one door 2 m × 1 m and two windows each 1.5 m × 1 m. Find area of four walls to paint.",
+    "difficulty": "HARD",
+    "expected_answer": "155 m²",
+    "independent_calculation": "Walls=2h(l+b)=160; openings=2+2×1.5=5; paint area=155 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "A cylindrical pipe has external radius 5 cm, internal radius 4 cm and length 2 m. Find material volume in cm³ using π=3.14.",
+    "difficulty": "HARD",
+    "expected_answer": "5652 cm³",
+    "independent_calculation": "V=π(R²−r²)h=3.14×9×200=5652 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "The radius of a sphere is reduced by 20%. Find the percentage decrease in its surface area.",
+    "difficulty": "HARD",
+    "expected_answer": "36",
+    "independent_calculation": "New area factor=0.8²=0.64; decrease=36%.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "A cuboid has length:width:height=4:3:2 and volume 1536 cm³. Find its total surface area.",
+    "difficulty": "HARD",
+    "expected_answer": "832 cm²",
+    "independent_calculation": "Dimensions 4x,3x,2x; 24x³=1536 ⇒x=4; sides 16,12,8; TSA=2(192+96+128)=832 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "A trapezium has parallel sides 18 cm and 32 cm and area 500 cm². Find its height.",
+    "difficulty": "HARD",
+    "expected_answer": "20",
+    "independent_calculation": "500=(18+32)h/2=25h; h=20 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "A rhombus has area 240 cm² and one diagonal 16 cm. Find its perimeter.",
+    "difficulty": "HARD",
+    "expected_answer": "68",
+    "independent_calculation": "Other diagonal=2A/16=30; side=√(8²+15²)=17; perimeter=68 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "A triangular field has sides 25 m, 39 m and 56 m. Find its area.",
+    "difficulty": "HARD",
+    "expected_answer": "420",
+    "independent_calculation": "Heron s=60; area=√(60×35×21×4)=420 m².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "A solid sphere of radius 3 cm is placed inside a tight-fitting cube. Find the volume of the space inside the cube but outside the sphere using π=3.14.",
+    "difficulty": "HARD",
+    "expected_answer": "102.96 cm³",
+    "independent_calculation": "Cube side=6, V=216; sphere V=4/3×3.14×27=113.04; difference=102.96 cm³.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "A cone has radius 9 cm and slant height 15 cm. Find its total surface area using π=3.14.",
+    "difficulty": "HARD",
+    "expected_answer": "678.24 cm²",
+    "independent_calculation": "CSA+base=πr(l+r)=3.14×9×24=678.24 cm².",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "A hemispherical dome of radius 7 m is painted outside at ₹12 per m². Find the cost using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "₹3696",
+    "independent_calculation": "Curved area=2πr²=308 m²; cost=308×₹12=₹3696.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "A 10 m × 8 m floor is covered with square tiles of side 40 cm. How many whole tiles are needed?",
+    "difficulty": "HARD",
+    "expected_answer": "500",
+    "independent_calculation": "Tile area=.16 m²; floor=80 m²; count=500.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "A cylindrical tank of radius 3.5 m and height 4 m is filled to 80% capacity. Find water volume in litres using π=22/7.",
+    "difficulty": "HARD",
+    "expected_answer": "123200",
+    "independent_calculation": "Full volume=22/7×12.25×4=154 m³; 80%=123.2 m³=123,200 L.",
+    "source": "Original SSC-style practice question"
+  }
+]

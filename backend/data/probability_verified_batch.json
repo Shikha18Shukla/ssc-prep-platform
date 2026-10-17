@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair coins are tossed together. What is the probability of getting at most one head?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "The outcomes are HH, HT, TH, TT; three have at most one head. Therefore the probability is 3/4 = 3/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 1 PDF, slide 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair six-sided die is rolled once. What is the probability of an odd result?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "1/3"
+      },
+      "correct_option": "C",
+      "explanation": "The odd faces are 1, 3, and 5: 3 of 6. Therefore the probability is 3/6 = 1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "One number is selected uniformly from 1 to 12. What is the probability that it is a prime?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "5/12"
+      },
+      "correct_option": "D",
+      "explanation": "The primes are 2, 3, 5, 7, and 11: 5 of 12. Therefore the probability is 5/12 = 5/12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair die is rolled. What is the chance that its score exceeds 4?",
+      "options": {
+        "A": "1/3",
+        "B": "1",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "Only 5 and 6 qualify: 2 of 6. Therefore the probability is 2/6 = 1/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A standard die is thrown once. Find the probability of rolling a multiple of 3.",
+      "options": {
+        "A": "1",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "The qualifying faces are 3 and 6: 2 of 6. Therefore the probability is 2/6 = 1/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A card is selected at random from a standard 52-card deck. Find the probability it is a heart.",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "There are 13 hearts among 52 cards. Therefore the probability is 13/52 = 1/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "One card is drawn from a 52-card pack. What is the probability of drawing a face card?",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "1",
+        "D": "3/13"
+      },
+      "correct_option": "D",
+      "explanation": "There are 3 face ranks in each of 4 suits, giving 12 of 52. Therefore the probability is 12/52 = 3/13.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 2 PDF, slide 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A single card is taken from a shuffled standard deck. What is the probability that it is a red king?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "0",
+        "D": "1/26"
+      },
+      "correct_option": "D",
+      "explanation": "The king of hearts and king of diamonds are the 2 red kings among 52. Therefore the probability is 2/52 = 1/26.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 2 PDF, slide 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A playing card is picked blindly from a full deck. What is the probability of a red card?",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "1/3",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "The 2 red suits contain 26 cards in total. Therefore the probability is 26/52 = 1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 2 PDF, slide 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "An integer from 1 through 15 is chosen at random. What is the probability it is divisible by 3?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "1/3",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "The qualifying values are 3, 6, 9, 12, and 15: 5 of 15. Therefore the probability is 5/15 = 1/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "One of the integers 1 to 20 is selected. What is the probability it is divisible by 5?",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "1",
+        "D": "1/5"
+      },
+      "correct_option": "D",
+      "explanation": "The multiples are 5, 10, 15, and 20: 4 of 20. Therefore the probability is 4/20 = 1/5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A letter is chosen uniformly from the word MATHS. What is the probability of choosing its only vowel?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/5",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "MATHS has five letters and only A is a vowel. Therefore the probability is 1/5 = 1/5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A day of the week is selected at random. What is the probability its name begins with S?",
+      "options": {
+        "A": "1",
+        "B": "2/7",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Saturday and Sunday qualify: 2 of 7 days. Therefore the probability is 2/7 = 2/7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A month is chosen uniformly from a calendar year. What is the probability it has 31 days?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "7/12"
+      },
+      "correct_option": "D",
+      "explanation": "Seven of the twelve months have 31 days. Therefore the probability is 7/12 = 7/12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A spinner has 10 equal sectors, of which 4 are blue. What is the probability it stops on blue?",
+      "options": {
+        "A": "1/2",
+        "B": "2/5",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "Four of ten equally likely sectors are blue. Therefore the probability is 4/10 = 2/5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A pouch contains 5 red, 3 blue, and 2 yellow counters. One is drawn. Find the probability it is blue.",
+      "options": {
+        "A": "0",
+        "B": "3/10",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "There are 3 blue counters out of 10 total. Therefore the probability is 3/10 = 3/10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A decimal digit is selected uniformly from 0 through 9. What is the probability it is less than 4?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "2/5",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "Digits 0, 1, 2, and 3 qualify: 4 of 10. Therefore the probability is 4/10 = 2/5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A box holds 8 green marbles and 2 white marbles. One marble is drawn. Find the probability of green.",
+      "options": {
+        "A": "4/5",
+        "B": "1/2",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "explanation": "Eight of the ten marbles are green. Therefore the probability is 8/10 = 4/5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair coins are tossed. What is the probability of getting exactly one head?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "1/3",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "HT and TH qualify among HH, HT, TH, TT: 2 of 4. Therefore the probability is 2/4 = 1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three fair coins are tossed. What is the probability that all three show tails?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "1/8",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "There are 2^3 = 8 equiprobable sequences and only TTT qualifies. Therefore the probability is 1/8 = 1/8.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair die is rolled. What is the probability that the result is not 6?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "5/6"
+      },
+      "correct_option": "D",
+      "explanation": "Five of the six faces are not 6. Therefore the probability is 5/6 = 5/6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Among the 36 ordered outcomes when a pair of dice is rolled, what fraction produces a total score of seven?",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "1/6",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "The six ordered pairs are (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1), out of 36. Therefore the probability is 6/36 = 1/6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A card is drawn from a standard deck. What is the probability it is a diamond?",
+      "options": {
+        "A": "1",
+        "B": "1/4",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "One of four suits is diamonds, so 13 of 52 cards qualify. Therefore the probability is 13/52 = 1/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "An integer from 1 to 12 is selected. Find the probability that it is a perfect square.",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "The square values are 1, 4, and 9: 3 of 12. Therefore the probability is 3/12 = 1/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A number from 1 to 30 is chosen uniformly. What is the probability it is divisible by 2 or 3?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "There are 15 multiples of 2, 10 of 3, and 5 of both; 15+10-5=20. Therefore the probability is 20/30 = 2/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A two-digit integer is selected uniformly from 10 to 99. What is the probability its units digit is zero?",
+      "options": {
+        "A": "1/10",
+        "B": "0",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "The qualifying numbers are 10, 20, ..., 90: 9 of 90. Therefore the probability is 9/90 = 1/10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A carton has 3 defective and 9 working bulbs. If one is selected at random, what is the probability it works?",
+      "options": {
+        "A": "1",
+        "B": "3/4",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Nine of the twelve bulbs work. Therefore the probability is 9/12 = 3/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair six-sided die is rolled. What is the probability of getting a number less than 3?",
+      "options": {
+        "A": "1",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "Only 1 and 2 qualify: 2 of 6. Therefore the probability is 2/6 = 1/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "One card is drawn from a standard deck. What is the probability it is the ace of spades?",
+      "options": {
+        "A": "0",
+        "B": "1/52",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Exactly one of the 52 cards is the ace of spades. Therefore the probability is 1/52 = 1/52.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A jar contains 7 red and 7 blue beads. One bead is drawn. Find the probability of blue.",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "0",
+        "D": "1/3"
+      },
+      "correct_option": "B",
+      "explanation": "Seven of the fourteen beads are blue. Therefore the probability is 7/14 = 1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A coin is tossed three times. What is the probability that heads and tails alternate on every toss?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "1/4",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "Only HTH and THT alternate; they are 2 of the 8 equally likely sequences. Therefore the probability is 2/8 = 1/4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 1 PDF, slide 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A die is rolled twice and the sum is known to be 10. Given this, what is the probability that at least one roll is 5?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "The ordered outcomes with sum 10 are (4,6), (5,5), (6,4); only one includes a 5. Therefore the probability is 1/3 = 1/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 1 PDF, slide 15; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair dice are thrown. What is the probability that their sum is 5?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "1/9"
+      },
+      "correct_option": "D",
+      "explanation": "The ordered pairs (1,4), (2,3), (3,2), (4,1) are 4 of 36. Therefore the probability is 4/36 = 1/9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 1 PDF, slide 16; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair die is rolled twice. Given that the first score is even, what is the probability that the sum is 8?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "1/6"
+      },
+      "correct_option": "D",
+      "explanation": "There are 3 qualifying ordered pairs (2,6), (4,4), (6,2) among 18 outcomes with an even first score. Therefore the probability is 3/18 = 1/6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair die shows a number greater than 2. What is the conditional probability that the number is even?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Given {3,4,5,6}, two of the four possible faces are even. Therefore the probability is 2/4 = 1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two counters are drawn without replacement from 5 red and 4 blue counters. Find the probability both are red.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "5/18"
+      },
+      "correct_option": "D",
+      "explanation": "There are C(5,2)=10 red pairs among C(9,2)=36 pairs. Therefore the probability is 10/36 = 5/18.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two cards are drawn without replacement from a standard deck. What is the probability both are hearts?",
+      "options": {
+        "A": "0",
+        "B": "1/17",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "There are C(13,2)=78 heart pairs among C(52,2)=1326 pairs. Therefore the probability is 78/1326 = 1/17.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A bag has 4 green and 6 orange balls. Two balls are drawn with replacement. What is the probability both are green?",
+      "options": {
+        "A": "4/25",
+        "B": "0",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Replacement keeps the green chance at 4/10 each draw; (4/10)^2=16/100. Therefore the probability is 16/100 = 4/25.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A box has 4 red and 6 white tokens. Two are drawn without replacement. What is the probability of one of each colour?",
+      "options": {
+        "A": "8/15",
+        "B": "0",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "There are 4×6×2=48 ordered mixed-colour pairs among 10×9=90 ordered pairs. Therefore the probability is 48/90 = 8/15.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two cards are dealt one after another without replacement. Find the probability that at least one is an ace.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "33/221",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "Of C(52,2)=1326 pairs, 1326-C(48,2)=198 contain at least one ace. Therefore the probability is 198/1326 = 33/221.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three unbiased coins are tossed. What is the probability of getting at most two heads?",
+      "options": {
+        "A": "7/8",
+        "B": "1/2",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "There are 8 equally likely sequences; only HHH has more than two heads, so 7 qualify. Therefore the probability is 7/8 = 7/8.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Probability 1 PDF, slide 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three fair dice are rolled. Find the probability their total is 4.",
+      "options": {
+        "A": "1/2",
+        "B": "1/72",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "The only ordered triples are permutations of (1,1,2), giving 3 of 6^3=216. Therefore the probability is 3/216 = 1/72.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A card is selected from a standard deck. What is the probability it is a face card or a heart?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "11/26",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "There are 12 face cards and 13 hearts, with 3 overlap cards; 12+13-3=22. Therefore the probability is 22/52 = 11/26.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "An integer from 1 to 30 is chosen, given that it is even. What is the probability it is also divisible by 3?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/3",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "There are 15 even integers and 5 divisible by 6, so the conditional chance is 5/15. Therefore the probability is 5/15 = 1/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A bag has 3 red and 3 blue balls. Given that the first ball drawn without replacement is red, what is the probability the second is red?",
+      "options": {
+        "A": "1/2",
+        "B": "2/5",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "After a red first draw, 2 red remain among 5 balls. Therefore the probability is 2/5 = 2/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A box contains 3 red and 2 blue balls. Two are drawn without replacement. Find the probability of one red and one blue.",
+      "options": {
+        "A": "3/5",
+        "B": "1/2",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "explanation": "There are 3×2×2=12 ordered mixed pairs among 5×4=20. Therefore the probability is 12/20 = 3/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A box is selected at random: box A has 2 red and 3 blue balls; box B has 4 red and 1 blue. What is the chance of drawing red?",
+      "options": {
+        "A": "1/2",
+        "B": "3/5",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Each box has probability 1/2; average the red chances: (2/5+4/5)/2=6/10. Therefore the probability is 6/10 = 3/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A container has 3 white and 2 black beads. Two beads are drawn without replacement. What is the probability of white first, then black?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "3/10"
+      },
+      "correct_option": "D",
+      "explanation": "The ordered chance is (3/5)(2/4)=6/20. Therefore the probability is 6/20 = 3/10.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair dice are rolled. Given that the sum is even, what is the probability that both scores are even?",
+      "options": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "explanation": "An even sum occurs in 18 pairs; 3×3=9 of these have both scores even. Therefore the probability is 9/18 = 1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A three-digit number is chosen uniformly from 100 through 999. What is the probability it is divisible by 5?",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "1/5",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "There are 180 multiples of 5 among the 900 three-digit integers. Therefore the probability is 180/900 = 1/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A raffle has 6 winning and 8 losing tickets. Two tickets are drawn without replacement. What is the probability of at least one winner?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "9/13",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "Out of C(14,2)=91 pairs, subtract C(8,2)=28 all-losing pairs: 63. Therefore the probability is 63/91 = 9/13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Ten components include 4 faulty and 6 sound parts. Two are selected without replacement. Find the probability exactly one is faulty.",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "8/15",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Choose one faulty and one sound: 4×6=24; total pairs C(10,2)=45. Therefore the probability is 24/45 = 8/15.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two distinct chips are drawn from 1 to 8. What is the probability their sum is even?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "3/7"
+      },
+      "correct_option": "D",
+      "explanation": "An even sum means both odd or both even: C(4,2)+C(4,2)=12 of C(8,2)=28. Therefore the probability is 12/28 = 3/7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A family with three children is selected from equally likely boy/girl outcomes. What is the probability of at least two girls?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "1/3"
+      },
+      "correct_option": "C",
+      "explanation": "GGG, GGB, GBG, and BGG qualify: 4 of 8. Therefore the probability is 4/8 = 1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair coin is tossed four times. Find the probability of exactly one head.",
+      "options": {
+        "A": "1/2",
+        "B": "1/4",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "Choose the position of the sole head in C(4,1)=4 ways among 2^4=16 outcomes. Therefore the probability is 4/16 = 1/4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A card drawn from a standard deck is known to be a face card. What is the probability it is a king?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/3",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "There are 4 kings among the 12 face cards. Therefore the probability is 4/12 = 1/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair die is rolled. Find the probability the result is divisible by 2 or by 3.",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "1/2",
+        "D": "2/3"
+      },
+      "correct_option": "D",
+      "explanation": "The union is {2,3,4,6}: 4 of 6 faces qualify. Therefore the probability is 4/6 = 2/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A pouch holds 4 red, 3 blue, and 2 green marbles. Two are drawn with replacement. What is the probability they have different colours?",
+      "options": {
+        "A": "52/81",
+        "B": "0",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Same-colour probability is (16+9+4)/81=29/81; different colours have probability 52/81. Therefore the probability is 52/81 = 52/81.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair dice are rolled. What is the probability that the scores are equal?",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "1/6",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "The six doubles are (1,1) through (6,6), among 36 pairs. Therefore the probability is 6/36 = 1/6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A two-digit number is picked uniformly from 10 to 99. What is the probability that its digits sum to 9?",
+      "options": {
+        "A": "1/2",
+        "B": "1/10",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "The qualifying numbers are 18, 27, 36, 45, 54, 63, 72, 81, and 90: 9 of 90. Therefore the probability is 9/90 = 1/10.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three cards are drawn from a 52-card deck. What is the probability exactly two are aces?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "72/5525"
+      },
+      "correct_option": "D",
+      "explanation": "Choose 2 of 4 aces and 1 of 48 others: C(4,2)C(48,1)=288; total C(52,3)=22100. Therefore the probability is 288/22100 = 72/5525.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three balls are selected from an urn containing 5 red and 4 blue balls. Find the probability at least two are red.",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "25/42",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "Favourable sets are C(5,2)C(4,1)+C(5,3)=40+10=50; total C(9,3)=84. Therefore the probability is 50/84 = 25/42.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Four cards are drawn from a standard deck. Find the probability that exactly one is a heart.",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "9139/20825"
+      },
+      "correct_option": "D",
+      "explanation": "Choose 1 of 13 hearts and 3 of 39 non-hearts; divide by C(52,4)=270725. Therefore the probability is 118807/270725 = 9139/20825.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three fair dice are rolled. What is the probability that their scores add to 10?",
+      "options": {
+        "A": "1",
+        "B": "1/8",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "There are 27 ordered triples from 1..6 with sum 10 (by direct enumeration), out of 216. Therefore the probability is 27/216 = 1/8.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Four fair coins are tossed. Find the probability of exactly two heads and exactly two tails.",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "0",
+        "D": "3/8"
+      },
+      "correct_option": "D",
+      "explanation": "Choose which 2 of 4 tosses are heads: C(4,2)=6 of 16 sequences. Therefore the probability is 6/16 = 3/8.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair dice are rolled. Find the probability their product is divisible by 6.",
+      "options": {
+        "A": "0",
+        "B": "5/12",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "For first-die scores 1 through 6, the numbers of compatible second scores are 1, 2, 3, 2, 1, and 6; 15 of 36 pairs qualify. Therefore the probability is 15/36 = 5/12.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A bag has 6 red and 5 blue balls. Three are selected without replacement. What is the probability of exactly two red?",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "5/11",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Choose 2 red and 1 blue: C(6,2)C(5,1)=75; total C(11,3)=165. Therefore the probability is 75/165 = 5/11.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Given that a card from a standard deck is black, what is the probability it is a face card?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "3/13",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "There are 26 black cards, including 6 black Jacks, Queens, and Kings. Therefore the probability is 6/26 = 3/13.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Box A has 3 red and 2 white balls; box B has 1 red and 4 white. A box is chosen at random and a red ball appears. What is the probability box A was chosen?",
+      "options": {
+        "A": "1",
+        "B": "3/4",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "P(A and red)=3/10; P(B and red)=1/10; conditional probability is (3/10)/(4/10)=3/4. Therefore the probability is 3/4 = 3/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A 5-digit code is formed by choosing five distinct digits from 0..9 in order. What is the probability its first digit is 0?",
+      "options": {
+        "A": "1/10",
+        "B": "1/2",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "There are 10 equally frequent choices for the first digit; one is 0 (equivalently 9P4/10P5=1/10). Therefore the probability is 1/10 = 1/10.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two cards are drawn without replacement. Given the first is a queen, what is the probability the second is also a queen?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/17",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "After one queen is removed, 3 queens remain among 51 cards. Therefore the probability is 3/51 = 1/17.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A committee of 3 is chosen from 5 women and 4 men. Find the probability it contains at least 2 women.",
+      "options": {
+        "A": "25/42",
+        "B": "0",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "Favourable committees: C(5,2)C(4,1)+C(5,3)=40+10=50; all committees C(9,3)=84. Therefore the probability is 50/84 = 25/42.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two numbers are drawn from 1..10 without replacement. What is the probability their product is odd?",
+      "options": {
+        "A": "0",
+        "B": "2/9",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Both must be odd: C(5,2)=10 favourable pairs of C(10,2)=45. Therefore the probability is 10/45 = 2/9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair die is rolled four times. Find the probability of exactly one 6.",
+      "options": {
+        "A": "0",
+        "B": "125/324",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Choose the 6 position in 4 ways; remaining rolls have 5 choices each: 4·5^3=500 of 6^4=1296. Therefore the probability is 500/1296 = 125/324.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A drawer has 4 black and 6 white socks. Three are drawn without replacement. What is the probability all are the same colour?",
+      "options": {
+        "A": "1",
+        "B": "1/5",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "All black or all white: C(4,3)+C(6,3)=4+20=24 of C(10,3)=120. Therefore the probability is 24/120 = 1/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two dice are rolled. Given at least one die shows 4, what is the probability the sum is 9?",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "2/11",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "There are 11 ordered pairs with at least one 4; (4,5) and (5,4) sum to 9. Therefore the probability is 2/11 = 2/11.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A 52-card deck is dealt 2 cards. Find the probability of one ace and one king.",
+      "options": {
+        "A": "1/2",
+        "B": "8/663",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "Choose an ace and king in 4×4=16 ways among C(52,2)=1326 pairs. Therefore the probability is 16/1326 = 8/663.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A box contains 4 red, 5 blue, and 3 yellow balls. Three are drawn without replacement. What is the probability all three colours appear?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "3/11",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Choose one of each: 4×5×3=60; total C(12,3)=220. Therefore the probability is 60/220 = 3/11.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Three fair dice are rolled. What is the probability exactly one die shows 6 and the total is 10?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/24",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "The other two scores must sum to 4: (1,3), (2,2), or (3,1). Choose the position of the 6 in 3 ways, giving 9 of 216 triples. Therefore the probability is 9/216 = 1/24.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A random integer from 1 to 100 is chosen. What is the probability it is divisible by 4 or 6 but not both?",
+      "options": {
+        "A": "1/4",
+        "B": "1",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "explanation": "There are 25 multiples of 4, 16 of 6, and 8 of both. Exactly one condition holds in (25-8)+(16-8)=25 of 100 cases. Therefore the probability is 25/100 = 1/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two cards are selected from 5 red and 7 black cards. What is the probability both are the same colour?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "31/66"
+      },
+      "correct_option": "D",
+      "explanation": "Same colour pairs are C(5,2)+C(7,2)=10+21=31 among C(12,2)=66. Therefore the probability is 31/66 = 31/66.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A fair coin is tossed until the first head appears, with at most 4 tosses. Given a head appears, what is the probability it first appears on toss 3?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "2/15"
+      },
+      "correct_option": "D",
+      "explanation": "Conditioning excludes TTTT. First head on toss 3 is TTH: probability 1/8; any head by toss 4 has probability 15/16; ratio is 2/15. Therefore the probability is 2/15 = 2/15.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A two-digit number is formed from distinct digits selected from 1..9. What is the probability it is divisible by 5?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "1/9"
+      },
+      "correct_option": "D",
+      "explanation": "The units digit must be 5; the tens digit then has 8 choices. Of 9×8=72 numbers, 8 qualify. Therefore the probability is 1/9 = 1/9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A bag contains 4 red and 6 blue counters. Three are drawn without replacement. Given at least one is red, what is the probability exactly one is red?",
+      "options": {
+        "A": "1",
+        "B": "3/5",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Exactly one red: C(4,1)C(6,2)=60. At least one red: C(10,3)-C(6,3)=120-20=100. Therefore the probability is 60/100 = 3/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "Two fair dice are rolled. Given their product is even, what is the probability their sum is 7?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2/9",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "Product even excludes the 3×3=9 odd-odd pairs, leaving 27; all 6 sum-7 pairs have an even product. Therefore the probability is 6/27 = 2/9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A card is drawn, replaced, and a second card drawn. What is the probability both cards are aces or both are kings?",
+      "options": {
+        "A": "2/169",
+        "B": "1",
+        "C": "0",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "There are 4^2 ace pairs and 4^2 king pairs: 32 of 52^2=2704 ordered draws. Therefore the probability is 32/2704 = 2/169.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A class has 8 girls and 7 boys. Two students are chosen without replacement. Given at least one is a girl, what is the probability both are girls?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "1/3"
+      },
+      "correct_option": "D",
+      "explanation": "Both girls: C(8,2)=28. At least one girl: C(15,2)-C(7,2)=105-21=84. Therefore the probability is 28/84 = 1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A 3-digit number is selected uniformly from 100..999. What is the probability all its digits are different?",
+      "options": {
+        "A": "1",
+        "B": "18/25",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "There are 9 choices for hundreds, 9 for tens, and 8 for units: 648 of 900 numbers. Therefore the probability is 648/900 = 18/25.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A bag contains 5 red and 4 blue balls. Three draws are made without replacement. Given the first draw was red, what is the probability exactly one of the next two is red?",
+      "options": {
+        "A": "4/7",
+        "B": "1",
+        "C": "1/2",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "explanation": "After red first, 4 red and 4 blue remain. One red and one blue in two draws has 4·4·2=32 ordered pairs among 8·7=56. Therefore the probability is 32/56 = 4/7.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "probability",
+      "question_text": "A family is known to have two children and at least one is a girl. Assuming the four ordered boy/girl outcomes are equally likely, what is the probability both are girls?",
+      "options": {
+        "A": "0",
+        "B": "1/2",
+        "C": "1",
+        "D": "1/3"
+      },
+      "correct_option": "D",
+      "explanation": "The eligible outcomes are GG, GB, BG; one of these three is GG. Therefore the probability is 1/3 = 1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

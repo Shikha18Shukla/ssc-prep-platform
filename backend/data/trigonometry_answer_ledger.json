@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "Evaluate (cos²20° + cos²70°)/sin²90° − tan²45°.",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "cos70°=sin20°, so the numerator is cos²20°+sin²20°=1. Also sin90°=1 and tan45°=1; hence 1−1=0.",
+    "source": "Trigonometry 2.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 2,
+    "question": "If sin(A+B)=1 and cos(A−B)=1/2 for acute A and B, find A.",
+    "difficulty": "EASY",
+    "expected_answer": "75°",
+    "independent_reasoning": "For acute A,B, A+B=90° and A−B=60°. Adding gives 2A=150°, so A=75°.",
+    "source": "Trigonometry 2.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 3,
+    "question": "Evaluate sin²5° + sin²25° + sin²45° + sin²65° + sin²85°.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2.5",
+    "independent_reasoning": "Pair sin²5° with sin²85° and sin²25° with sin²65°; each complementary pair sums to 1. The middle term is 1/2, total 2.5.",
+    "source": "Trigonometry  1.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 4,
+    "question": "Evaluate sin²5° + sin²6° + … + sin²84° + sin²85°.",
+    "difficulty": "HARD",
+    "expected_answer": "40.5",
+    "independent_reasoning": "Pair angles θ and 90°−θ from 5° through 85°. There are 40 such complementary pairs, each summing to 1, plus sin²45°=1/2: total 40.5.",
+    "source": "Trigonometry  1.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 5,
+    "question": "Evaluate 2(sin1°·sec89°)+3(cos11°·cosec79°)+5(tan21°·tan69°).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "10",
+    "independent_reasoning": "Since sec89°=cosec1°, sin1°·sec89°=1; cos11°=sin79°, so the second product is 1; tan69°=cot21°, so the third is 1. Total 2+3+5=10.",
+    "source": "Trigonometry 03.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 6,
+    "question": "In right △ABC, ∠B=90°, AC=2√5 cm and AB−BC=2 cm. Find cos²A−cos²C.",
+    "difficulty": "HARD",
+    "expected_answer": "3/5",
+    "independent_reasoning": "Let the legs be x=AB and y=BC. x²+y²=20 and (x−y)²=4, so 2xy=16 and (x+y)²=36; since x>y, x=4 and y=2. Thus cos²A−cos²C=(x²−y²)/AC²=(16−4)/20=3/5.",
+    "source": "Trigonometry 04.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 7,
+    "question": "If cosec53°=a/b (with a>b>0), find tan37°.",
+    "difficulty": "HARD",
+    "expected_answer": "√(a²−b²)/b",
+    "independent_reasoning": "cosec53°=hypotenuse/opposite=a/b. Let the opposite side be b and hypotenuse a; the adjacent side is √(a²−b²). Since 37° is complementary to 53°, tan37°=cot53°=adjacent/opposite=√(a²−b²)/b.",
+    "source": "Trigonometry 05.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 8,
+    "question": "Find sin0°.",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "Use the exact standard-angle value of sin0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin0°=0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 9,
+    "question": "Find cos0°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Use the exact standard-angle value of cos0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos0°=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 10,
+    "question": "Find tan0°.",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "Use the exact standard-angle value of tan0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan0°=0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 11,
+    "question": "Find sin30°.",
+    "difficulty": "EASY",
+    "expected_answer": "1/2",
+    "independent_reasoning": "Use the exact standard-angle value of sin30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin30°=1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 12,
+    "question": "Find cos60°.",
+    "difficulty": "EASY",
+    "expected_answer": "1/2",
+    "independent_reasoning": "Use the exact standard-angle value of cos60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos60°=1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 13,
+    "question": "Find tan45°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Use the exact standard-angle value of tan45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan45°=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 14,
+    "question": "Find sin90°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Use the exact standard-angle value of sin90° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin90°=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 15,
+    "question": "Find cos90°.",
+    "difficulty": "EASY",
+    "expected_answer": "0",
+    "independent_reasoning": "Use the exact standard-angle value of cos90° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos90°=0.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 16,
+    "question": "Find tan30°.",
+    "difficulty": "EASY",
+    "expected_answer": "1/√3",
+    "independent_reasoning": "Use the exact standard-angle value of tan30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan30°=1/√3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 17,
+    "question": "Find tan60°.",
+    "difficulty": "EASY",
+    "expected_answer": "√3",
+    "independent_reasoning": "Use the exact standard-angle value of tan60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan60°=√3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 18,
+    "question": "Find cosec30°.",
+    "difficulty": "EASY",
+    "expected_answer": "2",
+    "independent_reasoning": "Use the exact standard-angle value of cosec30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cosec30°=2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 19,
+    "question": "Find sec60°.",
+    "difficulty": "EASY",
+    "expected_answer": "2",
+    "independent_reasoning": "Use the exact standard-angle value of sec60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sec60°=2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 20,
+    "question": "Find cot45°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Use the exact standard-angle value of cot45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cot45°=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 21,
+    "question": "Find cosec90°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Use the exact standard-angle value of cosec90° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cosec90°=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 22,
+    "question": "Find sec0°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Use the exact standard-angle value of sec0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sec0°=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 23,
+    "question": "Find cot30°.",
+    "difficulty": "EASY",
+    "expected_answer": "√3",
+    "independent_reasoning": "Use the exact standard-angle value of cot30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cot30°=√3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 24,
+    "question": "Find cot60°.",
+    "difficulty": "EASY",
+    "expected_answer": "1/√3",
+    "independent_reasoning": "Use the exact standard-angle value of cot60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cot60°=1/√3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 25,
+    "question": "Find sec45°.",
+    "difficulty": "EASY",
+    "expected_answer": "√2",
+    "independent_reasoning": "Use the exact standard-angle value of sec45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sec45°=√2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 26,
+    "question": "Find cosec45°.",
+    "difficulty": "EASY",
+    "expected_answer": "√2",
+    "independent_reasoning": "Use the exact standard-angle value of cosec45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cosec45°=√2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 27,
+    "question": "Find sin60°.",
+    "difficulty": "EASY",
+    "expected_answer": "√3/2",
+    "independent_reasoning": "Use the exact standard-angle value of sin60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin60°=√3/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 28,
+    "question": "Find cos30°.",
+    "difficulty": "EASY",
+    "expected_answer": "√3/2",
+    "independent_reasoning": "Use the exact standard-angle value of cos30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos30°=√3/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 29,
+    "question": "Find sin45°.",
+    "difficulty": "EASY",
+    "expected_answer": "1/√2",
+    "independent_reasoning": "Use the exact standard-angle value of sin45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin45°=1/√2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 30,
+    "question": "Find cos45°.",
+    "difficulty": "EASY",
+    "expected_answer": "1/√2",
+    "independent_reasoning": "Use the exact standard-angle value of cos45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos45°=1/√2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 31,
+    "question": "Find sin15°.",
+    "difficulty": "EASY",
+    "expected_answer": "(√6−√2)/4",
+    "independent_reasoning": "Use the exact standard-angle value of sin15° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin15°=(√6−√2)/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 32,
+    "question": "Find cos15°.",
+    "difficulty": "EASY",
+    "expected_answer": "(√6+√2)/4",
+    "independent_reasoning": "Use the exact standard-angle value of cos15° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos15°=(√6+√2)/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 33,
+    "question": "Find sin75°.",
+    "difficulty": "EASY",
+    "expected_answer": "(√6+√2)/4",
+    "independent_reasoning": "Use the exact standard-angle value of sin75° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin75°=(√6+√2)/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 34,
+    "question": "Find cos75°.",
+    "difficulty": "EASY",
+    "expected_answer": "(√6−√2)/4",
+    "independent_reasoning": "Use the exact standard-angle value of cos75° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos75°=(√6−√2)/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 35,
+    "question": "If sinθ=3/5 for acute θ, find cosθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "4/5",
+    "independent_reasoning": "cosθ=√(1−sin²θ)=√(1−9/25)=4/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 36,
+    "question": "If cosθ=5/13 for acute θ, find tanθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12/5",
+    "independent_reasoning": "sinθ=√(1−25/169)=12/13; tanθ=(12/13)/(5/13)=12/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 37,
+    "question": "If tanθ=3/4 for acute θ, find secθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5/4",
+    "independent_reasoning": "Take opposite:adjacent=3:4; hypotenuse=5, so secθ=5/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 38,
+    "question": "If secθ=13/12 for acute θ, find tanθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5/12",
+    "independent_reasoning": "sec²θ−1=tan²θ gives tanθ=√(169−144)/12=5/12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 39,
+    "question": "If cotθ=7/24 for acute θ, find secθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "25/7",
+    "independent_reasoning": "cotθ=adjacent/opposite=7/24, so the hypotenuse is 25 and secθ=hypotenuse/adjacent=25/7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 40,
+    "question": "If sinθ=5/13 for acute θ, find cotθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12/5",
+    "independent_reasoning": "The missing adjacent side is √(13²−5²)=12; cotθ=12/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 41,
+    "question": "If tanθ=5/12 for acute θ, find sinθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5/13",
+    "independent_reasoning": "Opposite:adjacent=5:12 gives hypotenuse 13; sinθ=5/13.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 42,
+    "question": "If cosθ=8/17 for acute θ, find cosecθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "17/15",
+    "independent_reasoning": "The opposite side is √(17²−8²)=15, so cosecθ=17/15.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 43,
+    "question": "Simplify (1−cos²θ)/sin²θ, where sinθ≠0.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "Using 1−cos²θ=sin²θ, the quotient is 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 44,
+    "question": "Simplify (sec²θ−1)/tan²θ, where tanθ≠0.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "The identity sec²θ−1=tan²θ makes the quotient 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 45,
+    "question": "Simplify (cosec²θ−1)/cot²θ, where cotθ≠0.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "The identity cosec²θ−1=cot²θ makes the quotient 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 46,
+    "question": "If sinθ=3/5, find (1−cosθ)(1+cosθ).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9/25",
+    "independent_reasoning": "The product is 1−cos²θ=sin²θ=(3/5)²=9/25.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 47,
+    "question": "If secθ=5/4 for acute θ, find sinθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "3/5",
+    "independent_reasoning": "cosθ=4/5; hence sinθ=√(1−16/25)=3/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 48,
+    "question": "If cosecθ=5/3 for acute θ, find cotθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "4/3",
+    "independent_reasoning": "Opposite:hypotenuse=3:5, adjacent=4; cotθ=4/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 49,
+    "question": "If tanθ=1, with θ acute, find sinθ+cosθ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "√2",
+    "independent_reasoning": "θ=45°, so sinθ+cosθ=1/√2+1/√2=√2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 50,
+    "question": "If sinθ=cosθ and θ is acute, find θ.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "45°",
+    "independent_reasoning": "For an acute angle, equality of sine and cosine means tanθ=1, so θ=45°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "If sin(A+B)=1 and cos(A−B)=1 for acute A,B, find A.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "45°",
+    "independent_reasoning": "A+B=90°; since A−B lies between −90° and 90°, cosine 1 implies A−B=0°. Thus A=B=45°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "Evaluate sin20°·cosec70° + cos35°·sec55°.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2",
+    "independent_reasoning": "cosec70°=sec20°, so the first product is 1. sec55°=cosec35°, so the second is 1; total 2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "Evaluate tan12°·tan78°.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "tan78°=cot12°, so their product is 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "Evaluate sin38°/cos52°.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "cos52°=sin38°, so the quotient is 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "Evaluate (sin²33°+sin²57°).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "57°=90°−33°, hence sin²57°=cos²33°; the sum is 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "If sinθ=12/13 for acute θ, find (1+cosθ)/(1−cosθ).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9/4",
+    "independent_reasoning": "cosθ=5/13. Therefore (1+cosθ)/(1−cosθ)=(18/13)/(8/13)=9/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "If tanθ=2/3 for acute θ, find (secθ+tanθ)(secθ−tanθ).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "The product is sec²θ−tan²θ=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "Find sin²30°+cos²60°+tan²45°.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "3/2",
+    "independent_reasoning": "sin²30°=1/4, cos²60°=1/4, and tan²45°=1; sum=3/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "Find sec²30°−tan²30°.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "The identity sec²θ−tan²θ=1 applies for θ=30°.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "If sinθ=4/5 for acute θ, find (1+tan²θ).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "25/9",
+    "independent_reasoning": "cosθ=3/5, so sec²θ=1+tan²θ=(5/3)²=25/9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "If tanθ=3/4 for acute θ, find (1−sinθ)/(1+sinθ).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1/4",
+    "independent_reasoning": "The 3-4-5 triangle gives sinθ=3/5; ratio=(2/5)/(8/5)=1/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "If cosθ=3/5 for acute θ, find (secθ−cosθ).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "16/15",
+    "independent_reasoning": "secθ−cosθ=5/3−3/5=(25−9)/15=16/15.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "Evaluate cot²46°−sec²44° + (sin²1°+sin²3°+…+sin²89°).",
+    "difficulty": "HARD",
+    "expected_answer": "21.5",
+    "independent_reasoning": "cot46°=tan44°, so tan²44°−sec²44°=−1. The 45 odd angles pair into 22 complementary pairs plus sin²45°=1/2, giving 22.5. Total 21.5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "If cosθ=(p²−1)/(p²+1), where p>1 and θ is acute, find cosecθ.",
+    "difficulty": "HARD",
+    "expected_answer": "(p²+1)/(2p)",
+    "independent_reasoning": "Treat perpendicular= p²−1 and hypotenuse=p²+1. The adjacent side is √((p²+1)²−(p²−1)²)=2p; therefore cosecθ=(p²+1)/(2p).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "If tanθ=3/4 for acute θ, evaluate (secθ+tanθ)²−(secθ−tanθ)².",
+    "difficulty": "HARD",
+    "expected_answer": "15/4",
+    "independent_reasoning": "For a 3-4-5 triangle secθ=5/4. Difference of squares is 4 secθ tanθ=4·(5/4)·(3/4)=15/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "If sinθ+cosθ=√(3/2) for acute θ, find sin2θ.",
+    "difficulty": "HARD",
+    "expected_answer": "1/2",
+    "independent_reasoning": "Squaring gives sin²θ+cos²θ+2sinθcosθ=3/2, hence 1+sin2θ=3/2 and sin2θ=1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "If sinθ−cosθ=1/2 for acute θ, find sin2θ.",
+    "difficulty": "HARD",
+    "expected_answer": "3/4",
+    "independent_reasoning": "Squaring gives sin²θ+cos²θ−2sinθcosθ=1/4, so 1−sin2θ=1/4 and sin2θ=3/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "If tanθ+cotθ=10/3 for acute θ, find sin2θ.",
+    "difficulty": "HARD",
+    "expected_answer": "3/5",
+    "independent_reasoning": "tanθ+cotθ=1/(sinθcosθ)=2/sin2θ; equating to 10/3 gives sin2θ=3/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "If tanθ+cotθ=5/2 for acute θ, find sin2θ.",
+    "difficulty": "HARD",
+    "expected_answer": "4/5",
+    "independent_reasoning": "tanθ+cotθ=1/(sinθcosθ)=2/sin2θ. Thus 2/sin2θ=5/2 and sin2θ=4/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "Evaluate sin²5°+sin²15°+…+sin²85° (angles increase by 10°).",
+    "difficulty": "HARD",
+    "expected_answer": "4.5",
+    "independent_reasoning": "Pair each term at θ with 90°−θ: 5/85, 15/75, 25/65, 35/55 contribute four 1s, and sin²45° contributes 1/2; total 4.5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "Evaluate sin²1°+sin²2°+…+sin²89°.",
+    "difficulty": "HARD",
+    "expected_answer": "44.5",
+    "independent_reasoning": "Pair θ and 90°−θ for 1°–44°: 44 pairs each sum to 1, plus sin²45°=1/2, total 44.5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "If sinθ=3/5 and θ is acute, find (secθ+tanθ)/(secθ−tanθ).",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "secθ=5/4 and tanθ=3/4; ratio=(8/4)/(2/4)=4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "If cosθ=5/13 and θ is acute, find (cosecθ−cotθ)(cosecθ+cotθ).",
+    "difficulty": "HARD",
+    "expected_answer": "1",
+    "independent_reasoning": "The product is cosec²θ−cot²θ=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "If tanθ=2, evaluate (1+sinθ cosθ)/(1−sinθ cosθ).",
+    "difficulty": "HARD",
+    "expected_answer": "7/3",
+    "independent_reasoning": "With opposite:adjacent=2:1, hypotenuse=√5, so sinθcosθ=2/5. The ratio is (1+2/5)/(1−2/5)=7/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "If sinθ=5/13 for acute θ, find (1−cosθ)/sinθ.",
+    "difficulty": "HARD",
+    "expected_answer": "1/5",
+    "independent_reasoning": "cosθ=12/13; the expression is (1/13)/(5/13)=1/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "If tanθ=3/4, find (secθ−1)/(secθ+1).",
+    "difficulty": "HARD",
+    "expected_answer": "1/9",
+    "independent_reasoning": "secθ=5/4; the ratio is (1/4)/(9/4)=1/9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "If sinθ+cosθ=7/5 for acute θ, find sin2θ.",
+    "difficulty": "HARD",
+    "expected_answer": "24/25",
+    "independent_reasoning": "Squaring gives 1+sin2θ=49/25, so sin2θ=24/25.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "If sinθ=3/5 for acute θ, evaluate 1/(1+cosθ)+1/(1−cosθ).",
+    "difficulty": "HARD",
+    "expected_answer": "50/9",
+    "independent_reasoning": "Combine the fractions: the sum is 2/(1−cos²θ)=2/sin²θ=2/(9/25)=50/9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "If tanθ=1/2 for acute θ, find (1+tan²θ)/(1−tan²θ).",
+    "difficulty": "HARD",
+    "expected_answer": "5/3",
+    "independent_reasoning": "(1+1/4)/(1−1/4)=(5/4)/(3/4)=5/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "If sinθ=√3/2 and θ is acute, evaluate (1−cosθ)/(1+cosθ).",
+    "difficulty": "HARD",
+    "expected_answer": "1/3",
+    "independent_reasoning": "cosθ=1/2; ratio=(1/2)/(3/2)=1/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "If cosθ=√3/2 and θ is acute, evaluate (1−sinθ)/(1+sinθ).",
+    "difficulty": "HARD",
+    "expected_answer": "1/3",
+    "independent_reasoning": "sinθ=1/2; ratio=(1/2)/(3/2)=1/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "If tanθ=3/4, evaluate (sinθ+cosθ)².",
+    "difficulty": "HARD",
+    "expected_answer": "49/25",
+    "independent_reasoning": "For a 3-4-5 triangle, sinθ+cosθ=7/5; its square is 49/25.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "If cotθ=5/12, evaluate (sinθ−cosθ)².",
+    "difficulty": "HARD",
+    "expected_answer": "49/169",
+    "independent_reasoning": "A 5-12-13 triangle gives sinθ=12/13 and cosθ=5/13; difference squared=(7/13)²=49/169.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "Evaluate (sin²10°+sin²80°)+(sin²20°+sin²70°)+(sin²30°+sin²60°).",
+    "difficulty": "HARD",
+    "expected_answer": "3",
+    "independent_reasoning": "Each parenthesized complementary pair sums to 1, so the total is 3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "Evaluate Σ sin²(k°) for k=1,3,5,…,89.",
+    "difficulty": "HARD",
+    "expected_answer": "22.5",
+    "independent_reasoning": "There are 45 odd angles. The 22 complementary pairs sum to 22 and the central sin²45° adds 1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "If sinθ=8/17 for acute θ, find (secθ+tanθ).",
+    "difficulty": "HARD",
+    "expected_answer": "5/3",
+    "independent_reasoning": "cosθ=15/17; secθ+tanθ=17/15+8/15=25/15=5/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "If cosθ=7/25 for acute θ, find (cosecθ+cotθ).",
+    "difficulty": "HARD",
+    "expected_answer": "4/3",
+    "independent_reasoning": "sinθ=24/25; cosecθ+cotθ=25/24+7/24=32/24=4/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "If tanθ=5/12 for acute θ, evaluate (1+sinθ)/(1−sinθ).",
+    "difficulty": "HARD",
+    "expected_answer": "9/4",
+    "independent_reasoning": "sinθ=5/13, so ratio=(18/13)/(8/13)=9/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "If tanθ=4/3 for acute θ, evaluate (1+cosθ)/(1−cosθ).",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "cosθ=3/5; ratio=(8/5)/(2/5)=4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "Evaluate sin²30° + cos²30°.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "The Pythagorean identity sin²x+cos²x=1 applies at x=30°.",
+    "source": "Original SSC-style practice question"
+  }
+]

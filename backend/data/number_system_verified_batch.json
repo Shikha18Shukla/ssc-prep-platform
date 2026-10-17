@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 1/(4·5) + 1/(5·6) + … + 1/(11·12).",
+      "options": {
+        "A": "1/4",
+        "B": "1/12",
+        "C": "1/5",
+        "D": "1/6"
+      },
+      "correct_option": "D",
+      "explanation": "Use 1/[n(n+1)]=1/n−1/(n+1). The terms telescope from 1/4 through −1/12, giving 1/6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Simplify 1+2+3+…+99+100+99+…+2+1.",
+      "options": {
+        "A": "10000",
+        "B": "9900",
+        "C": "9990",
+        "D": "9999"
+      },
+      "correct_option": "A",
+      "explanation": "The sum is (1+…+100)+(1+…+99)=100·101/2+99·100/2=5,050+4,950=10,000.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate (1+1/2)(1+1/3)(1+1/4)…(1+1/29).",
+      "options": {
+        "A": "16",
+        "B": "13",
+        "C": "14",
+        "D": "15"
+      },
+      "correct_option": "D",
+      "explanation": "Each factor is (n+1)/n for n=2,…,29, so the product telescopes to 30/2=15.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 5²×2⁶?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "A trailing zero needs one factor 2 and one factor 5. The product contains min(6,2)=2 such pairs.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 100!?",
+      "options": {
+        "A": "25",
+        "B": "20",
+        "C": "28",
+        "D": "24"
+      },
+      "correct_option": "D",
+      "explanation": "Count factors of 5: ⌊100/5⌋+⌊100/25⌋=20+4=24. There are more factors of 2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 1·3·5·7·…·99?",
+      "options": {
+        "A": "10",
+        "B": "24",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Every factor is odd, so the product has no factor 2 and therefore no factor 10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 1/(2·3)+1/(3·4)+…+1/(19·20).",
+      "options": {
+        "A": "9/20",
+        "B": "3/20",
+        "C": "9/19",
+        "D": "2/19"
+      },
+      "correct_option": "A",
+      "explanation": "Apply 1/[n(n+1)]=1/n−1/(n+1) for n=2,…,19. The sum is 1/2−1/20=9/20.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 1/(2·5)+1/(5·8)+1/(8·11)+…+1/(23·26).",
+      "options": {
+        "A": "2/13",
+        "B": "1/11",
+        "C": "4/13",
+        "D": "3/11"
+      },
+      "correct_option": "A",
+      "explanation": "Each term 1/[a(a+3)]=(1/3)(1/a−1/(a+3)). The intermediate terms cancel, leaving (1/3)(1/2−1/26)=2/13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "If x=1+1/(1+1/(1+1/(1+1/2))), find 2x+7/4.",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "7/8",
+        "D": "13/8"
+      },
+      "correct_option": "A",
+      "explanation": "Evaluate inward: 1+1/2=3/2; then 5/3, 8/5, and x=13/8. Thus 2x+7/4=13/4+7/4=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 22; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 55¹¹×22³³?",
+      "options": {
+        "A": "33",
+        "B": "22",
+        "C": "44",
+        "D": "11"
+      },
+      "correct_option": "D",
+      "explanation": "55¹¹ contributes 11 factors of 5; 22³³ contributes 33 factors of 2. The number of complete (2,5) pairs is 11.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 5·10·25·40·50·55·65·125·80?",
+      "options": {
+        "A": "9",
+        "B": "13",
+        "C": "5",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "Count prime factors: the product has 13 factors of 5 and 9 factors of 2, so it has min(13,9)=9 trailing zeroes.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 1/(3·7)+1/(7·11)+…+1/(31·35).",
+      "options": {
+        "A": "4/105",
+        "B": "8/35",
+        "C": "1/14",
+        "D": "8/105"
+      },
+      "correct_option": "D",
+      "explanation": "For terms with n=3,7,…,31, 1/[n(n+4)]=(1/4)(1/n−1/(n+4)). The sum telescopes to (1/4)(1/3−1/35)=8/105.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 9½+99½+999½+9999½.",
+      "options": {
+        "A": "11107",
+        "B": "11109",
+        "C": "11108",
+        "D": "11106"
+      },
+      "correct_option": "C",
+      "explanation": "The integer parts sum to 9+99+999+9999=11,106; four halves total 2, giving 11,108.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 5/(2²·3²)+7/(3²·4²)+9/(4²·5²)+…+39/(19²·20²).",
+      "options": {
+        "A": "99/300",
+        "B": "399/100",
+        "C": "99/400",
+        "D": "299/200"
+      },
+      "correct_option": "C",
+      "explanation": "For each n=2,…,19, (2n+1)/(n²(n+1)²)=1/n²−1/(n+1)². The sum telescopes to 1/4−1/400=99/400.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate (1−1/2²)(1−1/3²)…(1−1/90²).",
+      "options": {
+        "A": "91/180",
+        "B": "91/91",
+        "C": "1/90",
+        "D": "90/91"
+      },
+      "correct_option": "A",
+      "explanation": "Factor each term as ((n−1)(n+1))/n²=((n−1)/n)((n+1)/n). Products telescope to (1/90)(91/2)=91/180.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 1−1/(1−1/(1−1/(1−2/3))).",
+      "options": {
+        "A": "−1/3",
+        "B": "−2/3",
+        "C": "2/3",
+        "D": "1/3"
+      },
+      "correct_option": "D",
+      "explanation": "Evaluate from the innermost layer: 1−2/3=1/3; then 1−3=−2; then 1−(−1/2)=3/2; finally 1−2/3=1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 23; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate 1+1/(2+1/(3+1/(4+1/5))).",
+      "options": {
+        "A": "225/157",
+        "B": "205/157",
+        "C": "157/225",
+        "D": "411/719"
+      },
+      "correct_option": "A",
+      "explanation": "From inside out: 4+1/5=21/5; 3+5/21=68/21; 2+21/68=157/68; hence the whole expression is 1+68/157=225/157.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 25; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in (3¹²³−3¹²²−3¹²¹)(2¹²¹−2¹²⁰−2¹¹⁹)?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "Factor to 3¹²¹(9−3−1)·2¹¹⁹(4−2−1)=5·3¹²¹·2¹¹⁹. Exactly one factor 5 is available, and at least one factor 2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 2_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Evaluate (1−1/2)(1−1/3)(1−1/4)…(1−1/40).",
+      "options": {
+        "A": "2/40",
+        "B": "1/39",
+        "C": "1/40",
+        "D": "39/40"
+      },
+      "correct_option": "C",
+      "explanation": "Each factor is (n−1)/n. The product telescopes from n=2 through 40 to 1/40.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Number System 1.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which set contains 0 but not −1?",
+      "options": {
+        "A": "Natural numbers",
+        "B": "Irrational numbers",
+        "C": "Negative integers",
+        "D": "Whole numbers"
+      },
+      "correct_option": "D",
+      "explanation": "Whole numbers are 0,1,2,…; integers include −1 and natural numbers do not include 0 under the usual SSC convention.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which of the following is irrational?",
+      "options": {
+        "A": "3/8",
+        "B": "0.25",
+        "C": "√49",
+        "D": "√7"
+      },
+      "correct_option": "D",
+      "explanation": "7 is not a perfect square, so √7 cannot be written as a ratio of integers.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive factors does 36 have?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "explanation": "36=2²·3², so the divisor count is (2+1)(2+1)=9.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which number is prime?",
+      "options": {
+        "A": "55",
+        "B": "57",
+        "C": "51",
+        "D": "53"
+      },
+      "correct_option": "D",
+      "explanation": "53 has no prime divisor at most √53: it is not divisible by 2, 3, 5, or 7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the remainder when 347 is divided by 9?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "The digit sum is 3+4+7=14, whose remainder modulo 9 is 5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the units digit of 7⁴?",
+      "options": {
+        "A": "7",
+        "B": "3",
+        "C": "9",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "The units digits of powers of 7 cycle 7,9,3,1 with period 4; exponent 4 gives 1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which fraction has a terminating decimal expansion?",
+      "options": {
+        "A": "2/21",
+        "B": "7/30",
+        "C": "7/40",
+        "D": "5/12"
+      },
+      "correct_option": "C",
+      "explanation": "In lowest terms, a rational has a terminating decimal exactly when its denominator has only prime factors 2 and 5; 40=2³·5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the smallest prime factor of 91?",
+      "options": {
+        "A": "3",
+        "B": "11",
+        "C": "7",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "explanation": "91=7·13, so its smallest prime factor is 7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which is the greatest 3-digit number divisible by 8?",
+      "options": {
+        "A": "984",
+        "B": "992",
+        "C": "996",
+        "D": "998"
+      },
+      "correct_option": "B",
+      "explanation": "The greatest 3-digit integer is 999; 999 leaves remainder 7 modulo 8, so subtract 7 to get 992.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many integers lie strictly between −3 and 4?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "8",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "explanation": "They are −2,−1,0,1,2,3: six integers.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the prime factorization of 84?",
+      "options": {
+        "A": "2²·3·7",
+        "B": "2·3·14",
+        "C": "3·28",
+        "D": "2²·21"
+      },
+      "correct_option": "A",
+      "explanation": "84=4·21=2²·3·7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which number is divisible by 11?",
+      "options": {
+        "A": "2,739",
+        "B": "2,740",
+        "C": "2,738",
+        "D": "2,741"
+      },
+      "correct_option": "A",
+      "explanation": "For 2,739, alternating digit sums differ by (9+7)−(3+2)=11, which is divisible by 11.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the units digit of 3⁵?",
+      "options": {
+        "A": "9",
+        "B": "3",
+        "C": "7",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Powers of 3 have units digits 3,9,7,1 repeating every four powers. Since 5≡1 mod 4, the units digit is 3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which number is a perfect square?",
+      "options": {
+        "A": "1,250",
+        "B": "1,350",
+        "C": "1,300",
+        "D": "1,296"
+      },
+      "correct_option": "D",
+      "explanation": "1296=36².",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Express 0.375 as a fraction in lowest terms.",
+      "options": {
+        "A": "5/12",
+        "B": "3/10",
+        "C": "3/8",
+        "D": "7/16"
+      },
+      "correct_option": "C",
+      "explanation": "0.375=375/1000; divide numerator and denominator by 125 to get 3/8.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the least positive integer divisible by 2, 3, and 5?",
+      "options": {
+        "A": "60",
+        "B": "30",
+        "C": "20",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "explanation": "The least common multiple of pairwise coprime 2,3,5 is their product 30.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "A number leaves remainder 2 when divided by 5. Which could it be?",
+      "options": {
+        "A": "35",
+        "B": "38",
+        "C": "40",
+        "D": "37"
+      },
+      "correct_option": "D",
+      "explanation": "37=5·7+2, whereas the other choices are not congruent to 2 modulo 5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many distinct prime factors does 210 have?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "210=2·3·5·7, which has four distinct prime factors.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which decimal is equal to 2/3?",
+      "options": {
+        "A": "0.666…",
+        "B": "0.6",
+        "C": "0.636…",
+        "D": "0.23"
+      },
+      "correct_option": "A",
+      "explanation": "Long division of 2 by 3 repeats remainder 2, producing the recurring digit 6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the smallest integer greater than 20 that is a perfect cube?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "27",
+        "D": "32"
+      },
+      "correct_option": "C",
+      "explanation": "3³=27 is the first cube greater than 20; 2³=8 is smaller.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which statement about the integer 1 is correct?",
+      "options": {
+        "A": "It is neither an integer nor rational",
+        "B": "It is composite",
+        "C": "It is prime",
+        "D": "It is neither prime nor composite"
+      },
+      "correct_option": "D",
+      "explanation": "A prime has exactly two positive divisors and a composite has more than two; 1 has only one positive divisor.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the remainder when 5,432 is divided by 10?",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "0",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "explanation": "Division by 10 leaves the units digit as the remainder, which is 2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive divisors does the prime number 29 have?",
+      "options": {
+        "A": "3",
+        "B": "29",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "A prime has exactly two positive divisors: 1 and itself.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the remainder when 1²+2²+…+10² is divided by 11?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "10",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "The sum of the first ten squares is 10·11·21/6=385=35·11, so the remainder is 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the least positive integer that must be added to 1,247 to make the result divisible by 9.",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "The digit sum is 14, so 1,247≡5 (mod 9). Adding 4 makes 1,251, divisible by 9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 2⁵⁰ is divided by 7.",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "Powers of 2 modulo 7 cycle 2,4,1 with period 3. Since 50≡2 mod 3, the remainder is 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive divisors does 360 have?",
+      "options": {
+        "A": "18",
+        "B": "30",
+        "C": "20",
+        "D": "24"
+      },
+      "correct_option": "D",
+      "explanation": "360=2³·3²·5, so its divisor count is (3+1)(2+1)(1+1)=24.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Convert 0.2̅7̅ (that is, 0.272727…) to a fraction in lowest terms.",
+      "options": {
+        "A": "2/7",
+        "B": "27/100",
+        "C": "27/90",
+        "D": "3/11"
+      },
+      "correct_option": "D",
+      "explanation": "Let x=0.272727…; then 100x−x=27, so 99x=27 and x=27/99=3/11.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the units digit of 13⁴⁷?",
+      "options": {
+        "A": "7",
+        "B": "1",
+        "C": "9",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "Only the base's units digit matters. Powers of 3 cycle 3,9,7,1 every four; 47≡3 mod 4, so the units digit is 7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the greatest integer that divides 83 and 125 leaving the same remainder in each case.",
+      "options": {
+        "A": "41",
+        "B": "42",
+        "C": "21",
+        "D": "83"
+      },
+      "correct_option": "B",
+      "explanation": "The common remainder r means the divisor divides both differences 83−r and 125−r, hence divides 42. The greatest possible divisor is 42; both leave remainder 41.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the smallest number by which 540 must be multiplied to make a perfect square?",
+      "options": {
+        "A": "3",
+        "B": "30",
+        "C": "15",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "explanation": "540=2²·3³·5. Odd exponents of 3 and 5 need one more each, so multiply by 15.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 250!?",
+      "options": {
+        "A": "60",
+        "B": "64",
+        "C": "50",
+        "D": "62"
+      },
+      "correct_option": "D",
+      "explanation": "⌊250/5⌋+⌊250/25⌋+⌊250/125⌋=50+10+2=62.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "A number is divisible by 6 and 15. What is the least possible positive value?",
+      "options": {
+        "A": "30",
+        "B": "15",
+        "C": "60",
+        "D": "45"
+      },
+      "correct_option": "A",
+      "explanation": "A common multiple must be divisible by lcm(6,15)=30; 30 itself works.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 7³⁰ is divided by 10.",
+      "options": {
+        "A": "1",
+        "B": "9",
+        "C": "7",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "explanation": "Units digits of powers of 7 cycle 7,9,3,1 every four. 30≡2 mod 4, so the units digit and remainder are 9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many factors does 2⁴·3²·7 have?",
+      "options": {
+        "A": "28",
+        "B": "36",
+        "C": "30",
+        "D": "24"
+      },
+      "correct_option": "C",
+      "explanation": "The independent exponent choices give (4+1)(2+1)(1+1)=30 divisors.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the smallest positive integer n such that 3n is a perfect cube and n is a perfect square.",
+      "options": {
+        "A": "18",
+        "B": "9",
+        "C": "1",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "For n=3ᵉ to be a square, e is even; for 3n to be a cube, e+1 is divisible by 3. The least nonnegative even e satisfying this is 2, so n=9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "If N leaves remainder 4 when divided by 7, what remainder does 3N+5 leave when divided by 7?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "3"
+      },
+      "correct_option": "D",
+      "explanation": "Modulo 7, 3N+5≡3·4+5=17≡3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the least digit x such that 47x2 is divisible by 3?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "2",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "The digit sum is 13+x. Divisibility by 3 requires x≡2 (mod 3), whose least digit solution is 2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 75!?",
+      "options": {
+        "A": "20",
+        "B": "18",
+        "C": "15",
+        "D": "17"
+      },
+      "correct_option": "B",
+      "explanation": "⌊75/5⌋+⌊75/25⌋=15+3=18.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "If a number leaves remainder 5 when divided by 8, what remainder does its square leave when divided by 8?",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "3",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "Write n≡5 mod 8; n²≡25≡1 mod 8.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the smallest number greater than 1,000 that is divisible by 12 and 18.",
+      "options": {
+        "A": "1008",
+        "B": "1036",
+        "C": "1016",
+        "D": "1002"
+      },
+      "correct_option": "A",
+      "explanation": "lcm(12,18)=36. The first multiple of 36 above 1,000 is 36·28=1,008.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Which is the least integer x for which 2, 3, and 5 all divide x+1 and x is positive?",
+      "options": {
+        "A": "31",
+        "B": "29",
+        "C": "30",
+        "D": "59"
+      },
+      "correct_option": "B",
+      "explanation": "x+1 must be a positive multiple of lcm(2,3,5)=30. The least positive x is 29.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the remainder when 1+2+…+50 is divided by 7?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "The sum is 50·51/2=1,275; 1,275=7·182+1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the units digit of 2¹⁰¹+3¹⁰¹.",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "3",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "2^n has cycle 2,4,8,6; 101≡1 gives 2. 3^n has cycle 3,9,7,1; 101≡1 gives 3. Sum units digit=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "A positive integer has prime factorization 2³·5². How many of its divisors are multiples of 10?",
+      "options": {
+        "A": "4",
+        "B": "10",
+        "C": "6",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "explanation": "A divisor multiple of 10 needs exponent at least one for both primes. There are 3 choices for the exponent of 2 and 2 for 5, hence 6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "What is the least number that must be subtracted from 1,003 to get a multiple of 17?",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "14",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "1,003=17·59 exactly, so it is already divisible by 17 and the least subtraction is zero.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "If 4,5a2 is divisible by 9, find digit a.",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "The digit sum is 4+5+a+2=11+a; the only digit a making this a multiple of 9 is 7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 3¹⁰⁰ is divided by 13.",
+      "options": {
+        "A": "3",
+        "B": "12",
+        "C": "9",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "3³=27≡1 (mod 13), so 3¹⁰⁰=(3³)³³·3≡3 (mod 13).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive divisors of 2⁵·3⁴·5² are perfect squares?",
+      "options": {
+        "A": "20",
+        "B": "15",
+        "C": "18",
+        "D": "24"
+      },
+      "correct_option": "C",
+      "explanation": "A square divisor uses even exponents: choices are 0,2,4 for 2 (3 choices), 0,2,4 for 3 (3), and 0,2 for 5 (2). Total 18.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the smallest positive integer k such that 2,520k is a perfect cube.",
+      "options": {
+        "A": "147",
+        "B": "735",
+        "C": "3675",
+        "D": "105"
+      },
+      "correct_option": "C",
+      "explanation": "2520=2³·3²·5·7. Complete all prime exponents to multiples of 3 by multiplying by 3·5²·7²=3,675.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 1,000! when written in base 12?",
+      "options": {
+        "A": "498",
+        "B": "497",
+        "C": "499",
+        "D": "249"
+      },
+      "correct_option": "B",
+      "explanation": "A base-12 zero requires 2²·3. In 1000!, v₂=994 and v₃=498. The count is min(⌊994/2⌋,498)=497.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 1!+2!+3!+…+10! is divided by 10.",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "For n≥5, n! ends in 0 and contributes remainder 0 mod 10. The units digits of 1! through 4! sum to 1+2+6+4=13, remainder 3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive integers less than 1,000 are divisible by 6 or 10, but not both?",
+      "options": {
+        "A": "199",
+        "B": "166",
+        "C": "198",
+        "D": "232"
+      },
+      "correct_option": "A",
+      "explanation": "There are 166 multiples of 6 and 99 of 10 below 1000; 33 are multiples of both (30). Exclusive count=(166−33)+(99−33)=199.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the last two digits of 7¹⁰⁰.",
+      "options": {
+        "A": "07",
+        "B": "21",
+        "C": "49",
+        "D": "01"
+      },
+      "correct_option": "D",
+      "explanation": "Modulo 100, 7⁴=2401≡1. Since 100 is divisible by 4, 7¹⁰⁰=(7⁴)²⁵≡1, so the last two digits are 01.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "A number N is the least positive integer satisfying N≡2 (mod 5), N≡3 (mod 7), and N≡4 (mod 9). Find N.",
+      "options": {
+        "A": "157",
+        "B": "122",
+        "C": "192",
+        "D": "147"
+      },
+      "correct_option": "A",
+      "explanation": "Numbers congruent to 2 mod 5 and 3 mod 7 are 17+35t. Modulo 9, 17+35t≡8+8t≡4, so 8t≡5 (mod 9), giving t≡4. The least positive solution is 157.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive divisors of 2⁶·3⁵·7² are divisible by 84?",
+      "options": {
+        "A": "50",
+        "B": "40",
+        "C": "60",
+        "D": "48"
+      },
+      "correct_option": "A",
+      "explanation": "84=2²·3·7. Divisor exponents have 5 choices for 2 (2–6), 5 for 3 (1–5), and 2 for 7 (1–2), giving 5·5·2=50.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the smallest positive integer n for which n! has at least 100 factors of 5.",
+      "options": {
+        "A": "410",
+        "B": "405",
+        "C": "404",
+        "D": "400"
+      },
+      "correct_option": "B",
+      "explanation": "For 405!, v₅=81+16+3=100; for every n≤404 the count is at most 80+16+3=99. Thus 405 is the least such n.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the least positive integer m such that 2m is a perfect square and 3m is a perfect cube.",
+      "options": {
+        "A": "72",
+        "B": "48",
+        "C": "36",
+        "D": "144"
+      },
+      "correct_option": "A",
+      "explanation": "For prime exponents e₂,e₃: e₂+1 is even, e₂ is 0 mod 3; e₃ is even and e₃+1 is 0 mod 3. Least exponents are e₂=3,e₃=2, so m=2³·3²=72.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 10¹⁰⁰+10⁵⁰+1 is divided by 9.",
+      "options": {
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "10≡1 (mod 9), so the expression is congruent to 1+1+1=3 modulo 9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive divisors of 2⁴·3³·5² are not divisible by 15?",
+      "options": {
+        "A": "40",
+        "B": "30",
+        "C": "24",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "explanation": "Total divisors=(5)(4)(3)=60. Divisors divisible by 15 require positive exponents of both 3 and 5: 5·3·2=30. Hence 60−30=30.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the smallest positive integer x such that 7x leaves remainder 1 when divided by 30.",
+      "options": {
+        "A": "17",
+        "B": "7",
+        "C": "23",
+        "D": "13"
+      },
+      "correct_option": "D",
+      "explanation": "7·13=91≡1 (mod 30); checking residues modulo 30 gives 13 as the least positive inverse of 7.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 2¹⁰⁰+3¹⁰⁰ is divided by 5.",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "Modulo 5, 2⁴≡1 and 100≡0 mod 4, so 2¹⁰⁰≡1. Also 3⁴≡1, so 3¹⁰⁰≡1. Sum≡2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many integers from 1 through 500 are divisible by neither 2 nor 3?",
+      "options": {
+        "A": "167",
+        "B": "250",
+        "C": "166",
+        "D": "168"
+      },
+      "correct_option": "A",
+      "explanation": "By inclusion-exclusion, 500−⌊500/2⌋−⌊500/3⌋+⌊500/6⌋=500−250−166+83=167.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the units digit of 1!+2!+3!+…+25!.",
+      "options": {
+        "A": "3",
+        "B": "0",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "Every n! for n≥5 ends in 0. The units digits of 1!+2!+3!+4! are 1+2+6+4=13, so the sum ends in 3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many positive divisors of 2⁵·3⁴·5³ are perfect cubes?",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "24",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "explanation": "A cube divisor uses exponents divisible by 3. For each prime the allowed exponents are 0 or 3, giving 2·2·2=8 divisors.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the least positive integer n such that n is divisible by 18 and n² is divisible by 1,000.",
+      "options": {
+        "A": "450",
+        "B": "180",
+        "C": "900",
+        "D": "1,800"
+      },
+      "correct_option": "C",
+      "explanation": "18 requires n to contain 2·3². Since 1000=2³·5³ divides n², n needs at least 2²·5². Thus the least n is 2²·3²·5²=900.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the remainder when 4¹⁰⁰ is divided by 15.",
+      "options": {
+        "A": "14",
+        "B": "9",
+        "C": "4",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "4²=16≡1 (mod 15); 100 is even, so 4¹⁰⁰=(4²)⁵⁰≡1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many trailing zeroes are in 200! when represented in base 8?",
+      "options": {
+        "A": "66",
+        "B": "64",
+        "C": "65",
+        "D": "49"
+      },
+      "correct_option": "C",
+      "explanation": "A base-8 zero needs three factors of 2. v₂(200!)=100+50+25+12+6+3+1=197; ⌊197/3⌋=65.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the least positive integer N that leaves remainder 1 when divided by 2, 3, 4, 5, and 6, and is greater than 1.",
+      "options": {
+        "A": "61",
+        "B": "60",
+        "C": "121",
+        "D": "31"
+      },
+      "correct_option": "A",
+      "explanation": "N−1 must be divisible by lcm(2,3,4,5,6)=60. The least N>1 is 61.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "How many divisors of 3⁶·5⁴ are divisible by 45?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "20",
+        "D": "16"
+      },
+      "correct_option": "C",
+      "explanation": "45=3²·5. Exponents in a divisor must have 3-exponent 2–6 (5 choices) and 5-exponent 1–4 (4 choices), so 20.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "number-system",
+      "question_text": "Find the least positive integer whose square is divisible by 2⁶·3⁴·5³.",
+      "options": {
+        "A": "1800",
+        "B": "1200",
+        "C": "900",
+        "D": "3600"
+      },
+      "correct_option": "A",
+      "explanation": "For n² to contain the required prime powers, n needs exponents at least ⌈6/2⌉=3 for 2, ⌈4/2⌉=2 for 3, and ⌈3/2⌉=2 for 5. Thus n=2³·3²·5²=1,800.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

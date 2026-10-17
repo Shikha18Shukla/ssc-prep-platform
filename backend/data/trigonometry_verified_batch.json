@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate (cos²20° + cos²70°)/sin²90° − tan²45°.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "0",
+        "D": "-1"
+      },
+      "correct_option": "C",
+      "explanation": "cos70°=sin20°, so the numerator is cos²20°+sin²20°=1. Also sin90°=1 and tan45°=1; hence 1−1=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry 2.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sin(A+B)=1 and cos(A−B)=1/2 for acute A and B, find A.",
+      "options": {
+        "A": "15°",
+        "B": "30°",
+        "C": "75°",
+        "D": "45°"
+      },
+      "correct_option": "C",
+      "explanation": "For acute A,B, A+B=90° and A−B=60°. Adding gives 2A=150°, so A=75°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry 2.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin²5° + sin²25° + sin²45° + sin²65° + sin²85°.",
+      "options": {
+        "A": "2",
+        "B": "2.5",
+        "C": "3",
+        "D": "1.5"
+      },
+      "correct_option": "B",
+      "explanation": "Pair sin²5° with sin²85° and sin²25° with sin²65°; each complementary pair sums to 1. The middle term is 1/2, total 2.5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry  1.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin²5° + sin²6° + … + sin²84° + sin²85°.",
+      "options": {
+        "A": "40",
+        "B": "39.5",
+        "C": "40.5",
+        "D": "41"
+      },
+      "correct_option": "C",
+      "explanation": "Pair angles θ and 90°−θ from 5° through 85°. There are 40 such complementary pairs, each summing to 1, plus sin²45°=1/2: total 40.5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry  1.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate 2(sin1°·sec89°)+3(cos11°·cosec79°)+5(tan21°·tan69°).",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "20",
+        "D": "10"
+      },
+      "correct_option": "D",
+      "explanation": "Since sec89°=cosec1°, sin1°·sec89°=1; cos11°=sin79°, so the second product is 1; tan69°=cot21°, so the third is 1. Total 2+3+5=10.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry 03.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "In right △ABC, ∠B=90°, AC=2√5 cm and AB−BC=2 cm. Find cos²A−cos²C.",
+      "options": {
+        "A": "3/10",
+        "B": "3/5",
+        "C": "6/5",
+        "D": "2/5"
+      },
+      "correct_option": "B",
+      "explanation": "Let the legs be x=AB and y=BC. x²+y²=20 and (x−y)²=4, so 2xy=16 and (x+y)²=36; since x>y, x=4 and y=2. Thus cos²A−cos²C=(x²−y²)/AC²=(16−4)/20=3/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry 04.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosec53°=a/b (with a>b>0), find tan37°.",
+      "options": {
+        "A": "√(b²−a²)/a",
+        "B": "√(a²−b²)/b",
+        "C": "a/√(b²−a²)",
+        "D": "b/a"
+      },
+      "correct_option": "B",
+      "explanation": "cosec53°=hypotenuse/opposite=a/b. Let the opposite side be b and hypotenuse a; the adjacent side is √(a²−b²). Since 37° is complementary to 53°, tan37°=cot53°=adjacent/opposite=√(a²−b²)/b.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Trigonometry 05.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin0°.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "√3/2",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of sin0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin0°=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos0°.",
+      "options": {
+        "A": "1/2",
+        "B": "1/√3",
+        "C": "√3/2",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of cos0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos0°=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find tan0°.",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "√3/2"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of tan0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan0°=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin30°.",
+      "options": {
+        "A": "√3/2",
+        "B": "1",
+        "C": "1/2",
+        "D": "1/√3"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of sin30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin30°=1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos60°.",
+      "options": {
+        "A": "1",
+        "B": "√3/2",
+        "C": "1/√3",
+        "D": "1/2"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of cos60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos60°=1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find tan45°.",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "1",
+        "D": "1/√3"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of tan45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan45°=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin90°.",
+      "options": {
+        "A": "1/√3",
+        "B": "1/2",
+        "C": "1",
+        "D": "√3/2"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of sin90° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin90°=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos90°.",
+      "options": {
+        "A": "1/2",
+        "B": "0",
+        "C": "√3/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of cos90° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos90°=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find tan30°.",
+      "options": {
+        "A": "√3/2",
+        "B": "1/2",
+        "C": "1/√3",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of tan30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan30°=1/√3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find tan60°.",
+      "options": {
+        "A": "√3/2",
+        "B": "√3",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of tan60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): tan60°=√3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cosec30°.",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "2",
+        "D": "√3/2"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of cosec30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cosec30°=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sec60°.",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of sec60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sec60°=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cot45°.",
+      "options": {
+        "A": "1/√3",
+        "B": "1",
+        "C": "√3/2",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of cot45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cot45°=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cosec90°.",
+      "options": {
+        "A": "1/√3",
+        "B": "√3/2",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of cosec90° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cosec90°=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sec0°.",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "1/√3",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of sec0° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sec0°=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cot30°.",
+      "options": {
+        "A": "√3/2",
+        "B": "√3",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of cot30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cot30°=√3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cot60°.",
+      "options": {
+        "A": "√3/2",
+        "B": "1",
+        "C": "1/2",
+        "D": "1/√3"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of cot60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cot60°=1/√3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sec45°.",
+      "options": {
+        "A": "√2",
+        "B": "√3/2",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Use the exact standard-angle value of sec45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sec45°=√2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cosec45°.",
+      "options": {
+        "A": "1/2",
+        "B": "√2",
+        "C": "√3/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of cosec45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cosec45°=√2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin60°.",
+      "options": {
+        "A": "√3/2",
+        "B": "1/2",
+        "C": "1",
+        "D": "1/√3"
+      },
+      "correct_option": "A",
+      "explanation": "Use the exact standard-angle value of sin60° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin60°=√3/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos30°.",
+      "options": {
+        "A": "1/2",
+        "B": "1/√3",
+        "C": "1",
+        "D": "√3/2"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of cos30° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos30°=√3/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin45°.",
+      "options": {
+        "A": "√3/2",
+        "B": "1/2",
+        "C": "1",
+        "D": "1/√2"
+      },
+      "correct_option": "D",
+      "explanation": "Use the exact standard-angle value of sin45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin45°=1/√2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos45°.",
+      "options": {
+        "A": "1/√2",
+        "B": "√3/2",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Use the exact standard-angle value of cos45° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos45°=1/√2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin15°.",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "(√6−√2)/4",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of sin15° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin15°=(√6−√2)/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos15°.",
+      "options": {
+        "A": "1",
+        "B": "(√6+√2)/4",
+        "C": "√3/2",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Use the exact standard-angle value of cos15° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos15°=(√6+√2)/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin75°.",
+      "options": {
+        "A": "1/2",
+        "B": "√3/2",
+        "C": "(√6+√2)/4",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of sin75° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): sin75°=(√6+√2)/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find cos75°.",
+      "options": {
+        "A": "√3/2",
+        "B": "1/2",
+        "C": "(√6−√2)/4",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Use the exact standard-angle value of cos75° from the 30°–60°–90° and 45°–45°–90° triangles (or the 15°/75° angle-difference formula): cos75°=(√6−√2)/4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=3/5 for acute θ, find cosθ.",
+      "options": {
+        "A": "4/5",
+        "B": "3/5",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "cosθ=√(1−sin²θ)=√(1−9/25)=4/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=5/13 for acute θ, find tanθ.",
+      "options": {
+        "A": "3/5",
+        "B": "12/5",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "sinθ=√(1−25/169)=12/13; tanθ=(12/13)/(5/13)=12/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=3/4 for acute θ, find secθ.",
+      "options": {
+        "A": "3/5",
+        "B": "5/4",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "Take opposite:adjacent=3:4; hypotenuse=5, so secθ=5/4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If secθ=13/12 for acute θ, find tanθ.",
+      "options": {
+        "A": "2",
+        "B": "5/12",
+        "C": "3/5",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "sec²θ−1=tan²θ gives tanθ=√(169−144)/12=5/12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cotθ=7/24 for acute θ, find secθ.",
+      "options": {
+        "A": "1",
+        "B": "25/7",
+        "C": "3/5",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "cotθ=adjacent/opposite=7/24, so the hypotenuse is 25 and secθ=hypotenuse/adjacent=25/7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=5/13 for acute θ, find cotθ.",
+      "options": {
+        "A": "3/5",
+        "B": "2",
+        "C": "12/5",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "The missing adjacent side is √(13²−5²)=12; cotθ=12/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=5/12 for acute θ, find sinθ.",
+      "options": {
+        "A": "2",
+        "B": "3/5",
+        "C": "5/13",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Opposite:adjacent=5:12 gives hypotenuse 13; sinθ=5/13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=8/17 for acute θ, find cosecθ.",
+      "options": {
+        "A": "17/15",
+        "B": "2",
+        "C": "1",
+        "D": "3/5"
+      },
+      "correct_option": "A",
+      "explanation": "The opposite side is √(17²−8²)=15, so cosecθ=17/15.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Simplify (1−cos²θ)/sin²θ, where sinθ≠0.",
+      "options": {
+        "A": "1",
+        "B": "3/5",
+        "C": "2",
+        "D": "4/5"
+      },
+      "correct_option": "A",
+      "explanation": "Using 1−cos²θ=sin²θ, the quotient is 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Simplify (sec²θ−1)/tan²θ, where tanθ≠0.",
+      "options": {
+        "A": "4/5",
+        "B": "2",
+        "C": "3/5",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "The identity sec²θ−1=tan²θ makes the quotient 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Simplify (cosec²θ−1)/cot²θ, where cotθ≠0.",
+      "options": {
+        "A": "2",
+        "B": "3/5",
+        "C": "1",
+        "D": "4/5"
+      },
+      "correct_option": "C",
+      "explanation": "The identity cosec²θ−1=cot²θ makes the quotient 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=3/5, find (1−cosθ)(1+cosθ).",
+      "options": {
+        "A": "9/25",
+        "B": "1",
+        "C": "3/5",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "The product is 1−cos²θ=sin²θ=(3/5)²=9/25.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If secθ=5/4 for acute θ, find sinθ.",
+      "options": {
+        "A": "1",
+        "B": "4/5",
+        "C": "2",
+        "D": "3/5"
+      },
+      "correct_option": "D",
+      "explanation": "cosθ=4/5; hence sinθ=√(1−16/25)=3/5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosecθ=5/3 for acute θ, find cotθ.",
+      "options": {
+        "A": "2",
+        "B": "3/5",
+        "C": "4/3",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "Opposite:hypotenuse=3:5, adjacent=4; cotθ=4/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=1, with θ acute, find sinθ+cosθ.",
+      "options": {
+        "A": "3/5",
+        "B": "√2",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "θ=45°, so sinθ+cosθ=1/√2+1/√2=√2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=cosθ and θ is acute, find θ.",
+      "options": {
+        "A": "1",
+        "B": "45°",
+        "C": "3/5",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "For an acute angle, equality of sine and cosine means tanθ=1, so θ=45°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sin(A+B)=1 and cos(A−B)=1 for acute A,B, find A.",
+      "options": {
+        "A": "45°",
+        "B": "2",
+        "C": "1",
+        "D": "3/5"
+      },
+      "correct_option": "A",
+      "explanation": "A+B=90°; since A−B lies between −90° and 90°, cosine 1 implies A−B=0°. Thus A=B=45°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin20°·cosec70° + cos35°·sec55°.",
+      "options": {
+        "A": "2",
+        "B": "3/5",
+        "C": "1",
+        "D": "4/5"
+      },
+      "correct_option": "A",
+      "explanation": "cosec70°=sec20°, so the first product is 1. sec55°=cosec35°, so the second is 1; total 2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate tan12°·tan78°.",
+      "options": {
+        "A": "3/5",
+        "B": "2",
+        "C": "4/5",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "tan78°=cot12°, so their product is 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin38°/cos52°.",
+      "options": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "cos52°=sin38°, so the quotient is 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate (sin²33°+sin²57°).",
+      "options": {
+        "A": "1",
+        "B": "3/5",
+        "C": "2",
+        "D": "4/5"
+      },
+      "correct_option": "A",
+      "explanation": "57°=90°−33°, hence sin²57°=cos²33°; the sum is 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=12/13 for acute θ, find (1+cosθ)/(1−cosθ).",
+      "options": {
+        "A": "9/4",
+        "B": "3/5",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "cosθ=5/13. Therefore (1+cosθ)/(1−cosθ)=(18/13)/(8/13)=9/4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=2/3 for acute θ, find (secθ+tanθ)(secθ−tanθ).",
+      "options": {
+        "A": "4/5",
+        "B": "2",
+        "C": "3/5",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "The product is sec²θ−tan²θ=1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sin²30°+cos²60°+tan²45°.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3/2",
+        "D": "3/5"
+      },
+      "correct_option": "C",
+      "explanation": "sin²30°=1/4, cos²60°=1/4, and tan²45°=1; sum=3/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Find sec²30°−tan²30°.",
+      "options": {
+        "A": "3/5",
+        "B": "2",
+        "C": "1",
+        "D": "4/5"
+      },
+      "correct_option": "C",
+      "explanation": "The identity sec²θ−tan²θ=1 applies for θ=30°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=4/5 for acute θ, find (1+tan²θ).",
+      "options": {
+        "A": "25/9",
+        "B": "3/5",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "cosθ=3/5, so sec²θ=1+tan²θ=(5/3)²=25/9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=3/4 for acute θ, find (1−sinθ)/(1+sinθ).",
+      "options": {
+        "A": "1/4",
+        "B": "3/5",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "The 3-4-5 triangle gives sinθ=3/5; ratio=(2/5)/(8/5)=1/4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=3/5 for acute θ, find (secθ−cosθ).",
+      "options": {
+        "A": "16/15",
+        "B": "3/5",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "secθ−cosθ=5/3−3/5=(25−9)/15=16/15.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate cot²46°−sec²44° + (sin²1°+sin²3°+…+sin²89°).",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "21.5",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "cot46°=tan44°, so tan²44°−sec²44°=−1. The 45 odd angles pair into 22 complementary pairs plus sin²45°=1/2, giving 22.5. Total 21.5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=(p²−1)/(p²+1), where p>1 and θ is acute, find cosecθ.",
+      "options": {
+        "A": "(p²+1)/(2p)",
+        "B": "1/2",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Treat perpendicular= p²−1 and hypotenuse=p²+1. The adjacent side is √((p²+1)²−(p²−1)²)=2p; therefore cosecθ=(p²+1)/(2p).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=3/4 for acute θ, evaluate (secθ+tanθ)²−(secθ−tanθ)².",
+      "options": {
+        "A": "2",
+        "B": "1/2",
+        "C": "1",
+        "D": "15/4"
+      },
+      "correct_option": "D",
+      "explanation": "For a 3-4-5 triangle secθ=5/4. Difference of squares is 4 secθ tanθ=4·(5/4)·(3/4)=15/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ+cosθ=√(3/2) for acute θ, find sin2θ.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "1/2",
+        "D": "3/5"
+      },
+      "correct_option": "C",
+      "explanation": "Squaring gives sin²θ+cos²θ+2sinθcosθ=3/2, hence 1+sin2θ=3/2 and sin2θ=1/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ−cosθ=1/2 for acute θ, find sin2θ.",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3/4",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "Squaring gives sin²θ+cos²θ−2sinθcosθ=1/4, so 1−sin2θ=1/4 and sin2θ=3/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ+cotθ=10/3 for acute θ, find sin2θ.",
+      "options": {
+        "A": "1",
+        "B": "3/5",
+        "C": "2",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "tanθ+cotθ=1/(sinθcosθ)=2/sin2θ; equating to 10/3 gives sin2θ=3/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ+cotθ=5/2 for acute θ, find sin2θ.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "1/2",
+        "D": "4/5"
+      },
+      "correct_option": "D",
+      "explanation": "tanθ+cotθ=1/(sinθcosθ)=2/sin2θ. Thus 2/sin2θ=5/2 and sin2θ=4/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin²5°+sin²15°+…+sin²85° (angles increase by 10°).",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "2",
+        "D": "4.5"
+      },
+      "correct_option": "D",
+      "explanation": "Pair each term at θ with 90°−θ: 5/85, 15/75, 25/65, 35/55 contribute four 1s, and sin²45° contributes 1/2; total 4.5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin²1°+sin²2°+…+sin²89°.",
+      "options": {
+        "A": "44.5",
+        "B": "1/2",
+        "C": "2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Pair θ and 90°−θ for 1°–44°: 44 pairs each sum to 1, plus sin²45°=1/2, total 44.5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=3/5 and θ is acute, find (secθ+tanθ)/(secθ−tanθ).",
+      "options": {
+        "A": "2",
+        "B": "1/2",
+        "C": "1",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "secθ=5/4 and tanθ=3/4; ratio=(8/4)/(2/4)=4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=5/13 and θ is acute, find (cosecθ−cotθ)(cosecθ+cotθ).",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "2",
+        "D": "3/5"
+      },
+      "correct_option": "A",
+      "explanation": "The product is cosec²θ−cot²θ=1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=2, evaluate (1+sinθ cosθ)/(1−sinθ cosθ).",
+      "options": {
+        "A": "7/3",
+        "B": "1",
+        "C": "2",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "With opposite:adjacent=2:1, hypotenuse=√5, so sinθcosθ=2/5. The ratio is (1+2/5)/(1−2/5)=7/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=5/13 for acute θ, find (1−cosθ)/sinθ.",
+      "options": {
+        "A": "2",
+        "B": "1/2",
+        "C": "1",
+        "D": "1/5"
+      },
+      "correct_option": "D",
+      "explanation": "cosθ=12/13; the expression is (1/13)/(5/13)=1/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=3/4, find (secθ−1)/(secθ+1).",
+      "options": {
+        "A": "2",
+        "B": "1/2",
+        "C": "1/9",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "secθ=5/4; the ratio is (1/4)/(9/4)=1/9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ+cosθ=7/5 for acute θ, find sin2θ.",
+      "options": {
+        "A": "2",
+        "B": "1/2",
+        "C": "1",
+        "D": "24/25"
+      },
+      "correct_option": "D",
+      "explanation": "Squaring gives 1+sin2θ=49/25, so sin2θ=24/25.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=3/5 for acute θ, evaluate 1/(1+cosθ)+1/(1−cosθ).",
+      "options": {
+        "A": "1/2",
+        "B": "50/9",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "Combine the fractions: the sum is 2/(1−cos²θ)=2/sin²θ=2/(9/25)=50/9.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=1/2 for acute θ, find (1+tan²θ)/(1−tan²θ).",
+      "options": {
+        "A": "5/3",
+        "B": "2",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "(1+1/4)/(1−1/4)=(5/4)/(3/4)=5/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=√3/2 and θ is acute, evaluate (1−cosθ)/(1+cosθ).",
+      "options": {
+        "A": "2",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "cosθ=1/2; ratio=(1/2)/(3/2)=1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=√3/2 and θ is acute, evaluate (1−sinθ)/(1+sinθ).",
+      "options": {
+        "A": "1/3",
+        "B": "1",
+        "C": "1/2",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "sinθ=1/2; ratio=(1/2)/(3/2)=1/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=3/4, evaluate (sinθ+cosθ)².",
+      "options": {
+        "A": "2",
+        "B": "1/2",
+        "C": "49/25",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "For a 3-4-5 triangle, sinθ+cosθ=7/5; its square is 49/25.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cotθ=5/12, evaluate (sinθ−cosθ)².",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "49/169",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "A 5-12-13 triangle gives sinθ=12/13 and cosθ=5/13; difference squared=(7/13)²=49/169.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate (sin²10°+sin²80°)+(sin²20°+sin²70°)+(sin²30°+sin²60°).",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "Each parenthesized complementary pair sums to 1, so the total is 3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate Σ sin²(k°) for k=1,3,5,…,89.",
+      "options": {
+        "A": "2",
+        "B": "22.5",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "There are 45 odd angles. The 22 complementary pairs sum to 22 and the central sin²45° adds 1/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If sinθ=8/17 for acute θ, find (secθ+tanθ).",
+      "options": {
+        "A": "1/2",
+        "B": "2",
+        "C": "1",
+        "D": "5/3"
+      },
+      "correct_option": "D",
+      "explanation": "cosθ=15/17; secθ+tanθ=17/15+8/15=25/15=5/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If cosθ=7/25 for acute θ, find (cosecθ+cotθ).",
+      "options": {
+        "A": "4/3",
+        "B": "2",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "sinθ=24/25; cosecθ+cotθ=25/24+7/24=32/24=4/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=5/12 for acute θ, evaluate (1+sinθ)/(1−sinθ).",
+      "options": {
+        "A": "9/4",
+        "B": "2",
+        "C": "1",
+        "D": "1/2"
+      },
+      "correct_option": "A",
+      "explanation": "sinθ=5/13, so ratio=(18/13)/(8/13)=9/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "If tanθ=4/3 for acute θ, evaluate (1+cosθ)/(1−cosθ).",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "cosθ=3/5; ratio=(8/5)/(2/5)=4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "trigonometry",
+      "question_text": "Evaluate sin²30° + cos²30°.",
+      "options": {
+        "A": "1",
+        "B": "1/2",
+        "C": "0",
+        "D": "3/2"
+      },
+      "correct_option": "A",
+      "explanation": "The Pythagorean identity sin²x+cos²x=1 applies at x=30°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

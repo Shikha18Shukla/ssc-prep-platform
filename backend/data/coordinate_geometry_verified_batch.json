@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The distance between P(0,b) and Q(a,0) is:",
+      "options": {
+        "A": "√(a+b)",
+        "B": "√(a²+b²)",
+        "C": "a+b",
+        "D": "√(a²−b²)"
+      },
+      "correct_option": "B",
+      "explanation": "Distance formula gives √((a−0)²+(0−b)²)=√(a²+b²).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "P divides the segment joining A(5,−2) and B(9,6) internally in the ratio 3:1. Find P.",
+      "options": {
+        "A": "(12,8)",
+        "B": "(7/2,4)",
+        "C": "(8,4)",
+        "D": "(4,−7)"
+      },
+      "correct_option": "C",
+      "explanation": "Section formula gives ((3·9+1·5)/4,(3·6+1·(−2))/4)=(8,4).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "P(1,10/3) divides the segment joining A(−3,2) and B(3,4). In what ratio AP:PB does it divide it?",
+      "options": {
+        "A": "3:1",
+        "B": "1:2",
+        "C": "2:1",
+        "D": "2:3"
+      },
+      "correct_option": "C",
+      "explanation": "Using the x-coordinate section formula, 1=(3m−3n)/(m+n), so m=2n. The y-coordinate then is (4m+2n)/(m+n)=10/3, confirming AP:PB=2:1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the coordinates of the point that divides the segment joining (2,4) and (6,8) externally in the ratio 5:3.",
+      "options": {
+        "A": "(2,7)",
+        "B": "(5,6)",
+        "C": "(12,14)",
+        "D": "(3,8)"
+      },
+      "correct_option": "C",
+      "explanation": "External section formula: ((5·6−3·2)/(5−3),(5·8−3·4)/(5−3))=(12,14).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the ratio in which the segment joining A(3,−5) and B(5,4) is divided by the x-axis.",
+      "options": {
+        "A": "6:5",
+        "B": "5:4",
+        "C": "5:7",
+        "D": "4:5"
+      },
+      "correct_option": "B",
+      "explanation": "At the x-axis y=0. For AP:PB=m:n, (4m−5n)/(m+n)=0, hence m:n=5:4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the slope of the line through P(−4,7) and Q(2,3).",
+      "options": {
+        "A": "2/3",
+        "B": "3/2",
+        "C": "−3/2",
+        "D": "−2/3"
+      },
+      "correct_option": "D",
+      "explanation": "Slope=(3−7)/(2−(−4))=−4/6=−2/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 21; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "What angle does the line through (√3,1) and (√15,√5) make with the positive x-axis?",
+      "options": {
+        "A": "30°",
+        "B": "60°",
+        "C": "45°",
+        "D": "90°"
+      },
+      "correct_option": "A",
+      "explanation": "Its slope is (√5−1)/(√15−√3)=1/√3, so the inclination θ satisfies tanθ=1/√3 and θ=30°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry  01_.pdf, PDF page 22; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the reflection of (7,4) in the point (1,3).",
+      "options": {
+        "A": "(6,−2)",
+        "B": "(8,7)",
+        "C": "(−6,−1)",
+        "D": "(−5,2)"
+      },
+      "correct_option": "D",
+      "explanation": "The reflection point is the opposite endpoint of a segment whose midpoint is (1,3): (x,y)=(2·1−7,2·3−4)=(−5,2).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 23; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the perpendicular distance from (−3,4) to the line 3x+4y−5=0.",
+      "options": {
+        "A": "1/3",
+        "B": "2/3",
+        "C": "3/5",
+        "D": "2/5"
+      },
+      "correct_option": "D",
+      "explanation": "Distance=|3(−3)+4(4)−5|/√(3²+4²)=|2|/5=2/5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the area of the triangle with vertices (3,4), (−4,3), and (8,6).",
+      "options": {
+        "A": "9",
+        "B": "9/4",
+        "C": "9/2",
+        "D": "7/2"
+      },
+      "correct_option": "C",
+      "explanation": "Shoelace gives half of |3(3−6)+(−4)(6−4)+8(4−3)|=|-9-8+8|/2=9/2 square units.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the area of the quadrilateral with consecutive vertices (−4,5), (0,7), (5,−5), and (−4,−2).",
+      "options": {
+        "A": "121/2",
+        "B": "121",
+        "C": "125/2",
+        "D": "125"
+      },
+      "correct_option": "A",
+      "explanation": "Shoelace: absolute difference of diagonal sums is 121; area=121/2 square units.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "For what value of k do the lines 5x+20y=11 and 2x+ky=17 intersect?",
+      "options": {
+        "A": "k ≠ 8",
+        "B": "k ≠ 4",
+        "C": "k ≠ 14",
+        "D": "k ≠ 2"
+      },
+      "correct_option": "A",
+      "explanation": "They are parallel when determinant 5k−40=0, i.e. k=8. They intersect for every other real k.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "For what value of k do x+3y+7=0 and 4x+ky+19=0 have no solution?",
+      "options": {
+        "A": "12",
+        "B": "−12",
+        "C": "3",
+        "D": "8"
+      },
+      "correct_option": "A",
+      "explanation": "No solution requires equal x/y coefficient ratios but unequal constant ratios: 1/4=3/k gives k=12; 7/19≠1/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line ax+by=c, where a,b,c>0, meets the coordinate axes at P and Q. Find the area of triangle OPQ.",
+      "options": {
+        "A": "c²/(2ab)",
+        "B": "c²/(ab²)",
+        "C": "c²/(ab)",
+        "D": "c²/(a²b)"
+      },
+      "correct_option": "A",
+      "explanation": "The intercepts are c/a and c/b, so the right-triangle area is (1/2)(c/a)(c/b)=c²/(2ab).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Coordinate Geometry 02_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "In which quadrant does (−4,7) lie?",
+      "options": {
+        "A": "IV",
+        "B": "I",
+        "C": "III",
+        "D": "II"
+      },
+      "correct_option": "D",
+      "explanation": "x<0 and y>0 identify Quadrant II.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Which point lies on the y-axis?",
+      "options": {
+        "A": "(0,−5)",
+        "B": "(−5,0)",
+        "C": "(−1,0)",
+        "D": "(5,5)"
+      },
+      "correct_option": "A",
+      "explanation": "Every point on the y-axis has x-coordinate 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the distance between (1,2) and (4,6).",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "explanation": "Distance=√((4−1)²+(6−2)²)=√25=5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the midpoint of (−2,5) and (6,1).",
+      "options": {
+        "A": "(2,3)",
+        "B": "(−4,2)",
+        "C": "(4,6)",
+        "D": "(2,4)"
+      },
+      "correct_option": "A",
+      "explanation": "Average corresponding coordinates: ((−2+6)/2,(5+1)/2)=(2,3).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Reflect (3,−8) across the x-axis.",
+      "options": {
+        "A": "(3,8)",
+        "B": "(−3,8)",
+        "C": "(−3,−8)",
+        "D": "(8,3)"
+      },
+      "correct_option": "A",
+      "explanation": "Reflection across the x-axis preserves x and changes the sign of y.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Reflect (−6,2) in the origin.",
+      "options": {
+        "A": "(−6,−2)",
+        "B": "(2,−6)",
+        "C": "(6,2)",
+        "D": "(6,−2)"
+      },
+      "correct_option": "D",
+      "explanation": "Origin reflection maps (x,y) to (−x,−y).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "What is the slope of the line through (−1,4) and (3,4)?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "undefined",
+        "D": "−1"
+      },
+      "correct_option": "A",
+      "explanation": "The y-coordinates are equal, so the line is horizontal and its slope is 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "What is the slope of the vertical line through (5,−2) and (5,9)?",
+      "options": {
+        "A": "−1",
+        "B": "1",
+        "C": "undefined",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "The slope denominator Δx is zero for a vertical line.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "What is the y-coordinate of every point on the x-axis?",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "−1",
+        "D": "It varies"
+      },
+      "correct_option": "B",
+      "explanation": "The x-axis is defined by y=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point has x<0 and y<0. In which quadrant is it?",
+      "options": {
+        "A": "III",
+        "B": "I",
+        "C": "IV",
+        "D": "II"
+      },
+      "correct_option": "A",
+      "explanation": "Both coordinates negative define Quadrant III.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Translate (2,−3) by the vector (−4,5).",
+      "options": {
+        "A": "(6,−8)",
+        "B": "(−2,−8)",
+        "C": "(2,−2)",
+        "D": "(−2,2)"
+      },
+      "correct_option": "D",
+      "explanation": "Add vector components: (2−4,−3+5)=(−2,2).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "What is the absolute value of the abscissa of (−7,0)?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "7",
+        "D": "−7"
+      },
+      "correct_option": "C",
+      "explanation": "The abscissa is the first coordinate, −7; its absolute value is 7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "In the point (−4,−6), what is the ordinate?",
+      "options": {
+        "A": "4",
+        "B": "−6",
+        "C": "−4",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "The ordinate is the second coordinate, which is −6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Which pair of points lies on the same horizontal line?",
+      "options": {
+        "A": "(1,2) and (1,5)",
+        "B": "(−3,4) and (2,4)",
+        "C": "(−2,4) and (3,−2)",
+        "D": "(0,1) and (2,3)"
+      },
+      "correct_option": "B",
+      "explanation": "Points on the same horizontal line have equal y-coordinates; only this pair has matching second coordinates.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The midpoint of A(1,−2) and B(x,6) is (4,2). Find x.",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "7"
+      },
+      "correct_option": "D",
+      "explanation": "The midpoint x-coordinate gives (1+x)/2=4, hence x=7; the y-coordinate also averages to 2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Which quadrant contains (5,−1)?",
+      "options": {
+        "A": "I",
+        "B": "II",
+        "C": "IV",
+        "D": "III"
+      },
+      "correct_option": "C",
+      "explanation": "Positive x and negative y define Quadrant IV.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the distance from (−3,4) to the origin.",
+      "options": {
+        "A": "25",
+        "B": "5",
+        "C": "7",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "explanation": "Distance from origin is √(x²+y²)=√(9+16)=5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point is 4 units left and 3 units above the origin. What are its coordinates?",
+      "options": {
+        "A": "(−4,3)",
+        "B": "(4,3)",
+        "C": "(−3,4)",
+        "D": "(4,−3)"
+      },
+      "correct_option": "A",
+      "explanation": "Left means negative x and above means positive y.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "If P=(a,b), what are the coordinates of its reflection in the y-axis?",
+      "options": {
+        "A": "(b,a)",
+        "B": "(−a,b)",
+        "C": "(−a,−b)",
+        "D": "(a,−b)"
+      },
+      "correct_option": "B",
+      "explanation": "Reflection across the y-axis reverses x and preserves y.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the slope of the line through (2,−1) and (6,7).",
+      "options": {
+        "A": "2",
+        "B": "−2",
+        "C": "1/2",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "Slope=(7−(−1))/(6−2)=8/4=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line has slope 3 and passes through (0,−2). What is its y-intercept?",
+      "options": {
+        "A": "−3",
+        "B": "3",
+        "C": "−2",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "At x=0 the point on the line is (0,−2), so the y-intercept is −2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Which ordered pair satisfies y=2x+1?",
+      "options": {
+        "A": "(0,0)",
+        "B": "(3,5)",
+        "C": "(1,1)",
+        "D": "(2,5)"
+      },
+      "correct_option": "D",
+      "explanation": "Substitution gives 5=2·2+1; the other listed pairs fail the equation.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "How many units apart are the parallel lines x=−2 and x=5?",
+      "options": {
+        "A": "10",
+        "B": "7",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "Their horizontal separation is |5−(−2)|=7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The point (x,−4) lies on the y-axis. Find x.",
+      "options": {
+        "A": "4",
+        "B": "−4",
+        "C": "1",
+        "D": "0"
+      },
+      "correct_option": "D",
+      "explanation": "Points on the y-axis have x-coordinate zero.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "What is the reflection of (−2,−7) across the x-axis?",
+      "options": {
+        "A": "(2,−7)",
+        "B": "(−2,7)",
+        "C": "(7,−2)",
+        "D": "(2,7)"
+      },
+      "correct_option": "B",
+      "explanation": "An x-axis reflection preserves the abscissa and negates the ordinate.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the centroid of the triangle with vertices (0,0), (6,0), and (0,9).",
+      "options": {
+        "A": "(3,2)",
+        "B": "(3,3)",
+        "C": "(2,3)",
+        "D": "(6,9)"
+      },
+      "correct_option": "C",
+      "explanation": "The centroid averages vertex coordinates: ((0+6+0)/3,(0+0+9)/3)=(2,3).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point on the x-axis is 6 units from the origin and lies to the left. Find it.",
+      "options": {
+        "A": "(0,−6)",
+        "B": "(−6,0)",
+        "C": "(6,0)",
+        "D": "(−3,0)"
+      },
+      "correct_option": "B",
+      "explanation": "On x-axis y=0; left of origin means x=−6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "For what value of t is (t,2) in Quadrant I?",
+      "options": {
+        "A": "any t",
+        "B": "t>0",
+        "C": "t=0",
+        "D": "t<0"
+      },
+      "correct_option": "B",
+      "explanation": "Quadrant I requires both coordinates positive; y=2 is positive and so t must be positive.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Which non-origin point is equidistant from the x- and y-axes?",
+      "options": {
+        "A": "(−1,3)",
+        "B": "(2,5)",
+        "C": "(4,−4)",
+        "D": "(0,0)"
+      },
+      "correct_option": "C",
+      "explanation": "Distances to the axes are |y| and |x|; here both are 4. The origin is excluded by the stem.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the point that divides (−4,3) and (8,−5) internally in the ratio 1:2.",
+      "options": {
+        "A": "(−4,1)",
+        "B": "(4,−1/3)",
+        "C": "(2,1/3)",
+        "D": "(0,1/3)"
+      },
+      "correct_option": "D",
+      "explanation": "Section formula gives ((1·8+2·(−4))/3,(1·(−5)+2·3)/3)=(0,1/3).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The midpoint of A(−3,5) and B(x,y) is (2,−1). Find B.",
+      "options": {
+        "A": "(1,−3)",
+        "B": "(4,−6)",
+        "C": "(−7,7)",
+        "D": "(7,−7)"
+      },
+      "correct_option": "D",
+      "explanation": "From (−3+x)/2=2, x=7; from (5+y)/2=−1, y=−7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the ratio in which P(2,1) divides the segment joining A(−1,−2) and B(5,4).",
+      "options": {
+        "A": "1:2",
+        "B": "2:1",
+        "C": "3:2",
+        "D": "1:1"
+      },
+      "correct_option": "D",
+      "explanation": "P is the midpoint: coordinates average to ((−1+5)/2,(−2+4)/2)=(2,1), so the ratio is 1:1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point divides A(1,−3) and B(7,9) in ratio 2:1 internally. Find its y-coordinate.",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "y=(2·9+1·(−3))/3=15/3=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the slope of the line through (−2,5) and (4,−7).",
+      "options": {
+        "A": "1/2",
+        "B": "−1/2",
+        "C": "−2",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "Slope=(−7−5)/(4−(−2))=−12/6=−2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line through (3,−2) is parallel to the line through (−1,4) and (2,10). Find its slope.",
+      "options": {
+        "A": "−2",
+        "B": "1/2",
+        "C": "3",
+        "D": "2"
+      },
+      "correct_option": "D",
+      "explanation": "The reference slope is (10−4)/(2−(−1))=6/3=2; parallel lines have equal slopes.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the equation of the line with slope −3 passing through (2,5).",
+      "options": {
+        "A": "y=3x−1",
+        "B": "y=−x+7",
+        "C": "y=−3x+11",
+        "D": "y=−3x+5"
+      },
+      "correct_option": "C",
+      "explanation": "Point-slope form: y−5=−3(x−2), hence y=−3x+11.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the x-intercept of 2x+3y=12.",
+      "options": {
+        "A": "4",
+        "B": "12",
+        "C": "6",
+        "D": "3"
+      },
+      "correct_option": "C",
+      "explanation": "Set y=0, obtaining 2x=12 and x=6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the y-intercept of 5x−2y=8.",
+      "options": {
+        "A": "2",
+        "B": "−4",
+        "C": "−8",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "explanation": "Set x=0; −2y=8, so y=−4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Are (1,2), (3,6), and (5,10) collinear?",
+      "options": {
+        "A": "Yes",
+        "B": "Cannot determine",
+        "C": "Only first two",
+        "D": "No"
+      },
+      "correct_option": "A",
+      "explanation": "Each point satisfies y=2x, so all three lie on the same line.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the intersection point of x+y=7 and x−y=1.",
+      "options": {
+        "A": "(5,2)",
+        "B": "(4,3)",
+        "C": "(3,4)",
+        "D": "(4,−3)"
+      },
+      "correct_option": "B",
+      "explanation": "Adding the equations gives 2x=8, so x=4; then y=3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The distance between (x,1) and (2,5) is 5. If x>2, find x.",
+      "options": {
+        "A": "7",
+        "B": "1",
+        "C": "−1",
+        "D": "5"
+      },
+      "correct_option": "D",
+      "explanation": "(x−2)²+16=25 gives (x−2)²=9; x>2 selects x=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the point where y=2x+1 meets the x-axis.",
+      "options": {
+        "A": "(1/2,0)",
+        "B": "(0,1)",
+        "C": "(−1/2,0)",
+        "D": "(0,−1)"
+      },
+      "correct_option": "C",
+      "explanation": "Set y=0: 2x+1=0, so x=−1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line through (1,3) and (5,11) meets the y-axis at what value?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "−1"
+      },
+      "correct_option": "B",
+      "explanation": "Slope=2, so y−3=2(x−1), or y=2x+1; y-intercept=1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the distance from (−2,7) to the line y=3.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "2",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "The horizontal line has constant y=3; perpendicular distance is |7−3|=4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The midpoint of A and B is (3,−2). If A=(−1,4), find B.",
+      "options": {
+        "A": "(6,−4)",
+        "B": "(5,−6)",
+        "C": "(7,−8)",
+        "D": "(−7,8)"
+      },
+      "correct_option": "C",
+      "explanation": "Coordinate sums must be twice the midpoint: B=(6−(−1),−4−4)=(7,−8).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the slope of a line perpendicular to y=(1/4)x−6.",
+      "options": {
+        "A": "−4",
+        "B": "4",
+        "C": "1/4",
+        "D": "−1/4"
+      },
+      "correct_option": "A",
+      "explanation": "Perpendicular nonvertical slopes multiply to −1; reciprocal of 1/4 with opposite sign is −4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "For which value of k are (2,1), (5,7), and (8,k) collinear?",
+      "options": {
+        "A": "14",
+        "B": "13",
+        "C": "12",
+        "D": "11"
+      },
+      "correct_option": "B",
+      "explanation": "First two give slope 6/3=2. From (5,7), moving to x=8 raises y by 2·3=6; k=13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line has intercepts 4 on x-axis and 6 on y-axis. Find its equation in intercept form.",
+      "options": {
+        "A": "x+y=10",
+        "B": "4x+6y=1",
+        "C": "x/6+y/4=1",
+        "D": "x/4+y/6=1"
+      },
+      "correct_option": "D",
+      "explanation": "Intercept form is x/a+y/b=1, with a=4 and b=6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A triangle has vertices (−2,0), (4,0), and (1,h). Its area is 12. If h>0, find h.",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "6",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "The base length is 6; 6h/2=12 gives h=4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the point that divides (−3,2) and (9,8) externally in ratio 2:1.",
+      "options": {
+        "A": "(−21,−14)",
+        "B": "(21,14)",
+        "C": "(15,10)",
+        "D": "(5,6)"
+      },
+      "correct_option": "B",
+      "explanation": "External formula yields ((2·9−1·(−3))/(2−1),(2·8−1·2)/(2−1))=(21,14).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line passes through (−2,3) and is parallel to 4x−2y=7. Find its y-intercept.",
+      "options": {
+        "A": "−1",
+        "B": "5",
+        "C": "7",
+        "D": "3"
+      },
+      "correct_option": "C",
+      "explanation": "The given line has slope 2. Through (−2,3): y−3=2(x+2), so y=2x+7 and its y-intercept is 7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Three consecutive vertices of an axis-parallel rectangle are (−1,2), (5,2), and (5,−3). Find the fourth vertex.",
+      "options": {
+        "A": "(5,2)",
+        "B": "(5,−3)",
+        "C": "(−1,−3)",
+        "D": "(−1,2)"
+      },
+      "correct_option": "C",
+      "explanation": "The first pair defines the top horizontal side and the second pair the right vertical side; the missing corner combines x=−1 with y=−3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point (a,−6) is 10 units from (2,−6). Find the possible values of a.",
+      "options": {
+        "A": "−10 or 6",
+        "B": "−6 or 10",
+        "C": "−8 or 12",
+        "D": "−12 or 8"
+      },
+      "correct_option": "C",
+      "explanation": "Equal y-coordinates make distance |a−2|=10, giving a=−8 or 12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find k if the distance between (k,−4) and (3,8) is 13 and k<3.",
+      "options": {
+        "A": "8",
+        "B": "−2",
+        "C": "2",
+        "D": "−8"
+      },
+      "correct_option": "B",
+      "explanation": "(k−3)²+12²=13² gives (k−3)²=25; k=−2 or 8, and k<3 selects −2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the circumcentre of the triangle with vertices (0,0), (6,0), and (0,8).",
+      "options": {
+        "A": "(3,4)",
+        "B": "(6,8)",
+        "C": "(3,0)",
+        "D": "(0,4)"
+      },
+      "correct_option": "A",
+      "explanation": "The triangle is right-angled at the origin, so its circumcentre is the midpoint of its hypotenuse from (6,0) to (0,8): (3,4).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the value of t for which (1,2), (4,6), and (t,10) are collinear.",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "6",
+        "D": "7"
+      },
+      "correct_option": "D",
+      "explanation": "Slope between the first points is 4/3. Collinearity requires (10−6)/(t−4)=4/3, giving t=7.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the perpendicular distance from (2,−1) to 6x−8y+3=0.",
+      "options": {
+        "A": "2",
+        "B": "23/10",
+        "C": "23/5",
+        "D": "17/10"
+      },
+      "correct_option": "B",
+      "explanation": "Distance=|12+8+3|/√(36+64)=23/10.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The lines 2x+y=10 and x−y=2 intersect at P. Find the distance from P to (1,−1).",
+      "options": {
+        "A": "9",
+        "B": "3√2",
+        "C": "6",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "explanation": "Solving gives P=(4,2). The distance to (1,−1) is √((4−1)²+(2+1)²)=√18=3√2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Two lines 3x+ky=5 and 6x+4y=9 are parallel and distinct. Find k.",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "1",
+        "D": "3"
+      },
+      "correct_option": "B",
+      "explanation": "Parallelism requires 3/6=k/4=1/2, so k=2. Their constants are not in the same ratio (5/9≠1/2), so they are distinct.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the equation of the line through the intersection of x+y=5 and 2x−y=1, with slope 3.",
+      "options": {
+        "A": "y=3x−3",
+        "B": "y=3x−7",
+        "C": "y=−3x+9",
+        "D": "y=3x+3"
+      },
+      "correct_option": "A",
+      "explanation": "Solving gives intersection (2,3). Point-slope form y−3=3(x−2), hence y=3x−3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A triangle has vertices (0,0), (p,0), and (0,q), with area 30 and p:q=5:3. If p,q>0, find p+q.",
+      "options": {
+        "A": "16",
+        "B": "14",
+        "C": "20",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "pq/2=30 gives pq=60. With p:q=5:3, let p=5u,q=3u;15u²=60 so u=2 and p+q=16.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the point on the x-axis equidistant from A(−2,3) and B(4,3).",
+      "options": {
+        "A": "(0,1)",
+        "B": "(2,0)",
+        "C": "(1,0)",
+        "D": "(−1,0)"
+      },
+      "correct_option": "C",
+      "explanation": "Let P=(x,0). Equate squared distances: (x+2)²+9=(x−4)²+9; simplifying gives 12x=12, so x=1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line cuts positive intercepts a and b and has equation x/a+y/b=1. If its intercept triangle has area 24 and a:b=3:4, find a+b.",
+      "options": {
+        "A": "16",
+        "B": "14",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "explanation": "ab/2=24 gives ab=48. Set a=3u,b=4u;12u²=48 so u=2 and a+b=14.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the area of the triangle with vertices (a,0), (0,b), and (−a,0), where a,b>0.",
+      "options": {
+        "A": "ab",
+        "B": "2ab",
+        "C": "ab/2",
+        "D": "a+b"
+      },
+      "correct_option": "A",
+      "explanation": "The base on the x-axis has length 2a and height b; area=(2a·b)/2=ab.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the value of m if the line through (−1,4) and (m,−2) is perpendicular to 2x+3y=7.",
+      "options": {
+        "A": "−3",
+        "B": "8",
+        "C": "5",
+        "D": "−5"
+      },
+      "correct_option": "D",
+      "explanation": "The given line slope is −2/3, so a perpendicular line has slope 3/2. Thus (−2−4)/(m+1)=−6/(m+1)=3/2, giving m=−5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "The points A(0,0), B(6,0), and C(3,k) form a right angle at C. If k>0, find k.",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "6",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "At C, vectors CA=(−3,−k), CB=(3,−k). Perpendicularity gives CA·CB=−9+k²=0; k=3 since k>0.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line through (2,−3) has x-intercept 5. Find its slope.",
+      "options": {
+        "A": "−1",
+        "B": "1",
+        "C": "3",
+        "D": "1/2"
+      },
+      "correct_option": "B",
+      "explanation": "Slope between (2,−3) and (5,0) is (0+3)/(5−2)=1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point P divides A(−4,1) and B(8,7) internally so that AP:PB=2:1. Find the distance OP.",
+      "options": {
+        "A": "9",
+        "B": "√41",
+        "C": "√89",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "P=((2·8+1·(−4))/3,(2·7+1)/3)=(4,5), so OP=√(4²+5²)=√41.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the area of the quadrilateral with vertices (0,0), (6,0), (5,4), and (1,3) in this order.",
+      "options": {
+        "A": "15",
+        "B": "17",
+        "C": "35/2",
+        "D": "20"
+      },
+      "correct_option": "C",
+      "explanation": "Shoelace diagonal sums differ by |39−4|=35; area=35/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the distance between the parallel lines 3x−4y+8=0 and 6x−8y−5=0.",
+      "options": {
+        "A": "3/2",
+        "B": "21/5",
+        "C": "21/10",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "Divide the second equation by 2: 3x−4y−5/2=0. Distance=|8−(−5/2)|/√(9+16)=21/10.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the equation of the line through (−2,5) and perpendicular to 3x−2y=8.",
+      "options": {
+        "A": "2x+3y+11=0",
+        "B": "3x+2y−4=0",
+        "C": "2x+3y−11=0",
+        "D": "2x−3y+19=0"
+      },
+      "correct_option": "C",
+      "explanation": "Given slope is 3/2; perpendicular slope=−2/3. Through point: y−5=−2/3(x+2), which rearranges to 2x+3y−11=0.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "For what value of k are (k,1), (2,3), and (6,11) collinear?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "−1",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "Slope from (2,3) to (6,11) is 2, so line is y=2x−1. Setting y=1 gives x=1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the equation of the perpendicular bisector of the segment joining (−2,1) and (4,5).",
+      "options": {
+        "A": "2x−3y+7=0",
+        "B": "2x+3y−9=0",
+        "C": "3x+2y−9=0",
+        "D": "3x−2y+3=0"
+      },
+      "correct_option": "C",
+      "explanation": "The midpoint is (1,3); segment slope is 2/3, so the perpendicular slope is −3/2. Through (1,3): y−3=−3(x−1)/2, or 3x+2y−9=0.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A line through (1,−2) is perpendicular to the line joining (−3,4) and (5,0). Find its y-intercept.",
+      "options": {
+        "A": "−2",
+        "B": "4",
+        "C": "−4",
+        "D": "2"
+      },
+      "correct_option": "C",
+      "explanation": "The joining line slope is (0−4)/(5+3)=−1/2; a perpendicular line has slope 2. Through (1,−2): y=2x−4, so its y-intercept is −4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "Find the area of the triangle formed by x=0, y=0, and 2x+5y=20.",
+      "options": {
+        "A": "100",
+        "B": "10",
+        "C": "40",
+        "D": "20"
+      },
+      "correct_option": "D",
+      "explanation": "Intercepts are (10,0) and (0,4); area=10·4/2=20.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "coordinate-geometry",
+      "question_text": "A point P=(x,y) is equidistant from A(−1,2), B(5,2), and C(2,5). Find P.",
+      "options": {
+        "A": "(2,4)",
+        "B": "(1,3)",
+        "C": "(2,2)",
+        "D": "(3,2)"
+      },
+      "correct_option": "C",
+      "explanation": "Equidistance from A and B places P on their perpendicular bisector x=2. Equating distances to A and C gives 9+(y−2)²=(y−5)², so 6y=12 and y=2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

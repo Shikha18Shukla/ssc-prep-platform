@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "If 3y − 3/y = 5, find the value of y² + 1/y².",
+    "difficulty": "MEDIUM",
+    "expected_answer": "43/9",
+    "independent_reasoning": "3(y−1/y)=5 so y−1/y=5/3; y²+1/y²=(5/3)²+2=25/9+18/9=43/9.",
+    "source": "Algebra 02_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 2,
+    "question": "If √x − 1/√x = √6, then x² + 1/x² is equal to:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "62",
+    "independent_reasoning": "Squaring: x+1/x−2=6 so x+1/x=8; x²+1/x²=64−2=62.",
+    "source": "Algebra 02_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 3,
+    "question": "If x² + 3x + 1 = 0, then the value of x⁶ + 1/x⁶ is:",
+    "difficulty": "HARD",
+    "expected_answer": "322",
+    "independent_reasoning": "Divide by x: x+1/x=−3; x²+1/x²=9−2=7; x³+1/x³=(−3)³−3(−3)=−18; x⁶+1/x⁶=(−18)²−2=322.",
+    "source": "Algebra 02_.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 4,
+    "question": "If 5x + 1/(3x) = 5, find the value of 9x² + 1/(25x²).",
+    "difficulty": "MEDIUM",
+    "expected_answer": "7.8",
+    "independent_reasoning": "3x+1/(5x)=3; 9x²+1/(25x²)=(3x+1/(5x))²−2·3x·1/(5x)=9−6/5=7.8.",
+    "source": "Algebra 02_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 5,
+    "question": "If x + 1/x = 5, find the value of x⁵ + 1/x⁵.",
+    "difficulty": "HARD",
+    "expected_answer": "2525",
+    "independent_reasoning": "x²+1/x²=23, x³+1/x³=110; x⁵+1/x⁵=(x²+1/x²)(x³+1/x³)−(x+1/x)=23·110−5=2525.",
+    "source": "Algebra 02_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 6,
+    "question": "If x + 1/x = 3, then the value of x⁷ + 1/x⁷ is:",
+    "difficulty": "HARD",
+    "expected_answer": "843",
+    "independent_reasoning": "x²+1/x²=7, x³+1/x³=18, x⁴+1/x⁴=47; x⁷+1/x⁷=(x⁴+1/x⁴)(x³+1/x³)−(x+1/x)=47·18−3=843.",
+    "source": "Algebra 02_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 7,
+    "question": "If x² − 5x + 1 = 0, then the value of (x⁶ + x⁴ + x² + 1)/(5x³) is:",
+    "difficulty": "HARD",
+    "expected_answer": "23",
+    "independent_reasoning": "x+1/x=5; x³+1/x³=125−15=110; (x⁶+x⁴+x²+1)/(5x³)=(1/5)(x³+x+1/x+1/x³)=(1/5)(110+5)=23.",
+    "source": "Algebra 03_.pdf, PDF page 4; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 8,
+    "question": "If x + 1/x = 5, x ≠ 0, then the value of (x⁴ + 1/x²)/(x² − 3x + 1) is:",
+    "difficulty": "HARD",
+    "expected_answer": "55",
+    "independent_reasoning": "Divide numerator and denominator by x: (x³+1/x³)/(x−3+1/x)=110/(5−3)=110/2=55.",
+    "source": "Algebra 03_.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 9,
+    "question": "If x − 1/x = 5, x ≠ 0, then the value of (x⁶ + 3x³ − 1)/(x⁶ − 8x³ − 1) is:",
+    "difficulty": "HARD",
+    "expected_answer": "13/12",
+    "independent_reasoning": "Divide by x³: (x³+3−1/x³)/(x³−8−1/x³). x³−1/x³=5³+3·5=140; (140+3)/(140−8)=143/132=13/12.",
+    "source": "Algebra 03_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 10,
+    "question": "If x + 1/x = 5 then the value of (x⁴ + 3x³ + 5x² + 3x + 1)/(x⁴ + 1) is:",
+    "difficulty": "HARD",
+    "expected_answer": "43/23",
+    "independent_reasoning": "Divide by x²: (x²+1/x²+3(x+1/x)+5)/(x²+1/x²)=(23+15+5)/23=43/23.",
+    "source": "Algebra 03_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 11,
+    "question": "If x² − 3x + 1 = 0, then the value of (x⁴ + 1/x²)/(x² + 5x + 1) is:",
+    "difficulty": "HARD",
+    "expected_answer": "9/4",
+    "independent_reasoning": "x+1/x=3; divide by x: (x³+1/x³)/(x+5+1/x)=18/8=9/4.",
+    "source": "Algebra 03_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 12,
+    "question": "If x + 1/x = 8, then the value of x³ − 1/x³ is:",
+    "difficulty": "HARD",
+    "expected_answer": "63√60",
+    "independent_reasoning": "x−1/x=√(64−4)=√60; x³−1/x³=(x−1/x)³+3(x−1/x)=60√60+3√60=63√60.",
+    "source": "Algebra 03_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 13,
+    "question": "If (x + 1/x)² = 3, then the value of x³ + 1/x³ is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "0",
+    "independent_reasoning": "x+1/x=√3; x³+1/x³=(√3)³−3√3=3√3−3√3=0.",
+    "source": "Algebra 03_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 14,
+    "question": "If x + 1/x = √3, then the value of x¹³ + x¹⁹ + x¹⁰⁰ + x⁹⁴ is:",
+    "difficulty": "HARD",
+    "expected_answer": "0",
+    "independent_reasoning": "x⁶=−1, so x⁶ᵏ=−1. x¹³+x¹⁹=x¹³(1+x⁶)=0 and x¹⁰⁰+x⁹⁴=x⁹⁴(x⁶+1)=0; total 0.",
+    "source": "Algebra 03_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 15,
+    "question": "If (a + 1/a)² = 3, then the value of a³⁰ + a²⁴ + a¹⁸ + a¹² + a⁶ + 1 is:",
+    "difficulty": "HARD",
+    "expected_answer": "0",
+    "independent_reasoning": "a⁶=−1. Group: a²⁴(a⁶+1)+a¹²(a⁶+1)+(a⁶+1)=0.",
+    "source": "Algebra 03_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 16,
+    "question": "If m + 1/(m − 3) = 5, then (m − 3)⁸ + 1/(m − 3)⁸ is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2",
+    "independent_reasoning": "(m−3)+1/(m−3)=5−3=2; if t+1/t=2 then t=1, so t⁸+1/t⁸=2.",
+    "source": "_Algebra 05_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 17,
+    "question": "If x + 1/(x + 1) = 1, then (x + 1)⁵ + 1/(x + 1)⁵ is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2",
+    "independent_reasoning": "(x+1)+1/(x+1)=1+1=2; t+1/t=2 ⇒ t=1, so t⁵+1/t⁵=2.",
+    "source": "_Algebra 05_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 18,
+    "question": "If x + 1/(x − 9) = 11, then (x − 11)¹² + 1/(x − 11)¹³ is:",
+    "difficulty": "HARD",
+    "expected_answer": "0",
+    "independent_reasoning": "(x−9)+1/(x−9)=11−9=2 ⇒ x=10; (x−11)¹²+1/(x−11)¹³=(−1)¹²+1/(−1)¹³=1−1=0.",
+    "source": "_Algebra 05_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 19,
+    "question": "If (a − 3)² + (b − 4)² + (c − 9)² = 0, then √(a + b + c) is:",
+    "difficulty": "EASY",
+    "expected_answer": "4",
+    "independent_reasoning": "Each square is 0: a=3, b=4, c=9; √(3+4+9)=√16=4.",
+    "source": "_Algebra 05_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 20,
+    "question": "If (a − 1)² + (b + 2)² + (c + 1)² = 0, then 2a − 3b + 7c equals:",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "a=1, b=−2, c=−1; 2(1)−3(−2)+7(−1)=2+6−7=1.",
+    "source": "_Algebra 05_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 21,
+    "question": "If (a − 4)² + (b − 5)² + (c − 3)² = 0, then (a + b)/c is:",
+    "difficulty": "EASY",
+    "expected_answer": "3",
+    "independent_reasoning": "a=4, b=5, c=3; (4+5)/3=3.",
+    "source": "_Algebra 05_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 22,
+    "question": "If a² + b² + c² = 2(a − b − c) − 3, then 4a − 3b + 5c is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2",
+    "independent_reasoning": "Rearrange: (a−1)²+(b+1)²+(c+1)²=0 ⇒ a=1, b=−1, c=−1; 4(1)−3(−1)+5(−1)=2.",
+    "source": "_Algebra 05_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 23,
+    "question": "If a² + b² + c² + 84 = 4(a − 2b + 4c), then √(ab − bc + ca) is:",
+    "difficulty": "HARD",
+    "expected_answer": "2√10",
+    "independent_reasoning": "(a−2)²+(b+4)²+(c−8)²=0 ⇒ a=2, b=−4, c=8; ab−bc+ca=−8+32+16=40; √40=2√10.",
+    "source": "_Algebra 05_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 24,
+    "question": "If a² + b² + 49c² + 18 = 2(b − 28c − a), then (a + b − 7c) is:",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "(a+1)²+(b−1)²+(7c+4)²=0 ⇒ a=−1, b=1, c=−4/7; a+b−7c=−1+1+4=4.",
+    "source": "_Algebra 05_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 25,
+    "question": "If a + b + c = 16 and a² + b² + c² = 90, find ab + bc + ca.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "83",
+    "independent_reasoning": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca); 256=90+2S ⇒ S=83.",
+    "source": "_Algebra 05_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 26,
+    "question": "If a + b − c = 5 and ab − bc − ca = 10, then a² + b² + c² is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5",
+    "independent_reasoning": "(a+b−c)²=a²+b²+c²+2(ab−bc−ca); 25=a²+b²+c²+20 ⇒ a²+b²+c²=5.",
+    "source": "_Algebra 05_.pdf, PDF page 20; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 27,
+    "question": "If a² + b² + c² = 6.25 and ab + bc + ca = 0.52, find (a + b + c) if (a + b + c) < 0.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "−2.7",
+    "independent_reasoning": "(a+b+c)²=6.25+2(0.52)=7.29, so a+b+c=±2.7; with a+b+c<0 the value is −2.7.",
+    "source": "_Algebra 05_.pdf, PDF page 21; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 28,
+    "question": "If a⁴ + a²b² + b⁴ = 8 and a² + ab + b² = 4, then the value of ab is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "(a²+ab+b²)(a²−ab+b²)=a⁴+a²b²+b⁴; 4(a²−ab+b²)=8 ⇒ a²−ab+b²=2. Subtract: 2ab=4−2=2 ⇒ ab=1.",
+    "source": "_Algebra 06_.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 29,
+    "question": "If x + y = ±√(7 + xy) and x − y = ±√(3 − xy), find x⁴ + x²y² + y⁴.",
+    "difficulty": "HARD",
+    "expected_answer": "21",
+    "independent_reasoning": "(x+y)²=7+xy ⇒ x²+y²+xy=7; (x−y)²=3−xy ⇒ x²+y²−xy=3. Product (x²+y²+xy)(x²+y²−xy)=x⁴+x²y²+y⁴=7·3=21.",
+    "source": "_Algebra 06_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 30,
+    "question": "If x⁴ + y⁴ + x²y² = 21 and x² + y² − xy = 7, then x/y + y/x is:",
+    "difficulty": "HARD",
+    "expected_answer": "−5/2",
+    "independent_reasoning": "(x²+y²+xy)(x²+y²−xy)=21 ⇒ x²+y²+xy=3; with x²+y²−xy=7 ⇒ xy=−2, x²+y²=5; x/y+y/x=(x²+y²)/(xy)=5/(−2)=−5/2.",
+    "source": "_Algebra 06_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 31,
+    "question": "If 8x³ − 27y³ = (Ax + By)(Cx² − Dy² + 6xy), then (A + B + C − D) is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12",
+    "independent_reasoning": "8x³−27y³=(2x−3y)(4x²+6xy+9y²); A=2, B=−3, C=4, D=−9; A+B+C−D=2−3+4+9=12.",
+    "source": "_Algebra 06_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 32,
+    "question": "If (x − a)(x − b) = 1 and a − b + 5 = 0, then (x − a)³ − 1/(x − a)³ is:",
+    "difficulty": "HARD",
+    "expected_answer": "140",
+    "independent_reasoning": "x−b=1/(x−a) and (x−a)−(x−b)=b−a=5, so (x−a)−1/(x−a)=5; cube: 5³+3·5=140.",
+    "source": "_Algebra 06_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 33,
+    "question": "Simplify (x − y + z)² − (x − y − z)².",
+    "difficulty": "EASY",
+    "expected_answer": "4xz − 4yz",
+    "independent_reasoning": "Let a=x−y. (a+z)²−(a−z)²=4az=4(x−y)z=4xz−4yz.",
+    "source": "_Algebra 06_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 34,
+    "question": "If (2a + 3/a − 1) = 11, what is the value of (4a² + 9/a² − 1)?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "131",
+    "independent_reasoning": "2a+3/a=12; 4a²+9/a²=(2a+3/a)²−2·2a·(3/a)=144−12=132; minus 1 gives 131.",
+    "source": "_Algebra 06_.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 35,
+    "question": "If 16x² + y² = 48 and xy = 2 with x, y > 0, then (64x³ + y³) is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "320",
+    "independent_reasoning": "(4x+y)²=48+16=64 ⇒ 4x+y=8; 64x³+y³=(4x+y)³−3(4x)(y)(4x+y)=512−12·2·8=320.",
+    "source": "_Algebra 06_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 36,
+    "question": "If 1/(x + 1/(y + 1/z)) = 67/16, then the value of xy + z is:",
+    "difficulty": "HARD",
+    "expected_answer": "23",
+    "independent_reasoning": "67/16=4+3/16 ⇒ x=4; y+1/z=16/3=5+1/3 ⇒ y=5, z=3; xy+z=20+3=23.",
+    "source": "_Algebra 06_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 37,
+    "question": "If 13/37 = 1/(x + 1/(y + 1/z)), find the values of x, y, z respectively.",
+    "difficulty": "HARD",
+    "expected_answer": "2, 1, 11/2",
+    "independent_reasoning": "37/13=2+11/13 ⇒ x=2; 13/11=1+2/11 ⇒ y=1, z=11/2.",
+    "source": "_Algebra 06_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 38,
+    "question": "If (11 − 13x)/x + (11 − 13y)/y + (11 − 13z)/z = 5, then 1/x + 1/y + 1/z is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "4",
+    "independent_reasoning": "Each term = 11/x − 13. Sum = 11(1/x+1/y+1/z) − 39 = 5 ⇒ 11S=44 ⇒ S=4.",
+    "source": "_Algebra 06_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 39,
+    "question": "If x + 4√3/x = 5, then (x² + 7x + 4√3)/(x²(5 − x)) is:",
+    "difficulty": "HARD",
+    "expected_answer": "√3",
+    "independent_reasoning": "x²+4√3=5x ⇒ 5x−x²=4√3. Numerator x²+7x+4√3=x²+7x+5x−x²=12x; denominator x²(5−x)=x²·4√3/x=4√3x; ratio=12x/(4√3x)=3/√3=√3.",
+    "source": "_Algebra 06_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 40,
+    "question": "If a = 7 + 4√3 and b = 7 − 4√3, then 1/(a⁵ + 1) + 1/(b⁵ + 1) is:",
+    "difficulty": "HARD",
+    "expected_answer": "1",
+    "independent_reasoning": "ab=49−48=1 ⇒ b=1/a; 1/(a⁵+1)+a⁵/(1+a⁵)=(1+a⁵)/(1+a⁵)=1.",
+    "source": "_Algebra 07_.pdf, PDF page 4; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 41,
+    "question": "If x = √(19 + √13)/√(19 − √13) and y = √(19 − √13)/√(19 + √13), then 1/(x³ + 1) + 1/(y³ + 1) is:",
+    "difficulty": "HARD",
+    "expected_answer": "1",
+    "independent_reasoning": "xy=1 ⇒ y=1/x; 1/(x³+1)+x³/(1+x³)=(1+x³)/(1+x³)=1.",
+    "source": "_Algebra 07_.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 42,
+    "question": "If xᵃ · xᵇ · xᶜ = 1, then the value of a³ + b³ + c³ is:",
+    "difficulty": "EASY",
+    "expected_answer": "3abc",
+    "independent_reasoning": "x^(a+b+c)=1 ⇒ a+b+c=0 (for x≠1); then a³+b³+c³=3abc.",
+    "source": "_Algebra 07_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 43,
+    "question": "If a = 25, b = 15, c = −10, then the value of (a³ + b³ + c³ − 3abc)/((a − b)² + (b − c)² + (c − a)²) is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "15",
+    "independent_reasoning": "Numerator=(a+b+c)(a²+b²+c²−ab−bc−ca); denominator=2(a²+b²+c²−ab−bc−ca); ratio=(a+b+c)/2=(25+15−10)/2=15.",
+    "source": "_Algebra 07_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 44,
+    "question": "If a + b + c = 6, a² + b² + c² = 14 and a³ + b³ + c³ = 36, then the value of abc is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "6",
+    "independent_reasoning": "a³+b³+c³−3abc=(1/2)(a+b+c)[3(a²+b²+c²)−(a+b+c)²]=(1/2)(6)(42−36)=18; 36−3abc=18 ⇒ abc=6.",
+    "source": "_Algebra 07_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 45,
+    "question": "If x = y = 333 and z = 334, then x³ + y³ + z³ − 3xyz is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1000",
+    "independent_reasoning": "=(1/2)(x+y+z)[(x−y)²+(y−z)²+(z−x)²]=(1/2)(1000)(0+1+1)=1000.",
+    "source": "_Algebra 07_.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 46,
+    "question": "The value of [(1.2)³ + (0.8)³ + (0.7)³ − 2.016] / {(1.35)[(1.2)² + (0.8)² + (0.7)² − 0.96 − 0.84 − 0.56]} is:",
+    "difficulty": "HARD",
+    "expected_answer": "2",
+    "independent_reasoning": "Numerator=a³+b³+c³−3abc with a=1.2, b=0.8, c=0.7 (3abc=2.016), so =(a+b+c)(a²+b²+c²−ab−bc−ca)=2.7·D; denominator=1.35·D; ratio=2.7/1.35=2.",
+    "source": "_Algebra 07_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 47,
+    "question": "If x + y + z = 2 and xy + yz + zx = −11, then x³ + y³ + z³ − 3xyz is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "74",
+    "independent_reasoning": "=(x+y+z)[(x+y+z)²−3(xy+yz+zx)]=2[4−3(−11)]=2·37=74.",
+    "source": "_Algebra 07_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 48,
+    "question": "If (x + 6)³ + (2x + 3)³ + (3x + 5)³ = (3x + 18)(2x + 3)(3x + 5), then the value of x is:",
+    "difficulty": "HARD",
+    "expected_answer": "−7/3",
+    "independent_reasoning": "RHS=3(x+6)(2x+3)(3x+5), so a³+b³+c³=3abc ⇒ a+b+c=0; (x+6)+(2x+3)+(3x+5)=0 ⇒ 6x+14=0 ⇒ x=−7/3.",
+    "source": "_Algebra 07_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 49,
+    "question": "If x + y + z = 7, x² + y² + z² = 85 and x³ + y³ + z³ = 913, then the value of ∛(xyz) is:",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "x³+y³+z³−3xyz=(1/2)(x+y+z)[3(x²+y²+z²)−(x+y+z)²]=(1/2)(7)(255−49)=721; 913−3xyz=721 ⇒ xyz=64; ∛64=4.",
+    "source": "_Algebra 07_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 50,
+    "question": "If x + 1/x = 2, find x² + 1/x².",
+    "difficulty": "EASY",
+    "expected_answer": "2",
+    "independent_reasoning": "x²+1/x²=(x+1/x)²−2=4−2=2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "The sum of two numbers is 10, and their product is 21. Find the sum of their squares.",
+    "difficulty": "EASY",
+    "expected_answer": "58",
+    "independent_reasoning": "a²+b²=(a+b)²−2ab=100−42=58.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "Two numbers differ by 4, and their product is 12. Find the sum of their squares.",
+    "difficulty": "EASY",
+    "expected_answer": "40",
+    "independent_reasoning": "a²+b²=(a−b)²+2ab=16+24=40.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "If a + b = 12 and a − b = 4, evaluate a² − b².",
+    "difficulty": "EASY",
+    "expected_answer": "48",
+    "independent_reasoning": "a²−b²=(a+b)(a−b)=12·4=48.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "Given x − 1/x = 3, compute x² + 1/x².",
+    "difficulty": "EASY",
+    "expected_answer": "11",
+    "independent_reasoning": "x²+1/x²=(x−1/x)²+2=9+2=11.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "Three numbers add to zero, and the sum of their pairwise products is −5. Find the sum of their squares.",
+    "difficulty": "EASY",
+    "expected_answer": "10",
+    "independent_reasoning": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca); 0=a²+b²+c²−10 ⇒ a²+b²+c²=10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "For x > 0 with x² + 1/x² = 14, determine x + 1/x.",
+    "difficulty": "EASY",
+    "expected_answer": "4",
+    "independent_reasoning": "(x+1/x)²=x²+1/x²+2=16 ⇒ x+1/x=4 (positive).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "If a³ + b³ = 35 and a + b = 5, find ab.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "a³+b³=(a+b)³−3ab(a+b); 35=125−15ab ⇒ ab=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "If x + 1/x = 4, what is x³ + 1/x³?",
+    "difficulty": "EASY",
+    "expected_answer": "52",
+    "independent_reasoning": "x³+1/x³=(x+1/x)³−3(x+1/x)=64−12=52.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "Given a + b = 5 and ab = 6, compute a³ + b³.",
+    "difficulty": "EASY",
+    "expected_answer": "35",
+    "independent_reasoning": "a³+b³=(a+b)³−3ab(a+b)=125−90=35.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "If p + q = 7 and pq = 10, find p² + q².",
+    "difficulty": "EASY",
+    "expected_answer": "29",
+    "independent_reasoning": "p²+q²=(p+q)²−2pq=49−20=29.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "The squares of two numbers add to 25, and their product is 12. Find the square of their difference.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "(a−b)²=a²+b²−2ab=25−24=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "If a − b = 5 and a² + b² = 37, find ab.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "(a−b)²=a²+b²−2ab; 25=37−2ab ⇒ ab=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "Evaluate (a + b)² − (a − b)², given a + b = 10 and a − b = 6.",
+    "difficulty": "EASY",
+    "expected_answer": "64",
+    "independent_reasoning": "(a+b)²−(a−b)²=4ab; a=8, b=2, ab=16, so 4·16=64.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "Three numbers sum to 9, and the sum of their squares is 35. Find the sum of their pairwise products.",
+    "difficulty": "EASY",
+    "expected_answer": "23",
+    "independent_reasoning": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca); 81=35+2S ⇒ S=23.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "If a + b + c = 0, what does a³ + b³ + c³ equal?",
+    "difficulty": "EASY",
+    "expected_answer": "3abc",
+    "independent_reasoning": "When a+b+c=0, a³+b³+c³=3abc.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "Given x = 2 + √3 and y = 2 − √3, find xy.",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "xy=(2+√3)(2−√3)=4−3=1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "If x = 3 + 2√2, find x + 1/x.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "(3+2√2)(3−2√2)=9−8=1, so 1/x=3−2√2 and x+1/x=6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "Two numbers sum to 8 and differ by 2. Find their product.",
+    "difficulty": "EASY",
+    "expected_answer": "15",
+    "independent_reasoning": "ab=((a+b)²−(a−b)²)/4=(64−4)/4=15.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "What is the sum of the roots of x² − 5x + 6 = 0?",
+    "difficulty": "EASY",
+    "expected_answer": "5",
+    "independent_reasoning": "For x²−5x+6=0, sum of roots = −(−5)/1 = 5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "What is the product of the roots of x² − 7x + 12 = 0?",
+    "difficulty": "EASY",
+    "expected_answer": "12",
+    "independent_reasoning": "For x²−7x+12=0, product of roots = 12/1 = 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "Simplify (a + b)² − (a − b)².",
+    "difficulty": "EASY",
+    "expected_answer": "4ab",
+    "independent_reasoning": "(a+b)²−(a−b)²=(a²+2ab+b²)−(a²−2ab+b²)=4ab.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "Expand (x + 5)².",
+    "difficulty": "EASY",
+    "expected_answer": "x² + 10x + 25",
+    "independent_reasoning": "(x+5)²=x²+2·5·x+5²=x²+10x+25.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "If x + 1/x = 6, find (x − 1/x)².",
+    "difficulty": "EASY",
+    "expected_answer": "32",
+    "independent_reasoning": "(x−1/x)²=(x+1/x)²−4=36−4=32.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "When the sum of a number and its reciprocal is 5, what is the sum of their squares?",
+    "difficulty": "EASY",
+    "expected_answer": "23",
+    "independent_reasoning": "x²+1/x²=(x+1/x)²−2=25−2=23.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "If x + 1/x = 5, find x⁴ + 1/x⁴.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "527",
+    "independent_reasoning": "x²+1/x²=23; x⁴+1/x⁴=23²−2=529−2=527.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "If a and b satisfy a + b = 6 with ab = 8, determine a³ + b³.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "72",
+    "independent_reasoning": "a³+b³=(a+b)³−3ab(a+b)=216−144=72.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "Given x − 1/x = 4, find x³ − 1/x³.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "76",
+    "independent_reasoning": "x³−1/x³=(x−1/x)³+3(x−1/x)=64+12=76.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "Given a² + b² + c² = 29 with a + b + c = 9, find ab + bc + ca.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "26",
+    "independent_reasoning": "(a+b+c)²=a²+b²+c²+2(ab+bc+ca); 81=29+2S ⇒ S=26.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "Given that a number plus its reciprocal equals 7, find the sum of the fourth powers of the number and its reciprocal.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2207",
+    "independent_reasoning": "x²+1/x²=49−2=47; x⁴+1/x⁴=47²−2=2209−2=2207.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "If a + b = 4 and a³ + b³ = 28, find ab.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "3",
+    "independent_reasoning": "a³+b³=(a+b)³−3ab(a+b); 28=64−12ab ⇒ ab=3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "The sum of two numbers is 10 and the sum of their squares is 58. Find their product.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "21",
+    "independent_reasoning": "xy=((x+y)²−(x²+y²))/2=(100−58)/2=21.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "When a + 1/a = 3, find a³ + 1/a³.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "18",
+    "independent_reasoning": "a³+1/a³=(a+1/a)³−3(a+1/a)=27−9=18.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "Three numbers sum to 12, and their pairwise products sum to 47. Find the sum of their squares.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "50",
+    "independent_reasoning": "a²+b²+c²=(a+b+c)²−2(ab+bc+ca)=144−94=50.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "The difference between a number and its reciprocal is 5. Find the sum of their squares.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "27",
+    "independent_reasoning": "x²+1/x²=(x−1/x)²+2=25+2=27.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "The sum of the squares of two positive numbers is 34 and their product is 15. Find their sum.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "8",
+    "independent_reasoning": "(a+b)²=a²+b²+2ab=34+30=64 ⇒ a+b=8 (positive).",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "For a number t with t + 1/t = 4, find t⁵ + 1/t⁵.",
+    "difficulty": "HARD",
+    "expected_answer": "724",
+    "independent_reasoning": "t²+1/t²=14, t³+1/t³=64−12=52; t⁵+1/t⁵=(t²+1/t²)(t³+1/t³)−(t+1/t)=14·52−4=728−4=724.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "Given x + 1/x = 6, determine x⁶ + 1/x⁶.",
+    "difficulty": "HARD",
+    "expected_answer": "39202",
+    "independent_reasoning": "x²+1/x²=34, x³+1/x³=216−18=198; x⁶+1/x⁶=198²−2=39204−2=39202.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "If a + b + c = 8, a² + b² + c² = 30 and ab + bc + ca = 17, find a³ + b³ + c³ − 3abc.",
+    "difficulty": "HARD",
+    "expected_answer": "104",
+    "independent_reasoning": "=(a+b+c)(a²+b²+c²−ab−bc−ca)=8(30−17)=8·13=104.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "If x − 1/x = √5, find x³ − 1/x³.",
+    "difficulty": "HARD",
+    "expected_answer": "8√5",
+    "independent_reasoning": "x³−1/x³=(x−1/x)³+3(x−1/x)=(√5)³+3√5=5√5+3√5=8√5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "Two numbers have sum 12 and the sum of their cubes is 936. Find their product.",
+    "difficulty": "HARD",
+    "expected_answer": "22",
+    "independent_reasoning": "a³+b³=(a+b)³−3ab(a+b); 936=1728−36ab ⇒ ab=22.",
+    "source": "Original SSC-style practice question"
+  }
+]

@@ -1,0 +1,1714 @@
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For 15 sin²θ + 10 cos²θ, what is the maximum value for real θ?",
+      "options": {
+        "A": "5",
+        "B": "25",
+        "C": "15",
+        "D": "10"
+      },
+      "correct_option": "C",
+      "explanation": "Write 10 + 5sin²θ. Since 0 ≤ sin²θ ≤ 1, the maximum is 15.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 13; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For 15 sin²θ + 10 cos²θ, what is the minimum value?",
+      "options": {
+        "A": "5",
+        "B": "10",
+        "C": "15",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "explanation": "Write 10 + 5sin²θ; its minimum occurs at sin²θ=0 and is 10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 13; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the greatest value of 65 sin²θ + 43 cos²θ.",
+      "options": {
+        "A": "108",
+        "B": "22",
+        "C": "43",
+        "D": "65"
+      },
+      "correct_option": "D",
+      "explanation": "This is 43 + 22sin²θ; the maximum occurs at sin²θ=1 and equals 65.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 14; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the least value of 65 sin²θ + 43 cos²θ.",
+      "options": {
+        "A": "65",
+        "B": "108",
+        "C": "43",
+        "D": "22"
+      },
+      "correct_option": "C",
+      "explanation": "This is a weighted average of 65 and 43, so its minimum is 43.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 14; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "What is the maximum of 4sin²θ + 7cos²θ + 5?",
+      "options": {
+        "A": "9",
+        "B": "7",
+        "C": "12",
+        "D": "16"
+      },
+      "correct_option": "C",
+      "explanation": "Let u=sin²θ∈[0,1]. The expression is 12−3u, whose maximum is 12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 15; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "What is the minimum of 4sin²θ + 7cos²θ + 5?",
+      "options": {
+        "A": "16",
+        "B": "12",
+        "C": "5",
+        "D": "9"
+      },
+      "correct_option": "D",
+      "explanation": "The expression is 12−3sin²θ; its minimum is attained at sin²θ=1 and equals 9.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 15; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The minimum of 4sinθ + 3cosθ over real θ is:",
+      "options": {
+        "A": "−7",
+        "B": "5",
+        "C": "−5",
+        "D": "−1"
+      },
+      "correct_option": "C",
+      "explanation": "A sinθ+B cosθ ranges from −√(A²+B²) to +√(A²+B²); here √(16+9)=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 18; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The maximum of 7cosθ + 3sinθ over real θ is:",
+      "options": {
+        "A": "√10",
+        "B": "−√58",
+        "C": "√58",
+        "D": "10"
+      },
+      "correct_option": "C",
+      "explanation": "The maximum is the amplitude √(7²+3²)=√58.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 19; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the difference between maximum and minimum of 15cosθ − 8sinθ + 5.",
+      "options": {
+        "A": "22",
+        "B": "17",
+        "C": "12",
+        "D": "34"
+      },
+      "correct_option": "D",
+      "explanation": "The sinusoidal amplitude is √(15²+8²)=17; the constant shift cancels, so range width is 34.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 20; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x in [0,π/2], the greatest value of 81^(sin x)·27^(cos x) is:",
+      "options": {
+        "A": "3⁵",
+        "B": "3³",
+        "C": "3⁴",
+        "D": "3⁷"
+      },
+      "correct_option": "A",
+      "explanation": "Rewrite as 3^(4sin x+3cos x). The exponent maximum is √(4²+3²)=5 on this interval.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 21; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the maximum of sin x cos x is:",
+      "options": {
+        "A": "1",
+        "B": "0",
+        "C": "1/2",
+        "D": "1/4"
+      },
+      "correct_option": "C",
+      "explanation": "sin x cos x=½sin2x, whose maximum is ½.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 24; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the minimum of sin x cos x is:",
+      "options": {
+        "A": "0",
+        "B": "−1",
+        "C": "−1/2",
+        "D": "1/2"
+      },
+      "correct_option": "C",
+      "explanation": "sin x cos x=½sin2x, whose minimum is −½.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 24; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The maximum value of sin⁴θ cos⁴θ is:",
+      "options": {
+        "A": "1/16",
+        "B": "1/256",
+        "C": "1/8",
+        "D": "1/64"
+      },
+      "correct_option": "A",
+      "explanation": "Let t=sin²θcos²θ≤1/4. Then sin⁴θcos⁴θ=t²≤1/16, attained when sin²θ=cos²θ=1/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 25; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The minimum value of sin⁴θ cos⁴θ is:",
+      "options": {
+        "A": "0",
+        "B": "1/16",
+        "C": "1/256",
+        "D": "1/4"
+      },
+      "correct_option": "A",
+      "explanation": "At θ=0 (or π/2), one factor is zero; the product is nonnegative, so minimum 0.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 25; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For positive θ where tanθ is defined, the least value of tan²θ + cot²θ is:",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "0"
+      },
+      "correct_option": "C",
+      "explanation": "For u=tan²θ>0, u+1/u≥2, with equality u=1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 31; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the least value of 16tan²θ + 9cot²θ where tanθ≠0.",
+      "options": {
+        "A": "12",
+        "B": "24",
+        "C": "7",
+        "D": "25"
+      },
+      "correct_option": "B",
+      "explanation": "Set u=tan²θ>0. By AM-GM, 16u+9/u≥2√144=24, attained at u=3/4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Maximum and  Minimum Value.pdf, PDF page 30; exam/year not stated (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the minimum of x² − 8x + 19 is:",
+      "options": {
+        "A": "4",
+        "B": "19",
+        "C": "3",
+        "D": "−3"
+      },
+      "correct_option": "C",
+      "explanation": "Complete the square: (x−4)²+3, so the minimum is 3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "What is the greatest value of −2x² + 12x − 17 for real x?",
+      "options": {
+        "A": "1",
+        "B": "−1",
+        "C": "17",
+        "D": "0"
+      },
+      "correct_option": "A",
+      "explanation": "The vertex is at x=3; substitution gives −18+36−17=1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The least value of 3x² + 12x + 14 over the reals is:",
+      "options": {
+        "A": "−2",
+        "B": "2",
+        "C": "14",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "3x²+12x+14=3(x+2)²+2, hence the minimum is 2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the maximum of −4(x+1)² + 9.",
+      "options": {
+        "A": "5",
+        "B": "9",
+        "C": "−4",
+        "D": "13"
+      },
+      "correct_option": "B",
+      "explanation": "The squared term is nonnegative, so −4(x+1)²≤0; equality at x=−1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If x>0, the minimum value of 2x + 8/x is:",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "8",
+        "D": "4"
+      },
+      "correct_option": "C",
+      "explanation": "AM-GM gives 2x+8/x≥2√16=8, with equality at x=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For positive t, the least value of 5t + 20/t is:",
+      "options": {
+        "A": "10",
+        "B": "25",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "D",
+      "explanation": "AM-GM gives 5t+20/t≥2√100=20, attained at t=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The minimum of y² + 10y + 29 for real y equals:",
+      "options": {
+        "A": "4",
+        "B": "29",
+        "C": "9",
+        "D": "−4"
+      },
+      "correct_option": "A",
+      "explanation": "y²+10y+29=(y+5)²+4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real u, what is the maximum of −3u² − 6u + 2?",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "5",
+        "D": "−1"
+      },
+      "correct_option": "C",
+      "explanation": "Rewrite as −3(u+1)²+5; the maximum is 5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Given sin²θ+cos²θ=1, the maximum of 8sin²θ+2cos²θ is:",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "8",
+        "D": "10"
+      },
+      "correct_option": "C",
+      "explanation": "The expression is 2+6sin²θ, whose maximum is 8.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For every real θ, the minimum of 11cos²θ + 6sin²θ is:",
+      "options": {
+        "A": "6",
+        "B": "17",
+        "C": "11",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "This is a weighted average of 11 and 6; it reaches 6 when cosθ=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "What is the minimum value of (3x−2)² + 7?",
+      "options": {
+        "A": "9",
+        "B": "0",
+        "C": "5",
+        "D": "7"
+      },
+      "correct_option": "D",
+      "explanation": "The square is at least zero and vanishes at x=2/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, find the least value of x + 16/x.",
+      "options": {
+        "A": "17",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "correct_option": "C",
+      "explanation": "AM-GM gives x+16/x≥2√16=8, equality at x=4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The maximum of 6 − (x−5)² for real x is:",
+      "options": {
+        "A": "11",
+        "B": "5",
+        "C": "6",
+        "D": "−6"
+      },
+      "correct_option": "C",
+      "explanation": "Subtracting a nonnegative square gives a value at most 6, attained at x=5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the least value of 2x² − 4x + 7 is:",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "−5",
+        "D": "5"
+      },
+      "correct_option": "D",
+      "explanation": "2x²−4x+7=2(x−1)²+5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For positive a, the minimum of 3a + 12/a is:",
+      "options": {
+        "A": "9",
+        "B": "6",
+        "C": "15",
+        "D": "12"
+      },
+      "correct_option": "D",
+      "explanation": "AM-GM gives 3a+12/a≥2√36=12, with equality at a=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the greatest value of −(2x+1)² + 4.",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "−1",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "The negative square is at most zero, attained when x=−1/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The minimum value of x² + 2x + 8 over real x is:",
+      "options": {
+        "A": "7",
+        "B": "9",
+        "C": "8",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "x²+2x+8=(x+1)²+7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For 0≤θ≤π/2, what is the greatest value of 3sin²θ+9cos²θ?",
+      "options": {
+        "A": "6",
+        "B": "3",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "explanation": "The expression is 3+6cos²θ≤9, with equality at θ=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If x>0, the least possible value of 7x + 28/x is:",
+      "options": {
+        "A": "21",
+        "B": "28",
+        "C": "14",
+        "D": "35"
+      },
+      "correct_option": "B",
+      "explanation": "AM-GM yields a lower bound 2√(196)=28, attained at x=2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the maximum of −5x² + 20x − 16 is:",
+      "options": {
+        "A": "16",
+        "B": "4",
+        "C": "−4",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "The vertex is x=2; the value is −20+40−16=4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "What is the minimum of 4(x−3)² − 2?",
+      "options": {
+        "A": "0",
+        "B": "−6",
+        "C": "2",
+        "D": "−2"
+      },
+      "correct_option": "D",
+      "explanation": "The square is nonnegative and can be zero, so the minimum is −2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, determine the least value of 9x + 1/x.",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "9",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "By AM-GM, 9x+1/x≥2√9=6, with equality at x=1/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The minimum of 5x² + 10x + 8 over all real x is:",
+      "options": {
+        "A": "8",
+        "B": "−3",
+        "C": "5",
+        "D": "3"
+      },
+      "correct_option": "D",
+      "explanation": "5x²+10x+8=5(x+1)²+3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the least value of 4sin²θ + 13cos²θ is:",
+      "options": {
+        "A": "13",
+        "B": "17",
+        "C": "9",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "It equals 4+9cos²θ, so the minimum 4 occurs when cosθ=0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The range of 5sinθ − 12cosθ, for real θ, is:",
+      "options": {
+        "A": "[−17,17]",
+        "B": "[−13, 13]",
+        "C": "[−5,5]",
+        "D": "[−12,12]"
+      },
+      "correct_option": "B",
+      "explanation": "The amplitude is √(25+144)=13, so the range is [−13,13].",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the least value of 6x + 24/x for x>0.",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "18",
+        "D": "30"
+      },
+      "correct_option": "A",
+      "explanation": "AM-GM gives 2√(6·24)=24, with equality at x=2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the minimum of 3x + 5/x is:",
+      "options": {
+        "A": "8",
+        "B": "2√15",
+        "C": "√15",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "explanation": "AM-GM gives 3x+5/x≥2√15; equality when 3x=5/x.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If x+y=12 for real x,y, the minimum of x²+y² is:",
+      "options": {
+        "A": "36",
+        "B": "144",
+        "C": "24",
+        "D": "72"
+      },
+      "correct_option": "D",
+      "explanation": "For fixed sum, x²+y²≥(x+y)²/2=72, equality at x=y=6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x,y with x+y=10, what is the least value of 2x²+2y²?",
+      "options": {
+        "A": "200",
+        "B": "20",
+        "C": "100",
+        "D": "50"
+      },
+      "correct_option": "C",
+      "explanation": "x²+y²≥(x+y)²/2=50; doubling gives the minimum 100 at x=y=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The minimum value of 4sin²θ + 9cos²θ is:",
+      "options": {
+        "A": "5",
+        "B": "13",
+        "C": "9",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "It is 4+5cos²θ, whose minimum 4 is attained when cosθ=0.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The greatest value of 2sinθ + 5cosθ over real θ equals:",
+      "options": {
+        "A": "√29",
+        "B": "−√29",
+        "C": "7",
+        "D": "√21"
+      },
+      "correct_option": "A",
+      "explanation": "The maximum amplitude is √(2²+5²)=√29.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, what is the minimum of 8cosθ − 15sinθ?",
+      "options": {
+        "A": "−15",
+        "B": "17",
+        "C": "−7",
+        "D": "−17"
+      },
+      "correct_option": "D",
+      "explanation": "The amplitude is √(64+225)=17, so the minimum is −17.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, find the least value of 10x + 40/x.",
+      "options": {
+        "A": "30",
+        "B": "50",
+        "C": "20",
+        "D": "40"
+      },
+      "correct_option": "D",
+      "explanation": "AM-GM gives 2√400=40, attained at x=2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Given x−y=8, the minimum of x²+y² over real x,y is:",
+      "options": {
+        "A": "64",
+        "B": "8",
+        "C": "16",
+        "D": "32"
+      },
+      "correct_option": "D",
+      "explanation": "For fixed difference, the sum of squares is least at x=4,y=−4, giving 32.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the maximum of 9sin²θ + 4cos²θ is:",
+      "options": {
+        "A": "4",
+        "B": "9",
+        "C": "13",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "Since sin²θ+cos²θ=1, the expression is 4+5sin²θ≤9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The maximum of 12sinθ + 5cosθ over all real θ is:",
+      "options": {
+        "A": "17",
+        "B": "13",
+        "C": "−13",
+        "D": "7"
+      },
+      "correct_option": "B",
+      "explanation": "Its amplitude is √(12²+5²)=13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Determine the lower bound of 2x + 18/x when x is positive.",
+      "options": {
+        "A": "6",
+        "B": "10",
+        "C": "20",
+        "D": "12"
+      },
+      "correct_option": "D",
+      "explanation": "AM-GM gives 2√36=12, attained at x=3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If a+b=14, the least possible value of a²+b² is:",
+      "options": {
+        "A": "49",
+        "B": "98",
+        "C": "28",
+        "D": "196"
+      },
+      "correct_option": "B",
+      "explanation": "a²+b²≥(a+b)²/2=98, equality at a=b=7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the range of 9cosθ + 12sinθ is:",
+      "options": {
+        "A": "[−21,21]",
+        "B": "[−12,12]",
+        "C": "[−15, 15]",
+        "D": "[0,15]"
+      },
+      "correct_option": "C",
+      "explanation": "Amplitude √(81+144)=15, so the range is [−15,15].",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If x>0, the minimum of 7x + 3/x is:",
+      "options": {
+        "A": "2√21",
+        "B": "√21",
+        "C": "10",
+        "D": "21"
+      },
+      "correct_option": "A",
+      "explanation": "AM-GM gives 2√(7·3)=2√21, equality when 7x=3/x.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the least value of 5sin²θ + 11cos²θ is:",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "16",
+        "D": "11"
+      },
+      "correct_option": "B",
+      "explanation": "The expression is 5+6cos²θ, with minimum 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For positive x, what is the minimum of 4x + 25/x?",
+      "options": {
+        "A": "29",
+        "B": "10",
+        "C": "15",
+        "D": "20"
+      },
+      "correct_option": "D",
+      "explanation": "By AM-GM it is at least 2√100=20, attained at x=5/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "With p+q=6, the minimum of 3p²+3q² is:",
+      "options": {
+        "A": "27",
+        "B": "108",
+        "C": "18",
+        "D": "54"
+      },
+      "correct_option": "D",
+      "explanation": "p²+q²≥36/2=18; multiplying by 3 gives 54.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "The maximum value of 20sinθ − 21cosθ is:",
+      "options": {
+        "A": "−29",
+        "B": "29",
+        "C": "41",
+        "D": "1"
+      },
+      "correct_option": "B",
+      "explanation": "The amplitude is √(400+441)=29.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the least value of 12x + 3/x equals:",
+      "options": {
+        "A": "12",
+        "B": "9",
+        "C": "15",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "AM-GM gives 2√36=12, reached when x=1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If u+v=18, determine the smallest value of u²+v².",
+      "options": {
+        "A": "162",
+        "B": "81",
+        "C": "324",
+        "D": "36"
+      },
+      "correct_option": "A",
+      "explanation": "u²+v²≥(u+v)²/2=162, attained at u=v=9.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, what is the minimum of 7cosθ + 24sinθ?",
+      "options": {
+        "A": "−25",
+        "B": "−17",
+        "C": "−24",
+        "D": "25"
+      },
+      "correct_option": "A",
+      "explanation": "Amplitude √(49+576)=25; the minimum is −25.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Find the greatest value of 3sinθ − 4cosθ for real θ.",
+      "options": {
+        "A": "7",
+        "B": "−5",
+        "C": "5",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "The amplitude is √(9+16)=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the minimum of 5x+45/x is:",
+      "options": {
+        "A": "50",
+        "B": "15",
+        "C": "25",
+        "D": "30"
+      },
+      "correct_option": "D",
+      "explanation": "AM-GM gives 2√225=30, attained at x=3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the least value of 16sin²θ + 25cos²θ equals:",
+      "options": {
+        "A": "25",
+        "B": "16",
+        "C": "41",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "explanation": "The expression is 16+9cos²θ and reaches 16 at cosθ=0.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the minimum of (x+4)²/x is:",
+      "options": {
+        "A": "12",
+        "B": "16",
+        "C": "4",
+        "D": "8"
+      },
+      "correct_option": "B",
+      "explanation": "Expand to x+8+16/x. AM-GM gives x+16/x≥8, hence the minimum 16, at x=4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the least value of (x²+9)/x is:",
+      "options": {
+        "A": "3",
+        "B": "9",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "explanation": "The expression is x+9/x≥2√9=6, attained at x=3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If x+y=8 and x,y are real, the minimum of x²+2y² is:",
+      "options": {
+        "A": "16",
+        "B": "128/3",
+        "C": "32",
+        "D": "64"
+      },
+      "correct_option": "B",
+      "explanation": "Set y=8−x; differentiating 3x²−32x+128 gives x=16/3,y=8/3 and value 128/3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the least value of 2x² + 8/x is:",
+      "options": {
+        "A": "6·2^(1/3)",
+        "B": "8",
+        "C": "4·2^(2/3)",
+        "D": "6·2^(2/3)"
+      },
+      "correct_option": "D",
+      "explanation": "Differentiate: 4x−8/x²=0 gives x³=2. At this point 8/x=4x², so the minimum is 6x²=6·2^(2/3). The expression tends to infinity at both domain ends.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the maximum of sinθ+cosθ+sinθcosθ is:",
+      "options": {
+        "A": "2",
+        "B": "(1+2√2)/2",
+        "C": "3/2",
+        "D": "5/4"
+      },
+      "correct_option": "B",
+      "explanation": "Let u=sinθ+cosθ∈[−√2,√2]; then sc=(u²−1)/2 and the expression is (u²+2u−1)/2. It is convex, so the maximum is at an endpoint; u=√2 gives (1+2√2)/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the minimum of 3sin²θ+4cos²θ−2sinθcosθ is:",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "(7+√5)/2",
+        "D": "(7−√5)/2"
+      },
+      "correct_option": "D",
+      "explanation": "The quadratic form matrix has eigenvalues (7±√5)/2; the minimum eigenvalue is attained by a unit vector (sinθ,cosθ).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the minimum of 5sin²θ+5cos²θ+6sinθcosθ is:",
+      "options": {
+        "A": "−1",
+        "B": "5",
+        "C": "2",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "explanation": "Use sin²+cos²=1 and |sinθcosθ|≤1/2; the minimum is 5−3=2, attained when sinθcosθ=−1/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, find the minimum of x² + 4/x² + 4.",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "9",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "Let t=x²>0. t+4/t≥4, so the expression is at least 8, attained at t=2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the maximum of (2x+3)/(x²+1) is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "(3+√13)/2",
+        "D": "√13"
+      },
+      "correct_option": "C",
+      "explanation": "The symmetric matrix for the numerator is [[0,1],[1,3]] and the denominator is the identity. Its largest eigenvalue solves λ²−3λ−1=0, giving (3+√13)/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, what is the least value of (x²+16)/x?",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "4",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "This equals x+16/x≥2√16=8, attained at x=4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "Given x+y=5, what is the least possible value of x²+4y²?",
+      "options": {
+        "A": "4",
+        "B": "5",
+        "C": "20",
+        "D": "25/4"
+      },
+      "correct_option": "C",
+      "explanation": "Cauchy gives (x+y)²≤(1+1/4)(x²+4y²), so x²+4y²≥25/(5/4)=20, attained when x=4y.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, find the maximum of sin²θ+2sinθcosθ+3cos²θ.",
+      "options": {
+        "A": "4",
+        "B": "2−√2",
+        "C": "3",
+        "D": "2+√2"
+      },
+      "correct_option": "D",
+      "explanation": "The symmetric matrix [[1,1],[1,3]] has eigenvalues 2±√2; the maximum is 2+√2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, determine the minimum of (x²+1)/(x²−2x+2).",
+      "options": {
+        "A": "1/2",
+        "B": "1",
+        "C": "(3+√5)/2",
+        "D": "(3−√5)/2"
+      },
+      "correct_option": "D",
+      "explanation": "The generalized eigenvalue equation det([[1,0],[0,1]]−λ[[1,−1],[-1,2]])=0 gives λ²−3λ+1=0; the smaller root is (3−√5)/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the smallest value of 3x² + 12/x² is:",
+      "options": {
+        "A": "15",
+        "B": "6",
+        "C": "12",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "explanation": "Let t=x²>0. 3t+12/t≥2√36=12, equality at t=2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "If x,y>0 and xy=16, the least value of x+4y is:",
+      "options": {
+        "A": "8",
+        "B": "16",
+        "C": "12",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "explanation": "Substitute y=16/x: minimize x+64/x≥2√64=16, attained at x=8,y=2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the minimum of 2sin²θ+2cos²θ+3sinθcosθ is:",
+      "options": {
+        "A": "−1/2",
+        "B": "2",
+        "C": "1/2",
+        "D": "3/2"
+      },
+      "correct_option": "C",
+      "explanation": "The first two terms total 2; since sinθcosθ≥−1/2, the minimum is 2−3/2=1/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, find the minimum of (x²+1)(1+1/x²).",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "Expand to x²+2+1/x²; since x²+1/x²≥2, the minimum is 4 at x=1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, the maximum of 2sinθcosθ−cos²θ is:",
+      "options": {
+        "A": "(√5+1)/2",
+        "B": "0",
+        "C": "1",
+        "D": "(√5−1)/2"
+      },
+      "correct_option": "D",
+      "explanation": "This quadratic form has matrix [[0,1],[1,−1]], whose largest eigenvalue solves λ²+λ−1=0, namely (√5−1)/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the least value of (x+1)(x+9)/x is:",
+      "options": {
+        "A": "16",
+        "B": "12",
+        "C": "10",
+        "D": "18"
+      },
+      "correct_option": "A",
+      "explanation": "Expand to x+10+9/x; AM-GM gives x+9/x≥6, so the minimum is 16 at x=3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real x, the maximum value of (3x²+2x+1)/(x²+1) is:",
+      "options": {
+        "A": "2−√2",
+        "B": "2+√2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "explanation": "The generalized eigenvalues satisfy det([[3−λ,1],[1,1−λ]])=0, or λ²−4λ+2=0; largest is 2+√2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x,y>0 with x+y=10, the minimum of 1/x+1/y is:",
+      "options": {
+        "A": "2/5",
+        "B": "1/2",
+        "C": "1/5",
+        "D": "4/5"
+      },
+      "correct_option": "A",
+      "explanation": "1/x+1/y=(x+y)/(xy); xy≤25, hence the minimum is 10/25=2/5 at x=y=5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For positive x, determine the minimum of x² + 9/x.",
+      "options": {
+        "A": "3·∛3",
+        "B": "3·(9/2)^(2/3)",
+        "C": "6",
+        "D": "9/2"
+      },
+      "correct_option": "B",
+      "explanation": "Differentiate: 2x−9/x²=0 gives x³=9/2. At the stationary point 9/x=2x², so the value is 3x²=3·(9/2)^(2/3); the expression diverges at 0+ and infinity.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For real θ, what is the minimum of 4sin²θ+4cos²θ+4sinθcosθ?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "6",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "The first two terms total 4; since sinθcosθ≥−1/2, the minimum is 4−2=2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value",
+      "question_text": "For x>0, the minimum of x² + 25/x² is:",
+      "options": {
+        "A": "12",
+        "B": "25",
+        "C": "10",
+        "D": "5"
+      },
+      "correct_option": "C",
+      "explanation": "Let t=x²>0; t+25/t≥2√25=10, equality at t=5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "Find the HCF of 35 and 30.",
+    "difficulty": "EASY",
+    "expected_answer": "5",
+    "independent_reasoning": "35 = 5·7 and 30 = 2·3·5, so the common factor is 5.",
+    "source": "HCF and LCM 01_.pdf, PDF page 4; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 2,
+    "question": "Two numbers are in the ratio 15 : 11. If their HCF is 13, find the numbers.",
+    "difficulty": "EASY",
+    "expected_answer": "195 and 143",
+    "independent_reasoning": "The numbers are 13·15 = 195 and 13·11 = 143, and gcd(195,143) = 13.",
+    "source": "HCF and LCM 01_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 3,
+    "question": "Find the HCF of 110, 180 and 540.",
+    "difficulty": "EASY",
+    "expected_answer": "10",
+    "independent_reasoning": "110 = 2·5·11, 180 = 2²·3²·5, 540 = 2²·3³·5; the common part is 2·5 = 10.",
+    "source": "HCF and LCM 01_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 4,
+    "question": "Find the HCF of 240, 280 and 560.",
+    "difficulty": "EASY",
+    "expected_answer": "40",
+    "independent_reasoning": "240 = 2⁴·3·5, 280 = 2³·5·7, 560 = 2⁴·5·7; the common part is 2³·5 = 40.",
+    "source": "HCF and LCM 01_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 5,
+    "question": "The least number which is exactly divisible by 5, 6, 8, 10 and 12 is:",
+    "difficulty": "EASY",
+    "expected_answer": "120",
+    "independent_reasoning": "5, 6 = 2·3, 8 = 2³, 10 = 2·5, 12 = 2²·3; LCM = 2³·3·5 = 120.",
+    "source": "HCF and LCM 01_.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 6,
+    "question": "The HCF of two numbers is 5 and their LCM is 120. How many pairs of such numbers can be formed?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2",
+    "independent_reasoning": "Write the numbers as 5m and 5n with gcd(m,n) = 1 and mn = 120/5 = 24; the coprime factor pairs are (1,24) and (3,8), giving 2 pairs.",
+    "source": "HCF and LCM 01_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 7,
+    "question": "The LCM of two numbers is 45 times their HCF. If one of the numbers is 125 and the sum of the HCF and the LCM is 1150, the other number is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "225",
+    "independent_reasoning": "L = 45H and H + L = 1150 ⇒ 46H = 1150 ⇒ H = 25, L = 1125; the other number is H·L/125 = 28125/125 = 225.",
+    "source": "HCF and LCM 01_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 8,
+    "question": "The LCM of two numbers is 495 and their HCF is 5. If the sum of the numbers is 100, find the difference between the two numbers.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "10",
+    "independent_reasoning": "Product = HCF·LCM = 2475; the numbers are the roots of t² − 100t + 2475 = 0, giving 55 and 45, so the difference is 10.",
+    "source": "HCF and LCM 01_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 9,
+    "question": "Find the LCM of 15, 24, 32 and 45.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1440",
+    "independent_reasoning": "15 = 3·5, 24 = 2³·3, 32 = 2⁵, 45 = 3²·5; LCM = 2⁵·3²·5 = 1440.",
+    "source": "HCF and LCM 02_.pdf, PDF page 4; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 10,
+    "question": "Find the LCM of 48, 50, 98, 54 and 72.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2⁴ × 3³ × 5² × 7²",
+    "independent_reasoning": "Taking the highest power of each prime: 2⁴·3³·5²·7².",
+    "source": "HCF and LCM 02_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 11,
+    "question": "Find the LCM of 3⁴ × 5 × 7² × 11, 3³ × 5 × 11² and 3² × 5³ × 11⁴.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "3⁴ × 5³ × 7² × 11⁴",
+    "independent_reasoning": "Highest powers are 3⁴, 5³, 7² and 11⁴, so LCM = 3⁴·5³·7²·11⁴.",
+    "source": "HCF and LCM 02_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 12,
+    "question": "Find the HCF of 1/2, 3/4, 5/6, 7/8 and 9/10.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1/120",
+    "independent_reasoning": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/120.",
+    "source": "HCF and LCM 02_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 13,
+    "question": "What is the HCF of 7/16, 21/32 and 49/8?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "7/32",
+    "independent_reasoning": "HCF = HCF(7,21,49)/LCM(16,32,8) = 7/32.",
+    "source": "HCF and LCM 02_.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 14,
+    "question": "The LCM of 1/6, 7/27, 5/9, 4/15 and 8/3 is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "280/3",
+    "independent_reasoning": "LCM = LCM(1,7,5,4,8)/HCF(6,27,9,15,3) = 280/3.",
+    "source": "HCF and LCM 02_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 15,
+    "question": "Find the difference between the LCM and the HCF of 4/7, 5/14 and 9/35.",
+    "difficulty": "HARD",
+    "expected_answer": "25.7",
+    "independent_reasoning": "LCM = LCM(4,5,9)/HCF(7,14,35) = 180/7 and HCF = HCF(4,5,9)/LCM(7,14,35) = 1/70; difference = 180/7 − 1/70 = 1799/70 = 25.7.",
+    "source": "HCF and LCM 02_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 16,
+    "question": "Find the least number which is divisible by 2, 3, 4, 5 and 6, leaves a remainder 1 in each case, and is completely divisible by 7.",
+    "difficulty": "HARD",
+    "expected_answer": "301",
+    "independent_reasoning": "LCM(2,3,4,5,6) = 60; the least 60k + 1 divisible by 7 is 301 (301 = 7·43).",
+    "source": "HCF and LCM 02_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 17,
+    "question": "Find the least number which when divided by 5, 6, 7 and 8 leaves a remainder 3 in each case, but when divided by 9 leaves no remainder.",
+    "difficulty": "HARD",
+    "expected_answer": "1683",
+    "independent_reasoning": "LCM(5,6,7,8) = 840; 840k + 3 is the first value divisible by 9 at k = 2, giving 1683.",
+    "source": "HCF and LCM 02_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 18,
+    "question": "Three different containers contain 496 L, 403 L and 713 L of a milk-and-water mixture. What is the biggest measure of a container that can measure all three quantities exactly?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "31 L",
+    "independent_reasoning": "496 = 2⁴·31, 403 = 13·31 and 713 = 23·31, so HCF = 31 L.",
+    "source": "HCF and LCM 02_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 19,
+    "question": "Six bells ring after 2, 4, 6, 8, 10 and 12 seconds respectively. How many times will they ring simultaneously in 30 minutes?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "16",
+    "independent_reasoning": "LCM(2,4,6,8,10,12) = 120 s = 2 min; in 30 min they ring together 30/2 = 15 times plus the initial toll = 16 times.",
+    "source": "HCF and LCM 02_.pdf, PDF page 20; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 20,
+    "question": "Find the HCF of 12 and 18.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "12 = 2²·3 and 18 = 2·3², so HCF = 2·3 = 6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 21,
+    "question": "Find the LCM of 6 and 8.",
+    "difficulty": "EASY",
+    "expected_answer": "24",
+    "independent_reasoning": "6 = 2·3 and 8 = 2³, so LCM = 2³·3 = 24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 22,
+    "question": "What is the HCF of 45 and 75?",
+    "difficulty": "EASY",
+    "expected_answer": "15",
+    "independent_reasoning": "45 = 3²·5 and 75 = 3·5², so HCF = 3·5 = 15.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 23,
+    "question": "What is the LCM of 12 and 15?",
+    "difficulty": "EASY",
+    "expected_answer": "60",
+    "independent_reasoning": "12 = 2²·3 and 15 = 3·5, so LCM = 2²·3·5 = 60.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 24,
+    "question": "Find the HCF of 14, 28 and 42.",
+    "difficulty": "EASY",
+    "expected_answer": "14",
+    "independent_reasoning": "14 = 2·7, 28 = 2²·7 and 42 = 2·3·7, so HCF = 2·7 = 14.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 25,
+    "question": "Find the LCM of 4, 6 and 8.",
+    "difficulty": "EASY",
+    "expected_answer": "24",
+    "independent_reasoning": "LCM = 2³·3 = 24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 26,
+    "question": "The product of two numbers is 216 and their HCF is 6. Find their LCM.",
+    "difficulty": "EASY",
+    "expected_answer": "36",
+    "independent_reasoning": "HCF·LCM = product, so LCM = 216/6 = 36.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 27,
+    "question": "The HCF of two numbers is 9 and their LCM is 108. If one number is 27, find the other.",
+    "difficulty": "EASY",
+    "expected_answer": "36",
+    "independent_reasoning": "Other = HCF·LCM / 27 = 9·108/27 = 36.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 28,
+    "question": "Three bells toll at intervals of 4, 6 and 8 minutes respectively. If they start tolling together, after how many minutes will they next toll together?",
+    "difficulty": "EASY",
+    "expected_answer": "24",
+    "independent_reasoning": "They toll together after LCM(4,6,8) = 24 minutes.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 29,
+    "question": "Find the greatest number that divides both 24 and 36 exactly.",
+    "difficulty": "EASY",
+    "expected_answer": "12",
+    "independent_reasoning": "HCF(24,36) = 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 30,
+    "question": "Find the smallest number that is exactly divisible by 6, 9 and 12.",
+    "difficulty": "EASY",
+    "expected_answer": "36",
+    "independent_reasoning": "LCM(6,9,12) = 2²·3² = 36.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 31,
+    "question": "Find the largest number that divides 70 and 125, leaving remainders 5 and 8 respectively.",
+    "difficulty": "EASY",
+    "expected_answer": "13",
+    "independent_reasoning": "Required number = HCF(70−5, 125−8) = HCF(65,117) = 13.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 32,
+    "question": "Two numbers are in the ratio 3 : 4 and their HCF is 5. Find the numbers.",
+    "difficulty": "EASY",
+    "expected_answer": "15 and 20",
+    "independent_reasoning": "The numbers are 5·3 = 15 and 5·4 = 20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 33,
+    "question": "Find the HCF of two consecutive even numbers 8 and 10.",
+    "difficulty": "EASY",
+    "expected_answer": "2",
+    "independent_reasoning": "Consecutive even numbers differ by 2, so their HCF is 2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 34,
+    "question": "Find the HCF of 18, 24 and 30.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "18 = 2·3², 24 = 2³·3, 30 = 2·3·5, so HCF = 6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 35,
+    "question": "Find the LCM of 9, 12 and 15.",
+    "difficulty": "EASY",
+    "expected_answer": "180",
+    "independent_reasoning": "LCM = 2²·3²·5 = 180.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 36,
+    "question": "Find the HCF of 25 and 40.",
+    "difficulty": "EASY",
+    "expected_answer": "5",
+    "independent_reasoning": "25 = 5² and 40 = 2³·5, so HCF = 5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 37,
+    "question": "The LCM of two numbers is 180 and their HCF is 6. If one number is 36, find the other.",
+    "difficulty": "EASY",
+    "expected_answer": "30",
+    "independent_reasoning": "Other = HCF·LCM / 36 = 6·180/36 = 30.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 38,
+    "question": "Find the greatest common divisor of 48, 72 and 120.",
+    "difficulty": "EASY",
+    "expected_answer": "24",
+    "independent_reasoning": "48 = 2⁴·3, 72 = 2³·3², 120 = 2³·3·5, so GCD = 2³·3 = 24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 39,
+    "question": "Find the smallest number divisible by 8, 10 and 12.",
+    "difficulty": "EASY",
+    "expected_answer": "120",
+    "independent_reasoning": "8 = 2³, 10 = 2·5, 12 = 2²·3, so LCM = 2³·3·5 = 120.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 40,
+    "question": "What is the HCF of the two prime numbers 7 and 11?",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Distinct primes share no common factor, so HCF = 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 41,
+    "question": "Find the LCM of 6, 7 and 8.",
+    "difficulty": "EASY",
+    "expected_answer": "168",
+    "independent_reasoning": "LCM = 2³·3·7 = 168.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 42,
+    "question": "Find the HCF of 36 and 84.",
+    "difficulty": "EASY",
+    "expected_answer": "12",
+    "independent_reasoning": "36 = 2²·3² and 84 = 2²·3·7, so HCF = 2²·3 = 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 43,
+    "question": "Find the LCM of 16 and 20.",
+    "difficulty": "EASY",
+    "expected_answer": "80",
+    "independent_reasoning": "16 = 2⁴ and 20 = 2²·5, so LCM = 2⁴·5 = 80.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 44,
+    "question": "Find the HCF of 22, 33 and 44.",
+    "difficulty": "EASY",
+    "expected_answer": "11",
+    "independent_reasoning": "22 = 2·11, 33 = 3·11, 44 = 4·11, so HCF = 11.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 45,
+    "question": "Find the largest 4-digit number that is exactly divisible by 12.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9996",
+    "independent_reasoning": "12·833 = 9996, which is the largest multiple of 12 not exceeding 9999.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 46,
+    "question": "Find the smallest 4-digit number that is exactly divisible by 15.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1005",
+    "independent_reasoning": "15·67 = 1005 is the first multiple of 15 at or above 1000.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 47,
+    "question": "Find the largest number that divides 245 and 1029, leaving a remainder 5 in each case.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "16",
+    "independent_reasoning": "Required number = HCF(245−5, 1029−5) = HCF(240,1024) = 2⁴ = 16.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 48,
+    "question": "Find the smallest number which when divided by 12, 15 and 20 leaves a remainder 5.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "65",
+    "independent_reasoning": "LCM(12,15,20) = 60, so the number is 60 + 5 = 65.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 49,
+    "question": "Find the greatest number that divides 615 and 963, leaving a remainder 6 in each case.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "87",
+    "independent_reasoning": "Required number = HCF(615−6, 963−6) = HCF(609,957) = 87.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 50,
+    "question": "Two numbers are in the ratio 5 : 7 and their LCM is 210. Find their HCF.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "6",
+    "independent_reasoning": "The numbers are 5k and 7k with LCM 35k = 210 ⇒ k = 6, so HCF = 6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "The HCF of two numbers is 12 and their product is 1728. Find their LCM.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "144",
+    "independent_reasoning": "LCM = product / HCF = 1728/12 = 144.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "Find the greatest 4-digit number which when divided by 10, 12 and 15 leaves a remainder 3 in each case.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9963",
+    "independent_reasoning": "LCM(10,12,15) = 60; the largest value ≤ 9999 with remainder 3 is 9963.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "Find the least number which when divided by 6, 15 and 18 leaves a remainder 5 in each case.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "95",
+    "independent_reasoning": "LCM(6,15,18) = 90, so the number is 90 + 5 = 95.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "Reduce the fraction 161/207 to its lowest terms.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "7/9",
+    "independent_reasoning": "HCF(161,207) = 23, so 161/207 = (161÷23)/(207÷23) = 7/9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "Find the HCF of 1.5 and 2.4.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "0.3",
+    "independent_reasoning": "HCF(1.5,2.4) = HCF(15,24)/10 = 3/10 = 0.3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "Find the LCM of 0.6, 0.9 and 1.2.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "3.6",
+    "independent_reasoning": "LCM(0.6,0.9,1.2) = LCM(6,9,12)/10 = 36/10 = 3.6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "The product of the HCF and the LCM of two numbers is 1200. If one number is 60, find the other.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "20",
+    "independent_reasoning": "The product of the numbers = HCF·LCM = 1200, so the other number is 1200/60 = 20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "Three numbers are in the ratio 2 : 3 : 5 and their HCF is 8. Find their LCM.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "240",
+    "independent_reasoning": "The numbers are 16, 24 and 40; their LCM is 2⁴·3·5 = 240.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "Find the least number that must be added to 3000 so that the sum is exactly divisible by 12, 15 and 18.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "60",
+    "independent_reasoning": "LCM(12,15,18) = 180; 3000 leaves remainder 120, so add 180 − 120 = 60.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "A rectangular courtyard is 18 m 72 cm long and 13 m 20 cm broad. Find the side of the largest square tile that can pave it exactly.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "24 cm",
+    "independent_reasoning": "1872 cm and 1320 cm have HCF 2³·3 = 24 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "The circumferences of two circles are 88 cm and 132 cm. Find the greatest length of tape that can measure both exactly.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "44 cm",
+    "independent_reasoning": "HCF(88,132) = 44 cm.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "In a school, students can be arranged exactly in rows of 12, 15 or 20. Find the minimum number of students.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "60",
+    "independent_reasoning": "LCM(12,15,20) = 60.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "What is the least number that leaves a remainder of 7 when divided by 12, 20 and 24?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "127",
+    "independent_reasoning": "LCM(12,20,24) = 120, so the number is 120 + 7 = 127.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "Find the largest number that divides 2053 and 967, leaving remainders 5 and 7 respectively.",
+    "difficulty": "HARD",
+    "expected_answer": "64",
+    "independent_reasoning": "Required number = HCF(2053−5, 967−7) = HCF(2048,960) = 2⁶ = 64.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "Find the greatest 4-digit number that is exactly divisible by 15, 20 and 28.",
+    "difficulty": "HARD",
+    "expected_answer": "9660",
+    "independent_reasoning": "LCM(15,20,28) = 420; 420·23 = 9660 is the largest 4-digit multiple.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "Find the least 5-digit number that is exactly divisible by 6, 8, 12 and 15.",
+    "difficulty": "HARD",
+    "expected_answer": "10080",
+    "independent_reasoning": "LCM(6,8,12,15) = 120; 120·84 = 10080 is the smallest 5-digit multiple.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "The LCM and HCF of two numbers are 84 and 14 respectively. How many such pairs of numbers are possible?",
+    "difficulty": "HARD",
+    "expected_answer": "2",
+    "independent_reasoning": "The numbers are 14m and 14n with gcd(m,n) = 1 and mn = 6, giving the coprime pairs (1,6) and (2,3) — 2 pairs.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "Two numbers are in the ratio 5 : 6 and their LCM is 150. Find the sum of the numbers.",
+    "difficulty": "HARD",
+    "expected_answer": "55",
+    "independent_reasoning": "The numbers are 5k and 6k with LCM 30k = 150 ⇒ k = 5; the numbers 25 and 30 sum to 55.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "Find the smallest number which when divided by 6, 8, 10 and 12 leaves remainders 4, 6, 8 and 10 respectively.",
+    "difficulty": "HARD",
+    "expected_answer": "118",
+    "independent_reasoning": "Each remainder is 2 less than its divisor, so the number is LCM(6,8,10,12) − 2 = 120 − 2 = 118.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "Find the least number which when divided by 6, 8 and 10 leaves remainders 5, 7 and 9 respectively.",
+    "difficulty": "HARD",
+    "expected_answer": "119",
+    "independent_reasoning": "Each remainder is 1 less than its divisor, so the number is LCM(6,8,10) − 1 = 120 − 1 = 119.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "Find the least number of square tiles required to pave a floor 15 m 17 cm long and 9 m 2 cm broad.",
+    "difficulty": "HARD",
+    "expected_answer": "814",
+    "independent_reasoning": "1517 cm and 902 cm have HCF 41 cm; tiles needed = 37·22 = 814.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "Find the greatest number that divides 1290, 4230 and 2835, leaving the same remainder in each case.",
+    "difficulty": "HARD",
+    "expected_answer": "15",
+    "independent_reasoning": "Required number = HCF(4230−1290, 2835−1290, 4230−2835) = HCF(2940,1545,1395) = 15.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "Three bells ring at intervals of 20, 25 and 30 minutes respectively. If they ring together at 8 a.m., when will they next ring together?",
+    "difficulty": "HARD",
+    "expected_answer": "1 p.m.",
+    "independent_reasoning": "LCM(20,25,30) = 300 min = 5 h, so they next ring together at 8 a.m. + 5 h = 1 p.m.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "Six bells start ringing together and then ring at intervals of 4, 8, 12, 16, 20 and 24 seconds respectively. In 60 minutes, how many times do they ring together?",
+    "difficulty": "HARD",
+    "expected_answer": "16",
+    "independent_reasoning": "LCM(4,8,12,16,20,24) = 240 s = 4 min; in 60 min they coincide 60/4 = 15 times plus the start = 16 times.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "The product of two numbers is 4104 and their HCF is 6. How many pairs of such numbers are possible?",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "The numbers are 6m and 6n with gcd(m,n) = 1 and mn = 4104/(6·6) = 114, giving the coprime pairs (1,114), (2,57), (3,38) and (6,19) — 4 pairs.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "Three runners complete one round of a circular track in 120, 150 and 180 seconds respectively. If they start together, after how many minutes will they meet again at the starting point?",
+    "difficulty": "HARD",
+    "expected_answer": "30",
+    "independent_reasoning": "LCM(120,150,180) = 1800 s = 30 minutes.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "Find the least number which when divided by 24, 30, 36 and 40 leaves a remainder 13.",
+    "difficulty": "HARD",
+    "expected_answer": "373",
+    "independent_reasoning": "LCM(24,30,36,40) = 360, so the number is 360 + 13 = 373.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "Find the greatest number that divides 1305, 4665 and 6905, leaving the same remainder in each case.",
+    "difficulty": "HARD",
+    "expected_answer": "1120",
+    "independent_reasoning": "Required number = HCF(4665−1305, 6905−4665, 6905−1305) = HCF(3360,2240,5600) = 1120.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "The sum of two numbers is 512 and their HCF is 32. How many pairs of such numbers are possible?",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "The numbers are 32m and 32n with gcd(m,n) = 1 and m + n = 16, giving the pairs (1,15), (3,13), (5,11) and (7,9) — 4 pairs.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "Find the smallest number which is exactly divisible by 12, 16 and 18, and is also a perfect square.",
+    "difficulty": "HARD",
+    "expected_answer": "144",
+    "independent_reasoning": "LCM(12,16,18) = 144 = 12², which is already a perfect square.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "Find the least number that must be subtracted from 10000 so that the remainder is exactly divisible by 21, 28 and 36.",
+    "difficulty": "HARD",
+    "expected_answer": "172",
+    "independent_reasoning": "LCM(21,28,36) = 252; 10000 = 252·39 + 172, so subtract 172.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "Find the greatest 4-digit number that is exactly divisible by 6, 8, 9, 12 and 15.",
+    "difficulty": "HARD",
+    "expected_answer": "9720",
+    "independent_reasoning": "LCM = 360; 360·27 = 9720 is the largest 4-digit multiple.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "Three men jog around a circular track and complete one round in 8, 12 and 15 minutes respectively. If they start together, after how long will they meet again at the starting point?",
+    "difficulty": "HARD",
+    "expected_answer": "2 hours",
+    "independent_reasoning": "LCM(8,12,15) = 120 min = 2 hours.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "The HCF of two numbers is 24 and their LCM is 720. If one of the numbers lies between 100 and 150, find it.",
+    "difficulty": "HARD",
+    "expected_answer": "120",
+    "independent_reasoning": "The numbers are 24m and 24n with gcd(m,n) = 1 and mn = 30; the pair (5,6) gives 120 and 144, and 120 lies between 100 and 150.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "Find the least 4-digit number which when divided by 6, 8, 10 and 12 leaves a remainder 3 in each case.",
+    "difficulty": "HARD",
+    "expected_answer": "1083",
+    "independent_reasoning": "LCM(6,8,10,12) = 120; the least 4-digit value with remainder 3 is 1083.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "The LCM of two numbers is six times their HCF. The sum of the HCF and the LCM is 350. If one number is 50, find the other number.",
+    "difficulty": "HARD",
+    "expected_answer": "300",
+    "independent_reasoning": "L = 6H and H + L = 350 ⇒ 7H = 350 ⇒ H = 50, L = 300; the other number is H·L/50 = 15000/50 = 300.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "A number when divided by 15, 20 and 25 leaves a remainder 8 in each case. Find the greatest such 3-digit number.",
+    "difficulty": "HARD",
+    "expected_answer": "908",
+    "independent_reasoning": "LCM(15,20,25) = 300; the largest 3-digit value with remainder 8 is 908.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "Two numbers have an HCF of 15 and an LCM of 300. If both numbers are greater than 50, find their sum.",
+    "difficulty": "HARD",
+    "expected_answer": "135",
+    "independent_reasoning": "The numbers are 15m and 15n with gcd(m,n) = 1 and mn = 20; both exceed 50 only for (4,5), giving 60 and 75 whose sum is 135.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "Find the least number which when divided by 5, 7, 9 and 11 leaves a remainder 3 in each case.",
+    "difficulty": "HARD",
+    "expected_answer": "3468",
+    "independent_reasoning": "LCM(5,7,9,11) = 3465, so the number is 3465 + 3 = 3468.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "Find the greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively.",
+    "difficulty": "HARD",
+    "expected_answer": "127",
+    "independent_reasoning": "Required number = HCF(1657−6, 2037−5) = HCF(1651,2032) = 127.",
+    "source": "Original SSC-style practice question"
+  }
+]

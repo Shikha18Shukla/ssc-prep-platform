@@ -1,0 +1,722 @@
+[
+  {
+    "row": 1,
+    "question": "Find the value of 1 + 1/(1 + 1/(1 + 1/(1 + 1/(1 + 2/3)))).",
+    "difficulty": "HARD",
+    "expected_answer": "34/21",
+    "independent_reasoning": "Evaluating from the inner fraction: 1+2/3 = 5/3 → 3/5 → 8/5 → 5/8 → 13/8 → 8/13 → 21/13 → 13/21 → 34/21.",
+    "source": "Simplification 01_.pdf, PDF page 5; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 2,
+    "question": "If x = 1 + 1/(1 + 1/(1 + 1/(1 + 1/2))), then the value of 2x + 7/4 is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5",
+    "independent_reasoning": "x = 13/8, so 2x + 7/4 = 13/4 + 7/4 = 20/4 = 5.",
+    "source": "Simplification 01_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 3,
+    "question": "Find the value of 1 − 1/(1 − 1/(1 − 1/(1 − 2/3))).",
+    "difficulty": "HARD",
+    "expected_answer": "1/3",
+    "independent_reasoning": "Evaluating from the inner fraction: 1−2/3 = 1/3 → 3 → −2 → −1/2 → 3/2 → 2/3 → 1/3.",
+    "source": "Simplification 01_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 4,
+    "question": "If a, b, c and d are integers such that 1/(a + 1/(b + 1/(c + 1/d))) = 29/154, then a + b + c + d = ?",
+    "difficulty": "HARD",
+    "expected_answer": "14",
+    "independent_reasoning": "154/29 = 5 + 9/29 ⇒ a = 5; 29/9 = 3 + 2/9 ⇒ b = 3; 9/2 = 4 + 1/2 ⇒ c = 4 and d = 2; sum = 5+3+4+2 = 14.",
+    "source": "Simplification 01_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 5,
+    "question": "The value of [ (3 1/5 − 3/5) ÷ 8/5 ] ÷ [ 1 1/7 ÷ { 6/7 − (1/7 ÷ 1/5) } ] is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "13/64",
+    "independent_reasoning": "Numerator: (16/5 − 3/5) ÷ 8/5 = (13/5)·(5/8) = 13/8. Denominator: (8/7) ÷ (6/7 − 5/7) = (8/7) ÷ (1/7) = 8. Result = (13/8)/8 = 13/64.",
+    "source": "Simplification 01_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 6,
+    "question": "Simplify: [∛(⁶√(5⁹))]⁴ × [∛(⁶√(5⁹))]⁴",
+    "difficulty": "MEDIUM",
+    "expected_answer": "5⁴",
+    "independent_reasoning": "∛(⁶√(5⁹)) = 5^(9/6·1/3) = 5^(1/2); each fourth power is 5² and the product is 5⁴.",
+    "source": "Simplification 01_.pdf, PDF page 12; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 7,
+    "question": "The value of 3/7 ÷ 9/21 + 2 − 4/3 + 1/2 of 12/5 × 25/18 ÷ 5/9 is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "14/3",
+    "independent_reasoning": "3/7 ÷ 9/21 = 1; (1/2 of 12/5) = 6/5; 6/5 × 25/18 ÷ 5/9 = (5/3)·(9/5) = 3; total = 1 + 2 − 4/3 + 3 = 6 − 4/3 = 14/3.",
+    "source": "Simplification 01_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 8,
+    "question": "What is the value of 90 × 3 ÷ 9 + 4 ÷ 2 × 3 of 4 × 8 ÷ (18 × 2 − 4)?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "36",
+    "independent_reasoning": "(18×2−4) = 32; 3 of 4 = 12; 4÷2×12×8÷32 = 6; 90×3÷9 = 30; total = 30 + 6 = 36.",
+    "source": "Simplification 01_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 9,
+    "question": "Find the value of 36 ÷ 8 × 4 + 2 ÷ 4 − 1 + 5 of 3 ÷ (4 × 2 − 3) − 3.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "35/2",
+    "independent_reasoning": "5 of 3 = 15; (4×2−3) = 5, so 15÷5 = 3; 36÷8×4 = 18 and 2÷4 = 1/2; total = 18 + 1/2 − 1 + 3 − 3 = 35/2.",
+    "source": "Simplification 01_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 10,
+    "question": "The value of 5 ÷ 5 of 5 × 2 + 2 ÷ 2 of 2 × 5 − (5 − 2) ÷ 6 × 2 is:",
+    "difficulty": "HARD",
+    "expected_answer": "19/10",
+    "independent_reasoning": "5÷(5 of 5)×2 = 5÷25×2 = 2/5; 2÷(2 of 2)×5 = 2÷4×5 = 5/2; (5−2)÷6×2 = 1; total = 2/5 + 5/2 − 1 = 19/10.",
+    "source": "Simplification 01_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 11,
+    "question": "The value of 16 ÷ 4 of 4 × [3 ÷ 4 of {4 × 3 ÷ (3 + 3)}] ÷ (2 ÷ 4 of 8) is:",
+    "difficulty": "HARD",
+    "expected_answer": "6",
+    "independent_reasoning": "4 of 4 = 16, so 16÷16 = 1; {4×3÷6} = 2 and 4 of 2 = 8, so 3÷8 = 3/8; 4 of 8 = 32, so 2÷32 = 1/16; total = 1 × 3/8 ÷ 1/16 = 6.",
+    "source": "Simplification 01_.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 12,
+    "question": "Find the number of factors of 2³ × 3⁴ × 5⁶.",
+    "difficulty": "EASY",
+    "expected_answer": "140",
+    "independent_reasoning": "Number of factors = (3+1)(4+1)(6+1) = 4·5·7 = 140.",
+    "source": "Simplification 02_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 13,
+    "question": "Find the number of factors of 720.",
+    "difficulty": "EASY",
+    "expected_answer": "30",
+    "independent_reasoning": "720 = 2⁴·3²·5, so the number of factors is (4+1)(2+1)(1+1) = 5·3·2 = 30.",
+    "source": "Simplification 02_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 14,
+    "question": "Find the number of even factors of 2³ × 3⁴ × 5⁶.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "105",
+    "independent_reasoning": "An even factor needs at least one 2: 3 choices for the power of 2, then 5 and 7 choices for 3 and 5, giving 3·5·7 = 105.",
+    "source": "Simplification 02_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 15,
+    "question": "The value of 1/(2×3) + 1/(3×4) + 1/(4×5) + ... + 1/(19×20) is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "9/20",
+    "independent_reasoning": "Telescoping: (1/2 − 1/3) + (1/3 − 1/4) + ... + (1/19 − 1/20) = 1/2 − 1/20 = 9/20.",
+    "source": "Simplification 02_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 16,
+    "question": "The value of 1/(2×5) + 1/(5×8) + 1/(8×11) + ... + 1/(23×26) is:",
+    "difficulty": "HARD",
+    "expected_answer": "2/13",
+    "independent_reasoning": "Each term is (1/3)(1/k − 1/(k+3)); the sum telescopes to (1/3)(1/2 − 1/26) = (1/3)(12/26) = 2/13.",
+    "source": "Simplification 02_.pdf, PDF page 20; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 17,
+    "question": "The value of 1/20 + 1/30 + 1/42 + ... + 1/132 is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1/6",
+    "independent_reasoning": "Terms are 1/(4×5) + 1/(5×6) + ... + 1/(11×12) = 1/4 − 1/12 = 2/12 = 1/6.",
+    "source": "Simplification 02_.pdf, PDF page 22; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 18,
+    "question": "The value of 5/(2²×3²) + 7/(3²×4²) + 9/(4²×5²) + ... + 39/(19²×20²) is:",
+    "difficulty": "HARD",
+    "expected_answer": "99/400",
+    "independent_reasoning": "Each term is 1/k² − 1/(k+1)² for k = 2..19; the sum telescopes to 1/4 − 1/400 = 99/400.",
+    "source": "Simplification 02_.pdf, PDF page 25; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 19,
+    "question": "Simplify: 1 + 2 + 3 + ... + 99 + 100 + 99 + ... + 2 + 1",
+    "difficulty": "MEDIUM",
+    "expected_answer": "10000",
+    "independent_reasoning": "A symmetric sum up to the middle term n equals n²; here n = 100, so the sum is 100² = 10000.",
+    "source": "Simplification 02_.pdf, PDF page 26; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 20,
+    "question": "Simplify: √(1 + 2 + 3 + ... + 78 + 79 + 78 + ... + 2 + 1)",
+    "difficulty": "MEDIUM",
+    "expected_answer": "79",
+    "independent_reasoning": "The sum equals 79² = 6241, so its square root is 79.",
+    "source": "Simplification 02_.pdf, PDF page 27; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 21,
+    "question": "Find the number of even factors of 842.",
+    "difficulty": "HARD",
+    "expected_answer": "2",
+    "independent_reasoning": "842 = 2·421; an even factor must contain one factor of 2, and 421 is prime, giving 1·2 = 2 even factors.",
+    "source": "Simplification 02_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 22,
+    "question": "The value of 1/9 + 1/6 + 1/12 + 1/20 + ... + 1/72 is:",
+    "difficulty": "MEDIUM",
+    "expected_answer": "0.5",
+    "independent_reasoning": "Apart from 1/9 the terms are 1/(2×3)+1/(3×4)+...+1/(8×9) = 1/2 − 1/9; adding 1/9 gives exactly 1/2 = 0.5.",
+    "source": "Simplification 02_.pdf, PDF page 23; exam/year not stated per item (PYQ status unverified)"
+  },
+  {
+    "row": 23,
+    "question": "Find the value of 12 + 8 ÷ 4.",
+    "difficulty": "EASY",
+    "expected_answer": "14",
+    "independent_reasoning": "Division first: 8÷4 = 2, so 12 + 2 = 14.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 24,
+    "question": "Find the value of 15 − 3 × 4.",
+    "difficulty": "EASY",
+    "expected_answer": "3",
+    "independent_reasoning": "Multiplication first: 3×4 = 12, so 15 − 12 = 3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 25,
+    "question": "Find the value of (7 + 5) × 2.",
+    "difficulty": "EASY",
+    "expected_answer": "24",
+    "independent_reasoning": "Bracket first: 12 × 2 = 24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 26,
+    "question": "Find the value of 36 ÷ 6 + 5 × 2.",
+    "difficulty": "EASY",
+    "expected_answer": "16",
+    "independent_reasoning": "36÷6 = 6 and 5×2 = 10, so 6 + 10 = 16.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 27,
+    "question": "What is the value of 1/2 + 1/4?",
+    "difficulty": "EASY",
+    "expected_answer": "3/4",
+    "independent_reasoning": "1/2 = 2/4, so 2/4 + 1/4 = 3/4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 28,
+    "question": "What is the value of 2/3 − 1/6?",
+    "difficulty": "EASY",
+    "expected_answer": "1/2",
+    "independent_reasoning": "2/3 = 4/6, so 4/6 − 1/6 = 3/6 = 1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 29,
+    "question": "What is the value of 3/5 × 10/9?",
+    "difficulty": "EASY",
+    "expected_answer": "2/3",
+    "independent_reasoning": "(3×10)/(5×9) = 30/45 = 2/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 30,
+    "question": "What is the value of 3/4 ÷ 9/8?",
+    "difficulty": "EASY",
+    "expected_answer": "2/3",
+    "independent_reasoning": "3/4 × 8/9 = 24/36 = 2/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 31,
+    "question": "Find the value of 0.5 + 0.25.",
+    "difficulty": "EASY",
+    "expected_answer": "0.75",
+    "independent_reasoning": "0.50 + 0.25 = 0.75.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 32,
+    "question": "Find the value of 1.2 × 0.5.",
+    "difficulty": "EASY",
+    "expected_answer": "0.6",
+    "independent_reasoning": "1.2 × 0.5 = 0.6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 33,
+    "question": "Find the value of 2³ + 3².",
+    "difficulty": "EASY",
+    "expected_answer": "17",
+    "independent_reasoning": "2³ = 8 and 3² = 9, so 8 + 9 = 17.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 34,
+    "question": "Find the value of √144 + √81.",
+    "difficulty": "EASY",
+    "expected_answer": "21",
+    "independent_reasoning": "√144 = 12 and √81 = 9, so 12 + 9 = 21.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 35,
+    "question": "Find the value of 5 + 3 × 2 − 4.",
+    "difficulty": "EASY",
+    "expected_answer": "7",
+    "independent_reasoning": "3×2 = 6, so 5 + 6 − 4 = 7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 36,
+    "question": "Find the value of 10 − 2 × 3 + 8 ÷ 4.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "2×3 = 6 and 8÷4 = 2, so 10 − 6 + 2 = 6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 37,
+    "question": "Find the value of (12 + 18) ÷ 5.",
+    "difficulty": "EASY",
+    "expected_answer": "6",
+    "independent_reasoning": "12 + 18 = 30 and 30 ÷ 5 = 6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 38,
+    "question": "What is the value of 7/8 − 3/8?",
+    "difficulty": "EASY",
+    "expected_answer": "1/2",
+    "independent_reasoning": "7/8 − 3/8 = 4/8 = 1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 39,
+    "question": "What is the value of 2/5 + 3/10?",
+    "difficulty": "EASY",
+    "expected_answer": "7/10",
+    "independent_reasoning": "2/5 = 4/10, so 4/10 + 3/10 = 7/10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 40,
+    "question": "Find the value of 4² − 2³.",
+    "difficulty": "EASY",
+    "expected_answer": "8",
+    "independent_reasoning": "4² = 16 and 2³ = 8, so 16 − 8 = 8.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 41,
+    "question": "Find the value of 2.5 + 1.75.",
+    "difficulty": "EASY",
+    "expected_answer": "4.25",
+    "independent_reasoning": "2.50 + 1.75 = 4.25.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 42,
+    "question": "Find the value of 0.6 ÷ 0.2.",
+    "difficulty": "EASY",
+    "expected_answer": "3",
+    "independent_reasoning": "0.6 ÷ 0.2 = 3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 43,
+    "question": "Find the value of 3/4 of 20.",
+    "difficulty": "EASY",
+    "expected_answer": "15",
+    "independent_reasoning": "3/4 × 20 = 15.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 44,
+    "question": "Find the value of 25% of 80.",
+    "difficulty": "EASY",
+    "expected_answer": "20",
+    "independent_reasoning": "25% of 80 = 80/4 = 20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 45,
+    "question": "Find the value of 18 ÷ 3 × 2.",
+    "difficulty": "EASY",
+    "expected_answer": "12",
+    "independent_reasoning": "18÷3 = 6 and 6 × 2 = 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 46,
+    "question": "Find the value of 8 + 2 × (5 − 3).",
+    "difficulty": "EASY",
+    "expected_answer": "12",
+    "independent_reasoning": "(5−3) = 2, 2×2 = 4, so 8 + 4 = 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 47,
+    "question": "What is the value of 1/3 + 1/6 + 1/2?",
+    "difficulty": "EASY",
+    "expected_answer": "1",
+    "independent_reasoning": "Using sixths: 2/6 + 1/6 + 3/6 = 6/6 = 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 48,
+    "question": "Find the value of 9² − 8².",
+    "difficulty": "EASY",
+    "expected_answer": "17",
+    "independent_reasoning": "9² − 8² = 81 − 64 = 17.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 49,
+    "question": "Find the value of 1.5 × 4 − 2.",
+    "difficulty": "EASY",
+    "expected_answer": "4",
+    "independent_reasoning": "1.5 × 4 = 6, so 6 − 2 = 4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 50,
+    "question": "Find the value of 100 ÷ 4 + 6 × 3.",
+    "difficulty": "EASY",
+    "expected_answer": "43",
+    "independent_reasoning": "100÷4 = 25 and 6×3 = 18, so 25 + 18 = 43.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 51,
+    "question": "Find the value of 12 ÷ 3 + 4 × 2 − 6.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "6",
+    "independent_reasoning": "12÷3 = 4 and 4×2 = 8, so 4 + 8 − 6 = 6.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 52,
+    "question": "Find the value of 24 ÷ (8 − 4) × 3.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "18",
+    "independent_reasoning": "24÷4 = 6 and 6 × 3 = 18.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 53,
+    "question": "What is the value of 2/3 + 3/4 − 5/6?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "7/12",
+    "independent_reasoning": "Using twelfths: 8/12 + 9/12 − 10/12 = 7/12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 54,
+    "question": "What is the value of 5/6 × 3/10 ÷ 1/4?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "5/6 × 3/10 = 1/4, and 1/4 ÷ 1/4 = 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 55,
+    "question": "Find the value of 0.75 × 1.6.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1.2",
+    "independent_reasoning": "0.75 × 1.6 = 1.2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 56,
+    "question": "Find the value of √2.25.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1.5",
+    "independent_reasoning": "1.5 × 1.5 = 2.25, so √2.25 = 1.5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 57,
+    "question": "Find the value of 40% of 250.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "100",
+    "independent_reasoning": "40% of 250 = 0.4 × 250 = 100.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 58,
+    "question": "Find the value of 15% of 480 + 25% of 240.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "132",
+    "independent_reasoning": "15% of 480 = 72 and 25% of 240 = 60, so the sum is 132.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 59,
+    "question": "Find the value of 3⁴ ÷ 3² × 3.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "27",
+    "independent_reasoning": "3⁴÷3² = 9 and 9 × 3 = 27.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 60,
+    "question": "Find the value of (0.2)³.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "0.008",
+    "independent_reasoning": "0.2 × 0.2 × 0.2 = 0.008.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 61,
+    "question": "What is the value of 5/8 ÷ 15/16?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "2/3",
+    "independent_reasoning": "5/8 × 16/15 = 80/120 = 2/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 62,
+    "question": "What is the value of 7/12 + 5/18 − 1/4?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "11/18",
+    "independent_reasoning": "Using thirty-sixths: 21/36 + 10/36 − 9/36 = 22/36 = 11/18.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 63,
+    "question": "Find the value of 1.25 × 0.8 + 0.2.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1.2",
+    "independent_reasoning": "1.25 × 0.8 = 1.0, so 1.0 + 0.2 = 1.2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 64,
+    "question": "Find the value of 16 ÷ 4 + 3 × (7 − 5)².",
+    "difficulty": "MEDIUM",
+    "expected_answer": "16",
+    "independent_reasoning": "(7−5)² = 4 and 3×4 = 12, so 16÷4 + 12 = 4 + 12 = 16.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 65,
+    "question": "What is the value of (3/7) × (14/9) ÷ (2/3)?",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1",
+    "independent_reasoning": "3/7 × 14/9 = 2/3, and 2/3 ÷ 2/3 = 1.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 66,
+    "question": "Find the value of √1296.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "36",
+    "independent_reasoning": "36 × 36 = 1296, so √1296 = 36.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 67,
+    "question": "Find the value of 20% of 15% of 400.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "12",
+    "independent_reasoning": "15% of 400 = 60 and 20% of 60 = 12.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 68,
+    "question": "Find the value of 3/4 of 1/2 + 1/8.",
+    "difficulty": "MEDIUM",
+    "expected_answer": "1/2",
+    "independent_reasoning": "3/4 × 1/2 = 3/8 and 3/8 + 1/8 = 4/8 = 1/2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 69,
+    "question": "The value of 1/(1×2) + 1/(2×3) + ... + 1/(9×10) is:",
+    "difficulty": "HARD",
+    "expected_answer": "9/10",
+    "independent_reasoning": "Telescoping: (1 − 1/2) + (1/2 − 1/3) + ... + (1/9 − 1/10) = 1 − 1/10 = 9/10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 70,
+    "question": "The value of 1/(1×3) + 1/(3×5) + 1/(5×7) + 1/(7×9) is:",
+    "difficulty": "HARD",
+    "expected_answer": "4/9",
+    "independent_reasoning": "Each term is (1/2)(1/k − 1/(k+2)); the sum is (1/2)(1 − 1/9) = (1/2)(8/9) = 4/9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 71,
+    "question": "The value of 1/(2×4) + 1/(4×6) + 1/(6×8) + 1/(8×10) is:",
+    "difficulty": "HARD",
+    "expected_answer": "1/5",
+    "independent_reasoning": "Each term is (1/2)(1/k − 1/(k+2)); the sum is (1/2)(1/2 − 1/10) = (1/2)(2/5) = 1/5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 72,
+    "question": "The value of 1/6 + 1/12 + 1/20 + 1/30 is:",
+    "difficulty": "HARD",
+    "expected_answer": "1/3",
+    "independent_reasoning": "Terms are 1/(2×3)+1/(3×4)+1/(4×5)+1/(5×6) = 1/2 − 1/6 = 1/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 73,
+    "question": "The value of 1 + 1/(2 + 1/(3 + 1/4)) is:",
+    "difficulty": "HARD",
+    "expected_answer": "43/30",
+    "independent_reasoning": "Inner: 3+1/4 = 13/4 → 4/13 → 2+4/13 = 30/13 → 13/30 → 1 + 13/30 = 43/30.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 74,
+    "question": "The value of (3/8 + 5/12) ÷ (7/8 − 3/4) is:",
+    "difficulty": "HARD",
+    "expected_answer": "19/3",
+    "independent_reasoning": "(9/24 + 10/24) = 19/24 and (7/8 − 3/4) = 1/8, so 19/24 × 8 = 19/3.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 75,
+    "question": "The value of [(0.9)² − (0.8)²] ÷ (0.9 − 0.8) is:",
+    "difficulty": "HARD",
+    "expected_answer": "1.7",
+    "independent_reasoning": "(0.81 − 0.64) ÷ 0.1 = 0.17 ÷ 0.1 = 1.7.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 76,
+    "question": "The value of √0.0004 + ³√0.008 is:",
+    "difficulty": "HARD",
+    "expected_answer": "0.22",
+    "independent_reasoning": "√0.0004 = 0.02 and ³√0.008 = 0.2, so the sum is 0.22.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 77,
+    "question": "The value of √1.44 × ³√0.027 is:",
+    "difficulty": "HARD",
+    "expected_answer": "0.36",
+    "independent_reasoning": "√1.44 = 1.2 and ³√0.027 = 0.3, so the product is 0.36.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 78,
+    "question": "The value of (³√8 + ⁴√16) × √25 is:",
+    "difficulty": "HARD",
+    "expected_answer": "20",
+    "independent_reasoning": "³√8 = 2, ⁴√16 = 2 and √25 = 5, so (2 + 2) × 5 = 20.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 79,
+    "question": "The value of (√2)⁴ × (³√2)⁶ is:",
+    "difficulty": "HARD",
+    "expected_answer": "16",
+    "independent_reasoning": "(√2)⁴ = 2² = 4 and (³√2)⁶ = 2² = 4, so the product is 16.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 80,
+    "question": "Simplify: √12 × √27.",
+    "difficulty": "HARD",
+    "expected_answer": "18",
+    "independent_reasoning": "√12 × √27 = √324 = 18.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 81,
+    "question": "Simplify: (√5 + √3)(√5 − √3).",
+    "difficulty": "HARD",
+    "expected_answer": "2",
+    "independent_reasoning": "Using (a+b)(a−b) = a²−b²: 5 − 3 = 2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 82,
+    "question": "Find the total number of factors of 360.",
+    "difficulty": "HARD",
+    "expected_answer": "24",
+    "independent_reasoning": "360 = 2³·3²·5, so the number of factors is 4·3·2 = 24.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 83,
+    "question": "Find the number of prime factors in 12³ (counting repetition).",
+    "difficulty": "HARD",
+    "expected_answer": "9",
+    "independent_reasoning": "12³ = (2²·3)³ = 2⁶·3³, so the number of prime factors is 6 + 3 = 9.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 84,
+    "question": "Simplify: (√7 + √3)² − 2√21.",
+    "difficulty": "HARD",
+    "expected_answer": "10",
+    "independent_reasoning": "Expanding: (√7)² + (√3)² + 2√21 − 2√21 = 7 + 3 = 10.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 85,
+    "question": "Simplify: (16/81)^(3/4).",
+    "difficulty": "HARD",
+    "expected_answer": "8/27",
+    "independent_reasoning": "16^(3/4) = 8 and 81^(3/4) = 27, so the value is 8/27.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 86,
+    "question": "Simplify: √(7 + 4√3) + √(7 − 4√3).",
+    "difficulty": "HARD",
+    "expected_answer": "4",
+    "independent_reasoning": "7 + 4√3 = (2 + √3)² and 7 − 4√3 = (2 − √3)², so the sum is (2 + √3) + (2 − √3) = 4.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 87,
+    "question": "Simplify: 2/3 of 3/4 of 4/5 of 100.",
+    "difficulty": "HARD",
+    "expected_answer": "40",
+    "independent_reasoning": "(2/3)(3/4) = 1/2, (1/2)(4/5) = 2/5 and (2/5)(100) = 40.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 88,
+    "question": "Simplify: (1/2 + 1/3) ÷ (1/2 − 1/3).",
+    "difficulty": "HARD",
+    "expected_answer": "5",
+    "independent_reasoning": "(5/6) ÷ (1/6) = 5.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 89,
+    "question": "Simplify: 0.008 × 0.5 ÷ 0.002.",
+    "difficulty": "HARD",
+    "expected_answer": "2",
+    "independent_reasoning": "0.008 × 0.5 = 0.004 and 0.004 ÷ 0.002 = 2.",
+    "source": "Original SSC-style practice question"
+  },
+  {
+    "row": 90,
+    "question": "Simplify: 5² × 5³ ÷ 5⁴.",
+    "difficulty": "HARD",
+    "expected_answer": "5",
+    "independent_reasoning": "5² × 5³ = 5⁵ and 5⁵ ÷ 5⁴ = 5.",
+    "source": "Original SSC-style practice question"
+  }
+]
