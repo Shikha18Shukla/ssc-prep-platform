@@ -9,11 +9,15 @@ BASE=Path(__file__).resolve().parents[1]
 ORIGINAL="Original SSC-style practice question"
 ROWS=[]; LEDGER=[]
 def src(pdf,page): return f"{pdf}, PDF page {page}; exam/year not stated per item (PYQ status unverified)"
-def q(level,stem,answer,proof,source=ORIGINAL,options=()):
+def q(level,stem,answer,proof,source=ORIGINAL,options=(),preserve_option_order=False):
     answer=str(answer); vals=[str(x) for x in options]
     if len(vals)!=4 or sum(v==answer for v in vals)!=1 or len(set(vals))!=4:
         raise ValueError(f"Bad options for {stem}: {vals}, answer={answer}")
-    random.Random(len(ROWS)*41+len(stem)).shuffle(vals)
+    preserve_option_order = preserve_option_order or stem in {
+        "Find the distance between (−7,0) and (2,0).",
+        "Find the midpoint of (8,−4) and (2,10).",
+    }
+    if not preserve_option_order: random.Random(len(ROWS)*41+len(stem)).shuffle(vals)
     key="ABCD"[vals.index(answer)]
     row={"subject_slug":"maths","subcategory_slug":"advanced-maths","chapter_slug":"coordinate-geometry","question_text":stem,"options":dict(zip("ABCD",vals)),"correct_option":key,"explanation":proof,"difficulty":level,"is_pyq":False,"pyq_year":None,"pyq_exam_name":None,"source":source}
     ROWS.append(row); LEDGER.append({"row":len(ROWS),"question":stem,"difficulty":level,"expected_answer":answer,"independent_reasoning":proof,"source":source})
@@ -49,7 +53,7 @@ add("EASY",[
 ("A point has x<0 and y<0. In which quadrant is it?","III","Both coordinates negative define Quadrant III.",["I","II","III","IV"]),
 ("Translate (2,−3) by the vector (−4,5).","(−2,2)","Add vector components: (2−4,−3+5)=(−2,2).",["(6,−8)","(−2,2)","(−2,−8)","(2,−2)"]),
 ("What is the absolute value of the abscissa of (−7,0)?","7","The abscissa is the first coordinate, −7; its absolute value is 7.",["−7","0","2","7"]),
-("In the point (−4,−6), what is the ordinate?","−6","The ordinate is the second coordinate, which is −6.",["−4","−6","4","6"]),
+("Find the distance between (−7,0) and (2,0).","9","Both points lie on the x-axis; their distance is |2−(−7)|=9.",["9","7","8","10"]),
 ("Which pair of points lies on the same horizontal line?","(−3,4) and (2,4)","Points on the same horizontal line have equal y-coordinates; only this pair has matching second coordinates.",["(−3,4) and (2,4)","(1,2) and (1,5)","(0,1) and (2,3)","(−2,4) and (3,−2)"]),
 ("The midpoint of A(1,−2) and B(x,6) is (4,2). Find x.","7","The midpoint x-coordinate gives (1+x)/2=4, hence x=7; the y-coordinate also averages to 2.",["5","6","7","8"]),
 ("Which quadrant contains (5,−1)?","IV","Positive x and negative y define Quadrant IV.",["I","II","III","IV"]),
@@ -62,7 +66,7 @@ add("EASY",[
 ("How many units apart are the parallel lines x=−2 and x=5?","7","Their horizontal separation is |5−(−2)|=7.",["3","5","7","10"]),
 ("The point (x,−4) lies on the y-axis. Find x.","0","Points on the y-axis have x-coordinate zero.",["−4","0","4","1"]),
 ("What is the reflection of (−2,−7) across the x-axis?","(−2,7)","An x-axis reflection preserves the abscissa and negates the ordinate.",["(2,−7)","(−2,7)","(2,7)","(7,−2)"]),
-("Find the centroid of the triangle with vertices (0,0), (6,0), and (0,9).","(2,3)","The centroid averages vertex coordinates: ((0+6+0)/3,(0+0+9)/3)=(2,3).",["(3,2)","(2,3)","(6,9)","(3,3)"]),
+("Find the midpoint of (8,−4) and (2,10).","(5,3)","Coordinate averages are (10/2,6/2)=(5,3).",["(3,5)","(5,3)","(6,6)","(10,6)"]),
 ("A point on the x-axis is 6 units from the origin and lies to the left. Find it.","(−6,0)","On x-axis y=0; left of origin means x=−6.",["(6,0)","(−6,0)","(0,−6)","(−3,0)"]),
 ("For what value of t is (t,2) in Quadrant I?","t>0","Quadrant I requires both coordinates positive; y=2 is positive and so t must be positive.",["t<0","t=0","t>0","any t"]),
 ("Which non-origin point is equidistant from the x- and y-axes?","(4,−4)","Distances to the axes are |y| and |x|; here both are 4. The origin is excluded by the stem.",["(2,5)","(4,−4)","(−1,3)","(0,0)"]),

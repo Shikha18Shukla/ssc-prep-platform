@@ -1,1 +1,1714 @@
-{"questions": []}
+{
+  "questions": [
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If α and β are the roots of 4x² + 3x + 7 = 0, then the value of 1/α + 1/β is:",
+      "options": {
+        "A": "−3/4",
+        "B": "−3/7",
+        "C": "4/7",
+        "D": "3/7"
+      },
+      "correct_option": "B",
+      "explanation": "α+β = −3/4 and αβ = 7/4, so 1/α + 1/β = (α+β)/αβ = (−3/4)/(7/4) = −3/7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 6; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If α and β are the roots of x² − x + 1 = 0, then the value of α² + β² is:",
+      "options": {
+        "A": "1",
+        "B": "−1",
+        "C": "0",
+        "D": "−2"
+      },
+      "correct_option": "B",
+      "explanation": "α+β = 1 and αβ = 1, so α² + β² = (α+β)² − 2αβ = 1 − 2 = −1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 7; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the equation 2x² − 7x + 12 = 0 has roots α and β, then the value of α/β + β/α is:",
+      "options": {
+        "A": "7/24",
+        "B": "7/2",
+        "C": "1/24",
+        "D": "97/24"
+      },
+      "correct_option": "C",
+      "explanation": "α+β = 7/2 and αβ = 6, so α/β + β/α = (α²+β²)/αβ = ((49/4) − 12)/6 = (1/4)/6 = 1/24.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 8; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "One root of the quadratic equation x² − kx + 27 = 0 is 3; find the value of k.",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "−12",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "explanation": "Substituting x = 3: 9 − 3k + 27 = 0 ⇒ 36 = 3k ⇒ k = 12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 9; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find k if one root of the equation x² − 9x + k = 0 is twice the other root.",
+      "options": {
+        "A": "18",
+        "B": "9",
+        "C": "16",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "Roots are m and 2m; sum = 3m = 9 ⇒ m = 3, so k = αβ = 3·6 = 18.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 10; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find k so that the sum of the roots of 3x² + (2k + 1)x − k − 5 = 0 equals their product.",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "2",
+        "D": "−4"
+      },
+      "correct_option": "B",
+      "explanation": "Sum = −(2k+1)/3 and product = (−k−5)/3; equating gives −(2k+1) = −k−5 ⇒ k = 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 11; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the sum of the roots of a quadratic equation is 1 and the product of the roots is −20, the equation is:",
+      "options": {
+        "A": "x² − x − 20 = 0",
+        "B": "x² − x + 20 = 0",
+        "C": "x² + x + 20 = 0",
+        "D": "x² + x − 20 = 0"
+      },
+      "correct_option": "A",
+      "explanation": "x² − (sum)x + (product) = 0 ⇒ x² − x − 20 = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 13; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Which of the following quadratic equations has roots −3 and −5?",
+      "options": {
+        "A": "x² − 8x + 15 = 0",
+        "B": "x² − 8x − 15 = 0",
+        "C": "x² + 8x + 15 = 0",
+        "D": "x² + 8x − 15 = 0"
+      },
+      "correct_option": "C",
+      "explanation": "Sum = −8 and product = 15, so the equation is x² + 8x + 15 = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 14; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "When (x⁴ − 3x³ + 2x² − 5x + 7) is divided by (x − 2), the remainder is:",
+      "options": {
+        "A": "0",
+        "B": "3",
+        "C": "2",
+        "D": "−3"
+      },
+      "correct_option": "D",
+      "explanation": "By the remainder theorem, p(2) = 16 − 24 + 8 − 10 + 7 = −3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 15; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "When f(x) = 15x³ − 14x² − 4x + 1 is divided by (3x + 2), the remainder is:",
+      "options": {
+        "A": "2",
+        "B": "−2",
+        "C": "1",
+        "D": "−7"
+      },
+      "correct_option": "D",
+      "explanation": "Put x = −2/3: f(−2/3) = −40/9 − 56/9 + 8/3 + 1 = (−40 − 56 + 24 + 9)/9 = −63/9 = −7.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 16; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The roots of the equation x² − 8x + 15 = 0 are:",
+      "options": {
+        "A": "8, 15",
+        "B": "2, 3",
+        "C": "6, 5",
+        "D": "3, 5"
+      },
+      "correct_option": "D",
+      "explanation": "x² − 8x + 15 = (x − 3)(x − 5), so the roots are 3 and 5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 17; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For what value(s) of k does the quadratic equation 9x² + 3kx + 4 = 0 have equal roots?",
+      "options": {
+        "A": "±4",
+        "B": "±2",
+        "C": "±6",
+        "D": "±3"
+      },
+      "correct_option": "A",
+      "explanation": "Equal roots ⇒ b² = 4ac ⇒ 9k² = 4·9·4 = 144 ⇒ k² = 16 ⇒ k = ±4. (The source slide phrases this as the positive value, 4, with options 2/4/3/None.)",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 18; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of ax² + bx + c = 0 are equal, then c equals:",
+      "options": {
+        "A": "−b²/(4a)",
+        "B": "b/(2a)",
+        "C": "b²/(4a)",
+        "D": "−b/(2a)"
+      },
+      "correct_option": "C",
+      "explanation": "Equal roots ⇒ b² = 4ac ⇒ c = b²/(4a).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 19; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For what values of k does the equation x² + 2(k − 4)x + 2k = 0 have equal roots?",
+      "options": {
+        "A": "12, 2",
+        "B": "None of these",
+        "C": "8, 2",
+        "D": "6, 4"
+      },
+      "correct_option": "C",
+      "explanation": "Equal roots ⇒ [2(k−4)]² = 4(1)(2k) ⇒ k² − 8k + 16 = 2k ⇒ k² − 10k + 16 = 0 ⇒ k = 8 or 2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 20; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the product of the roots of x² − (k + 7)x + 2(2k − 2) = 0 is three times their sum, then k equals:",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "23",
+        "D": "25"
+      },
+      "correct_option": "D",
+      "explanation": "Sum = k+7 and product = 2(2k−2); 4k − 4 = 3(k+7) ⇒ k = 25.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Quadratic Equations 01_.pdf, PDF page 21; exam/year not stated per item (PYQ status unverified)"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Solve: x² − 5x + 6 = 0.",
+      "options": {
+        "A": "−1, −6",
+        "B": "−2, −3",
+        "C": "2, 3",
+        "D": "1, 6"
+      },
+      "correct_option": "C",
+      "explanation": "x² − 5x + 6 = (x − 2)(x − 3) = 0 ⇒ x = 2 or 3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the roots of x² + 7x + 10 = 0.",
+      "options": {
+        "A": "2, 5",
+        "B": "−2, −5",
+        "C": "−1, −10",
+        "D": "1, 10"
+      },
+      "correct_option": "B",
+      "explanation": "x² + 7x + 10 = (x + 2)(x + 5) = 0 ⇒ x = −2 or −5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Solve for x: x² − 9 = 0.",
+      "options": {
+        "A": "9, −9",
+        "B": "3, −3",
+        "C": "3, 9",
+        "D": "0, 9"
+      },
+      "correct_option": "B",
+      "explanation": "x² = 9 ⇒ x = 3 or −3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the roots of the equation x² − 4x = 0.",
+      "options": {
+        "A": "0, −4",
+        "B": "4, −4",
+        "C": "0, 4",
+        "D": "2, 2"
+      },
+      "correct_option": "C",
+      "explanation": "x(x − 4) = 0 ⇒ x = 0 or 4.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Solve: x² − x − 12 = 0.",
+      "options": {
+        "A": "4, −3",
+        "B": "12, −1",
+        "C": "−4, 3",
+        "D": "6, −2"
+      },
+      "correct_option": "A",
+      "explanation": "x² − x − 12 = (x − 4)(x + 3) = 0 ⇒ x = 4 or −3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the roots of 2x² − 8 = 0.",
+      "options": {
+        "A": "8, −8",
+        "B": "4, −4",
+        "C": "2, −2",
+        "D": "2, 8"
+      },
+      "correct_option": "C",
+      "explanation": "2x² = 8 ⇒ x² = 4 ⇒ x = 2 or −2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the sum of the roots of x² − 6x + 5 = 0.",
+      "options": {
+        "A": "−5",
+        "B": "−6",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "D",
+      "explanation": "Sum of roots = −b/a = 6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the product of the roots of x² + 7x + 12 = 0.",
+      "options": {
+        "A": "−7",
+        "B": "12",
+        "C": "7",
+        "D": "−12"
+      },
+      "correct_option": "B",
+      "explanation": "Product of roots = c/a = 12.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the sum of the roots of 2x² − 7x + 3 = 0.",
+      "options": {
+        "A": "3/2",
+        "B": "−7/2",
+        "C": "2/7",
+        "D": "7/2"
+      },
+      "correct_option": "D",
+      "explanation": "Sum of roots = −b/a = 7/2.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the product of the roots of 3x² + 5x − 2 = 0.",
+      "options": {
+        "A": "−2/3",
+        "B": "5/3",
+        "C": "2/3",
+        "D": "−5/3"
+      },
+      "correct_option": "A",
+      "explanation": "Product of roots = c/a = −2/3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The positive root of the equation x² − 49 = 0 is:",
+      "options": {
+        "A": "−7",
+        "B": "7",
+        "C": "24.5",
+        "D": "49"
+      },
+      "correct_option": "B",
+      "explanation": "x² = 49 ⇒ x = 7 or −7, so the positive root is 7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the discriminant of x² − 4x + 4 = 0.",
+      "options": {
+        "A": "0",
+        "B": "4",
+        "C": "8",
+        "D": "16"
+      },
+      "correct_option": "A",
+      "explanation": "D = b² − 4ac = 16 − 16 = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The discriminant of the equation x² + 3x + 2 = 0 is:",
+      "options": {
+        "A": "17",
+        "B": "9",
+        "C": "−1",
+        "D": "1"
+      },
+      "correct_option": "D",
+      "explanation": "D = b² − 4ac = 9 − 8 = 1.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The nature of the roots of x² + 2x + 5 = 0 is:",
+      "options": {
+        "A": "Exactly one real root",
+        "B": "No real roots",
+        "C": "Two equal real roots",
+        "D": "Two distinct real roots"
+      },
+      "correct_option": "B",
+      "explanation": "D = 4 − 20 = −16 < 0, so the equation has no real roots.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For the equation x² − 6x + 9 = 0, the roots are:",
+      "options": {
+        "A": "Zero real roots",
+        "B": "Two equal real roots",
+        "C": "No real roots",
+        "D": "Two distinct real roots"
+      },
+      "correct_option": "B",
+      "explanation": "D = 36 − 36 = 0, so the roots are real and equal.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Form the quadratic equation whose roots are 2 and 3.",
+      "options": {
+        "A": "x² + 5x + 6 = 0",
+        "B": "x² − 5x − 6 = 0",
+        "C": "x² − 5x + 6 = 0",
+        "D": "x² + 5x − 6 = 0"
+      },
+      "correct_option": "C",
+      "explanation": "Sum = 5, product = 6 ⇒ x² − 5x + 6 = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The quadratic equation with roots −1 and 4 is:",
+      "options": {
+        "A": "x² − 3x − 4 = 0",
+        "B": "x² + 3x − 4 = 0",
+        "C": "x² + 3x + 4 = 0",
+        "D": "x² − 3x + 4 = 0"
+      },
+      "correct_option": "A",
+      "explanation": "Sum = 3, product = −4 ⇒ x² − 3x − 4 = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the sum of the roots is 7 and the product is 12, the quadratic equation is:",
+      "options": {
+        "A": "x² − 7x − 12 = 0",
+        "B": "x² − 7x + 12 = 0",
+        "C": "x² + 7x − 12 = 0",
+        "D": "x² + 7x + 12 = 0"
+      },
+      "correct_option": "B",
+      "explanation": "x² − (sum)x + (product) = x² − 7x + 12 = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The quadratic equation whose roots are 0 and 5 is:",
+      "options": {
+        "A": "x² + 5x = 0",
+        "B": "x² + 5 = 0",
+        "C": "x² − 5x = 0",
+        "D": "x² − 5 = 0"
+      },
+      "correct_option": "C",
+      "explanation": "Sum = 5, product = 0 ⇒ x² − 5x + 0 = 0, i.e. x² − 5x = 0.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If one root of x² + px + 8 = 0 is 2, then p equals:",
+      "options": {
+        "A": "−6",
+        "B": "−4",
+        "C": "6",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "Put x = 2: 4 + 2p + 8 = 0 ⇒ 2p = −12 ⇒ p = −6.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The value of k for which x = 3 is a root of x² − kx + 6 = 0 is:",
+      "options": {
+        "A": "−5",
+        "B": "6",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_option": "D",
+      "explanation": "Put x = 3: 9 − 3k + 6 = 0 ⇒ 3k = 15 ⇒ k = 5.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Which of the following is a root of x² − 4x − 12 = 0?",
+      "options": {
+        "A": "12",
+        "B": "4",
+        "C": "6",
+        "D": "3"
+      },
+      "correct_option": "C",
+      "explanation": "x² − 4x − 12 = (x − 6)(x + 2), so 6 is a root.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Solve: (x − 2)(x + 3) = 0.",
+      "options": {
+        "A": "2, 3",
+        "B": "−2, −3",
+        "C": "−2, 3",
+        "D": "2, −3"
+      },
+      "correct_option": "D",
+      "explanation": "A product is zero when a factor is zero ⇒ x = 2 or −3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The sum of the roots of x² + 8x + 15 = 0 is:",
+      "options": {
+        "A": "8",
+        "B": "15",
+        "C": "−8",
+        "D": "−15"
+      },
+      "correct_option": "C",
+      "explanation": "Sum of roots = −b/a = −8.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The product of the roots of x² − 7x + 10 = 0 is:",
+      "options": {
+        "A": "−10",
+        "B": "−7",
+        "C": "10",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "explanation": "Product of roots = c/a = 10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The roots of x² − 2x − 15 = 0 are:",
+      "options": {
+        "A": "3, 5",
+        "B": "−5, 3",
+        "C": "−3, −5",
+        "D": "5, −3"
+      },
+      "correct_option": "D",
+      "explanation": "x² − 2x − 15 = (x − 5)(x + 3) = 0 ⇒ x = 5 or −3.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For the equation 2x² − 5x + 3 = 0 with roots α and β, 1/α + 1/β equals:",
+      "options": {
+        "A": "2/3",
+        "B": "−5/3",
+        "C": "5/3",
+        "D": "3/5"
+      },
+      "correct_option": "C",
+      "explanation": "α+β = 5/2 and αβ = 3/2, so 1/α + 1/β = (5/2)/(3/2) = 5/3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "α and β are the roots of x² − 4x + 1 = 0. Find α² + β².",
+      "options": {
+        "A": "16",
+        "B": "14",
+        "C": "12",
+        "D": "10"
+      },
+      "correct_option": "B",
+      "explanation": "α² + β² = (α+β)² − 2αβ = 16 − 2 = 14.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The roots of x² − 5x + 6 = 0 are α and β; determine (α − β)².",
+      "options": {
+        "A": "1",
+        "B": "25",
+        "C": "0",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "explanation": "(α − β)² = (α+β)² − 4αβ = 25 − 24 = 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If one root of x² − 7x + k = 0 is 2, then k equals:",
+      "options": {
+        "A": "7",
+        "B": "14",
+        "C": "5",
+        "D": "10"
+      },
+      "correct_option": "D",
+      "explanation": "Put x = 2: 4 − 14 + k = 0 ⇒ k = 10.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of x² − 5x + k = 0 are in the ratio 2 : 3, then k equals:",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "Roots 2m and 3m give sum 5m = 5 ⇒ m = 1, so k = 2m·3m = 6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the value of k for which x² − 8x + k = 0 has equal roots.",
+      "options": {
+        "A": "64",
+        "B": "−16",
+        "C": "16",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "explanation": "Equal roots ⇒ 64 − 4k = 0 ⇒ k = 16.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the positive value of k for which 4x² + kx + 9 = 0 has equal roots.",
+      "options": {
+        "A": "6",
+        "B": "12",
+        "C": "36",
+        "D": "9"
+      },
+      "correct_option": "B",
+      "explanation": "Equal roots ⇒ k² = 4·4·9 = 144 ⇒ k = ±12, so the positive value is 12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of x² + kx + 9 = 0 are equal, the positive value of k is:",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "3",
+        "D": "18"
+      },
+      "correct_option": "A",
+      "explanation": "Equal roots ⇒ k² = 36 ⇒ k = ±6, so the positive value is 6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Determine k such that 2x² + 3x + k = 0 has equal roots.",
+      "options": {
+        "A": "9/8",
+        "B": "8/9",
+        "C": "−9/8",
+        "D": "9/4"
+      },
+      "correct_option": "A",
+      "explanation": "Equal roots ⇒ 9 − 8k = 0 ⇒ k = 9/8.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The quadratic equation x² − 4x + k = 0 has real roots. The largest integer value of k is:",
+      "options": {
+        "A": "4",
+        "B": "16",
+        "C": "5",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "Real roots ⇒ 16 − 4k ≥ 0 ⇒ k ≤ 4, so the largest integer is 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The quadratic equation having 1/2 and 1/3 as its roots is:",
+      "options": {
+        "A": "x² − 5x + 6 = 0",
+        "B": "6x² − 5x + 1 = 0",
+        "C": "6x² + 5x + 1 = 0",
+        "D": "5x² − 6x + 1 = 0"
+      },
+      "correct_option": "B",
+      "explanation": "Sum = 5/6, product = 1/6 ⇒ x² − (5/6)x + 1/6 = 0 ⇒ 6x² − 5x + 1 = 0.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of 2x² − 5x + 3 = 0 are α and β, the equation whose roots are 1/α and 1/β is:",
+      "options": {
+        "A": "3x² − 5x + 2 = 0",
+        "B": "3x² + 5x + 2 = 0",
+        "C": "x² − 5x + 6 = 0",
+        "D": "2x² − 5x + 3 = 0"
+      },
+      "correct_option": "A",
+      "explanation": "Roots of the given equation are 3/2 and 1; their reciprocals 2/3 and 1 have sum 5/3 and product 2/3, giving 3x² − 5x + 2 = 0.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Form the quadratic equation whose roots are the squares of the roots of x² − 5x + 6 = 0.",
+      "options": {
+        "A": "x² − 36x + 13 = 0",
+        "B": "x² + 13x + 36 = 0",
+        "C": "x² − 13x + 36 = 0",
+        "D": "x² − 13x − 36 = 0"
+      },
+      "correct_option": "C",
+      "explanation": "Roots 2 and 3 have squares 4 and 9; sum = 13, product = 36 ⇒ x² − 13x + 36 = 0.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Solve: 2x² − 7x + 3 = 0.",
+      "options": {
+        "A": "3, 1/2",
+        "B": "1, 3",
+        "C": "−3, −1/2",
+        "D": "3, −1/2"
+      },
+      "correct_option": "A",
+      "explanation": "2x² − 7x + 3 = (2x − 1)(x − 3) = 0 ⇒ x = 1/2 or 3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the roots of 6x² − x − 2 = 0.",
+      "options": {
+        "A": "2/3, −1/2",
+        "B": "−2/3, 1/2",
+        "C": "3/2, −2",
+        "D": "2, −1/2"
+      },
+      "correct_option": "A",
+      "explanation": "6x² − x − 2 = (3x − 2)(2x + 1) = 0 ⇒ x = 2/3 or −1/2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Solve for x: 3x² + 10x + 8 = 0.",
+      "options": {
+        "A": "−4, −2/3",
+        "B": "2, 4/3",
+        "C": "−2, 4/3",
+        "D": "−2, −4/3"
+      },
+      "correct_option": "D",
+      "explanation": "3x² + 10x + 8 = (3x + 4)(x + 2) = 0 ⇒ x = −4/3 or −2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The product of two consecutive positive integers is 30. The integers are:",
+      "options": {
+        "A": "5 and 6",
+        "B": "4 and 5",
+        "C": "3 and 10",
+        "D": "6 and 7"
+      },
+      "correct_option": "A",
+      "explanation": "n(n + 1) = 30 ⇒ n² + n − 30 = 0 ⇒ n = 5, giving 5 and 6.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The sum of the squares of two consecutive positive integers is 25. The integers are:",
+      "options": {
+        "A": "4 and 5",
+        "B": "3 and 4",
+        "C": "1 and 2",
+        "D": "2 and 3"
+      },
+      "correct_option": "B",
+      "explanation": "n² + (n + 1)² = 25 ⇒ 2n² + 2n − 24 = 0 ⇒ n = 3, giving 3 and 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the roots of the equation x² − 3x − 10 = 0.",
+      "options": {
+        "A": "−5, 2",
+        "B": "2, 5",
+        "C": "−2, −5",
+        "D": "5, −2"
+      },
+      "correct_option": "D",
+      "explanation": "x² − 3x − 10 = (x − 5)(x + 2) = 0 ⇒ x = 5 or −2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The sum of the roots of 2x² − 8x + 6 = 0 is:",
+      "options": {
+        "A": "8",
+        "B": "−4",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "Sum of roots = −b/a = 8/2 = 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The roots of 2x² + x − 6 = 0 are:",
+      "options": {
+        "A": "2/3, −2",
+        "B": "3, −2",
+        "C": "3/2, −2",
+        "D": "−3/2, 2"
+      },
+      "correct_option": "C",
+      "explanation": "2x² + x − 6 = (2x − 3)(x + 2) = 0 ⇒ x = 3/2 or −2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If one root of x² − 6x + k = 0 is twice the other, then k equals:",
+      "options": {
+        "A": "6",
+        "B": "9",
+        "C": "12",
+        "D": "8"
+      },
+      "correct_option": "D",
+      "explanation": "Roots m and 2m give 3m = 6 ⇒ m = 2, so k = 2m² = 8.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If α and β satisfy x² − 3x + 1 = 0, then α³ + β³ = ?",
+      "options": {
+        "A": "9",
+        "B": "27",
+        "C": "18",
+        "D": "12"
+      },
+      "correct_option": "C",
+      "explanation": "α+β = 3, αβ = 1; α³+β³ = (α+β)³ − 3αβ(α+β) = 27 − 9 = 18.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The quadratic equation whose roots are 3 + √2 and 3 − √2 is:",
+      "options": {
+        "A": "x² + 6x + 7 = 0",
+        "B": "x² − 6x + 7 = 0",
+        "C": "x² − 7x + 6 = 0",
+        "D": "x² − 6x − 7 = 0"
+      },
+      "correct_option": "B",
+      "explanation": "Sum = 6 and product = 9 − 2 = 7, so the equation is x² − 6x + 7 = 0.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Two numbers differ by 5 and their product is 84. The larger number is:",
+      "options": {
+        "A": "14",
+        "B": "7",
+        "C": "9",
+        "D": "12"
+      },
+      "correct_option": "D",
+      "explanation": "n(n − 5) = 84 ⇒ n² − 5n − 84 = 0 ⇒ n = 12, so the larger number is 12.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Let α and β be the roots of x² − 6x + 4 = 0. Evaluate α/β + β/α.",
+      "options": {
+        "A": "9",
+        "B": "7",
+        "C": "5",
+        "D": "36"
+      },
+      "correct_option": "B",
+      "explanation": "α/β + β/α = (α²+β²)/αβ = (36 − 8)/4 = 28/4 = 7.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "How many real roots does the equation x² − 2x + 2 = 0 have?",
+      "options": {
+        "A": "None",
+        "B": "Two",
+        "C": "One",
+        "D": "Three"
+      },
+      "correct_option": "A",
+      "explanation": "D = 4 − 8 = −4 < 0, so there are no real roots.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of x² − px + q = 0 differ by 1, then p² − 4q equals:",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "0"
+      },
+      "correct_option": "B",
+      "explanation": "The difference of roots satisfies (α−β)² = p² − 4q; a difference of 1 gives p² − 4q = 1.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For what value of k does x² − 2(k + 1)x + k² = 0 have equal roots?",
+      "options": {
+        "A": "−1/2",
+        "B": "−1",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correct_option": "A",
+      "explanation": "Equal roots ⇒ 4(k+1)² − 4k² = 0 ⇒ 4(2k + 1) = 0 ⇒ k = −1/2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Find the value of m for which 3x² + mx + 12 = 0 has equal roots.",
+      "options": {
+        "A": "±6",
+        "B": "±4",
+        "C": "±12",
+        "D": "±24"
+      },
+      "correct_option": "C",
+      "explanation": "Equal roots ⇒ m² = 4·3·12 = 144 ⇒ m = ±12.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For what values of k does (k − 2)x² + 2(2k − 3)x + (5k − 6) = 0 have equal roots?",
+      "options": {
+        "A": "1, 2",
+        "B": "−1, −3",
+        "C": "1, 3",
+        "D": "2, 3"
+      },
+      "correct_option": "C",
+      "explanation": "Setting D = 0 gives (2k−3)² = (k−2)(5k−6) ⇒ k² − 4k + 3 = 0 ⇒ k = 1 or 3.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of (b − c)x² + (c − a)x + (a − b) = 0 are equal, then:",
+      "options": {
+        "A": "a = b = c",
+        "B": "2a = b + c",
+        "C": "2c = a + b",
+        "D": "2b = a + c"
+      },
+      "correct_option": "D",
+      "explanation": "x = 1 is a root, so equal roots mean a double root at 1, giving sum 2 = −(c−a)/(b−c) ⇒ 2b = a + c.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "A positive number is such that its square diminished by 15 equals twice the number. The number is:",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "x² − 15 = 2x ⇒ x² − 2x − 15 = 0 ⇒ x = 5 (positive).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The product of a positive number and the number decreased by 4 is 21. The number is:",
+      "options": {
+        "A": "3",
+        "B": "7",
+        "C": "9",
+        "D": "11"
+      },
+      "correct_option": "B",
+      "explanation": "x(x − 4) = 21 ⇒ x² − 4x − 21 = 0 ⇒ x = 7 (positive).",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The length of a rectangle is 3 m more than its breadth and its area is 180 m². The length is:",
+      "options": {
+        "A": "12 m",
+        "B": "15 m",
+        "C": "18 m",
+        "D": "20 m"
+      },
+      "correct_option": "B",
+      "explanation": "b(b + 3) = 180 ⇒ b² + 3b − 180 = 0 ⇒ b = 12, so the length is 15 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The sum of the reciprocals of two consecutive even positive integers is 5/12. The smaller integer is:",
+      "options": {
+        "A": "2",
+        "B": "8",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "explanation": "1/x + 1/(x+2) = 5/12 ⇒ 12(2x + 2) = 5(x² + 2x) ⇒ 5x² − 14x − 24 = 0 ⇒ x = 4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "A train travels 360 km at a uniform speed. If its speed were 5 km/h more, it would take 1 hour less. The speed is:",
+      "options": {
+        "A": "36 km/h",
+        "B": "45 km/h",
+        "C": "30 km/h",
+        "D": "40 km/h"
+      },
+      "correct_option": "D",
+      "explanation": "360/x − 360/(x+5) = 1 ⇒ x² + 5x − 1800 = 0 ⇒ x = 40.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "α and β being the roots of x² − 2x + 3 = 0, compute α³β + αβ³.",
+      "options": {
+        "A": "−6",
+        "B": "12",
+        "C": "6",
+        "D": "−12"
+      },
+      "correct_option": "A",
+      "explanation": "α³β + αβ³ = αβ(α²+β²) = 3·((4) − 6) = 3·(−2) = −6.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The sum of the roots of a quadratic equation is 5 and the sum of their squares is 13. The equation is:",
+      "options": {
+        "A": "x² − 13x + 5 = 0",
+        "B": "x² + 5x + 6 = 0",
+        "C": "x² − 5x − 6 = 0",
+        "D": "x² − 5x + 6 = 0"
+      },
+      "correct_option": "D",
+      "explanation": "αβ = (25 − 13)/2 = 6, so the equation is x² − 5x + 6 = 0.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If α and β are the roots of x² − px + 3 = 0 and α − β = 2, then p (p > 0) equals:",
+      "options": {
+        "A": "8",
+        "B": "2",
+        "C": "16",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "(α−β)² = 4 = p² − 12 ⇒ p² = 16 ⇒ p = 4.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If one root of x² − 8x + k = 0 is three times the other, then k equals:",
+      "options": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "15"
+      },
+      "correct_option": "B",
+      "explanation": "Roots m and 3m give 4m = 8 ⇒ m = 2, so k = 3m² = 12.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "If the roots of 2x² − 7x + k = 0 are reciprocals of each other, then k equals:",
+      "options": {
+        "A": "1",
+        "B": "−2",
+        "C": "7",
+        "D": "2"
+      },
+      "correct_option": "D",
+      "explanation": "Reciprocal roots give product = 1 ⇒ k/2 = 1 ⇒ k = 2.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "Two numbers are in the ratio 3 : 4 and their product is 48. The larger number is:",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "12",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "The numbers are 3k and 4k; 12k² = 48 ⇒ k² = 4 ⇒ k = 2, so the larger number is 8.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The product of the digits of a two-digit number is 24 and their sum is 10. The digits are:",
+      "options": {
+        "A": "3 and 8",
+        "B": "5 and 5",
+        "C": "2 and 12",
+        "D": "4 and 6"
+      },
+      "correct_option": "D",
+      "explanation": "The digits are roots of t² − 10t + 24 = 0 ⇒ t = 4 and 6.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "A number when added to its square gives 132. The number is:",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "9",
+        "D": "11"
+      },
+      "correct_option": "D",
+      "explanation": "x² + x = 132 ⇒ x² + x − 132 = 0 ⇒ x = 11.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The age of a man is the square of the age of his son. After 5 years the man will be three times as old as his son. The son's present age is:",
+      "options": {
+        "A": "6 years",
+        "B": "3 years",
+        "C": "5 years",
+        "D": "4 years"
+      },
+      "correct_option": "C",
+      "explanation": "x² + 5 = 3(x + 5) ⇒ x² − 3x − 10 = 0 ⇒ x = 5.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The perimeter of a rectangle is 34 cm and its area is 60 cm². Its length is:",
+      "options": {
+        "A": "15 cm",
+        "B": "10 cm",
+        "C": "12 cm",
+        "D": "17 cm"
+      },
+      "correct_option": "C",
+      "explanation": "l + b = 17 and lb = 60 ⇒ t² − 17t + 60 = 0 ⇒ t = 12 or 5, so the length is 12 cm.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "The product of two consecutive odd positive integers is 143. The larger integer is:",
+      "options": {
+        "A": "11",
+        "B": "13",
+        "C": "15",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "explanation": "n(n + 2) = 143 ⇒ n² + 2n − 143 = 0 ⇒ n = 11, so the larger is 13.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "quadratic-equations",
+      "question_text": "For x² − 4x + 2 = 0 whose roots are α and β, find α⁴ + β⁴.",
+      "options": {
+        "A": "128",
+        "B": "136",
+        "C": "144",
+        "D": "120"
+      },
+      "correct_option": "B",
+      "explanation": "α²+β² = 16 − 4 = 12, α²β² = 4; α⁴+β⁴ = 12² − 2·4 = 144 − 8 = 136.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}
