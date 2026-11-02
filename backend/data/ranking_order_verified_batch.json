@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a group of 40 students, S is 15th from the top. What is S's rank from the bottom?",
+      "options": {
+        "A": "26th",
+        "B": "25th",
+        "C": "24th",
+        "D": "27th"
+      },
+      "correct_option": "A",
+      "explanation": "Opposite-end rank = total − given rank + 1 = 40 − 15 + 1 = 26th.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "Amit is 7th from the top and 26th from the bottom in his class. How many students are there?",
+      "options": {
+        "A": "31",
+        "B": "32",
+        "C": "33",
+        "D": "34"
+      },
+      "correct_option": "B",
+      "explanation": "Total = top rank + bottom rank − 1 = 7 + 26 − 1 = 32.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A person is 27th in a queue from one end and 38th from the other. How many people are in the queue?",
+      "options": {
+        "A": "63",
+        "B": "65",
+        "C": "64",
+        "D": "66"
+      },
+      "correct_option": "C",
+      "explanation": "The person's place is counted from both ends, so total = 27 + 38 − 1 = 64.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "There are 35 people in a group. Govind is 6th from the top, and Krishna is 7 places below him. What is Krishna's rank from the bottom?",
+      "options": {
+        "A": "22nd",
+        "B": "24th",
+        "C": "29th",
+        "D": "23rd"
+      },
+      "correct_option": "D",
+      "explanation": "Krishna is 6 + 7 = 13th from the top. From the bottom he is 35 − 13 + 1 = 23rd.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "Ram and Sham are 13th and 14th from the top, respectively, in a class of 23. What are their ranks from the bottom, respectively?",
+      "options": {
+        "A": "11th and 10th",
+        "B": "10th and 11th",
+        "C": "11th and 9th",
+        "D": "12th and 11th"
+      },
+      "correct_option": "A",
+      "explanation": "Ram: 23 − 13 + 1 = 11th. Sham: 23 − 14 + 1 = 10th.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "Samsung is 37th from the right and Nokia is 31st from the left. After they interchange positions, Samsung is 46th from the right. How many students are in the row?",
+      "options": {
+        "A": "75",
+        "B": "76",
+        "C": "77",
+        "D": "68"
+      },
+      "correct_option": "B",
+      "explanation": "After the swap Samsung occupies Nokia's original position, so Nokia was 46th from the right. Total = Nokia's left rank 31 + right rank 46 − 1 = 76. Samsung's initial rank is not needed.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "Sahil is 12th from the left and Gaurav is 18th from the right. After they interchange, Sahil is 25th from the left. How many people are in the row?",
+      "options": {
+        "A": "41",
+        "B": "43",
+        "C": "42",
+        "D": "40"
+      },
+      "correct_option": "C",
+      "explanation": "Sahil moves to Gaurav's original position, so Gaurav was 25th from the left. Total = 25 + 18 − 1 = 42.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "Sameer is 20th from the left and Arun is 12th from the right. After they interchange, Arun is 10th from the right. How many people are in the row?",
+      "options": {
+        "A": "28",
+        "B": "30",
+        "C": "31",
+        "D": "29"
+      },
+      "correct_option": "D",
+      "explanation": "Arun moves to Sameer's original position. Thus Sameer's position is 10th from the right; total = 20 + 10 − 1 = 29.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Ranking and Order  01_ Class Notes.pdf, page 14; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "There are 28 runners. Meera finishes 9th from the front. What is her rank from the end?",
+      "options": {
+        "A": "20th",
+        "B": "19th",
+        "C": "21st",
+        "D": "18th"
+      },
+      "correct_option": "A",
+      "explanation": "Rank from the end = 28 − 9 + 1 = 20th.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A student is 12th from the bottom in a class of 35. What is the student's rank from the top?",
+      "options": {
+        "A": "23rd",
+        "B": "24th",
+        "C": "25th",
+        "D": "22nd"
+      },
+      "correct_option": "B",
+      "explanation": "Rank from the top = 35 − 12 + 1 = 24th.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A contestant is 17th from the front and 21st from the back. How many contestants are there?",
+      "options": {
+        "A": "36",
+        "B": "38",
+        "C": "37",
+        "D": "39"
+      },
+      "correct_option": "C",
+      "explanation": "Total = 17 + 21 − 1 = 37.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a row of 43 people, what is the middle position when counted from either end?",
+      "options": {
+        "A": "21st",
+        "B": "23rd",
+        "C": "22nd from the left and 21st from the right",
+        "D": "22nd"
+      },
+      "correct_option": "D",
+      "explanation": "For an odd total of 43, the single middle position is (43 + 1) ÷ 2 = 22nd from either end.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A player is 8th from the left in a line. How many players stand ahead of the player?",
+      "options": {
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "The player's rank includes the player, so the number ahead is 8 − 1 = 7.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a class of 30, a girl is 12th from the bottom. How many students are above her?",
+      "options": {
+        "A": "17",
+        "B": "18",
+        "C": "19",
+        "D": "12"
+      },
+      "correct_option": "B",
+      "explanation": "There are 30 − 12 = 18 students above her; her own place is excluded.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A swimmer is 6th from the finish end in a field of 24. What is the swimmer's rank from the starting end?",
+      "options": {
+        "A": "18th",
+        "B": "20th",
+        "C": "19th",
+        "D": "17th"
+      },
+      "correct_option": "C",
+      "explanation": "Opposite-end rank = 24 − 6 + 1 = 19th.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a line of 26, A is 8th from the left and B is 7th from the right. How many people stand between A and B?",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "9",
+        "D": "11"
+      },
+      "correct_option": "D",
+      "explanation": "B is 26 − 7 + 1 = 20th from the left. The people strictly between positions 8 and 20 are 20 − 8 − 1 = 11.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A is 9th from the left, B is 14th from the right, and exactly 5 people are between them. How many people are in the row?",
+      "options": {
+        "A": "28",
+        "B": "27",
+        "C": "29",
+        "D": "26"
+      },
+      "correct_option": "A",
+      "explanation": "With ranks measured from opposite ends and 5 people between, total = 9 + 14 + 5 = 28.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "There are 42 students. Ravi is 13th from the top, and Aman is 9 places below Ravi. What is Aman's rank from the bottom?",
+      "options": {
+        "A": "20th",
+        "B": "21st",
+        "C": "22nd",
+        "D": "30th"
+      },
+      "correct_option": "B",
+      "explanation": "Aman is 13 + 9 = 22nd from the top. From the bottom: 42 − 22 + 1 = 21st.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a row of 39, Leena is 16th from the left and Vina is 23rd from the right. How many people are between them?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "0",
+        "D": "3"
+      },
+      "correct_option": "C",
+      "explanation": "Vina is 39 − 23 + 1 = 17th from the left, immediately after Leena at 16th. No one is between them.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a group of 34, R is 11th from the left and S is 13th from the right. How many people are between them?",
+      "options": {
+        "A": "9",
+        "B": "11",
+        "C": "12",
+        "D": "10"
+      },
+      "correct_option": "D",
+      "explanation": "S is 34 − 13 + 1 = 22nd from the left. Between ranks 11 and 22 are 22 − 11 − 1 = 10 people.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "There are 45 students. P is 18th from the top. Q is 5 places ahead of P. What is Q's rank from the bottom?",
+      "options": {
+        "A": "33rd",
+        "B": "32nd",
+        "C": "34th",
+        "D": "27th"
+      },
+      "correct_option": "A",
+      "explanation": "Q is 18 − 5 = 13th from the top. From the bottom: 45 − 13 + 1 = 33rd.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a class of 32, B is 4 places below A, who is 6th from the top. C is 3 places below B. What is C's rank from the bottom?",
+      "options": {
+        "A": "19th",
+        "B": "20th",
+        "C": "21st",
+        "D": "23rd"
+      },
+      "correct_option": "B",
+      "explanation": "B is 10th and C is 13th from the top. C's bottom rank is 32 − 13 + 1 = 20th.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "M is 5th from the top in a class of 27. N is 6 positions below M. What is N's rank from the bottom?",
+      "options": {
+        "A": "16th",
+        "B": "18th",
+        "C": "17th",
+        "D": "12th"
+      },
+      "correct_option": "C",
+      "explanation": "N is 5 + 6 = 11th from the top. From the bottom: 27 − 11 + 1 = 17th.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "K's position number is 8 less than R's, and R's is 13 less than S's. If S is 21st from the bottom in a group of 48, what is K's rank from the bottom?",
+      "options": {
+        "A": "41st",
+        "B": "43rd",
+        "C": "34th",
+        "D": "42nd"
+      },
+      "correct_option": "D",
+      "explanation": "From the bottom, R is 21 + 13 = 34th and K is 34 + 8 = 42nd. A person ahead has a larger rank number when counted from the bottom.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "A is 19th from the left and B is 16th from the right. If exactly 7 people stand between them, how many people are in the row?",
+      "options": {
+        "A": "42",
+        "B": "41",
+        "C": "43",
+        "D": "40"
+      },
+      "correct_option": "A",
+      "explanation": "With positions counted from opposite ends and 7 people between them, total = 19 + 16 + 7 = 42.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "There are 60 students. A is 17th from the top. B is 12 positions below A, and C is 8 positions ahead of B. What is C's rank from the bottom?",
+      "options": {
+        "A": "39th",
+        "B": "40th",
+        "C": "41st",
+        "D": "32nd"
+      },
+      "correct_option": "B",
+      "explanation": "B is 29th from the top. C is 29 − 8 = 21st from the top. From the bottom: 60 − 21 + 1 = 40th.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a row of 60, A is 14th from the left, B is 21st from the left, and C is 33rd from the right. A and B swap places, then B and C swap places. What is C's final rank from the left?",
+      "options": {
+        "A": "21st",
+        "B": "28th",
+        "C": "14th",
+        "D": "33rd"
+      },
+      "correct_option": "C",
+      "explanation": "After the first swap B stands in A's original 14th position. In the second swap C takes B's current position, so C finishes 14th from the left.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "Tara is 18th from the front. Mohan is 7 positions behind Tara, and Jaya is 9 positions ahead of Mohan. In a field of 60, what is Jaya's rank from the end?",
+      "options": {
+        "A": "44th",
+        "B": "46th",
+        "C": "36th",
+        "D": "45th"
+      },
+      "correct_option": "D",
+      "explanation": "Mohan is 18 + 7 = 25th from the front. Jaya is 25 − 9 = 16th. From the end: 60 − 16 + 1 = 45th.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "In a queue, R is 8th from the front. S is 11 positions behind R, and T is 7 positions ahead of S. How many people stand between R and T?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "7"
+      },
+      "correct_option": "A",
+      "explanation": "S is 8 + 11 = 19th from the front; T is 19 − 7 = 12th. The gap between ranks 8 and 12 is 12 − 8 − 1 = 3 people.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "ranking-and-order",
+      "question_text": "There are 70 people in a line. A is 26th from the top and B is 29th from the bottom. How many people stand between A and B?",
+      "options": {
+        "A": "13",
+        "B": "15",
+        "C": "14",
+        "D": "16"
+      },
+      "correct_option": "B",
+      "explanation": "B is 70 − 29 + 1 = 42nd from the top. The people between ranks 26 and 42 are 42 − 26 − 1 = 15.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}
