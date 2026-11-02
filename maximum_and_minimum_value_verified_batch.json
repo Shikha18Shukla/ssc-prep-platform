@@ -1,0 +1,593 @@
+{
+  "questions": [
+    {
+      "question_text": "The minimum value of x² + 6x + 10 is:",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "−2",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "Complete square: (x+3)² + 1, min = 1",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The maximum value of −x² + 4x − 5 is:",
+      "options": {
+        "A": "−1",
+        "B": "−3",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "Vertex at x=2, value = −4+8−5 = −1",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x + 1/x for x > 0 is:",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "−7"
+      },
+      "correct_option": "A",
+      "explanation": "By AM-GM: x + 1/x ≥ 2",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The expression (x + 3)² − 2 has minimum value:",
+      "options": {
+        "A": "−3",
+        "B": "4",
+        "C": "9",
+        "D": "−2"
+      },
+      "correct_option": "D",
+      "explanation": "Since (x+3)² ≥ 0, min = −2",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x² − 4x + 5 = (x − a)² + b, then a + b equals:",
+      "options": {
+        "A": "−1",
+        "B": "3",
+        "C": "1",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "(x−2)² + 1 → a=2, b=1, a+b=3",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of 2x² + 8x + 10 is:",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "2",
+        "D": "6"
+      },
+      "correct_option": "C",
+      "explanation": "Complete: 2(x+2)² + 2, min = 2",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The maximum value of 5 − (x − 3)² is:",
+      "options": {
+        "A": "2",
+        "B": "5",
+        "C": "8",
+        "D": "−7"
+      },
+      "correct_option": "B",
+      "explanation": "Since (x−3)² ≥ 0, max = 5",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x + 4/x for x > 0 is:",
+      "options": {
+        "A": "1",
+        "B": "−5",
+        "C": "−3",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "By AM-GM: ≥ 2√4 = 4",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If 2x² + 8x + k has min value 2, then k:",
+      "options": {
+        "A": "7",
+        "B": "2",
+        "C": "10",
+        "D": "9"
+      },
+      "correct_option": "C",
+      "explanation": "2(x+2)² − 8 + k, min = −8+k = 2 → k=10",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of (2x − 1)² + 5 is:",
+      "options": {
+        "A": "4",
+        "B": "−3",
+        "C": "5",
+        "D": "−1"
+      },
+      "correct_option": "C",
+      "explanation": "(2x−1)² ≥ 0, so min = 5",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The x² + 4x + 7 for real x is always:",
+      "options": {
+        "A": "2",
+        "B": "positive",
+        "C": "−3",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "(x+2)² + 3, min = 3 > 0",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of 3x² + 6x + 7 is:",
+      "options": {
+        "A": "4",
+        "B": "9",
+        "C": "6",
+        "D": "−2"
+      },
+      "correct_option": "A",
+      "explanation": "Complete: 3(x+1)² + 4, min = 4",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The maximum value of −3x² + 6x − 2 is:",
+      "options": {
+        "A": "5",
+        "B": "7",
+        "C": "1",
+        "D": "−2"
+      },
+      "correct_option": "C",
+      "explanation": "Vertex at x=1, value = −3+6−2 = 1",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x² − 2x + 5 is:",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "−1",
+        "D": "−2"
+      },
+      "correct_option": "B",
+      "explanation": "Complete: (x−1)² + 4, min = 4",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x + 9/x for x > 0 is:",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "−2",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "By AM-GM: ≥ 2√9 = 6",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x² + 4x + c has min value 3, then c:",
+      "options": {
+        "A": "1",
+        "B": "7",
+        "C": "−7",
+        "D": "−5"
+      },
+      "correct_option": "B",
+      "explanation": "(x+2)² + c − 4, min = c − 4 = 3 → c = 7",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of 5x² − 10x + 9 is:",
+      "options": {
+        "A": "8",
+        "B": "4",
+        "C": "2",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "Complete: 5(x−1)² + 4, min = 4",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The maximum value of 4 − (x + 2)² is:",
+      "options": {
+        "A": "5",
+        "B": "−2",
+        "C": "9",
+        "D": "4"
+      },
+      "correct_option": "D",
+      "explanation": "Since (x+2)² ≥ 0, max = 4",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of 4/x + x for x > 0 is:",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "−7",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "By AM-GM: ≥ 2√4 = 4",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x − 1/x = 3, then x² + 1/x² equals:",
+      "options": {
+        "A": "7",
+        "B": "−2",
+        "C": "10",
+        "D": "11"
+      },
+      "correct_option": "D",
+      "explanation": "(x−1/x)² = 9 → x²+1/x² = 11",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The x² + 1/x² (x > 0) min value:",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "2",
+        "D": "4"
+      },
+      "correct_option": "C",
+      "explanation": "By AM-GM: ≥ 2√1 = 2",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x + y = 8, min of x² + y²:",
+      "options": {
+        "A": "−1",
+        "B": "3",
+        "C": "−7",
+        "D": "32"
+      },
+      "correct_option": "D",
+      "explanation": "x²+y² = 64−2xy, max xy=16, min=32",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x + y = 6 and xy = 5, then x² + y²:",
+      "options": {
+        "A": "7",
+        "B": "−7",
+        "C": "10",
+        "D": "26"
+      },
+      "correct_option": "D",
+      "explanation": "(x+y)²−2xy = 36−10 = 26",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x/2 + 2/x for x > 0:",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "−2",
+        "D": "10"
+      },
+      "correct_option": "A",
+      "explanation": "By AM-GM: ≥ 2√(x/2·2/x) = 2",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x² + 6x + c min is 5, then c:",
+      "options": {
+        "A": "11",
+        "B": "6",
+        "C": "−1",
+        "D": "−3"
+      },
+      "correct_option": "A",
+      "explanation": "(x+3)²+c−9, min = c−9=5 → c=11",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x² + 2x + 1 is:",
+      "options": {
+        "A": "8",
+        "B": "3",
+        "C": "0",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "(x+1)², min = 0 at x=−1",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The maximum value of −(x − 3)² + 7 is:",
+      "options": {
+        "A": "2",
+        "B": "10",
+        "C": "7",
+        "D": "−2"
+      },
+      "correct_option": "C",
+      "explanation": "Since (x-3)² ≥ 0, max = 7",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x > 0 and x + 1/x ≥ 2, then min of 5x + 5/x:",
+      "options": {
+        "A": "10",
+        "B": "6",
+        "C": "−7",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "5(x+1/x) ≥ 10",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of 2x + 8/x for x > 0:",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "1",
+        "D": "2"
+      },
+      "correct_option": "A",
+      "explanation": "By AM-GM: ≥ 2√(2·8) = 8",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The If x² + 4x + c min is 1, then c:",
+      "options": {
+        "A": "−1",
+        "B": "4",
+        "C": "5",
+        "D": "1"
+      },
+      "correct_option": "C",
+      "explanation": "c−4=1 → c=5",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    },
+    {
+      "question_text": "The minimum value of x² − 4x + 9 is:",
+      "options": {
+        "A": "10",
+        "B": "5",
+        "C": "−7",
+        "D": "2"
+      },
+      "correct_option": "B",
+      "explanation": "Complete: (x−2)²+5, min=5",
+      "difficulty": "EASY",
+      "source": "Original SSC-style practice question",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "subject_slug": "maths",
+      "subcategory_slug": "advanced-maths",
+      "chapter_slug": "maximum-and-minimum-value"
+    }
+  ]
+}

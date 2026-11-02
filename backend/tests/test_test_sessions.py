@@ -53,6 +53,9 @@ def test_setup(db_session: Session):
         db_session.flush()
         seed_questions(first, [Difficulty.EASY, Difficulty.MEDIUM, Difficulty.HARD], slug)
         seed_questions(second, [Difficulty.EASY, Difficulty.MEDIUM, Difficulty.HARD], f"{slug} second")
+        if slug == "reasoning":
+            seed_questions(first, [Difficulty.EASY], "reasoning PYQ", is_pyq=True)
+            seed_questions(second, [Difficulty.MEDIUM], "reasoning second PYQ", is_pyq=True)
         extra[slug] = {"subject": other_subject, "chapter": first, "second_chapter": second}
     db_session.commit()
     return {
@@ -287,6 +290,91 @@ def test_miscellaneous_rejects_chapter_and_keeps_questions_in_selected_subject(c
     payload["difficulty"] = None
     response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
     assert response.status_code == 201, response.text
+
+
+def _reasoning_payload(test_setup, test_type, source, count=10, chapter_id=None):
+    subject = test_setup["extra"]["reasoning"]["subject"]
+    return {
+        "exam_id": str(test_setup["exam"].id),
+        "subject_id": str(subject.id),
+        "test_type": test_type,
+        "chapter_id": str(chapter_id) if chapter_id else None,
+        "subcategory_id": None,
+        "difficulty": "PYQ" if source == "PYQ" else None,
+        "question_count": count,
+    }
+
+
+@pytest.mark.parametrize("test_type", ["CHAPTER_WISE", "MISCELLANEOUS"])
+@pytest.mark.parametrize("source,is_pyq", [("NORMAL", False), ("PYQ", True)])
+def test_reasoning_filters_source_and_persists_selected_order(client, test_setup, db_session, test_type, source, is_pyq):
+    from app.models import TestQuestion
+
+    reasoning = test_setup["extra"]["reasoning"]
+    chapter_id = reasoning["chapter"].id if test_type == "CHAPTER_WISE" else None
+    payload = _reasoning_payload(test_setup, test_type, source, count=10, chapter_id=chapter_id)
+    response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert response.status_code == 201, response.text
+    attempt = response.json()
+    rows = db_session.query(TestQuestion).filter_by(test_attempt_id=uuid.UUID(attempt["id"])).order_by(TestQuestion.question_order).all()
+    assert len(rows) == 10
+    assert all(row.question.is_pyq is is_pyq for row in rows)
+    assert all(row.question.chapter.subject.slug == "reasoning" for row in rows)
+    if chapter_id:
+        assert all(row.question.chapter_id == chapter_id for row in rows)
+    replay = client.get(f"/api/tests/{attempt['id']}", headers=test_setup["headers"])
+    assert [q["test_question_id"] for q in replay.json()["questions"]] == [q["test_question_id"] for q in attempt["questions"]]
+
+
+def test_reasoning_all_chapters_sampling_is_balanced_and_uses_standard_counts(client, test_setup, db_session):
+    from app.models import TestQuestion
+
+    payload = _reasoning_payload(test_setup, "MISCELLANEOUS", "NORMAL", count=20)
+    response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert response.status_code == 201, response.text
+    attempt_id = uuid.UUID(response.json()["id"])
+    rows = db_session.query(TestQuestion).filter_by(test_attempt_id=attempt_id).all()
+    counts = {}
+    for row in rows:
+        counts[row.question.chapter_id] = counts.get(row.question.chapter_id, 0) + 1
+        assert not row.question.is_pyq
+    assert sorted(counts.values()) == [10, 10]
+    params = {
+        key: value for key, value in payload.items()
+        if key not in {"question_count", "difficulty"} and value is not None
+    }
+    availability = client.get("/api/tests/availability", params=params, headers=test_setup["headers"])
+    assert availability.status_code == 200
+    assert availability.json()["allowed_question_counts"] == [10, 15, 20, 25]
+
+
+def test_reasoning_new_attempts_can_sample_different_questions(client, test_setup):
+    reasoning = test_setup["extra"]["reasoning"]
+    payload = _reasoning_payload(test_setup, "CHAPTER_WISE", "NORMAL", count=10, chapter_id=reasoning["chapter"].id)
+    first = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    second = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert first.status_code == second.status_code == 201
+    first_stems = {item["question_text"] for item in first.json()["questions"]}
+    second_stems = {item["question_text"] for item in second.json()["questions"]}
+    assert len(first_stems) == len(second_stems) == 10
+    assert first_stems != second_stems
+
+
+def test_reasoning_does_not_offer_nonstandard_partial_count(client, test_setup, db_session):
+    reasoning = test_setup["extra"]["reasoning"]
+    chapter = reasoning["chapter"]
+    rows = [q for q in test_setup["extra"]["reasoning"]["chapter"].questions if not q.is_pyq]
+    for question in rows[9:]:
+        question.is_active = False
+    db_session.flush()
+    response = client.get(
+        "/api/tests/availability",
+        params={"exam_id": str(test_setup["exam"].id), "subject_id": str(reasoning["subject"].id), "test_type": "CHAPTER_WISE", "chapter_id": str(chapter.id)},
+        headers=test_setup["headers"],
+    )
+    assert response.status_code == 200
+    assert response.json()["available_question_count"] == 9
+    assert response.json()["allowed_question_counts"] == []
 
 
 def test_maths_supports_mixed_difficulty_ordinary_tests_and_other_subjects_reject_difficulty(client, test_setup):

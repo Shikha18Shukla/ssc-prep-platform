@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "After 100 days from a Friday, what day of the week will it be?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Monday"
+      },
+      "correct_option": "C",
+      "explanation": "100 days make 14 complete weeks and 2 extra days. Two days after Friday is Sunday.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "Which of the following is not a leap year?",
+      "options": {
+        "A": "1728",
+        "B": "2016",
+        "C": "1998",
+        "D": "1604"
+      },
+      "correct_option": "C",
+      "explanation": "A Gregorian year is leap if divisible by 4, except century years must be divisible by 400. 1998 is not divisible by 4; the others are.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "Which of the following is not a century year?",
+      "options": {
+        "A": "2000",
+        "B": "2100",
+        "C": "1190",
+        "D": "1900"
+      },
+      "correct_option": "C",
+      "explanation": "A century year is a year ending in 00. Only 1190 does not end in 00.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 15; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "In an ordinary year, if 1 January is Friday, what weekday is 31 December?",
+      "options": {
+        "A": "Thursday",
+        "B": "Friday",
+        "C": "Saturday",
+        "D": "Sunday"
+      },
+      "correct_option": "B",
+      "explanation": "An ordinary year has 365 days. From 1 January to 31 December is a 364-day difference, exactly 52 weeks, so the weekday remains Friday.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 17; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "In a leap year, if 1 January is Tuesday, what weekday is 31 December?",
+      "options": {
+        "A": "Tuesday",
+        "B": "Wednesday",
+        "C": "Thursday",
+        "D": "Monday"
+      },
+      "correct_option": "B",
+      "explanation": "A leap year has 366 days; 31 December is 365 days after 1 January. 365 leaves remainder 1 on division by 7, so Tuesday advances to Wednesday.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 18; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "Which is not a leap century year?",
+      "options": {
+        "A": "2400",
+        "B": "2000",
+        "C": "1400",
+        "D": "1600"
+      },
+      "correct_option": "C",
+      "explanation": "A century year is a leap year only when divisible by 400. 1400 is not divisible by 400; 2400, 2000, and 1600 are.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 16; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "What is the greatest possible gap, in years, between consecutive leap years in the Gregorian calendar?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "12",
+        "D": "100"
+      },
+      "correct_option": "B",
+      "explanation": "Leap years normally recur every four years. When a century year is not divisible by 400, that leap day is omitted, making the gap from the preceding leap year to the following one eight years.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 02_ Class Notes.pdf, page 20; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "What day of the week was 26 March 1995?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Monday"
+      },
+      "correct_option": "C",
+      "explanation": "Using 1 January 1900 = Monday: through 1994 there are 95 years and 23 leap days, or 34,698 days, remainder 6 modulo 7. Thus 1 January 1995 was Sunday. 26 March is 84 days after 1 January, exactly 12 weeks later, so it was Sunday.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 03_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "If 12 February 2005 was Saturday, what day of the week was 24 May 2017?",
+      "options": {
+        "A": "Tuesday",
+        "B": "Wednesday",
+        "C": "Thursday",
+        "D": "Friday"
+      },
+      "correct_option": "B",
+      "explanation": "Count elapsed days: from 12 February 2005 to 12 February 2017 there are 12×365 + 3 leap days (2008, 2012, 2016) = 4383 days. From 12 February to 24 May 2017 adds 101 days. Total 4484 leaves remainder 4 modulo 7; Saturday + 4 days is Wednesday.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Calendar 05_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many odd days are there in an ordinary year?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "An ordinary year has 365 days = 52 weeks + 1 day, so it has one odd day.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many months in a year have exactly 30 days?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correct_option": "B",
+      "explanation": "April, June, September, and November have 30 days: four months.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many days are there in April, May, and June together?",
+      "options": {
+        "A": "90",
+        "B": "91",
+        "C": "92",
+        "D": "93"
+      },
+      "correct_option": "B",
+      "explanation": "April has 30 days, May 31, and June 30; 30 + 31 + 30 = 91.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "A 31-day month begins on Tuesday. Which three weekdays each occur five times in that month?",
+      "options": {
+        "A": "Monday, Tuesday, Wednesday",
+        "B": "Tuesday, Wednesday, Thursday",
+        "C": "Wednesday, Thursday, Friday",
+        "D": "Friday, Saturday, Sunday"
+      },
+      "correct_option": "B",
+      "explanation": "A 31-day month is four full weeks plus three days. The first three weekdays beginning with Tuesday—Tuesday, Wednesday, Thursday—occur five times.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "A common year begins on Sunday. How many Sundays occur in that year?",
+      "options": {
+        "A": "51",
+        "B": "52",
+        "C": "53",
+        "D": "54"
+      },
+      "correct_option": "C",
+      "explanation": "A common year has 52 full weeks plus one day. Since its extra day is Sunday, Sunday occurs 53 times.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many days elapse from 5 June to 20 June in the same year?",
+      "options": {
+        "A": "14",
+        "B": "15",
+        "C": "16",
+        "D": "20"
+      },
+      "correct_option": "B",
+      "explanation": "Elapsed time excludes the starting date and includes the date reached: 20 − 5 = 15 days.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many leap years are there from 1901 through 2000, inclusive?",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "26",
+        "D": "100"
+      },
+      "correct_option": "B",
+      "explanation": "The leap years are 1904, 1908, …, 1996 (24 years), plus 2000, which is divisible by 400. Total: 25.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many days elapse from 28 February 2024 to 1 March 2024?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "366"
+      },
+      "correct_option": "B",
+      "explanation": "2024 is leap, so 29 February lies between the dates. From 28 February to 1 March is two elapsed days.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many days elapse from 1 January 2000 to 1 January 2001?",
+      "options": {
+        "A": "364",
+        "B": "365",
+        "C": "366",
+        "D": "367"
+      },
+      "correct_option": "C",
+      "explanation": "The interval covers the whole year 2000, which was a leap year, so it contains 366 days.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "What is the number of odd days in a span of 20 ordinary years and 5 leap years?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "B",
+      "explanation": "The span contains 20×365 + 5×366 = 9130 days. Dividing by 7 leaves remainder 2, so there are two odd days.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "If 1 January 1900 was Monday, what weekday was 1 January 1901?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday"
+      },
+      "correct_option": "B",
+      "explanation": "1900 was not a leap year under the Gregorian rule because it is a century year not divisible by 400. Its 365 days advance the weekday by one: Tuesday.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "In 2025, how many months begin on a Saturday?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "correct_option": "B",
+      "explanation": "Checking month starts in the common year 2025 (1 January was Wednesday): February, March, and November begin on Saturday. Total: 3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "If 31 December 2020 was Thursday, what weekday was 1 January 2024?",
+      "options": {
+        "A": "Sunday",
+        "B": "Monday",
+        "C": "Tuesday",
+        "D": "Wednesday"
+      },
+      "correct_option": "B",
+      "explanation": "1 January 2021 was Friday, 1 January 2022 Saturday, and 1 January 2023 Sunday. The 2023 common year advances one more day, so 1 January 2024 was Monday.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "If 1 January 2024 was Monday, what weekday was 1 January 2025?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday"
+      },
+      "correct_option": "C",
+      "explanation": "2024 was a leap year, so it had 366 days, a two-day weekday shift. Monday advances to Wednesday.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many leap years occur in one complete 400-year Gregorian cycle?",
+      "options": {
+        "A": "96",
+        "B": "97",
+        "C": "98",
+        "D": "100"
+      },
+      "correct_option": "B",
+      "explanation": "There are 400/4 = 100 multiples of four. The four century years in the cycle would be counted, but three are not divisible by 400 and are excluded. Thus 100 − 3 = 97 leap years.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "If 1 January 2000 was Saturday, what weekday was 1 January 2100?",
+      "options": {
+        "A": "Thursday",
+        "B": "Friday",
+        "C": "Saturday",
+        "D": "Sunday"
+      },
+      "correct_option": "B",
+      "explanation": "From 1 January 2000 to 1 January 2100 are 100 years: 75 common and 25 leap (2000 through 2096). The total 36,525 days leaves remainder 6 modulo 7, so Saturday advances six days to Friday.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "How many days elapse from 1 March 1900 to 1 March 2000?",
+      "options": {
+        "A": "36,523",
+        "B": "36,524",
+        "C": "36,525",
+        "D": "36,526"
+      },
+      "correct_option": "C",
+      "explanation": "The interval includes 36,500 base days, the 24 leap days from 1904 through 1996, and 29 February 2000: 36,525 days.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "What is the first year after 2025 that has the same Gregorian calendar as 2025?",
+      "options": {
+        "A": "2029",
+        "B": "2030",
+        "C": "2031",
+        "D": "2032"
+      },
+      "correct_option": "C",
+      "explanation": "2025 is a common year beginning Wednesday. 2026 begins Thursday, 2027 Friday, 2028 Saturday (leap), 2029 Monday, 2030 Tuesday, and 2031 Wednesday. 2031 is common and starts on the same weekday, so its calendar matches.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "A 31-day month begins on Sunday. On what weekday does the following month begin?",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday"
+      },
+      "correct_option": "C",
+      "explanation": "The next month begins 31 days after the first day, an offset of 3 modulo 7. Sunday advanced by three days is Wednesday.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "A leap year begins on Wednesday. What weekday is 1 March of that year?",
+      "options": {
+        "A": "Friday",
+        "B": "Saturday",
+        "C": "Sunday",
+        "D": "Monday"
+      },
+      "correct_option": "C",
+      "explanation": "January and February in a leap year contain 31 + 29 = 60 days. 1 March is 60 days after 1 January; 60 mod 7 = 4, and Wednesday + 4 is Sunday.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "calendar-recorded",
+      "question_text": "If 1 January 2000 was Saturday, what weekday was 31 December 2099?",
+      "options": {
+        "A": "Wednesday",
+        "B": "Thursday",
+        "C": "Friday",
+        "D": "Saturday"
+      },
+      "correct_option": "B",
+      "explanation": "The elapsed difference from 1 January 2000 to 31 December 2099 is 36,524 days (the 100-year span to 2100 is 36,525 days, less one). 36,524 mod 7 = 5; Saturday + 5 is Thursday.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "How many degrees does the minute hand move in 30 seconds?",
+      "options": {
+        "A": "3°",
+        "B": "15°",
+        "C": "1.5°",
+        "D": "0.25°"
+      },
+      "correct_option": "A",
+      "explanation": "The minute hand moves 6° per minute. Thirty seconds is half a minute, so it moves 6×0.5=3°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 01_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the smaller angle between the hands at 3:30?",
+      "options": {
+        "A": "100°",
+        "B": "75°",
+        "C": "50°",
+        "D": "115°"
+      },
+      "correct_option": "B",
+      "explanation": "At 3:30 the minute hand is at 180° and the hour hand at 105°. Their difference is 75°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 02_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the smaller angle between the hands at 5:20?",
+      "options": {
+        "A": "65°",
+        "B": "40°",
+        "C": "15°",
+        "D": "80°"
+      },
+      "correct_option": "B",
+      "explanation": "The minute hand is at 120°; the hour hand is at 160°. The difference is 40°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 02_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 10:10, what is the smaller angle between the hands?",
+      "options": {
+        "A": "140°",
+        "B": "115°",
+        "C": "90°",
+        "D": "155°"
+      },
+      "correct_option": "B",
+      "explanation": "Minute angle=60°; hour angle=305°. The difference is 245°, so the smaller angle is 360−245=115°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 02_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 10:42, what is the smaller angle between the hands?",
+      "options": {
+        "A": "94°",
+        "B": "69°",
+        "C": "44°",
+        "D": "109°"
+      },
+      "correct_option": "B",
+      "explanation": "Minute angle=252°; hour angle=321°. Their difference is 69°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 02_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 2:20, what is the smaller angle between the hands?",
+      "options": {
+        "A": "75°",
+        "B": "50°",
+        "C": "25°",
+        "D": "90°"
+      },
+      "correct_option": "B",
+      "explanation": "Minute angle=120°; hour angle=70°. Their difference is 50°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 4; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 5:56, what is the smaller angle between the hands?",
+      "options": {
+        "A": "183°",
+        "B": "158°",
+        "C": "133°",
+        "D": "198°"
+      },
+      "correct_option": "B",
+      "explanation": "Minute angle=336°; hour angle=178°. Difference=158°.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 9:15, what is the smaller angle between the hands?",
+      "options": {
+        "A": "197.5°",
+        "B": "172.5°",
+        "C": "147.5°",
+        "D": "212.5°"
+      },
+      "correct_option": "B",
+      "explanation": "Minute angle=90°; hour angle=277.5°. The difference is 187.5°, so the smaller angle is 172.5°.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 5:30, what is the reflex angle between the hands?",
+      "options": {
+        "A": "370°",
+        "B": "345°",
+        "C": "320°",
+        "D": "385°"
+      },
+      "correct_option": "B",
+      "explanation": "At 5:30 the hour and minute hands differ by 15°. The reflex angle is 360−15=345°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 4 and 5, when are the hands opposite each other?",
+      "options": {
+        "A": "4:54 5/11",
+        "B": "4:54 6/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 4:00 the minute hand trails by 120°. It closes that signed gap to 180° at relative speed 5.5°/min: 300/5.5=600/11 min =54 6/11 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 7 and 8, when are the hands opposite each other?",
+      "options": {
+        "A": "7:05 6/11",
+        "B": "7:05 5/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 7:00 the minute hand is 210° behind. The first opposite position occurs after 30°/5.5=60/11 minutes =5 5/11 minutes.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 9 and 10, when do the hands overlap?",
+      "options": {
+        "A": "8:30",
+        "B": "9:49 1/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 9:00 the minute hand needs to gain 270° at 5.5°/min: 540/11 min =49 1/11 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 10 and 11, when do the hands overlap?",
+      "options": {
+        "A": "8:30",
+        "B": "10:54 6/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 10:00 the minute hand needs to gain 300°: 600/11 min =54 6/11 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "After 4:00, when do the hands first form a right angle?",
+      "options": {
+        "A": "4:05 4/11",
+        "B": "4:05 5/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 4:00 the directed gap is 120°. It reaches 90° after closing 30° at 5.5°/min: 60/11 min =5 5/11 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 5:00 and 5:30, when do the hands form a right angle?",
+      "options": {
+        "A": "5:10 9/11",
+        "B": "5:10 10/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 5:00 the directed gap is 150°. It falls to 90° after 60/5.5=120/11 min =10 10/11 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Clock 03_ Class Notes.pdf, page 14; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the mirror-image time of 2:30 on an analog clock?",
+      "options": {
+        "A": "8:30",
+        "B": "9:30",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "For a 12-hour clock, mirror time is 11:60−2:30=9:30.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the mirror-image time of 8:26?",
+      "options": {
+        "A": "8:30",
+        "B": "3:34",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "11:60−8:26=3:34.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the mirror-image time of 5:47?",
+      "options": {
+        "A": "8:30",
+        "B": "6:13",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "11:60−5:47=6:13.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the water-image time of 6:22, using the 6:30 reference?",
+      "options": {
+        "A": "8:30",
+        "B": "12:08",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "The reflection formula used here is 18:30−6:22=12:08.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the water-image time of 2:28, using the 6:30 reference?",
+      "options": {
+        "A": "8:30",
+        "B": "4:02",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "18:30−14:28 (equivalent 2:28 on a 12-hour dial)=4:02 under the source convention.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the water-image time of 7:40, using the 6:30 reference?",
+      "options": {
+        "A": "8:30",
+        "B": "10:50",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "18:30−7:40=10:50.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "What is the water-image time of 11:45, using the 6:30 reference?",
+      "options": {
+        "A": "8:30",
+        "B": "6:45",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "18:30−11:45=6:45.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "A clock strikes once at 1, twice at 2, and so on. How many strikes occur from 1 through 6?",
+      "options": {
+        "A": "22",
+        "B": "21",
+        "C": "20",
+        "D": "33"
+      },
+      "correct_option": "B",
+      "explanation": "Add the strikes at each hour: 1+2+3+4+5+6=21.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 16; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "A clock strikes its hour number at each hour. How many strikes occur in 24 hours?",
+      "options": {
+        "A": "157",
+        "B": "156",
+        "C": "155",
+        "D": "168"
+      },
+      "correct_option": "B",
+      "explanation": "Each 12-hour cycle totals 1+…+12=78 strikes; two cycles total 156.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 17; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 9 and 10, when are the hands opposite each other?",
+      "options": {
+        "A": "8:30",
+        "B": "9:16 4/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 9:00 the directed separation is 270°. The minute hand must gain 90° relative to the hour hand, taking 90/5.5=180/11 minutes =16 4/11 minutes.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Clock 04_ Class Notes.pdf, page 4; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "How many complete revolutions does a clock's second hand make in one hour?",
+      "options": {
+        "A": "61",
+        "B": "60",
+        "C": "59",
+        "D": "72"
+      },
+      "correct_option": "B",
+      "explanation": "The second hand completes one revolution every 60 seconds. One hour has 3,600 seconds, so it makes 3,600/60=60 revolutions.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "How many degrees does the hour hand move in 40 minutes?",
+      "options": {
+        "A": "45°",
+        "B": "20°",
+        "C": "1°",
+        "D": "60°"
+      },
+      "correct_option": "B",
+      "explanation": "The hour hand moves 0.5° per minute, so in 40 minutes it moves 20°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "How many times do the hands overlap in 12 hours?",
+      "options": {
+        "A": "12",
+        "B": "11",
+        "C": "10",
+        "D": "23"
+      },
+      "correct_option": "B",
+      "explanation": "The minute hand gains 360° on the hour hand 11 times in 12 hours, so there are 11 overlaps.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "How many times are the hands opposite each other in 24 hours?",
+      "options": {
+        "A": "23",
+        "B": "22",
+        "C": "21",
+        "D": "34"
+      },
+      "correct_option": "B",
+      "explanation": "There are 11 opposite positions per 12-hour cycle, hence 22 in 24 hours.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 2:00, what is the smaller angle between the clock hands?",
+      "options": {
+        "A": "85°",
+        "B": "60°",
+        "C": "35°",
+        "D": "100°"
+      },
+      "correct_option": "B",
+      "explanation": "Each hour mark is 30° apart; two intervals give 60°.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "At 4:20, what is the smaller angle between the clock hands?",
+      "options": {
+        "A": "35°",
+        "B": "10°",
+        "C": "1°",
+        "D": "50°"
+      },
+      "correct_option": "B",
+      "explanation": "Minute angle=120° and hour angle=130°. Their difference is 10°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "Between 3 and 4, when do the hands first overlap?",
+      "options": {
+        "A": "3:16 3/11",
+        "B": "3:16 4/11",
+        "C": "12:00",
+        "D": "6:30"
+      },
+      "correct_option": "B",
+      "explanation": "At 3:00 the minute hand trails by 90°. At 5.5°/min it catches up in 180/11 min =16 4/11 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "clock-recorded",
+      "question_text": "A clock is correct at 8:00 a.m. It gains 5 minutes every 2 hours. What actual time is it when the clock shows 10:30 a.m.?",
+      "options": {
+        "A": "10:20 a.m.",
+        "B": "10:24 a.m.",
+        "C": "10:25 a.m.",
+        "D": "10:36 a.m."
+      },
+      "correct_option": "B",
+      "explanation": "The displayed elapsed time is 150 minutes. At a gain rate of 125 clock minutes per 120 real minutes, real elapsed time is 150×120/125=144 minutes, or 2 h 24 min.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

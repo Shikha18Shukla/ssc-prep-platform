@@ -93,6 +93,37 @@ def _allowed_question_counts(available: int) -> list[int]:
     return sorted(allowed)
 
 
+def _selection_counts(available: int, subject: Subject) -> list[int]:
+    if subject.slug == "reasoning":
+        return [count for count in sorted(ALLOWED_COUNTS) if count <= available]
+    return _allowed_question_counts(available)
+
+
+def _balanced_chapter_sample(questions: list[Question], count: int) -> list[Question]:
+    """Sample across chapters in rounds so large chapters do not dominate."""
+    by_chapter: dict[uuid.UUID, list[Question]] = {}
+    for question in questions:
+        by_chapter.setdefault(question.chapter_id, []).append(question)
+    rng = random.SystemRandom()
+    for chapter_questions in by_chapter.values():
+        rng.shuffle(chapter_questions)
+    chapter_ids = list(by_chapter)
+    rng.shuffle(chapter_ids)
+    selected: list[Question] = []
+    while len(selected) < count:
+        rng.shuffle(chapter_ids)
+        progressed = False
+        for chapter_id in chapter_ids:
+            if by_chapter[chapter_id]:
+                selected.append(by_chapter[chapter_id].pop())
+                progressed = True
+                if len(selected) == count:
+                    break
+        if not progressed:
+            break
+    return selected
+
+
 def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level):
     if test_type not in TEST_TYPES:
         raise HTTPException(status_code=422, detail="Test type must be CHAPTER_WISE or MISCELLANEOUS")
@@ -150,11 +181,11 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
 def get_test_availability(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, question_count=None):
     if question_count is not None and not 1 <= question_count <= max(ALLOWED_COUNTS):
         raise HTTPException(status_code=422, detail="Question count must be between 1 and 25")
-    _, _, _, _, _, eligible = _selection(
+    _, subject, _, _, _, eligible = _selection(
         db, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level,
     )
     available = len(eligible)
-    allowed = _allowed_question_counts(available)
+    allowed = _selection_counts(available, subject)
     return {
         "available_question_count": available,
         "allowed_question_counts": allowed,
@@ -169,7 +200,7 @@ def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
         db, payload.exam_id, payload.subject_id, payload.test_type, payload.chapter_id,
         payload.subcategory_id, payload.difficulty,
     )
-    if payload.question_count not in _allowed_question_counts(len(eligible)):
+    if payload.question_count not in _selection_counts(len(eligible), subject):
         raise HTTPException(
             status_code=409,
             detail=(
@@ -178,7 +209,10 @@ def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
             ),
         )
 
-    selected = random.SystemRandom().sample(eligible, payload.question_count)
+    if subject.slug == "reasoning" and payload.test_type == "MISCELLANEOUS":
+        selected = _balanced_chapter_sample(eligible, payload.question_count)
+    else:
+        selected = random.SystemRandom().sample(eligible, payload.question_count)
     attempt = TestAttempt(
         user_id=user_id,
         exam_id=exam.id,
