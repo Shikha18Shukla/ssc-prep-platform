@@ -1,0 +1,707 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A person is facing east. He turns 90° anticlockwise. Which direction is he facing?",
+      "options": {
+        "A": "North",
+        "B": "South",
+        "C": "East",
+        "D": "West"
+      },
+      "correct_option": "A",
+      "explanation": "An anticlockwise quarter-turn from east points north.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "If north-east is exactly halfway between north and east, what angle does it make with east?",
+      "options": {
+        "A": "30°",
+        "B": "45°",
+        "C": "60°",
+        "D": "90°"
+      },
+      "correct_option": "B",
+      "explanation": "Adjacent cardinal directions differ by 90°; the intercardinal direction bisects that angle, giving 45°.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Mira walks 8 m north and then 6 m east. How far is she from her starting point?",
+      "options": {
+        "A": "14 m",
+        "B": "2 m",
+        "C": "10 m",
+        "D": "12 m"
+      },
+      "correct_option": "C",
+      "explanation": "The legs are perpendicular, so the displacement is √(8²+6²)=10 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "At sunrise, a person faces the sun. Which direction is on the person's left?",
+      "options": {
+        "A": "South",
+        "B": "East",
+        "C": "West",
+        "D": "North"
+      },
+      "correct_option": "D",
+      "explanation": "At sunrise the sun is in the east. Facing east, the person's left is north.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A person faces south and turns 180°. Which direction does the person face now?",
+      "options": {
+        "A": "North",
+        "B": "East",
+        "C": "West",
+        "D": "South"
+      },
+      "correct_option": "A",
+      "explanation": "A half-turn reverses the facing direction; south becomes north.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "If South-East is renamed North and North-East is renamed West under one consistent rotation, what does West become?",
+      "options": {
+        "A": "North-East",
+        "B": "South-East",
+        "C": "South-West",
+        "D": "North-West"
+      },
+      "correct_option": "B",
+      "explanation": "Both given mappings rotate every direction 135° anticlockwise. West (270°) therefore maps to South-East (135°).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 4; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "At sunset, a person's shadow points east. In which direction is the sun?",
+      "options": {
+        "A": "East",
+        "B": "North",
+        "C": "West",
+        "D": "South"
+      },
+      "correct_option": "C",
+      "explanation": "At sunset the sun is in the west, opposite the eastward shadow.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A walker travels 5 km west and then 5 km east. What is the shortest distance from the start?",
+      "options": {
+        "A": "5 km",
+        "B": "10 km",
+        "C": "√50 km",
+        "D": "0 km"
+      },
+      "correct_option": "D",
+      "explanation": "The equal opposite displacements cancel, returning the walker to the start.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "If east becomes south and every direction is rotated by the same amount, what does north become?",
+      "options": {
+        "A": "East",
+        "B": "West",
+        "C": "South",
+        "D": "North"
+      },
+      "correct_option": "A",
+      "explanation": "The mapping is a 90° clockwise rotation. North rotates to east.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A person faces north. Which direction is behind them?",
+      "options": {
+        "A": "East",
+        "B": "South",
+        "C": "West",
+        "D": "North"
+      },
+      "correct_option": "B",
+      "explanation": "South is opposite north, so it is behind a north-facing person.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Richa walks 50 m west, turns left and walks 90 m, turns left and walks 30 m, turns left and walks 120 m, then turns right and walks 20 m. How far and in which direction is she from home?",
+      "options": {
+        "A": "30 m south",
+        "B": "20 m east",
+        "C": "30 m north",
+        "D": "50 m west"
+      },
+      "correct_option": "C",
+      "explanation": "Taking home as (0,0), her legs end at (0,30): 30 m due north. The total path is 310 m, but the question asks displacement.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A driver goes 12 km east, turns left for 9 km, turns left for 13 km, turns left for 11 km, then turns left and goes 1 km. What is the shortest distance and direction back to the start?",
+      "options": {
+        "A": "2 km south",
+        "B": "1 km north",
+        "C": "1 km south",
+        "D": "2 km north"
+      },
+      "correct_option": "D",
+      "explanation": "Net east-west displacement is 12−13+1=0; net north-south is 9−11=−2. The driver is 2 km south of the start, so returns north.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A person starts facing east, turns 45° clockwise, then 180° clockwise, then 270° anticlockwise. What is the final facing direction?",
+      "options": {
+        "A": "North-East",
+        "B": "South-East",
+        "C": "South-West",
+        "D": "North-West"
+      },
+      "correct_option": "A",
+      "explanation": "Using clockwise bearings from north: 90°+45°+180°−270°=45°, which is north-east.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "At sunrise, Amit and Radhe face one another. Amit's shadow falls to Radhe's right. Which direction is Amit facing?",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "East",
+        "D": "West"
+      },
+      "correct_option": "B",
+      "explanation": "Amit's shadow points west. West is Radhe's right when Radhe faces south; since they face one another, Amit faces north.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "If South-East becomes West, North-East becomes South, and the same rotation applies to every direction, what does East become?",
+      "options": {
+        "A": "North-West",
+        "B": "West",
+        "C": "South-West",
+        "D": "South"
+      },
+      "correct_option": "C",
+      "explanation": "The mapping is a 135° clockwise rotation: east (90°) becomes 225°, or south-west.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "In a code, M*N means M is south of N; M+N means M is north of N; M%N means M is east of N; M−N means M is west of N. Where is R relative to P in O%P+Q−R?",
+      "options": {
+        "A": "North-East",
+        "B": "North-West",
+        "C": "South-West",
+        "D": "South-East"
+      },
+      "correct_option": "D",
+      "explanation": "P is north of Q and Q is west of R. Treating each relation as one unit, R is east of Q and one step south of P: south-east.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A child walks 90 m east, turns right for 20 m, turns right for 30 m, then walks north 100 m to meet his father. How far is the father from the child's starting point?",
+      "options": {
+        "A": "100 m",
+        "B": "80 m",
+        "C": "120 m",
+        "D": "140 m"
+      },
+      "correct_option": "A",
+      "explanation": "The child ends at (60,80): eastward net 90−30=60 m and northward net 100−20=80 m. √(60²+80²)=100 m.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A man faces west, turns 90° anticlockwise, then another 135° anticlockwise, then 270° clockwise. What direction is he facing?",
+      "options": {
+        "A": "North-East",
+        "B": "North-West",
+        "C": "South-East",
+        "D": "South-West"
+      },
+      "correct_option": "B",
+      "explanation": "Starting bearing 270° clockwise from north: 270−90−135+270=315°, which is north-west.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Ram starts facing north-west, turns 45° clockwise and then 135° clockwise, 90° anticlockwise, and finally 180° clockwise. Which way does he face?",
+      "options": {
+        "A": "North-East",
+        "B": "North-West",
+        "C": "South-West",
+        "D": "South-East"
+      },
+      "correct_option": "C",
+      "explanation": "Net turn is 45+135−90+180=270° clockwise. NW has bearing 315°; 315+270=585°≡225°, or south-west.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "One evening Dipali and Shubham face each other. Shubham's shadow falls to Dipali's left. Which direction is Dipali facing?",
+      "options": {
+        "A": "North",
+        "B": "East",
+        "C": "West",
+        "D": "South"
+      },
+      "correct_option": "D",
+      "explanation": "At evening the shadow points east. East is Dipali's left when she faces south; hence she faces south.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Jitin and Bhawna face each other one evening. Jitin's shadow falls to Bhawna's right. Which direction is Jitin facing?",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "East",
+        "D": "West"
+      },
+      "correct_option": "A",
+      "explanation": "At evening Jitin's shadow points east. East is Bhawna's right when she faces north, so Jitin, facing her, faces south.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "In a code, X@Y means X is north of Y, X#Y means X is east of Y, and X$Y means X is south of Y. Where is A relative to B in A#C@D$B?",
+      "options": {
+        "A": "North-East",
+        "B": "East",
+        "C": "South-East",
+        "D": "West"
+      },
+      "correct_option": "B",
+      "explanation": "D is south of B; C is north of D and level with B; A is east of C, so A is due east of B.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A hiker walks 5 km north, 12 km east, and 10 km south. What is the shortest distance and direction from the starting point?",
+      "options": {
+        "A": "13 km north-east",
+        "B": "25 km south-east",
+        "C": "13 km south-east",
+        "D": "5 km east"
+      },
+      "correct_option": "C",
+      "explanation": "Net displacement is 12 km east and 5 km south, so √(12²+5²)=13 km toward the south-east.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A cyclist travels 8 km north, 6 km east, 8 km south, then 6 km west. How far is the cyclist from the starting point?",
+      "options": {
+        "A": "6 km",
+        "B": "8 km",
+        "C": "20 km",
+        "D": "0 km"
+      },
+      "correct_option": "D",
+      "explanation": "The north-south and east-west legs each cancel, so the cyclist returns to the start.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A person facing north turns 45° clockwise. Which direction are they facing?",
+      "options": {
+        "A": "North-East",
+        "B": "North-West",
+        "C": "South-East",
+        "D": "South-West"
+      },
+      "correct_option": "A",
+      "explanation": "A 45° clockwise turn from north points north-east.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A woman walks 9 m south then 12 m west. What is her shortest distance from the starting point?",
+      "options": {
+        "A": "21 m",
+        "B": "15 m",
+        "C": "3 m",
+        "D": "√21 m"
+      },
+      "correct_option": "B",
+      "explanation": "The perpendicular legs give √(9²+12²)=15 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A person faces south-west and turns 135° clockwise. Which direction do they face?",
+      "options": {
+        "A": "South",
+        "B": "East",
+        "C": "North",
+        "D": "West"
+      },
+      "correct_option": "C",
+      "explanation": "South-west has bearing 225°; adding 135° clockwise gives 360°, or north.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Which direction is opposite South-East?",
+      "options": {
+        "A": "North-East",
+        "B": "South-West",
+        "C": "South",
+        "D": "North-West"
+      },
+      "correct_option": "D",
+      "explanation": "Opposite directions differ by 180°. South-east is opposite north-west.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A driver travels 7 km east and 24 km north. What is the shortest distance to the starting point?",
+      "options": {
+        "A": "25 km",
+        "B": "31 km",
+        "C": "17 km",
+        "D": "√527 km"
+      },
+      "correct_option": "A",
+      "explanation": "By Pythagoras, √(7²+24²)=√625=25 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "At sunset, A faces B. A's shadow falls directly behind B. Which direction is A facing?",
+      "options": {
+        "A": "West",
+        "B": "East",
+        "C": "North",
+        "D": "South"
+      },
+      "correct_option": "B",
+      "explanation": "At sunset A's shadow points east. The shadow is behind B, so B faces west. A faces B, therefore A faces east.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Fardeen starts facing west, walks 13 km, turns left for 7 km, turns right for 6 km, turns left for 8 km, and finally turns left for 19 km. How far and in which direction is he from his starting point?",
+      "options": {
+        "A": "15 km north",
+        "B": "13 km west",
+        "C": "15 km south",
+        "D": "19 km east"
+      },
+      "correct_option": "C",
+      "explanation": "The first leg ends 13 km west. Left from west is south (7); right from south is west (6); left from west is south (8); left from south is east (19). East-west cancels, leaving 15 km south.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Ramu walks 5 km north, 3 km west, turns right and walks 3 km north, then turns right and walks 3 km east. How far is he from his starting point?",
+      "options": {
+        "A": "5 km",
+        "B": "11 km",
+        "C": "6 km",
+        "D": "8 km"
+      },
+      "correct_option": "D",
+      "explanation": "West and east legs cancel (3 km each); the northward legs total 5+3=8 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "If South-East becomes North and North-East becomes West under the same rotation, what does South-West become?",
+      "options": {
+        "A": "East",
+        "B": "North",
+        "C": "South",
+        "D": "West"
+      },
+      "correct_option": "A",
+      "explanation": "The mappings are a 135° anticlockwise rotation. South-west (225°) rotates to east (90°).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "During sunrise, Arman and Abhinay face one another. Abhinay's shadow falls to his right. Which direction is Arman facing?",
+      "options": {
+        "A": "South",
+        "B": "North",
+        "C": "East",
+        "D": "West"
+      },
+      "correct_option": "B",
+      "explanation": "At sunrise the shadow points west. West is Abhinay's right when he faces south; Arman faces him, so Arman faces north.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "_Direction and Distance 03_ Class Notes.pdf, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "A trekker walks 3 km north and 4 km east, then follows a straight route back home. How many kilometers shorter is the straight return than the outward walk?",
+      "options": {
+        "A": "1 km",
+        "B": "3 km",
+        "C": "2 km",
+        "D": "7 km"
+      },
+      "correct_option": "C",
+      "explanation": "The outward route is 3+4=7 km. The straight return is the 3-4-5 hypotenuse (5 km), so it is 7−5=2 km shorter.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Asha walks 6 m north, 4 m east, 2 m south and 1 m west. What total distance does she travel?",
+      "options": {
+        "A": "5 m",
+        "B": "9 m",
+        "C": "11 m",
+        "D": "13 m"
+      },
+      "correct_option": "D",
+      "explanation": "Total path length adds every leg: 6+4+2+1=13 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Starting at home, Richa walks five legs: 50 m west, 90 m south, 30 m east, 120 m north, and 20 m east. What is the total path length?",
+      "options": {
+        "A": "310 m",
+        "B": "270 m",
+        "C": "300 m",
+        "D": "210 m"
+      },
+      "correct_option": "A",
+      "explanation": "Total distance is the sum of all five traveled legs: 50+90+30+120+20=310 m.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 01_ Class Notes.pdf, page 12; exam/year not stated"
+    }
+  ]
+}
