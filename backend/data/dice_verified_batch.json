@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "A die has views (top, front, right) H-G-I and G-J-K. Which letter is opposite J?",
+      "options": {
+        "A": "I",
+        "B": "H",
+        "C": "K",
+        "D": "L"
+      },
+      "correct_option": "A",
+      "explanation": "Enumerating proper rotations consistent with both views fixes the opposite pairs H-K, G-L and I-J.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Dice 01_ Class Notes.pdf, page 17; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "A colour die has views (top, front, right) Pink-Red-Green and Brown-Gray-Pink. Which colour is opposite Pink?",
+      "options": {
+        "A": "Orange",
+        "B": "Brown",
+        "C": "Red",
+        "D": "Gray"
+      },
+      "correct_option": "A",
+      "explanation": "The two oriented views admit only rotations in which Pink is opposite Orange.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Dice 01_ Class Notes.pdf, page 18; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "A die has views (top, front, right) P-S-T and Q-P-R. What is opposite S?",
+      "options": {
+        "A": "R",
+        "B": "Q",
+        "C": "T",
+        "D": "U"
+      },
+      "correct_option": "A",
+      "explanation": "Across the two views, enumerating the proper cube rotations fixes opposite pairs P-U, Q-T and S-R.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Dice 01_ Class Notes.pdf, page 19; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Two views of a symbol die are (top, front, right) $-*-& and $-#-!. What is opposite #?",
+      "options": {
+        "A": "*",
+        "B": "!",
+        "C": "&",
+        "D": "$"
+      },
+      "correct_option": "A",
+      "explanation": "The two oriented positions determine that # and * occupy opposite faces.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Dice 01_ Class Notes.pdf, page 21; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "How many faces does a cube have?",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "8",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "A cube has six square faces.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "How many corners (vertices) does a cube have?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "10",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "A cube has eight vertices.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "How many edges does a cube have?",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "8",
+        "D": "14"
+      },
+      "correct_option": "A",
+      "explanation": "A cube has twelve edges.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "How many faces meet at each corner of a cube?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "At every cube vertex, exactly three faces meet.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "A cube has 6 faces and 12 edges. How many face-edge incidences are there?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "18",
+        "D": "36"
+      },
+      "correct_option": "A",
+      "explanation": "Each of the six faces has four edges, so the total incidence count is 6×4=24; each physical edge belongs to two faces.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "How many face diagonals are there across all six faces of a cube?",
+      "options": {
+        "A": "12",
+        "B": "6",
+        "C": "8",
+        "D": "24"
+      },
+      "correct_option": "A",
+      "explanation": "Each square face has two diagonals, so six faces have 6×2=12 face diagonals.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "On a standard die, which number is opposite 2?",
+      "options": {
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "Standard die opposites sum to 7; 7−2=5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "On a standard die, which number is opposite 4?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "6"
+      },
+      "correct_option": "A",
+      "explanation": "Standard die opposites sum to 7; 7−4=3.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "On a standard die, 1 is opposite 6 and 2 is opposite 5. Which number is opposite 3?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "The remaining standard pair is 3 and 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "On a standard die, what is the sum of the numbers on opposite faces?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "correct_option": "A",
+      "explanation": "A standard die has opposite pairs 1–6, 2–5 and 3–4; each pair sums to 7.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Three opposite pairs on a standard die are known. If the visible faces are 1, 2 and 3, which number cannot be adjacent to 1?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "3",
+        "D": "5"
+      },
+      "correct_option": "A",
+      "explanation": "The standard rule fixes 1 opposite 6; every other face is adjacent to 1.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('E', 'D', 'B'), ('F', 'C', 'B')]. Which face is opposite A?",
+      "options": {
+        "A": "B",
+        "B": "C",
+        "C": "D",
+        "D": "E"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for A: B.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('K', 'J', 'H'), ('L', 'I', 'H')]. Which face is opposite H?",
+      "options": {
+        "A": "G",
+        "B": "I",
+        "C": "J",
+        "D": "K"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for H: G.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('Black', 'Yellow', 'Blue'), ('White', 'Green', 'Blue')]. Which face is opposite Red?",
+      "options": {
+        "A": "Blue",
+        "B": "Green",
+        "C": "Yellow",
+        "D": "Black"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for Red: Blue.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('*', '&', '#'), ('$', '%', '#')]. Which face is opposite %?",
+      "options": {
+        "A": "&",
+        "B": "@",
+        "C": "#",
+        "D": "*"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for %: &.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('Q', 'P', 'N'), ('R', 'O', 'N')]. Which face is opposite N?",
+      "options": {
+        "A": "M",
+        "B": "O",
+        "C": "P",
+        "D": "Q"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for N: M.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('Rain', 'Cloud', 'Moon'), ('Wind', 'Star', 'Moon')]. Which face is opposite Star?",
+      "options": {
+        "A": "Cloud",
+        "B": "Sun",
+        "C": "Moon",
+        "D": "Rain"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for Star: Cloud.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('W', 'V', 'T'), ('X', 'U', 'T')]. Which face is opposite T?",
+      "options": {
+        "A": "S",
+        "B": "U",
+        "C": "V",
+        "D": "W"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for T: S.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('Five', 'Four', 'Two'), ('Six', 'Three', 'Two')]. Which face is opposite Two?",
+      "options": {
+        "A": "One",
+        "B": "Three",
+        "C": "Four",
+        "D": "Five"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for Two: One.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Oriented views (top, front, right) of one cube are [('Birch', 'Elm', 'Pine'), ('Cedar', 'Ash', 'Pine')]. Which face is opposite Oak?",
+      "options": {
+        "A": "Pine",
+        "B": "Ash",
+        "C": "Elm",
+        "D": "Birch"
+      },
+      "correct_option": "A",
+      "explanation": "All four triples must fit one fixed cube. Enumerating the 24 proper rotations gives a single opposite for Oak: Pine.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "From the oriented views [('e', 'd', 'b'), ('f', 'c', 'b')], which pair of faces cannot share an edge?",
+      "options": {
+        "A": "a opposite b",
+        "B": "a adjacent to c",
+        "C": "a adjacent to d",
+        "D": "a adjacent to e"
+      },
+      "correct_option": "A",
+      "explanation": "The cube model fixes a opposite b; opposite faces do not share an edge.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Four oriented views (top, front, right) are [('P', 'O', 'M'), ('Q', 'N', 'M')]. What is the only face that can be opposite M?",
+      "options": {
+        "A": "L",
+        "B": "N",
+        "C": "O",
+        "D": "P"
+      },
+      "correct_option": "A",
+      "explanation": "The four views are consistent under proper cube rotations and determine M opposite L.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Four oriented views (top, front, right) are [('E', 'D', 'B'), ('F', 'C', 'B')]. Which face is opposite D, given the four oriented views?",
+      "options": {
+        "A": "C",
+        "B": "A",
+        "C": "B",
+        "D": "E"
+      },
+      "correct_option": "A",
+      "explanation": "The four views are consistent under proper cube rotations and determine D opposite C.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Four oriented views (top, front, right) are [('Blue', 'Green', 'Orange'), ('Violet', 'Yellow', 'Orange')]. Which colour lies opposite Yellow?",
+      "options": {
+        "A": "Green",
+        "B": "Red",
+        "C": "Orange",
+        "D": "Blue"
+      },
+      "correct_option": "A",
+      "explanation": "The four views are consistent under proper cube rotations and determine Yellow opposite Green.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Four oriented views (top, front, right) are [('/', '=', '?'), ('~', '+', '?')]. Which symbol is opposite +?",
+      "options": {
+        "A": "=",
+        "B": "!",
+        "C": "?",
+        "D": "/"
+      },
+      "correct_option": "A",
+      "explanation": "The four views are consistent under proper cube rotations and determine + opposite =.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "dice",
+      "question_text": "Four oriented views (top, front, right) are [('a', 'Z', 'X'), ('b', 'Y', 'X')]. Which face is opposite X?",
+      "options": {
+        "A": "W",
+        "B": "Y",
+        "C": "Z",
+        "D": "a"
+      },
+      "correct_option": "A",
+      "explanation": "The four views are consistent under proper cube rotations and determine X opposite W.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}
