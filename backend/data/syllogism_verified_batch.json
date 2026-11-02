@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All flowers are trees.\n2. All branches are trees.\nConclusions:\nI. All branches are flowers.\nII. All branches are trees.\nAll flowers are trees. All branches are trees. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions I and II follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "C",
+      "explanation": "All branches are trees is stated. The branch and flower subsets of trees may be separate, so I is not definite.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 01 Class Notes.pdf, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All land is solid.\n2. No land is a boy.\nConclusions:\nI. All solids are land.\nII. All boys are solid.\nAll land is solid. No land is a boy. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions I and II follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "D",
+      "explanation": "The first conclusion reverses an All statement. The premises give no relation from boys to solids.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 01 Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some blankets are sheets.\n2. Some sheets are pillows.\nConclusions:\nI. Some blankets are pillows.\nII. All sheets are pillows.\nSome blankets are sheets. Some sheets are pillows. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions I and II follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "D",
+      "explanation": "The two Some statements may use different sheet members. Neither connects every sheet or guarantees a blanket-pillow overlap.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 01 Class Notes.pdf, page 14; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some erasers are papers.\n2. Some papers are clips.\n3. All clips are balls.\nConclusions:\nI. All papers are balls.\nII. Some erasers are clips.\nSome erasers are papers. Some papers are clips. All clips are balls. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions I and II follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "D",
+      "explanation": "Only clips are known to be balls, not every paper. The two existential witnesses may be different people or objects.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 01 Class Notes.pdf, page 15; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All students are teachers.\n2. Some teachers are lecturers.\n3. No lecturer is a professional.\nConclusions:\nI. Some students are lecturers.\nII. No student is a professional.\nAll students are teachers. Some teachers are lecturers. No lecturer is a professional. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions I and II follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "D",
+      "explanation": "The teacher-lecturer witness need not be a student. Students may be lecturers or professionals only if other premises require it; neither conclusion is forced.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 5; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some tickets are watches.\n2. All buttons are tickets.\n3. No stamp is a watch.\nConclusions:\nI. No ticket is a stamp.\nII. Some buttons are watches.\nSome tickets are watches. All buttons are tickets. No stamp is a watch. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions I and II follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "D",
+      "explanation": "The statements do not exclude tickets that are stamps outside the watch region, and the ticket-watch witness need not be a button.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 6; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some computers are laptops.\n2. No laptop is a mobile.\nConclusions:\nI. No computer is a mobile.\nII. Some computers are mobiles.\nIII. All mobiles are photocopiers.\nSome computers are laptops. No laptop is a mobile. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusions I and II follow.",
+        "B": "Only conclusion III follows.",
+        "C": "All three conclusions follow.",
+        "D": "None of the conclusions follows."
+      },
+      "correct_option": "D",
+      "explanation": "The known computer-laptop witness is not mobile, but other computers may be mobile. Nothing relates mobiles to photocopiers.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some telescopes are periscopes.\n2. Some telescopes are microscopes.\n3. Some telescopes are kaleidoscopes.\nConclusions:\nI. Some kaleidoscopes are telescopes.\nII. Some microscopes are periscopes.\nIII. Some microscopes are telescopes.\nSome telescopes are periscopes. Some telescopes are microscopes. Some telescopes are kaleidoscopes. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusion III follows.",
+        "B": "Only conclusions I and III follow.",
+        "C": "Only conclusions II and III follow.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "B",
+      "explanation": "Some reverses its order, so I and III restate existential overlaps. The two witnesses from the first and second statements need not coincide.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All trojans are fairies.\n2. No fairy is a flower.\n3. Some viruses are trojans.\nConclusions:\nI. No flower is a trojan.\nII. Some viruses are trojans.\nIII. No trojan is a virus.\nAll trojans are fairies. No fairy is a flower. Some viruses are trojans. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusion I follows.",
+        "B": "Only conclusions I and II follow.",
+        "C": "Only conclusions II and III follow.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "B",
+      "explanation": "Trojans lie within fairies, which are disjoint from flowers. The Some statement gives a virus-trojan witness, contradicting III.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. No file is a folder.\n2. Some files are PDFs.\n3. All files are Excel sheets.\nConclusions:\nI. Some PDFs are folders.\nII. Some Excel sheets are folders.\nIII. Some PDFs are Excel sheets.\nNo file is a folder. Some files are PDFs. All files are Excel sheets. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusions I and III follow.",
+        "B": "Only conclusion III follows.",
+        "C": "Only conclusions II and III follow.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "B",
+      "explanation": "The file that is a PDF is also an Excel sheet, so III follows. PDFs or Excel sheets outside the file class may or may not be folders.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. No rain is an earthquake.\n2. All rain is a flood.\n3. Some rain is a drought.\nConclusions:\nI. Some floods are earthquakes.\nII. Some droughts are earthquakes.\nIII. Some floods are droughts.\nNo rain is an earthquake. All rain is floods. Some rain is a drought. Which conclusions follow?",
+      "options": {
+        "A": "All conclusions follow.",
+        "B": "Only conclusions I and III follow.",
+        "C": "Only conclusion III follows.",
+        "D": "Only conclusions II and III follow."
+      },
+      "correct_option": "C",
+      "explanation": "The rain-drought witness is also a flood, proving III. The premises do not force any flood or drought to be an earthquake.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 14; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some plants are flowers.\n2. Some flowers are fruits.\n3. All flowers are gardens.\nConclusions:\nI. Some gardens are plants.\nII. Some fruits are gardens.\nIII. Some gardens are flowers.\nSome plants are flowers. Some flowers are fruits. All flowers are gardens. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusions I and III follow.",
+        "B": "Only conclusions I and II follow.",
+        "C": "All conclusions follow.",
+        "D": "Only conclusions II and III follow."
+      },
+      "correct_option": "C",
+      "explanation": "The first Some statement supplies flowers that are both plants and gardens. The second supplies flowers that are both fruits and gardens.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 15; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some carpenters are singers.\n2. All singers are doctors.\nConclusions:\nI. No doctor is a carpenter.\nII. Some doctors are singers.\nIII. Some carpenters are doctors.\nSome carpenters are singers. All singers are doctors. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusion III follows.",
+        "B": "All conclusions follow.",
+        "C": "Only conclusions II and III follow.",
+        "D": "Only conclusion II follows."
+      },
+      "correct_option": "C",
+      "explanation": "The carpenter-singer witness is a doctor as well, proving II and III. That witness also disproves I.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 16; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some machines are coolers.\n2. All coolers are robots.\n3. Some microwaves are coolers.\nConclusions:\nI. Some coolers are machines.\nII. Some robots are machines.\nIII. No robot is a microwave.\nSome machines are coolers. All coolers are robots. Some microwaves are coolers. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusions I and III follow.",
+        "B": "Only conclusions I and II follow.",
+        "C": "Either conclusion I or III follows.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "B",
+      "explanation": "The machine-cooler witness is a robot, proving I and II. The microwave-cooler witness is also a robot, so III is false.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 17; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some hills are rivers.\n2. Some rivers are deserts.\n3. All deserts are seas.\nConclusions:\nI. Some seas are rivers.\nII. Some seas are hills.\nIII. Some deserts are hills.\nSome hills are rivers. Some rivers are deserts. All deserts are seas. Which conclusions follow?",
+      "options": {
+        "A": "Only conclusions I and III follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Either conclusion I or III follows.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "B",
+      "explanation": "The river-desert witness is also a sea, proving I. It need not be a hill; the hill-river witness need not be a desert.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_ Class Notes.pdf, page 18; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some dogs are cats.\n2. Some cats are bats.\nConclusions:\nI. Some dogs are bats.\nII. Some dogs are not bats.\nSome dogs are cats. Some cats are bats. Which statement about conclusions I and II is guaranteed? I. Some dogs are bats. II. Some dogs are not bats.",
+      "options": {
+        "A": "Only conclusion I follows.",
+        "B": "Only conclusion II follows.",
+        "C": "Both conclusions follow.",
+        "D": "At least one of I or II follows; both may be true."
+      },
+      "correct_option": "D",
+      "explanation": "Neither overlap is forced because the two cat witnesses may differ. Some dogs exist, so they must either overlap bats or include a non-bat; both outcomes can also coexist.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 03_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some lakes are rivers.\n2. Some rivers are mountains.\n3. Some mountains are books.\n4. Some books are papers.\nConclusions:\nI. Some books are rivers.\nII. Some papers are lakes.\nIII. Some mountains are lakes.\nIV. No paper is a lake.\nSome lakes are rivers. Some rivers are mountains. Some mountains are books. Some books are papers. Which option is guaranteed? I. Some books are rivers. II. Some papers are lakes. III. Some mountains are lakes. IV. No paper is a lake.",
+      "options": {
+        "A": "Only conclusion I follows.",
+        "B": "Only conclusion III follows.",
+        "C": "Either II or IV follows.",
+        "D": "Neither II nor IV follows."
+      },
+      "correct_option": "C",
+      "explanation": "II and IV are exact negations: either the paper and lake sets intersect or they are disjoint. Neither is individually forced by the statements.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 03_ Class Notes.pdf, page 9; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some tigers are horses.\n2. All horses are goats.\n3. All goats are dogs.\n4. Some dogs are cats.\nConclusions:\nI. Some cats are tigers.\nII. Some dogs are horses.\nIII. Some goats are tigers.\nIV. Some cats are horses.\nSome tigers are horses. All horses are goats. All goats are dogs. Some dogs are cats. Which conclusions follow? I. Some cats are tigers. II. Some dogs are horses. III. Some goats are tigers. IV. Some cats are horses.",
+      "options": {
+        "A": "Only conclusions I and III follow.",
+        "B": "All conclusions follow.",
+        "C": "Only conclusions II and III follow.",
+        "D": "Only conclusions II, III and IV follow."
+      },
+      "correct_option": "C",
+      "explanation": "The tiger-horse witness is also a goat and a dog, proving II and III. The cat-dog witness need not be a horse or tiger.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 03_ Class Notes.pdf, page 10; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. No A is B.\nNo A is B. Which proposed relationship is impossible?",
+      "options": {
+        "A": "Some A are B is a possibility.",
+        "B": "All B are A is a possibility.",
+        "C": "Some A are not B is a possibility.",
+        "D": "No A is B is a possibility."
+      },
+      "correct_option": "A",
+      "explanation": "A and B must be disjoint, so their intersection cannot contain an A and a B. The other relations can be realized consistently, including by an empty class where needed.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 03_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some artists are musicians.\nConclusions:\nI. Some musicians are artists.\nII. All artists are musicians.\nSome artists are musicians. Which conclusion must follow?",
+      "options": {
+        "A": "Both conclusions follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "B",
+      "explanation": "Some A are B reverses to Some B are A because both name the same nonempty intersection. It does not imply that every artist is a musician.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All poets are readers.\n2. No reader is careless.\nConclusions:\nI. No poet is careless.\nII. All careless people are poets.\nAll poets are readers. No reader is careless. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "B",
+      "explanation": "Every poet is a reader and every reader is outside careless people, so I follows. No premise places careless people inside poets.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. No violin is a drum.\n2. Some violins are wooden.\nConclusions:\nI. Some wooden things are not drums.\nII. No drum is a violin.\nNo violin is a drum. Some violins are wooden. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "A",
+      "explanation": "The wooden-violin witness is not a drum, proving I. No violin is a drum is symmetric, proving II.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All orchids are plants.\n2. Some orchids are fragrant.\nConclusions:\nI. Some fragrant things are plants.\nII. Some orchids are plants.\nAll orchids are plants. Some orchids are fragrant. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "A",
+      "explanation": "The existing fragrant orchid is a plant, proving I. It is also an orchid and plant, proving II.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some paintings are sketches.\n2. All sketches are framed.\n3. No framed item is damaged.\nConclusions:\nI. Some paintings are framed.\nII. Some paintings are damaged.\nSome paintings are sketches. All sketches are framed. No framed item is damaged. Which conclusions follow?",
+      "options": {
+        "A": "Both conclusions follow.",
+        "B": "Only conclusion I follows.",
+        "C": "Only conclusion II follows.",
+        "D": "Neither conclusion follows."
+      },
+      "correct_option": "B",
+      "explanation": "The painting-sketch witness is framed, proving I. It is therefore not damaged, and no premise requires any painting to be damaged.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Only mentors are guides.\n2. Only a few guides are volunteers.\nConclusions:\nI. Some volunteers are mentors.\nII. All guides are mentors.\nIII. Some guides are not volunteers.\nIV. Some guides are volunteers.\nOnly mentors are guides. Only a few guides are volunteers. Which conclusions follow? I. Some volunteers are mentors. II. All guides are mentors. III. Some guides are not volunteers. IV. Some guides are volunteers.",
+      "options": {
+        "A": "Only conclusions I and II follow.",
+        "B": "Only conclusions III and IV follow.",
+        "C": "Only conclusions I, III and IV follow.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "D",
+      "explanation": "Only mentors are guides means all guides are mentors. Only a few guides are volunteers asserts both some guide-volunteers and some guides outside volunteers.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some apprentices are technicians.\n2. All technicians are qualified persons.\n3. No qualified person is an untrained person.\nConclusions:\nI. Some apprentices are qualified persons.\nII. Some technicians are not untrained persons.\nIII. No apprentice is untrained.\nSome apprentices are technicians. All technicians are qualified persons. No qualified person is an untrained person. Which conclusions follow? I. Some apprentices are qualified persons. II. Some technicians are not untrained persons. III. No apprentice is untrained.",
+      "options": {
+        "A": "Only conclusions I and II follow.",
+        "B": "Only conclusion III follows.",
+        "C": "All conclusions follow.",
+        "D": "Only conclusion I follows."
+      },
+      "correct_option": "A",
+      "explanation": "The apprentice-technician witness is a qualified person and therefore not an untrained person, proving I and II. Other apprentices may lie outside the technician class, so III is not definite.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some A are C.\nConclusions:\nI. All A are B.\nII. Some A are not B.\nSome A are C. Which conclusion pattern is guaranteed? I. All A are B. II. Some A are not B.",
+      "options": {
+        "A": "Only conclusion I follows.",
+        "B": "Only conclusion II follows.",
+        "C": "Both conclusions follow.",
+        "D": "At least one of I or II follows; exactly one is true in every model."
+      },
+      "correct_option": "D",
+      "explanation": "I and II are exact logical negations. The premise guarantees A is nonempty, but leaves its relation to B open, so neither conclusion follows alone while their disjunction is guaranteed.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. All pilots are trained.\n2. Some trained people are divers.\n3. No diver is inactive.\nAll pilots are trained. Some trained people are divers. No diver is inactive. Which relation is impossible?",
+      "options": {
+        "A": "Some pilots are divers is possible.",
+        "B": "Some pilots are inactive is possible.",
+        "C": "Some divers are inactive is possible.",
+        "D": "Some trained people are not inactive is possible."
+      },
+      "correct_option": "C",
+      "explanation": "No diver is inactive, so a diver-inactive overlap is impossible. The other options can be realized without violating the statements.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some engineers are musicians.\n2. All musicians are readers.\n3. No reader is a pilot.\nConclusions:\nI. Some engineers are readers.\nII. Some engineers are not pilots.\nIII. No musician is a pilot.\nIV. All engineers are readers.\nSome engineers are musicians. All musicians are readers. No reader is a pilot. Which conclusions follow? I. Some engineers are readers. II. Some engineers are not pilots. III. No musician is a pilot. IV. All engineers are readers.",
+      "options": {
+        "A": "Only conclusions I and IV follow.",
+        "B": "Only conclusions I, II and III follow.",
+        "C": "Only conclusions II and III follow.",
+        "D": "All conclusions follow."
+      },
+      "correct_option": "B",
+      "explanation": "The engineer-musician witness is a reader and not a pilot, proving I and II. Every musician is a reader and no reader is a pilot, proving III. Other engineers may not be readers.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "syllogism",
+      "question_text": "Statements:\n1. Some A are B.\n2. Some B are C.\n3. No C is D.\nSome A are B. Some B are C. No C is D. Which proposed relationship is impossible?",
+      "options": {
+        "A": "Some A are D is possible.",
+        "B": "All B are C is possible.",
+        "C": "Some C are D is possible.",
+        "D": "No A is C is possible."
+      },
+      "correct_option": "C",
+      "explanation": "C and D are disjoint by premise, so their intersection cannot be nonempty. The two Some statements may have different witnesses, leaving the other proposed relations consistent.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}

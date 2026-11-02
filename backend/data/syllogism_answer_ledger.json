@@ -1,0 +1,1139 @@
+[
+  {
+    "question_id": "syllogism-001",
+    "row": 1,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 01 Class Notes.pdf",
+    "source_page": 7,
+    "question": "Statements:\n1. All flowers are trees.\n2. All branches are trees.\nConclusions:\nI. All branches are flowers.\nII. All branches are trees.\nAll flowers are trees. All branches are trees. Which conclusions follow?",
+    "statements": [
+      "All flowers are trees.",
+      "All branches are trees."
+    ],
+    "conclusions": [
+      "All branches are flowers.",
+      "All branches are trees."
+    ],
+    "options": {
+      "A": "Both conclusions I and II follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Only conclusion II follows.",
+    "correct_option": "C",
+    "explanation": "All branches are trees is stated. The branch and flower subsets of trees may be separate, so I is not definite.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 01 Class Notes.pdf, page 7; exam/year not stated",
+    "verification_code": "II",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source01_flowers_branches",
+    "validation_status": "PASS",
+    "rejected_source_questions": [
+      {
+        "source_pdf": "Syllogism 02_ Class Notes.pdf",
+        "source_page": 8,
+        "question_summary": "All radios are pencils; some pencils are files; proposed conclusions are some radios not files and some radios files.",
+        "rejection_reason": "The marked either/or answer is not entailed. The two Some conclusions may both be true, and a model with no radios makes both false; they do not form a valid complementary pair."
+      },
+      {
+        "source_pdf": "Syllogism 02_ Class Notes.pdf",
+        "source_page": 19,
+        "question_summary": "Handwritten A/B/C diagram and a list of nine categorical conclusions.",
+        "rejection_reason": "The page does not state a complete textual premise set and marks Some B are not C as definite without any existential premise for B. The diagram cannot justify the marked existential conclusion under the required no-existence assumption."
+      },
+      {
+        "source_pdf": "Syllogism 02_ Class Notes.pdf",
+        "source_page": 20,
+        "question_summary": "Handwritten, partially drawn A/B/C diagrams with categorical claims.",
+        "rejection_reason": "No complete statement set or unambiguous question is supplied; the two sketches encode incompatible overlaps and disjointness, so the intended model and answer cannot be verified."
+      },
+      {
+        "source_pdf": "Syllogism 03_ Class Notes.pdf",
+        "source_page": 5,
+        "question_summary": "All hills are trees; all trees are jungles; all jungles are bushes.",
+        "rejection_reason": "The source marks Some jungles are hills from universal statements alone. The class may be empty, so that existential conclusion does not follow."
+      },
+      {
+        "source_pdf": "Syllogism 03_ Class Notes.pdf",
+        "source_page": 6,
+        "question_summary": "Rockets, poles, trams, ropes, and tents with a conclusion Some poles are rockets.",
+        "rejection_reason": "The source marks Some poles are rockets from All rockets are poles, which reverses the inclusion and assumes rockets exist. The source answer key is invalid."
+      },
+      {
+        "source_pdf": "Syllogism 03_ Class Notes.pdf",
+        "source_page": 7,
+        "question_summary": "Dials, mirrors, spoons, decks, and chairs with conclusion Some spoons are dials.",
+        "rejection_reason": "The source marks Some spoons are dials despite having no existential statement about dials or a connection from the spoon-deck witness to dials. The marked answer is not entailed."
+      }
+    ]
+  },
+  {
+    "question_id": "syllogism-002",
+    "row": 2,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 01 Class Notes.pdf",
+    "source_page": 13,
+    "question": "Statements:\n1. All land is solid.\n2. No land is a boy.\nConclusions:\nI. All solids are land.\nII. All boys are solid.\nAll land is solid. No land is a boy. Which conclusions follow?",
+    "statements": [
+      "All land is solid.",
+      "No land is a boy."
+    ],
+    "conclusions": [
+      "All solids are land.",
+      "All boys are solid."
+    ],
+    "options": {
+      "A": "Both conclusions I and II follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Neither conclusion follows.",
+    "correct_option": "D",
+    "explanation": "The first conclusion reverses an All statement. The premises give no relation from boys to solids.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 01 Class Notes.pdf, page 13; exam/year not stated",
+    "verification_code": "NONE",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source01_land_solid_boy",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-003",
+    "row": 3,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 01 Class Notes.pdf",
+    "source_page": 14,
+    "question": "Statements:\n1. Some blankets are sheets.\n2. Some sheets are pillows.\nConclusions:\nI. Some blankets are pillows.\nII. All sheets are pillows.\nSome blankets are sheets. Some sheets are pillows. Which conclusions follow?",
+    "statements": [
+      "Some blankets are sheets.",
+      "Some sheets are pillows."
+    ],
+    "conclusions": [
+      "Some blankets are pillows.",
+      "All sheets are pillows."
+    ],
+    "options": {
+      "A": "Both conclusions I and II follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Neither conclusion follows.",
+    "correct_option": "D",
+    "explanation": "The two Some statements may use different sheet members. Neither connects every sheet or guarantees a blanket-pillow overlap.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 01 Class Notes.pdf, page 14; exam/year not stated",
+    "verification_code": "NONE",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source01_blankets_sheets_pillows",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-004",
+    "row": 4,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 01 Class Notes.pdf",
+    "source_page": 15,
+    "question": "Statements:\n1. Some erasers are papers.\n2. Some papers are clips.\n3. All clips are balls.\nConclusions:\nI. All papers are balls.\nII. Some erasers are clips.\nSome erasers are papers. Some papers are clips. All clips are balls. Which conclusions follow?",
+    "statements": [
+      "Some erasers are papers.",
+      "Some papers are clips.",
+      "All clips are balls."
+    ],
+    "conclusions": [
+      "All papers are balls.",
+      "Some erasers are clips."
+    ],
+    "options": {
+      "A": "Both conclusions I and II follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Neither conclusion follows.",
+    "correct_option": "D",
+    "explanation": "Only clips are known to be balls, not every paper. The two existential witnesses may be different people or objects.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 01 Class Notes.pdf, page 15; exam/year not stated",
+    "verification_code": "NONE",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source01_erasers_papers_clips",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-005",
+    "row": 5,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 5,
+    "question": "Statements:\n1. All students are teachers.\n2. Some teachers are lecturers.\n3. No lecturer is a professional.\nConclusions:\nI. Some students are lecturers.\nII. No student is a professional.\nAll students are teachers. Some teachers are lecturers. No lecturer is a professional. Which conclusions follow?",
+    "statements": [
+      "All students are teachers.",
+      "Some teachers are lecturers.",
+      "No lecturer is a professional."
+    ],
+    "conclusions": [
+      "Some students are lecturers.",
+      "No student is a professional."
+    ],
+    "options": {
+      "A": "Both conclusions I and II follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Neither conclusion follows.",
+    "correct_option": "D",
+    "explanation": "The teacher-lecturer witness need not be a student. Students may be lecturers or professionals only if other premises require it; neither conclusion is forced.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 5; exam/year not stated",
+    "verification_code": "NONE",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_students_teachers_lecturers",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-006",
+    "row": 6,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 6,
+    "question": "Statements:\n1. Some tickets are watches.\n2. All buttons are tickets.\n3. No stamp is a watch.\nConclusions:\nI. No ticket is a stamp.\nII. Some buttons are watches.\nSome tickets are watches. All buttons are tickets. No stamp is a watch. Which conclusions follow?",
+    "statements": [
+      "Some tickets are watches.",
+      "All buttons are tickets.",
+      "No stamp is a watch."
+    ],
+    "conclusions": [
+      "No ticket is a stamp.",
+      "Some buttons are watches."
+    ],
+    "options": {
+      "A": "Both conclusions I and II follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Neither conclusion follows.",
+    "correct_option": "D",
+    "explanation": "The statements do not exclude tickets that are stamps outside the watch region, and the ticket-watch witness need not be a button.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 6; exam/year not stated",
+    "verification_code": "NONE",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_tickets_watches_buttons_stamps",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-007",
+    "row": 7,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 10,
+    "question": "Statements:\n1. Some computers are laptops.\n2. No laptop is a mobile.\nConclusions:\nI. No computer is a mobile.\nII. Some computers are mobiles.\nIII. All mobiles are photocopiers.\nSome computers are laptops. No laptop is a mobile. Which conclusions follow?",
+    "statements": [
+      "Some computers are laptops.",
+      "No laptop is a mobile."
+    ],
+    "conclusions": [
+      "No computer is a mobile.",
+      "Some computers are mobiles.",
+      "All mobiles are photocopiers."
+    ],
+    "options": {
+      "A": "Only conclusions I and II follow.",
+      "B": "Only conclusion III follows.",
+      "C": "All three conclusions follow.",
+      "D": "None of the conclusions follows."
+    },
+    "expected_answer": "None of the conclusions follows.",
+    "correct_option": "D",
+    "explanation": "The known computer-laptop witness is not mobile, but other computers may be mobile. Nothing relates mobiles to photocopiers.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 10; exam/year not stated",
+    "verification_code": "NONE",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_computers_laptops_mobiles",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-008",
+    "row": 8,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 11,
+    "question": "Statements:\n1. Some telescopes are periscopes.\n2. Some telescopes are microscopes.\n3. Some telescopes are kaleidoscopes.\nConclusions:\nI. Some kaleidoscopes are telescopes.\nII. Some microscopes are periscopes.\nIII. Some microscopes are telescopes.\nSome telescopes are periscopes. Some telescopes are microscopes. Some telescopes are kaleidoscopes. Which conclusions follow?",
+    "statements": [
+      "Some telescopes are periscopes.",
+      "Some telescopes are microscopes.",
+      "Some telescopes are kaleidoscopes."
+    ],
+    "conclusions": [
+      "Some kaleidoscopes are telescopes.",
+      "Some microscopes are periscopes.",
+      "Some microscopes are telescopes."
+    ],
+    "options": {
+      "A": "Only conclusion III follows.",
+      "B": "Only conclusions I and III follow.",
+      "C": "Only conclusions II and III follow.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "Only conclusions I and III follow.",
+    "correct_option": "B",
+    "explanation": "Some reverses its order, so I and III restate existential overlaps. The two witnesses from the first and second statements need not coincide.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 11; exam/year not stated",
+    "verification_code": "I+III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_telescope_overlap",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-009",
+    "row": 9,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 12,
+    "question": "Statements:\n1. All trojans are fairies.\n2. No fairy is a flower.\n3. Some viruses are trojans.\nConclusions:\nI. No flower is a trojan.\nII. Some viruses are trojans.\nIII. No trojan is a virus.\nAll trojans are fairies. No fairy is a flower. Some viruses are trojans. Which conclusions follow?",
+    "statements": [
+      "All trojans are fairies.",
+      "No fairy is a flower.",
+      "Some viruses are trojans."
+    ],
+    "conclusions": [
+      "No flower is a trojan.",
+      "Some viruses are trojans.",
+      "No trojan is a virus."
+    ],
+    "options": {
+      "A": "Only conclusion I follows.",
+      "B": "Only conclusions I and II follow.",
+      "C": "Only conclusions II and III follow.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "Only conclusions I and II follow.",
+    "correct_option": "B",
+    "explanation": "Trojans lie within fairies, which are disjoint from flowers. The Some statement gives a virus-trojan witness, contradicting III.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 12; exam/year not stated",
+    "verification_code": "I+II",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_trojans_fairies_viruses",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-010",
+    "row": 10,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 13,
+    "question": "Statements:\n1. No file is a folder.\n2. Some files are PDFs.\n3. All files are Excel sheets.\nConclusions:\nI. Some PDFs are folders.\nII. Some Excel sheets are folders.\nIII. Some PDFs are Excel sheets.\nNo file is a folder. Some files are PDFs. All files are Excel sheets. Which conclusions follow?",
+    "statements": [
+      "No file is a folder.",
+      "Some files are PDFs.",
+      "All files are Excel sheets."
+    ],
+    "conclusions": [
+      "Some PDFs are folders.",
+      "Some Excel sheets are folders.",
+      "Some PDFs are Excel sheets."
+    ],
+    "options": {
+      "A": "Only conclusions I and III follow.",
+      "B": "Only conclusion III follows.",
+      "C": "Only conclusions II and III follow.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "Only conclusion III follows.",
+    "correct_option": "B",
+    "explanation": "The file that is a PDF is also an Excel sheet, so III follows. PDFs or Excel sheets outside the file class may or may not be folders.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 13; exam/year not stated",
+    "verification_code": "III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_files_pdfs_excel",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-011",
+    "row": 11,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 14,
+    "question": "Statements:\n1. No rain is an earthquake.\n2. All rain is a flood.\n3. Some rain is a drought.\nConclusions:\nI. Some floods are earthquakes.\nII. Some droughts are earthquakes.\nIII. Some floods are droughts.\nNo rain is an earthquake. All rain is floods. Some rain is a drought. Which conclusions follow?",
+    "statements": [
+      "No rain is an earthquake.",
+      "All rain is a flood.",
+      "Some rain is a drought."
+    ],
+    "conclusions": [
+      "Some floods are earthquakes.",
+      "Some droughts are earthquakes.",
+      "Some floods are droughts."
+    ],
+    "options": {
+      "A": "All conclusions follow.",
+      "B": "Only conclusions I and III follow.",
+      "C": "Only conclusion III follows.",
+      "D": "Only conclusions II and III follow."
+    },
+    "expected_answer": "Only conclusion III follows.",
+    "correct_option": "C",
+    "explanation": "The rain-drought witness is also a flood, proving III. The premises do not force any flood or drought to be an earthquake.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 14; exam/year not stated",
+    "verification_code": "III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_rain_flood_drought",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-012",
+    "row": 12,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 15,
+    "question": "Statements:\n1. Some plants are flowers.\n2. Some flowers are fruits.\n3. All flowers are gardens.\nConclusions:\nI. Some gardens are plants.\nII. Some fruits are gardens.\nIII. Some gardens are flowers.\nSome plants are flowers. Some flowers are fruits. All flowers are gardens. Which conclusions follow?",
+    "statements": [
+      "Some plants are flowers.",
+      "Some flowers are fruits.",
+      "All flowers are gardens."
+    ],
+    "conclusions": [
+      "Some gardens are plants.",
+      "Some fruits are gardens.",
+      "Some gardens are flowers."
+    ],
+    "options": {
+      "A": "Only conclusions I and III follow.",
+      "B": "Only conclusions I and II follow.",
+      "C": "All conclusions follow.",
+      "D": "Only conclusions II and III follow."
+    },
+    "expected_answer": "All conclusions follow.",
+    "correct_option": "C",
+    "explanation": "The first Some statement supplies flowers that are both plants and gardens. The second supplies flowers that are both fruits and gardens.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 15; exam/year not stated",
+    "verification_code": "I+II+III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_plants_flowers_fruits_gardens",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-013",
+    "row": 13,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 16,
+    "question": "Statements:\n1. Some carpenters are singers.\n2. All singers are doctors.\nConclusions:\nI. No doctor is a carpenter.\nII. Some doctors are singers.\nIII. Some carpenters are doctors.\nSome carpenters are singers. All singers are doctors. Which conclusions follow?",
+    "statements": [
+      "Some carpenters are singers.",
+      "All singers are doctors."
+    ],
+    "conclusions": [
+      "No doctor is a carpenter.",
+      "Some doctors are singers.",
+      "Some carpenters are doctors."
+    ],
+    "options": {
+      "A": "Only conclusion III follows.",
+      "B": "All conclusions follow.",
+      "C": "Only conclusions II and III follow.",
+      "D": "Only conclusion II follows."
+    },
+    "expected_answer": "Only conclusions II and III follow.",
+    "correct_option": "C",
+    "explanation": "The carpenter-singer witness is a doctor as well, proving II and III. That witness also disproves I.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 16; exam/year not stated",
+    "verification_code": "II+III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_carpenters_singers_doctors",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-014",
+    "row": 14,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 17,
+    "question": "Statements:\n1. Some machines are coolers.\n2. All coolers are robots.\n3. Some microwaves are coolers.\nConclusions:\nI. Some coolers are machines.\nII. Some robots are machines.\nIII. No robot is a microwave.\nSome machines are coolers. All coolers are robots. Some microwaves are coolers. Which conclusions follow?",
+    "statements": [
+      "Some machines are coolers.",
+      "All coolers are robots.",
+      "Some microwaves are coolers."
+    ],
+    "conclusions": [
+      "Some coolers are machines.",
+      "Some robots are machines.",
+      "No robot is a microwave."
+    ],
+    "options": {
+      "A": "Only conclusions I and III follow.",
+      "B": "Only conclusions I and II follow.",
+      "C": "Either conclusion I or III follows.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "Only conclusions I and II follow.",
+    "correct_option": "B",
+    "explanation": "The machine-cooler witness is a robot, proving I and II. The microwave-cooler witness is also a robot, so III is false.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 17; exam/year not stated",
+    "verification_code": "I+II",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_machines_coolers_robots",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-015",
+    "row": 15,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 02_ Class Notes.pdf",
+    "source_page": 18,
+    "question": "Statements:\n1. Some hills are rivers.\n2. Some rivers are deserts.\n3. All deserts are seas.\nConclusions:\nI. Some seas are rivers.\nII. Some seas are hills.\nIII. Some deserts are hills.\nSome hills are rivers. Some rivers are deserts. All deserts are seas. Which conclusions follow?",
+    "statements": [
+      "Some hills are rivers.",
+      "Some rivers are deserts.",
+      "All deserts are seas."
+    ],
+    "conclusions": [
+      "Some seas are rivers.",
+      "Some seas are hills.",
+      "Some deserts are hills."
+    ],
+    "options": {
+      "A": "Only conclusions I and III follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Either conclusion I or III follows.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "Only conclusion I follows.",
+    "correct_option": "B",
+    "explanation": "The river-desert witness is also a sea, proving I. It need not be a hill; the hill-river witness need not be a desert.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 02_ Class Notes.pdf, page 18; exam/year not stated",
+    "verification_code": "I",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source02_hills_rivers_deserts_sea",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-016",
+    "row": 16,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 03_ Class Notes.pdf",
+    "source_page": 8,
+    "question": "Statements:\n1. Some dogs are cats.\n2. Some cats are bats.\nConclusions:\nI. Some dogs are bats.\nII. Some dogs are not bats.\nSome dogs are cats. Some cats are bats. Which statement about conclusions I and II is guaranteed? I. Some dogs are bats. II. Some dogs are not bats.",
+    "statements": [
+      "Some dogs are cats.",
+      "Some cats are bats."
+    ],
+    "conclusions": [
+      "Some dogs are bats.",
+      "Some dogs are not bats."
+    ],
+    "options": {
+      "A": "Only conclusion I follows.",
+      "B": "Only conclusion II follows.",
+      "C": "Both conclusions follow.",
+      "D": "At least one of I or II follows; both may be true."
+    },
+    "expected_answer": "At least one of I or II follows; both may be true.",
+    "correct_option": "D",
+    "explanation": "Neither overlap is forced because the two cat witnesses may differ. Some dogs exist, so they must either overlap bats or include a non-bat; both outcomes can also coexist.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 03_ Class Notes.pdf, page 8; exam/year not stated",
+    "verification_code": "EITHER(I,II)",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source03_dog_cat_bat_partition",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-017",
+    "row": 17,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 03_ Class Notes.pdf",
+    "source_page": 9,
+    "question": "Statements:\n1. Some lakes are rivers.\n2. Some rivers are mountains.\n3. Some mountains are books.\n4. Some books are papers.\nConclusions:\nI. Some books are rivers.\nII. Some papers are lakes.\nIII. Some mountains are lakes.\nIV. No paper is a lake.\nSome lakes are rivers. Some rivers are mountains. Some mountains are books. Some books are papers. Which option is guaranteed? I. Some books are rivers. II. Some papers are lakes. III. Some mountains are lakes. IV. No paper is a lake.",
+    "statements": [
+      "Some lakes are rivers.",
+      "Some rivers are mountains.",
+      "Some mountains are books.",
+      "Some books are papers."
+    ],
+    "conclusions": [
+      "Some books are rivers.",
+      "Some papers are lakes.",
+      "Some mountains are lakes.",
+      "No paper is a lake."
+    ],
+    "options": {
+      "A": "Only conclusion I follows.",
+      "B": "Only conclusion III follows.",
+      "C": "Either II or IV follows.",
+      "D": "Neither II nor IV follows."
+    },
+    "expected_answer": "Either II or IV follows.",
+    "correct_option": "C",
+    "explanation": "II and IV are exact negations: either the paper and lake sets intersect or they are disjoint. Neither is individually forced by the statements.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 03_ Class Notes.pdf, page 9; exam/year not stated",
+    "verification_code": "EITHER(II,IV)",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source03_lakes_rivers_books_either",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-018",
+    "row": 18,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 03_ Class Notes.pdf",
+    "source_page": 10,
+    "question": "Statements:\n1. Some tigers are horses.\n2. All horses are goats.\n3. All goats are dogs.\n4. Some dogs are cats.\nConclusions:\nI. Some cats are tigers.\nII. Some dogs are horses.\nIII. Some goats are tigers.\nIV. Some cats are horses.\nSome tigers are horses. All horses are goats. All goats are dogs. Some dogs are cats. Which conclusions follow? I. Some cats are tigers. II. Some dogs are horses. III. Some goats are tigers. IV. Some cats are horses.",
+    "statements": [
+      "Some tigers are horses.",
+      "All horses are goats.",
+      "All goats are dogs.",
+      "Some dogs are cats."
+    ],
+    "conclusions": [
+      "Some cats are tigers.",
+      "Some dogs are horses.",
+      "Some goats are tigers.",
+      "Some cats are horses."
+    ],
+    "options": {
+      "A": "Only conclusions I and III follow.",
+      "B": "All conclusions follow.",
+      "C": "Only conclusions II and III follow.",
+      "D": "Only conclusions II, III and IV follow."
+    },
+    "expected_answer": "Only conclusions II and III follow.",
+    "correct_option": "C",
+    "explanation": "The tiger-horse witness is also a goat and a dog, proving II and III. The cat-dog witness need not be a horse or tiger.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 03_ Class Notes.pdf, page 10; exam/year not stated",
+    "verification_code": "II+III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source03_tigers_horses_goats_dogs",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-019",
+    "row": 19,
+    "source_type": "pdf-derived",
+    "source_pdf": "Syllogism 03_ Class Notes.pdf",
+    "source_page": 12,
+    "question": "Statements:\n1. No A is B.\nNo A is B. Which proposed relationship is impossible?",
+    "statements": [
+      "No A is B."
+    ],
+    "conclusions": [],
+    "options": {
+      "A": "Some A are B is a possibility.",
+      "B": "All B are A is a possibility.",
+      "C": "Some A are not B is a possibility.",
+      "D": "No A is B is a possibility."
+    },
+    "expected_answer": "Some A are B is a possibility.",
+    "correct_option": "A",
+    "explanation": "A and B must be disjoint, so their intersection cannot contain an A and a B. The other relations can be realized consistently, including by an empty class where needed.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "not identified as a PYQ in the PDF; imported as Normal",
+    "source": "Syllogism 03_ Class Notes.pdf, page 12; exam/year not stated",
+    "verification_code": "A",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "source03_no_ab_possibilities",
+    "validation_status": "PASS",
+    "possibility_options": [
+      [
+        "SOME",
+        "A",
+        "B"
+      ],
+      [
+        "ALL",
+        "B",
+        "A"
+      ],
+      [
+        "SOME_NOT",
+        "A",
+        "B"
+      ],
+      [
+        "NO",
+        "A",
+        "B"
+      ]
+    ],
+    "possible_options": [
+      false,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "question_id": "syllogism-020",
+    "row": 20,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Some artists are musicians.\nConclusions:\nI. Some musicians are artists.\nII. All artists are musicians.\nSome artists are musicians. Which conclusion must follow?",
+    "statements": [
+      "Some artists are musicians."
+    ],
+    "conclusions": [
+      "Some musicians are artists.",
+      "All artists are musicians."
+    ],
+    "options": {
+      "A": "Both conclusions follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Only conclusion I follows.",
+    "correct_option": "B",
+    "explanation": "Some A are B reverses to Some B are A because both name the same nonempty intersection. It does not imply that every artist is a musician.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_some_reversal",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-021",
+    "row": 21,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. All poets are readers.\n2. No reader is careless.\nConclusions:\nI. No poet is careless.\nII. All careless people are poets.\nAll poets are readers. No reader is careless. Which conclusions follow?",
+    "statements": [
+      "All poets are readers.",
+      "No reader is careless."
+    ],
+    "conclusions": [
+      "No poet is careless.",
+      "All careless people are poets."
+    ],
+    "options": {
+      "A": "Both conclusions follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Only conclusion I follows.",
+    "correct_option": "B",
+    "explanation": "Every poet is a reader and every reader is outside careless people, so I follows. No premise places careless people inside poets.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_all_no_chain",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-022",
+    "row": 22,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. No violin is a drum.\n2. Some violins are wooden.\nConclusions:\nI. Some wooden things are not drums.\nII. No drum is a violin.\nNo violin is a drum. Some violins are wooden. Which conclusions follow?",
+    "statements": [
+      "No violin is a drum.",
+      "Some violins are wooden."
+    ],
+    "conclusions": [
+      "Some wooden things are not drums.",
+      "No drum is a violin."
+    ],
+    "options": {
+      "A": "Both conclusions follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Both conclusions follow.",
+    "correct_option": "A",
+    "explanation": "The wooden-violin witness is not a drum, proving I. No violin is a drum is symmetric, proving II.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I+II",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_no_some_existential",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-023",
+    "row": 23,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. All orchids are plants.\n2. Some orchids are fragrant.\nConclusions:\nI. Some fragrant things are plants.\nII. Some orchids are plants.\nAll orchids are plants. Some orchids are fragrant. Which conclusions follow?",
+    "statements": [
+      "All orchids are plants.",
+      "Some orchids are fragrant."
+    ],
+    "conclusions": [
+      "Some fragrant things are plants.",
+      "Some orchids are plants."
+    ],
+    "options": {
+      "A": "Both conclusions follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Both conclusions follow.",
+    "correct_option": "A",
+    "explanation": "The existing fragrant orchid is a plant, proving I. It is also an orchid and plant, proving II.",
+    "difficulty": "EASY",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I+II",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_some_through_all",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-024",
+    "row": 24,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Some paintings are sketches.\n2. All sketches are framed.\n3. No framed item is damaged.\nConclusions:\nI. Some paintings are framed.\nII. Some paintings are damaged.\nSome paintings are sketches. All sketches are framed. No framed item is damaged. Which conclusions follow?",
+    "statements": [
+      "Some paintings are sketches.",
+      "All sketches are framed.",
+      "No framed item is damaged."
+    ],
+    "conclusions": [
+      "Some paintings are framed.",
+      "Some paintings are damaged."
+    ],
+    "options": {
+      "A": "Both conclusions follow.",
+      "B": "Only conclusion I follows.",
+      "C": "Only conclusion II follows.",
+      "D": "Neither conclusion follows."
+    },
+    "expected_answer": "Only conclusion I follows.",
+    "correct_option": "B",
+    "explanation": "The painting-sketch witness is framed, proving I. It is therefore not damaged, and no premise requires any painting to be damaged.",
+    "difficulty": "MEDIUM",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_chain_with_negative",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-025",
+    "row": 25,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Only mentors are guides.\n2. Only a few guides are volunteers.\nConclusions:\nI. Some volunteers are mentors.\nII. All guides are mentors.\nIII. Some guides are not volunteers.\nIV. Some guides are volunteers.\nOnly mentors are guides. Only a few guides are volunteers. Which conclusions follow? I. Some volunteers are mentors. II. All guides are mentors. III. Some guides are not volunteers. IV. Some guides are volunteers.",
+    "statements": [
+      "Only mentors are guides.",
+      "Only a few guides are volunteers."
+    ],
+    "conclusions": [
+      "Some volunteers are mentors.",
+      "All guides are mentors.",
+      "Some guides are not volunteers.",
+      "Some guides are volunteers."
+    ],
+    "options": {
+      "A": "Only conclusions I and II follow.",
+      "B": "Only conclusions III and IV follow.",
+      "C": "Only conclusions I, III and IV follow.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "All conclusions follow.",
+    "correct_option": "D",
+    "explanation": "Only mentors are guides means all guides are mentors. Only a few guides are volunteers asserts both some guide-volunteers and some guides outside volunteers.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I+II+III+IV",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_only_only_few",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-026",
+    "row": 26,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Some apprentices are technicians.\n2. All technicians are qualified persons.\n3. No qualified person is an untrained person.\nConclusions:\nI. Some apprentices are qualified persons.\nII. Some technicians are not untrained persons.\nIII. No apprentice is untrained.\nSome apprentices are technicians. All technicians are qualified persons. No qualified person is an untrained person. Which conclusions follow? I. Some apprentices are qualified persons. II. Some technicians are not untrained persons. III. No apprentice is untrained.",
+    "statements": [
+      "Some apprentices are technicians.",
+      "All technicians are qualified persons.",
+      "No qualified person is an untrained person."
+    ],
+    "conclusions": [
+      "Some apprentices are qualified persons.",
+      "Some technicians are not untrained persons.",
+      "No apprentice is untrained."
+    ],
+    "options": {
+      "A": "Only conclusions I and II follow.",
+      "B": "Only conclusion III follows.",
+      "C": "All conclusions follow.",
+      "D": "Only conclusion I follows."
+    },
+    "expected_answer": "Only conclusions I and II follow.",
+    "correct_option": "A",
+    "explanation": "The apprentice-technician witness is a qualified person and therefore not an untrained person, proving I and II. Other apprentices may lie outside the technician class, so III is not definite.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I+II",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_chain_existence_limited",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-027",
+    "row": 27,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Some A are C.\nConclusions:\nI. All A are B.\nII. Some A are not B.\nSome A are C. Which conclusion pattern is guaranteed? I. All A are B. II. Some A are not B.",
+    "statements": [
+      "Some A are C."
+    ],
+    "conclusions": [
+      "All A are B.",
+      "Some A are not B."
+    ],
+    "options": {
+      "A": "Only conclusion I follows.",
+      "B": "Only conclusion II follows.",
+      "C": "Both conclusions follow.",
+      "D": "At least one of I or II follows; exactly one is true in every model."
+    },
+    "expected_answer": "At least one of I or II follows; exactly one is true in every model.",
+    "correct_option": "D",
+    "explanation": "I and II are exact logical negations. The premise guarantees A is nonempty, but leaves its relation to B open, so neither conclusion follows alone while their disjunction is guaranteed.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "EITHER(I,II)",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_valid_complementary_pair",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-028",
+    "row": 28,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. All pilots are trained.\n2. Some trained people are divers.\n3. No diver is inactive.\nAll pilots are trained. Some trained people are divers. No diver is inactive. Which relation is impossible?",
+    "statements": [
+      "All pilots are trained.",
+      "Some trained people are divers.",
+      "No diver is inactive."
+    ],
+    "conclusions": [],
+    "options": {
+      "A": "Some pilots are divers is possible.",
+      "B": "Some pilots are inactive is possible.",
+      "C": "Some divers are inactive is possible.",
+      "D": "Some trained people are not inactive is possible."
+    },
+    "expected_answer": "Some divers are inactive is possible.",
+    "correct_option": "C",
+    "explanation": "No diver is inactive, so a diver-inactive overlap is impossible. The other options can be realized without violating the statements.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "C",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_possibility_with_negative",
+    "validation_status": "PASS",
+    "possibility_options": [
+      [
+        "SOME",
+        "Pilots",
+        "Divers"
+      ],
+      [
+        "SOME",
+        "Pilots",
+        "Inactive"
+      ],
+      [
+        "SOME",
+        "Divers",
+        "Inactive"
+      ],
+      [
+        "SOME_NOT",
+        "Trained",
+        "Inactive"
+      ]
+    ],
+    "possible_options": [
+      true,
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "question_id": "syllogism-029",
+    "row": 29,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Some engineers are musicians.\n2. All musicians are readers.\n3. No reader is a pilot.\nConclusions:\nI. Some engineers are readers.\nII. Some engineers are not pilots.\nIII. No musician is a pilot.\nIV. All engineers are readers.\nSome engineers are musicians. All musicians are readers. No reader is a pilot. Which conclusions follow? I. Some engineers are readers. II. Some engineers are not pilots. III. No musician is a pilot. IV. All engineers are readers.",
+    "statements": [
+      "Some engineers are musicians.",
+      "All musicians are readers.",
+      "No reader is a pilot."
+    ],
+    "conclusions": [
+      "Some engineers are readers.",
+      "Some engineers are not pilots.",
+      "No musician is a pilot.",
+      "All engineers are readers."
+    ],
+    "options": {
+      "A": "Only conclusions I and IV follow.",
+      "B": "Only conclusions I, II and III follow.",
+      "C": "Only conclusions II and III follow.",
+      "D": "All conclusions follow."
+    },
+    "expected_answer": "Only conclusions I, II and III follow.",
+    "correct_option": "B",
+    "explanation": "The engineer-musician witness is a reader and not a pilot, proving I and II. Every musician is a reader and no reader is a pilot, proving III. Other engineers may not be readers.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "I+II+III",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_four_term_chain",
+    "validation_status": "PASS"
+  },
+  {
+    "question_id": "syllogism-030",
+    "row": 30,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "question": "Statements:\n1. Some A are B.\n2. Some B are C.\n3. No C is D.\nSome A are B. Some B are C. No C is D. Which proposed relationship is impossible?",
+    "statements": [
+      "Some A are B.",
+      "Some B are C.",
+      "No C is D."
+    ],
+    "conclusions": [],
+    "options": {
+      "A": "Some A are D is possible.",
+      "B": "All B are C is possible.",
+      "C": "Some C are D is possible.",
+      "D": "No A is C is possible."
+    },
+    "expected_answer": "Some C are D is possible.",
+    "correct_option": "C",
+    "explanation": "C and D are disjoint by premise, so their intersection cannot be nonempty. The two Some statements may have different witnesses, leaving the other proposed relations consistent.",
+    "difficulty": "HARD",
+    "verification_status": "PASS - exhaustive categorical set-constraint check",
+    "pyq_status": "original practice; imported as Normal",
+    "source": "Original SSC-style practice question",
+    "verification_code": "C",
+    "option_review": "Four distinct options; exactly one option matches the formally checked result.",
+    "concept_signature": "original_possibility_distinct_witnesses",
+    "validation_status": "PASS",
+    "possibility_options": [
+      [
+        "SOME",
+        "A",
+        "D"
+      ],
+      [
+        "ALL",
+        "B",
+        "C"
+      ],
+      [
+        "SOME",
+        "C",
+        "D"
+      ],
+      [
+        "NO",
+        "A",
+        "C"
+      ]
+    ],
+    "possible_options": [
+      true,
+      true,
+      false,
+      true
+    ]
+  }
+]
