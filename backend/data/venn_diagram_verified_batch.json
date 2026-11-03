@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "A three-set diagram has Yellow-only 12, Pink-only 10, Green-only 11, Yellow∩Pink-only 9, Yellow∩Green-only 7, and all-three 8. How many are Pink but neither Green nor Yellow?",
+      "options": {
+        "A": "9",
+        "B": "17",
+        "C": "10",
+        "D": "8"
+      },
+      "correct_option": "C",
+      "explanation": "‘Neither Green nor Yellow’ excludes every overlap with either set. The Pink-only region in the diagram is labeled 10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 01_ Class Notes.pdf, page 7; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Which relationship best represents Mango, Fruit and Cauliflower?",
+      "options": {
+        "A": "Mango is inside Fruit; Cauliflower is separate from both.",
+        "B": "All three sets partially overlap.",
+        "C": "Fruit is inside Mango; Cauliflower is separate.",
+        "D": "Mango and Cauliflower are inside Fruit and overlap each other."
+      },
+      "correct_option": "A",
+      "explanation": "Every mango is a fruit, so Mango is a subset of Fruit. Cauliflower is not a fruit, so its set is separate from both in this classification.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 01_ Class Notes.pdf, page 17; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Which diagram best represents Wheat, Grains, Onion and Maize?",
+      "options": {
+        "A": "Wheat and Maize are separate subsets of Grains; Onion is outside Grains.",
+        "B": "All four sets are completely disjoint.",
+        "C": "Onion is inside Grains, while Wheat and Maize are outside.",
+        "D": "Wheat, Grains and Maize form three nested sets; Onion overlaps them."
+      },
+      "correct_option": "A",
+      "explanation": "Wheat and maize are kinds of grain, but neither is the other. Onion is not a grain, so it is disjoint from the Grains set.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 01_ Class Notes.pdf, page 22; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Which relationship best represents Vegetable, Woman, Lion and Parrot?",
+      "options": {
+        "A": "Four separate sets with no overlap.",
+        "B": "Woman contains Vegetable; Lion and Parrot overlap.",
+        "C": "Lion and Parrot are nested inside Vegetable.",
+        "D": "All four sets overlap in one common region."
+      },
+      "correct_option": "A",
+      "explanation": "These labels denote different classes: vegetables, people who are women, lions, and parrots. None is a subset of or overlaps another class in the intended classification diagram.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 01_ Class Notes.pdf, page 23; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Which diagram best represents Teachers, Parents and Guardians when people may belong to more than one group?",
+      "options": {
+        "A": "Three separate circles.",
+        "B": "Three nested circles.",
+        "C": "Three partially overlapping circles, including a possible common intersection.",
+        "D": "Two overlapping circles and one separate circle."
+      },
+      "correct_option": "C",
+      "explanation": "A person can be a teacher, a parent, and a guardian at the same time; each role can also occur without the other two. The sets therefore overlap and may share a common region, but none contains another.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 8; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In a Kesar/Mint/Vanilla diagram, the exclusive regions are: Kesar 32, Mint 21, Vanilla 45, Kesar-Mint 12, Kesar-Vanilla 14, Mint-Vanilla 20, and all three 10. How many people like Mint but not Kesar?",
+      "options": {
+        "A": "51",
+        "B": "21",
+        "C": "33",
+        "D": "41"
+      },
+      "correct_option": "D",
+      "explanation": "Mint but not Kesar includes Mint only (21) and Mint-and-Vanilla only (20). Exclude both Kesar-and-Mint regions, including the all-three region. Thus 21 + 20 = 41.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 11; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "A Clerks/Potters/Farmers diagram has exclusive regions: Clerks 20, Potters 23, Farmers 45, Clerks-Potters 12, Clerks-Farmers 9, Potters-Farmers 8, and all three 6. How many are both clerks and potters?",
+      "options": {
+        "A": "20",
+        "B": "12",
+        "C": "48",
+        "D": "18"
+      },
+      "correct_option": "D",
+      "explanation": "The Clerks∩Potters total includes the Clerks-and-Potters-only region (12) and the all-three region (6): 12 + 6 = 18.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 12; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In a four-set diagram, the regions are Florists-only 23, Florists-Teachers 9, Teachers-only 34, Teachers-Celebrities 7, Celebrities-only 25, Celebrities-Doctors 13, and Doctors-only 56. How many are both teachers and florists?",
+      "options": {
+        "A": "34",
+        "B": "43",
+        "C": "9",
+        "D": "7"
+      },
+      "correct_option": "C",
+      "explanation": "The shared Teachers∩Florists region is labeled 9. The value 7 belongs to Teachers∩Celebrities, a different overlap.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 13; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In an Urban/Male/Educated diagram, the exclusive regions are U-only 1, M-only 2, E-only 3, U-M 5, U-E 4, M-E 6, and all three 10. How many people belong to the Urban set?",
+      "options": {
+        "A": "20",
+        "B": "23",
+        "C": "10",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "explanation": "The Urban set includes Urban-only 1, Urban∩Male-only 5, Urban∩Educated-only 4, and the all-three region 10. Total = 1 + 5 + 4 + 10 = 20.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 15; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "For Hindi/English/French, the exclusive regions are H-only 20, E-only 10, F-only 20, H-E 25, H-F 10, E-F 10, and all three 10. How many people speak exactly one language?",
+      "options": {
+        "A": "70",
+        "B": "50",
+        "C": "43",
+        "D": "105"
+      },
+      "correct_option": "B",
+      "explanation": "Exactly one language means the three single-language regions only: Hindi-only 20 + English-only 10 + French-only 20 = 50.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 18; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "For Hindi/English/French, the exclusive regions are H-only 20, E-only 10, F-only 20, H-E 25, H-F 10, E-F 10, and all three 10. How many people speak exactly two languages?",
+      "options": {
+        "A": "56",
+        "B": "45",
+        "C": "35",
+        "D": "50"
+      },
+      "correct_option": "B",
+      "explanation": "Exactly two languages includes the three pair-only regions: 25 + 10 + 10 = 45. The triple-language region is not included.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 19; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "For Hindi/English/French, the exclusive regions are H-only 20, E-only 10, F-only 20, H-E 25, H-F 10, E-F 10, and all three 10. How many people speak all three languages?",
+      "options": {
+        "A": "10",
+        "B": "50",
+        "C": "55",
+        "D": "42"
+      },
+      "correct_option": "A",
+      "explanation": "The central intersection of Hindi, English and French is labeled 10.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 20; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In a Boys/Athletes/College Students diagram, the exclusive regions are boys-only 7, boys-athletes 10, athletes-only 14, boys-college 12, athletes-college 6, college-only 15, and all three 9. How many boys are both college students and athletes?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "6",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "The question asks for Boys∩College Students∩Athletes, the central region common to all three circles. It is labeled 9.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Venn Diagram 02_ Class Notes.pdf, page 22; exam/year not stated"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "All surgeons are doctors. Some surgeons are men, some surgeons are not men, and some men are not doctors. Which diagram fits?",
+      "options": {
+        "A": "Surgeons inside Doctors; Men overlaps both and extends outside Doctors.",
+        "B": "Doctors inside Surgeons; Men is separate.",
+        "C": "All three sets are disjoint.",
+        "D": "Men contains both Doctors and Surgeons."
+      },
+      "correct_option": "A",
+      "explanation": "Surgeons are wholly within Doctors. The stated examples require Men to overlap Surgeons and Doctors while also extending beyond Doctors; the non-men surgeons occupy a Doctors-and-Surgeons region outside Men.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Patna is within Bihar, and Bihar is within India. Which diagram represents these classes?",
+      "options": {
+        "A": "Three separate circles.",
+        "B": "Patna inside Bihar inside India.",
+        "C": "Bihar inside Patna inside India.",
+        "D": "Patna and Bihar overlap, while India is separate."
+      },
+      "correct_option": "B",
+      "explanation": "Every location in Patna is in Bihar, and every location in Bihar is in India. The sets form a three-level containment chain.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Gold and Silver are metals, and no object is classified as both Gold and Silver. Which diagram fits?",
+      "options": {
+        "A": "Gold and Silver are disjoint subsets inside Metals.",
+        "B": "Metals is inside Gold; Silver overlaps it.",
+        "C": "Gold, Silver and Metals are all disjoint.",
+        "D": "Gold is inside Silver inside Metals."
+      },
+      "correct_option": "A",
+      "explanation": "Both Gold and Silver belong to the broader Metals class. They are distinct, non-overlapping classes, so draw two disjoint subsets within Metals.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Pet cats and pet dogs are both pet animals, and no animal in this question is both a cat and a dog. Pet animals are animals. Which diagram fits?",
+      "options": {
+        "A": "Pet cats and pet dogs are disjoint subsets of Pet Animals, inside Animals.",
+        "B": "Animals inside Pet Animals inside Pet Cats.",
+        "C": "Pet Cats and Pet Dogs overlap; Animals is separate.",
+        "D": "All four sets are disjoint."
+      },
+      "correct_option": "A",
+      "explanation": "Both pet categories are contained within Pet Animals, which is within Animals. The question states pet cats and pet dogs are disjoint.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Some A are B. Some B are C. No A is C. Which diagram is possible?",
+      "options": {
+        "A": "A and C are disjoint; each overlaps B in separate regions.",
+        "B": "A, B and C are completely disjoint.",
+        "C": "A is inside C, and both are inside B.",
+        "D": "All three share one common region."
+      },
+      "correct_option": "A",
+      "explanation": "The premises require an A∩B region and a separate B∩C region, while A and C never intersect. Thus B overlaps each of two mutually disjoint sets.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "All students and all athletes are people. Some students are athletes, some students are not athletes, and some athletes are not students. Which diagram fits?",
+      "options": {
+        "A": "Students and Athletes partially overlap inside People.",
+        "B": "Students and Athletes are disjoint inside People.",
+        "C": "Students are inside Athletes, both inside People.",
+        "D": "People is inside the overlap of Students and Athletes."
+      },
+      "correct_option": "A",
+      "explanation": "Both sets are subsets of People. The examples establish a nonempty intersection and nonempty parts unique to each set, so the two sets partially overlap inside People.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Some teachers are singers, some students are singers, and some singers belong to neither group. No teacher is a student. Which diagram fits?",
+      "options": {
+        "A": "Teachers and Students are disjoint; each overlaps Singers in separate regions.",
+        "B": "Teachers, Students and Singers all overlap in a common center.",
+        "C": "Teachers are inside Students; Singers is separate.",
+        "D": "Teachers and Students overlap, while Singers is disjoint from both."
+      },
+      "correct_option": "A",
+      "explanation": "Teachers and Students must be disjoint. Their stated singer members make Singers overlap each set in separate regions, while the singer-only region is nonempty.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "All apples are fruits, and no vegetable is a fruit. Which diagram represents Apples, Fruits and Vegetables?",
+      "options": {
+        "A": "Apples inside Fruits; Vegetables separate from Fruits.",
+        "B": "Fruits inside Apples; Vegetables overlap Fruits.",
+        "C": "All three sets partially overlap.",
+        "D": "Apples and Vegetables are inside Fruits."
+      },
+      "correct_option": "A",
+      "explanation": "Apples form a subset of Fruits. Vegetables are disjoint from Fruits, so they are also disjoint from Apples.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In a survey, 46 people chose A, 39 chose B, and 17 chose both. How many chose at least one of A or B?",
+      "options": {
+        "A": "68",
+        "B": "85",
+        "C": "102",
+        "D": "29"
+      },
+      "correct_option": "A",
+      "explanation": "The inclusive totals count the 17 in both twice. Union = 46 + 39 − 17 = 68.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Of 150 people, 86 drink tea, 72 drink coffee, and 28 drink neither. How many drink both tea and coffee?",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "8",
+        "D": "58"
+      },
+      "correct_option": "B",
+      "explanation": "At least one = 150 − 28 = 122. By inclusion-exclusion, both = 86 + 72 − 122 = 36.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In a class, 72 study Mathematics, 58 study Science, and 31 study both. How many study Science only?",
+      "options": {
+        "A": "27",
+        "B": "31",
+        "C": "41",
+        "D": "89"
+      },
+      "correct_option": "A",
+      "explanation": "Science-only members are the Science total minus those in both subjects: 58 − 31 = 27.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Of 90 people, 55 belong to A and 48 to B. If 78 belong to at least one set, how many belong to exactly one set?",
+      "options": {
+        "A": "25",
+        "B": "53",
+        "C": "78",
+        "D": "103"
+      },
+      "correct_option": "B",
+      "explanation": "The intersection is 55 + 48 − 78 = 25. Exactly one = (55 − 25) + (48 − 25) = 53.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "A group has 64 members in A, 51 in B, and 27 in both. How many are in A only?",
+      "options": {
+        "A": "37",
+        "B": "27",
+        "C": "64",
+        "D": "88"
+      },
+      "correct_option": "A",
+      "explanation": "A-only excludes the intersection: 64 − 27 = 37.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Set A has 75 members. The inclusive totals are A∩B=30 and A∩C=25, while A∩B∩C=10. How many are in A only?",
+      "options": {
+        "A": "30",
+        "B": "40",
+        "C": "20",
+        "D": "50"
+      },
+      "correct_option": "A",
+      "explanation": "Within A, the inclusive AB and AC counts double-count the 10 in all three. A-only = 75 − 30 − 25 + 10 = 30.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "In a survey of 240 people, A=110, B=100, C=90; inclusive AB=40, AC=35, BC=30; all three=15. How many belong to none of the sets?",
+      "options": {
+        "A": "30",
+        "B": "45",
+        "C": "210",
+        "D": "60"
+      },
+      "correct_option": "A",
+      "explanation": "Union = 110 + 100 + 90 − 40 − 35 − 30 + 15 = 210. Therefore none = 240 − 210 = 30.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "A survey diagram shows A-only 10, B-only 12, C-only 8, AB-only 4, AC-only 3, BC-only 5, all three 2, and outside all sets 6. How many are neither A nor C?",
+      "options": {
+        "A": "18",
+        "B": "23",
+        "C": "30",
+        "D": "12"
+      },
+      "correct_option": "A",
+      "explanation": "Neither A nor C includes the B-only region (12) and the region outside all sets (6). Total = 12 + 6 = 18.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    },
+    {
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "venn-diagram",
+      "question_text": "Three sets have disjoint region counts: A-only 14, B-only 11, C-only 9, AB-only 6, AC-only 5, BC-only 4, and all three 3. How many belong to at least one set?",
+      "options": {
+        "A": "52",
+        "B": "49",
+        "C": "43",
+        "D": "55"
+      },
+      "correct_option": "A",
+      "explanation": "At least one means the union: add all seven mutually exclusive regions. 14 + 11 + 9 + 6 + 5 + 4 + 3 = 52.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question"
+    }
+  ]
+}
