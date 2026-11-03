@@ -1,0 +1,953 @@
+[
+  {
+    "question_id": "puzzle-001",
+    "row": 1,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 01_ Class Notes.pdf",
+    "source_page": 7,
+    "puzzle_category": "Classification/ranking",
+    "question": "A, B, C, D, E, F and G earned distinct marks. A scored more than B, C and D; G scored more than E and F; and F scored more than A. Who scored highest?",
+    "conditions": [
+      "A>B,C,D; G>E,F; F>A."
+    ],
+    "options": {
+      "A": "G",
+      "B": "F",
+      "C": "A",
+      "D": "B"
+    },
+    "expected_answer": "G",
+    "correct_option": "A",
+    "explanation": "The clues give G above F, F above A, and A above B, C and D; G is also above E. Thus G is highest.",
+    "verified_order": "highest to lowest: G > E > F > A > B > C > D",
+    "solution_count": 36,
+    "difficulty": "EASY",
+    "source": "Puzzle 01_ Class Notes.pdf, page 7; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The clues give G above F, F above A, and A above B, C and D; G is also above E. Thus G is highest.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l1p7_marks",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": [
+      {
+        "source_pdf": "Puzzle 01_ Class Notes.pdf",
+        "source_page": 8,
+        "reason": "Contradictory speed clues: the stated pair count conflicts with the comparison chain."
+      },
+      {
+        "source_pdf": "Puzzle 01_ Class Notes.pdf",
+        "source_page": 13,
+        "reason": "Underdetermined: several candidates can be highest."
+      },
+      {
+        "source_pdf": "Puzzle 02_ Class Notes.pdf",
+        "source_page": 10,
+        "reason": "Underdetermined: exhaustive enumeration yields multiple possible floors for O, so its requested floor is not invariant."
+      },
+      {
+        "source_pdf": "Puzzle 02_ Class Notes.pdf",
+        "source_page": 11,
+        "reason": "Invalid participant reference: the clue names D, who is absent from the listed six residents; the scan does not establish a reliable correction."
+      }
+    ]
+  },
+  {
+    "question_id": "puzzle-002",
+    "row": 2,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 01_ Class Notes.pdf",
+    "source_page": 9,
+    "puzzle_category": "Classification/ranking",
+    "question": "Seven boys B1–B7 have distinct weights. B4 is lighter than exactly three boys. B1 is heavier than B7; B2 is heaviest; B5 and B6 are each heavier than B1; and B3 is lighter than B7. How many boys are lighter than B1?",
+    "conditions": [
+      "B4 has exactly three heavier boys; B1>B7; B2 highest; B5,B6>B1; B3<B7."
+    ],
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "B2, B5 and B6 are already heavier than B1. For exactly three boys to be heavier than B4, B1 must be lighter than B4. Below B1 are B7 and B3.",
+    "verified_order": "highest to lowest: B2 > B5 > B6 > B4 > B1 > B7 > B3",
+    "solution_count": 2,
+    "difficulty": "EASY",
+    "source": "Puzzle 01_ Class Notes.pdf, page 9; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "B2, B5 and B6 are already heavier than B1. For exactly three boys to be heavier than B4, B1 must be lighter than B4. Below B1 are B7 and B3.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l1p9_weights",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-003",
+    "row": 3,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 01_ Class Notes.pdf",
+    "source_page": 10,
+    "puzzle_category": "Classification/ranking",
+    "question": "Seven spheres V1–V7 have distinct volumes. V4 is smaller than V1, V2 and V5. Exactly two spheres have smaller volume than V7, and V4 is larger than V7. V6 is not the smallest. How many spheres have smaller volume than V3?",
+    "conditions": [
+      "V1,V2,V5>V4>V7; exactly two spheres below V7; V6 is not lowest."
+    ],
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "expected_answer": "0",
+    "correct_option": "A",
+    "explanation": "V1, V2 and V5 are above V4, and V4 is above V7. Since exactly two spheres are below V7 and V6 is not the smallest, V3 is the smallest; none is below it.",
+    "verified_order": "highest to lowest: V1 > V2 > V5 > V4 > V7 > V6 > V3",
+    "solution_count": 6,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 01_ Class Notes.pdf, page 10; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "V1, V2 and V5 are above V4, and V4 is above V7. Since exactly two spheres are below V7 and V6 is not the smallest, V3 is the smallest; none is below it.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l1p10_spheres",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-004",
+    "row": 4,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 01_ Class Notes.pdf",
+    "source_page": 11,
+    "puzzle_category": "Classification/ranking",
+    "question": "Seven boys B1–B7 have distinct IQ scores. B2 is above B6; B5 has the third-lowest IQ; B4 has the highest IQ; B3 is below B2; B1 is above B2; and B7 has the lowest IQ. Who has the second-highest IQ?",
+    "conditions": [
+      "B2>B6; B5 third-lowest; B4 highest; B3<B2; B1>B2; B7 lowest."
+    ],
+    "options": {
+      "A": "B1",
+      "B": "B2",
+      "C": "B3",
+      "D": "B4"
+    },
+    "expected_answer": "B1",
+    "correct_option": "A",
+    "explanation": "B4 is highest. B1 is above B2, and B2 is above B6 and B3, so B1 must be second-highest.",
+    "verified_order": "highest to lowest: B4 > B1 > B2 > B3 > B5 > B6 > B7",
+    "solution_count": 2,
+    "difficulty": "HARD",
+    "source": "Puzzle 01_ Class Notes.pdf, page 11; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "B4 is highest. B1 is above B2, and B2 is above B6 and B3, so B1 must be second-highest.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l1p11_iq",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-005",
+    "row": 5,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 01_ Class Notes.pdf",
+    "source_page": 12,
+    "puzzle_category": "Classification/ranking",
+    "question": "Seven students P, Q, R, S, T, U and V have distinct marks. P is second-highest; V is above only one student; S scored more than T but less than P; exactly three students scored more than T and three less; neither R nor Q has the lowest score. Who has the lowest score?",
+    "conditions": [
+      "P second-highest; V second-lowest; P>S>T; three above and three below T; Q,R not lowest."
+    ],
+    "options": {
+      "A": "U",
+      "B": "R",
+      "C": "Q",
+      "D": "V"
+    },
+    "expected_answer": "U",
+    "correct_option": "A",
+    "explanation": "T is fourth and P second. S must be third. V is second-lowest, while neither Q nor R is lowest; therefore U is lowest.",
+    "verified_order": "highest to lowest: Q > P > S > T > R > V > U",
+    "solution_count": 2,
+    "difficulty": "EASY",
+    "source": "Puzzle 01_ Class Notes.pdf, page 12; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "T is fourth and P second. S must be third. V is second-lowest, while neither Q nor R is lowest; therefore U is lowest.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l1p12_student_marks",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-006",
+    "row": 6,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 4,
+    "puzzle_category": "Day-based",
+    "question": "D, E, F, H, I, J and K have exams on distinct days Monday–Sunday. K is Thursday and E Saturday. H is immediately before I; D immediately after I; F is after J. How many people have exams between F and D?",
+    "conditions": [
+      "K Thursday; E Saturday; H immediately before I; D immediately after I; F after J."
+    ],
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "expected_answer": "3",
+    "correct_option": "A",
+    "explanation": "The H–I–D block must be Monday–Wednesday. K is Thursday and E Saturday; J is Friday and F Sunday. K, J and E lie between D and F.",
+    "verified_order": "Monday to Sunday: H – I – D – K – J – E – F",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 02_ Class Notes.pdf, page 4; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The H–I–D block must be Monday–Wednesday. K is Thursday and E Saturday; J is Friday and F Sunday. K, J and E lie between D and F.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p4_days",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-007",
+    "row": 7,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 5,
+    "puzzle_category": "Day-based",
+    "question": "P, Q, R, S, T, U and V have exams on distinct days Monday–Sunday. Q is immediately before T, and T immediately before P. P is Wednesday. R is neither Saturday nor Sunday. U is Friday and S immediately follows U. Who has the Sunday exam?",
+    "conditions": [
+      "Q immediately before T; T before P; P Wednesday; R not weekend; U Friday; S immediately after U."
+    ],
+    "options": {
+      "A": "V",
+      "B": "R",
+      "C": "S",
+      "D": "T"
+    },
+    "expected_answer": "V",
+    "correct_option": "A",
+    "explanation": "Q and T are Monday and Tuesday, followed by P Wednesday. U and S are Friday and Saturday. R must be Thursday, leaving V for Sunday.",
+    "verified_order": "Monday to Sunday: Q – T – P – R – U – S – V",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Puzzle 02_ Class Notes.pdf, page 5; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "Q and T are Monday and Tuesday, followed by P Wednesday. U and S are Friday and Saturday. R must be Thursday, leaving V for Sunday.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p5_days",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-008",
+    "row": 8,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 6,
+    "puzzle_category": "Day-based",
+    "question": "A, B, C, D, E, F and G have exams on distinct days Monday–Sunday. Exactly two exams are before F; A is immediately after F; E is not Sunday; G is immediately before E and has the Friday exam; C is not Monday; D is immediately before F; and exactly one exam is between A and E. Who has the Monday exam?",
+    "conditions": [
+      "F has two earlier exams; A after F; E not last; G immediately before E and Friday; C not first; D immediately before F; one between A,E."
+    ],
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "C",
+      "D": "D"
+    },
+    "expected_answer": "B",
+    "correct_option": "A",
+    "explanation": "F is Wednesday, D Tuesday and A Thursday. G Friday and E Saturday. C cannot be Monday, so C is Sunday and B is Monday.",
+    "verified_order": "Monday to Sunday: B – D – F – A – G – E – C",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Puzzle 02_ Class Notes.pdf, page 6; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "F is Wednesday, D Tuesday and A Thursday. G Friday and E Saturday. C cannot be Monday, so C is Sunday and B is Monday.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p6_days",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-009",
+    "row": 9,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 7,
+    "puzzle_category": "Day-based",
+    "question": "B, E, Y, O, N, D and S have interviews on distinct days Monday–Sunday. Exactly three interviews are before D. E is after O and before S. Y is after N and before B. N is after D. How many interviews are between Y and E?",
+    "conditions": [
+      "D fourth; O<E<S; D<N<Y<B."
+    ],
+    "options": {
+      "A": "3",
+      "B": "1",
+      "C": "2",
+      "D": "4"
+    },
+    "expected_answer": "3",
+    "correct_option": "A",
+    "explanation": "D is Thursday. The remaining constraints force N Friday, Y Saturday and B Sunday, while E lies on Tuesday; three interviews separate E and Y.",
+    "verified_order": "Monday to Sunday: O – E – S – D – N – Y – B",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 02_ Class Notes.pdf, page 7; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "D is Thursday. The remaining constraints force N Friday, Y Saturday and B Sunday, while E lies on Tuesday; three interviews separate E and Y.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p7_interviews",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-010",
+    "row": 10,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 4,
+    "puzzle_category": "Day-based",
+    "question": "L, M, N, O, P, Q and R have exams on distinct days Monday–Sunday. O is immediately after Q; M is immediately after O and has the Wednesday exam. Exactly two days lie between L and R. N is not immediately before R, and P is immediately after N. When does N have the exam?",
+    "conditions": [
+      "Q,O,M consecutive with M Wednesday; two between L,R; N not immediately before R; P immediately after N."
+    ],
+    "options": {
+      "A": "Friday",
+      "B": "Thursday",
+      "C": "Saturday",
+      "D": "Sunday"
+    },
+    "expected_answer": "Friday",
+    "correct_option": "A",
+    "explanation": "Q Monday, O Tuesday and M Wednesday. The remaining clues allow two full schedules, but in both N is Friday.",
+    "verified_order": "Monday to Sunday: Q – O – M – L – N – P – R",
+    "solution_count": 2,
+    "difficulty": "HARD",
+    "source": "Puzzle 03_ Class Notes.pdf, page 4; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "Q Monday, O Tuesday and M Wednesday. The remaining clues allow two full schedules, but in both N is Friday.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p4_exams",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-011",
+    "row": 11,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 8,
+    "puzzle_category": "Floor-based",
+    "question": "N, E, A, T, L and Y occupy six distinct floors numbered 1 (lowest) to 6. L is immediately above Y. Exactly two people live between Y and E, with E on an odd floor below Y. A is immediately below N. How many people live between T and N?",
+    "conditions": [
+      "L=Y+1; exactly two between Y,E; E odd and below Y; A immediately below N."
+    ],
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "E must be on floor 1, Y on 4 and L on 5. A and N occupy floors 2 and 3, leaving T on 6. Two people are between T and N.",
+    "verified_order": "floor 1 (lowest) to top: E – A – N – Y – L – T",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Puzzle 02_ Class Notes.pdf, page 8; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "E must be on floor 1, Y on 4 and L on 5. A and N occupy floors 2 and 3, leaving T on 6. Two people are between T and N.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p8_floor",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-012",
+    "row": 12,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 9,
+    "puzzle_category": "Floor-based",
+    "question": "G, H, J, K, L and P live on floors 1–6, with 1 lowest. J is on an even floor other than 4, with two people between J and L. P is on an odd floor other than 1, with two people between P and G. K is immediately below P. How many people live between H and K?",
+    "conditions": [
+      "J even not 4; two between J,L; P odd not 1; two between P,G; K immediately below P."
+    ],
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "The only arrangement from floor 1 upward is H, G, L, K, P, J. Two people are between H and K.",
+    "verified_order": "floor 1 (lowest) to top: H – G – L – K – P – J",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 02_ Class Notes.pdf, page 9; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The only arrangement from floor 1 upward is H, G, L, K, P, J. Two people are between H and K.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p9_floor",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-013",
+    "row": 13,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 02_ Class Notes.pdf",
+    "source_page": 12,
+    "puzzle_category": "Floor-based",
+    "question": "P, Q, R, S, T, U and V live on floors 1–7. Q lives on floor 2; R is on the top floor; R is immediately above U; S is immediately below V; three people live between T and P; and one person lives between R and P. On which floor does P live?",
+    "conditions": [
+      "Q2; R7; R immediately above U; S immediately below V; three between T,P; one between R,P."
+    ],
+    "options": {
+      "A": "5",
+      "B": "2",
+      "C": "4",
+      "D": "6"
+    },
+    "expected_answer": "5",
+    "correct_option": "A",
+    "explanation": "R is floor 7, so P is floor 5. The remaining clues fill U6, V4, S3, Q2 and T1.",
+    "verified_order": "floor 1 (lowest) to top: T – Q – S – V – P – U – R",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 02_ Class Notes.pdf, page 12; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "R is floor 7, so P is floor 5. The remaining clues fill U6, V4, S3, Q2 and T1.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l2p12_floor",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-014",
+    "row": 14,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 5,
+    "puzzle_category": "Floor-based",
+    "question": "A, B, C, D, E and F live on floors 1–6. F is even-numbered but not floor 4, with two people between F and B. A is immediately below E, and E is on an even floor. Neither A nor D lives on floor 1. Who lives on floor 4?",
+    "conditions": [
+      "F even not 4; two between F,B; A immediately below even-floor E; A,D not floor 1."
+    ],
+    "options": {
+      "A": "E",
+      "B": "A",
+      "C": "B",
+      "D": "F"
+    },
+    "expected_answer": "E",
+    "correct_option": "A",
+    "explanation": "The only assignment from floor 1 upward is C, F, A, E, B, D. E occupies floor 4.",
+    "verified_order": "floor 1 (lowest) to top: C – F – A – E – B – D",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Puzzle 03_ Class Notes.pdf, page 5; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The only assignment from floor 1 upward is C, F, A, E, B, D. E occupies floor 4.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p5_floor",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-015",
+    "row": 15,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 6,
+    "puzzle_category": "Box-based",
+    "question": "Seven boxes E, F, G, H, K, L and M are stacked top to bottom. Exactly two boxes are below E; exactly one is above H; one box is between H and G; L is immediately above M; and K is somewhere below F. How many boxes are between F and L?",
+    "conditions": [
+      "E has two below; H has one above; one between H,G; L immediately above M; K below F."
+    ],
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "expected_answer": "4",
+    "correct_option": "A",
+    "explanation": "The unique stack from top to bottom is F, H, K, G, E, L, M. Four boxes lie between F and L.",
+    "verified_order": "top to bottom: F – H – K – G – E – L – M",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 03_ Class Notes.pdf, page 6; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The unique stack from top to bottom is F, H, K, G, E, L, M. Four boxes lie between F and L.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p6_boxes",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-016",
+    "row": 16,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 7,
+    "puzzle_category": "Box-based",
+    "question": "Seven boxes A–G are stacked top to bottom. Exactly two boxes are below G; one is above B; one lies between B and D; A is immediately above C; and E is below F. Which box is topmost?",
+    "conditions": [
+      "G has two below; B has one above; one between B,D; A immediately above C; E below F."
+    ],
+    "options": {
+      "A": "F",
+      "B": "B",
+      "C": "A",
+      "D": "D"
+    },
+    "expected_answer": "F",
+    "correct_option": "A",
+    "explanation": "The only stack top to bottom is F, B, A, D, C, G, E. F is topmost.",
+    "verified_order": "top to bottom: F – B – E – D – G – A – C",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Puzzle 03_ Class Notes.pdf, page 7; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The only stack top to bottom is F, B, A, D, C, G, E. F is topmost.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p7_boxes",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-017",
+    "row": 17,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 8,
+    "puzzle_category": "Box-based",
+    "question": "Seven boxes D, E, F, H, I, J and K are stacked top to bottom. J is second from the bottom; three boxes are between J and E; K is below J; F is the only box between E and H; and D is above E. How many boxes are between I and K?",
+    "conditions": [
+      "J second from bottom; three between J,E; K below J; F alone between E,H; D above E."
+    ],
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "3"
+    },
+    "expected_answer": "1",
+    "correct_option": "A",
+    "explanation": "The stack is D, E, F, H, I, J, K. One box, J, lies between I and K.",
+    "verified_order": "top to bottom: D – E – F – H – I – J – K",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Puzzle 03_ Class Notes.pdf, page 8; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "The stack is D, E, F, H, I, J, K. One box, J, lies between I and K.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p8_boxes",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-018",
+    "row": 18,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 9,
+    "puzzle_category": "Miscellaneous",
+    "question": "K, L, M, N and P receive salaries on dates 1–5 of the same month. L is paid immediately after M; N immediately before K; P immediately after K; and P is paid on date 3. On which date is M paid?",
+    "conditions": [
+      "L=M+1; N=K−1; P=K+1; P date 3."
+    ],
+    "options": {
+      "A": "4",
+      "B": "1",
+      "C": "2",
+      "D": "5"
+    },
+    "expected_answer": "4",
+    "correct_option": "A",
+    "explanation": "N is paid on date 1, K on 2, P on 3, M on 4 and L on 5.",
+    "verified_order": "earliest to latest: N – K – P – M – L",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Puzzle 03_ Class Notes.pdf, page 9; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "N is paid on date 1, K on 2, P on 3, M on 4 and L on 5.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p9_salary",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-019",
+    "row": 19,
+    "source_type": "pdf-derived",
+    "source_pdf": "Puzzle 03_ Class Notes.pdf",
+    "source_page": 10,
+    "puzzle_category": "Miscellaneous",
+    "question": "Madhu, Anshul, Avni, Aarav, Preeti and Shikha present on distinct dates from March 11–16. Anshul presents March 14; Shikha is the day before Anshul. Exactly one person presents between Shikha and Preeti, with Preeti earlier. Shikha is before Avni, and Avni is immediately before Madhu. Who presents on March 15?",
+    "conditions": [
+      "Anshul March 14; Shikha previous day; one between Shikha,Preeti with Preeti earlier; Shikha before Avni; Avni just before Madhu."
+    ],
+    "options": {
+      "A": "Avni",
+      "B": "Madhu",
+      "C": "Aarav",
+      "D": "Preeti"
+    },
+    "expected_answer": "Avni",
+    "correct_option": "A",
+    "explanation": "Shikha is on the 13th, Anshul on the 14th. Preeti must be on the 11th; Avni and Madhu are on the 15th and 16th. Aarav is on the 12th.",
+    "verified_order": "earliest to latest: Preeti – Aarav – Shikha – Anshul – Avni – Madhu",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Puzzle 03_ Class Notes.pdf, page 10; exam/year not stated",
+    "is_pyq": false,
+    "independent_reasoning": "Shikha is on the 13th, Anshul on the 14th. Preeti must be on the 11th; Avni and Madhu are on the 15th and 16th. Aarav is on the 12th.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "source_l3p10_presentations",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-020",
+    "row": 20,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Classification/ranking",
+    "question": "Six parcels A–F have distinct weights. B is heavier than A and C; D is lighter than A; E is heavier than B; F is lighter than C. Who is heaviest?",
+    "conditions": [
+      "Six parcels A–F have distinct weights. B is heavier than A and C; D is lighter than A; E is heavier than B; F is lighter than C. Who is heaviest?"
+    ],
+    "options": {
+      "A": "E",
+      "B": "B",
+      "C": "A",
+      "D": "C"
+    },
+    "expected_answer": "E",
+    "correct_option": "A",
+    "explanation": "The chain E>B>A>C>F and A>D places E at the top.",
+    "verified_order": "highest to lowest: E > B > A > C > D > F",
+    "solution_count": 3,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The chain E>B>A>C>F and A>D places E at the top.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_rank_chain",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-021",
+    "row": 21,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Classification/ranking",
+    "question": "Seven runners A–G finish in distinct positions. A finishes before B and C; D finishes immediately after A; E finishes after C; F finishes before A; and G finishes after E. Who finishes fourth?",
+    "conditions": [
+      "Seven runners A–G finish in distinct positions. A finishes before B and C; D finishes immediately after A; E finishes after C; F finishes before A; and G finishes after E. Who finishes fourth?"
+    ],
+    "options": {
+      "A": "C",
+      "B": "A",
+      "C": "B",
+      "D": "D"
+    },
+    "expected_answer": "C",
+    "correct_option": "A",
+    "explanation": "The clues place F,A,D before B/C, and E,G after C. The unique order is F,A,D,C,B,E,G.",
+    "verified_order": "highest to lowest: F > A > D > C > B > E > G",
+    "solution_count": 3,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The clues place F,A,D before B/C, and E,G after C. The unique order is F,A,D,C,B,E,G.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_rank_runners",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-022",
+    "row": 22,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Classification/ranking",
+    "question": "Seven students A–G rank by score, highest first. E is highest; A is second; B is immediately below A; C is immediately below B; D is immediately below C; F is immediately below D; and G is last. Who is second-lowest?",
+    "conditions": [
+      "Seven students A–G rank by score, highest first. E is highest; A is second; B is immediately below A; C is immediately below B; D is immediately below C; F is immediately below D; and G is last. Who is second-lowest?"
+    ],
+    "options": {
+      "A": "F",
+      "B": "D",
+      "C": "E",
+      "D": "G"
+    },
+    "expected_answer": "F",
+    "correct_option": "A",
+    "explanation": "The full order is E, A, B, C, D, F, G. F is second-lowest.",
+    "verified_order": "highest to lowest: E > A > B > C > D > F > G",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The full order is E, A, B, C, D, F, G. F is second-lowest.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_rank_scores",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-023",
+    "row": 23,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Day-based",
+    "question": "Six interviews for A–F are scheduled Monday through Saturday, one per day. A is Monday, B is Tuesday, C is Wednesday, D is Thursday, E is Friday and F is Saturday. Who is scheduled Wednesday?",
+    "conditions": [
+      "Six interviews for A–F are scheduled Monday through Saturday, one per day. A is Monday, B is Tuesday, C is Wednesday, D is Thursday, E is Friday and F is Saturday. Who is scheduled Wednesday?"
+    ],
+    "options": {
+      "A": "C",
+      "B": "A",
+      "C": "B",
+      "D": "E"
+    },
+    "expected_answer": "C",
+    "correct_option": "A",
+    "explanation": "The stated schedule places C on Wednesday.",
+    "verified_order": "Monday to Sunday: A – B – C – D – E – F",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The stated schedule places C on Wednesday.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_day_interviews",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-024",
+    "row": 24,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Day-based",
+    "question": "Seven workshops for A–G run Monday–Sunday. E is Monday; A is Tuesday; D is Wednesday; B is Thursday; C is Friday; F is Saturday; and G is Sunday. Who is scheduled Sunday?",
+    "conditions": [
+      "Seven workshops for A–G run Monday–Sunday. E is Monday; A is Tuesday; D is Wednesday; B is Thursday; C is Friday; F is Saturday; and G is Sunday. Who is scheduled Sunday?"
+    ],
+    "options": {
+      "A": "G",
+      "B": "C",
+      "C": "F",
+      "D": "E"
+    },
+    "expected_answer": "G",
+    "correct_option": "A",
+    "explanation": "The stated schedule places G on Sunday.",
+    "verified_order": "Monday to Sunday: E – A – D – B – C – F – G",
+    "solution_count": 1,
+    "difficulty": "MEDIUM",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The stated schedule places G on Sunday.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_day_workshops",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-025",
+    "row": 25,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Floor-based",
+    "question": "Five friends A–E live on floors 1–5, with 1 lowest. A lives on floor 2, B immediately above A, C above B, D below A and E on the top floor. Who lives on floor 4?",
+    "conditions": [
+      "Five friends A–E live on floors 1–5, with 1 lowest. A lives on floor 2, B immediately above A, C above B, D below A and E on the top floor. Who lives on floor 4?"
+    ],
+    "options": {
+      "A": "C",
+      "B": "A",
+      "C": "B",
+      "D": "D"
+    },
+    "expected_answer": "C",
+    "correct_option": "A",
+    "explanation": "The order from floor 1 upward is D, A, B, C, E. C is on floor 4.",
+    "verified_order": "floor 1 (lowest) to top: D – A – B – C – E",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The order from floor 1 upward is D, A, B, C, E. C is on floor 4.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_floor_friends",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-026",
+    "row": 26,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Floor-based",
+    "question": "Seven residents A–G live on floors 1–7, with floor 1 lowest. D is on floor 1; E is immediately above D; A is on an odd floor above floor 1; B is immediately above A; C is two floors above B; F is on floor 5; and G is on floor 7. Who lives on floor 4?",
+    "conditions": [
+      "Seven residents A–G live on floors 1–7, with floor 1 lowest. D is on floor 1; E is immediately above D; A is on an odd floor above floor 1; B is immediately above A; C is two floors above B; F is on floor 5; and G is on floor 7. Who lives on floor 4?"
+    ],
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "C",
+      "D": "F"
+    },
+    "expected_answer": "B",
+    "correct_option": "A",
+    "explanation": "The conditions place D,E on floors 1,2. A must be floor 3 so that B is floor 4 and C floor 6; F and G occupy floors 5 and 7.",
+    "verified_order": "floor 1 (lowest) to top: D – E – A – B – F – C – G",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The conditions place D,E on floors 1,2. A must be floor 3 so that B is floor 4 and C floor 6; F and G occupy floors 5 and 7.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_floor_advanced",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-027",
+    "row": 27,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Box-based",
+    "question": "Six boxes A–F are stacked top to bottom. B is immediately below A; C is below B; D is immediately above E; and F is below C. If exactly one box lies between C and D, which box is topmost?",
+    "conditions": [
+      "Six boxes A–F are stacked top to bottom. B is immediately below A; C is below B; D is immediately above E; and F is below C. If exactly one box lies between C and D, which box is topmost?"
+    ],
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "expected_answer": "A",
+    "correct_option": "A",
+    "explanation": "The constraints give the unique stack A, B, C, D, E, F; A is topmost.",
+    "verified_order": "top to bottom: A – B – C – F – D – E",
+    "solution_count": 2,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The constraints give the unique stack A, B, C, D, E, F; A is topmost.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_boxes_order",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-028",
+    "row": 28,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Miscellaneous",
+    "question": "Five events A–E occur on dates 1–5, one per date. A is on date 1; B is immediately after A; C is after B; D is immediately before E; and C is immediately before D. Which event is on date 4?",
+    "conditions": [
+      "Five events A–E occur on dates 1–5, one per date. A is on date 1; B is immediately after A; C is after B; D is immediately before E; and C is immediately before D. Which event is on date 4?"
+    ],
+    "options": {
+      "A": "D",
+      "B": "B",
+      "C": "C",
+      "D": "E"
+    },
+    "expected_answer": "D",
+    "correct_option": "A",
+    "explanation": "The sequence is A, B, C, D, E, so D occurs on date 4.",
+    "verified_order": "earliest to latest: A – B – C – D – E",
+    "solution_count": 1,
+    "difficulty": "EASY",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The sequence is A, B, C, D, E, so D occurs on date 4.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_misc_events",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-029",
+    "row": 29,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Miscellaneous",
+    "question": "Six project presentations A–F are scheduled Monday through Saturday, one per day. A is immediately before B; C is two days after B; D is immediately after C; E is before A; and F is Saturday. Who presents on Thursday?",
+    "conditions": [
+      "Six project presentations A–F are scheduled Monday through Saturday, one per day. A is immediately before B; C is two days after B; D is immediately after C; E is before A; and F is Saturday. Who presents on Thursday?"
+    ],
+    "options": {
+      "A": "F",
+      "B": "A",
+      "C": "B",
+      "D": "D"
+    },
+    "expected_answer": "F",
+    "correct_option": "A",
+    "explanation": "The unique schedule is E, A, B, F, C, D from Monday through Saturday, so F presents Thursday.",
+    "verified_order": "Monday to Sunday: E – A – B – F – C – D",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The unique schedule is E, A, B, F, C, D from Monday through Saturday, so F presents Thursday.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_misc_schedule",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  },
+  {
+    "question_id": "puzzle-030",
+    "row": 30,
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "puzzle_category": "Box-based",
+    "question": "Seven boxes A–G are stacked top to bottom. D is topmost; E is bottommost; B is immediately below D; C is immediately below B; F is immediately below C; A is immediately below F; and G is immediately below A. How many boxes are between C and G?",
+    "conditions": [
+      "Seven boxes A–G are stacked top to bottom. D is topmost; E is bottommost; B is immediately below D; C is immediately below B; F is immediately below C; A is immediately below F; and G is immediately below A. How many boxes are between C and G?"
+    ],
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "The unique stack is D, B, C, F, A, G, E. F and A lie between C and G.",
+    "verified_order": "top to bottom: D – B – C – F – A – G – E",
+    "solution_count": 1,
+    "difficulty": "HARD",
+    "source": "Original SSC-style practice question",
+    "is_pyq": false,
+    "independent_reasoning": "The unique stack is D, B, C, F, A, G, E. F and A lie between C and G.",
+    "option_review": "Four distinct choices; answer recomputed from all valid assignments.",
+    "concept_signature": "original_boxes_chain",
+    "verification_status": "PASS: unique answer across all enumerated assignments",
+    "rejected_source_questions": []
+  }
+]
