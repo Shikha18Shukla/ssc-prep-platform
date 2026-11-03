@@ -1,0 +1,136 @@
+{
+  "total_questions": 32,
+  "source_derived": 21,
+  "original": 11,
+  "category_distribution": {
+    "ASSUMPTION": 8,
+    "CONCLUSION": 8,
+    "ARGUMENT": 8,
+    "ACTION": 8
+  },
+  "difficulty_distribution": {
+    "MEDIUM": 11,
+    "EASY": 11,
+    "HARD": 10
+  },
+  "answer_position_distribution": {
+    "B": 8,
+    "A": 8,
+    "D": 8,
+    "C": 8
+  },
+  "accepted_source_questions": 21,
+  "rejected_source_candidates": [
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 6,
+      "description": "Whether plastic bags should be banned",
+      "reason": "The counterargument about carrying bags lacks enough context to assess practical impact; the opposing arguments are not uniquely classifiable."
+    },
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 8,
+      "description": "Manufacturers facing a power shortage",
+      "reason": "The proposed action ‘take steps’ is too vague to assess as a concrete, feasible course of action."
+    },
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 15,
+      "description": "New employee training programme",
+      "reason": "The implementation alone does not establish the programme’s purpose or assumed mechanism."
+    },
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 17,
+      "description": "Education quality and funding statements",
+      "reason": "The relationship between funding and future quality is not stated; the source does not establish either conclusion."
+    },
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 19,
+      "description": "Thanjavur called the rice bowl",
+      "reason": "The proposed conclusions depend on interpreting a figurative label and outside geographic/crop knowledge."
+    },
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 20,
+      "description": "Advice to drink coffee twice daily",
+      "reason": "Advice alone does not establish health benefits or a comparison with tea."
+    },
+    {
+      "pdf": "Statement Based Questions  02_ Class Notes.pdf",
+      "page": 21,
+      "description": "Kanish is happy with a gift",
+      "reason": "The proposed explanation is disjunctive and not necessary; the birthday claim is unrelated."
+    }
+  ],
+  "accepted_source_pages": [
+    "Statement Based Questions  01_ Class Notes.pdf p.6",
+    "Statement Based Questions  01_ Class Notes.pdf p.7",
+    "Statement Based Questions  01_ Class Notes.pdf p.8",
+    "Statement Based Questions  01_ Class Notes.pdf p.9",
+    "Statement Based Questions  01_ Class Notes.pdf p.10",
+    "Statement Based Questions  01_ Class Notes.pdf p.11",
+    "Statement Based Questions  01_ Class Notes.pdf p.12",
+    "Statement Based Questions  01_ Class Notes.pdf p.13",
+    "Statement Based Questions  02_ Class Notes.pdf p.4",
+    "Statement Based Questions  02_ Class Notes.pdf p.5",
+    "Statement Based Questions  02_ Class Notes.pdf p.7",
+    "Statement Based Questions  02_ Class Notes.pdf p.9",
+    "Statement Based Questions  02_ Class Notes.pdf p.10",
+    "Statement Based Questions  02_ Class Notes.pdf p.11",
+    "Statement Based Questions  02_ Class Notes.pdf p.12",
+    "Statement Based Questions  02_ Class Notes.pdf p.13",
+    "Statement Based Questions  02_ Class Notes.pdf p.14",
+    "Statement Based Questions  02_ Class Notes.pdf p.16",
+    "Statement Based Questions  02_ Class Notes.pdf p.18",
+    "Statement Based Questions  02_ Class Notes.pdf p.22",
+    "Statement Based Questions  02_ Class Notes.pdf p.23"
+  ],
+  "duplicate_check": "Batch stems are normalized and checked for exact and high-similarity matches against all canonical question batches and live active SSC Reasoning questions by the guarded importer. Statement scenarios and logical structures were also manually compared; ambiguous or repeated patterns were excluded.",
+  "answer_verification": "Every selected outcome was independently reasoned from the printed statement, and checked again after deterministic option placement. No handwritten answer mark was used as the sole answer evidence.",
+  "import_status": "POST_IMPORT_VERIFIED",
+  "database_verification": {
+    "chapter_id": "74a2c484-5c88-406f-9406-cf4d3d3f5607",
+    "initial_dry_run": {
+      "would_import": 32,
+      "duplicates": 0,
+      "rejected": 0,
+      "errors": []
+    },
+    "import": {
+      "imported": 32,
+      "duplicates": 0,
+      "rejected": 0,
+      "errors": []
+    },
+    "final_active_normal": 32,
+    "final_active_pyq": 0,
+    "difficulty_distribution": {
+      "EASY": 11,
+      "MEDIUM": 11,
+      "HARD": 10
+    },
+    "replay_dry_run": {
+      "duplicates": 32,
+      "would_import": 0,
+      "rejected": 0,
+      "errors": []
+    }
+  },
+  "authenticated_api_verification": {
+    "reasoning_chapter_listed": true,
+    "difficulty_counts": {
+      "EASY": 11,
+      "MEDIUM": 11,
+      "HARD": 10
+    },
+    "pyq_count": 0,
+    "ten_question_requests_supported": {
+      "EASY": true,
+      "MEDIUM": true,
+      "HARD": true
+    },
+    "options_and_explanations_returned": true
+  }
+}
