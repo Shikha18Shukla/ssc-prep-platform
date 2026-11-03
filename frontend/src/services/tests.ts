@@ -5,6 +5,7 @@ export interface ActiveQuestion {
   test_question_id: string;
   question_order: number;
   question_text: string;
+  image_url: string | null;
   options: TestOption[];
   selected_option: string | null;
 }
@@ -41,6 +42,7 @@ export interface TestResult extends TestSummary {
   review: Array<{
     question_order: number;
     question_text: string;
+    image_url: string | null;
     options: TestOption[];
     selected_option: string | null;
     correct_option: string;

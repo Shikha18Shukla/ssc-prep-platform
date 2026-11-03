@@ -4,6 +4,7 @@ import csv
 import io
 import json
 import unicodedata
+from urllib.parse import urlsplit
 from dataclasses import dataclass
 from datetime import date
 
@@ -22,6 +23,20 @@ EXPECTED_COLUMNS = {
     "is_pyq", "pyq_year", "pyq_exam_name", "source",
 }
 ALLOWED_JSON_COLUMNS = EXPECTED_COLUMNS | {"options"}
+ALLOWED_JSON_COLUMNS.add("image_url")
+
+
+def _parse_image_url(value, row_number: int, issues: list[ImportIssue], field: str) -> str | None:
+    image_url = _text(value)
+    if not image_url:
+        return None
+    parsed = urlsplit(image_url)
+    if (not image_url.startswith("/question-assets/") or parsed.scheme or parsed.netloc
+            or ".." in parsed.path.split("/") or "\\" in parsed.path
+            or not parsed.path.lower().endswith((".png", ".jpg", ".jpeg", ".svg", ".webp"))):
+        _add_issue(issues, row_number, field, "Image URL must be a safe /question-assets/ path")
+        return None
+    return image_url
 
 
 @dataclass
@@ -29,6 +44,7 @@ class Candidate:
     row: int
     chapter: Chapter
     question_text: str
+    image_url: str | None
     explanation: str | None
     difficulty: Difficulty
     is_pyq: bool
@@ -216,6 +232,7 @@ def _validate_record(
         _add_issue(issues, row_number, "chapter_slug", "Chapter slug is required")
 
     question_text = _text(record.get("question_text"))
+    image_url = _parse_image_url(record.get("image_url"), row_number, issues, "image_url")
     if not question_text:
         _add_issue(issues, row_number, "question_text", "Question text is required")
 
@@ -268,6 +285,7 @@ def _validate_record(
         row=row_number,
         chapter=chapter,
         question_text=question_text,
+        image_url=image_url,
         explanation=explanation,
         difficulty=difficulty,
         is_pyq=is_pyq,
@@ -339,6 +357,7 @@ def import_questions(
             question = Question(
                 chapter_id=candidate.chapter.id,
                 question_text=candidate.question_text,
+                image_url=candidate.image_url,
                 explanation=candidate.explanation,
                 difficulty=candidate.difficulty,
                 is_pyq=candidate.is_pyq,

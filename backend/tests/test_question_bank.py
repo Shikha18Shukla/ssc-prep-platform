@@ -136,9 +136,29 @@ def test_valid_json_import_and_dry_run_are_atomic(
     assert committed.json()["imported"] == 1
     saved = db_session.execute(select(Question)).scalar_one()
     assert saved.chapter_id == question_catalog["chapter"].id
+    assert saved.image_url is None
     assert len(saved.options) == 4
     assert sum(option.is_correct for option in saved.options) == 1
     assert next(option for option in saved.options if option.is_correct).option_key == "B"
+
+
+def test_visual_question_image_url_is_imported_and_rejects_unsafe_path(
+    client: TestClient,
+    db_session: Session,
+    question_headers: dict[str, str],
+    question_catalog: dict[str, object],
+) -> None:
+    visual = record(question_catalog, image_url="/question-assets/non-verbal-reasoning/item-001.svg")
+    response = post_json(client, question_headers, [visual], dry_run=False)
+    assert response.status_code == 200, response.text
+    saved = db_session.execute(select(Question)).scalar_one()
+    assert saved.image_url == visual["image_url"]
+
+    unsafe = record(question_catalog, question_text="A second distinct prompt", image_url="https://example.test/figure.svg")
+    rejected = post_json(client, question_headers, [unsafe], dry_run=True)
+    assert rejected.status_code == 200
+    assert rejected.json()["rejected"] == 1
+    assert db_session.scalar(select(func.count(Question.id))) == 1
 
 
 def test_csv_import_and_row_numbered_invalid_options(

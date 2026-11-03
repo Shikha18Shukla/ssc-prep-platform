@@ -17,6 +17,7 @@ class QuestionOptionInput(BaseModel):
 
 class QuestionUpdate(BaseModel):
     question_text: str = Field(min_length=1)
+    image_url: str | None = None
     explanation: str | None = None
     difficulty: Difficulty
     is_pyq: bool = False
@@ -62,6 +63,7 @@ class QuestionManagementRead(BaseModel):
     id: uuid.UUID
     chapter_id: uuid.UUID
     question_text: str
+    image_url: str | None
     explanation: str | None
     difficulty: Difficulty
     is_pyq: bool

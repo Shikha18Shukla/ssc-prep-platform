@@ -81,6 +81,7 @@ export default function TestPage() {
       <section className="rounded-lg border bg-white p-5 sm:p-8" aria-label="Current question">
         <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">{answeredCount} of {test.question_count} answered</p>
         <h2 className="mt-4 whitespace-pre-wrap text-lg font-semibold leading-relaxed">{question.question_text}</h2>
+        {question.image_url && <img className="mx-auto mt-5 max-h-[32rem] w-full rounded border object-contain" src={question.image_url} alt="Question figure and answer choices A through D" />}
         <div className="mt-6 grid gap-3">
           {question.options.map((option) => <button key={option.option_key} type="button" disabled={saving || submitting || remaining <= 0} aria-pressed={question.selected_option === option.option_key} onClick={() => void choose(option.option_key)} className={`flex min-h-14 items-start gap-3 rounded-lg border p-4 text-left transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF] disabled:opacity-60 ${question.selected_option === option.option_key ? "border-[#007BFF] bg-blue-50" : "hover:border-[#007BFF]/60"}`}><span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border font-semibold">{option.option_key}</span><span>{option.option_text}</span></button>)}
         </div>

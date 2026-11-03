@@ -58,6 +58,7 @@ def _current(attempt: TestAttempt, db: Session) -> ActiveTestRead:
                 test_question_id=row.id,
                 question_order=row.question_order,
                 question_text=row.question.question_text,
+                image_url=row.question.image_url,
                 options=[TestOption(option_key=o.option_key, option_text=o.option_text) for o in row.question.options],
                 selected_option=answers.get(row.id),
             )
@@ -180,6 +181,7 @@ def test_result(
         review.append(ReviewQuestion(
             question_order=row.question_order,
             question_text=question.question_text,
+            image_url=question.image_url,
             options=[TestOption(option_key=o.option_key, option_text=o.option_text) for o in question.options],
             selected_option=answer.selected_option if answer else None,
             correct_option=correct,

@@ -38,6 +38,7 @@ class ActiveTestQuestion(BaseModel):
     test_question_id: uuid.UUID
     question_order: int
     question_text: str
+    image_url: str | None = None
     options: list[TestOption]
     selected_option: str | None = None
 
@@ -80,6 +81,7 @@ class TestSummary(BaseModel):
 class ReviewQuestion(BaseModel):
     question_order: int
     question_text: str
+    image_url: str | None = None
     options: list[TestOption]
     selected_option: str | None
     correct_option: str

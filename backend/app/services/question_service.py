@@ -69,6 +69,8 @@ def update_question(db: Session, question: Question, values: QuestionUpdate) -> 
         raise ValueError("Another question in this chapter already has the same normalized text")
 
     question.question_text = cleaned_text
+    if "image_url" in values.model_fields_set:
+        question.image_url = values.image_url
     question.explanation = values.explanation.strip() if values.explanation else None
     question.difficulty = values.difficulty
     question.is_pyq = values.is_pyq

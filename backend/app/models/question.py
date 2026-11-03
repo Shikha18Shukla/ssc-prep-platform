@@ -65,6 +65,7 @@ class Question(Base, TimestampMixin):
         Text,
         nullable=False,
     )
+    image_url: Mapped[str | None] = mapped_column(Text, nullable=True)
     explanation: Mapped[str | None] = mapped_column(
         Text,
         nullable=True,
