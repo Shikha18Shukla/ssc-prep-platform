@@ -1,0 +1,602 @@
+[
+  {
+    "id": "imn-001",
+    "row": 1,
+    "source_page": 5,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 5; lecture example, exam/year not stated",
+    "question": "In each circle, the centre equals the sum of the squares of the two numbers shown beside it. If the side numbers are 1 and 5, what belongs at the centre?",
+    "options": {
+      "A": "26",
+      "B": "20",
+      "C": "25",
+      "D": "30"
+    },
+    "correct_option": "A",
+    "expected_answer": "26",
+    "independent_reasoning": "The demonstrated pairs give 2²+4²=20 and 3²+9²=90. Applying the same stated rule gives 1²+5²=26.",
+    "difficulty": "EASY",
+    "pattern": "circle_sum_of_squares",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-002",
+    "row": 2,
+    "source_page": 6,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 6; lecture example, exam/year not stated",
+    "question": "Four numbers 2, 5, 3 and 4 are arranged around a centre, whose value is missing. The centre is the product of the four surrounding numbers. Find it.",
+    "options": {
+      "A": "60",
+      "B": "48",
+      "C": "120",
+      "D": "140"
+    },
+    "correct_option": "C",
+    "expected_answer": "120",
+    "independent_reasoning": "Multiply the four surrounding values: 2×5×3×4=120.",
+    "difficulty": "EASY",
+    "pattern": "four_number_product",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-003",
+    "row": 3,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Find the next term: 2, 4, 8, 16, __.",
+    "options": {
+      "A": "24",
+      "B": "32",
+      "C": "30",
+      "D": "34"
+    },
+    "correct_option": "B",
+    "expected_answer": "32",
+    "independent_reasoning": "Each term is twice the previous term, so 16×2=32.",
+    "difficulty": "EASY",
+    "pattern": "doubling_sequence",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-004",
+    "row": 4,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Complete the sequence: 7, 14, 21, 28, __.",
+    "options": {
+      "A": "34",
+      "B": "36",
+      "C": "42",
+      "D": "35"
+    },
+    "correct_option": "D",
+    "expected_answer": "35",
+    "independent_reasoning": "The sequence increases by 7 each time; 28+7=35.",
+    "difficulty": "EASY",
+    "pattern": "multiples_of_seven",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-005",
+    "row": 5,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Which number completes 1, 4, 9, __, 25?",
+    "options": {
+      "A": "12",
+      "B": "16",
+      "C": "15",
+      "D": "18"
+    },
+    "correct_option": "B",
+    "expected_answer": "16",
+    "independent_reasoning": "These are consecutive squares: 1², 2², 3², 4², 5². The missing value is 16.",
+    "difficulty": "EASY",
+    "pattern": "consecutive_squares",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-006",
+    "row": 6,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Complete the prime-number sequence: 2, 3, 5, 7, __, 13.",
+    "options": {
+      "A": "11",
+      "B": "9",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_option": "A",
+    "expected_answer": "11",
+    "independent_reasoning": "The sequence lists consecutive primes; the prime after 7 is 11.",
+    "difficulty": "EASY",
+    "pattern": "consecutive_primes",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-007",
+    "row": 7,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "In each row, the third number is the sum of the first two: (4, 9, 13), (6, 8, 14), (7, 12, __).",
+    "options": {
+      "A": "17",
+      "B": "18",
+      "C": "20",
+      "D": "19"
+    },
+    "correct_option": "D",
+    "expected_answer": "19",
+    "independent_reasoning": "The first two entries add to the third. Thus 7+12=19.",
+    "difficulty": "EASY",
+    "pattern": "row_sum",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-008",
+    "row": 8,
+    "source_page": 8,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 8; lecture example, exam/year not stated",
+    "question": "For each four-number group, multiply the upper-left and lower-right values, then add the product of the other diagonal. The group is 5, 3, 2, 4. Find the total.",
+    "options": {
+      "A": "23",
+      "B": "25",
+      "C": "26",
+      "D": "28"
+    },
+    "correct_option": "C",
+    "expected_answer": "26",
+    "independent_reasoning": "The diagonal products are 5×4=20 and 3×2=6; their sum is 26.",
+    "difficulty": "EASY",
+    "pattern": "cross_product_sum",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-009",
+    "row": 9,
+    "source_page": 11,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 11; lecture example, exam/year not stated",
+    "question": "In each four-number group, the centre is three times the sum of the four outer values. If the outer values are 6, 3, 5 and 4, find the centre.",
+    "options": {
+      "A": "54",
+      "B": "48",
+      "C": "52",
+      "D": "56"
+    },
+    "correct_option": "A",
+    "expected_answer": "54",
+    "independent_reasoning": "The outer sum is 6+3+5+4=18; 18×3=54.",
+    "difficulty": "EASY",
+    "pattern": "scaled_outer_sum",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-010",
+    "row": 10,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Complete the factorial sequence: 1, 2, 6, 24, __.",
+    "options": {
+      "A": "96",
+      "B": "120",
+      "C": "100",
+      "D": "144"
+    },
+    "correct_option": "B",
+    "expected_answer": "120",
+    "independent_reasoning": "Each term is multiplied by the next integer: 24×5=120.",
+    "difficulty": "EASY",
+    "pattern": "factorials",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-011",
+    "row": 11,
+    "source_page": 9,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 9; lecture example, exam/year not stated",
+    "question": "A six-position wheel has opposite three-digit groups 915 and 364; its centre is their difference. A second wheel uses 789 and 543. If the third uses 863 and 241, what is its centre?",
+    "options": {
+      "A": "612",
+      "B": "624",
+      "C": "622",
+      "D": "642"
+    },
+    "correct_option": "C",
+    "expected_answer": "622",
+    "independent_reasoning": "Subtract the lower opposite three-digit number from the upper one: 863−241=622. The examples 915−364=551 and 789−543=246 establish the same positional rule.",
+    "difficulty": "MEDIUM",
+    "pattern": "opposite_triplet_difference",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-012",
+    "row": 12,
+    "source_page": 14,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 14; lecture example, exam/year not stated",
+    "question": "The terms around a six-point figure are 9, 12, 18, __, 54, 102. The successive increases double each time. Find the missing term.",
+    "options": {
+      "A": "24",
+      "B": "36",
+      "C": "42",
+      "D": "30"
+    },
+    "correct_option": "D",
+    "expected_answer": "30",
+    "independent_reasoning": "The differences are 3, 6, 12, 24, 48. Therefore the missing term is 18+12=30.",
+    "difficulty": "MEDIUM",
+    "pattern": "doubling_differences",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-013",
+    "row": 13,
+    "source_page": 18,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 18; lecture example, exam/year not stated",
+    "question": "A 3×3 grid has rows [3, 43, 4], [6, 241, 5], [2, ?, 11]. In every row, the middle equals the cube of the first plus the square of the third. Find the missing number.",
+    "options": {
+      "A": "129",
+      "B": "137",
+      "C": "173",
+      "D": "192"
+    },
+    "correct_option": "A",
+    "expected_answer": "129",
+    "independent_reasoning": "The rule matches 3³+4²=43 and 6³+5²=241. The final middle value is 2³+11²=8+121=129.",
+    "difficulty": "MEDIUM",
+    "pattern": "cube_plus_square_grid",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-014",
+    "row": 14,
+    "source_page": 21,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 21; lecture example, exam/year not stated",
+    "question": "In each row, the third number is eight times the first: (13, 50, 104), (11, 42, ?), (18, 70, 144). What replaces the question mark?",
+    "options": {
+      "A": "80",
+      "B": "88",
+      "C": "96",
+      "D": "98"
+    },
+    "correct_option": "B",
+    "expected_answer": "88",
+    "independent_reasoning": "The first and third entries determine the relation: 13×8=104 and 18×8=144. Hence 11×8=88.",
+    "difficulty": "MEDIUM",
+    "pattern": "row_times_eight",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-015",
+    "row": 15,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Complete the sequence: 3, 8, 15, 24, 35, __.",
+    "options": {
+      "A": "46",
+      "B": "49",
+      "C": "50",
+      "D": "48"
+    },
+    "correct_option": "D",
+    "expected_answer": "48",
+    "independent_reasoning": "The differences are 5, 7, 9, 11, so the next difference is 13; 35+13=48. Equivalently, terms are n²+2n for n=1 onward.",
+    "difficulty": "MEDIUM",
+    "pattern": "odd_difference_sequence",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-016",
+    "row": 16,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Each row contains two numbers followed by the sum of their squares: (2, 3, 13), (3, 4, 25), (4, 5, ?). Find the missing value.",
+    "options": {
+      "A": "35",
+      "B": "39",
+      "C": "41",
+      "D": "45"
+    },
+    "correct_option": "C",
+    "expected_answer": "41",
+    "independent_reasoning": "The first two rows verify 2²+3²=13 and 3²+4²=25. Thus the final value is 4²+5²=16+25=41.",
+    "difficulty": "MEDIUM",
+    "pattern": "row_sum_of_squares",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-017",
+    "row": 17,
+    "source_page": 20,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 20; lecture example, exam/year not stated",
+    "question": "In each row, the third value is five times the product of the first two: (3, 2, 30), (7, 5, 175), (4, 6, ?). Find the missing value.",
+    "options": {
+      "A": "110",
+      "B": "120",
+      "C": "125",
+      "D": "140"
+    },
+    "correct_option": "B",
+    "expected_answer": "120",
+    "independent_reasoning": "The rule is first×second×5. For the final row, 4×6×5=120.",
+    "difficulty": "MEDIUM",
+    "pattern": "row_product_scaled",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-018",
+    "row": 18,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "A 3×3 number grid follows this rule in each row: right = left × (middle−1). The rows are [4, 3, 8], [5, 4, 15], [6, ?, 30]. Find the missing middle value.",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "7",
+      "D": "8"
+    },
+    "correct_option": "A",
+    "expected_answer": "6",
+    "independent_reasoning": "For the first two rows, 4×(3−1)=8 and 5×(4−1)=15. So 6×(x−1)=30, giving x=6.",
+    "difficulty": "MEDIUM",
+    "pattern": "row_inverse_product",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-019",
+    "row": 19,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "In each column of a matrix, the bottom is top×middle+1: [2,3,7], [4,5,21], [6,7,?].",
+    "options": {
+      "A": "41",
+      "B": "42",
+      "C": "43",
+      "D": "49"
+    },
+    "correct_option": "C",
+    "expected_answer": "43",
+    "independent_reasoning": "The rule fits 2×3+1=7 and 4×5+1=21. The last value is 6×7+1=43.",
+    "difficulty": "MEDIUM",
+    "pattern": "column_product_plus_one",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-020",
+    "row": 20,
+    "source_page": 25,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 25; lecture example, exam/year not stated",
+    "question": "Each three-number row shows x, x÷2, and 2x: [80, 40, 160], [30, 15, 60], [24, 12, ?]. Find the missing value.",
+    "options": {
+      "A": "36",
+      "B": "42",
+      "C": "54",
+      "D": "48"
+    },
+    "correct_option": "D",
+    "expected_answer": "48",
+    "independent_reasoning": "In every row, the third value is twice the first (and four times the middle). Thus 24×2=48.",
+    "difficulty": "MEDIUM",
+    "pattern": "row_half_and_double",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-021",
+    "row": 21,
+    "source_page": 22,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 22; lecture example, exam/year not stated",
+    "question": "In each row, the second value is three times the first and the third is five times the first: (12, 36, 60), (24, 72, 120), (33, 99, ?). Find the missing value.",
+    "options": {
+      "A": "160",
+      "B": "175",
+      "C": "180",
+      "D": "165"
+    },
+    "correct_option": "D",
+    "expected_answer": "165",
+    "independent_reasoning": "For each row, the second is three times the first and the third is five times the first: 12×5=60 and 24×5=120. Therefore 33×5=165.",
+    "difficulty": "HARD",
+    "pattern": "row_times_five",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-022",
+    "row": 22,
+    "source_page": 23,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 23; lecture example, exam/year not stated",
+    "question": "For each ordered triple (a,b,c), c=3ab. Given (6,1,18) and (5,4,60), what is c in (6,2,?)?",
+    "options": {
+      "A": "32",
+      "B": "36",
+      "C": "40",
+      "D": "42"
+    },
+    "correct_option": "B",
+    "expected_answer": "36",
+    "independent_reasoning": "The rule is c=3×a×b, confirmed by 3×6×1=18 and 3×5×4=60. Thus 3×6×2=36.",
+    "difficulty": "HARD",
+    "pattern": "triple_scaled_product",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-023",
+    "row": 23,
+    "source_page": 24,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 24; lecture example, exam/year not stated",
+    "question": "In each ring diagram, the top number is n, the centre is (n+1)², and the bottom is (n+2)³. The first ring has 16, 289, 5832. The second has 12, 169, __. Find the missing value.",
+    "options": {
+      "A": "2744",
+      "B": "1728",
+      "C": "3375",
+      "D": "196"
+    },
+    "correct_option": "A",
+    "expected_answer": "2744",
+    "independent_reasoning": "The first ring verifies 16, 17²=289, and 18³=5832. For the second, 12 is followed by 13²=169, then 14³=2744.",
+    "difficulty": "HARD",
+    "pattern": "offset_square_cube_rings",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-024",
+    "row": 24,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "A sequence is formed by adding consecutive prime numbers, starting at 4: 4, 6, 9, 14, 21, __. Find the next term.",
+    "options": {
+      "A": "30",
+      "B": "33",
+      "C": "32",
+      "D": "35"
+    },
+    "correct_option": "C",
+    "expected_answer": "32",
+    "independent_reasoning": "The increments are 2, 3, 5, 7, 11, the consecutive primes. Thus 21+11=32.",
+    "difficulty": "HARD",
+    "pattern": "prime_increment_sequence",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-025",
+    "row": 25,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "In a 3×3 matrix, each row is [a, b, c] with c=a²−b. The rows are [5, 7, 18], [6, 8, 28], [9, ?, 70]. Find the missing number.",
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "10",
+      "D": "12"
+    },
+    "correct_option": "B",
+    "expected_answer": "11",
+    "independent_reasoning": "The first two rows satisfy 5²−7=18 and 6²−8=28. Therefore 9²−b=70, so b=11.",
+    "difficulty": "HARD",
+    "pattern": "square_minus_middle",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-026",
+    "row": 26,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "A sequence alternates multiplying by 2 and then adding consecutive odd numbers: 3, 6, 9, 18, 23, 46, __. Find the next term.",
+    "options": {
+      "A": "49",
+      "B": "51",
+      "C": "55",
+      "D": "53"
+    },
+    "correct_option": "D",
+    "expected_answer": "53",
+    "independent_reasoning": "The operations repeat ×2, +3, ×2, +5, ×2, +7. Thus 46+7=53.",
+    "difficulty": "HARD",
+    "pattern": "alternating_operations",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-027",
+    "row": 27,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "For each row, the third value is (first+second)×(first−second): (8, 3, 55), (9, 4, 65), (12, 5, ?).",
+    "options": {
+      "A": "115",
+      "B": "121",
+      "C": "119",
+      "D": "125"
+    },
+    "correct_option": "C",
+    "expected_answer": "119",
+    "independent_reasoning": "(8+3)(8−3)=11×5=55 and (9+4)(9−4)=13×5=65. Therefore (12+5)(12−5)=17×7=119.",
+    "difficulty": "HARD",
+    "pattern": "difference_of_squares",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-028",
+    "row": 28,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "A layered number pattern uses the rule next = previous×3−2, starting at 4. What is the fifth term?",
+    "options": {
+      "A": "244",
+      "B": "142",
+      "C": "160",
+      "D": "166"
+    },
+    "correct_option": "A",
+    "expected_answer": "244",
+    "independent_reasoning": "The terms are 4, 10, 28, 82, 244 by repeated ×3−2. Therefore the fifth term is 244.",
+    "difficulty": "HARD",
+    "pattern": "linear_recurrence",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-029",
+    "row": 29,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "question": "Find the missing number in 2, 6, 15, 31, 56, __. The successive increases are consecutive squares beginning with 2².",
+    "options": {
+      "A": "86",
+      "B": "90",
+      "C": "94",
+      "D": "92"
+    },
+    "correct_option": "D",
+    "expected_answer": "92",
+    "independent_reasoning": "The increments are 4, 9, 16, 25; the next increment is 36. Therefore 56+36=92.",
+    "difficulty": "HARD",
+    "pattern": "square_difference_sequence",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  },
+  {
+    "id": "imn-030",
+    "row": 30,
+    "source_page": 13,
+    "source": "Insert the Missing Number 01 Class Notes.pdf, page 13; lecture example, exam/year not stated",
+    "question": "Eight numbers are arranged clockwise as 5, 5, 10, 30, 120, ?, 3600, 25200. The multiplier increases by one at each step. Find the missing number.",
+    "options": {
+      "A": "360",
+      "B": "600",
+      "C": "375",
+      "D": "545"
+    },
+    "correct_option": "B",
+    "expected_answer": "600",
+    "independent_reasoning": "The values are multiplied successively by 1, 2, 3, 4, 5, 6, and 7. Thus 120×5=600; then 600×6=3600 and 3600×7=25200.",
+    "difficulty": "HARD",
+    "pattern": "clockwise_increasing_multiplier",
+    "verification_status": "independently_verified",
+    "option_review": "Four distinct numerical choices; key maps to the independently computed value."
+  }
+]
