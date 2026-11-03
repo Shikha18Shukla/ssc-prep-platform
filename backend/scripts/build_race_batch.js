@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const rows = [];
-const PDF = 'Verified from supplied Race PDF, page ';
+const PDF = 'Verified from ';
 const ORIGINAL = 'Original SSC-style practice question';
 function add(level, question, answer, calculation, wrongs, source = ORIGINAL) {
   const choices = [answer, ...wrongs];
@@ -14,25 +14,23 @@ function add(level, question, answer, calculation, wrongs, source = ORIGINAL) {
   choices.splice(position, 0, choices.shift());
   rows.push({ level, question, answer, calculation, choices, key: 'ABCD'[position], source });
 }
-function pdf(level, page, question, answer, calculation, wrongs) {
-  add(level, question, answer, calculation, wrongs, `${PDF}${page}; exam/year not stated`);
+function pdf(level, pdfName, page, question, answer, calculation, wrongs) {
+  add(level, question, answer, calculation, wrongs, `${PDF}${pdfName}, page ${page}; exam/year not stated`);
 }
 
-// 10 of 15 readable source questions retained. Excluded: p1's two multi-runner
-// margin items overlap existing Speed Time & Distance questions; p3 q1 duplicates
-// an existing timed-race margin question; p4 q2's keyed 198 s conflicts with its
-// stated 2-second delayed start (the actual result is 202 s); p7 q2 repeats p7 q1's
-// opposite-direction first-meeting task with only unit/value changes.
-pdf('HARD',2,'In a 1200 m race bike A beats B by 100 m. In a 600 m race B beats C by 100 m. If A beats C by 30 seconds in a 720 m race, find C’s speed.','17/3 m/s','The speed ratios are A:B=12:11 and B:C=6:5, so A:B:C=72:66:55. For 720 m, the time difference between C and A is (720/55v)(17/72)=170/(55v)=30; hence v=17/3 m/s.',['16/3 m/s','18/3 m/s','26/3 m/s']);
-pdf('EASY',2,'In a 1000 m race Kamal beats Ravi by 120 m. If Kamal runs at 40 km/h, what is Ravi’s speed?','35.2 km/h','When Kamal finishes, Ravi has run 880 m, so speed ratio K:R=1000:880=25:22. Ravi’s speed=40×22/25=35.2 km/h.',['38.7 km/h','26.8 km/h','29.6 km/h']);
-pdf('MEDIUM',3,'In a 400 m race A runs at 16 m/s. A gives B a 15 m start and still wins by 10 seconds. What is B’s speed?','11 m/s','A takes 400/16=25 s. B runs 385 m and takes 25+10=35 s, so B’s speed=385/35=11 m/s.',['10 m/s','13 m/s','9 m/s']);
-pdf('MEDIUM',4,'Ajit runs 2 2/3 times as fast as Madhav. Madhav starts 160 m ahead. How far from Ajit’s start should the finish be for them to arrive together?','256 m','Let the finish be x metres from Ajit’s start. Equal times give x/(8v/3)=(x−160)/v, so 3x=8x−1280 and x=256 m.',['225 m','200 m','240 m']);
-pdf('EASY',5,'In a 5 km race S gives T a 500 m start. They finish together. If T’s speed is 13.5 km/h, what is S’s speed?','15 km/h','T runs 4.5 km in 4.5/13.5=1/3 h. S covers 5 km in that time, so S’s speed is 15 km/h.',['20 km/h','17.5 km/h','16.5 km/h']);
-pdf('MEDIUM',7,'Two runners start together on a 4225 m circular track in opposite directions at 54 km/h and 63 km/h. When do they first meet again?','130 seconds','Convert speeds to 15 and 17.5 m/s. Relative speed=32.5 m/s; time for one combined lap=4225/32.5=130 s.',['120 seconds','140 seconds','150 seconds']);
-pdf('MEDIUM',8,'Two cyclists ride around a 75 km circular track at 30 km/h and 25 km/h. After how many hours will both next be at their starting point together?','15 hours','Lap times are 75/30=2.5 h and 75/25=3 h. Their first common return time is LCM(2.5,3)=15 h.',['16 hours','14 hours','7 hours']);
-pdf('MEDIUM',8,'Sony and Mony run in the same direction on a 200 m circular track at 18 km/h and 24 km/h. When will they next meet at the starting point together?','120 seconds','18 km/h=5 m/s, giving a 40 s lap; 24 km/h=20/3 m/s, giving a 30 s lap. LCM(40,30)=120 s.',['100 seconds','110 seconds','90 seconds']);
-pdf('HARD',9,'Two people run in opposite directions on a 100 m circular track at 20 m/s and 30 m/s. At how many distinct points do they meet?','5','Meetings recur every 100/(20+30)=2 s. The first runner advances 40 m between meetings, so the meeting locations cycle through 100/gcd(100,40)=5 distinct points.',['10','2','3']);
-pdf('HARD',9,'P and Q run in the same direction from one point on a circular track. P runs at 6 m/s; Q runs at a natural-number speed below 6. If they meet at exactly two distinct points, what can Q’s speed be?','2 m/s','For speeds 6 and b, meeting positions repeat after (6−b)/gcd(6,b) distinct points. Testing b=1,…,5 gives 5,2,1,1,1 respectively; only b=2 works.',['3 m/s','4 m/s','1 m/s']);
+// Ten source questions were retained after visual review and independent
+// solving. PDF01 page 13 is a valid 198 s calculation, but repeats the same
+// delayed-start/simultaneous-finish template as the retained original item.
+pdf('HARD','Race 01_ Class Notes.pdf',7,'In a 1200 m race bike A beats B by 100 m. In a 600 m race B beats C by 100 m. If A beats C by 30 seconds in a 720 m race, find C’s speed.','17/3 m/s','The speed ratios are A:B=12:11 and B:C=6:5, so A:C=72:55. Let C’s speed be v m/s; A’s speed is 72v/55. Their 720 m times differ by 720/v−720/(72v/55)=720/v−550/v=170/v=30, so v=17/3 m/s.',['16/3 m/s','18/3 m/s','26/3 m/s']);
+pdf('EASY','Race 01_ Class Notes.pdf',8,'In a 1000 m race Kamal beats Ravi by 120 m. If Kamal runs at 40 km/h, what is Ravi’s speed?','35.2 km/h','When Kamal finishes, Ravi has run 880 m, so speed ratio K:R=1000:880=25:22. Ravi’s speed=40×22/25=35.2 km/h.',['38.7 km/h','26.8 km/h','29.6 km/h']);
+pdf('MEDIUM','Race 01_ Class Notes.pdf',10,'In a 400 m race A runs at 16 m/s. A gives B a 15 m start and still wins by 10 seconds. What is B’s speed?','11 m/s','A takes 400/16=25 s. B runs 385 m and takes 25+10=35 s, so B’s speed=385/35=11 m/s.',['10 m/s','13 m/s','9 m/s']);
+pdf('MEDIUM','Race 01_ Class Notes.pdf',12,'Ajit runs 2 2/3 times as fast as Madhav. Madhav starts 160 m ahead. How far from Ajit’s start should the finish be for them to arrive together?','256 m','Let the finish be x metres from Ajit’s start. Equal times give x/(8v/3)=(x−160)/v, so 3x=8x−1280 and x=256 m.',['225 m','200 m','240 m']);
+pdf('EASY','Race 01_ Class Notes.pdf',14,'In a 5 km race S gives T a 500 m start. They finish together. If T’s speed is 13.5 km/h, what is S’s speed?','15 km/h','T runs 4.5 km in 4.5/13.5=1/3 h. S covers 5 km in that time, so S’s speed is 15 km/h.',['20 km/h','17.5 km/h','16.5 km/h']);
+pdf('MEDIUM','Race 02_ Class Notes.pdf',5,'Two runners start together on a 4225 m circular track in opposite directions at 54 km/h and 63 km/h. When do they first meet again?','130 seconds','Convert speeds to 15 and 17.5 m/s. Relative speed=32.5 m/s; time for one combined lap=4225/32.5=130 s.',['120 seconds','140 seconds','150 seconds']);
+pdf('MEDIUM','Race 02_ Class Notes.pdf',10,'Two cyclists ride around a 75 km circular track at 30 km/h and 25 km/h. After how many hours will both next be at their starting point together?','15 hours','Lap times are 75/30=2.5 h and 75/25=3 h. Their first common return time is LCM(2.5,3)=15 h.',['16 hours','14 hours','7 hours']);
+pdf('MEDIUM','Race 02_ Class Notes.pdf',11,'Sony and Mony run in the same direction on a 200 m circular track at 18 km/h and 24 km/h. When will they next meet at the starting point together?','120 seconds','18 km/h=5 m/s, giving a 40 s lap; 24 km/h=20/3 m/s, giving a 30 s lap. LCM(40,30)=120 s.',['100 seconds','110 seconds','90 seconds']);
+pdf('HARD','Race 02_ Class Notes.pdf',12,'Two people run in opposite directions on a 100 m circular track at 20 m/s and 30 m/s. At how many distinct points do they meet?','5','Meetings recur every 100/(20+30)=2 s. The first runner advances 40 m between meetings, so the meeting locations cycle through 100/gcd(100,40)=5 distinct points.',['10','2','3']);
+pdf('HARD','Race 02_ Class Notes.pdf',13,'P and Q run in the same direction from one point on a circular track. P runs at 6 m/s; Q runs at a natural-number speed below 6. If they meet at exactly two distinct points, what can Q’s speed be?','2 m/s','For speeds 6 and b, meeting positions repeat after (6−b)/gcd(6,b) distinct points. Testing b=1,…,5 gives 5,2,1,1,1 respectively; only b=2 works.',['3 m/s','4 m/s','1 m/s']);
 
 // 28 original EASY questions: distinct race calculations and interpretations.
 const easy = [
@@ -41,7 +39,7 @@ const easy = [
 ['A 400 m runner maintains 7.5 m/s. How long does the race take?','53 1/3 seconds','400/7.5=160/3=53 1/3 seconds.',['50 seconds','55 seconds','60 seconds']],
 ['In a 300 m race, Dev finishes in 50 seconds. At the instant he finishes, how far has an equally paced rival who runs at 5.5 m/s travelled?','275 m','Distance=5.5×50=275 m.',['250 m','280 m','290 m']],
 ['In a 200 m race, Meera runs at 8 m/s and Tara at 7 m/s. By how many metres does Meera win?','25 m','Meera takes 25 s; Tara covers 7×25=175 m, leaving 25 m.',['20 m','30 m','35 m']],
-['A runner gives a competitor a 20 m head start in a 200 m race. Both run at 5 m/s. By how many seconds does the runner win?','4 seconds','The rival runs 180 m and finishes 20/5=4 s earlier than the full 200 m time? Actually the head-start runner has 180 m left and finishes 4 s before the 200 m runner.',['2 seconds','5 seconds','8 seconds']],
+['A runner gives a competitor a 20 m head start in a 200 m race. Both run at 5 m/s. If they start at the same time, by how many seconds does the competitor finish before the runner?','4 seconds','The runner takes 200/5=40 s. The competitor runs 180 m and takes 180/5=36 s, so the competitor finishes 4 s earlier.',['2 seconds','5 seconds','8 seconds']],
 ['A cyclist completes a 1 km race in 2 minutes. What is the average speed in km/h?','30 km/h','1 km in 2/60 h gives 30 km/h.',['25 km/h','32 km/h','36 km/h']],
 ['A runner’s speed is 12 km/h. How far does the runner travel in 15 minutes?','3 km','15 min=0.25 h; 12×0.25=3 km.',['2 km','2.5 km','4 km']],
 ['In a 500 m race, A finishes in 80 s and B in 100 s. How many metres does A beat B by?','100 m','In 80 s B covers 500×80/100=400 m; margin=100 m.',['80 m','90 m','120 m']],
@@ -61,7 +59,7 @@ const easy = [
 ['A runner completes 5 laps of a 200 m track in 2 minutes. What is the average speed in m/s?','8 1/3 m/s','Distance=1000 m; time=120 s; speed=25/3=8 1/3 m/s.',['7.5 m/s','8 m/s','9 m/s']],
 ['A 400 m runner takes 50 seconds. How long would the same runner take for 160 m at unchanged speed?','20 seconds','Speed=8 m/s; 160/8=20 s.',['18 seconds','22 seconds','25 seconds']],
 ['In a 100 m race, A finishes in 10 s and B in 12 s. How many metres does B cover in the time A finishes?','83 1/3 m','B speed=100/12; in 10 s covers 250/3=83 1/3 m.',['80 m','85 m','90 m']],
-['A runner moves at 6 m/s. How far ahead is the runner after 45 seconds?','270 m','6×45=270 m.',['240 m','260 m','300 m']],
+['A runner moves at 6 m/s. How far does the runner travel in 45 seconds?','270 m','Distance=speed×time=6×45=270 m.',['240 m','260 m','300 m']],
 ['In a 300 m race, C runs at 7.5 m/s and D at 6 m/s. How many seconds earlier does C finish?','10 seconds','Times are 40 s and 50 s; difference=10 s.',['8 seconds','12 seconds','15 seconds']],
 ['A runner covers 1.5 km in 5 minutes. What is the speed in km/h?','18 km/h','1.5/(5/60)=18 km/h.',['15 km/h','16 km/h','20 km/h']],
 ];
@@ -85,19 +83,23 @@ const medium = [
 ['Runners start together on a 600 m track in the same direction at 9 m/s and 7.5 m/s. When does the faster runner overtake the slower?','400 seconds','Relative speed=1.5 m/s; one lap gain=600 m; time=400 s.',['300 seconds','450 seconds','600 seconds']],
 ['A finishes a 1200 m race in 4 minutes; B finishes in 4 minutes 30 seconds. How far does A beat B by?','133 1/3 m','In 240 s B covers 1200×240/270=1066 2/3 m; margin=133 1/3 m.',['120 m','140 m','160 m']],
 ['A runs 400 m in 50 s. B starts 4 s later and runs at 9 m/s. How long after B starts does B catch A?','32 seconds','At B’s start A is32 m ahead; relative speed=9−8=1 m/s, so catch time=32 s.',['28 seconds','36 seconds','40 seconds']],
-['A gives B a 2-second start in a 500 m race. If B runs at 8 m/s and they finish together, what is A’s speed?','1000/129 m/s','B takes62.5 s after starting; A runs64.5 s, so speed=500/64.5=1000/129 m/s.',['7.5 m/s','8 m/s','8.5 m/s']],
+['A starts a 500 m race 2 seconds before B. If B runs at 8 m/s and they finish together, what is A’s speed?','1000/129 m/s','B takes 500/8=62.5 s. A starts 2 s earlier and finishes with B, so A runs for64.5 s; A’s speed=500/64.5=1000/129 m/s.',['7.5 m/s','8 m/s','8.5 m/s']],
 ['On a 400 m track, two runners move in opposite directions at 6 m/s and 4 m/s. How many meetings occur in 3 minutes, counting a meeting at the start as the first?','5','Relative lap time=400/(6+4)=40 s. In180 s they meet at0,40,80,120,160 s:5 meetings.',['4','6','8']],
 ['In a 300 m race, A beats B by 30 m. In a separate 500 m race, A beats C by 50 m. Find B:C speed ratio.','1:1','A:B=300:270=10:9; A:C=500:450=10:9, hence B:C=1:1.',['10:9','9:10','8:9']],
 ['A runner averages 12 m/s for the first 300 m of a 600 m race and 8 m/s for the rest. What is the average speed for the whole race?','9.6 m/s','Total time=300/12+300/8=25+37.5=62.5 s; 600/62.5=9.6 m/s.',['10 m/s','9 m/s','8.5 m/s']],
 ['Three runners complete a 100 m race in 10 s, 12 s and 15 s. When the fastest finishes, how far behind is the slowest?','33 1/3 m','Slowest speed=100/15; in10 s covers 66 2/3 m; gap=33 1/3 m.',['30 m','35 m','40 m']],
 ['A gives another runner a 60 m start in a 600 m race. Their speeds are 10 m/s and 8 m/s respectively. What is the actual time margin?','7.5 seconds','The first runner takes60 s; the other covers540 m at8 m/s in67.5 s, so the first wins by7.5 s.',['5 seconds','10 seconds','12.5 seconds']],
 ['A and B run a 1000 m race. A’s speed is 10 m/s and B’s is 9.5 m/s. If B gets a 50 m head start, who wins?','They tie','A takes100 s. B runs950 m at9.5 m/s=100 s, so they tie.',['A by 2 seconds','B by 5 seconds','B by 10 seconds']],
-['Three competitors run a 600 m race. A runs at 8 m/s and starts 5 seconds before B, who runs at 9 m/s. C runs at 7.5 m/s and starts 10 seconds before A. Who finishes last?','B','Measure time from A’s start: A finishes at75 s; B at5+600/9=71 2/3 s; C starts10 s earlier and finishes at−10+600/7.5=70 s. B finishes last.',['A','C','A and C tie']],
+['Three competitors run a 600 m race. A runs at 8 m/s and starts 5 seconds before B, who runs at 9 m/s. C runs at 7.5 m/s and starts 10 seconds before A. Who finishes last?','A','Measure time from A’s start: A finishes at75 s; B at5+600/9=71 2/3 s; C starts10 s earlier and finishes at−10+600/7.5=70 s. A finishes last.',['B','C','A and C tie']],
 ['A runner completes a 1500 m race in 3 minutes. Another completes it in 3 minutes 20 seconds. At the first runner’s finish, how many metres remain for the second?','150 m','At180 s the second covers1500×180/200=1350 m; 150 m remain.',['120 m','180 m','200 m']],
 ];
 // A few answer/calc records above are intentionally computed from the written
 // conditions; guard these hand-derived values with the independent test ledger.
-for (const item of medium) { if (item.length !== 4) throw new Error(`Malformed MEDIUM row: ${item[0]}`); const [q,a,c,w]=item; add('MEDIUM',q,a,c,w); }
+for (const item of medium) {
+  if (item.length !== 4) throw new Error(`Malformed MEDIUM row: ${item[0]}`);
+  const [q,a,c,w]=item;
+  add('MEDIUM',q,a,c,w);
+}
 
 // 27 original HARD questions.
 const hard = [
@@ -120,7 +122,7 @@ const hard = [
 ['Two runners start together in opposite directions on a 900 m track at 7 m/s and 5 m/s. How far from the starting point is their second meeting?','150 m','Second meeting is after2×900/12=150 s; first runner travels1050 m, i.e.150 m past the start.',['100 m','300 m','450 m']],
 ['In a 500 m race A beats B by 50 m. In a 700 m race B beats C by 70 m. In a 1000 m race, what is the A–C margin?','190 m','A:B=10:9; B:C=10:9; A:C=100:81. C covers810 m when A finishes1000; margin=190 m.',['180 m','200 m','210 m']],
 ['A runner takes 80 seconds to cover 600 m. A second runner takes 75 seconds for the same distance but starts 10 seconds later. How long after the first starts does the second catch up?','160 seconds','Speeds are7.5 and8 m/s. The second starts10 s later with a75 m deficit; relative speed=.5 m/s; catch is150 s after second starts, or160 s after first.',['140 seconds','150 seconds','170 seconds']],
-['On a 1000 m track A and B run in the same direction at 12 m/s and 8 m/s. Starting together, at what time do they meet for the third time, counting their initial meeting as time zero?','750 seconds','Relative speed=4 m/s; one-lap gain time=1000/4=250 s. Third meeting after start is750 s.',['500 seconds','1000 seconds','1250 seconds']],
+['On a 1000 m track A and B run in the same direction at 12 m/s and 8 m/s, starting together. How long after the start will they meet for the third time, excluding their initial meeting?','750 seconds','Relative speed=4 m/s, so each lap gained takes1000/4=250 s. The third meeting after the initial coincidence is3×250=750 s.',['500 seconds','1000 seconds','1250 seconds']],
 ['A runs a 400 m race in 50 s; B runs it in 60 s. C starts 5 s after A and finishes 10 s after B. What is C’s speed?','80/13 m/s','B finishes at60 s; C finishes at70 s from A’s start, runs for65 s, speed=400/65=80/13 m/s.',['6 m/s','7 m/s','8 m/s']],
 ['In a 1500 m race, A beats B by 300 m and B beats C by 250 m. What is A’s winning margin over C?','500 m','A:B=5:4; B:C=1500:1250=6:5; hence A:C=3:2. C covers1000 m when A finishes; margin500 m.',['550 m','600 m','750 m']],
 ['Three runners cover a 1200 m race at constant speeds in the ratio 6:5:4. How many metres remain for the slowest when the middle runner finishes?','240 m','When the middle runner covers1200 m, the slowest covers1200×4/5=960 m, leaving240 m.',['180 m','300 m','360 m']],
@@ -134,6 +136,7 @@ for (const item of hard) { if (item.length !== 4) throw new Error(`Malformed HAR
 if (easy.length !== 28 || medium.length !== 25 || hard.length !== 27 || rows.length !== 90) {
   throw new Error(`Unexpected distribution total: ${rows.length} (${easy.length}/${medium.length}/${hard.length})`);
 }
+pdf('HARD','Race 01_ Class Notes.pdf',16,'In a 1000 m linear race, A beats B by 50 m or 5 seconds. What is the difference between their speeds?','10/19 m/s','When A finishes, B has run950 m, so B/A=19/20. The 5-second finish-time difference gives 1000/B−1000/A=5. Solving gives A=200/19 m/s and B=10 m/s; their difference is10/19 m/s.',['1 10/19 m/s','9/19 m/s','9/10 m/s']);
 const questions = rows.map(row => ({
   subject_slug:'maths', subcategory_slug:'arithmetic-maths', chapter_slug:'race',
   question_text:row.question, options:Object.fromEntries(row.choices.map((v,i)=>['ABCD'[i],v])),
@@ -142,5 +145,4 @@ const questions = rows.map(row => ({
 }));
 const dataDir=path.join(__dirname,'..','data');
 fs.writeFileSync(path.join(dataDir,'race_verified_batch.json'),JSON.stringify({questions},null,2)+'\n');
-fs.writeFileSync(path.join(dataDir,'race_answer_ledger.json'),JSON.stringify(rows.map((r,i)=>({row:i+1,difficulty:r.level,source:r.source,question:r.question,expected_answer:r.answer,calculation:r.calculation})),null,2)+'\n');
-console.log('Wrote 90 Race questions: 30 EASY, 30 MEDIUM, 30 HARD; PDF 10, original 80.');
+console.log('Wrote race_verified_batch.json: 91 questions (at least 30 per difficulty; PDF 11, original 80). Run build_race_artifacts.py to generate the ledger, source review, and report.');

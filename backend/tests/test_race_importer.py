@@ -14,24 +14,33 @@ def race_catalog(db_session):
  chapter=Chapter(subject_id=subject.id,subcategory_id=category.id,name="Race",slug="race",is_active=True); db_session.add(chapter); db_session.commit(); return chapter
 
 def test_planner_targets_and_preserves_existing_rows():
- rows=load_batch(); assert len(rows)==90
- assert Counter(r["difficulty"] for r in rows)=={"EASY":30,"MEDIUM":30,"HARD":30}
+ rows=load_batch(); assert len(rows)==91
+ assert Counter(r["difficulty"] for r in rows)=={"EASY":30,"MEDIUM":30,"HARD":31}
  assert plan_missing(rows,[])==rows
 
 def test_dry_run_import_and_replay_are_idempotent(db_session,race_catalog):
  data=BATCH.read_bytes(); preview=import_questions(db_session,data,"application/json",BATCH.name,True)
- assert not preview.aborted and not preview.errors and preview.would_import==90 and preview.duplicates==0
+ assert not preview.aborted and not preview.errors and preview.would_import==91 and preview.duplicates==0
  assert db_session.scalar(select(func.count(Question.id)))==0
  result=import_questions(db_session,data,"application/json",BATCH.name,False)
- assert result.imported==90 and result.duplicates==0 and not result.errors
+ assert result.imported==91 and result.duplicates==0 and not result.errors
  rows=db_session.scalars(select(Question).where(Question.chapter_id==race_catalog.id)).all()
- assert Counter(q.difficulty.value for q in rows)=={"EASY":30,"MEDIUM":30,"HARD":30}
+ assert Counter(q.difficulty.value for q in rows)=={"EASY":30,"MEDIUM":30,"HARD":31}
  assert all(q.is_active and not q.is_pyq for q in rows) and plan_missing(load_batch(),rows)==[]
  replay=import_questions(db_session,data,"application/json",BATCH.name,False)
- assert replay.imported==0 and replay.duplicates==90
+ assert replay.imported==0 and replay.duplicates==91
 
 def test_planner_preserves_matching_existing_question(db_session,race_catalog):
  row=load_batch()[0]; options=[QuestionOption(option_key=k,option_text=row["options"][k],is_correct=k==row["correct_option"],display_order=i) for i,k in enumerate("ABCD",1)]
  q=Question(chapter_id=race_catalog.id,question_text=row["question_text"],explanation=row["explanation"],difficulty=Difficulty(row["difficulty"]),is_pyq=False,is_active=True,source=row["source"],options=options)
  db_session.add(q); db_session.commit()
- selected=plan_missing(load_batch(),[q]); assert len(selected)==89 and row["question_text"] not in {r["question_text"] for r in selected}
+ selected=plan_missing(load_batch(),[q]); assert len(selected)==90 and row["question_text"] not in {r["question_text"] for r in selected}
+
+def test_planner_reports_matching_stem_with_wrong_answer_as_conflict(db_session,race_catalog):
+ row=load_batch()[0]
+ wrong_key="A" if row["correct_option"]!="A" else "B"
+ options=[QuestionOption(option_key=k,option_text=row["options"][k],is_correct=k==wrong_key,display_order=i) for i,k in enumerate("ABCD",1)]
+ q=Question(chapter_id=race_catalog.id,question_text=row["question_text"],explanation=row["explanation"],difficulty=Difficulty(row["difficulty"]),is_pyq=False,is_active=True,source=row["source"],options=options)
+ db_session.add(q); db_session.commit()
+ with pytest.raises(ValueError,match="conflicts"):
+  plan_missing(load_batch(),[q])

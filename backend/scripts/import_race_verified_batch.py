@@ -13,8 +13,8 @@ from app.services.question_import_service import import_questions
 
 BATCH = BASE / "data" / "race_verified_batch.json"
 LEVELS = ("EASY", "MEDIUM", "HARD")
-TARGET = {level: 30 for level in LEVELS}
-PDF_SOURCE = "Verified from supplied Race PDF, page "
+MINIMUM = {level: 30 for level in LEVELS}
+PDF_SOURCE = "Verified from Race "
 ORIGINAL_SOURCE = "Original SSC-style practice question"
 
 def normalized(value): return " ".join(unicodedata.normalize("NFKC", value).casefold().split())
@@ -33,8 +33,9 @@ def _check_stems(stems):
 
 def load_batch():
     payload = json.loads(BATCH.read_text(encoding="utf-8")); records = payload.get("questions") if isinstance(payload, dict) else None
-    if not isinstance(records, list) or len(records) != 90: raise ValueError("Race batch must contain exactly 90 questions")
-    if Counter(row.get("difficulty") for row in records if isinstance(row, dict)) != TARGET: raise ValueError("Race batch must have 30 per difficulty")
+    if not isinstance(records, list) or len(records) < 90: raise ValueError("Race batch must contain at least 90 questions")
+    difficulty_counts=Counter(row.get("difficulty") for row in records if isinstance(row, dict))
+    if any(difficulty_counts[level] < MINIMUM[level] for level in LEVELS): raise ValueError("Race batch must have at least 30 per difficulty")
     required = {"subject_slug","subcategory_slug","chapter_slug","question_text","options","correct_option","explanation","difficulty","is_pyq","source"}
     pdf_rows = original_rows = 0; stems=[]
     for index,row in enumerate(records,1):
@@ -47,8 +48,9 @@ def load_batch():
         source=row["source"]
         if source==ORIGINAL_SOURCE: original_rows+=1
         elif source.startswith(PDF_SOURCE) and "; exam/year not stated" in source:
-            page=re.search(r"page (\d+);",source)
-            if not page or int(page.group(1)) not in {2,3,4,5,7,8,9}: raise ValueError(f"Row {index} invalid PDF page")
+            page=re.fullmatch(r"Verified from (Race 0[12]_ Class Notes\.pdf), page (\d+); exam/year not stated",source)
+            valid_pages={"Race 01_ Class Notes.pdf":set(range(1,20)),"Race 02_ Class Notes.pdf":set(range(1,17))}
+            if not page or int(page.group(2)) not in valid_pages[page.group(1)]: raise ValueError(f"Row {index} invalid PDF source/page")
             pdf_rows+=1
         else: raise ValueError(f"Row {index} unrecognized provenance {source!r}")
         if not row["question_text"].strip() or not row["explanation"].strip(): raise ValueError(f"Row {index} empty question/explanation")
@@ -59,7 +61,7 @@ def load_batch():
         if any(not isinstance(v,str) or not v.strip() for v in vals) or len({normalized(v) for v in vals})!=4: raise ValueError(f"Row {index} invalid options")
         if row["correct_option"] not in options: raise ValueError(f"Row {index} invalid key")
         stems.append(row["question_text"])
-    if (pdf_rows,original_rows)!=(10,80): raise ValueError(f"Expected 10 PDF and 80 original, got {pdf_rows}/{original_rows}")
+    if (pdf_rows,original_rows)!=(11,80): raise ValueError(f"Expected 11 PDF and 80 original, got {pdf_rows}/{original_rows}")
     _check_stems(stems); return records
 
 def chapter_context(db):
@@ -81,20 +83,20 @@ def plan_missing(records,existing):
         known[key]=q; expected=bykey.get(key)
         if expected:
             opts,answer=options_and_answer(q)
-            if (opts!=expected["options"] or answer!=expected["correct_option"] or q.difficulty.value!=expected["difficulty"] or q.is_pyq or not q.is_active): raise ValueError(f"Existing exact match conflicts: {q.question_text!r}")
+            if (opts!=expected["options"] or answer!=expected["correct_option"] or q.difficulty.value!=expected["difficulty"] or q.is_pyq or not q.is_active or q.explanation!=expected["explanation"] or q.source!=expected["source"]): raise ValueError(f"Existing exact match conflicts: {q.question_text!r}")
         if q.is_active and not q.is_pyq: active[q.difficulty.value]+=1
     for row in records:
         for q in existing:
             if normalized(row["question_text"])==normalized(q.question_text): continue
             if number_masked(row["question_text"])==number_masked(q.question_text): raise ValueError(f"Number-masked duplicate against existing: {row['question_text']!r}")
             if SequenceMatcher(None,normalized(row["question_text"]),normalized(q.question_text)).ratio()>=.92: raise ValueError(f"Near duplicate against existing: {row['question_text']!r}")
-    deficits={lev:30-active[lev] for lev in LEVELS}
-    if any(n<0 for n in deficits.values()): raise ValueError("Existing active ordinary counts exceed targets; preserving rows")
+    deficits={lev:max(0,MINIMUM[lev]-active[lev]) for lev in LEVELS}
     selected=[]
     for row in records:
         key=normalized(row["question_text"]); lev=row["difficulty"]
-        if key in known or deficits[lev]==0: continue
-        selected.append(row); known[key]=True; deficits[lev]-=1
+        if key in known: continue
+        selected.append(row); known[key]=True
+        if deficits[lev]>0: deficits[lev]-=1
     if any(deficits.values()): raise ValueError(f"Batch cannot fill deficits: {deficits}")
     return selected
 
@@ -116,6 +118,6 @@ def main(argv=None):
         result=import_questions(db,json.dumps({"questions":selected},ensure_ascii=False).encode(),"application/json",BATCH.name,False); print("IMPORT",result.model_dump())
         if result.aborted or result.errors or result.imported!=len(selected): raise SystemExit("Import did not match dry run")
         afterrows=db.scalars(select(Question).where(Question.chapter_id==chapter.id)).all(); after=counts(afterrows); print_counts("AFTER",after)
-        if any(after[(lev,"ordinary","active")]!=30 for lev in LEVELS): raise SystemExit("Post-import ordinary counts differ from target")
+        if any(after[(lev,"ordinary","active")]<MINIMUM[lev] for lev in LEVELS): raise SystemExit("Post-import ordinary counts are below minimum targets")
         print("POST_IMPORT_COUNTS_VERIFIED",len(afterrows))
 if __name__=="__main__": main()
