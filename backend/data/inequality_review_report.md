@@ -1,0 +1,35 @@
+# CH-16 Inequality question bank review
+
+## Source coverage
+
+Reviewed all 14 pages of `Inequality 01_ Class Notes.pdf` visually because the scanned PDF contains no selectable text. Pages 1–3 introduce the topic and notation; page 4 contains instruction and short examples; page 5 contains one chain and 15 assessable relation claims; pages 6–11 contain six assessable two-conclusion exercises; page 12 is promotional material, page 13 is a summary, and page 14 is a closing page.
+
+The bank contains 21 PDF-derived questions (15 direct-relation claims from page 5 and six statement/conclusion exercises from pages 6–11) plus nine clearly labeled original SSC-style items. Non-question instructional/summary/advertising pages were not converted into artificial questions. Page 4's two examples were logged as rejected assessment prompts because they contain no task or answer choices. Handwritten source answer marks were transcribed into the ledger as source annotations and were not used as the answer key. Page 5 marks for claims 6 and 12 were unclear; the ambiguity is recorded in the ledger. Every answer was independently recalculated.
+
+## Validation method
+
+Each comparison is represented as a directed order constraint: strict comparisons carry a strict edge; non-strict comparisons carry a weak edge; equality carries weak edges in both directions. Transitive closure determines entailed strict and weak comparisons and detects contradictions. A relation is labeled false only when its negation is entailed; otherwise it is undetermined. An either/or answer is used only for unresolved, mutually exclusive complementary comparisons over the same ordered pair (`>`/`≤` or `<`/`≥`). This avoids guessing numeric values and preserves equality cases.
+
+All rows have four distinct A–D options, a single keyed answer, a written explanation, Normal metadata (`is_pyq=false`), and a source. The focused test independently recomputes all answer keys and checks solver behavior against exhaustive assignments over a finite ordered domain for small systems.
+
+## Bank composition
+
+- Difficulty: Easy 10, Medium 10, Hard 10 (30 total).
+- Provenance: 21 PDF-derived and 9 original practice questions.
+- Topics: direct relation 15; statement/conclusion 9; multi-variable chain 2; coded inequality 2; either/or conclusions 1; known/unknown relationship 1.
+- All question signatures and stems are unique within this bank. The guarded importer scanned 550 existing canonical Reasoning question rows and 550 live Reasoning rows. It found no exact or near-text matches at the 0.94 SequenceMatcher threshold. A notation/ordering-focused review found only unrelated symbol-bearing arrangements, a marks ranking puzzle, rank arithmetic, and a day-order puzzle; none presents the same strict/non-strict chain or conclusion-classification task. No same-concept inequality exercise was present. Cross-chapter content is not modified.
+
+## Import and application verification
+
+- Chapter: Inequality, ID `6d8b6da5-6635-417c-99e4-0bb7f511520b`.
+- Import: 30 inserted, 0 rejected, 0 duplicates on the clean-baseline run.
+- Final active Normal rows: 30; Easy 10, Medium 10, Hard 10; active PYQs 0.
+- Replay dry-run: 30 duplicates, 0 new inserts, 0 rejected.
+- Authenticated API: the chapter is listed under SSC → Reasoning with the expected ID. Easy, Medium, and Hard availability each returned 10 and accepted a 10-question request. PYQ returned 0. Mixed Normal availability returned all 30.
+- A live 10-question Hard attempt returned four options per question, kept answers/explanations hidden while active, accepted and reloaded saved answers, used a 360-second timer, submitted at 10/10 correct (score 20), and returned all 10 correct answers and explanations for review. The verification attempt was rolled back after the API checks.
+- Focused Inequality/API test module: 12 passed, including schema/ledger checks, strict/non-strict solver regressions, exhaustive assignment checks, duplicate checks, import preview/idempotency guards, and API test flow. Relevant regression set (test sessions, catalog, question bank plus focused tests): 113 passed. Frontend production build passed (`tsc -b` and Vite).
+- No browser UI automation was performed; the live authenticated API and automated API tests were performed.
+
+## Review disposition
+
+Selected 30 defensible prompts as above. Source pages without standalone exercises were reviewed and deliberately excluded as question sources. Original questions provide a nonredundant either/or case, coded notation, equality boundary, disconnected-chain outcome, strict transitivity, and mixed-chain difficulty coverage. The finite-domain solver regression checks all single-relation cases over three variables against every assignment on four ordered ranks. No known content or integration issue remains. The live integration was checked through API calls rather than a browser. Canonical batch and answer ledger are generated by `backend/scripts/build_inequality_artifacts.py`; importer baseline and idempotency guards are in `backend/scripts/import_inequality_verified_batch.py`.

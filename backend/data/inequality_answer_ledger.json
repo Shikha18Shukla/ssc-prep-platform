@@ -1,0 +1,2004 @@
+[
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-001",
+    "row": 1,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim M ≥ P?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true; handwritten note also states M > P.",
+    "source_wording": "Conclusion 1: M ≥ P",
+    "source_mark_review": "Marked true; handwritten note also states M > P.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "P"
+      }
+    ],
+    "claim": {
+      "left": "M",
+      "op": "≥",
+      "right": "P"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails M ≥ P; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies M≥P as TRUE.",
+    "concept_signature": "source_chain_claim_01_M_≥_P",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-002",
+    "row": 2,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim O > M?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false.",
+    "source_wording": "Conclusion 2: O > M",
+    "source_mark_review": "Marked false.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "O",
+        "op": ">",
+        "right": "M"
+      }
+    ],
+    "claim": {
+      "left": "O",
+      "op": ">",
+      "right": "M"
+    },
+    "expected_outcome": "FALSE",
+    "correct_option": "B",
+    "correct_answer": "Definitely false",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails the opposite comparison, so O > M cannot hold.",
+    "independent_verification": "Strict-aware graph closure classifies O>M as FALSE.",
+    "concept_signature": "source_chain_claim_02_O_>_M",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned FALSE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-003",
+    "row": 3,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim Q = M?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false.",
+    "source_wording": "Conclusion 3: Q = M",
+    "source_mark_review": "Marked false.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "Q",
+        "op": "=",
+        "right": "M"
+      }
+    ],
+    "claim": {
+      "left": "Q",
+      "op": "=",
+      "right": "M"
+    },
+    "expected_outcome": "FALSE",
+    "correct_option": "B",
+    "correct_answer": "Definitely false",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails the opposite comparison, so Q = M cannot hold.",
+    "independent_verification": "Strict-aware graph closure classifies Q=M as FALSE.",
+    "concept_signature": "source_chain_claim_03_Q_=_M",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned FALSE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-004",
+    "row": 4,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim T > O?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true.",
+    "source_wording": "Conclusion 4: T > O",
+    "source_mark_review": "Marked true.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "O"
+      }
+    ],
+    "claim": {
+      "left": "T",
+      "op": ">",
+      "right": "O"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails T > O; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies T>O as TRUE.",
+    "concept_signature": "source_chain_claim_04_T_>_O",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-005",
+    "row": 5,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim M > Q?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true.",
+    "source_wording": "Conclusion 5: M > Q",
+    "source_mark_review": "Marked true.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "M",
+        "op": ">",
+        "right": "Q"
+      }
+    ],
+    "claim": {
+      "left": "M",
+      "op": ">",
+      "right": "Q"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails M > Q; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies M>Q as TRUE.",
+    "concept_signature": "source_chain_claim_05_M_>_Q",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-006",
+    "row": 6,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim O ≥ Q?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Handwritten mark is unclear; note appears to assert O > Q.",
+    "source_wording": "Conclusion 6: O ≥ Q",
+    "source_mark_review": "Handwritten mark is unclear; note appears to assert O > Q.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "O",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "claim": {
+      "left": "O",
+      "op": "≥",
+      "right": "Q"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails O ≥ Q; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies O≥Q as TRUE.",
+    "concept_signature": "source_chain_claim_06_O_≥_Q",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-007",
+    "row": 7,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim N = Q?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false.",
+    "source_wording": "Conclusion 7: N = Q",
+    "source_mark_review": "Marked false.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "N",
+        "op": "=",
+        "right": "Q"
+      }
+    ],
+    "claim": {
+      "left": "N",
+      "op": "=",
+      "right": "Q"
+    },
+    "expected_outcome": "FALSE",
+    "correct_option": "B",
+    "correct_answer": "Definitely false",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails the opposite comparison, so N = Q cannot hold.",
+    "independent_verification": "Strict-aware graph closure classifies N=Q as FALSE.",
+    "concept_signature": "source_chain_claim_07_N_=_Q",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned FALSE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-008",
+    "row": 8,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim T > Q?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true.",
+    "source_wording": "Conclusion 8: T > Q",
+    "source_mark_review": "Marked true.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "Q"
+      }
+    ],
+    "claim": {
+      "left": "T",
+      "op": ">",
+      "right": "Q"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails T > Q; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies T>Q as TRUE.",
+    "concept_signature": "source_chain_claim_08_T_>_Q",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-009",
+    "row": 9,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim P < T?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true.",
+    "source_wording": "Conclusion 9: P < T",
+    "source_mark_review": "Marked true.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "P",
+        "op": "<",
+        "right": "T"
+      }
+    ],
+    "claim": {
+      "left": "P",
+      "op": "<",
+      "right": "T"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails P < T; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies P<T as TRUE.",
+    "concept_signature": "source_chain_claim_09_P_<_T",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-010",
+    "row": 10,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim M ≥ Q?",
+    "topic": "direct_relation",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true.",
+    "source_wording": "Conclusion 10: M ≥ Q",
+    "source_mark_review": "Marked true.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "claim": {
+      "left": "M",
+      "op": "≥",
+      "right": "Q"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails M ≥ Q; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies M≥Q as TRUE.",
+    "concept_signature": "source_chain_claim_10_M_≥_Q",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-011",
+    "row": 11,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim N > O?",
+    "topic": "direct_relation",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false.",
+    "source_wording": "Conclusion 11: N > O",
+    "source_mark_review": "Marked false.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "N",
+        "op": ">",
+        "right": "O"
+      }
+    ],
+    "claim": {
+      "left": "N",
+      "op": ">",
+      "right": "O"
+    },
+    "expected_outcome": "FALSE",
+    "correct_option": "B",
+    "correct_answer": "Definitely false",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails the opposite comparison, so N > O cannot hold.",
+    "independent_verification": "Strict-aware graph closure classifies N>O as FALSE.",
+    "concept_signature": "source_chain_claim_11_N_>_O",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned FALSE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-012",
+    "row": 12,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim M > N?",
+    "topic": "direct_relation",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false/uncertain; independently this is undetermined.",
+    "source_wording": "Conclusion 12: M > N",
+    "source_mark_review": "Marked false/uncertain; independently this is undetermined.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "M",
+        "op": ">",
+        "right": "N"
+      }
+    ],
+    "claim": {
+      "left": "M",
+      "op": ">",
+      "right": "N"
+    },
+    "expected_outcome": "UNKNOWN",
+    "correct_option": "C",
+    "correct_answer": "Cannot be determined",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain establishes only M ≥ N; equality and strict inequality are both possible, so M > N is not definite.",
+    "independent_verification": "Strict-aware graph closure classifies M>N as UNKNOWN.",
+    "concept_signature": "source_chain_claim_12_M_>_N",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned UNKNOWN"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-013",
+    "row": 13,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim T = M?",
+    "topic": "direct_relation",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false.",
+    "source_wording": "Conclusion 13: T = M",
+    "source_mark_review": "Marked false.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "T",
+        "op": "=",
+        "right": "M"
+      }
+    ],
+    "claim": {
+      "left": "T",
+      "op": "=",
+      "right": "M"
+    },
+    "expected_outcome": "FALSE",
+    "correct_option": "B",
+    "correct_answer": "Definitely false",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails the opposite comparison, so T = M cannot hold.",
+    "independent_verification": "Strict-aware graph closure classifies T=M as FALSE.",
+    "concept_signature": "source_chain_claim_13_T_=_M",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned FALSE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-014",
+    "row": 14,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim N = P?",
+    "topic": "direct_relation",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked false.",
+    "source_wording": "Conclusion 14: N = P",
+    "source_mark_review": "Marked false.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "N",
+        "op": "=",
+        "right": "P"
+      }
+    ],
+    "claim": {
+      "left": "N",
+      "op": "=",
+      "right": "P"
+    },
+    "expected_outcome": "FALSE",
+    "correct_option": "B",
+    "correct_answer": "Definitely false",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails the opposite comparison, so N = P cannot hold.",
+    "independent_verification": "Strict-aware graph closure classifies N=P as FALSE.",
+    "concept_signature": "source_chain_claim_14_N_=_P",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned FALSE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-015",
+    "row": 15,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given T > M ≥ N = O > P ≥ Q, what is the status of the claim O = N?",
+    "topic": "direct_relation",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Inequality 01_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "Marked true.",
+    "source_wording": "Conclusion 15: O = N",
+    "source_mark_review": "Marked true.",
+    "statements": [
+      {
+        "left": "T",
+        "op": ">",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "≥",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "O",
+        "op": "=",
+        "right": "N"
+      }
+    ],
+    "claim": {
+      "left": "O",
+      "op": "=",
+      "right": "N"
+    },
+    "expected_outcome": "TRUE",
+    "correct_option": "A",
+    "correct_answer": "Definitely follows",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "The chain T > M ≥ N = O > P ≥ Q entails O = N; the strict and non-strict links are preserved in the transitive comparison.",
+    "independent_verification": "Strict-aware graph closure classifies O=N as TRUE.",
+    "concept_signature": "source_chain_claim_15_O_=_N",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned TRUE"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-016",
+    "row": 16,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given 1 < 4 ≤ 7 ≤ 3 = 5, assess conclusions I: 4 ≥ 5 and II: 1 < 5.",
+    "topic": "statement_conclusion",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 6,
+    "source": "Inequality 01_ Class Notes.pdf, page 6; exam/year not stated",
+    "source_answer": "B: Only conclusion II is logical.",
+    "source_wording": "1 < 4 ≤ 7 ≤ 3 = 5; I: 4 ≥ 5; II: 1 < 5",
+    "source_mark_review": "B checked",
+    "statements": [
+      {
+        "left": "1",
+        "op": "<",
+        "right": "4"
+      },
+      {
+        "left": "4",
+        "op": "≤",
+        "right": "7"
+      },
+      {
+        "left": "7",
+        "op": "≤",
+        "right": "3"
+      },
+      {
+        "left": "3",
+        "op": "=",
+        "right": "5"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "4",
+        "op": "≥",
+        "right": "5"
+      },
+      {
+        "left": "1",
+        "op": "<",
+        "right": "5"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_II",
+    "correct_option": "B",
+    "correct_answer": "Only conclusion II follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "The chain gives 4 ≤ 5, so 4 ≥ 5 is not entailed. It also gives 1 < 4 ≤ 5, hence 1 < 5 follows.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_II; either-or is accepted only for a complementary pair.",
+    "concept_signature": "source_p6_conclusion_only_ii",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_II"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-017",
+    "row": 17,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given A ≥ B > C = D and C ≥ P ≥ E < T, assess I: A > E and II: A > T.",
+    "topic": "statement_conclusion",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 7,
+    "source": "Inequality 01_ Class Notes.pdf, page 7; exam/year not stated",
+    "source_answer": "Handwritten I checked, II crossed.",
+    "source_wording": "A ≥ B > C = D; C ≥ P ≥ E < T; I: A > E; II: A > T",
+    "source_mark_review": "I ✓, II ✗",
+    "statements": [
+      {
+        "left": "A",
+        "op": "≥",
+        "right": "B"
+      },
+      {
+        "left": "B",
+        "op": ">",
+        "right": "C"
+      },
+      {
+        "left": "C",
+        "op": "=",
+        "right": "D"
+      },
+      {
+        "left": "C",
+        "op": "≥",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "E"
+      },
+      {
+        "left": "E",
+        "op": "<",
+        "right": "T"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "E"
+      },
+      {
+        "left": "A",
+        "op": ">",
+        "right": "T"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_I",
+    "correct_option": "A",
+    "correct_answer": "Only conclusion I follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "A > B > C = D and C ≥ P ≥ E establish A > E. T is only known to exceed E; its relation to A is undetermined, so A > T does not follow.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_I; either-or is accepted only for a complementary pair.",
+    "concept_signature": "source_p7_handwritten_chain_only_i",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_I"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-018",
+    "row": 18,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given S < C ≤ R = E > A ≥ M, assess I: S < E and II: R > M.",
+    "topic": "statement_conclusion",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 8,
+    "source": "Inequality 01_ Class Notes.pdf, page 8; exam/year not stated",
+    "source_answer": "E: Both conclusions are logical.",
+    "source_wording": "S < C ≤ R = E > A ≥ M; I: S < E; II: R > M",
+    "source_mark_review": "E checked",
+    "statements": [
+      {
+        "left": "S",
+        "op": "<",
+        "right": "C"
+      },
+      {
+        "left": "C",
+        "op": "≤",
+        "right": "R"
+      },
+      {
+        "left": "R",
+        "op": "=",
+        "right": "E"
+      },
+      {
+        "left": "E",
+        "op": ">",
+        "right": "A"
+      },
+      {
+        "left": "A",
+        "op": "≥",
+        "right": "M"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "S",
+        "op": "<",
+        "right": "E"
+      },
+      {
+        "left": "R",
+        "op": ">",
+        "right": "M"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "BOTH",
+    "correct_option": "C",
+    "correct_answer": "Both conclusions I and II follow",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "S < C ≤ R = E entails S < E. Also R = E > A ≥ M entails R > M. Both conclusions follow.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as BOTH; either-or is accepted only for a complementary pair.",
+    "concept_signature": "source_p8_both_conclusions",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned BOTH"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-019",
+    "row": 19,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given B ≥ L = K < T = J, assess I: J ≥ B and II: J > L.",
+    "topic": "statement_conclusion",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 9,
+    "source": "Inequality 01_ Class Notes.pdf, page 9; exam/year not stated",
+    "source_answer": "B: Only conclusion II is correct.",
+    "source_wording": "B ≥ L = K < T = J; I: J ≥ B; II: J > L",
+    "source_mark_review": "II ✓; I crossed/uncertain",
+    "statements": [
+      {
+        "left": "B",
+        "op": "≥",
+        "right": "L"
+      },
+      {
+        "left": "L",
+        "op": "=",
+        "right": "K"
+      },
+      {
+        "left": "K",
+        "op": "<",
+        "right": "T"
+      },
+      {
+        "left": "T",
+        "op": "=",
+        "right": "J"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "J",
+        "op": "≥",
+        "right": "B"
+      },
+      {
+        "left": "J",
+        "op": ">",
+        "right": "L"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_II",
+    "correct_option": "B",
+    "correct_answer": "Only conclusion II follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "J = T > K = L proves J > L. B ≥ L does not establish whether J ≥ B, so conclusion I is undetermined.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_II; either-or is accepted only for a complementary pair.",
+    "concept_signature": "source_p9_unknown_and_strict_chain",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_II"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-020",
+    "row": 20,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given A ≤ M < Y; G < L > A ≥ D > I = N, assess I: G > N and II: L > N.",
+    "topic": "statement_conclusion",
+    "difficulty": "HARD",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 10,
+    "source": "Inequality 01_ Class Notes.pdf, page 10; exam/year not stated",
+    "source_answer": "B: Only conclusion II is logical.",
+    "source_wording": "A ≤ M < Y; G < L > A ≥ D > I = N; I: G > N; II: L > N",
+    "source_mark_review": "II checked; I crossed",
+    "statements": [
+      {
+        "left": "A",
+        "op": "≤",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": "<",
+        "right": "Y"
+      },
+      {
+        "left": "G",
+        "op": "<",
+        "right": "L"
+      },
+      {
+        "left": "L",
+        "op": ">",
+        "right": "A"
+      },
+      {
+        "left": "A",
+        "op": "≥",
+        "right": "D"
+      },
+      {
+        "left": "D",
+        "op": ">",
+        "right": "I"
+      },
+      {
+        "left": "I",
+        "op": "=",
+        "right": "N"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "G",
+        "op": ">",
+        "right": "N"
+      },
+      {
+        "left": "L",
+        "op": ">",
+        "right": "N"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_II",
+    "correct_option": "B",
+    "correct_answer": "Only conclusion II follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "L > A ≥ D > I = N establishes L > N. G < L alone does not compare G with N, so conclusion I is unknown.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_II; either-or is accepted only for a complementary pair.",
+    "concept_signature": "source_p10_only_ii_disconnected_branch",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_II"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-021",
+    "row": 21,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Given C < R = E ≤ D; D = O < W ≤ N > U ≥ T, assess I: C < W and II: W ≥ T.",
+    "topic": "statement_conclusion",
+    "difficulty": "HARD",
+    "source_type": "pdf-derived",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 11,
+    "source": "Inequality 01_ Class Notes.pdf, page 11; exam/year not stated",
+    "source_answer": "A: Only conclusion I is logical.",
+    "source_wording": "C < R = E ≤ D; D = O < W ≤ N > U ≥ T; I: C < W; II: W ≥ T",
+    "source_mark_review": "I checked; II crossed",
+    "statements": [
+      {
+        "left": "C",
+        "op": "<",
+        "right": "R"
+      },
+      {
+        "left": "R",
+        "op": "=",
+        "right": "E"
+      },
+      {
+        "left": "E",
+        "op": "≤",
+        "right": "D"
+      },
+      {
+        "left": "D",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": "<",
+        "right": "W"
+      },
+      {
+        "left": "W",
+        "op": "≤",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": ">",
+        "right": "U"
+      },
+      {
+        "left": "U",
+        "op": "≥",
+        "right": "T"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "C",
+        "op": "<",
+        "right": "W"
+      },
+      {
+        "left": "W",
+        "op": "≥",
+        "right": "T"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_I",
+    "correct_option": "A",
+    "correct_answer": "Only conclusion I follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "C < R = E ≤ D = O < W proves C < W. Although N > U ≥ T, W ≤ N does not determine W versus T; II is not entailed.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_I; either-or is accepted only for a complementary pair.",
+    "concept_signature": "source_p11_equality_and_separate_branch",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_I"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-022",
+    "row": 22,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Statements: A > B and C > D. Conclusions I: A > C; II: D > A. Which conclusion set follows?",
+    "topic": "statement_conclusion",
+    "difficulty": "MEDIUM",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "B"
+      },
+      {
+        "left": "C",
+        "op": ">",
+        "right": "D"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "C"
+      },
+      {
+        "left": "D",
+        "op": ">",
+        "right": "A"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "NEITHER",
+    "correct_option": "D",
+    "correct_answer": "Neither conclusion follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "The two chains are disconnected. Assignments can reverse either proposed cross-chain comparison, so neither conclusion is definitely true.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as NEITHER; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_disconnected_neither",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned NEITHER"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-023",
+    "row": 23,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Statements: X ≥ Y > Z = W. Conclusions I: X > W; II: Y > Z. Which conclusion set follows?",
+    "topic": "multi_variable_chain",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "X",
+        "op": "≥",
+        "right": "Y"
+      },
+      {
+        "left": "Y",
+        "op": ">",
+        "right": "Z"
+      },
+      {
+        "left": "Z",
+        "op": "=",
+        "right": "W"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "X",
+        "op": ">",
+        "right": "W"
+      },
+      {
+        "left": "Y",
+        "op": ">",
+        "right": "Z"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "BOTH",
+    "correct_option": "C",
+    "correct_answer": "Both conclusions I and II follow",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "X ≥ Y > Z = W makes X > W by transitivity, and Y > Z is a stated strict link. Both follow.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as BOTH; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_strict_chain_both",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned BOTH"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-024",
+    "row": 24,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Statements: P > Q ≥ R. Conclusions I: P > R; II: R ≥ P. Which conclusion set follows?",
+    "topic": "statement_conclusion",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "P",
+        "op": ">",
+        "right": "Q"
+      },
+      {
+        "left": "Q",
+        "op": "≥",
+        "right": "R"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "P",
+        "op": ">",
+        "right": "R"
+      },
+      {
+        "left": "R",
+        "op": "≥",
+        "right": "P"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_I",
+    "correct_option": "A",
+    "correct_answer": "Only conclusion I follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "P > Q ≥ R entails P > R. The reverse R ≥ P contradicts this strict ordering, so only I follows.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_I; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_strict_vs_nonstrict_only_i",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_I"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-025",
+    "row": 25,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Statements: A ≥ B > C. Conclusions I: C ≥ A; II: A > C. Which conclusion set follows?",
+    "topic": "statement_conclusion",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "A",
+        "op": "≥",
+        "right": "B"
+      },
+      {
+        "left": "B",
+        "op": ">",
+        "right": "C"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "C",
+        "op": "≥",
+        "right": "A"
+      },
+      {
+        "left": "A",
+        "op": ">",
+        "right": "C"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_II",
+    "correct_option": "B",
+    "correct_answer": "Only conclusion II follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "A ≥ B > C entails A > C. C ≥ A is impossible under that strict transitive relation; only II follows.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_II; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_reverse_contradiction_only_ii",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_II"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-026",
+    "row": 26,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "With no relation given between X and Y, conclusions I: X > Y and II: X ≤ Y form an exhaustive, mutually exclusive pair. What follows?",
+    "topic": "either_or_conclusions",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [],
+    "conclusions": [
+      {
+        "left": "X",
+        "op": ">",
+        "right": "Y"
+      },
+      {
+        "left": "X",
+        "op": "≤",
+        "right": "Y"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "EITHER",
+    "correct_option": "D",
+    "correct_answer": "Either conclusion I or II follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Either conclusion I or II follows"
+    },
+    "explanation": "For any ordered values exactly one of X > Y or X ≤ Y is true. Neither is individually entailed without premises, but the complementary pair is exhaustive and exclusive.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as EITHER; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_complementary_gt_le_either",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned EITHER"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-027",
+    "row": 27,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "In this coded system, @ means >, # means ≥ and $ means =. Statements: A @ B, B # C, C $ D. Conclusions I: A > D; II: B ≥ D. Which conclusion set follows?",
+    "topic": "coded_inequality",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "B"
+      },
+      {
+        "left": "B",
+        "op": "≥",
+        "right": "C"
+      },
+      {
+        "left": "C",
+        "op": "=",
+        "right": "D"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "D"
+      },
+      {
+        "left": "B",
+        "op": "≥",
+        "right": "D"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "BOTH",
+    "correct_option": "C",
+    "correct_answer": "Both conclusions I and II follow",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "Decode the symbols: A > B ≥ C = D. Transitivity gives A > D and B ≥ D; both conclusions follow.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as BOTH; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_coded_gt_ge_eq_both",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned BOTH"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-028",
+    "row": 28,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "In this coded system, ! means <, ~ means ≤ and = means equality. Statements: P ! Q, Q ~ R, R = S. Conclusions I: P < S; II: R > Q. Which conclusion set follows?",
+    "topic": "coded_inequality",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "P",
+        "op": "<",
+        "right": "Q"
+      },
+      {
+        "left": "Q",
+        "op": "≤",
+        "right": "R"
+      },
+      {
+        "left": "R",
+        "op": "=",
+        "right": "S"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "P",
+        "op": "<",
+        "right": "S"
+      },
+      {
+        "left": "R",
+        "op": ">",
+        "right": "Q"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "ONLY_I",
+    "correct_option": "A",
+    "correct_answer": "Only conclusion I follows",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "Decode as P < Q ≤ R = S, so P < S follows. Q ≤ R permits equality; therefore R > Q is not guaranteed.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as ONLY_I; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_coded_lt_le_equal_only_i",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned ONLY_I"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-029",
+    "row": 29,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Statements: A > B and C = D. What is the status of the relationship A > C?",
+    "topic": "known_unknown_relationship",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "B"
+      },
+      {
+        "left": "C",
+        "op": "=",
+        "right": "D"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "A",
+        "op": ">",
+        "right": "C"
+      }
+    ],
+    "claim": {
+      "left": "A",
+      "op": ">",
+      "right": "C"
+    },
+    "expected_outcome": "UNKNOWN",
+    "correct_option": "C",
+    "correct_answer": "Cannot be determined",
+    "options": {
+      "A": "Definitely follows",
+      "B": "Definitely false",
+      "C": "Cannot be determined",
+      "D": "Statements are inconsistent"
+    },
+    "explanation": "A and B form one component, while C = D forms another. Values can satisfy the statements with A > C or A ≤ C, so the relationship cannot be determined.",
+    "independent_verification": "Strict-aware graph closure classifies A>C as UNKNOWN.",
+    "concept_signature": "original_disconnected_claim_unknown",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned UNKNOWN"
+  },
+  {
+    "record_type": "selected_question",
+    "question_id": "inequality-030",
+    "row": 30,
+    "chapter_id": "6d8b6da5-6635-417c-99e4-0bb7f511520b",
+    "question": "Statements: L ≥ M > N = O; O > P ≥ Q. Conclusions I: L > P; II: M > Q. Which conclusion set follows?",
+    "topic": "multi_variable_chain",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "source_wording": null,
+    "source_mark_review": null,
+    "statements": [
+      {
+        "left": "L",
+        "op": "≥",
+        "right": "M"
+      },
+      {
+        "left": "M",
+        "op": ">",
+        "right": "N"
+      },
+      {
+        "left": "N",
+        "op": "=",
+        "right": "O"
+      },
+      {
+        "left": "O",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "P",
+        "op": "≥",
+        "right": "Q"
+      }
+    ],
+    "conclusions": [
+      {
+        "left": "L",
+        "op": ">",
+        "right": "P"
+      },
+      {
+        "left": "M",
+        "op": ">",
+        "right": "Q"
+      }
+    ],
+    "claim": null,
+    "expected_outcome": "BOTH",
+    "correct_option": "C",
+    "correct_answer": "Both conclusions I and II follow",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusions I and II follow",
+      "D": "Neither conclusion follows"
+    },
+    "explanation": "M > N = O > P ≥ Q entails M > P ≥ Q and hence M > Q. Since L ≥ M > P, L > P also follows.",
+    "independent_verification": "Strict-aware graph closure evaluates conclusions as BOTH; either-or is accepted only for a complementary pair.",
+    "concept_signature": "original_long_chain_strict_links_both",
+    "is_pyq": false,
+    "validation_status": "PASS - strict-aware graph closure returned BOTH"
+  },
+  {
+    "record_type": "rejected_source_prompt",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 4,
+    "source_wording": "A > B ≥ C = D",
+    "rejection_reason": "Instructional illustration only; no task, answer choices, or source answer is specified."
+  },
+  {
+    "record_type": "rejected_source_prompt",
+    "source_pdf": "Inequality 01_ Class Notes.pdf",
+    "source_page": 4,
+    "source_wording": "A > B < C",
+    "rejection_reason": "Instructional illustration only; no task, answer choices, or source answer is specified."
+  }
+]
