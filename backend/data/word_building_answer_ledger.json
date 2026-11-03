@@ -1,0 +1,981 @@
+[
+  {
+    "question_id": "word-building-001",
+    "row": 1,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Arrange the words GRAPE, GROWN, GRASS, GROSS and GRIND in dictionary order.",
+    "topic": "dictionary_arrangement",
+    "subtopic": "five-word lexicographic sequence",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 01_ Class Notes.pdf",
+    "source_page": 7,
+    "source": "Word Building 01_ Class Notes.pdf, page 7; exam/year not stated",
+    "source_answer": "C",
+    "expected_answer": "1, 3, 5, 4, 2",
+    "correct_option": "C",
+    "explanation": "Compare letter by letter: GRAPE, GRASS, GRIND, GROSS, GROWN. Their labels are 1, 3, 5, 4, 2.",
+    "independent_verification": "Lexicographically sort the five transcribed words and map them to their original labels.",
+    "verification_data": {
+      "words": [
+        "GRAPE",
+        "GROWN",
+        "GRASS",
+        "GROSS",
+        "GRIND"
+      ],
+      "order": [
+        1,
+        3,
+        5,
+        4,
+        2
+      ]
+    },
+    "concept_signature": "source_grape_dictionary_order",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-002",
+    "row": 2,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "From ORGANISATION, which word cannot be formed using its letters?",
+    "topic": "word_formation",
+    "subtopic": "letter-frequency cannot-form",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 01_ Class Notes.pdf",
+    "source_page": 10,
+    "source": "Word Building 01_ Class Notes.pdf, page 10; exam/year not stated",
+    "source_answer": "D",
+    "expected_answer": "ORANGE",
+    "correct_option": "D",
+    "explanation": "ORANGE requires E, which does not occur in ORGANISATION. The other three words do not exceed any source-letter frequency.",
+    "independent_verification": "Compare the frequency Counter of each choice against ORGANISATION.",
+    "verification_data": {
+      "base": "ORGANISATION",
+      "valid": {
+        "GRANT": true,
+        "NATION": true,
+        "GIANTS": true,
+        "ORANGE": false
+      }
+    },
+    "concept_signature": "source_organisation_cannot_form",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-003",
+    "row": 3,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "From APPLICATION, which word cannot be formed using its letters?",
+    "topic": "word_formation",
+    "subtopic": "letter-frequency cannot-form",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 01_ Class Notes.pdf",
+    "source_page": 12,
+    "source": "Word Building 01_ Class Notes.pdf, page 12; exam/year not stated",
+    "source_answer": "A",
+    "expected_answer": "POLONIA",
+    "correct_option": "A",
+    "explanation": "POLONIA needs two Os, but APPLICATION contains only one O. POINT, OPTICAL and ANTIC each fit the available letter counts.",
+    "independent_verification": "Compare each choice's letter frequencies with APPLICATION; POLONIA alone requires an unavailable extra O.",
+    "verification_data": {
+      "base": "APPLICATION",
+      "valid": {
+        "POLONIA": false,
+        "POINT": true,
+        "OPTICAL": true,
+        "ANTIC": true
+      }
+    },
+    "concept_signature": "source_application_cannot_form",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-004",
+    "row": 4,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Letters are numbered 1=O, 2=P, 3=I, 4=L, 5=E and 6=C. Which number sequence forms POLICE?",
+    "topic": "letter_jumbling",
+    "subtopic": "number mapping to POLICE",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 4,
+    "source": "Word Building 02_ Class Notes.pdf, page 4; exam/year not stated",
+    "source_answer": "B",
+    "expected_answer": "2, 1, 4, 3, 6, 5",
+    "correct_option": "B",
+    "explanation": "POLICE maps P=2, O=1, L=4, I=3, C=6, E=5, giving 2, 1, 4, 3, 6, 5.",
+    "independent_verification": "Map each letter of POLICE through the supplied one-to-one letter-number key.",
+    "verification_data": {
+      "mapping": {
+        "1": "O",
+        "2": "P",
+        "3": "I",
+        "4": "L",
+        "5": "E",
+        "6": "C"
+      },
+      "word": "POLICE",
+      "sequence": "2, 1, 4, 3, 6, 5"
+    },
+    "concept_signature": "source_police_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-005",
+    "row": 5,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Letters are numbered 1=C, 2=A, 3=D, 4=N and 5=E. Which sequence forms DANCE?",
+    "topic": "letter_jumbling",
+    "subtopic": "number mapping to DANCE",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 6,
+    "source": "Word Building 02_ Class Notes.pdf, page 6; exam/year not stated",
+    "source_answer": "A",
+    "expected_answer": "3, 2, 4, 1, 5",
+    "correct_option": "A",
+    "explanation": "DANCE uses D=3, A=2, N=4, C=1 and E=5, so the sequence is 3, 2, 4, 1, 5.",
+    "independent_verification": "Map DANCE through the displayed key and compare with the four sequences.",
+    "verification_data": {
+      "mapping": {
+        "1": "C",
+        "2": "A",
+        "3": "D",
+        "4": "N",
+        "5": "E"
+      },
+      "word": "DANCE",
+      "sequence": "3, 2, 4, 1, 5"
+    },
+    "concept_signature": "source_dance_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-006",
+    "row": 6,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Letters are numbered 1=M, 2=I, 3=G, 4=A and 5=E. Which sequence forms IMAGE?",
+    "topic": "letter_jumbling",
+    "subtopic": "number mapping to IMAGE",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 7,
+    "source": "Word Building 02_ Class Notes.pdf, page 7; exam/year not stated",
+    "source_answer": "A",
+    "expected_answer": "2, 1, 4, 3, 5",
+    "correct_option": "A",
+    "explanation": "IMAGE maps I=2, M=1, A=4, G=3 and E=5. Therefore the sequence is 2, 1, 4, 3, 5.",
+    "independent_verification": "Map each letter of IMAGE to its number in the supplied key.",
+    "verification_data": {
+      "mapping": {
+        "1": "M",
+        "2": "I",
+        "3": "G",
+        "4": "A",
+        "5": "E"
+      },
+      "word": "IMAGE",
+      "sequence": "2, 1, 4, 3, 5"
+    },
+    "concept_signature": "source_image_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-007",
+    "row": 7,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Append the same letter to LAN, SAN, WOR and SEE to make four meaningful words. Which letter works?",
+    "topic": "prefix_suffix",
+    "subtopic": "common one-letter suffix",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 10,
+    "source": "Word Building 02_ Class Notes.pdf, page 10; exam/year not stated",
+    "source_answer": "B: D",
+    "expected_answer": "D",
+    "correct_option": "B",
+    "explanation": "Appending D gives LAND, SAND, WORD and SEED, all standard English words.",
+    "independent_verification": "Append each candidate to all four stems and confirm the resulting words.",
+    "verification_data": {
+      "stems": [
+        "LAN",
+        "SAN",
+        "WOR",
+        "SEE"
+      ],
+      "suffix": "D",
+      "results": [
+        "LAND",
+        "SAND",
+        "WORD",
+        "SEED"
+      ]
+    },
+    "concept_signature": "source_land_sand_word_seed_suffix",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-008",
+    "row": 8,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Which suffix can be added to CONSULT, ASSIST, ACCOUNT and CONTEST to form meaningful words?",
+    "topic": "prefix_suffix",
+    "subtopic": "common agent suffix",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 11,
+    "source": "Word Building 02_ Class Notes.pdf, page 11; exam/year not stated",
+    "source_answer": "B: ANT",
+    "expected_answer": "ANT",
+    "correct_option": "B",
+    "explanation": "ANT forms CONSULTANT, ASSISTANT, ACCOUNTANT and CONTESTANT.",
+    "independent_verification": "Append each suffix to every base word; only ANT produces all four established words.",
+    "verification_data": {
+      "stems": [
+        "CONSULT",
+        "ASSIST",
+        "ACCOUNT",
+        "CONTEST"
+      ],
+      "suffix": "ANT",
+      "results": [
+        "CONSULTANT",
+        "ASSISTANT",
+        "ACCOUNTANT",
+        "CONTESTANT"
+      ]
+    },
+    "concept_signature": "source_common_ant_suffix",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-009",
+    "row": 9,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Add the same letter to the beginning of TOP, COPE, TINK and LOT. Which letter makes meaningful words?",
+    "topic": "prefix_suffix",
+    "subtopic": "common one-letter prefix",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 12,
+    "source": "Word Building 02_ Class Notes.pdf, page 12; exam/year not stated",
+    "source_answer": "B: S",
+    "expected_answer": "S",
+    "correct_option": "B",
+    "explanation": "S forms STOP, SCOPE, STINK and SLOT.",
+    "independent_verification": "Prepend each option to all four stems; S yields four familiar words.",
+    "verification_data": {
+      "stems": [
+        "TOP",
+        "COPE",
+        "TINK",
+        "LOT"
+      ],
+      "prefix": "S",
+      "results": [
+        "STOP",
+        "SCOPE",
+        "STINK",
+        "SLOT"
+      ]
+    },
+    "concept_signature": "source_stop_scope_stink_slot_prefix",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-010",
+    "row": 10,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "When YAWN is arranged in alphabetical order, which letter remains in its original position?",
+    "topic": "alphabetical_positions",
+    "subtopic": "unchanged letter position",
+    "difficulty": "EASY",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 18,
+    "source": "Word Building 02_ Class Notes.pdf, page 18; exam/year not stated",
+    "source_answer": "A: W",
+    "expected_answer": "W",
+    "correct_option": "A",
+    "explanation": "Alphabetical order is A, N, W, Y. W remains in position 3, its original position.",
+    "independent_verification": "Sort the letters and compare each sorted position with the original word.",
+    "verification_data": {
+      "word": "YAWN",
+      "unchanged_positions": [
+        3
+      ]
+    },
+    "concept_signature": "source_yawn_unchanged_letter",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-011",
+    "row": 11,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "From AMPLIFICATION, which word can be formed using its letters?",
+    "topic": "word_formation",
+    "subtopic": "letter-frequency can-form",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 01_ Class Notes.pdf",
+    "source_page": 14,
+    "source": "Word Building 01_ Class Notes.pdf, page 14; exam/year not stated",
+    "source_answer": "D",
+    "expected_answer": "MANIA",
+    "correct_option": "D",
+    "explanation": "MANIA can be made from M, A, N, I and A. ACTOR and MANOR need R; CHAMP needs H, neither of which occurs in AMPLIFICATION.",
+    "independent_verification": "Check each candidate against the letter-frequency Counter for AMPLIFICATION.",
+    "verification_data": {
+      "base": "AMPLIFICATION",
+      "valid": {
+        "ACTOR": false,
+        "MANOR": false,
+        "CHAMP": false,
+        "MANIA": true
+      }
+    },
+    "concept_signature": "source_amplification_can_form",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-012",
+    "row": 12,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Letters map as T=5, M=4, H=3, R=2, E=1 and O=0. Which sequence spells MOTHER?",
+    "topic": "letter_jumbling",
+    "subtopic": "number mapping to MOTHER",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Word Building 02_ Class Notes.pdf, page 5; exam/year not stated",
+    "source_answer": "D",
+    "expected_answer": "4, 0, 5, 3, 1, 2",
+    "correct_option": "D",
+    "explanation": "MOTHER maps M=4, O=0, T=5, H=3, E=1, R=2: 4, 0, 5, 3, 1, 2.",
+    "independent_verification": "Use the displayed letter-number key in the order M-O-T-H-E-R.",
+    "verification_data": {
+      "mapping": {
+        "5": "T",
+        "4": "M",
+        "3": "H",
+        "2": "R",
+        "1": "E",
+        "0": "O"
+      },
+      "word": "MOTHER",
+      "sequence": "4, 0, 5, 3, 1, 2"
+    },
+    "concept_signature": "source_mother_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-013",
+    "row": 13,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Which word is second in dictionary order: THRONE, THRIFT, THROAT or THRILL?",
+    "topic": "dictionary_arrangement",
+    "subtopic": "shared-prefix second word",
+    "difficulty": "MEDIUM",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "THRILL",
+    "correct_option": "B",
+    "explanation": "All words begin THR. THRIFT and THRILL continue with I, which sorts before O in THROAT and THRONE. Between THRIFT and THRILL, F precedes L, so THRILL is second.",
+    "independent_verification": "Compare complete spellings lexicographically: THRIFT, THRILL, THROAT, THRONE.",
+    "verification_data": {
+      "words": [
+        "THRONE",
+        "THRIFT",
+        "THROAT",
+        "THRILL"
+      ],
+      "order": [
+        "THRIFT",
+        "THRILL",
+        "THROAT",
+        "THRONE"
+      ],
+      "position": 2
+    },
+    "concept_signature": "original_thrift_shared_prefix_second",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-014",
+    "row": 14,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Letters H, T, R, U, O and A are numbered 1, 2, 3, 4, 5 and 6 respectively. Which sequence spells AUTHOR?",
+    "topic": "letter_jumbling",
+    "subtopic": "letter-number mapping to AUTHOR",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 9,
+    "source": "Word Building 02_ Class Notes.pdf, page 9; exam/year not stated",
+    "source_answer": "A",
+    "expected_answer": "6, 4, 2, 1, 5, 3",
+    "correct_option": "A",
+    "explanation": "Using H=1, T=2, R=3, U=4, O=5 and A=6, AUTHOR maps A-U-T-H-O-R to 6, 4, 2, 1, 5, 3.",
+    "independent_verification": "Read AUTHOR in order and replace each letter with its displayed number.",
+    "verification_data": {
+      "mapping": {
+        "1": "H",
+        "2": "T",
+        "3": "R",
+        "4": "U",
+        "5": "O",
+        "6": "A"
+      },
+      "word": "AUTHOR",
+      "sequence": "6, 4, 2, 1, 5, 3"
+    },
+    "concept_signature": "source_author_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-015",
+    "row": 15,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many letters in DRAWING remain in the same position after its letters are alphabetized?",
+    "topic": "alphabetical_positions",
+    "subtopic": "unchanged positions after sorting",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 14,
+    "source": "Word Building 02_ Class Notes.pdf, page 14; exam/year not stated",
+    "source_answer": "D: 0",
+    "expected_answer": "0",
+    "correct_option": "D",
+    "explanation": "DRAWING sorts to A-D-G-I-N-R-W. Comparing positions 1 through 7 with D-R-A-W-I-N-G, no position contains the same letter.",
+    "independent_verification": "Alphabetically sort DRAWING and count index-by-index matches with the original.",
+    "verification_data": {
+      "word": "DRAWING",
+      "unchanged_positions": []
+    },
+    "concept_signature": "source_drawing_unchanged_count",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-016",
+    "row": 16,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many letters in DEVELOP remain in the same position after its letters are alphabetized?",
+    "topic": "alphabetical_positions",
+    "subtopic": "unchanged positions with repeated letters",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 15,
+    "source": "Word Building 02_ Class Notes.pdf, page 15; exam/year not stated",
+    "source_answer": "A: 2",
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "DEVELOP sorts to D-E-E-L-O-P-V. D at position 1 and E at position 2 stay in place; the other positions change.",
+    "independent_verification": "Sort the multiset of letters and compare each position; repeated Es are counted by position, not by identity.",
+    "verification_data": {
+      "word": "DEVELOP",
+      "unchanged_positions": [
+        1,
+        2
+      ]
+    },
+    "concept_signature": "source_develop_unchanged_count",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-017",
+    "row": 17,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "In SIGNATURE, how many letters lie between the first vowel and the last consonant?",
+    "topic": "letter_pairs",
+    "subtopic": "distance between specified letter positions",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 16,
+    "source": "Word Building 02_ Class Notes.pdf, page 16; exam/year not stated",
+    "source_answer": "C: 5",
+    "expected_answer": "5",
+    "correct_option": "C",
+    "explanation": "The first vowel I is at position 2. The last consonant R is at position 8. Positions 3 through 7 contain five letters.",
+    "independent_verification": "Locate the first vowel and last consonant, then subtract their indices and exclude both endpoints.",
+    "verification_data": {
+      "word": "SIGNATURE",
+      "first_vowel_index": 2,
+      "last_consonant_index": 8,
+      "between_count": 5
+    },
+    "concept_signature": "source_signature_inner_letters",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-018",
+    "row": 18,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many pairs in PERHAPS have the same number of letters between them in the word and in the alphabet? Count each pair once, in either alphabetic direction.",
+    "topic": "letter_pairs",
+    "subtopic": "equal word and alphabet separation",
+    "difficulty": "MEDIUM",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 20,
+    "source": "Word Building 02_ Class Notes.pdf, page 20; exam/year not stated",
+    "source_answer": "A: One",
+    "expected_answer": "1",
+    "correct_option": "A",
+    "explanation": "Only P-R qualifies: the letters are two positions apart in PERHAPS and two alphabet positions apart (P=16, R=18). The other pairs fail this equality.",
+    "independent_verification": "Enumerate all position pairs once and test abs(alphabet index difference) = word index difference.",
+    "verification_data": {
+      "word": "PERHAPS",
+      "pairs": [
+        [
+          "P",
+          "R"
+        ]
+      ],
+      "count": 1
+    },
+    "concept_signature": "source_perhaps_letter_pairs",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-019",
+    "row": 19,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "From EDUCATION, which word cannot be formed using its letters?",
+    "topic": "word_formation",
+    "subtopic": "repeated-letter frequency cannot-form",
+    "difficulty": "MEDIUM",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "EDUCATE",
+    "correct_option": "C",
+    "explanation": "EDUCATE needs two Es, while EDUCATION has one E. ACTION, CAUTION and AUCTION each fit the available letter frequencies.",
+    "independent_verification": "Compare each choice's frequency Counter with EDUCATION; EDUCATE is the only overdrawn letter count.",
+    "verification_data": {
+      "base": "EDUCATION",
+      "valid": {
+        "ACTION": true,
+        "CAUTION": true,
+        "EDUCATE": false,
+        "AUCTION": true
+      }
+    },
+    "concept_signature": "original_education_letter_frequency",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-020",
+    "row": 20,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Which suffix completes all four words: THANK__, CARE__, HOPE__ and USE__?",
+    "topic": "prefix_suffix",
+    "subtopic": "common productive suffix",
+    "difficulty": "MEDIUM",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "FUL",
+    "correct_option": "B",
+    "explanation": "FUL gives THANKFUL, CAREFUL, HOPEFUL and USEFUL, all common words. The other suffixes do not form a valid word with every stem.",
+    "independent_verification": "Append each candidate suffix to each stem and check that all four results are standard English words.",
+    "verification_data": {
+      "stems": [
+        "THANK",
+        "CARE",
+        "HOPE",
+        "USE"
+      ],
+      "suffix": "FUL",
+      "results": [
+        "THANKFUL",
+        "CAREFUL",
+        "HOPEFUL",
+        "USEFUL"
+      ]
+    },
+    "concept_signature": "original_common_ful_suffix",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-021",
+    "row": 21,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many letters in FLAGSTONE remain in the same position after alphabetical arrangement?",
+    "topic": "alphabetical_positions",
+    "subtopic": "unchanged positions in nine-letter word",
+    "difficulty": "HARD",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 17,
+    "source": "Word Building 02_ Class Notes.pdf, page 17; exam/year not stated",
+    "source_answer": "A: 2",
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "FLAGSTONE sorts to A-E-F-G-L-N-O-S-T. G remains at position 4 and O at position 7, so two positions are unchanged.",
+    "independent_verification": "Sort the letters and compare all nine positions; G at 4 and O at 7 are the only matches.",
+    "verification_data": {
+      "word": "FLAGSTONE",
+      "unchanged_positions": [
+        4,
+        7
+      ]
+    },
+    "concept_signature": "source_flagstone_unchanged_count",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-022",
+    "row": 22,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many qualifying letter pairs are in FANCIER? Count each pair once, including either alphabetic direction.",
+    "topic": "letter_pairs",
+    "subtopic": "enumerate all equal-distance pairs",
+    "difficulty": "HARD",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 21,
+    "source": "Word Building 02_ Class Notes.pdf, page 21; exam/year not stated",
+    "source_answer": "D: More than three",
+    "expected_answer": "More than three",
+    "correct_option": "D",
+    "explanation": "Five pairs qualify: F-C, A-C, A-E, N-R and C-E. In each, the absolute alphabet-position difference equals the distance between the letters' positions in FANCIER.",
+    "independent_verification": "Exhaustively test all 21 pairs of positions using absolute alphabetic distance; five satisfy the rule.",
+    "verification_data": {
+      "word": "FANCIER",
+      "pairs": [
+        [
+          "F",
+          "C"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "A",
+          "E"
+        ],
+        [
+          "N",
+          "R"
+        ],
+        [
+          "C",
+          "E"
+        ]
+      ],
+      "count": 5
+    },
+    "concept_signature": "source_fancier_letter_pairs",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-023",
+    "row": 23,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many qualifying letter pairs are in BEACON? Count each pair once, in either alphabetic direction.",
+    "topic": "letter_pairs",
+    "subtopic": "bidirectional equal-distance pairs",
+    "difficulty": "HARD",
+    "source_type": "pdf-derived",
+    "source_pdf": "Word Building 02_ Class Notes.pdf",
+    "source_page": 22,
+    "source": "Word Building 02_ Class Notes.pdf, page 22; exam/year not stated",
+    "source_answer": "B: Two",
+    "expected_answer": "2",
+    "correct_option": "B",
+    "explanation": "E-C qualifies because their alphabet positions differ by 2 and they are two places apart in the word. O-N also qualifies at distance 1. Total: 2.",
+    "independent_verification": "Check every pair once with absolute alphabet-position difference equal to their word-position distance.",
+    "verification_data": {
+      "word": "BEACON",
+      "pairs": [
+        [
+          "E",
+          "C"
+        ],
+        [
+          "O",
+          "N"
+        ]
+      ],
+      "count": 2
+    },
+    "concept_signature": "source_beacon_letter_pairs",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-024",
+    "row": 24,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Arrange PREVENT, PREVIEW, PREY and PREACH in dictionary order. Which word is third?",
+    "topic": "dictionary_arrangement",
+    "subtopic": "third word among shared-prefix items",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "PREVIEW",
+    "correct_option": "B",
+    "explanation": "The complete dictionary order is PREACH, PREVENT, PREVIEW, PREY, so PREVIEW is third.",
+    "independent_verification": "Sort all full words lexicographically, then select position three.",
+    "verification_data": {
+      "words": [
+        "PREVENT",
+        "PREVIEW",
+        "PREY",
+        "PREACH"
+      ],
+      "order": [
+        "PREACH",
+        "PREVENT",
+        "PREVIEW",
+        "PREY"
+      ],
+      "position": 3
+    },
+    "concept_signature": "original_pre_third_dictionary_word",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-025",
+    "row": 25,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Arrange TRANSFER, TRANSIT, TRANSLATE and TRANSPORT in dictionary order. Which word is second?",
+    "topic": "dictionary_arrangement",
+    "subtopic": "long common-prefix comparison",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "TRANSIT",
+    "correct_option": "B",
+    "explanation": "After TRANS, the next differing letters are F, I, L and P, respectively. Thus TRANSFER, TRANSIT, TRANSLATE, TRANSPORT; TRANSIT is second.",
+    "independent_verification": "Compare each word letter-by-letter after the common TRANS prefix; F < I < L < P.",
+    "verification_data": {
+      "words": [
+        "TRANSFER",
+        "TRANSIT",
+        "TRANSLATE",
+        "TRANSPORT"
+      ],
+      "order": [
+        "TRANSFER",
+        "TRANSIT",
+        "TRANSLATE",
+        "TRANSPORT"
+      ],
+      "position": 2
+    },
+    "concept_signature": "original_trans_dictionary_second",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-026",
+    "row": 26,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "From MISSISSIPPI, which word cannot be formed using its letters?",
+    "topic": "word_formation",
+    "subtopic": "multiple repeated-letter counts",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "PIPES",
+    "correct_option": "D",
+    "explanation": "PIPES requires E, absent from MISSISSIPPI. Each other option is within the source frequencies (M=1, I=4, S=4, P=2).",
+    "independent_verification": "Compare each option's frequency Counter against MISSISSIPPI; PIPES alone uses a missing letter.",
+    "verification_data": {
+      "base": "MISSISSIPPI",
+      "valid": {
+        "MISS": true,
+        "PISS": true,
+        "SIPS": true,
+        "PIPES": false
+      }
+    },
+    "concept_signature": "original_mississippi_letter_frequency",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-027",
+    "row": 27,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "Letters are numbered 1=T, 2=A, 3=E, 4=C and 5=R. Which sequence forms TRACE?",
+    "topic": "letter_jumbling",
+    "subtopic": "reordered five-letter mapping",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "1, 5, 2, 4, 3",
+    "correct_option": "A",
+    "explanation": "TRACE maps T=1, R=5, A=2, C=4 and E=3. The sequence is 1, 5, 2, 4, 3.",
+    "independent_verification": "Decode each number in the sequence and compare the resulting letters with TRACE.",
+    "verification_data": {
+      "mapping": {
+        "1": "T",
+        "2": "A",
+        "3": "E",
+        "4": "C",
+        "5": "R"
+      },
+      "word": "TRACE",
+      "sequence": "1, 5, 2, 4, 3"
+    },
+    "concept_signature": "original_trace_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-028",
+    "row": 28,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "The letters G, A, R, D, E and N are numbered 3, 5, 1, 4, 2 and 6 respectively. Which number sequence spells GARDEN?",
+    "topic": "letter_jumbling",
+    "subtopic": "six-letter mapped word",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "3, 5, 1, 4, 2, 6",
+    "correct_option": "A",
+    "explanation": "Read the code in G-A-R-D-E-N order: 3, 5, 1, 4, 2, 6.",
+    "independent_verification": "Apply the given number for each successive letter in GARDEN.",
+    "verification_data": {
+      "mapping": {
+        "3": "G",
+        "5": "A",
+        "1": "R",
+        "4": "D",
+        "2": "E",
+        "6": "N"
+      },
+      "word": "GARDEN",
+      "sequence": "3, 5, 1, 4, 2, 6"
+    },
+    "concept_signature": "original_garden_number_sequence",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-029",
+    "row": 29,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many letters in BALLOON remain in the same position after alphabetical arrangement?",
+    "topic": "alphabetical_positions",
+    "subtopic": "repeated letters after sorting",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "3",
+    "correct_option": "C",
+    "explanation": "BALLOON sorts to A-B-L-L-N-O-O. The two Ls remain at positions 3 and 4, and O remains at position 6: three positions match.",
+    "independent_verification": "Sort the letters as a multiset and compare position-by-position; positions 3 and 4 match.",
+    "verification_data": {
+      "word": "BALLOON",
+      "unchanged_positions": [
+        3,
+        4,
+        6
+      ]
+    },
+    "concept_signature": "original_balloon_unchanged_positions",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  },
+  {
+    "question_id": "word-building-030",
+    "row": 30,
+    "chapter_id": "886e3a61-031f-48ce-9c62-aff6db3ba7a5",
+    "question": "How many pairs in DECEPTION have the same number of letters between them in the word and in the alphabet? Count each pair once in either alphabetic direction.",
+    "topic": "letter_pairs",
+    "subtopic": "exhaustive equal-distance pair count",
+    "difficulty": "HARD",
+    "source_type": "original",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "source_answer": null,
+    "expected_answer": "2",
+    "correct_option": "A",
+    "explanation": "The qualifying pairs are D-E and O-N; each pair is adjacent in the word and adjacent in the alphabet. Therefore there are two pairs.",
+    "independent_verification": "Enumerate all pairs of positions and count those where absolute alphabet-index gap equals word-index gap.",
+    "verification_data": {
+      "word": "DECEPTION",
+      "pairs": [
+        [
+          "D",
+          "E"
+        ],
+        [
+          "O",
+          "N"
+        ]
+      ],
+      "count": 2
+    },
+    "concept_signature": "original_deception_letter_pairs",
+    "is_pyq": false,
+    "validation_status": "PASS - independent checks and four-option review"
+  }
+]
