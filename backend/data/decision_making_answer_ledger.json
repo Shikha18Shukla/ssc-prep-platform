@@ -1,0 +1,1829 @@
+[
+  {
+    "id": "dm-001",
+    "row": 1,
+    "category": "SITUATIONAL",
+    "topic": "communal sensitivity and impartial public service",
+    "question": "You are posted to a communally sensitive area. Which response best supports calm, impartial administration?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 4,
+    "source": "Decision Making 01 Class Notes.pdf, page 4; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "You are posted to a communally sensitive area. Which response best supports calm, impartial administration?",
+    "eligibility": null,
+    "options": {
+      "A": "Resign from the post immediately.",
+      "B": "Seek political patronage before taking any action.",
+      "C": "Request a transfer without first assessing the situation.",
+      "D": "Coordinate with the administration and representative community leaders to establish respectful, impartial communication."
+    },
+    "correct_option": "D",
+    "correct_answer": "Coordinate with the administration and representative community leaders to establish respectful, impartial communication.",
+    "independent_reasoning": "Impartial contact with representative community leaders, coordinated through the administration, can build communication and reduce tension. Resigning or seeking political patronage avoids neutral public service; requesting transfer does not address the immediate responsibility.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-002",
+    "row": 2,
+    "category": "ELIGIBILITY",
+    "topic": "date-specific age and mandatory criteria",
+    "question": "Rules: graduation marks: gte 50; age: 24 to 30 inclusive; marketing experience: gte 6. \nCase: Decision rules for a marketing trainee are assessed on 1 October 2016. Sohan Das has a B.Sc. with 56% marks, was born on 10 May 1982, and has two years of marketing-department experience. What decision follows?\nWhat decision follows?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 22,
+    "source": "Decision Making 01 Class Notes.pdf, page 22; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "Decision rules for a marketing trainee are assessed on 1 October 2016. Sohan Das has a B.Sc. with 56% marks, was born on 10 May 1982, and has two years of marketing-department experience. What decision follows?",
+    "eligibility": {
+      "candidate": {
+        "graduate_pct": 56,
+        "date_of_birth": "1982-05-10",
+        "as_of": "2016-10-01",
+        "marketing_experience_months": 24,
+        "management_diploma": false
+      },
+      "criteria": [
+        {
+          "name": "graduation marks",
+          "field": "graduate_pct",
+          "op": "gte",
+          "value": 50
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 24,
+          "maximum": 30
+        },
+        {
+          "name": "marketing experience",
+          "field": "marketing_experience_months",
+          "op": "gte",
+          "value": 6
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "REJECT",
+      "evaluator_result": {
+        "outcome": "REJECT",
+        "authority": null,
+        "failed": [
+          "age"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Reject the candidate.",
+      "B": "Select the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "A",
+    "correct_answer": "Reject the candidate.",
+    "independent_reasoning": "Sohan has 56% and 24 months of relevant experience, but he was 34 on 1 October 2016, above the inclusive 24–30 age range. The management-diploma exception applies only when experience is the sole unmet criterion, so it cannot cure the age failure.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-003",
+    "row": 3,
+    "category": "SITUATIONAL",
+    "topic": "judicial impartiality and due process",
+    "question": "You are a judge hearing a well-known person’s case while media pressure is high. What should guide the decision?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 5,
+    "source": "Decision Making 01 Class Notes.pdf, page 5; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "You are a judge hearing a well-known person’s case while media pressure is high. What should guide the decision?",
+    "eligibility": null,
+    "options": {
+      "A": "Media perception and public opinion.",
+      "B": "Legal precedents together with personal bias.",
+      "C": "Evidence and applicable law, assessed impartially.",
+      "D": "Friends’ views before reaching a judgment."
+    },
+    "correct_option": "C",
+    "correct_answer": "Evidence and applicable law, assessed impartially.",
+    "independent_reasoning": "A judicial decision must rest on the evidence and applicable law, without media pressure or personal bias. Friends’ opinions are not a substitute for the record or legal process.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-004",
+    "row": 4,
+    "category": "SITUATIONAL",
+    "topic": "patient autonomy and informed refusal",
+    "question": "A competent adult patient understands the likely consequences but refuses a prescribed medicine because of personal beliefs. What should the doctor do first?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 6,
+    "source": "Decision Making 01 Class Notes.pdf, page 6; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A competent adult patient understands the likely consequences but refuses a prescribed medicine because of personal beliefs. What should the doctor do first?",
+    "eligibility": null,
+    "options": {
+      "A": "Respect the refusal without explaining risks or recording the discussion.",
+      "B": "Explain benefits, risks and alternatives, check understanding, respect the informed decision, and document the refusal.",
+      "C": "Force the medicine because the doctor prescribed it.",
+      "D": "Ignore the patient and end care."
+    },
+    "correct_option": "B",
+    "correct_answer": "Explain benefits, risks and alternatives, check understanding, respect the informed decision, and document the refusal.",
+    "independent_reasoning": "A capable adult’s informed refusal should be respected after clear, non-coercive counselling. Documenting the discussion supports continuity and accountability. Coercion violates autonomy; ignoring or abandoning the patient is not appropriate care.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-005",
+    "row": 5,
+    "category": "ELIGIBILITY",
+    "topic": "date-bounded age and scoped exception",
+    "question": "Rules: age: 25 to 40 inclusive; degree marks: gte 65; university library experience: gte 48. Exception: if only degree marks is unmet and the stated condition(s) hold, refer to Director of the institute.\nCase: A research institute is filling an Assistant Librarian post. All cases are considered on 1 November 2016. Vidya earned 72% in a Bachelor's degree in Library and Information Science, qualified UGC NET in 2016 at age 23, and completed a five-year internship in a university library. What decision follows?\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 8,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 8; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A research institute is filling an Assistant Librarian post. All cases are considered on 1 November 2016. Vidya earned 72% in a Bachelor's degree in Library and Information Science, qualified UGC NET in 2016 at age 23, and completed a five-year internship in a university library. What decision follows?",
+    "eligibility": {
+      "candidate": {
+        "age_range_on_reference": [
+          23,
+          24
+        ],
+        "library_information_science_pct": 72,
+        "university_library_experience_months": 60,
+        "ugc_net": true
+      },
+      "criteria": [
+        {
+          "name": "age",
+          "field": "age_range_on_reference",
+          "op": "range_within",
+          "minimum": 25,
+          "maximum": 40
+        },
+        {
+          "name": "degree marks",
+          "field": "library_information_science_pct",
+          "op": "gte",
+          "value": 65
+        },
+        {
+          "name": "university library experience",
+          "field": "university_library_experience_months",
+          "op": "gte",
+          "value": 48
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "degree marks"
+          ],
+          "when": [
+            {
+              "field": "ugc_net",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "authority": "Director of the institute"
+        }
+      ],
+      "expected_outcome": "REJECT",
+      "evaluator_result": {
+        "outcome": "REJECT",
+        "authority": null,
+        "failed": [
+          "age"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Refer the case to the designated authority.",
+      "C": "Reject the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "C",
+    "correct_answer": "Reject the candidate.",
+    "independent_reasoning": "The source says she qualified UGC NET at age 23 during 2016. By the 1 November 2016 reference date her exact age could be 23 or 24, but it cannot be 25; the range is wholly below the minimum. UGC NET permits referral only when degree marks are the sole unmet criterion, and does not waive age.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-006",
+    "row": 6,
+    "category": "SITUATIONAL",
+    "topic": "environmental harm and lawful escalation",
+    "question": "As a municipal officer, you directly observe a factory releasing waste into a river at night and can safely identify the location. What should you prioritize?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 7,
+    "source": "Decision Making 01 Class Notes.pdf, page 7; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "As a municipal officer, you directly observe a factory releasing waste into a river at night and can safely identify the location. What should you prioritize?",
+    "eligibility": null,
+    "options": {
+      "A": "Wait a month before recording anything.",
+      "B": "Secure factual observations, use the lawful enforcement process, and notify the environmental authority promptly.",
+      "C": "Privately threaten the factory staff.",
+      "D": "Secretly publish unverified accusations online."
+    },
+    "correct_option": "B",
+    "correct_answer": "Secure factual observations, use the lawful enforcement process, and notify the environmental authority promptly.",
+    "independent_reasoning": "A factual record and prompt use of authorized enforcement and environmental reporting channels address the ongoing harm while preserving evidence and due process. Delay, threats, and public claims not yet verified are unsafe or improper.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-007",
+    "row": 7,
+    "category": "ELIGIBILITY",
+    "topic": "rule-based selection and exact reference date",
+    "question": "Rules: graduation marks: gte 50; age: 24 to 30 inclusive; marketing experience: gte 6. \nCase: A marketing trainee must be a graduate with at least 50%, be 24–30 inclusive on 1 October 2016, and have at least six months of marketing-department experience. A candidate who meets the other criteria but lacks experience is referred to the Marketing Manager if they hold a management diploma. Dhaval Kulkarni graduated with 58%, was born on 18 June 1990, has eight months of marketing experience, and has no management diploma. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 23,
+    "source": "Decision Making 01 Class Notes.pdf, page 23; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A marketing trainee must be a graduate with at least 50%, be 24–30 inclusive on 1 October 2016, and have at least six months of marketing-department experience. A candidate who meets the other criteria but lacks experience is referred to the Marketing Manager if they hold a management diploma. Dhaval Kulkarni graduated with 58%, was born on 18 June 1990, has eight months of marketing experience, and has no management diploma. Decide.",
+    "eligibility": {
+      "candidate": {
+        "graduate_pct": 58,
+        "date_of_birth": "1990-06-18",
+        "as_of": "2016-10-01",
+        "marketing_experience_months": 8,
+        "management_diploma": false
+      },
+      "criteria": [
+        {
+          "name": "graduation marks",
+          "field": "graduate_pct",
+          "op": "gte",
+          "value": 50
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 24,
+          "maximum": 30
+        },
+        {
+          "name": "marketing experience",
+          "field": "marketing_experience_months",
+          "op": "gte",
+          "value": 6
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "SELECT",
+      "evaluator_result": {
+        "outcome": "SELECT",
+        "authority": null,
+        "failed": [],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Reject the candidate.",
+      "B": "Select the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "B",
+    "correct_answer": "Select the candidate.",
+    "independent_reasoning": "Dhaval was 26 on the reference date, has 58% graduation marks, and has eight months of marketing experience. He satisfies all three mandatory conditions, so he should be selected; the diploma exception is not needed.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-008",
+    "row": 8,
+    "category": "SITUATIONAL",
+    "topic": "accessible and fair public service",
+    "question": "A government clerk receives an incomplete application from a villager who does not understand the procedure. What is the most appropriate response?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 8,
+    "source": "Decision Making 01 Class Notes.pdf, page 8; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A government clerk receives an incomplete application from a villager who does not understand the procedure. What is the most appropriate response?",
+    "eligibility": null,
+    "options": {
+      "A": "Reject it immediately without explaining why.",
+      "B": "Explain the missing items and the permitted way to complete them, applying the same rules fairly.",
+      "C": "Return it without identifying what is missing.",
+      "D": "Ignore the application because assistance is not part of public service."
+    },
+    "correct_option": "B",
+    "correct_answer": "Explain the missing items and the permitted way to complete them, applying the same rules fairly.",
+    "independent_reasoning": "Clear guidance helps the applicant complete the process while preserving the same documentary requirements for everyone. Immediate unexplained rejection, an unhelpful return, or neglect would deny fair access to the procedure.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-009",
+    "row": 9,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: graduation marks: gte 50; age: 24 to 30 inclusive; marketing experience: gte 6. Exception: if only marketing experience is unmet and the stated condition(s) hold, refer to Marketing Manager.\nCase: Marketing-trainee rules: at least 50% graduation marks; age 24–30 inclusive on 1 October 2016; at least six months of marketing experience. If experience alone is missing, a candidate with a management diploma is referred to the Marketing Manager. Naveen Ghosh has a B.Com. with 70%, is 29 on the reference date, has a marketing diploma, and has no marketing-department experience. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 24,
+    "source": "Decision Making 01 Class Notes.pdf, page 24; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "Marketing-trainee rules: at least 50% graduation marks; age 24–30 inclusive on 1 October 2016; at least six months of marketing experience. If experience alone is missing, a candidate with a management diploma is referred to the Marketing Manager. Naveen Ghosh has a B.Com. with 70%, is 29 on the reference date, has a marketing diploma, and has no marketing-department experience. Decide.",
+    "eligibility": {
+      "candidate": {
+        "graduate_pct": 70,
+        "age_years": 29,
+        "as_of": "2016-10-01",
+        "marketing_experience_months": 0,
+        "management_diploma": true
+      },
+      "criteria": [
+        {
+          "name": "graduation marks",
+          "field": "graduate_pct",
+          "op": "gte",
+          "value": 50
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 24,
+          "maximum": 30
+        },
+        {
+          "name": "marketing experience",
+          "field": "marketing_experience_months",
+          "op": "gte",
+          "value": 6
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "marketing experience"
+          ],
+          "when": [
+            {
+              "field": "management_diploma",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "authority": "Marketing Manager"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "Marketing Manager",
+        "failed": [
+          "marketing experience"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Refer the case to the Marketing Manager.",
+      "C": "Reject the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "B",
+    "correct_answer": "Refer the case to the Marketing Manager.",
+    "independent_reasoning": "Naveen meets the marks and age criteria. Experience is the only unmet requirement, and he holds a marketing management diploma, so the stated exception sends his case to the Marketing Manager rather than selecting or rejecting him outright.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-010",
+    "row": 10,
+    "category": "SITUATIONAL",
+    "topic": "infection control and immediate safety",
+    "question": "A patient with a contagious disease is admitted to a hospital. What is the best first step?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 9,
+    "source": "Decision Making 01 Class Notes.pdf, page 9; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A patient with a contagious disease is admitted to a hospital. What is the best first step?",
+    "eligibility": null,
+    "options": {
+      "A": "Apply the facility's isolation precautions and promptly alert the responsible clinician or infection-control team.",
+      "B": "Ask the patient to wait in the general waiting area.",
+      "C": "Inform the media before the clinical team.",
+      "D": "Discharge the patient immediately."
+    },
+    "correct_option": "A",
+    "correct_answer": "Apply the facility's isolation precautions and promptly alert the responsible clinician or infection-control team.",
+    "independent_reasoning": "Prompt isolation under facility protocol limits exposure while the clinical and infection-control teams assess the patient. Waiting among others, disclosing information to the media, or discharging without assessment could increase harm.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-011",
+    "row": 11,
+    "category": "ELIGIBILITY",
+    "topic": "multiple mandatory criteria",
+    "question": "Rules: library science degree: eq True; age under 32: lt 32; library experience: gte 12. \nCase: A junior librarian must have a Bachelor's degree in Library Science, be under 32, and have at least one year of experience in any library, assessed on 1 April 2025. Rina is 31, holds a B.Lib.Sc., and has 18 months of experience in a college library. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 4,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 4; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A junior librarian must have a Bachelor's degree in Library Science, be under 32, and have at least one year of experience in any library, assessed on 1 April 2025. Rina is 31, holds a B.Lib.Sc., and has 18 months of experience in a college library. Decide.",
+    "eligibility": {
+      "candidate": {
+        "bachelor_library_science": true,
+        "age_years": 31,
+        "library_experience_months": 18,
+        "as_of": "2025-04-01"
+      },
+      "criteria": [
+        {
+          "name": "library science degree",
+          "field": "bachelor_library_science",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "age under 32",
+          "field": "age_years",
+          "op": "lt",
+          "value": 32
+        },
+        {
+          "name": "library experience",
+          "field": "library_experience_months",
+          "op": "gte",
+          "value": 12
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "SELECT",
+      "evaluator_result": {
+        "outcome": "SELECT",
+        "authority": null,
+        "failed": [],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Reject the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "A",
+    "correct_answer": "Select the candidate.",
+    "independent_reasoning": "Rina has the required degree, is under 32 on the stated date, and has more than 12 months of library experience. A college library counts because the rule says any library.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-012",
+    "row": 12,
+    "category": "SITUATIONAL",
+    "topic": "emergency response and evacuation",
+    "question": "A fire alarm sounds in a government building while you are working at the front desk. What should you do?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 10,
+    "source": "Decision Making 01 Class Notes.pdf, page 10; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A fire alarm sounds in a government building while you are working at the front desk. What should you do?",
+    "eligibility": null,
+    "options": {
+      "A": "Keep working until someone personally confirms the fire.",
+      "B": "Shout at people without giving directions.",
+      "C": "Follow the building evacuation procedure, guide people to safety, and alert emergency responders or the designated authority.",
+      "D": "Turn off the alarm so work can continue."
+    },
+    "correct_option": "C",
+    "correct_answer": "Follow the building evacuation procedure, guide people to safety, and alert emergency responders or the designated authority.",
+    "independent_reasoning": "Treat the alarm as an immediate safety signal: follow the evacuation procedure, help people leave safely, and notify the designated responders. Waiting, creating panic, or disabling the alarm can expose people to danger.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-013",
+    "row": 13,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: B.Sc. marks: gte 60; M.Sc.: eq True; age under 28: lt 28; prior experience: gte 1. Exception: if only prior experience is unmet and the stated condition(s) hold, refer to Principal.\nCase: A junior librarian must have a B.Sc. with at least 60%, an M.Sc., and be below 28 on 1 January 2017. Prior work experience is preferred. If an otherwise eligible candidate has no work experience, refer the case to the Principal; if all criteria including experience are met, select. Neeraj has a B.Sc. with 65%, an M.Sc., is 26 on the reference date, and has no work experience. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 5,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 5; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A junior librarian must have a B.Sc. with at least 60%, an M.Sc., and be below 28 on 1 January 2017. Prior work experience is preferred. If an otherwise eligible candidate has no work experience, refer the case to the Principal; if all criteria including experience are met, select. Neeraj has a B.Sc. with 65%, an M.Sc., is 26 on the reference date, and has no work experience. Decide.",
+    "eligibility": {
+      "candidate": {
+        "bsc_pct": 65,
+        "msc": true,
+        "age_years": 26,
+        "prior_experience_months": 0,
+        "as_of": "2017-01-01"
+      },
+      "criteria": [
+        {
+          "name": "B.Sc. marks",
+          "field": "bsc_pct",
+          "op": "gte",
+          "value": 60
+        },
+        {
+          "name": "M.Sc.",
+          "field": "msc",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "age under 28",
+          "field": "age_years",
+          "op": "lt",
+          "value": 28
+        },
+        {
+          "name": "prior experience",
+          "field": "prior_experience_months",
+          "op": "gte",
+          "value": 1
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "prior experience"
+          ],
+          "when": [
+            {
+              "field": "prior_experience_months",
+              "op": "eq",
+              "value": 0
+            }
+          ],
+          "authority": "Principal"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "Principal",
+        "failed": [
+          "prior experience"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Refer the case to the Principal.",
+      "B": "Select the candidate.",
+      "C": "Reject the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "A",
+    "correct_answer": "Refer the case to the Principal.",
+    "independent_reasoning": "Neeraj meets the degree and age conditions. The rules specifically direct an otherwise eligible candidate with no experience to the Principal, so this is a referral rather than a selection or rejection.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-014",
+    "row": 14,
+    "category": "SITUATIONAL",
+    "topic": "medical emergency and prioritization",
+    "question": "A critically ill patient arrives at a hospital reception desk. What should the receptionist do first?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 11,
+    "source": "Decision Making 01 Class Notes.pdf, page 11; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A critically ill patient arrives at a hospital reception desk. What should the receptionist do first?",
+    "eligibility": null,
+    "options": {
+      "A": "Complete all paperwork before calling clinical staff.",
+      "B": "Send the patient away to fetch documents.",
+      "C": "Wait for senior administrative approval before alerting clinicians.",
+      "D": "Activate the emergency response and call the doctor or triage team, then assist with paperwork when care is underway."
+    },
+    "correct_option": "D",
+    "correct_answer": "Activate the emergency response and call the doctor or triage team, then assist with paperwork when care is underway.",
+    "independent_reasoning": "The receptionist should promptly alert clinical staff or activate triage so urgent care can begin; paperwork can follow. Delays for forms, documents, or administrative approval put the patient at unnecessary risk.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-015",
+    "row": 15,
+    "category": "SITUATIONAL",
+    "topic": "honesty and lost property",
+    "question": "You see someone drop a wallet on a public street. What should you do?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 12,
+    "source": "Decision Making 01 Class Notes.pdf, page 12; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "You see someone drop a wallet on a public street. What should you do?",
+    "eligibility": null,
+    "options": {
+      "A": "Make a reasonable effort to return it to the owner or hand it to an appropriate lost-property authority.",
+      "B": "Ignore it and continue walking.",
+      "C": "Keep it because no one saw you pick it up.",
+      "D": "Donate the contents without checking for the owner."
+    },
+    "correct_option": "A",
+    "correct_answer": "Make a reasonable effort to return it to the owner or hand it to an appropriate lost-property authority.",
+    "independent_reasoning": "Returning the wallet or handing it to a responsible lost-property authority protects the owner's property. Keeping, ignoring, or disposing of it does not.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-016",
+    "row": 16,
+    "category": "ELIGIBILITY",
+    "topic": "missing facts and non-inference",
+    "question": "Rules: age: 25 to 40 inclusive; degree marks: gte 65; university library experience: gte 48. \nCase: A research institute Assistant Librarian must be aged 25–40 inclusive on 1 November 2016, hold a Library and Information Science bachelor's degree with at least 65%, and have four years of practical university-library experience. If the degree-mark criterion alone is missed but the candidate has UGC NET, refer to the Director. Meha has 69% and is currently an intern at Ranchi University, but her age and the duration of her experience are not stated. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 9,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 9; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A research institute Assistant Librarian must be aged 25–40 inclusive on 1 November 2016, hold a Library and Information Science bachelor's degree with at least 65%, and have four years of practical university-library experience. If the degree-mark criterion alone is missed but the candidate has UGC NET, refer to the Director. Meha has 69% and is currently an intern at Ranchi University, but her age and the duration of her experience are not stated. Decide.",
+    "eligibility": {
+      "candidate": {
+        "library_information_science_pct": 69,
+        "age_years": null,
+        "university_library_experience_months": null,
+        "ugc_net": null,
+        "as_of": "2016-11-01"
+      },
+      "criteria": [
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 25,
+          "maximum": 40
+        },
+        {
+          "name": "degree marks",
+          "field": "library_information_science_pct",
+          "op": "gte",
+          "value": 65
+        },
+        {
+          "name": "university library experience",
+          "field": "university_library_experience_months",
+          "op": "gte",
+          "value": 48
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "INSUFFICIENT",
+      "evaluator_result": {
+        "outcome": "INSUFFICIENT",
+        "authority": null,
+        "failed": [],
+        "missing": [
+          "age",
+          "university library experience"
+        ]
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Reject the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "D",
+    "correct_answer": "The information is insufficient to decide.",
+    "independent_reasoning": "Her 69% meets the degree threshold, but the case omits her age and how long she has worked in a university library. Being an intern does not establish four years of experience; without those facts, selection, rejection, or referral cannot be decided.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-017",
+    "row": 17,
+    "category": "SITUATIONAL",
+    "topic": "seeking guidance and accountability",
+    "question": "You have been assigned a work task that you do not know how to perform. What is the best course?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 13,
+    "source": "Decision Making 01 Class Notes.pdf, page 13; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "You have been assigned a work task that you do not know how to perform. What is the best course?",
+    "eligibility": null,
+    "options": {
+      "A": "Make excuses and leave it unfinished.",
+      "B": "Seek guidance or suitable training, then complete the task accurately.",
+      "C": "Guess at the procedure and submit work that may be wrong.",
+      "D": "Delay it without telling anyone."
+    },
+    "correct_option": "B",
+    "correct_answer": "Seek guidance or suitable training, then complete the task accurately.",
+    "independent_reasoning": "Promptly seeking guidance lets the task be completed accurately and responsibly. Excuses, guessing, and uncommunicated delay risk poor work and undermine accountability.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-018",
+    "row": 18,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: citizenship: eq True; age limit: lte 19; medical fitness: eq True; required competition: eq True; criminal record: eq 0; anti-doping: eq True. Exception: if only anti-doping is unmet and the stated condition(s) hold, refer to BCCI President. Exception: if only criminal record is unmet and the stated condition(s) hold, refer to State Government. Exception: if only medical fitness is unmet and the stated condition(s) hold, refer to Medical Association.\nCase: An Indian cricket player must be an Indian citizen, be no more than 19 on 1 November 2016, be medically fit, have played in an Under-19 World Cup or the Ranji Trophy, have no criminal cases, and pass anti-doping screening. Failure only of anti-doping screening is referred to the BCCI President; a criminal-case issue goes to the State Government, and a medical-fitness failure goes to the Medical Association. Mahesh is 19, Indian, medically fit, played in the Under-19 World Cup, has no criminal case, and failed the anti-doping test. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 11,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 11; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "An Indian cricket player must be an Indian citizen, be no more than 19 on 1 November 2016, be medically fit, have played in an Under-19 World Cup or the Ranji Trophy, have no criminal cases, and pass anti-doping screening. Failure only of anti-doping screening is referred to the BCCI President; a criminal-case issue goes to the State Government, and a medical-fitness failure goes to the Medical Association. Mahesh is 19, Indian, medically fit, played in the Under-19 World Cup, has no criminal case, and failed the anti-doping test. Decide.",
+    "eligibility": {
+      "candidate": {
+        "indian_citizen": true,
+        "age_years": 19,
+        "medically_fit": true,
+        "played_u19_or_ranji": true,
+        "criminal_cases": 0,
+        "anti_doping_passed": false
+      },
+      "criteria": [
+        {
+          "name": "citizenship",
+          "field": "indian_citizen",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "age limit",
+          "field": "age_years",
+          "op": "lte",
+          "value": 19
+        },
+        {
+          "name": "medical fitness",
+          "field": "medically_fit",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "required competition",
+          "field": "played_u19_or_ranji",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "criminal record",
+          "field": "criminal_cases",
+          "op": "eq",
+          "value": 0
+        },
+        {
+          "name": "anti-doping",
+          "field": "anti_doping_passed",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "anti-doping"
+          ],
+          "when": [
+            {
+              "field": "anti_doping_passed",
+              "op": "eq",
+              "value": false
+            }
+          ],
+          "authority": "BCCI President"
+        },
+        {
+          "failed_criteria": [
+            "criminal record"
+          ],
+          "when": [
+            {
+              "field": "criminal_cases",
+              "op": "gt",
+              "value": 0
+            }
+          ],
+          "authority": "State Government"
+        },
+        {
+          "failed_criteria": [
+            "medical fitness"
+          ],
+          "when": [
+            {
+              "field": "medically_fit",
+              "op": "eq",
+              "value": false
+            }
+          ],
+          "authority": "Medical Association"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "BCCI President",
+        "failed": [
+          "anti-doping"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Refer the case to the BCCI President.",
+      "B": "Select the candidate.",
+      "C": "Reject the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "A",
+    "correct_answer": "Refer the case to the BCCI President.",
+    "independent_reasoning": "Mahesh meets the nationality, age, fitness, competition, and criminal-record conditions. Anti-doping is the sole failed condition, and the rule explicitly refers that case to the BCCI President.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-019",
+    "row": 19,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: citizenship: eq True; age limit: lte 19; medical fitness: eq True; required competition: eq True; criminal record: eq 0; anti-doping: eq True. Exception: if only anti-doping is unmet and the stated condition(s) hold, refer to BCCI President. Exception: if only criminal record is unmet and the stated condition(s) hold, refer to State Government. Exception: if only medical fitness is unmet and the stated condition(s) hold, refer to Medical Association.\nCase: Use the cricket-selection rules: Indian citizenship, age no more than 19 on 1 November 2016, medical fitness, play in an Under-19 World Cup or Ranji Trophy, no criminal cases, and a passed anti-doping test. Referral exceptions apply only to a sole failure in medical fitness, criminal record, or anti-doping screening. Ram was born on 26 May 1990, is Indian, played in the Ranji Trophy, and passed both medical-fitness and anti-doping tests; no criminal case is reported. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 12,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 12; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "Use the cricket-selection rules: Indian citizenship, age no more than 19 on 1 November 2016, medical fitness, play in an Under-19 World Cup or Ranji Trophy, no criminal cases, and a passed anti-doping test. Referral exceptions apply only to a sole failure in medical fitness, criminal record, or anti-doping screening. Ram was born on 26 May 1990, is Indian, played in the Ranji Trophy, and passed both medical-fitness and anti-doping tests; no criminal case is reported. Decide.",
+    "eligibility": {
+      "candidate": {
+        "indian_citizen": true,
+        "date_of_birth": "1990-05-26",
+        "as_of": "2016-11-01",
+        "medically_fit": true,
+        "played_u19_or_ranji": true,
+        "criminal_cases": 0,
+        "anti_doping_passed": true
+      },
+      "criteria": [
+        {
+          "name": "citizenship",
+          "field": "indian_citizen",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "age limit",
+          "field": "age_years",
+          "op": "lte",
+          "value": 19
+        },
+        {
+          "name": "medical fitness",
+          "field": "medically_fit",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "required competition",
+          "field": "played_u19_or_ranji",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "criminal record",
+          "field": "criminal_cases",
+          "op": "eq",
+          "value": 0
+        },
+        {
+          "name": "anti-doping",
+          "field": "anti_doping_passed",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "anti-doping"
+          ],
+          "when": [
+            {
+              "field": "anti_doping_passed",
+              "op": "eq",
+              "value": false
+            }
+          ],
+          "authority": "BCCI President"
+        },
+        {
+          "failed_criteria": [
+            "criminal record"
+          ],
+          "when": [
+            {
+              "field": "criminal_cases",
+              "op": "gt",
+              "value": 0
+            }
+          ],
+          "authority": "State Government"
+        },
+        {
+          "failed_criteria": [
+            "medical fitness"
+          ],
+          "when": [
+            {
+              "field": "medically_fit",
+              "op": "eq",
+              "value": false
+            }
+          ],
+          "authority": "Medical Association"
+        }
+      ],
+      "expected_outcome": "REJECT",
+      "evaluator_result": {
+        "outcome": "REJECT",
+        "authority": null,
+        "failed": [
+          "age limit"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Refer the case to the designated authority.",
+      "C": "The information is insufficient to decide.",
+      "D": "Reject the candidate."
+    },
+    "correct_option": "D",
+    "correct_answer": "Reject the candidate.",
+    "independent_reasoning": "Ram is 26 on 1 November 2016, so he fails the maximum age of 19. The referral exceptions cover medical fitness, criminal-record, or anti-doping failures only; none waives the age rule.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-020",
+    "row": 20,
+    "category": "SITUATIONAL",
+    "topic": "professional accountability and recovery planning",
+    "question": "As team lead, your team has missed a major deadline. What is the most responsible next step?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 15,
+    "source": "Decision Making 01 Class Notes.pdf, page 15; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "As team lead, your team has missed a major deadline. What is the most responsible next step?",
+    "eligibility": null,
+    "options": {
+      "A": "Abandon the project without review.",
+      "B": "Stay silent and hope the delay is overlooked.",
+      "C": "Blame one team member publicly.",
+      "D": "Identify the causes, inform affected stakeholders, and agree on a realistic recovery plan and next steps."
+    },
+    "correct_option": "D",
+    "correct_answer": "Identify the causes, inform affected stakeholders, and agree on a realistic recovery plan and next steps.",
+    "independent_reasoning": "A factual review and transparent recovery plan address the missed deadline and help prevent recurrence. Abandonment, silence, and blame do not solve the work or support accountability.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-021",
+    "row": 21,
+    "category": "SITUATIONAL",
+    "topic": "safety, dignity and legal support",
+    "question": "A person experiencing domestic violence asks a legal-aid clinic for help making a report and finding support. What should the worker do?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 16,
+    "source": "Decision Making 01 Class Notes.pdf, page 16; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A person experiencing domestic violence asks a legal-aid clinic for help making a report and finding support. What should the worker do?",
+    "eligibility": null,
+    "options": {
+      "A": "Dismiss it as a private matter.",
+      "B": "Tell the person to wait without assessing immediate safety.",
+      "C": "Support the person in understanding reporting and protection options, help with the requested report, and connect them with appropriate services while respecting their choices.",
+      "D": "Send the person directly to court without listening or explaining options."
+    },
+    "correct_option": "C",
+    "correct_answer": "Support the person in understanding reporting and protection options, help with the requested report, and connect them with appropriate services while respecting their choices.",
+    "independent_reasoning": "The person asked for help, so the worker should take the report request seriously, assess immediate safety, explain options, and connect them with appropriate services. Ignoring, delaying, or sending them away without support fails the request and may increase risk.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-022",
+    "row": 22,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: age: gt 45; former president: eq True; member-state support: gte 70; country membership: eq True. Exception: if only country membership is unmet and the stated condition(s) hold, refer to UN High Commissioner.\nCase: A United Nations Secretary-General candidate must be over 45, a former president, have support from at least 70% of member states, and come from a country that has been a UN member for at least ten years. If membership is at least five years but under ten and support is at least 85%, refer to the UN High Commissioner. Anjab Zimbo is 52, a former president, has 74% support, and his country has not completed ten years of UN membership. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 14,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 14; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A United Nations Secretary-General candidate must be over 45, a former president, have support from at least 70% of member states, and come from a country that has been a UN member for at least ten years. If membership is at least five years but under ten and support is at least 85%, refer to the UN High Commissioner. Anjab Zimbo is 52, a former president, has 74% support, and his country has not completed ten years of UN membership. Decide.",
+    "eligibility": {
+      "candidate": {
+        "age_years": 52,
+        "former_president": true,
+        "member_state_support_pct": 74,
+        "country_member_10_years": false
+      },
+      "criteria": [
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "gt",
+          "value": 45
+        },
+        {
+          "name": "former president",
+          "field": "former_president",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "member-state support",
+          "field": "member_state_support_pct",
+          "op": "gte",
+          "value": 70
+        },
+        {
+          "name": "country membership",
+          "field": "country_member_10_years",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "country membership"
+          ],
+          "when": [
+            {
+              "field": "member_state_support_pct",
+              "op": "gte",
+              "value": 85
+            },
+            {
+              "field": "country_un_membership_years",
+              "op": "gte",
+              "value": 5
+            }
+          ],
+          "authority": "UN High Commissioner"
+        }
+      ],
+      "expected_outcome": "REJECT",
+      "evaluator_result": {
+        "outcome": "REJECT",
+        "authority": null,
+        "failed": [
+          "country membership"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Reject the candidate.",
+      "B": "Select the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "A",
+    "correct_answer": "Reject the candidate.",
+    "independent_reasoning": "Zimbo fails the ten-year country-membership condition. The special referral also requires at least 85% support; his stated 74% does not meet that threshold, so the case is rejected regardless of whether the country has completed five years.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-023",
+    "row": 23,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: age: gt 45; former president: eq True; member-state support: gte 70; country membership: gte 10. Exception: if only former president is unmet and the stated condition(s) hold, refer to UN President.\nCase: Use the United Nations Secretary-General criteria: age over 45, former president, support from at least 70% of member states, and country membership of at least ten years. A candidate who meets every condition except being a former president is referred to the UN President if they have served as a country's foreign minister. Jane is 49, has 71% support, her country has been a member for 20 years, and she served as its foreign minister but was never president. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 15,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 15; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "Use the United Nations Secretary-General criteria: age over 45, former president, support from at least 70% of member states, and country membership of at least ten years. A candidate who meets every condition except being a former president is referred to the UN President if they have served as a country's foreign minister. Jane is 49, has 71% support, her country has been a member for 20 years, and she served as its foreign minister but was never president. Decide.",
+    "eligibility": {
+      "candidate": {
+        "age_years": 49,
+        "former_president": false,
+        "foreign_minister": true,
+        "member_state_support_pct": 71,
+        "country_un_membership_years": 20
+      },
+      "criteria": [
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "gt",
+          "value": 45
+        },
+        {
+          "name": "former president",
+          "field": "former_president",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "member-state support",
+          "field": "member_state_support_pct",
+          "op": "gte",
+          "value": 70
+        },
+        {
+          "name": "country membership",
+          "field": "country_un_membership_years",
+          "op": "gte",
+          "value": 10
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "former president"
+          ],
+          "when": [
+            {
+              "field": "foreign_minister",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "authority": "UN President"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "UN President",
+        "failed": [
+          "former president"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Reject the candidate.",
+      "C": "The information is insufficient to decide.",
+      "D": "Refer the case to the UN President."
+    },
+    "correct_option": "D",
+    "correct_answer": "Refer the case to the UN President.",
+    "independent_reasoning": "Jane meets age, support, and membership requirements. Former presidency is the sole unmet condition; the supplied exception for a served foreign minister directs referral to the UN President.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-024",
+    "row": 24,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: class 10 marks: gte 75; class 12 marks: gte 75; engineering marks: gte 70; age: lte 25; selection test: gte 60; CAD course: eq True. Exception: if only CAD course is unmet and the stated condition(s) hold, refer to Company President.\nCase: A corporate recruitment policy requires at least 75% in both classes 10 and 12, at least 70% in Civil or Mechanical Engineering, age no more than 25 on 8 September 2016, at least 60% in the selection test, and a CAD course from a prestigious institute. If the candidate meets all other conditions but lacks CAD, refer to the Company President when they are willing to pay at least ₹30,000 and have at least 75% at graduation. Nataasha has 80% and 75% in classes 10 and 12, 75% in Civil Engineering, is 24 on the reference date, scored 60% in the selection test, lacks the CAD course, has 75% at graduation, and is willing to pay ₹35,000. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 17,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 17; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A corporate recruitment policy requires at least 75% in both classes 10 and 12, at least 70% in Civil or Mechanical Engineering, age no more than 25 on 8 September 2016, at least 60% in the selection test, and a CAD course from a prestigious institute. If the candidate meets all other conditions but lacks CAD, refer to the Company President when they are willing to pay at least ₹30,000 and have at least 75% at graduation. Nataasha has 80% and 75% in classes 10 and 12, 75% in Civil Engineering, is 24 on the reference date, scored 60% in the selection test, lacks the CAD course, has 75% at graduation, and is willing to pay ₹35,000. Decide.",
+    "eligibility": {
+      "candidate": {
+        "class10_pct": 80,
+        "class12_pct": 75,
+        "engineering_pct": 75,
+        "age_years": 24,
+        "selection_test_pct": 60,
+        "cad_from_prestigious_institute": false,
+        "graduate_pct": 75,
+        "willing_payment": 35000
+      },
+      "criteria": [
+        {
+          "name": "class 10 marks",
+          "field": "class10_pct",
+          "op": "gte",
+          "value": 75
+        },
+        {
+          "name": "class 12 marks",
+          "field": "class12_pct",
+          "op": "gte",
+          "value": 75
+        },
+        {
+          "name": "engineering marks",
+          "field": "engineering_pct",
+          "op": "gte",
+          "value": 70
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "lte",
+          "value": 25
+        },
+        {
+          "name": "selection test",
+          "field": "selection_test_pct",
+          "op": "gte",
+          "value": 60
+        },
+        {
+          "name": "CAD course",
+          "field": "cad_from_prestigious_institute",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "CAD course"
+          ],
+          "when": [
+            {
+              "field": "willing_payment",
+              "op": "gte",
+              "value": 30000
+            },
+            {
+              "field": "graduate_pct",
+              "op": "gte",
+              "value": 75
+            }
+          ],
+          "authority": "Company President"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "Company President",
+        "failed": [
+          "CAD course"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Reject the candidate.",
+      "C": "Refer the case to the Company President.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "C",
+    "correct_answer": "Refer the case to the Company President.",
+    "independent_reasoning": "Nataasha meets the school, engineering, age, and test thresholds. CAD is her sole unmet condition, and she meets both stated safeguards for its exception: graduation marks of 75% and willingness to pay ₹30,000 or more. Refer to the Company President.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-025",
+    "row": 25,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: class 10 marks: gte 75; class 12 marks: gte 75; engineering marks: gte 70; age: lte 25; selection test: gte 60; CAD course: eq True. Exception: if only age is unmet and the stated condition(s) hold, refer to Company President.\nCase: Corporate recruitment is assessed on 8 September 2016. Candidates need at least 75% in classes 10 and 12, at least 70% in Civil or Mechanical Engineering, age no more than 25, at least 60% in the selection test, and a CAD course from a prestigious institute. If age alone is above the limit, a candidate with more than one year of experience at a prestigious company is referred to the Company President. Stella completed her degree on 16 June 2011 at age 21, earned 80% and 75% in classes 10 and 12, 85% in Civil Engineering, 65% in the selection test, completed CAD at a prestigious institute, and has more than two years' experience at a prestigious company. Decide.\nWhat decision follows?",
+    "source_pdf": "Decision Making 02 _ Class Notes.pdf",
+    "source_page": 18,
+    "source": "Decision Making 02 _ Class Notes.pdf, page 18; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "Corporate recruitment is assessed on 8 September 2016. Candidates need at least 75% in classes 10 and 12, at least 70% in Civil or Mechanical Engineering, age no more than 25, at least 60% in the selection test, and a CAD course from a prestigious institute. If age alone is above the limit, a candidate with more than one year of experience at a prestigious company is referred to the Company President. Stella completed her degree on 16 June 2011 at age 21, earned 80% and 75% in classes 10 and 12, 85% in Civil Engineering, 65% in the selection test, completed CAD at a prestigious institute, and has more than two years' experience at a prestigious company. Decide.",
+    "eligibility": {
+      "candidate": {
+        "age_lower_bound_years": 26,
+        "class10_pct": 80,
+        "class12_pct": 75,
+        "engineering_pct": 85,
+        "selection_test_pct": 65,
+        "cad_from_prestigious_institute": true,
+        "prestigious_company_experience_months": 25
+      },
+      "criteria": [
+        {
+          "name": "class 10 marks",
+          "field": "class10_pct",
+          "op": "gte",
+          "value": 75
+        },
+        {
+          "name": "class 12 marks",
+          "field": "class12_pct",
+          "op": "gte",
+          "value": 75
+        },
+        {
+          "name": "engineering marks",
+          "field": "engineering_pct",
+          "op": "gte",
+          "value": 70
+        },
+        {
+          "name": "age",
+          "field": "age_lower_bound_years",
+          "op": "lte",
+          "value": 25
+        },
+        {
+          "name": "selection test",
+          "field": "selection_test_pct",
+          "op": "gte",
+          "value": 60
+        },
+        {
+          "name": "CAD course",
+          "field": "cad_from_prestigious_institute",
+          "op": "eq",
+          "value": true
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "age"
+          ],
+          "when": [
+            {
+              "field": "prestigious_company_experience_months",
+              "op": "gt",
+              "value": 12
+            }
+          ],
+          "authority": "Company President"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "Company President",
+        "failed": [
+          "age"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Refer the case to the Company President.",
+      "B": "Select the candidate.",
+      "C": "Reject the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "A",
+    "correct_answer": "Refer the case to the Company President.",
+    "independent_reasoning": "She was already 21 by 16 June 2011. By 8 September 2016, over five years later, she must be at least 26 and therefore exceeds the maximum age of 25. Age is the only failed condition, and more than two years at a prestigious company satisfies the more-than-one-year exception, so refer to the Company President.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-026",
+    "row": 26,
+    "category": "ELIGIBILITY",
+    "topic": "original boundary case for age, marks and experience",
+    "question": "Rules: graduation marks: gte 50; age: 24 to 30 inclusive; marketing experience: gte 6. \nCase: A marketing trainee must be a graduate with at least 50%, be 24–30 inclusive on 1 October 2016, and have six months of marketing-department experience. If experience is the only unmet condition, a management diploma triggers referral to the Marketing Manager. The applicant has 50% graduation marks, turns 24 on 1 October 2016, has exactly six months of marketing experience, and has no management diploma. Decide.\nWhat decision follows?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A marketing trainee must be a graduate with at least 50%, be 24–30 inclusive on 1 October 2016, and have six months of marketing-department experience. If experience is the only unmet condition, a management diploma triggers referral to the Marketing Manager. The applicant has 50% graduation marks, turns 24 on 1 October 2016, has exactly six months of marketing experience, and has no management diploma. Decide.",
+    "eligibility": {
+      "candidate": {
+        "graduate_pct": 50,
+        "date_of_birth": "1992-10-01",
+        "as_of": "2016-10-01",
+        "marketing_experience_months": 6,
+        "management_diploma": false
+      },
+      "criteria": [
+        {
+          "name": "graduation marks",
+          "field": "graduate_pct",
+          "op": "gte",
+          "value": 50
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 24,
+          "maximum": 30
+        },
+        {
+          "name": "marketing experience",
+          "field": "marketing_experience_months",
+          "op": "gte",
+          "value": 6
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "SELECT",
+      "evaluator_result": {
+        "outcome": "SELECT",
+        "authority": null,
+        "failed": [],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Reject the candidate.",
+      "B": "Refer the case to the designated authority.",
+      "C": "The information is insufficient to decide.",
+      "D": "Select the candidate."
+    },
+    "correct_option": "D",
+    "correct_answer": "Select the candidate.",
+    "independent_reasoning": "The candidate is exactly 24 on the reference date, has exactly 50% marks, and has exactly six months of relevant experience. Each threshold is inclusive, so all criteria are met.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-027",
+    "row": 27,
+    "category": "SITUATIONAL",
+    "topic": "confidentiality and incident escalation",
+    "question": "A confidential patient report is accidentally emailed to an unauthorized distribution list at a clinic. What should the responsible employee do first?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A confidential patient report is accidentally emailed to an unauthorized distribution list at a clinic. What should the responsible employee do first?",
+    "eligibility": null,
+    "options": {
+      "A": "Promptly notify the privacy or incident lead, follow containment instructions, and document the incident without further sharing the report.",
+      "B": "Delete the sent message from their own mailbox and say nothing.",
+      "C": "Forward the report to more colleagues to ask who has seen it.",
+      "D": "Post a public warning containing the patient's identity."
+    },
+    "correct_option": "A",
+    "correct_answer": "Promptly notify the privacy or incident lead, follow containment instructions, and document the incident without further sharing the report.",
+    "independent_reasoning": "Prompt reporting lets the authorized privacy lead contain access and follow required incident procedures. Concealment, wider distribution, or public disclosure would worsen the privacy breach.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-028",
+    "row": 28,
+    "category": "ELIGIBILITY",
+    "topic": "eligibility and exception rules",
+    "question": "Rules: finance degree marks: gte 60; age: 21 to 30 inclusive; procurement experience: gte 24. Exception: if only procurement experience is unmet and the stated condition(s) hold, refer to Procurement Director.\nCase: A procurement analyst must have a finance degree with at least 60%, be 21–30 inclusive on 1 July 2025, and have 24 months of procurement experience. If experience is the only missing criterion, an applicant with at least 18 months of experience and a postgraduate procurement diploma is referred to the Procurement Director. Dev has 62%, turns 30 on 1 July 2025, has exactly 18 months of procurement experience, and holds the postgraduate diploma. Decide.\nWhat decision follows?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A procurement analyst must have a finance degree with at least 60%, be 21–30 inclusive on 1 July 2025, and have 24 months of procurement experience. If experience is the only missing criterion, an applicant with at least 18 months of experience and a postgraduate procurement diploma is referred to the Procurement Director. Dev has 62%, turns 30 on 1 July 2025, has exactly 18 months of procurement experience, and holds the postgraduate diploma. Decide.",
+    "eligibility": {
+      "candidate": {
+        "finance_degree_pct": 62,
+        "date_of_birth": "1995-07-01",
+        "as_of": "2025-07-01",
+        "procurement_experience_months": 18,
+        "postgraduate_procurement_diploma": true
+      },
+      "criteria": [
+        {
+          "name": "finance degree marks",
+          "field": "finance_degree_pct",
+          "op": "gte",
+          "value": 60
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 21,
+          "maximum": 30
+        },
+        {
+          "name": "procurement experience",
+          "field": "procurement_experience_months",
+          "op": "gte",
+          "value": 24
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "procurement experience"
+          ],
+          "when": [
+            {
+              "field": "procurement_experience_months",
+              "op": "gte",
+              "value": 18
+            },
+            {
+              "field": "postgraduate_procurement_diploma",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "authority": "Procurement Director"
+        }
+      ],
+      "expected_outcome": "REFER",
+      "evaluator_result": {
+        "outcome": "REFER",
+        "authority": "Procurement Director",
+        "failed": [
+          "procurement experience"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Refer the case to the Procurement Director.",
+      "C": "Reject the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "B",
+    "correct_answer": "Refer the case to the Procurement Director.",
+    "independent_reasoning": "Dev meets the degree and age conditions. Experience is the sole shortfall at 18 rather than 24 months; the rule's diploma exception applies at 18 months or more and sends the case to the Procurement Director.",
+    "difficulty": "MEDIUM",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-029",
+    "row": 29,
+    "category": "SITUATIONAL",
+    "topic": "public safety and urgent risk control",
+    "question": "A warning system reports that a bridge may be structurally unsafe while pedestrians are approaching. What should the duty officer do first?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A warning system reports that a bridge may be structurally unsafe while pedestrians are approaching. What should the duty officer do first?",
+    "eligibility": null,
+    "options": {
+      "A": "Wait for visible damage before acting.",
+      "B": "Allow pedestrians through while looking for another report.",
+      "C": "Close access using the established safety procedure, direct people to a safe route, and notify emergency and engineering authorities.",
+      "D": "Post an unverified social-media warning and leave the area."
+    },
+    "correct_option": "C",
+    "correct_answer": "Close access using the established safety procedure, direct people to a safe route, and notify emergency and engineering authorities.",
+    "independent_reasoning": "The warning indicates a possible immediate danger, so the officer should prevent entry, move people to safety, and alert the responsible emergency and engineering teams. Waiting or allowing access risks injury; an unverified post is not a controlled response.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-030",
+    "row": 30,
+    "category": "ELIGIBILITY",
+    "topic": "original exact-boundary selection",
+    "question": "Rules: degree marks: gte 55; age: 21 to 28 inclusive; records experience: gte 24. \nCase: A public-archives assistant must have a bachelor's degree with at least 55%, be 21–28 inclusive on 1 July 2026, and have at least 24 completed months of records-management experience. Mira has 55%, was born on 1 July 1998, and her relevant experience began on 1 July 2024. Decide.\nWhat decision follows?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A public-archives assistant must have a bachelor's degree with at least 55%, be 21–28 inclusive on 1 July 2026, and have at least 24 completed months of records-management experience. Mira has 55%, was born on 1 July 1998, and her relevant experience began on 1 July 2024. Decide.",
+    "eligibility": {
+      "candidate": {
+        "bachelor_pct": 55,
+        "date_of_birth": "1998-07-01",
+        "as_of": "2026-07-01",
+        "experience_start": "2024-07-01",
+        "experience_as_of": "2026-07-01"
+      },
+      "criteria": [
+        {
+          "name": "degree marks",
+          "field": "bachelor_pct",
+          "op": "gte",
+          "value": 55
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 21,
+          "maximum": 28
+        },
+        {
+          "name": "records experience",
+          "field": "experience_months",
+          "op": "gte",
+          "value": 24
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "SELECT",
+      "evaluator_result": {
+        "outcome": "SELECT",
+        "authority": null,
+        "failed": [],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Reject the candidate.",
+      "B": "Refer the case to the designated authority.",
+      "C": "Select the candidate.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "C",
+    "correct_answer": "Select the candidate.",
+    "independent_reasoning": "Mira meets the 55% threshold exactly, turns 28 on the assessment date, and completes exactly 24 calendar months of relevant experience on that date. All three inclusive requirements are met.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-031",
+    "row": 31,
+    "category": "SITUATIONAL",
+    "topic": "conflict of interest and procedural fairness",
+    "question": "A procurement panel member discovers that one bidder is a close relative. What is the appropriate action?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A procurement panel member discovers that one bidder is a close relative. What is the appropriate action?",
+    "eligibility": null,
+    "options": {
+      "A": "Continue scoring the bid but keep the relationship private.",
+      "B": "Disclose the conflict promptly and recuse from evaluation under the procurement procedure.",
+      "C": "Disqualify every bidder to avoid making a decision.",
+      "D": "Tell the relative confidential scoring information so they can withdraw."
+    },
+    "correct_option": "B",
+    "correct_answer": "Disclose the conflict promptly and recuse from evaluation under the procurement procedure.",
+    "independent_reasoning": "Disclosing the conflict and recusing protects an impartial procurement process. Concealment or sharing confidential information compromises fairness, while disqualifying every bidder is arbitrary.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-032",
+    "row": 32,
+    "category": "ELIGIBILITY",
+    "topic": "original conflicting-duration and referral boundary",
+    "question": "Rules: degree marks: gte 65; age: 25 to 35 inclusive; aviation audit experience: gte 60. \nCase: An aviation-safety records assessor must have a bachelor's degree with at least 65%, be 25–35 inclusive on 15 September 2025, and have at least 60 completed months of aviation-audit experience. A special referral applies only when the shortfall is under 60 months but at least 48 months and the candidate holds a safety-inspector certificate. Arjun has 70%, is 35 on the reference date, and holds the certificate; his employer's record says only ‘about five years’ and gives no exact start date. Decide.\nWhat decision follows?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "An aviation-safety records assessor must have a bachelor's degree with at least 65%, be 25–35 inclusive on 15 September 2025, and have at least 60 completed months of aviation-audit experience. A special referral applies only when the shortfall is under 60 months but at least 48 months and the candidate holds a safety-inspector certificate. Arjun has 70%, is 35 on the reference date, and holds the certificate; his employer's record says only ‘about five years’ and gives no exact start date. Decide.",
+    "eligibility": {
+      "candidate": {
+        "bachelor_pct": 70,
+        "age_years": 35,
+        "as_of": "2025-09-15",
+        "experience_months": null,
+        "safety_inspector_certificate": true
+      },
+      "criteria": [
+        {
+          "name": "degree marks",
+          "field": "bachelor_pct",
+          "op": "gte",
+          "value": 65
+        },
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "between_inclusive",
+          "minimum": 25,
+          "maximum": 35
+        },
+        {
+          "name": "aviation audit experience",
+          "field": "experience_months",
+          "op": "gte",
+          "value": 60
+        }
+      ],
+      "referrals": [],
+      "expected_outcome": "INSUFFICIENT",
+      "evaluator_result": {
+        "outcome": "INSUFFICIENT",
+        "authority": null,
+        "failed": [],
+        "missing": [
+          "aviation audit experience"
+        ]
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Reject the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "D",
+    "correct_answer": "The information is insufficient to decide.",
+    "independent_reasoning": "Arjun meets the known degree and age conditions, but ‘about five years’ does not establish whether he has completed 60 months or falls in the 48–59 month referral band. The certificate alone cannot resolve that missing duration, so the information is insufficient.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-033",
+    "row": 33,
+    "category": "SITUATIONAL",
+    "topic": "professional attitude and public service",
+    "question": "A police officer's public-service desk is busy and residents are asking for help. Which professional attitude is most appropriate?",
+    "source_pdf": "Decision Making 01 Class Notes.pdf",
+    "source_page": 17,
+    "source": "Decision Making 01 Class Notes.pdf, page 17; lecture example, exam/year not stated",
+    "original_question": false,
+    "statement": "A police officer's public-service desk is busy and residents are asking for help. Which professional attitude is most appropriate?",
+    "eligibility": null,
+    "options": {
+      "A": "Assume the public is dishonest and respond negatively.",
+      "B": "Use cruelty to make people obey quickly.",
+      "C": "Remain constructive, respectful and positive while applying the law fairly.",
+      "D": "Rely on fear as the main way to manage the desk."
+    },
+    "correct_option": "C",
+    "correct_answer": "Remain constructive, respectful and positive while applying the law fairly.",
+    "independent_reasoning": "A constructive and respectful attitude supports effective public service while allowing the officer to apply rules consistently. Negativity, cruelty, and fear undermine trust and professional conduct.",
+    "difficulty": "EASY",
+    "verification_status": "independently_verified"
+  },
+  {
+    "id": "dm-034",
+    "row": 34,
+    "category": "ELIGIBILITY",
+    "topic": "original exception boundary",
+    "question": "Rules: age: gt 45; former president: eq True; member-state support: gte 70; country membership: gte 10. Exception: if only former president is unmet and the stated condition(s) hold, refer to UN President.\nCase: A United Nations Secretary-General must be over 45, a former president, have at least 70% member-state support, and come from a country that has been a member for ten years. The foreign-minister referral applies only if that is the candidate's sole failed criterion. A candidate is 50, has 80% support and 12 years of country membership, was never president, and has never served as a foreign minister. Decide.\nWhat decision follows?",
+    "source_pdf": null,
+    "source_page": null,
+    "source": "Original SSC-style practice question",
+    "original_question": true,
+    "statement": "A United Nations Secretary-General must be over 45, a former president, have at least 70% member-state support, and come from a country that has been a member for ten years. The foreign-minister referral applies only if that is the candidate's sole failed criterion. A candidate is 50, has 80% support and 12 years of country membership, was never president, and has never served as a foreign minister. Decide.",
+    "eligibility": {
+      "candidate": {
+        "age_years": 50,
+        "former_president": false,
+        "foreign_minister": false,
+        "member_state_support_pct": 80,
+        "country_un_membership_years": 12
+      },
+      "criteria": [
+        {
+          "name": "age",
+          "field": "age_years",
+          "op": "gt",
+          "value": 45
+        },
+        {
+          "name": "former president",
+          "field": "former_president",
+          "op": "eq",
+          "value": true
+        },
+        {
+          "name": "member-state support",
+          "field": "member_state_support_pct",
+          "op": "gte",
+          "value": 70
+        },
+        {
+          "name": "country membership",
+          "field": "country_un_membership_years",
+          "op": "gte",
+          "value": 10
+        }
+      ],
+      "referrals": [
+        {
+          "failed_criteria": [
+            "former president"
+          ],
+          "when": [
+            {
+              "field": "foreign_minister",
+              "op": "eq",
+              "value": true
+            }
+          ],
+          "authority": "UN President"
+        }
+      ],
+      "expected_outcome": "REJECT",
+      "evaluator_result": {
+        "outcome": "REJECT",
+        "authority": null,
+        "failed": [
+          "former president"
+        ],
+        "missing": []
+      }
+    },
+    "options": {
+      "A": "Select the candidate.",
+      "B": "Reject the candidate.",
+      "C": "Refer the case to the designated authority.",
+      "D": "The information is insufficient to decide."
+    },
+    "correct_option": "B",
+    "correct_answer": "Reject the candidate.",
+    "independent_reasoning": "The former-president criterion is the sole failure, but the stated referral requires prior foreign-minister service. Since the candidate has not served as a foreign minister, no exception applies and the candidate is rejected.",
+    "difficulty": "HARD",
+    "verification_status": "independently_verified"
+  }
+]

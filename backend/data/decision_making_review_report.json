@@ -1,0 +1,84 @@
+{
+  "chapter_id": "382f7052-28c0-4d51-a117-d59dde2934d5",
+  "total_questions": 34,
+  "accepted_source_questions": 26,
+  "original_questions": 8,
+  "rejected_source_pages": [
+    {
+      "pdf": "Decision Making 01 Class Notes.pdf",
+      "page": 14,
+      "reason": "The supplied choice jumps directly to contempt without describing the conduct, applicable procedure, warning, or severity; no proportionate single action can be verified."
+    },
+    {
+      "pdf": "Decision Making 01 Class Notes.pdf",
+      "page": 18,
+      "reason": "The relationship alone does not establish the colleague's conduct or justify arrest; source options encourage guilt by association and arbitrary punishment."
+    },
+    {
+      "pdf": "Decision Making 01 Class Notes.pdf",
+      "page": 19,
+      "reason": "Options do not provide a clearly safe, proportionate response; direct confrontation, gathering a crowd, or leaving the women without support all carry unresolved risks."
+    },
+    {
+      "pdf": "Decision Making 01 Class Notes.pdf",
+      "page": 20,
+      "reason": "‘Ethical facilities’ and the alleged deprivation are undefined, leaving the responsible procedure and appropriate remedy unclear."
+    }
+  ],
+  "category_distribution": {
+    "SITUATIONAL": 16,
+    "ELIGIBILITY": 18
+  },
+  "difficulty_distribution": {
+    "EASY": 11,
+    "MEDIUM": 12,
+    "HARD": 11
+  },
+  "answer_position_distribution": {
+    "D": 8,
+    "A": 9,
+    "C": 8,
+    "B": 9
+  },
+  "eligibility_verification": "All 16 candidate cases are independently evaluated by evaluate_candidate using per-question criteria, exact reference dates, calendar-age calculation, completed calendar months, and exact-failure referral exceptions. Boundary and exception tests are in test_decision_making_verified_batch.py.",
+  "situational_verification": "Every selected action was re-evaluated against the stated context for safety, rights, proportionality, procedure, and escalation. Four underspecified or unsafe source situations were rejected.",
+  "duplicate_check": "Exact and high-similarity screening is applied by the guarded importer against live active Reasoning questions and canonical batches; the source cases were manually compared for duplicate scenarios and decision logic.",
+  "import_status": "POST_IMPORT_VERIFIED",
+  "database_verification": {
+    "chapter_id": "382f7052-28c0-4d51-a117-d59dde2934d5",
+    "active_normal": 34,
+    "active_pyq": 0,
+    "difficulty_distribution": {
+      "EASY": 11,
+      "MEDIUM": 12,
+      "HARD": 11
+    },
+    "initial_imported": 34,
+    "initial_rejected": 0,
+    "initial_duplicates": 0,
+    "replay_duplicates": 34,
+    "replay_inserts": 0,
+    "other_chapter_ids_unchanged": true
+  },
+  "verification_results": {
+    "focused_tests": "9 passed",
+    "targeted_backend_regression": "111 passed",
+    "full_backend_suite": "409 passed in 630.46s",
+    "python_compilation": "passed",
+    "git_diff_check": "passed",
+    "frontend_production_build": "passed (Vite 5.4.21)",
+    "authenticated_live_api": {
+      "chapter_list": "present under Reasoning",
+      "difficulty_availability_10_questions": {
+        "EASY": 11,
+        "MEDIUM": 12,
+        "HARD": 11,
+        "PYQ": 0
+      },
+      "mixed_normal_available": 34,
+      "question_rows_have_four_options_and_explanations": true,
+      "exam_session_flow": "TestClient integration passed save/reload, submit, score, review and explanations"
+    },
+    "browser_ui": "not performed; no browser verification claimed"
+  }
+}
