@@ -1,6 +1,6 @@
 """Support generic one-time beta codes and persistent revocation state.
 
-Revision ID: 0009_email_independent_beta_invitations
+Revision ID: 0009_generic_beta_invites
 Revises: 0008_beta_access_and_rate_limits
 """
 from typing import Sequence, Union
@@ -8,7 +8,7 @@ from typing import Sequence, Union
 from alembic import op
 import sqlalchemy as sa
 
-revision: str = "0009_email_independent_beta_invitations"
+revision: str = "0009_generic_beta_invites"
 down_revision: Union[str, None] = "0008_beta_access_and_rate_limits"
 branch_labels: Union[str, Sequence[str], None] = None
 depends_on: Union[str, Sequence[str], None] = None
