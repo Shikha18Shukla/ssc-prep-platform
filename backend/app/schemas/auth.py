@@ -7,6 +7,7 @@ and safe user output representations (never exposing password hashes).
 from datetime import datetime
 import re
 import uuid
+from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
 
@@ -91,6 +92,7 @@ class UserResponse(BaseModel):
     email: str
     full_name: str | None = None
     is_active: bool
+    is_admin: bool
     created_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
@@ -128,6 +130,41 @@ class BetaInvitationBatchResponse(BaseModel):
     total_accounts: int
     pending_invitations: int
     remaining_slots: int
+
+
+class GenericInvitationBatchRequest(BaseModel):
+    count: Literal[50] = 50
+    expires_in_days: int = Field(default=14, ge=1, le=30)
+
+
+class GenericInvitationCreated(BaseModel):
+    id: uuid.UUID
+    invitation_code: str
+    expires_at: datetime
+
+
+class GenericInvitationBatchResponse(BaseModel):
+    invitations: list[GenericInvitationCreated]
+    expires_at: datetime
+    total_accounts: int
+    pending_invitations: int
+    remaining_slots: int
+
+
+class GenericInvitationStatus(BaseModel):
+    available: int
+    redeemed: int
+    expired: int
+    revoked: int
+
+
+class GenericInvitationListItem(BaseModel):
+    id: uuid.UUID
+    status: Literal["available", "redeemed", "expired", "revoked"]
+    expires_at: datetime
+    redeemed_at: datetime | None
+    revoked_at: datetime | None
+    created_at: datetime
 
 
 class AccountActivationUpdate(BaseModel):

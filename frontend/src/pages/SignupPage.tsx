@@ -132,6 +132,7 @@ export const SignupPage: React.FC = () => {
             <label htmlFor="invitationCode" className="block text-sm font-medium text-content mb-1">
               Beta Invitation Code
             </label>
+            <p className="mb-2 text-xs text-gray-500">Use your own email address. New beta codes are not tied to a particular email.</p>
             <input
               id="invitationCode"
               type="password"

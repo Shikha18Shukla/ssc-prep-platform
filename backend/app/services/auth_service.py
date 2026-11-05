@@ -12,7 +12,12 @@ from sqlalchemy.orm import Session
 from app.auth.security import hash_password, verify_password, verify_unknown_user_password
 from app.config import settings
 from app.models import BetaCapacity, BetaInvitation, User
-from app.schemas.auth import BetaInvitationBatchRequest, LoginRequest, RegisterRequest
+from app.schemas.auth import (
+    BetaInvitationBatchRequest,
+    GenericInvitationBatchRequest,
+    LoginRequest,
+    RegisterRequest,
+)
 
 
 def _capacity_row(db: Session) -> BetaCapacity:
@@ -38,6 +43,7 @@ def issue_beta_invitations(
         accounts = db.scalar(select(func.count(User.id))) or 0
         pending_query = select(func.count(BetaInvitation.id)).where(
             BetaInvitation.redeemed_at.is_(None), BetaInvitation.expires_at > now,
+            BetaInvitation.revoked_at.is_(None),
         )
         pending = db.scalar(pending_query) or 0
         already_registered = set(db.scalars(select(User.email).where(User.email.in_(emails))).all())
@@ -45,6 +51,7 @@ def issue_beta_invitations(
             BetaInvitation.email.in_(emails),
             BetaInvitation.redeemed_at.is_(None),
             BetaInvitation.expires_at > now,
+            BetaInvitation.revoked_at.is_(None),
         )).all())
         duplicates = already_registered | already_invited
         if duplicates:
@@ -66,6 +73,72 @@ def issue_beta_invitations(
         db.commit()
         return {
             "invitations": created,
+            "total_accounts": accounts,
+            "pending_invitations": pending + len(created),
+            "remaining_slots": capacity.max_accounts - accounts - pending - len(created),
+        }
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception:
+        db.rollback()
+        raise
+
+
+def issue_generic_invitations(
+    db: Session,
+    request: GenericInvitationBatchRequest,
+    admin_user_id,
+) -> dict:
+    """Create a reserved batch of high-entropy, email-independent codes.
+
+    Plaintext is returned only in this creation response. Only SHA-256 digests
+    of 256-bit random tokens are persisted.
+    """
+    now = datetime.now(timezone.utc)
+    expires_at = now + timedelta(days=request.expires_in_days)
+    try:
+        # Serializes generation and registration capacity decisions on PostgreSQL.
+        capacity = _capacity_row(db)
+        accounts = db.scalar(select(func.count(User.id))) or 0
+        pending = db.scalar(select(func.count(BetaInvitation.id)).where(
+            BetaInvitation.redeemed_at.is_(None),
+            BetaInvitation.expires_at > now,
+            BetaInvitation.revoked_at.is_(None),
+        )) or 0
+        if accounts + pending + request.count > capacity.max_accounts:
+            raise HTTPException(status_code=409, detail="The 200-account beta capacity is full")
+
+        created = []
+        plaintext_codes: list[tuple[BetaInvitation, str]] = []
+        batch_hashes: set[str] = set()
+        for _ in range(request.count):
+            code = secrets.token_urlsafe(32)
+            token_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
+            while token_hash in batch_hashes:
+                code = secrets.token_urlsafe(32)
+                token_hash = hashlib.sha256(code.encode("utf-8")).hexdigest()
+            batch_hashes.add(token_hash)
+            invitation = BetaInvitation(
+                email=None,
+                token_hash=token_hash,
+                expires_at=expires_at,
+                created_by_user_id=admin_user_id,
+            )
+            db.add(invitation)
+            plaintext_codes.append((invitation, code))
+
+        db.flush()
+        for invitation, code in plaintext_codes:
+            created.append({
+                "id": invitation.id,
+                "invitation_code": code,
+                "expires_at": expires_at,
+            })
+        db.commit()
+        return {
+            "invitations": created,
+            "expires_at": expires_at,
             "total_accounts": accounts,
             "pending_invitations": pending + len(created),
             "remaining_slots": capacity.max_accounts - accounts - pending - len(created),
@@ -105,8 +178,12 @@ def register_user(db: Session, request: RegisterRequest) -> User:
             invitation_expires = invitation.expires_at if invitation is not None else None
             if invitation_expires is not None and invitation_expires.tzinfo is None:
                 invitation_expires = invitation_expires.replace(tzinfo=timezone.utc)
-            if (invitation is None or invitation.email != request.email
-                    or invitation.redeemed_at is not None or invitation_expires <= now):
+            if (invitation is None
+                    or (invitation.email is not None and invitation.email != request.email)
+                    or invitation.revoked_at is not None
+                    or invitation.redeemed_at is not None
+                    or invitation_expires is None
+                    or invitation_expires <= now):
                 raise HTTPException(status_code=403, detail="A valid beta invitation is required")
             capacity = _capacity_row(db)
             account_count = db.scalar(select(func.count(User.id))) or 0
