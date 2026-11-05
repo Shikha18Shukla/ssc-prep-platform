@@ -208,6 +208,75 @@ def test_dashboard_history_is_user_scoped(client: TestClient, test_setup):
     assert other_history.json()["tests_attempted"] == 0
 
 
+def test_question_rotation_serves_unseen_before_repeating(client: TestClient, test_setup, db_session):
+    from app.models import TestQuestion, UserQuestionHistory
+    first = client.post("/api/tests", json=create_payload(test_setup), headers=test_setup["headers"]).json()
+    first_ids = {row.question_id for row in db_session.query(TestQuestion).filter_by(test_attempt_id=uuid.UUID(first["id"]))}
+    second = client.post("/api/tests", json=create_payload(test_setup), headers=test_setup["headers"]).json()
+    second_ids = {row.question_id for row in db_session.query(TestQuestion).filter_by(test_attempt_id=uuid.UUID(second["id"]))}
+    assert len(first_ids) == len(second_ids) == 10
+    assert len(first_ids & second_ids) == 8  # two unseen remain in the 12-item fixture pool
+    assert db_session.query(UserQuestionHistory).filter_by(user_id=test_setup["user"].id, chapter_id=test_setup["chapter"].id).count() == 12
+
+
+def test_question_rotation_isolated_by_user_and_chapter(client: TestClient, test_setup, db_session):
+    from app.models import TestQuestion, UserQuestionHistory
+    first = client.post("/api/tests", json=create_payload(test_setup), headers=test_setup["headers"]).json()
+    other = client.post("/api/tests", json=create_payload(test_setup), headers=test_setup["other_headers"]).json()
+    history = db_session.query(UserQuestionHistory).filter_by(user_id=test_setup["other"].id, chapter_id=test_setup["chapter"].id).all()
+    assert len(history) == 10 and all(row.rotation == 0 and row.served_count == 1 for row in history)
+    second_chapter_payload = create_payload(test_setup)
+    second_chapter_payload["chapter_id"] = str(test_setup["second_chapter"].id)
+    second_chapter_payload["subcategory_id"] = str(test_setup["category"].id)
+    client.post("/api/tests", json=second_chapter_payload, headers=test_setup["headers"])
+    assert db_session.query(UserQuestionHistory).filter_by(user_id=test_setup["user"].id, chapter_id=test_setup["second_chapter"].id).count() == 10
+
+
+def test_question_rotation_cycles_are_independent_by_selection_mode(client: TestClient, test_setup, db_session):
+    from app.models import TestQuestion, UserChapterRotation, UserQuestionHistory
+
+    headers = test_setup["headers"]
+    payload = create_payload(test_setup)
+    for _ in range(3):
+        response = client.post("/api/tests", json=payload, headers=headers)
+        assert response.status_code == 201, response.text
+
+    hard_payload = {**payload, "difficulty": "HARD"}
+    hard_attempt = client.post("/api/tests", json=hard_payload, headers=headers)
+    assert hard_attempt.status_code == 201, hard_attempt.text
+    pyq_payload = {**payload, "difficulty": "PYQ"}
+    pyq_attempt = client.post("/api/tests", json=pyq_payload, headers=headers)
+    assert pyq_attempt.status_code == 201, pyq_attempt.text
+    mixed_payload = {**payload, "difficulty": None}
+    mixed_attempt = client.post("/api/tests", json=mixed_payload, headers=headers)
+    assert mixed_attempt.status_code == 201, mixed_attempt.text
+
+    states = {
+        row.selection_mode: row.rotation
+        for row in db_session.query(UserChapterRotation).filter_by(
+            user_id=test_setup["user"].id,
+            chapter_id=test_setup["chapter"].id,
+        )
+    }
+    assert states == {"EASY": 1, "HARD": 0, "PYQ": 0, "MIXED": 0}
+
+    hard_questions = db_session.query(TestQuestion).filter_by(
+        test_attempt_id=uuid.UUID(hard_attempt.json()["id"]),
+    ).all()
+    assert len(hard_questions) == 10
+    assert all(row.question.difficulty == Difficulty.HARD and not row.question.is_pyq for row in hard_questions)
+    pyq_questions = db_session.query(TestQuestion).filter_by(
+        test_attempt_id=uuid.UUID(pyq_attempt.json()["id"]),
+    ).all()
+    assert len(pyq_questions) == 10
+    assert all(row.question.is_pyq for row in pyq_questions)
+    assert db_session.query(UserQuestionHistory).filter_by(
+        user_id=test_setup["user"].id,
+        chapter_id=test_setup["chapter"].id,
+        selection_mode="HARD",
+    ).count() == 10
+
+
 @pytest.mark.parametrize(
     "subject_slug,test_type,difficulty",
     [

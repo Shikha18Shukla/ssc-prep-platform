@@ -23,7 +23,7 @@ export default function DashboardPage() {
     { label: "Average Score", value: history ? score(history.average_score) : "—" },
     { label: "Accuracy", value: "—" },
   ];
-  return <div className="overflow-x-hidden bg-[#F8F9FA] text-[#2D3436]" style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}>
+  return <div className="overflow-x-hidden bg-[#F8F9FA] text-[#2D3436]">
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
       <section aria-labelledby="welcome-heading" className="flex flex-col gap-6 rounded-lg border border-[#2D3436]/10 bg-white p-6 sm:p-8 md:flex-row md:items-center md:justify-between"><div><h1 id="welcome-heading" className="break-words text-2xl font-bold sm:text-3xl">{welcomeText}</h1><p className="mt-2 text-[#2D3436]/75">Keep building your preparation one test at a time.</p></div><div className="flex shrink-0 flex-col gap-2 md:items-end"><Link to="/ssc" className={primaryBtn}>Start Practice</Link><p className="text-sm text-[#2D3436]/65 md:max-w-xs md:text-right">Choose a subject, test type, and question count to begin.</p></div></section>
       <section aria-labelledby="summary-heading" className="mt-10"><h2 id="summary-heading" className="text-xl font-bold">Preparation Summary</h2><dl className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">{stats.map((stat) => <div key={stat.label} className="rounded-lg border border-[#2D3436]/10 bg-white p-5"><dt className="text-sm font-medium text-[#2D3436]/70">{stat.label}</dt><dd className="mt-2 text-3xl font-bold">{loading ? "…" : stat.value}</dd></div>)}</dl></section>

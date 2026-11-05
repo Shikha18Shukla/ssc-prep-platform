@@ -15,6 +15,7 @@ export const SignupPage: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [invitationCode, setInvitationCode] = useState("");
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -25,6 +26,7 @@ export const SignupPage: React.FC = () => {
     email?: string;
     password?: string;
     confirmPassword?: string;
+    invitationCode?: string;
   }>({});
 
   const validate = (): boolean => {
@@ -33,6 +35,7 @@ export const SignupPage: React.FC = () => {
       email?: string;
       password?: string;
       confirmPassword?: string;
+      invitationCode?: string;
     } = {};
 
     if (!fullName.trim()) {
@@ -61,6 +64,10 @@ export const SignupPage: React.FC = () => {
       errors.confirmPassword = "Passwords do not match";
     }
 
+    if (!invitationCode.trim()) {
+      errors.invitationCode = "Beta invitation code is required";
+    }
+
     setFieldErrors(errors);
     return Object.keys(errors).length === 0;
   };
@@ -79,6 +86,7 @@ export const SignupPage: React.FC = () => {
         full_name: fullName.trim(),
         email: email.trim().toLowerCase(),
         password,
+        invitation_code: invitationCode.trim(),
       });
 
       // Redirect immediately to dashboard upon successful registration & login
@@ -120,6 +128,27 @@ export const SignupPage: React.FC = () => {
         )}
 
         <form onSubmit={handleSubmit} className="space-y-4" noValidate>
+          <div>
+            <label htmlFor="invitationCode" className="block text-sm font-medium text-content mb-1">
+              Beta Invitation Code
+            </label>
+            <input
+              id="invitationCode"
+              type="password"
+              autoComplete="one-time-code"
+              value={invitationCode}
+              onChange={(e) => setInvitationCode(e.target.value)}
+              className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
+                fieldErrors.invitationCode
+                  ? "border-wrong focus:ring-wrong/20"
+                  : "border-gray-300 focus:border-primary focus:ring-primary/20"
+              }`}
+              placeholder="Enter your one-time code"
+            />
+            {fieldErrors.invitationCode && (
+              <p className="mt-1 text-xs text-wrong">{fieldErrors.invitationCode}</p>
+            )}
+          </div>
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-content mb-1">
               Full Name

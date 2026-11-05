@@ -63,6 +63,10 @@ export function RootLayout() {
         </div>
       </header>
 
+      <aside className="border-b border-amber-300 bg-amber-50 px-4 py-2 text-center text-sm text-amber-950" role="note">
+        <strong>Temporary beta:</strong> the service may be unavailable or take about a minute to wake. Keep this tab open if your connection drops; confirmed answers are saved, while the beta database may be reset after the test period.
+      </aside>
+
       {/* Main Content */}
       <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-8 sm:px-6 lg:px-8">
         <Outlet />

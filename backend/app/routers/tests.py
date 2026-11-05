@@ -22,6 +22,7 @@ from app.schemas.tests import (
     TestOption,
     TestAvailabilityRead,
 )
+from app.security.rate_limit import enforce_rate_limit
 from app.services.test_service import create_test, deadline, get_active_test, get_test_availability, save_answer, submit_test
 
 router = APIRouter(prefix="/tests", tags=["Tests"], dependencies=[Depends(get_current_user)])
@@ -67,13 +68,15 @@ def _current(attempt: TestAttempt, db: Session) -> ActiveTestRead:
     )
 
 
-def _summary(attempt: TestAttempt, db: Session) -> TestSummary:
-    attempted = db.execute(
-        select(func.count(UserAnswer.id)).where(
-            UserAnswer.test_attempt_id == attempt.id,
-            UserAnswer.is_answered.is_(True),
-        )
-    ).scalar_one()
+def _summary(attempt: TestAttempt, db: Session, attempted_count: int | None = None) -> TestSummary:
+    attempted = attempted_count
+    if attempted is None:
+        attempted = db.execute(
+            select(func.count(UserAnswer.id)).where(
+                UserAnswer.test_attempt_id == attempt.id,
+                UserAnswer.is_answered.is_(True),
+            )
+        ).scalar_one()
     submitted = attempt.status != TestAttemptStatus.IN_PROGRESS
     return TestSummary(
         id=attempt.id,
@@ -98,6 +101,7 @@ def start_test(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
+    enforce_rate_limit(db, f"test-start:user:{current_user.id}", limit=15, window_seconds=60)
     attempt = create_test(db, current_user.id, payload)
     return _current(attempt, db)
 
@@ -136,6 +140,7 @@ def update_answer(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
+    enforce_rate_limit(db, f"answer-save:user:{current_user.id}", limit=120, window_seconds=60)
     save_answer(db, attempt_id, test_question_id, payload.selected_option, current_user.id)
     attempt = get_active_test(db, attempt_id, current_user.id)
     return _summary(attempt, db)
@@ -147,6 +152,7 @@ def finish_test(
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
 ):
+    enforce_rate_limit(db, f"test-submit:user:{current_user.id}", limit=20, window_seconds=60)
     attempt = submit_test(db, attempt_id, current_user.id)
     return _summary(attempt, db)
 
@@ -201,12 +207,27 @@ def test_history(
         .where(TestAttempt.user_id == current_user.id)
         .order_by(TestAttempt.created_at.desc())
     ).scalars())
-    completed = [item for item in attempts if item.status != TestAttemptStatus.IN_PROGRESS]
-    scored = [item.score for item in completed if item.score is not None]
-    summaries = [_summary(item, db) for item in attempts[:20]]
+    completed_count, average_score, best_score = db.execute(
+        select(
+            func.count(TestAttempt.id),
+            func.avg(TestAttempt.score),
+            func.max(TestAttempt.score),
+        ).where(
+            TestAttempt.user_id == current_user.id,
+            TestAttempt.status != TestAttemptStatus.IN_PROGRESS,
+            TestAttempt.score.is_not(None),
+        )
+    ).one()
+    recent = attempts[:20]
+    answered_by_attempt = dict(db.execute(
+        select(UserAnswer.test_attempt_id, func.count(UserAnswer.id))
+        .where(UserAnswer.test_attempt_id.in_([item.id for item in recent]), UserAnswer.is_answered.is_(True))
+        .group_by(UserAnswer.test_attempt_id)
+    ).all()) if recent else {}
+    summaries = [_summary(item, db, answered_by_attempt.get(item.id, 0)) for item in recent]
     return DashboardHistory(
-        tests_attempted=len(completed),
-        average_score=sum(scored) / len(scored) if scored else None,
-        best_score=max(scored) if scored else None,
+        tests_attempted=completed_count,
+        average_score=average_score,
+        best_score=best_score,
         previous_tests=summaries,
     )

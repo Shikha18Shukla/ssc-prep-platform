@@ -23,8 +23,10 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-# Set database URL dynamically from app settings
-config.set_main_option("sqlalchemy.url", settings.DATABASE_URL)
+# ConfigParser treats percent signs as interpolation markers. Escape percent-
+# encoded URL characters (for example, %40 in a Neon password) before storing
+# the URL; configparser returns the original single-percent URL when read back.
+config.set_main_option("sqlalchemy.url", settings.DATABASE_URL.replace("%", "%%"))
 
 # Model metadata for autogenerate support
 target_metadata = Base.metadata

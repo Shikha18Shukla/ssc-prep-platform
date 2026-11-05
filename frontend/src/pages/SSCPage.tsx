@@ -194,7 +194,7 @@ export default function SSCPage() {
   const activeProgress = steps.findIndex(item => item.step === step);
   const durationSeconds = (questionCount ?? 0) * SECONDS_PER_QUESTION;
 
-  return <main className="mx-auto max-w-4xl bg-[#F8F9FA] text-[#2D3436]" style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}>
+  return <main className="mx-auto max-w-4xl bg-[#F8F9FA] text-[#2D3436]">
     <div className="rounded-lg border border-[#2D3436]/10 bg-white p-5 shadow-sm sm:p-8">
       <header className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div><p className="text-sm font-semibold uppercase tracking-wide text-[#007BFF]">SSC Practice</p><h1 className="mt-1 text-2xl font-bold sm:text-3xl">Set up your practice</h1><p className="mt-2 text-sm text-[#2D3436]/70">Choose a subject, test type, and question count.</p></div>

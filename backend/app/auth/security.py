@@ -16,6 +16,7 @@ from app.config import settings
 
 # Initialize Argon2id password hasher with secure defaults
 _hasher = PasswordHasher()
+_DUMMY_PASSWORD_HASH = _hasher.hash("constant-time-user-lookup-dummy-password")
 
 
 def hash_password(password: str) -> str:
@@ -44,6 +45,11 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
         return _hasher.verify(hashed_password, plain_password)
     except (VerifyMismatchError, InvalidHashError):
         return False
+
+
+def verify_unknown_user_password(plain_password: str) -> None:
+    """Spend a password-hash verification for unknown account names too."""
+    verify_password(plain_password, _DUMMY_PASSWORD_HASH)
 
 
 def create_access_token(

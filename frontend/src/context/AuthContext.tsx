@@ -4,7 +4,9 @@
 
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { User } from "@/types";
+import { ApiError } from "@/services/api";
 import {
+  getCachedUser,
   getCurrentUser,
   getToken,
   login as apiLogin,
@@ -34,6 +36,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    const handleExpiredSession = () => {
+      apiLogout();
+      setUser(null);
+      setToken(null);
+    };
+    window.addEventListener("ssc-auth-expired", handleExpiredSession);
+
     async function initAuth() {
       const activeToken = getToken();
       if (!activeToken) {
@@ -41,26 +50,36 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
         return;
       }
 
+      const cachedUser = getCachedUser();
+      if (cachedUser) setUser(cachedUser);
+
       try {
         const currentUser = await getCurrentUser();
         setUser(currentUser);
         setToken(activeToken);
-      } catch {
-        // Token is invalid, expired, or server is unreachable
-        apiLogout();
-        setUser(null);
-        setToken(null);
+      } catch (error) {
+        // Preserve an otherwise valid session through Render/Neon cold starts or
+        // short network outages. Clear it only when the server rejects the token.
+        if (error instanceof ApiError && (error.status === 401 || error.status === 403)) {
+          apiLogout();
+          setUser(null);
+          setToken(null);
+        } else if (!cachedUser) {
+          setUser(null);
+        }
       } finally {
         setIsLoading(false);
       }
     }
 
     initAuth();
+    return () => window.removeEventListener("ssc-auth-expired", handleExpiredSession);
   }, []);
 
   const handleLogin = async (payload: LoginPayload): Promise<User> => {
     const response = await apiLogin(payload);
     setToken(response.access_token);
+    // apiLogin caches the response user for reconnect-safe auth initialization.
     setUser(response.user);
     return response.user;
   };

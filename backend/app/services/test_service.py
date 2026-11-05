@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 import uuid
 
 from fastapi import HTTPException
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.orm import Session, joinedload
 
 from app.models import (
@@ -19,7 +19,11 @@ from app.models import (
     TestAttemptStatus,
     TestQuestion,
     UserAnswer,
+    UserChapterRotation,
+    UserQuestionHistory,
 )
+from app.config import settings
+from app.services.beta_scope import chapter_is_in_beta, subject_is_in_beta
 
 ALLOWED_COUNTS = {10, 15, 20, 25}
 SECONDS_PER_QUESTION = 36
@@ -124,6 +128,86 @@ def _balanced_chapter_sample(questions: list[Question], count: int) -> list[Ques
     return selected
 
 
+def _rotation_state(db: Session, user_id: uuid.UUID, chapter_id: uuid.UUID,
+                    selection_mode: str) -> UserChapterRotation:
+    """Create then lock a per-user chapter/mode row, serializing overlapping starts."""
+    dialect = db.bind.dialect.name
+    if dialect == "postgresql":
+        from sqlalchemy.dialects.postgresql import insert
+        db.execute(insert(UserChapterRotation).values(user_id=user_id, chapter_id=chapter_id,
+                                                       selection_mode=selection_mode, rotation=0)
+                   .on_conflict_do_nothing(constraint="uq_user_chapter_rotation_mode"))
+    elif dialect == "sqlite":
+        from sqlalchemy.dialects.sqlite import insert
+        db.execute(insert(UserChapterRotation).values(user_id=user_id, chapter_id=chapter_id,
+                                                       selection_mode=selection_mode, rotation=0)
+                   .on_conflict_do_nothing(index_elements=["user_id", "chapter_id", "selection_mode"]))
+    else:
+        state = db.execute(select(UserChapterRotation).where(
+            UserChapterRotation.user_id == user_id,
+            UserChapterRotation.chapter_id == chapter_id,
+            UserChapterRotation.selection_mode == selection_mode,
+        )).scalar_one_or_none()
+        if state is None:
+            state = UserChapterRotation(user_id=user_id, chapter_id=chapter_id,
+                                        selection_mode=selection_mode, rotation=0)
+            db.add(state)
+            db.flush()
+    state = db.execute(select(UserChapterRotation).where(
+        UserChapterRotation.user_id == user_id,
+        UserChapterRotation.chapter_id == chapter_id,
+        UserChapterRotation.selection_mode == selection_mode,
+    ).with_for_update()).scalar_one()
+    return state
+
+
+def _rotated_sample(db: Session, user_id: uuid.UUID, chapter_id: uuid.UUID,
+                    selection_mode: str,
+                    questions: list[Question], count: int) -> tuple[list[Question], int]:
+    """Choose unseen questions first and update history in the attempt transaction."""
+    state = _rotation_state(db, user_id, chapter_id, selection_mode)
+    ids = [question.id for question in questions]
+    history = db.scalars(select(UserQuestionHistory).where(
+        UserQuestionHistory.user_id == user_id,
+        UserQuestionHistory.chapter_id == chapter_id,
+        UserQuestionHistory.selection_mode == selection_mode,
+        UserQuestionHistory.question_id.in_(ids),
+    )).all() if ids else []
+    by_id = {row.question_id: row for row in history}
+    current_rotation = state.rotation
+    unseen = [q for q in questions if q.id not in by_id or by_id[q.id].rotation < current_rotation]
+    rng = random.SystemRandom()
+    rng.shuffle(unseen)
+    selected = unseen[:count]
+    if len(selected) < count:
+        if not unseen:
+            # Every eligible item has been served in this cycle. Start another cycle;
+            # the least-recently/repeated items are naturally deprioritized below.
+            state.rotation += 1
+            current_rotation = state.rotation
+            unseen = list(questions)
+            rng.shuffle(unseen)
+            selected = unseen[:count]
+        else:
+            remaining = [q for q in questions if q not in selected]
+            rng.shuffle(remaining)
+            remaining.sort(key=lambda q: (by_id[q.id].served_count if q.id in by_id else 0,
+                                          by_id[q.id].last_served_at.timestamp() if q.id in by_id else 0))
+            selected.extend(remaining[:count - len(selected)])
+    now = datetime.now(timezone.utc)
+    for question in selected:
+        row = by_id.get(question.id)
+        if row is None:
+            db.add(UserQuestionHistory(user_id=user_id, chapter_id=chapter_id,
+                                       selection_mode=selection_mode, question_id=question.id,
+                                       rotation=current_rotation, served_count=1, last_served_at=now))
+        else:
+            row.rotation = current_rotation
+            row.served_count += 1
+            row.last_served_at = now
+    return selected, current_rotation
+
+
 def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level):
     if test_type not in TEST_TYPES:
         raise HTTPException(status_code=422, detail="Test type must be CHAPTER_WISE or MISCELLANEOUS")
@@ -133,6 +217,8 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
         raise HTTPException(status_code=404, detail="Active exam not found")
     if not subject or not subject.is_active or subject.exam_id != exam.id:
         raise HTTPException(status_code=422, detail="Subject does not belong to the selected active exam")
+    if not subject_is_in_beta(exam.slug, subject.slug):
+        raise HTTPException(status_code=404, detail="This subject is not available in the beta")
 
     if test_type == "CHAPTER_WISE":
         if chapter_id is None:
@@ -140,6 +226,9 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
         chapter = db.get(Chapter, chapter_id)
         if not chapter or not chapter.is_active or chapter.subject_id != subject.id:
             raise HTTPException(status_code=422, detail="Chapter does not belong to the selected active subject")
+        subcategory_slug = db.scalar(select(Subcategory.slug).where(Subcategory.id == chapter.subcategory_id)) if chapter.subcategory_id else None
+        if not chapter_is_in_beta(exam.slug, subject.slug, subcategory_slug):
+            raise HTTPException(status_code=404, detail="This chapter is not available in the beta")
         if subcategory_id is not None:
             category = db.get(Subcategory, subcategory_id)
             if not category or not category.is_active or category.subject_id != subject.id:
@@ -170,6 +259,10 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
         Question.is_active.is_(True),
         Question.is_pyq.is_(is_pyq),
     )
+    if settings.BETA_CATALOG_SCOPE and subject.slug == "gk-gs":
+        query = query.join(Subcategory, Subcategory.id == Chapter.subcategory_id).where(
+            Subcategory.slug == "science",
+        )
     if chapter is not None:
         query = query.where(Question.chapter_id == chapter.id)
     if difficulty is not None:
@@ -209,7 +302,11 @@ def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
             ),
         )
 
-    if subject.slug == "reasoning" and payload.test_type == "MISCELLANEOUS":
+    if chapter is not None:
+        selection_mode = "PYQ" if is_pyq else difficulty.value if difficulty else "MIXED"
+        selected, _ = _rotated_sample(db, user_id, chapter.id, selection_mode,
+                                      eligible, payload.question_count)
+    elif subject.slug == "reasoning" and payload.test_type == "MISCELLANEOUS":
         selected = _balanced_chapter_sample(eligible, payload.question_count)
     else:
         selected = random.SystemRandom().sample(eligible, payload.question_count)

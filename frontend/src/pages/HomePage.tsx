@@ -78,7 +78,6 @@ export default function HomePage() {
   return (
     <div
       className="overflow-x-hidden bg-[#F8F9FA] text-[#2D3436]"
-      style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}
     >
       {/* Hero (unchanged) */}
       <section className="border-b border-[#2D3436]/10 bg-white">

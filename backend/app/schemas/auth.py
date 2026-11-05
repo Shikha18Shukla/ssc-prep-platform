@@ -30,6 +30,7 @@ class RegisterRequest(BaseModel):
         max_length=128,
         description="Plaintext password (minimum 8 characters)",
     )
+    invitation_code: str | None = Field(default=None, min_length=32, max_length=128)
 
     @field_validator("email", mode="before")
     @classmethod
@@ -101,3 +102,33 @@ class TokenResponse(BaseModel):
     access_token: str
     token_type: str = "bearer"
     user: UserResponse
+
+
+class BetaInvitationBatchRequest(BaseModel):
+    emails: list[EmailStr] = Field(min_length=1, max_length=200)
+    expires_in_days: int = Field(default=14, ge=1, le=30)
+
+    @field_validator("emails")
+    @classmethod
+    def normalize_emails(cls, values: list[EmailStr]) -> list[EmailStr]:
+        normalized = [str(value).strip().lower() for value in values]
+        if len(set(map(str, normalized))) != len(normalized):
+            raise ValueError("Invitation email addresses must be unique")
+        return normalized
+
+
+class BetaInvitationCreated(BaseModel):
+    email: str
+    invitation_code: str
+    expires_at: datetime
+
+
+class BetaInvitationBatchResponse(BaseModel):
+    invitations: list[BetaInvitationCreated]
+    total_accounts: int
+    pending_invitations: int
+    remaining_slots: int
+
+
+class AccountActivationUpdate(BaseModel):
+    is_active: bool

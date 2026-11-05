@@ -62,6 +62,9 @@ export async function apiFetch<T>(
   }
 
   if (!response.ok) {
+    if (response.status === 401 && token) {
+      window.dispatchEvent(new Event("ssc-auth-expired"));
+    }
     let errorDetail = "";
     try {
       const errJson = await response.json();

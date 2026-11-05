@@ -9,6 +9,8 @@ from app.models.test_attempt import TestAttempt, TestAttemptStatus
 from app.models.test_question import TestQuestion
 from app.models.user import User
 from app.models.user_answer import UserAnswer
+from app.models.question_history import UserChapterRotation, UserQuestionHistory
+from app.models.beta_access import BetaCapacity, BetaInvitation, RateLimitWindow
 
 __all__ = [
     "User",
@@ -23,4 +25,9 @@ __all__ = [
     "TestAttemptStatus",
     "TestQuestion",
     "UserAnswer",
+    "UserChapterRotation",
+    "UserQuestionHistory",
+    "BetaCapacity",
+    "BetaInvitation",
+    "RateLimitWindow",
 ]

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { useAuth } from "@/hooks";
 import { ApiError } from "@/services/api";
 import { getTestResult } from "@/services/tests";
@@ -12,6 +12,8 @@ function fmtDuration(seconds: number | null) {
 export default function TestResultPage() {
   const { testId = "" } = useParams();
   const { token } = useAuth();
+  const [searchParams] = useSearchParams();
+  const unconfirmedAnswers = Math.max(0, Number(searchParams.get("unconfirmed") || 0));
   const [result, setResult] = useState<TestResult | null>(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
@@ -19,9 +21,10 @@ export default function TestResultPage() {
     if (!token) return;
     getTestResult(token, testId).then(setResult).catch((e: unknown) => setError(e instanceof ApiError || e instanceof Error ? e.message : "Unable to load result.")).finally(() => setLoading(false));
   }, [token, testId]);
-  return <main className="mx-auto max-w-4xl px-4 py-8 text-[#2D3436] sm:py-12" style={{ fontFamily: "Inter, 'Noto Sans Devanagari', sans-serif" }}>
+  return <main className="mx-auto max-w-4xl px-4 py-8 text-[#2D3436] sm:py-12">
     <header className="rounded-lg border bg-white p-6 sm:p-8"><p className="font-semibold text-[#007BFF]">SSC Practice · Results</p><h1 className="mt-1 text-2xl font-bold">Test summary</h1>
       {loading ? <p className="mt-4" role="status">Loading results…</p> : error ? <p role="alert" className="mt-4 rounded bg-red-50 p-4 text-red-800">{error}</p> : result && <>
+        {unconfirmedAnswers > 0 && <p role="alert" className="mt-4 rounded border border-amber-300 bg-amber-50 p-4 text-amber-950">{unconfirmedAnswers} choice{unconfirmedAnswers === 1 ? " was" : "s were"} still awaiting server confirmation when this test ended, so {unconfirmedAnswers === 1 ? "it was" : "they were"} not included in scoring. Your confirmed answers remain saved.</p>}
         <dl className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {[["Total questions", result.question_count], ["Attempted", result.attempted_count], ["Unanswered", result.unanswered_count], ["Correct", result.correct_count ?? "—"], ["Incorrect", result.wrong_count ?? "—"], ["Time taken", fmtDuration(result.time_taken_seconds)], ["Score", result.score === null ? "Pending" : `${result.score} / ${result.question_count * 2}`]].map(([label, value]) => <div key={String(label)} className="rounded-md bg-[#F8F9FA] p-4"><dt className="text-xs font-semibold uppercase text-gray-500">{label}</dt><dd className="mt-1 text-lg font-bold">{value}</dd></div>)}
         </dl>

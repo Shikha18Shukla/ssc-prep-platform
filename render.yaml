@@ -1,0 +1,82 @@
+services:
+  - type: web
+    name: ssc-prep-beta-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    region: singapore
+    autoDeployTrigger: "off"
+    healthCheckPath: /api/ready
+    envVars:
+      - key: APP_NAME
+        value: SSC Prep Platform
+      - key: APP_VERSION
+        value: 0.1.0-beta
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: DATABASE_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "30"
+      - key: BETA_INVITATIONS_REQUIRED
+        value: "true"
+      - key: BETA_CATALOG_SCOPE
+        value: "true"
+      - key: RATE_LIMIT_CLEANUP_SECONDS
+        value: "900"
+      - key: DB_POOL_SIZE
+        value: "2"
+      - key: DB_MAX_OVERFLOW
+        value: "0"
+      - key: DB_POOL_TIMEOUT_SECONDS
+        value: "30"
+      - key: DB_POOL_RECYCLE_SECONDS
+        value: "1800"
+      - key: WEB_CONCURRENCY
+        value: "1"
+      - key: FORWARDED_ALLOW_IPS
+        value: "*"
+      - key: CORS_ORIGINS
+        value: '["https://ssc-prep-beta.onrender.com"]'
+
+  - type: web
+    name: ssc-prep-beta
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    autoDeployTrigger: "off"
+    envVars:
+      - key: VITE_API_URL
+        value: https://ssc-prep-beta-api.onrender.com/api
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: Permissions-Policy
+        value: camera=(), microphone=(), geolocation=()
+      - path: /*
+        name: Strict-Transport-Security
+        value: max-age=31536000
+      - path: /*
+        name: Content-Security-Policy
+        value: "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://ssc-prep-beta-api.onrender.com; upgrade-insecure-requests"
