@@ -26,10 +26,10 @@ export function RootLayout() {
                   Dashboard
                 </Link>
                 <Link
-                  to="/ssc"
+                  to="/practice"
                   className="text-sm font-medium text-content hover:text-primary transition hidden sm:inline"
                 >
-                  Start Practice
+                  Practice
                 </Link>
                 {user?.is_admin && (
                   <Link

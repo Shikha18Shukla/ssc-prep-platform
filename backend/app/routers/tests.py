@@ -2,7 +2,7 @@
 
 import uuid
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session, joinedload
 
@@ -115,10 +115,16 @@ def test_availability(
     subcategory_id: uuid.UUID | None = None,
     difficulty: str | None = None,
     question_count: int | None = None,
+    chapter_ids: str | None = Query(default=None),
     db: Session = Depends(get_db),
 ):
+    try:
+        selected_chapter_ids = [uuid.UUID(value) for value in chapter_ids.split(",") if value] if chapter_ids else None
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail="chapter_ids must contain comma-separated UUIDs") from exc
     return get_test_availability(
         db, exam_id, subject_id, test_type, chapter_id, subcategory_id, difficulty, question_count,
+        selected_chapter_ids,
     )
 
 

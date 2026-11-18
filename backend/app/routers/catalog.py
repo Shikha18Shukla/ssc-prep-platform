@@ -4,11 +4,12 @@ import uuid
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.auth.dependencies import get_current_user
 from app.database.session import get_db
-from app.models import Chapter, Exam, Subject
+from app.models import Chapter, Exam, Question, Subject
 from app.schemas.catalog import ChapterAvailability, PracticeLevel, SubcategoryRead
 from app.schemas.common import ChapterRead, ExamRead, SubjectRead
 from app.services.catalog_service import (
@@ -18,6 +19,7 @@ from app.services.catalog_service import (
     list_active_subjects,
     list_active_subcategories,
 )
+from app.services.beta_scope import subject_is_in_beta
 
 router = APIRouter(
     prefix="/exams",
@@ -72,6 +74,25 @@ def get_chapters(
     if chapters is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Active subject not found")
     return chapters
+
+
+@router.get("/subjects/{subject_id}/chapter-counts", summary="Get active question counts for every chapter in a subject")
+def get_subject_chapter_counts(subject_id: uuid.UUID, db: Session = Depends(get_db)) -> list[dict]:
+    subject = db.execute(
+        select(Subject.id, Subject.slug, Exam.slug)
+        .join(Exam, Exam.id == Subject.exam_id)
+        .where(Subject.id == subject_id, Subject.is_active.is_(True), Exam.is_active.is_(True))
+    ).one_or_none()
+    if subject is None or not subject_is_in_beta(subject[2], subject[1]):
+        raise HTTPException(status_code=404, detail="Active subject not found")
+    rows = db.execute(
+        select(Chapter.id, func.count(Question.id))
+        .outerjoin(Question, (Question.chapter_id == Chapter.id) & Question.is_active.is_(True))
+        .where(Chapter.subject_id == subject_id, Chapter.is_active.is_(True))
+        .group_by(Chapter.id)
+        .order_by(Chapter.id)
+    ).all()
+    return [{"chapter_id": chapter_id, "question_count": count} for chapter_id, count in rows]
 
 
 @router.get(

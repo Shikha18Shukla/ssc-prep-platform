@@ -7,6 +7,7 @@ from app.models import Chapter, Difficulty, Exam, Question, Subject, Subcategory
 from app.schemas.catalog import PracticeLevel
 from app.config import settings
 from app.services.beta_scope import chapter_is_in_beta, subcategory_is_in_beta, subject_is_in_beta
+from app.database.banking_catalog import BANKING_SUBJECTS
 
 QUESTION_COUNTS = (10, 15, 20, 25)
 
@@ -20,21 +21,23 @@ def _allowed_question_counts(available_count: int) -> list[int]:
 def list_active_exams(db: Session) -> list[Exam]:
     query = select(Exam).where(Exam.is_active.is_(True))
     if settings.BETA_CATALOG_SCOPE:
-        query = query.where(Exam.slug == "ssc")
+        query = query.where(Exam.slug.in_(["ssc", "banking-po", "banking-clerk", "banking-others"]))
     return list(db.execute(query.order_by(Exam.slug)).scalars().all())
 
 
 def list_active_subjects(db: Session, exam_id) -> list[Subject] | None:
     exam_query = select(Exam.id).where(Exam.id == exam_id, Exam.is_active.is_(True))
     if settings.BETA_CATALOG_SCOPE:
-        exam_query = exam_query.where(Exam.slug == "ssc")
+        exam_query = exam_query.where(Exam.slug.in_(["ssc", "banking-po", "banking-clerk", "banking-others"]))
     active_exam = db.execute(exam_query).scalar_one_or_none()
     if active_exam is None:
         return None
 
     subject_query = select(Subject).where(Subject.exam_id == exam_id, Subject.is_active.is_(True))
     if settings.BETA_CATALOG_SCOPE:
-        subject_query = subject_query.where(Subject.slug.in_(["maths", "reasoning", "gk-gs"]))
+        exam_slug = db.scalar(select(Exam.slug).where(Exam.id == exam_id))
+        allowed_slugs = ["maths", "reasoning", "gk-gs"] if exam_slug == "ssc" else [slug for _, slug, _ in BANKING_SUBJECTS]
+        subject_query = subject_query.where(Subject.slug.in_(allowed_slugs))
     return list(
         db.execute(
             subject_query.order_by(Subject.display_order, Subject.name)

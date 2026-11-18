@@ -84,7 +84,11 @@ def _finalize(db: Session, attempt: TestAttempt, now: datetime, timed_out: bool)
 def _valid_questions(questions):
     return [
         question for question in questions
-        if {option.option_key for option in question.options} == {"A", "B", "C", "D"}
+        if {option.option_key for option in question.options} in (
+            {"A", "B", "C", "D"},
+            {"A", "B", "C", "D", "E"},
+        )
+        and len(question.options) in (4, 5)
         and all(option.option_text.strip() for option in question.options)
         and sum(option.is_correct for option in question.options) == 1
     ]
@@ -97,7 +101,9 @@ def _allowed_question_counts(available: int) -> list[int]:
     return sorted(allowed)
 
 
-def _selection_counts(available: int, subject: Subject) -> list[int]:
+def _selection_counts(available: int, subject: Subject, exam_slug: str | None = None) -> list[int]:
+    if exam_slug in {"banking-po", "banking-clerk", "banking-others"}:
+        return _allowed_question_counts(available)
     if subject.slug == "reasoning":
         return [count for count in sorted(ALLOWED_COUNTS) if count <= available]
     return _allowed_question_counts(available)
@@ -208,7 +214,7 @@ def _rotated_sample(db: Session, user_id: uuid.UUID, chapter_id: uuid.UUID,
     return selected, current_rotation
 
 
-def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level):
+def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, chapter_ids=None):
     if test_type not in TEST_TYPES:
         raise HTTPException(status_code=422, detail="Test type must be CHAPTER_WISE or MISCELLANEOUS")
     exam = db.get(Exam, exam_id)
@@ -221,6 +227,8 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
         raise HTTPException(status_code=404, detail="This subject is not available in the beta")
 
     if test_type == "CHAPTER_WISE":
+        if chapter_ids:
+            raise HTTPException(status_code=422, detail="Chapter-wise tests accept one chapter_id only")
         if chapter_id is None:
             raise HTTPException(status_code=422, detail="A chapter is required for a chapter-wise test")
         chapter = db.get(Chapter, chapter_id)
@@ -237,7 +245,15 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
                 raise HTTPException(status_code=422, detail="Category does not match the selected chapter")
     else:
         if chapter_id is not None or subcategory_id is not None:
-            raise HTTPException(status_code=422, detail="Miscellaneous tests cannot include a chapter or category")
+            raise HTTPException(status_code=422, detail="Miscellaneous tests use chapter_ids, not chapter_id or category")
+        if chapter_ids is not None:
+            chapters = db.scalars(select(Chapter).where(Chapter.id.in_(chapter_ids), Chapter.subject_id == subject.id, Chapter.is_active.is_(True))).all()
+            if len(set(chapter_ids)) != len(chapters) or not chapters:
+                raise HTTPException(status_code=422, detail="Every selected chapter must belong to the selected subject")
+        else:
+            chapters = []
+            if exam.slug in {"banking-po", "banking-clerk", "banking-others"}:
+                raise HTTPException(status_code=422, detail="Banking mixed tests require at least one selected chapter")
         chapter = None
 
     is_pyq = requested_level == "PYQ"
@@ -257,28 +273,32 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
         Chapter.subject_id == subject.id,
         Chapter.is_active.is_(True),
         Question.is_active.is_(True),
-        Question.is_pyq.is_(is_pyq),
     )
+    include_banking_pyq = exam.slug in {"banking-po", "banking-clerk", "banking-others"} and requested_level is None
+    if not include_banking_pyq:
+        query = query.where(Question.is_pyq.is_(is_pyq))
     if settings.BETA_CATALOG_SCOPE and subject.slug == "gk-gs":
         query = query.join(Subcategory, Subcategory.id == Chapter.subcategory_id).where(
             Subcategory.slug == "science",
         )
     if chapter is not None:
         query = query.where(Question.chapter_id == chapter.id)
+    elif test_type == "MISCELLANEOUS" and chapter_ids is not None:
+        query = query.where(Question.chapter_id.in_(chapter_ids))
     if difficulty is not None:
         query = query.where(Question.difficulty == difficulty)
     questions = _valid_questions(db.execute(query.options(joinedload(Question.options))).scalars().unique())
     return exam, subject, chapter, difficulty, is_pyq, questions
 
 
-def get_test_availability(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, question_count=None):
+def get_test_availability(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, question_count=None, chapter_ids=None):
     if question_count is not None and not 1 <= question_count <= max(ALLOWED_COUNTS):
         raise HTTPException(status_code=422, detail="Question count must be between 1 and 25")
-    _, subject, _, _, _, eligible = _selection(
-        db, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level,
+    exam, subject, _, _, _, eligible = _selection(
+        db, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, chapter_ids,
     )
     available = len(eligible)
-    allowed = _selection_counts(available, subject)
+    allowed = _selection_counts(available, subject, exam.slug)
     return {
         "available_question_count": available,
         "allowed_question_counts": allowed,
@@ -291,9 +311,9 @@ def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
         raise HTTPException(status_code=422, detail="Question count must be between 1 and 25")
     exam, subject, chapter, difficulty, is_pyq, eligible = _selection(
         db, payload.exam_id, payload.subject_id, payload.test_type, payload.chapter_id,
-        payload.subcategory_id, payload.difficulty,
+        payload.subcategory_id, payload.difficulty, payload.chapter_ids,
     )
-    if payload.question_count not in _selection_counts(len(eligible), subject):
+    if payload.question_count not in _selection_counts(len(eligible), subject, exam.slug):
         raise HTTPException(
             status_code=409,
             detail=(

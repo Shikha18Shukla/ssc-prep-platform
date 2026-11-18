@@ -16,6 +16,7 @@ class TestCreate(BaseModel):
     subcategory_id: uuid.UUID | None = None
     test_type: Literal["CHAPTER_WISE", "MISCELLANEOUS"]
     chapter_id: uuid.UUID | None = None
+    chapter_ids: list[uuid.UUID] | None = Field(default=None, max_length=100)
     # PYQ is an independent selection mode, not a difficulty level.
     difficulty: str | None = None
     question_count: int = Field(ge=1, le=25)
@@ -59,7 +60,7 @@ class ActiveTestRead(BaseModel):
 
 
 class AnswerUpdate(BaseModel):
-    selected_option: str = Field(pattern="^[A-D]$")
+    selected_option: str = Field(pattern="^[A-E]$")
 
 
 class TestSummary(BaseModel):

@@ -38,6 +38,12 @@ export function getSubjectChapters(
   });
 }
 
+export function getSubjectChapterCounts(token: string, subjectId: string) {
+  return apiFetch<Array<{ chapter_id: string; question_count: number }>>(
+    `/exams/subjects/${subjectId}/chapter-counts`, { token },
+  );
+}
+
 export function getChapterAvailability(
   token: string,
   chapterId: string,

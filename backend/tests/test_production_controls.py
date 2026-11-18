@@ -12,12 +12,13 @@ from app.schemas.auth import BetaInvitationBatchRequest
 from app.security.rate_limit import enforce_rate_limit
 from app.services.auth_service import issue_beta_invitations
 from app.services.catalog_service import (
+    get_chapter_availability,
     list_active_chapters_for_selection,
     list_active_exams,
     list_active_subjects,
     list_active_subcategories,
 )
-from app.services.beta_scope import chapter_is_in_beta
+from app.services.beta_scope import chapter_is_in_beta, subject_is_in_beta
 
 
 def _user(db_session, email: str, *, is_admin: bool = False) -> User:
@@ -177,6 +178,73 @@ def test_beta_chapter_scope_is_disabled_outside_production(monkeypatch):
     monkeypatch.setattr(settings, "BETA_CATALOG_SCOPE", True)
     assert chapter_is_in_beta("ssc", "gk-gs", "science")
     assert not chapter_is_in_beta("ssc", "gk-gs", None)
+
+
+@pytest.mark.parametrize("exam_slug", ["banking-po", "banking-clerk", "banking-others"])
+def test_banking_beta_scope_allows_only_configured_subjects(monkeypatch, exam_slug):
+    from app.config import settings
+    from app.database.banking_catalog import BANKING_SUBJECTS
+
+    monkeypatch.setattr(settings, "BETA_CATALOG_SCOPE", True)
+    allowed_subjects = {subject_slug for _, subject_slug, _ in BANKING_SUBJECTS}
+    assert all(subject_is_in_beta(exam_slug, slug) for slug in allowed_subjects)
+    assert not subject_is_in_beta(exam_slug, "unlisted-internal-subject")
+    assert not subject_is_in_beta(exam_slug, "gk-gs")
+
+
+def test_direct_banking_catalog_and_test_selection_reject_unlisted_subject(db_session, monkeypatch):
+    from app.config import settings
+    from app.routers.catalog import (
+        get_availability,
+        get_chapters,
+        get_subcategories,
+        get_subject_chapter_counts,
+    )
+    from app.schemas.catalog import PracticeLevel
+    from app.services.test_service import _selection
+
+    monkeypatch.setattr(settings, "BETA_CATALOG_SCOPE", True)
+    exam = Exam(name="Banking Clerk", slug="banking-clerk", is_active=True)
+    db_session.add(exam)
+    db_session.flush()
+    subject = Subject(
+        exam_id=exam.id,
+        name="Unlisted internal subject",
+        slug="unlisted-internal-subject",
+        is_active=True,
+    )
+    db_session.add(subject)
+    db_session.flush()
+    chapter = Chapter(
+        subject_id=subject.id,
+        name="Internal chapter",
+        slug="internal-chapter",
+        is_active=True,
+    )
+    db_session.add(chapter)
+    db_session.commit()
+
+    for endpoint_call in (
+        lambda: get_subcategories(subject.id, db_session),
+        lambda: get_chapters(subject.id, None, db_session),
+        lambda: get_subject_chapter_counts(subject.id, db_session),
+        lambda: get_availability(chapter.id, PracticeLevel.EASY, None, db_session),
+    ):
+        with pytest.raises(HTTPException) as exc:
+            endpoint_call()
+        assert exc.value.status_code == 404
+
+    with pytest.raises(HTTPException) as exc:
+        _selection(
+            db_session,
+            exam.id,
+            subject.id,
+            "CHAPTER_WISE",
+            chapter.id,
+            None,
+            None,
+        )
+    assert exc.value.status_code == 404
 
 
 @pytest.mark.parametrize("origin", [

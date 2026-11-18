@@ -22,8 +22,11 @@ EXPECTED_COLUMNS = {
     "option_b", "option_c", "option_d", "correct_option", "explanation", "difficulty",
     "is_pyq", "pyq_year", "pyq_exam_name", "source",
 }
-ALLOWED_JSON_COLUMNS = EXPECTED_COLUMNS | {"options"}
-ALLOWED_JSON_COLUMNS.add("image_url")
+OPTION_KEYS_FOUR = {"A", "B", "C", "D"}
+OPTION_KEYS_FIVE = {"A", "B", "C", "D", "E"}
+OPTION_FIELDS = {f"option_{key.lower()}" for key in "ABCDE"}
+ALLOWED_JSON_COLUMNS = EXPECTED_COLUMNS | {"options", "option_e", "is_active"}
+ALLOWED_JSON_COLUMNS.update({"image_url", "exam_slug"})
 
 
 def _parse_image_url(value, row_number: int, issues: list[ImportIssue], field: str) -> str | None:
@@ -51,6 +54,7 @@ class Candidate:
     pyq_year: int | None
     pyq_exam_name: str | None
     source: str | None
+    is_active: bool
     options: list[tuple[str, str, bool]]
 
 
@@ -100,7 +104,7 @@ def _parse_records(data: bytes, content_type: str, filename: str) -> list[tuple[
         missing = sorted(EXPECTED_COLUMNS - set(headers))
         if missing:
             raise ImportFileError(f"CSV is missing required columns: {', '.join(missing)}")
-        unexpected = sorted(set(headers) - EXPECTED_COLUMNS)
+        unexpected = sorted(set(headers) - (EXPECTED_COLUMNS | {"exam_slug", "image_url", "option_e", "is_active"}))
         if unexpected:
             raise ImportFileError(f"CSV contains unsupported columns: {', '.join(unexpected)}")
         reader.fieldnames = headers
@@ -159,43 +163,45 @@ def _validate_record(
         _add_issue(issues, row_number, None, f"Unsupported fields: {', '.join(unexpected)}")
     option_container = record.get("options")
     if isinstance(option_container, dict):
-        labels = {str(key).strip().upper() for key in option_container}
-        if labels != {"A", "B", "C", "D"}:
-            _add_issue(issues, row_number, "options", "Options object must contain exactly A, B, C, and D")
+        labels = [str(key).strip().upper() for key in option_container]
+        if len(labels) != len(set(labels)) or set(labels) not in (OPTION_KEYS_FOUR, OPTION_KEYS_FIVE):
+            _add_issue(issues, row_number, "options", "Options object must contain exactly A-D or A-E")
     elif isinstance(option_container, list):
         labels = [
             _text(option.get("option_key", option.get("key"))).upper()
             for option in option_container if isinstance(option, dict)
         ]
-        if len(labels) != 4 or set(labels) != {"A", "B", "C", "D"}:
-            _add_issue(issues, row_number, "options", "Options array must contain exactly one each of A, B, C, and D")
+        if len(labels) not in (4, 5) or len(labels) != len(set(labels)) or set(labels) not in (OPTION_KEYS_FOUR, OPTION_KEYS_FIVE):
+            _add_issue(issues, row_number, "options", "Options array must contain exactly one each of A-D or A-E")
     elif option_container is not None:
-        _add_issue(issues, row_number, "options", "Options must be an object keyed A-D or an array of four labelled options")
+        _add_issue(issues, row_number, "options", "Options must be an object keyed A-D/A-E or an array of four/five labelled options")
     record.update(_options_from_record(record))
 
-    for field in ("question_text", "option_a", "option_b", "option_c", "option_d", "explanation", "pyq_exam_name", "source"):
+    for field in ("question_text", *OPTION_FIELDS, "explanation", "pyq_exam_name", "source"):
         if record.get(field) is not None and not isinstance(record[field], str):
             _add_issue(issues, row_number, field, "Value must be text")
 
     subject_slug = _text(record.get("subject_slug")).casefold()
+    exam_slug = _text(record.get("exam_slug")).casefold() or "ssc"
     category_slug = _text(record.get("subcategory_slug")).casefold() or None
     chapter_slug = _text(record.get("chapter_slug")).casefold()
 
-    subject = caches["subjects"].get(subject_slug)
-    if subject_slug not in caches["subjects"]:
+    subject_key = (exam_slug, subject_slug)
+    subject = caches["subjects"].get(subject_key)
+    if subject_key not in caches["subjects"]:
         subject = db.execute(
             select(Subject)
             .join(Exam, Exam.id == Subject.exam_id)
             .where(
                 Subject.slug == subject_slug,
                 Subject.is_active.is_(True),
-                Exam.slug == "ssc",
+                Exam.slug == exam_slug,
                 Exam.is_active.is_(True),
             )
         ).scalar_one_or_none() if subject_slug else None
-        caches["subjects"][subject_slug] = subject
+        caches["subjects"][subject_key] = subject
     if subject is None:
-        _add_issue(issues, row_number, "subject_slug", "Active SSC subject slug was not found")
+        _add_issue(issues, row_number, "subject_slug", "Active subject for the supplied exam_slug was not found")
 
     category = None
     if subject is not None and category_slug:
@@ -238,12 +244,23 @@ def _validate_record(
 
     option_values: list[tuple[str, str, bool]] = []
     correct_label = _text(record.get("correct_option")).upper()
-    if correct_label not in {"A", "B", "C", "D"}:
-        _add_issue(issues, row_number, "correct_option", "Correct option must be A, B, C, or D")
-    for order, label in enumerate("ABCD", start=1):
+    if isinstance(option_container, dict):
+        has_option_e = any(str(key).strip().upper() == "E" for key in option_container)
+    elif isinstance(option_container, list):
+        has_option_e = any(
+            isinstance(option, dict)
+            and _text(option.get("option_key", option.get("key"))).upper() == "E"
+            for option in option_container
+        )
+    else:
+        has_option_e = bool(_text(record.get("option_e")))
+    option_labels = "ABCDE" if has_option_e else "ABCD"
+    if correct_label not in set(option_labels):
+        _add_issue(issues, row_number, "correct_option", "Correct option must be one of the supplied A-D or A-E options")
+    for order, label in enumerate(option_labels, start=1):
         option_text = _text(record.get(f"option_{label.lower()}"))
         if not option_text:
-            _add_issue(issues, row_number, f"option_{label.lower()}", "All four option texts are required and must be non-empty")
+            _add_issue(issues, row_number, f"option_{label.lower()}", f"All {len(option_labels)} option texts are required and must be non-empty")
         option_values.append((label, option_text, label == correct_label))
 
     try:
@@ -274,12 +291,15 @@ def _validate_record(
 
     source = _text(record.get("source")) or None
     explanation = _text(record.get("explanation")) or None
+    active_value = _parse_bool(record.get("is_active")) if _text(record.get("is_active")) else True
+    if active_value is None:
+        _add_issue(issues, row_number, "is_active", "is_active must be true or false when supplied")
     if len(source or "") > 255:
         _add_issue(issues, row_number, "source", "Source must be at most 255 characters")
     if len(pyq_exam_name or "") > 100:
         _add_issue(issues, row_number, "pyq_exam_name", "PYQ exam name must be at most 100 characters")
 
-    if len(issues) != starting_issue_count or subject is None or chapter is None or difficulty is None or is_pyq is None:
+    if len(issues) != starting_issue_count or subject is None or chapter is None or difficulty is None or is_pyq is None or active_value is None:
         return None
     return Candidate(
         row=row_number,
@@ -292,6 +312,7 @@ def _validate_record(
         pyq_year=pyq_year,
         pyq_exam_name=pyq_exam_name,
         source=source,
+        is_active=active_value,
         options=option_values,
     )
 
@@ -364,7 +385,7 @@ def import_questions(
                 pyq_year=candidate.pyq_year,
                 pyq_exam_name=candidate.pyq_exam_name,
                 source=candidate.source,
-                is_active=True,
+                is_active=candidate.is_active,
                 options=[
                     QuestionOption(
                         option_key=key,

@@ -127,6 +127,156 @@ def test_create_test_selects_random_distinct_questions_and_hides_answers(client:
     assert "is_correct" not in body["questions"][0]["options"][0]
 
 
+def test_banking_five_option_question_e_is_rendered_submitted_and_scored(
+    client: TestClient, test_setup, db_session: Session,
+):
+    exam = Exam(name="Banking Clerk", slug="banking-clerk", is_active=True)
+    db_session.add(exam)
+    db_session.flush()
+    subject = Subject(exam_id=exam.id, name="Reasoning", slug="reasoning", is_active=True)
+    db_session.add(subject)
+    db_session.flush()
+    chapter = Chapter(subject_id=subject.id, name="Coding Decoding", slug="coding-decoding", is_active=True)
+    db_session.add(chapter)
+    db_session.flush()
+
+    for index in range(5):
+        question = Question(
+            chapter_id=chapter.id,
+            question_text=f"Banking Clerk five-option item {index}",
+            difficulty=Difficulty.MEDIUM,
+            is_pyq=False,
+            is_active=True,
+        )
+        db_session.add(question)
+        db_session.flush()
+        db_session.add_all(
+            QuestionOption(
+                question_id=question.id,
+                option_key=key,
+                option_text=f"Option {key}",
+                display_order=position,
+                is_correct=key == "E",
+            )
+            for position, key in enumerate("ABCDE", start=1)
+        )
+    db_session.commit()
+
+    availability = client.get(
+        "/api/tests/availability",
+        params={
+            "exam_id": str(exam.id),
+            "subject_id": str(subject.id),
+            "test_type": "CHAPTER_WISE",
+            "chapter_id": str(chapter.id),
+            "question_count": 5,
+        },
+        headers=test_setup["headers"],
+    )
+    assert availability.status_code == 200, availability.text
+    assert availability.json()["available_question_count"] == 5
+    assert availability.json()["allowed_question_counts"] == [5]
+
+    response = client.post(
+        "/api/tests",
+        json={
+            "exam_id": str(exam.id),
+            "subject_id": str(subject.id),
+            "chapter_id": str(chapter.id),
+            "test_type": "CHAPTER_WISE",
+            "question_count": 5,
+        },
+        headers=test_setup["headers"],
+    )
+    assert response.status_code == 201, response.text
+    active_test = response.json()
+    assert len(active_test["questions"]) == 5
+    assert all([option["option_key"] for option in question["options"]] == list("ABCDE")
+               for question in active_test["questions"])
+
+    for question in active_test["questions"]:
+        answer_response = client.put(
+            f"/api/tests/{active_test['id']}/questions/{question['test_question_id']}/answer",
+            json={"selected_option": "E"},
+            headers=test_setup["headers"],
+        )
+        assert answer_response.status_code == 200, answer_response.text
+
+    result = client.post(f"/api/tests/{active_test['id']}/submit", headers=test_setup["headers"])
+    assert result.status_code == 200, result.text
+    assert result.json()["correct_count"] == 5
+    assert result.json()["score"] == 10.0
+
+    review = client.get(
+        f"/api/tests/{active_test['id']}/result",
+        headers=test_setup["headers"],
+    )
+    assert review.status_code == 200, review.text
+    assert all(question["correct_option"] == "E" and question["is_correct"]
+               for question in review.json()["review"])
+
+
+def test_banking_mixed_test_uses_only_selected_po_chapters(client: TestClient, test_setup, db_session: Session):
+    from app.models import TestQuestion
+
+    po = Exam(name="Banking PO", slug="banking-po", is_active=True)
+    clerk = Exam(name="Banking Clerk", slug="banking-clerk", is_active=True)
+    db_session.add_all([po, clerk])
+    db_session.flush()
+    po_subject = Subject(exam_id=po.id, name="Reasoning", slug="reasoning", is_active=True)
+    clerk_subject = Subject(exam_id=clerk.id, name="Reasoning", slug="reasoning", is_active=True)
+    db_session.add_all([po_subject, clerk_subject])
+    db_session.flush()
+    selected_chapters = [
+        Chapter(subject_id=po_subject.id, name=f"PO chapter {index}", slug=f"po-{index}", is_active=True)
+        for index in (1, 2)
+    ]
+    unselected_chapter = Chapter(subject_id=po_subject.id, name="PO chapter 3", slug="po-3", is_active=True)
+    clerk_chapter = Chapter(subject_id=clerk_subject.id, name="Clerk chapter", slug="clerk-chapter", is_active=True)
+    db_session.add_all([*selected_chapters, unselected_chapter, clerk_chapter])
+    db_session.flush()
+
+    def add_questions(chapter: Chapter, label: str):
+        for index in range(12):
+            question = Question(chapter_id=chapter.id, question_text=f"{label} question {index}",
+                                difficulty=Difficulty.EASY, is_pyq=False, is_active=True)
+            db_session.add(question)
+            db_session.flush()
+            db_session.add_all(QuestionOption(question_id=question.id, option_key=key,
+                option_text=f"Option {key}", display_order=position, is_correct=key == "A")
+                for position, key in enumerate("ABCD", start=1))
+
+    for index, chapter in enumerate(selected_chapters, 1):
+        add_questions(chapter, f"PO {index}")
+    add_questions(unselected_chapter, "PO unselected")
+    add_questions(clerk_chapter, "Clerk")
+    db_session.commit()
+
+    payload = {
+        "exam_id": str(po.id),
+        "subject_id": str(po_subject.id),
+        "test_type": "MISCELLANEOUS",
+        "subcategory_id": None,
+        "chapter_id": None,
+        "chapter_ids": [str(chapter.id) for chapter in selected_chapters],
+        "difficulty": None,
+        "question_count": 20,
+    }
+    response = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert response.status_code == 201, response.text
+    attempt_id = uuid.UUID(response.json()["id"])
+    rows = db_session.query(TestQuestion).filter_by(test_attempt_id=attempt_id).all()
+    selected_ids = {chapter.id for chapter in selected_chapters}
+    assert len(rows) == 20
+    assert len({row.question_id for row in rows}) == 20
+    assert {row.question.chapter_id for row in rows} <= selected_ids
+    assert all(row.question.question_text.startswith("PO ") for row in rows)
+
+    payload["chapter_ids"] = [str(unselected_chapter.id), str(test_setup["chapter"].id)]
+    rejected = client.post("/api/tests", json=payload, headers=test_setup["headers"])
+    assert rejected.status_code == 422
+
+
 def test_insufficient_questions_does_not_create_partial_session(client: TestClient, test_setup, db_session):
     response = client.post("/api/tests", json=create_payload(test_setup, 15), headers=test_setup["headers"])
     assert response.status_code == 409

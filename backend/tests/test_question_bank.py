@@ -142,6 +142,41 @@ def test_valid_json_import_and_dry_run_are_atomic(
     assert next(option for option in saved.options if option.is_correct).option_key == "B"
 
 
+def test_valid_five_option_json_import_returns_option_e_in_management_api(
+    client: TestClient,
+    db_session: Session,
+    question_headers: dict[str, str],
+    question_catalog: dict[str, object],
+) -> None:
+    item = record(
+        question_catalog,
+        question_text="Five-option question import fixture",
+        option_e="Illustrative option E",
+        correct_option="E",
+    )
+    imported = post_json(client, question_headers, [item], dry_run=False)
+    assert imported.status_code == 200, imported.text
+    assert imported.json()["imported"] == 1
+    question = db_session.execute(select(Question)).scalar_one()
+    assert [option.option_key for option in question.options] == list("ABCDE")
+    assert next(option for option in question.options if option.is_correct).option_key == "E"
+
+    response = client.get(f"/api/questions/{question.id}", headers=question_headers)
+    assert response.status_code == 200, response.text
+    assert [option["option_key"] for option in response.json()["options"]] == list("ABCDE")
+
+    invalid = record(
+        question_catalog,
+        question_text="Reject a blank fifth option",
+        options={"A": "one", "B": "two", "C": "three", "D": "four", "E": ""},
+        correct_option="A",
+    )
+    rejected = post_json(client, question_headers, [invalid], dry_run=True)
+    assert rejected.status_code == 200
+    assert rejected.json()["aborted"] is True
+    assert any(issue["field"] == "option_e" for issue in rejected.json()["errors"])
+
+
 def test_visual_question_image_url_is_imported_and_rejects_unsafe_path(
     client: TestClient,
     db_session: Session,
@@ -226,12 +261,56 @@ def test_wrong_subject_category_chapter_and_pyq_metadata_are_rejected(
 
     malformed_options = record(
         question_catalog,
-        options={"A": "one", "B": "two", "C": "three", "D": "four", "E": "extra"},
+        options={"A": "one", "B": "two", "C": "three", "E": "missing D"},
     )
     invalid_shape = post_json(client, question_headers, [malformed_options], dry_run=False)
     assert invalid_shape.status_code == 200
     assert invalid_shape.json()["errors"][0]["field"] == "options"
     assert db_session.scalar(select(func.count(Question.id))) == 0
+
+
+def test_question_management_can_add_and_remove_option_e(
+    client: TestClient,
+    db_session: Session,
+    question_headers: dict[str, str],
+    question_catalog: dict[str, object],
+) -> None:
+    imported = post_json(client, question_headers, [record(question_catalog)], dry_run=False)
+    assert imported.status_code == 200, imported.text
+    question = db_session.execute(select(Question)).scalar_one()
+    correction = {
+        "question_text": question.question_text,
+        "explanation": question.explanation,
+        "difficulty": question.difficulty.value,
+        "is_pyq": False,
+        "pyq_year": None,
+        "pyq_exam_name": None,
+        "source": question.source,
+        "options": [
+            {
+                "option_key": key,
+                "option_text": f"Edited option {key}",
+                "is_correct": key == "E",
+                "display_order": position,
+            }
+            for position, key in enumerate("ABCDE", start=1)
+        ],
+    }
+    five_option = client.put(
+        f"/api/questions/{question.id}", json=correction, headers=question_headers,
+    )
+    assert five_option.status_code == 200, five_option.text
+    assert [option["option_key"] for option in five_option.json()["options"]] == list("ABCDE")
+    assert next(option for option in five_option.json()["options"] if option["is_correct"])["option_key"] == "E"
+
+    correction["options"] = correction["options"][:4]
+    correction["options"][1]["is_correct"] = True
+    four_option = client.put(
+        f"/api/questions/{question.id}", json=correction, headers=question_headers,
+    )
+    assert four_option.status_code == 200, four_option.text
+    assert [option["option_key"] for option in four_option.json()["options"]] == list("ABCD")
+    assert next(option for option in four_option.json()["options"] if option["is_correct"])["option_key"] == "B"
 
 
 def test_valid_pyq_metadata_passes_dry_run_without_creating_rows(

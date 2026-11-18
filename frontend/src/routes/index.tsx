@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { RootLayout } from "@/layouts/RootLayout";
 import { ProtectedRoute } from "@/components/common";
-import { HomePage, LoginPage, SignupPage, DashboardPage, SSCPage, TestPage, TestResultPage, AdminInvitationsPage } from "@/pages";
+import { HomePage, LoginPage, SignupPage, DashboardPage, SSCPage, BankingPage, TestPage, TestResultPage, AdminInvitationsPage } from "@/pages";
 
 export function AppRoutes() {
   return (
@@ -15,7 +15,9 @@ export function AppRoutes() {
         {/* Protected Routes */}
         <Route element={<ProtectedRoute />}>
           <Route path="/dashboard" element={<DashboardPage />} />
+          <Route path="/practice" element={<SSCPage />} />
           <Route path="/ssc" element={<SSCPage />} />
+          <Route path="/banking" element={<BankingPage />} />
           <Route path="/tests/:testId" element={<TestPage />} />
           <Route path="/tests/:testId/results" element={<TestResultPage />} />
           <Route path="/admin/invitations" element={<AdminInvitationsPage />} />

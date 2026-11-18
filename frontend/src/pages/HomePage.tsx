@@ -10,8 +10,8 @@ type Exam = {
 
 const EXAMS: Exam[] = [
   { name: "SSC", description: "Focused SSC preparation", available: true },
+  { name: "Banking", description: "Banking exam preparation", available: true },
   { name: "Railway", description: "Railway exam preparation", available: false },
-  { name: "Banking", description: "Banking exam preparation", available: false },
   { name: "Police", description: "Police exam preparation", available: false },
 ];
 
@@ -67,7 +67,7 @@ const BENEFITS: Benefit[] = [
 export default function HomePage() {
   const { isAuthenticated } = useAuth();
 
-  const startLink = isAuthenticated ? "/ssc" : "/login";
+  const startLink = isAuthenticated ? "/practice" : "/login";
   const dashboardLink = isAuthenticated ? "/dashboard" : "/login";
 
   const primaryBtn =
@@ -130,7 +130,7 @@ export default function HomePage() {
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-[#2D3436]/75">
                   {exam.description}
                 </p>
-                <Link to="/ssc" className={`${primaryBtn} mt-6 w-full`}>
+                <Link to={exam.name === "Banking" ? "/banking" : "/practice"} className={`${primaryBtn} mt-6 w-full`}>
                   Start Preparing
                 </Link>
               </article>

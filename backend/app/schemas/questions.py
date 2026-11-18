@@ -9,10 +9,10 @@ from app.models.question import Difficulty
 
 
 class QuestionOptionInput(BaseModel):
-    option_key: str = Field(pattern="^[A-D]$")
+    option_key: str = Field(pattern="^[A-E]$")
     option_text: str = Field(min_length=1)
     is_correct: bool = False
-    display_order: int = Field(default=1, ge=1, le=4)
+    display_order: int = Field(default=1, ge=1, le=5)
 
 
 class QuestionUpdate(BaseModel):
@@ -24,7 +24,7 @@ class QuestionUpdate(BaseModel):
     pyq_year: int | None = Field(default=None, ge=1950, le=2100)
     pyq_exam_name: str | None = Field(default=None, max_length=100)
     source: str | None = Field(default=None, max_length=255)
-    options: list[QuestionOptionInput] = Field(min_length=4, max_length=4)
+    options: list[QuestionOptionInput] = Field(min_length=4, max_length=5)
 
     @field_validator("pyq_exam_name", mode="before")
     @classmethod
@@ -37,8 +37,11 @@ class QuestionUpdate(BaseModel):
     @model_validator(mode="after")
     def validate_options_and_pyq(self):
         keys = [option.option_key for option in self.options]
-        if set(keys) != {"A", "B", "C", "D"}:
-            raise ValueError("Options must have exactly one each of A, B, C, and D")
+        if len(keys) != len(set(keys)) or set(keys) not in (
+            {"A", "B", "C", "D"},
+            {"A", "B", "C", "D", "E"},
+        ):
+            raise ValueError("Options must have exactly one each of A-D or A-E")
         if sum(option.is_correct for option in self.options) != 1:
             raise ValueError("Exactly one option must be correct")
         if any(not option.option_text.strip() for option in self.options):

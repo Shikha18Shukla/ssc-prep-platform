@@ -65,6 +65,7 @@ export interface TestSelection {
   chapter_id: string | null;
   difficulty: string | null;
   question_count: number;
+  chapter_ids?: string[];
 }
 export interface TestAvailability {
   available_question_count: number;
@@ -81,6 +82,7 @@ export function getTestAvailability(token: string, selection: Omit<TestSelection
   if (selection.chapter_id) params.chapter_id = selection.chapter_id;
   if (selection.subcategory_id) params.subcategory_id = selection.subcategory_id;
   if (selection.difficulty) params.difficulty = selection.difficulty;
+  if (selection.chapter_ids?.length) params.chapter_ids = selection.chapter_ids.join(",");
   if (selection.question_count !== undefined) params.question_count = String(selection.question_count);
   return apiFetch<TestAvailability>("/tests/availability", { token, params });
 }

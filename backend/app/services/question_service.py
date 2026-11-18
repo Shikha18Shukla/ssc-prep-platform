@@ -78,8 +78,15 @@ def update_question(db: Session, question: Question, values: QuestionUpdate) -> 
     question.pyq_exam_name = values.pyq_exam_name.strip() if values.pyq_exam_name else None
     question.source = values.source.strip() if values.source else None
     by_key = {option.option_key: option for option in question.options}
+    submitted_keys = {option.option_key for option in values.options}
+    for key, option in by_key.items():
+        if key not in submitted_keys:
+            question.options.remove(option)
     for display_order, option_data in enumerate(values.options, start=1):
-        option = by_key[option_data.option_key]
+        option = by_key.get(option_data.option_key)
+        if option is None:
+            option = QuestionOption(option_key=option_data.option_key)
+            question.options.append(option)
         option.option_text = option_data.option_text.strip()
         option.is_correct = option_data.is_correct
         option.display_order = display_order
