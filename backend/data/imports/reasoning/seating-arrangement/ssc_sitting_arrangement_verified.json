@@ -1,0 +1,524 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Seven people A, B, C, D, E, F and G sit in a north-facing row. A is first from the left; C is immediately right of A; E is third right of C; G is immediately left of E; B is at the right end. Who is third from the left?",
+      "options": {
+        "A": "D",
+        "B": "C",
+        "C": "E",
+        "D": "F"
+      },
+      "correct_option": "A",
+      "explanation": "The constraints leave the unique row A, C, D, F, G, E, B. D is third.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 089f3033-c64f-4068-a4c1-2920efc52939"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Seven students L, M, N, P, Q, R and S face north in a row. From left to right, their order is L, M, Q, N, P, R and S. Who is fifth from the left?",
+      "options": {
+        "A": "P",
+        "B": "R",
+        "C": "Q",
+        "D": "N"
+      },
+      "correct_option": "A",
+      "explanation": "P occupies the fifth position from the left.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 23e97843-5bd7-415f-b64a-8f041f5007d5"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Seven people A, B, C, D, E, F and G sit in a north-facing row. C is at the left end; four people sit between C and D; exactly three people sit to the right of E; G is immediately left of B; F is not beside E. How many people sit to the right of A?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "The unique row is C, G, B, E, A, D, F. A has D and F to the right.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 03 Class Notes.pdf, page 6; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 652e1928-7b75-4711-a02a-28de9d153c0d"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "A north-facing row contains an unknown number of people. P is at the left end; Q is fourth to the right of P; R is second left of Q; S is sixth from the right end; and there are three people between R and S, with R to the left. If no other people sit beyond the positions implied, how many people are in the row?",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "11",
+        "D": "13"
+      },
+      "correct_option": "A",
+      "explanation": "P is position 1, Q position 5, R position 3, and S position 7. S being sixth from the right means five positions follow it, so the total is 12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 74296b4e-be3b-455e-9830-e725993f3bc4"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Four people A, B, C and D sit in the upper row facing south; W, X, Y and Z sit in the lower row facing north, directly opposite them. B is in the second column from the left, A sits immediately to B's left from A's perspective, Z is at the lower left end, X is immediately right of Z, and W is at the lower right end. Who sits opposite B?",
+      "options": {
+        "A": "X",
+        "B": "W",
+        "C": "Y",
+        "D": "Z"
+      },
+      "correct_option": "A",
+      "explanation": "A is immediately to B's physical right in the upper row. X occupies lower column 2, directly opposite B; the remaining upper end seats may swap without changing the answer.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 7dd4c4f5-0ca5-4e8f-a515-243898a3dc1b"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Four people A, B, C and D stand in a north-facing row. A is at the left end, C is third from the left, and D is at the right end. Who stands second from the left?",
+      "options": {
+        "A": "B",
+        "B": "A",
+        "C": "C",
+        "D": "D"
+      },
+      "correct_option": "A",
+      "explanation": "The only remaining second position is occupied by B.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 8636ec7b-ebcb-44e5-84f1-c1c0c3060f6f"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "J, K, L, M, N, O and P sit in a north-facing row. O and L are neighbours; only two people sit left of K; L is immediately right of N; P neighbours both K and N. J is at the extreme left. Who sits at the extreme right?",
+      "options": {
+        "A": "O",
+        "B": "N",
+        "C": "M",
+        "D": "P"
+      },
+      "correct_option": "A",
+      "explanation": "The unique row is J, M, K, P, N, L, O from left to right. O is at the right end.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 03 Class Notes.pdf, page 9; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 8c432ab0-afc9-4cc9-9167-dcf4dd7d02b2"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Seven people A, B, C, D, E, F and G face south in a row. From the physical left end to the right end they sit C, E, B, G, D, F and A. Who is at the extreme left?",
+      "options": {
+        "A": "C",
+        "B": "E",
+        "C": "G",
+        "D": "D"
+      },
+      "correct_option": "A",
+      "explanation": "The given order places C at the physical left end.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 8d372c4d-10b8-4e68-9254-97e56bb6bed9"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Six colleagues H, J, K, L, M and N sit in a row facing south. From the physical left to right, their order is H, K, J, L, N and M. Who is immediately to N's left from N's facing direction?",
+      "options": {
+        "A": "M",
+        "B": "L",
+        "C": "J",
+        "D": "K"
+      },
+      "correct_option": "A",
+      "explanation": "Facing south, N's left is toward the physical right; M is immediately there.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 96ff261e-3cd2-46e4-9038-e37c3f99a371"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Eight people J, K, L, M, N, P, Q and R face north in a row. J, K, N, M, Q, P, R and L occupy the first through eighth positions from the left, respectively. Who is fourth from the left?",
+      "options": {
+        "A": "M",
+        "B": "K",
+        "C": "N",
+        "D": "P"
+      },
+      "correct_option": "A",
+      "explanation": "The stated left-to-right order places M fourth.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 9a362296-174a-47cf-965d-d8c41b193833"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Seven people A, B, C, D, E, F and G sit in a north-facing row. Two people sit left of F; three people sit between F and E; D is not beside E; D is second right of A; G is immediately right of B. Who sits at the extreme left?",
+      "options": {
+        "A": "C",
+        "B": "A",
+        "C": "D",
+        "D": "B"
+      },
+      "correct_option": "A",
+      "explanation": "The only arrangement is C, A, F, D, B, G, E from left to right. C is leftmost.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 03 Class Notes.pdf, page 7; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID ab26eeac-43de-4492-86b8-8011c744015d"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "A north-facing row has an unknown number of people. M is at the extreme left; K and G are immediately to the right of M in that order. There are five people between G and D, with G left of D; D is sixth from the right end. What is the total number of people?",
+      "options": {
+        "A": "14",
+        "B": "12",
+        "C": "13",
+        "D": "15"
+      },
+      "correct_option": "A",
+      "explanation": "G is third from the left, so D is ninth. D is sixth from the right, requiring five places after it; the row has 14 people.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 03 Class Notes.pdf, page 11; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID c4b703ad-8157-47c4-bdda-e32570901184"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Tanu, Rano, Beena, Shirin, Kanak, Aditya and Anshul face north in a row. Two people sit left of Tanu; three people sit between Tanu and Rano; Beena is second right of Shirin and adjacent to Rano; Kanak is immediately right of Aditya. Who is at the extreme right?",
+      "options": {
+        "A": "Rano",
+        "B": "Aditya",
+        "C": "Kanak",
+        "D": "Anshul"
+      },
+      "correct_option": "A",
+      "explanation": "The unique row is Aditya, Kanak, Tanu, Shirin, Anshul, Beena, Rano from left to right. Rano is rightmost.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 03 Class Notes.pdf, page 12; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID e8b05aa9-1515-4b59-b7ef-e999d7633297"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "Six students A, B, C, D, E and F stand in a row facing north. A is at an end and F stands beside A; B is immediately right of E and second from the right end; C is not beside F. Who stands third from the left?",
+      "options": {
+        "A": "D",
+        "B": "E",
+        "C": "F",
+        "D": "C"
+      },
+      "correct_option": "A",
+      "explanation": "The only row satisfying the clues is A, F, D, E, B, C from left to right. D is third.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 03 Class Notes.pdf, page 4; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID f4377ac1-9eb7-454c-8b58-d7c547f61709"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "linear-arrangements",
+      "question_text": "A north-facing row has an unknown number of people. A is third from the left; B is fifth to the right of A; C is immediately left of B; D is fourth from the right; two people sit between C and D, with C left of D. If nobody else sits beyond the implied positions, how many people are seated?",
+      "options": {
+        "A": "13",
+        "B": "11",
+        "C": "12",
+        "D": "14"
+      },
+      "correct_option": "A",
+      "explanation": "A is position 3, B position 8 and C position 7. Two between C and D puts D at position 10. D fourth from the right requires three seats after it, for 13 total.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID f94f75b2-a13a-4171-ba1d-214cbcbfee60"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "Asha, Bela, Chitra, Diya, Esha and Farah face the centre around a circular table. Bela, Chitra, Diya and Esha each sit immediately to the left of the preceding named person in that chain, beginning with Asha. Who sits immediately right of Asha?",
+      "options": {
+        "A": "Farah",
+        "B": "Bela",
+        "C": "Chitra",
+        "D": "Esha"
+      },
+      "correct_option": "A",
+      "explanation": "The four clues fix Bela, Chitra, Diya and Esha clockwise after Asha; Farah occupies the remaining seat, immediately to Asha's right.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 10713c17-dfb6-42b5-95f0-b57f3f650134"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "Dipti, Priti, Neeti, Reeti, Swati, Kirti and Jyoti face the centre around a circular table. Dipti is second right of Priti; Jyoti is immediately left of Priti; Swati is an immediate neighbour of both Jyoti and Neeti; Reeti is an immediate neighbour of Priti. Who is second left of Neeti?",
+      "options": {
+        "A": "Dipti",
+        "B": "Reeti",
+        "C": "Jyoti",
+        "D": "Priti"
+      },
+      "correct_option": "A",
+      "explanation": "The unique clockwise order is Dipti, Reeti, Priti, Jyoti, Swati, Neeti, Kirti. Two places left of Neeti is Dipti.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 01 Class Notes.pdf, page 11; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 1279e26d-fa23-43b0-957e-b70707afb14d"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "Mansi, Shweta, Monika, Payal, Aarti, Kajal, Lakshmi and Rani face the centre around a circular table. Mansi is third left of Monika; Aarti is second right of Monika; Shweta is fourth left of Payal; Payal is second left of Mansi; Rani is third right of Kajal; Kajal is not adjacent to Mansi. Who is second right of Kajal?",
+      "options": {
+        "A": "Payal",
+        "B": "Rani",
+        "C": "Aarti",
+        "D": "Lakshmi"
+      },
+      "correct_option": "A",
+      "explanation": "The unique clockwise order from Mansi is Mansi, Rani, Payal, Aarti, Kajal, Monika, Shweta, Lakshmi. Two places right of Kajal is Payal.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 02_ Class Notes.pdf, page 9; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 23ee6f41-06c6-4ec9-bb5b-c492633b7460"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "Six people A, B, C, D, E and F sit around a circular table facing the centre. B, C, D, E and F each sit immediately to the left of the preceding person in that order, beginning with A. Who sits immediately left of A?",
+      "options": {
+        "A": "B",
+        "B": "C",
+        "C": "D",
+        "D": "F"
+      },
+      "correct_option": "A",
+      "explanation": "Facing the centre, left is clockwise; B is immediately left of A.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 84193745-a807-4f72-8102-17257544a782"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "Six shopkeepers K, P, R, X, A and C face the centre around a circular table. C is second left of A; P is immediately right of K; X is second right of R; A is immediately left of X. Which pair are the immediate neighbours of X?",
+      "options": {
+        "A": "A and K",
+        "B": "A and C",
+        "C": "K and P",
+        "D": "A and R"
+      },
+      "correct_option": "A",
+      "explanation": "The unique clockwise arrangement is K, X, A, R, C, P. X is between K and A.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 02_ Class Notes.pdf, page 7; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 9717bfae-5985-4ec2-8f3e-918892840632"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "A, B, C, D, E, F and G face the centre around a circular table. C is the only person between A and E; E is third left of D; B is immediately left of D; G is not an immediate neighbour of E. How many people sit between C and G when counted from C's right?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correct_option": "A",
+      "explanation": "The unique clockwise order is A, G, D, B, F, E, C. Moving right from C passes E, F, B and D before reaching G: four people.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 02_ Class Notes.pdf, page 5; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID c124131f-1e23-46db-84ed-748409fcce55"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "E, F, G, H, K, L and N face the centre around a circular table. Two people sit between H and G to H's right; three sit between L and N to N's right; G is immediately right of N; K is immediately right of E. How many people sit between F and E to F's left?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "The unique clockwise order is E, G, N, F, H, L, K. Moving left from F passes H, L and K before E: three people.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 02_ Class Notes.pdf, page 8; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID ced37bb2-9e34-4b8d-99cd-2401b52ca7e8"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "circular-arrangements",
+      "question_text": "A, B, L, M, S, T and Z face the centre around a circular table. Four people sit between M and T when counted from M's right; M is third left of L; S is third left of Z; B is an immediate neighbour of both T and L. How many people sit between A and B when counted from A's right?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "correct_option": "A",
+      "explanation": "The unique clockwise order from A is A, M, S, T, B, L, Z. Moving right from A reaches Z, L, then B, so two people sit between them.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Sitting arrangement 02_ Class Notes.pdf, page 6; exam/year not stated | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID d9a58e06-61c9-4270-a2d5-50ed30a77905"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "square-rectangular-arrangements",
+      "question_text": "Four people A, B, C and D sit at the four corners of a square table facing the centre. B is immediately to A's clockwise side; C sits opposite A; D occupies the remaining corner. Who is opposite A?",
+      "options": {
+        "A": "C",
+        "B": "B",
+        "C": "D",
+        "D": "Cannot be determined"
+      },
+      "correct_option": "A",
+      "explanation": "With A anchored at the northwest corner, B clockwise from A, C is opposite A and D fills the last corner.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 00be915e-3d05-4336-aeb3-494aaf173618"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "square-rectangular-arrangements",
+      "question_text": "Eight people J, K, L, M, N, P, Q and R sit around a rectangular table facing the centre. J is at the northwest corner; L is opposite J; M is immediately clockwise from L; N is immediately clockwise from M; P is opposite M; Q is immediately clockwise from P; R is immediately clockwise from Q. Who sits at the northeast corner?",
+      "options": {
+        "A": "Q",
+        "B": "J",
+        "C": "L",
+        "D": "N"
+      },
+      "correct_option": "A",
+      "explanation": "The clues give clockwise seats J, P, Q, R, L, M, N, K from the northwest. The northeast corner is seat three, occupied by Q.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 1cb89666-ccf6-4745-aba6-42fe2ff62975"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "square-rectangular-arrangements",
+      "question_text": "Eight people A, B, C, D, E, F, G and H sit around a rectangular table, one at each corner or side midpoint, facing the centre. A is at the northwest corner; B is immediately clockwise from A; E is opposite A; C is immediately clockwise after B; F is immediately clockwise from E; G is immediately clockwise from F; H is immediately clockwise from G. Who sits at the southeast corner?",
+      "options": {
+        "A": "E",
+        "B": "C",
+        "C": "F",
+        "D": "G"
+      },
+      "correct_option": "A",
+      "explanation": "The clockwise order is A, B, C, D, E, F, G, H. The southeast corner is the fifth seat, E.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Original SSC-style practice question | Copied from SSC Sitting Arrangement chapter 32faa174-9f26-4524-9639-f325ef6674b8; original question ID 8847ec5e-524d-47cf-9828-6dbc964c64d5"
+    }
+  ]
+}
