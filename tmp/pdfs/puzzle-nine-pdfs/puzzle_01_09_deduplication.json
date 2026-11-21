@@ -1,0 +1,19 @@
+{
+  "phase_status": "PRELIMINARY_ONLY_NOT_FINAL",
+  "inventory_entries": 180,
+  "contextual_normalized_keys": 180,
+  "exact_contextual_duplicate_groups": [],
+  "within_pdf_duplicates": "no exact contextual duplicates detected; semantic review incomplete",
+  "across_pdf_duplicates": "no exact contextual duplicates detected; semantic review incomplete",
+  "destination_database_overlaps": {
+    "status": "verified_read_only_local_query",
+    "weekdays_chapter_id": "a6d1bdfc-f147-4c1b-b88d-17e415219f4f",
+    "weekdays_active": 0,
+    "weekdays_inactive": 0,
+    "designation_chapter_id": "4ed7e743-a62d-4236-af91-20298410eb2f",
+    "designation_active": 0,
+    "designation_inactive": 0,
+    "matching_records": 0
+  },
+  "note": "Shared-direction-aware normalization did not merge prompts. Generic prompts reused in different groups remain distinct. This is not a final semantic deduplication audit."
+}
