@@ -1,0 +1,3 @@
+# Order and Ranking source audit and top-up review
+
+Source: `20 Difficult ORDER AND RANKING by Arpit sir.pdf` (15 pages). The PDF contains 24 numbered MCQs. The target chapter began at 30 active / 0 inactive. Ten questions were imported (Q1, Q2, Q5, Q6, Q7, Q9, Q10, Q12, Q15, Q16). Twelve other questions were independently verified as valid but not imported because the target was reached (Q3, Q4, Q11, Q13, Q14, Q17, Q18, Q20, Q21, Q22, Q23, Q24). Two were held: Q8 has no valid arrangement under its added rank conditions; Q19's answer is not determined because the printed arrangement omits Q. Q24's independent answer is C, which disagrees with printed key A. The ten imported answers match the printed answer table. All 24 source appearances have a ledger classification.

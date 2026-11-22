@@ -1,0 +1,579 @@
+[
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      3
+    ],
+    "question_number": 1,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "D",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 42865 34289 35872 21979 23428 45624\nStep I: 24568 23489 87532 12799 84322 65442\nStep II: 33657 34378 78643 03888 73433 56333\nStep III: 1635 1447 1684 1638 1433 1163\nStep IV: 30 03 28 04 24 08 48 03 12 03 03 06\nStep V: 21 12 -40 39 03 -33\n\nQ1. If all the repeated numbers in Step IV are removed, then what is the average of second number\nfrom the left end and fifth number from the right end?",
+    "options": {
+      "A": "32",
+      "B": "20",
+      "C": "24",
+      "D": "26",
+      "E": "None of the above"
+    },
+    "explanation": "After repeated Step IV values are removed, the sequence is 30, 28, 04, 24, 08, 48, 12, 06. The second is 28 and fifth from the right is 24; their average is 26."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      3
+    ],
+    "question_number": 2,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "B",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 42865 34289 35872 21979 23428 45624\nStep I: 24568 23489 87532 12799 84322 65442\nStep II: 33657 34378 78643 03888 73433 56333\nStep III: 1635 1447 1684 1638 1433 1163\nStep IV: 30 03 28 04 24 08 48 03 12 03 03 06\nStep V: 21 12 -40 39 03 -33\n\nQ2. Which of the following element is immediate left of the second lowest number in Step V?",
+    "options": {
+      "A": "12",
+      "B": "03",
+      "C": "-40",
+      "D": "39",
+      "E": "21"
+    },
+    "explanation": "Step V in ascending order is -40, -33, 03, 12, 21, 39. The second-lowest is -33 and its immediate left neighbor is 03."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      3
+    ],
+    "question_number": 3,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "C",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 42865 34289 35872 21979 23428 45624\nStep I: 24568 23489 87532 12799 84322 65442\nStep II: 33657 34378 78643 03888 73433 56333\nStep III: 1635 1447 1684 1638 1433 1163\nStep IV: 30 03 28 04 24 08 48 03 12 03 03 06\nStep V: 21 12 -40 39 03 -33\n\nQ3. Which is the difference between the third number from the right end of Step III and square of the\n5th number from the left end of Step IV?",
+    "options": {
+      "A": "1008",
+      "B": "2214",
+      "C": "1062",
+      "D": "1614",
+      "E": "962"
+    },
+    "explanation": "The third number from the right in Step III is 1638. The fifth Step IV value is 24; 1638−24²=1062."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      3,
+      4
+    ],
+    "question_number": 4,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "B",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 42865 34289 35872 21979 23428 45624\nStep I: 24568 23489 87532 12799 84322 65442\nStep II: 33657 34378 78643 03888 73433 56333\nStep III: 1635 1447 1684 1638 1433 1163\nStep IV: 30 03 28 04 24 08 48 03 12 03 03 06\nStep V: 21 12 -40 39 03 -33\n\nQ4. What is the position of '28' with respect to '12' in step IV?",
+    "options": {
+      "A": "Fourth to the right",
+      "B": "Sixth to the left",
+      "C": "Fifth to the right",
+      "D": "Sixth to the right",
+      "E": "None of the above"
+    },
+    "explanation": "In Step IV, 28 is third and 12 is ninth, so 28 is six places to the left."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 4,
+    "question_number": 5,
+    "status": "held",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch.",
+    "hold_reason": "The mixed letter-number rule is ambiguous for 3N: the number operation is stated, but the consonant/last-vowel instruction does not unambiguously yield one listed output.",
+    "verified_answer": null,
+    "printed_key": null,
+    "key_disagreement": null
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      4,
+      5
+    ],
+    "question_number": 6,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "E",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\n1.  If the box contains only numbers and.....\nA. If the number is odd then divided the number by 3 and then subtract the digits of the resultant\nnumber (take positive difference).\nB. If the number is even number then divided the number by 2 and then add the digits of the resultant\nnumber.\n2.  If the box contains only letters and.........\nA. If the letter is a vowel, then write the previous letter as per the English alphabetical series.\nB. If the letter is consonant, then write the third previous letter as per English alphabetical series.\n3.  If the box contains both letters and numbers and........\nA. Subtract the number from 5 or subtract 5 from the number (which gives positive result take that)\nand write the resultant\nB. Write the last vowel as the resultant\n\nQ6. Find the output for 42?",
+    "options": {
+      "A": "1",
+      "B": "5",
+      "C": "4",
+      "D": "2",
+      "E": "3"
+    },
+    "explanation": "For even 42, divide by 2 to get 21 and add its digits: 2+1=3, option E."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 5,
+    "question_number": 7,
+    "status": "held",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch.",
+    "hold_reason": "The source gives C, N, U, P but no unique odd-one-out rule; multiple properties can be constructed and the source supplies no controlling relation.",
+    "verified_answer": null,
+    "printed_key": null,
+    "key_disagreement": null
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      5
+    ],
+    "question_number": 8,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "C",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:    857964     654798     486496     237589    742698    385497\nStep I:   336594     216578     216846     112359    126468    135847\nStep II:  833659    1421658   1621646    411359    416468    235847\nStep III: 1995633  26856124 26646126 2395311 2386461  2574853\nStep IV:    2412        1624           285         816         1218        1024\nStep V:    92412     131624      15285     15816     121218      71024\n\nQ8. If all the numbers are arranged in descending order in Step I, then how many numbers will remain\nin the same place?",
+    "options": {
+      "A": "None",
+      "B": "One",
+      "C": "Two",
+      "D": "Three",
+      "E": "More than three"
+    },
+    "explanation": "Descending Step I is 336594, 216846, 216578, 135847, 126468, 112359. Only positions 1 and 5 remain unchanged: two."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      5,
+      6
+    ],
+    "question_number": 9,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "A",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:    857964     654798     486496     237589    742698    385497\nStep I:   336594     216578     216846     112359    126468    135847\nStep II:  833659    1421658   1621646    411359    416468    235847\nStep III: 1995633  26856124 26646126 2395311 2386461  2574853\nStep IV:    2412        1624           285         816         1218        1024\nStep V:    92412     131624      15285     15816     121218      71024\n\nQ9. What is the average of all digits in the number which is third from the right in Step IV?",
+    "options": {
+      "A": "5",
+      "B": "2.8",
+      "C": "4",
+      "D": "6",
+      "E": "2"
+    },
+    "explanation": "The third number from the right in Step IV is 816; (8+1+6)/3=5."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      6
+    ],
+    "question_number": 10,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "C",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:    857964     654798     486496     237589    742698    385497\nStep I:   336594     216578     216846     112359    126468    135847\nStep II:  833659    1421658   1621646    411359    416468    235847\nStep III: 1995633  26856124 26646126 2395311 2386461  2574853\nStep IV:    2412        1624           285         816         1218        1024\nStep V:    92412     131624      15285     15816     121218      71024\n\nQ10. What is the difference between the largest digit of the second largest number and the smallest\ndigit of the smallest number obtained in step V?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "7",
+      "D": "5",
+      "E": "8"
+    },
+    "explanation": "In Step V, the second-largest number is 121218 and its largest digit is 8. The smallest is 15285 and its smallest digit is 1; 8−1=7, option C."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      6
+    ],
+    "question_number": 11,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "C",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:    857964     654798     486496     237589    742698    385497\nStep I:   336594     216578     216846     112359    126468    135847\nStep II:  833659    1421658   1621646    411359    416468    235847\nStep III: 1995633  26856124 26646126 2395311 2386461  2574853\nStep IV:    2412        1624           285         816         1218        1024\nStep V:    92412     131624      15285     15816     121218      71024\n\nQ11. What is the sum of the digits in the number which is third from the end in step III?",
+    "options": {
+      "A": "38",
+      "B": "19",
+      "C": "24",
+      "D": "45",
+      "E": "6 Input: SCALE WRAP POCKET YESTERDAY REMEMBER' Step I: WRAP SCALE POCKET REMEMBER YESTERDAY Step II: WRP SCL PCKT RMMBR YSTRDY Step III: PRW CLS CKPT BMMRR DRSTYY Step IV: PR23 CL19 CKP20 BMMR18 DRSTY25 Step V: 46 38 60 72 125"
+    },
+    "explanation": "The third number from the end in Step III is 2395311; its digits sum to 24."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 6,
+    "question_number": 12,
+    "status": "verified_not_imported",
+    "reason": "Verified and unique; not imported because the 40-active target was reached.",
+    "verified_answer": "A",
+    "independent_explanation": "In Step III, the fourth letter of CKPT is T and the second letter of CLS (the fourth word from the right) is L. Seven letters, M through S, lie between them.",
+    "printed_key": null,
+    "key_disagreement": null
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      6,
+      7
+    ],
+    "question_number": 13,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "A",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: SCALE WRAP POCKET YESTERDAY REMEMBER'\nStep I: WRAP SCALE POCKET REMEMBER YESTERDAY\nStep II: WRP SCL PCKT RMMBR YSTRDY\nStep III: PRW CLS CKPT BMMRR DRSTYY\nStep IV: PR23 CL19 CKP20 BMMR18 DRSTY25\nStep V: 46 38 60 72 125\n\nQ13. What is the absolute difference between the second highest number and second lowest number\nobtained in step V?",
+    "options": {
+      "A": "26",
+      "B": "22",
+      "C": "87",
+      "D": "34",
+      "E": "14"
+    },
+    "explanation": "Step V values sort as 125,72,60,46,38. The second-highest minus second-lowest is 72−46=26."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      7
+    ],
+    "question_number": 14,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "E",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: SCALE WRAP POCKET YESTERDAY REMEMBER'\nStep I: WRAP SCALE POCKET REMEMBER YESTERDAY\nStep II: WRP SCL PCKT RMMBR YSTRDY\nStep III: PRW CLS CKPT BMMRR DRSTYY\nStep IV: PR23 CL19 CKP20 BMMR18 DRSTY25\nStep V: 46 38 60 72 125\n\nQ14. Which among the following option(s) is/are definitely true?",
+    "options": {
+      "A": "PRW CLS CKPT BMMR DRSTYY is the step III of the given input.",
+      "B": "WRP SCL PCKT RMMBR YSTRDY is the step II of the given input",
+      "C": "'P' is the 7th letter from left end in step IV.",
+      "D": "All 'A', 'B' and 'C'",
+      "E": "Only 'B' and 'C' Input: gold lemon broken monkey water blanket Step I: emnf mfnpo zpmmgp kmlmga xbgfs cmbmlfu Step II: cmbmlfu emnf kmlmga mfnpo xbgfs zpmmgp Step III: ubcflm efmn agklm ofmnp bfgsx gmpz Step IV: ubcfef lmag mnkof lmmbf npggm sxpz Step V: vcdf mnbh nolpg mcg oqn tyqa"
+    },
+    "explanation": "B matches Step II and C is true because P is the seventh letter across the Step IV entries. A is false: its BMMR omits the final R shown in Step III (BMMRR). Therefore only B and C are true, option E."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      7
+    ],
+    "question_number": 15,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "E",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: gold lemon broken monkey water blanket\nStep I: emnf mfnpo zpmmgp kmlmga xbgfs cmbmlfu\nStep II: cmbmlfu emnf kmlmga mfnpo xbgfs zpmmgp\nStep III: ubcflm efmn agklm ofmnp bfgsx gmpz\nStep IV: ubcfef lmag mnkof lmmbf npggm sxpz\nStep V: vcdf mnbh nolpg mcg oqn tyqa\n\nQ15. Which among the following is/are in step I of the given input?",
+    "options": {
+      "A": "Kmlmga",
+      "B": "ofmnp",
+      "C": "mfnpo",
+      "D": "Ubcflm",
+      "E": "More than one option is correct"
+    },
+    "explanation": "Both KMLMGA and MFNPO appear in Step I, so more than one listed option is correct."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      7
+    ],
+    "question_number": 16,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "B",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: gold lemon broken monkey water blanket\nStep I: emnf mfnpo zpmmgp kmlmga xbgfs cmbmlfu\nStep II: cmbmlfu emnf kmlmga mfnpo xbgfs zpmmgp\nStep III: ubcflm efmn agklm ofmnp bfgsx gmpz\nStep IV: ubcfef lmag mnkof lmmbf npggm sxpz\nStep V: vcdf mnbh nolpg mcg oqn tyqa\n\nQ16. Which among the following is the second word from the left end in step III of the given input?",
+    "options": {
+      "A": "Ubcflm",
+      "B": "efmn",
+      "C": "pfmop",
+      "D": "bfgsx",
+      "E": "gmpx"
+    },
+    "explanation": "The second word in Step III is EFMN."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      7,
+      8
+    ],
+    "question_number": 17,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "E",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: gold lemon broken monkey water blanket\nStep I: emnf mfnpo zpmmgp kmlmga xbgfs cmbmlfu\nStep II: cmbmlfu emnf kmlmga mfnpo xbgfs zpmmgp\nStep III: ubcflm efmn agklm ofmnp bfgsx gmpz\nStep IV: ubcfef lmag mnkof lmmbf npggm sxpz\nStep V: vcdf mnbh nolpg mcg oqn tyqa\n\nQ17. Which among the following is/are in step V of the given input?",
+    "options": {
+      "A": "Mch",
+      "B": "vcdf",
+      "C": "nolpg",
+      "D": "oqn",
+      "E": "More than one option is correct Input:  5263 8147 3925 4477 1358 2784 Step I:  5263 1358 3925 8147 2784 4477 Step II: 3625 8531 5293 7418 4872 7744 Step III: 110 165 126 150 117 150 Step IV:  55 55 63 75 39 75 Step V:  1 1 9 3 3 3"
+    },
+    "explanation": "VCDF, NOLPG and OQN all occur in Step V, so more than one listed option is correct."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      8
+    ],
+    "question_number": 18,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "C",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:  5263 8147 3925 4477 1358 2784\nStep I:  5263 1358 3925 8147 2784 4477\nStep II: 3625 8531 5293 7418 4872 7744\nStep III: 110 165 126 150 117 150\nStep IV:  55 55 63 75 39 75\nStep V:  1 1 9 3 3 3\n\nQ18. What is the third digit of second number from the right end in step I?",
+    "options": {
+      "A": "7",
+      "B": "4",
+      "C": "8",
+      "D": "2",
+      "E": "5"
+    },
+    "explanation": "Step I second from right is 2784; its third digit from the left is 8."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      8
+    ],
+    "question_number": 19,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "C",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:  5263 8147 3925 4477 1358 2784\nStep I:  5263 1358 3925 8147 2784 4477\nStep II: 3625 8531 5293 7418 4872 7744\nStep III: 110 165 126 150 117 150\nStep IV:  55 55 63 75 39 75\nStep V:  1 1 9 3 3 3\n\nQ19. What is the third number from the right side, if we rearrange the step V is descending order from\nleft side?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "3",
+      "D": "1",
+      "E": "9"
+    },
+    "explanation": "Step V descending is 9,3,3,3,1,1; the third is 3."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      8,
+      9
+    ],
+    "question_number": 20,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "A",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput:  5263 8147 3925 4477 1358 2784\nStep I:  5263 1358 3925 8147 2784 4477\nStep II: 3625 8531 5293 7418 4872 7744\nStep III: 110 165 126 150 117 150\nStep IV:  55 55 63 75 39 75\nStep V:  1 1 9 3 3 3\n\nQ20. What is the difference between the largest number in step I and step II?",
+    "options": {
+      "A": "384",
+      "B": "856",
+      "C": "365",
+      "D": "484",
+      "E": "348"
+    },
+    "explanation": "Largest Step I number is 8147 and largest Step II number is 8531; difference is 384."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 9,
+    "question_number": 21,
+    "status": "held",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch.",
+    "hold_reason": "The Step III transformation cannot be recovered unambiguously from the displayed examples, so the output for 9324 cannot be verified.",
+    "verified_answer": null,
+    "printed_key": null,
+    "key_disagreement": null
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 9,
+    "question_number": 22,
+    "status": "held",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch.",
+    "hold_reason": "Step IV has three tied values (75) with the same highest digit sum, while the question asks for a single original input; the options also show 8174 where the source input is 8147.",
+    "verified_answer": null,
+    "printed_key": null,
+    "key_disagreement": null
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      9
+    ],
+    "question_number": 23,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "E",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 45636 35489 58443 86435 96473\nStep I: 34566 34589 34458 34568 34679\nStep II: 34458 34566 34568 34589 34679\nStep III: 71613 72512 72514 72517 73616\nStep IV: 45 30 60 105 102\nStep V: 90 15 30 210 51\n\nQ23. In step IV, what is the product of all the numbers which are completely divisible by both 2 and 5?",
+    "options": {
+      "A": "4725",
+      "B": "81000",
+      "C": "1350",
+      "D": "2700",
+      "E": "1800"
+    },
+    "explanation": "Only 30 and 60 in Step IV are divisible by both 2 and 5; their product is 1800."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 9,
+    "question_number": 24,
+    "status": "verified_not_imported",
+    "reason": "Verified and unique; not imported because the 40-active target was reached.",
+    "verified_answer": "C",
+    "independent_explanation": "Step IV is 45,30,60,105,102, so option B is false. Step V has highest 210 and second-lowest 30, summing to 240, so C is true; the stated Step II is correct, making D false.",
+    "printed_key": null,
+    "key_disagreement": null
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      10
+    ],
+    "question_number": 25,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "A",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 45636 35489 58443 86435 96473\nStep I: 34566 34589 34458 34568 34679\nStep II: 34458 34566 34568 34589 34679\nStep III: 71613 72512 72514 72517 73616\nStep IV: 45 30 60 105 102\nStep V: 90 15 30 210 51\n\nQ25. Which digit is 11th to the left of 8th digit from the right end in step II?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "5",
+      "D": "6",
+      "E": "8"
+    },
+    "explanation": "The 8th digit from the right is at position 18 from the left in the 25-digit Step II string; eleven places left is position 7, digit 4."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_pages": [
+      10
+    ],
+    "question_number": 26,
+    "status": "verified_import_candidate",
+    "printed_key": null,
+    "verified_answer": "D",
+    "key_disagreement": null,
+    "question_text": "Input and Output, shared input/steps:\nInput: 45636 35489 58443 86435 96473\nStep I: 34566 34589 34458 34568 34679\nStep II: 34458 34566 34568 34589 34679\nStep III: 71613 72512 72514 72517 73616\nStep IV: 45 30 60 105 102\nStep V: 90 15 30 210 51\n\nQ26. What is the absolute difference between the lowest number and highest number obtained in step\nIII?",
+    "options": {
+      "A": "2013",
+      "B": "2103",
+      "C": "2113",
+      "D": "2003",
+      "E": "2133 Input: 794643 825673 458732 143527 665748 Step I: 446379 268357 248357 241357 466857 Step II: 161863 122435 82435 8335 244835 Step III: 113668 122345 23458 3358 234458 Step IV: 1332 1304 403 202 2513 Step V: 202 403 1304 1332 2513"
+    },
+    "explanation": "Step III values are 71613,72512,72514,72517,73616; 73616−71613=2003."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 10,
+    "question_number": 27,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 10,
+    "question_number": 28,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 11,
+    "question_number": 29,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 11,
+    "question_number": 30,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 11,
+    "question_number": 31,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 12,
+    "question_number": 32,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 12,
+    "question_number": 33,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 12,
+    "question_number": 34,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 12,
+    "question_number": 35,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 13,
+    "question_number": 36,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 13,
+    "question_number": 37,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 13,
+    "question_number": 38,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 14,
+    "question_number": 39,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 14,
+    "question_number": 40,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  },
+  {
+    "source_pdf": "INPUT OUTPUT MAINS SETS by Arpit sir.pdf",
+    "physical_page": 14,
+    "question_number": 41,
+    "status": "not_selected_not_fully_audited",
+    "reason": "The 20-question top-up target is met with selected questions; this question was not independently solved in this batch."
+  }
+]

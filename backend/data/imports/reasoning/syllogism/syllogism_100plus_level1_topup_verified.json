@@ -1,0 +1,202 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. 2.\nStatement\nSome Deltas are Beaches.\nAll Deltas are cushions\nConclusions:\nI. Some Beaches are cushions.\nII. Some cushions is Deltas.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "E",
+      "explanation": "Some Delta is both Beach and Cushion because Some Delta are Beaches and all Deltas are Cushions. Both existential conclusions follow.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 2, Level I Q2",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. 3.\nStatement\nSome Apple are Banana.\nNo Banana is Date\nConclusions:\nI. Some Apple are not Date.\nII. Some Date are not Apple.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "A",
+      "explanation": "The Some Apple-Banana overlap lies outside Date because no Banana is Date, so conclusion I follows. No existence relation forces Date and Apple apart; II does not follow.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 2, Level I Q3",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. 4.\nStatements:\nSome Cat are Lion.\nSome Cat is Bat.\nConclusions:\nI. Some Bat are Lion.\nII. No Bat are Lion.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "C",
+      "explanation": "The two Cat overlaps may coincide or be disjoint. Therefore either some Bat is Lion or no Bat is Lion must hold as the complementary pair; option C.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 2, Level I Q4",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. 5.\nStatement\nSome Pens are Pencil.\nSome Pens are not Brush.\nConclusions:\nI. Some Pencils are Pens.\nII. Some Pencils are not Brush.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "A",
+      "explanation": "Some Pens are Pencils directly gives Some Pencils are Pens. The separate Some Pens not Brush may be a different instance, so conclusion II does not follow.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 2, Level I Q5",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. 6.\nStatement\nAll Crows are Black.\nAll Black are Deer.\nConclusions:\nI. All Deer are Black.\nII. All Crows are Deer.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "Crow is a subset of Black, and Black a subset of Deer, so all Crows are Deer. The reverse universal is not implied.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 2, Level I Q6",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. Q.9\nStatements:\nSome hero are singers.\nAll the singers are dancers.\nConclusions:\n1. Some hero are dancers.\n2. No singer is hero.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "A",
+      "explanation": "Some Heroes are Singers and all Singers are Dancers, so some Heroes are Dancers. The stated overlap rules out the universal negative conclusion.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 4, Level I Q9",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. Q.10 Statements:\nAll  piano are harmoniums.\nAll harmoniums are flutes.\nConclusions:\n1. All flutes are harmoniums.\n2. All piano are flutes.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "Piano ⊆ Harmonium ⊆ Flute proves all Pianos are Flutes; it does not prove all Flutes are Harmoniums.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 4, Level I Q10",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. Q.11 Statements:\nSome banana are yellow.\nSome apple are banana.\nConclusions:\n1. Some apple are yellow.\n2. No apple is  yellow.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "C",
+      "explanation": "The two existential premises need not concern the same Banana. Conclusions Some Apple are Yellow and No Apple is Yellow are complementary, so either-or holds.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 4, Level I Q11",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Syllogism, Level I. Q.12.  Statements:\nSome boys are girls.\nAll the girls are students.\nConclusions:\n1. All the students are girls.\n2. Some boys are students.",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or II follows",
+        "D": "Neither conclusion I nor II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "Some Boys are Girls and all Girls are Students, so that nonempty overlap is also Boys-Students. The universal reverse conclusion does not follow.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "100+ syllogism reasoning.pdf, PDF page 4, Level I Q12",
+      "is_active": true
+    }
+  ]
+}
