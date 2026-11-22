@@ -1,0 +1,1798 @@
+{
+  "chapter": "coding-decoding",
+  "chapter_id": "0bac0e64-d8a0-485b-a263-4b1da7a33d81",
+  "source_pdf_audit": {
+    "artifact_path": "coding_decoding_mains_topup_answer_ledger.json",
+    "entries": [
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 8,
+        "question": "unnumbered: code for small",
+        "status": "verified_import_candidate",
+        "answer": "C",
+        "reason": "Symbol mapping/source example supports 4*1."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 9,
+        "question": "unnumbered: code for vents smaller vested",
+        "status": "verified_import_candidate",
+        "answer": "E",
+        "reason": "Required initial-symbol sequence is absent from A-D."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 10,
+        "question": "unnumbered: code for verified small evoke cataract",
+        "status": "verified_import_candidate",
+        "answer": "D",
+        "reason": "Source examples give each word's code; the ordered sequence matches option D."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 4,
+        "question": "instrument code",
+        "status": "held",
+        "reason": "The examples do not establish a unique code rule."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 5,
+        "question": "P2@ mapping",
+        "status": "held",
+        "reason": "The examples do not establish a unique code rule."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 6,
+        "question": "correctly matched code",
+        "status": "held",
+        "reason": "No unique rule is established by the source examples."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 11,
+        "question": "cannot code stardom/martyr/magic",
+        "status": "held",
+        "reason": "The mapping cannot be recovered reliably from the relevant group."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 13,
+        "question": "judged code",
+        "status": "held",
+        "reason": "The source working does not establish a reproducible mapping."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 14,
+        "question": "hard books code",
+        "status": "held",
+        "reason": "The source working does not establish a reproducible mapping."
+      },
+      {
+        "source": "Coding Decoding 01  Class Notes.pdf",
+        "page": 15,
+        "question": "informative code",
+        "status": "held",
+        "reason": "The source working does not establish a reproducible mapping."
+      },
+      {
+        "source": "Coding Decoding 02  Class Notes.pdf",
+        "page": 4,
+        "question": "coded time/work question, Hindi appearance",
+        "status": "held",
+        "reason": "The item is a time-and-work rate problem rather than a Coding Decoding question."
+      },
+      {
+        "source": "Coding Decoding 02  Class Notes.pdf",
+        "page": 5,
+        "question": "same coded time/work question, English appearance",
+        "status": "duplicate",
+        "duplicate_of": "Coding Decoding 02  Class Notes.pdf p.4",
+        "reason": "Same item bilingual/repeated; not a coding-decoding chapter question."
+      }
+    ]
+  },
+  "new_original_practice_questions": [
+    {
+      "question_id": "cdshift01",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift01",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 1) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for BANKER?",
+      "options": {
+        "A": "YKPRDD",
+        "B": "ZLQSEE",
+        "C": "BNSUGG",
+        "D": "AMRTFF",
+        "E": "COTVHH"
+      },
+      "correct_option": "A",
+      "expected_answer": "YKPRDD",
+      "independent_reasoning": "Shift each letter of BANKER forward by i+1: DDRPKY. Reversing that string gives YKPRDD.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-BANKER-1",
+      "puzzle_group": "shift-group-01",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "1445ebca-62bc-435f-a3e7-876c49024093",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift02",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift02",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 2) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for CIPHER?",
+      "options": {
+        "A": "AMOVNG",
+        "B": "BNPWOH",
+        "C": "YKMTLE",
+        "D": "ZLNUMF",
+        "E": "COQXPI"
+      },
+      "correct_option": "D",
+      "expected_answer": "ZLNUMF",
+      "independent_reasoning": "Shift each letter of CIPHER forward by i+2: FMUNLZ. Reversing that string gives ZLNUMF.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-CIPHER-2",
+      "puzzle_group": "shift-group-02",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "5843f1be-74d4-4c99-87d4-4a8f7e8d492e",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift03",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift03",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 3) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for LEDGER?",
+      "options": {
+        "A": "AMNJJP",
+        "B": "ZLMIIO",
+        "C": "COPLLR",
+        "D": "BNOKKQ",
+        "E": "YKLHHN"
+      },
+      "correct_option": "A",
+      "expected_answer": "AMNJJP",
+      "independent_reasoning": "Shift each letter of LEDGER forward by i+3: PJJNMA. Reversing that string gives AMNJJP.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-LEDGER-3",
+      "puzzle_group": "shift-group-03",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "d77304e0-6012-40d6-8e83-d17e19b61293",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift04",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift04",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 4) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for BRANCH?",
+      "options": {
+        "A": "OISEUD",
+        "B": "PJTFVE",
+        "C": "RLVHXG",
+        "D": "QKUGWF",
+        "E": "SMWIYH"
+      },
+      "correct_option": "C",
+      "expected_answer": "RLVHXG",
+      "independent_reasoning": "Shift each letter of BRANCH forward by i+4: GXHVLR. Reversing that string gives RLVHXG.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-BRANCH-4",
+      "puzzle_group": "shift-group-04",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "ca1650d7-f531-4fc7-b498-830300f0299e",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift05",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift05",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 5) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for VAULT?",
+      "options": {
+        "A": "ZQYDX",
+        "B": "ARZEY",
+        "C": "CTBGA",
+        "D": "BSAFZ",
+        "E": "DUCHB"
+      },
+      "correct_option": "E",
+      "expected_answer": "DUCHB",
+      "independent_reasoning": "Shift each letter of VAULT forward by i+5: BHCUD. Reversing that string gives DUCHB.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-VAULT-5",
+      "puzzle_group": "shift-group-05",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "5d2c6563-3abf-4c62-a74f-d62d8766bc48",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift06",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift06",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 1) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for CREDIT?",
+      "options": {
+        "A": "DRLLXH",
+        "B": "BPJJVF",
+        "C": "CQKKWG",
+        "D": "AOIIUE",
+        "E": "ESMMYI"
+      },
+      "correct_option": "D",
+      "expected_answer": "AOIIUE",
+      "independent_reasoning": "Shift each letter of CREDIT forward by i+1: EUIIOA. Reversing that string gives AOIIUE.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-CREDIT-1",
+      "puzzle_group": "shift-group-06",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "62d528a8-47ec-4460-921e-5fae6b973a65",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift07",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift07",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 2) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for TOKEN?",
+      "options": {
+        "A": "VLQTX",
+        "B": "WMRUY",
+        "C": "UKPSW",
+        "D": "TJORV",
+        "E": "XNSVZ"
+      },
+      "correct_option": "C",
+      "expected_answer": "UKPSW",
+      "independent_reasoning": "Shift each letter of TOKEN forward by i+2: WSPKU. Reversing that string gives UKPSW.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-TOKEN-2",
+      "puzzle_group": "shift-group-07",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "f786f055-c5cf-4b4e-b0ff-2ab341f23da6",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift08",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift08",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 3) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for SIGNAL?",
+      "options": {
+        "A": "SGSKLU",
+        "B": "WKWOPY",
+        "C": "VJVNOX",
+        "D": "THTLMV",
+        "E": "UIUMNW"
+      },
+      "correct_option": "E",
+      "expected_answer": "UIUMNW",
+      "independent_reasoning": "Shift each letter of SIGNAL forward by i+3: WNMUIU. Reversing that string gives UIUMNW.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-SIGNAL-3",
+      "puzzle_group": "shift-group-08",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "22b86820-b67a-4e62-92e5-9e6555da35a8",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift09",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift09",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 4) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for MARKET?",
+      "options": {
+        "A": "BLQWEP",
+        "B": "CMRXFQ",
+        "C": "AKPVDO",
+        "D": "EOTZHS",
+        "E": "DNSYGR"
+      },
+      "correct_option": "E",
+      "expected_answer": "DNSYGR",
+      "independent_reasoning": "Shift each letter of MARKET forward by i+4: RGYSND. Reversing that string gives DNSYGR.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-MARKET-4",
+      "puzzle_group": "shift-group-09",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "e320f5fb-76b3-4273-ae1a-aba09e81dee1",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift10",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift10",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 5) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for FISCAL?",
+      "options": {
+        "A": "WKLAPL",
+        "B": "SGHWLH",
+        "C": "UIJYNJ",
+        "D": "THIXMI",
+        "E": "VJKZOK"
+      },
+      "correct_option": "A",
+      "expected_answer": "WKLAPL",
+      "independent_reasoning": "Shift each letter of FISCAL forward by i+5: LPALKW. Reversing that string gives WKLAPL.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-FISCAL-5",
+      "puzzle_group": "shift-group-10",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "2904d70f-33fc-427b-8a17-5f1036a330a6",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift11",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift11",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 1) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for AUDIT?",
+      "options": {
+        "A": "BPJZE",
+        "B": "CQKAF",
+        "C": "AOIYD",
+        "D": "ZNHXC",
+        "E": "DRLBG"
+      },
+      "correct_option": "D",
+      "expected_answer": "ZNHXC",
+      "independent_reasoning": "Shift each letter of AUDIT forward by i+1: CXHNZ. Reversing that string gives ZNHXC.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-AUDIT-1",
+      "puzzle_group": "shift-group-11",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "19bec58b-fdde-415b-bb76-f32ea8e31813",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift12",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift12",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 2) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for DEBIT?",
+      "options": {
+        "A": "AOGIG",
+        "B": "BPHJH",
+        "C": "DRJLJ",
+        "D": "CQIKI",
+        "E": "ZNFHF"
+      },
+      "correct_option": "A",
+      "expected_answer": "AOGIG",
+      "independent_reasoning": "Shift each letter of DEBIT forward by i+2: GIGOA. Reversing that string gives AOGIG.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-DEBIT-2",
+      "puzzle_group": "shift-group-12",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "3c2cbed2-01e9-4c5b-b7ca-4b7b36e980a0",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift13",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift13",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 3) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for MOBILE?",
+      "options": {
+        "A": "LRNFRO",
+        "B": "MSOGSP",
+        "C": "NTPHTQ",
+        "D": "OUQIUR",
+        "E": "PVRJVS"
+      },
+      "correct_option": "C",
+      "expected_answer": "NTPHTQ",
+      "independent_reasoning": "Shift each letter of MOBILE forward by i+3: QTHPTN. Reversing that string gives NTPHTQ.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-MOBILE-3",
+      "puzzle_group": "shift-group-13",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "2ad70980-05eb-4b67-846e-a2b82dee3ebb",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift14",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift14",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 4) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for SECURE?",
+      "options": {
+        "A": "LXZGHU",
+        "B": "MYAHIV",
+        "C": "PBDKLY",
+        "D": "NZBIJW",
+        "E": "OACJKX"
+      },
+      "correct_option": "E",
+      "expected_answer": "OACJKX",
+      "independent_reasoning": "Shift each letter of SECURE forward by i+4: XKJCAO. Reversing that string gives OACJKX.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-SECURE-4",
+      "puzzle_group": "shift-group-14",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "d2503daf-e3e6-4b83-b3fd-d9e14e85c77d",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift15",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift15",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 5) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for CLIENT?",
+      "options": {
+        "A": "CVLOQG",
+        "B": "ATJMOE",
+        "C": "BUKNPF",
+        "D": "EXNQSI",
+        "E": "DWMPRH"
+      },
+      "correct_option": "D",
+      "expected_answer": "EXNQSI",
+      "independent_reasoning": "Shift each letter of CLIENT forward by i+5: ISQNXE. Reversing that string gives EXNQSI.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-CLIENT-5",
+      "puzzle_group": "shift-group-15",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "9e05d880-f33a-4d88-a41b-43ae70f5ba1c",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift16",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift16",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 1) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for RATING?",
+      "options": {
+        "A": "PVPZFV",
+        "B": "QWQAGW",
+        "C": "NTNXDT",
+        "D": "OUOYEU",
+        "E": "RXRBHX"
+      },
+      "correct_option": "C",
+      "expected_answer": "NTNXDT",
+      "independent_reasoning": "Shift each letter of RATING forward by i+1: TDXNTN. Reversing that string gives NTNXDT.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-RATING-1",
+      "puzzle_group": "shift-group-16",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "886eea92-5438-45da-bc99-9142888fb2b6",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdshift17",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdshift17",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A bank uses this code: for a word of length n, move its letter at 1-based position i forward by (i + 2) places in the alphabet (wrapping after Z), then reverse the complete transformed string. What is the code for POLICY?",
+      "options": {
+        "A": "FINPRR",
+        "B": "JMRTVV",
+        "C": "ILQSUU",
+        "D": "HKPRTT",
+        "E": "GJOQSS"
+      },
+      "correct_option": "E",
+      "expected_answer": "GJOQSS",
+      "independent_reasoning": "Shift each letter of POLICY forward by i+2: SSQOJG. Reversing that string gives GJOQSS.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "position-shift-reverse-POLICY-2",
+      "puzzle_group": "shift-group-17",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "addadb5e-ee8c-48a2-89e8-1264395b80f2",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang11",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang11",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: secure client deposit -> za nu li (codes are unordered within a statement)\nStatement 3: mobile branch clearing ledger -> xo se tu ve (codes are unordered within a statement)\nStatement 4: client ledger mobile credit audit -> nu ve xo ro mi (codes are unordered within a statement)\nStatement 5: deposit mobile clearing vault credit -> li xo tu ka ro (codes are unordered within a statement)\n\nWhich code represents vault?",
+      "options": {
+        "A": "mi",
+        "B": "ro",
+        "C": "se",
+        "D": "ka",
+        "E": "tu"
+      },
+      "correct_option": "D",
+      "expected_answer": "ka",
+      "independent_reasoning": "vault appears in statements [5] and is absent from statements [1, 2, 3, 4]. Only code ka has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-1-1",
+      "puzzle_group": "coded-language-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "fdc7f4a7-3632-4d41-bf2c-7993c99d7f10",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang12",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang12",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: secure client deposit -> za nu li (codes are unordered within a statement)\nStatement 3: mobile branch clearing ledger -> xo se tu ve (codes are unordered within a statement)\nStatement 4: client ledger mobile credit audit -> nu ve xo ro mi (codes are unordered within a statement)\nStatement 5: deposit mobile clearing vault credit -> li xo tu ka ro (codes are unordered within a statement)\n\nWhich code represents audit?",
+      "options": {
+        "A": "tu",
+        "B": "mi",
+        "C": "ro",
+        "D": "se",
+        "E": "ka"
+      },
+      "correct_option": "B",
+      "expected_answer": "mi",
+      "independent_reasoning": "audit appears in statements [4] and is absent from statements [1, 2, 3, 5]. Only code mi has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-1-2",
+      "puzzle_group": "coded-language-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "f82f4b03-6586-41a9-a985-15a7bf27be17",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang13",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang13",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: secure client deposit -> za nu li (codes are unordered within a statement)\nStatement 3: mobile branch clearing ledger -> xo se tu ve (codes are unordered within a statement)\nStatement 4: client ledger mobile credit audit -> nu ve xo ro mi (codes are unordered within a statement)\nStatement 5: deposit mobile clearing vault credit -> li xo tu ka ro (codes are unordered within a statement)\n\nWhich code represents credit?",
+      "options": {
+        "A": "se",
+        "B": "ro",
+        "C": "mi",
+        "D": "tu",
+        "E": "ka"
+      },
+      "correct_option": "B",
+      "expected_answer": "ro",
+      "independent_reasoning": "credit appears in statements [4, 5] and is absent from statements [1, 2, 3]. Only code ro has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-1-3",
+      "puzzle_group": "coded-language-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "4508803c-3fb7-44b2-9f34-46a540e40084",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang14",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang14",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: secure client deposit -> za nu li (codes are unordered within a statement)\nStatement 3: mobile branch clearing ledger -> xo se tu ve (codes are unordered within a statement)\nStatement 4: client ledger mobile credit audit -> nu ve xo ro mi (codes are unordered within a statement)\nStatement 5: deposit mobile clearing vault credit -> li xo tu ka ro (codes are unordered within a statement)\n\nWhich code represents branch?",
+      "options": {
+        "A": "se",
+        "B": "tu",
+        "C": "ro",
+        "D": "ka",
+        "E": "mi"
+      },
+      "correct_option": "A",
+      "expected_answer": "se",
+      "independent_reasoning": "branch appears in statements [3] and is absent from statements [1, 2, 4, 5]. Only code se has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-1-4",
+      "puzzle_group": "coded-language-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "e6bcd90b-54c2-4737-8a75-232b5c4b933d",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang15",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang15",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: secure client deposit -> za nu li (codes are unordered within a statement)\nStatement 3: mobile branch clearing ledger -> xo se tu ve (codes are unordered within a statement)\nStatement 4: client ledger mobile credit audit -> nu ve xo ro mi (codes are unordered within a statement)\nStatement 5: deposit mobile clearing vault credit -> li xo tu ka ro (codes are unordered within a statement)\n\nWhich code represents clearing?",
+      "options": {
+        "A": "ka",
+        "B": "ro",
+        "C": "se",
+        "D": "tu",
+        "E": "mi"
+      },
+      "correct_option": "D",
+      "expected_answer": "tu",
+      "independent_reasoning": "clearing appears in statements [3, 5] and is absent from statements [1, 2, 4]. Only code tu has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-1-5",
+      "puzzle_group": "coded-language-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "7b7348b1-5da4-4ad3-ab59-cb3c717deb08",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang21",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang21",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: liquidity equity budget -> pi lu mo (codes are unordered within a statement)\nStatement 3: repayment collateral borrower capital -> ha gu jo ke (codes are unordered within a statement)\nStatement 4: borrower maturity liquidity interest capital -> jo fo pi di ke (codes are unordered within a statement)\nStatement 5: repayment loan capital budget maturity -> ha be ke mo fo (codes are unordered within a statement)\n\nWhich code represents loan?",
+      "options": {
+        "A": "ha",
+        "B": "be",
+        "C": "fo",
+        "D": "gu",
+        "E": "di"
+      },
+      "correct_option": "B",
+      "expected_answer": "be",
+      "independent_reasoning": "loan appears in statements [5] and is absent from statements [1, 2, 3, 4]. Only code be has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-2-1",
+      "puzzle_group": "coded-language-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "fbb7c8d4-1db3-43c3-ba0c-78e0a6416cfc",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang22",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang22",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: liquidity equity budget -> pi lu mo (codes are unordered within a statement)\nStatement 3: repayment collateral borrower capital -> ha gu jo ke (codes are unordered within a statement)\nStatement 4: borrower maturity liquidity interest capital -> jo fo pi di ke (codes are unordered within a statement)\nStatement 5: repayment loan capital budget maturity -> ha be ke mo fo (codes are unordered within a statement)\n\nWhich code represents interest?",
+      "options": {
+        "A": "gu",
+        "B": "di",
+        "C": "fo",
+        "D": "ha",
+        "E": "be"
+      },
+      "correct_option": "B",
+      "expected_answer": "di",
+      "independent_reasoning": "interest appears in statements [4] and is absent from statements [1, 2, 3, 5]. Only code di has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-2-2",
+      "puzzle_group": "coded-language-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "686dca10-84cf-46e6-85f7-02535dd50ac0",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang23",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang23",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: liquidity equity budget -> pi lu mo (codes are unordered within a statement)\nStatement 3: repayment collateral borrower capital -> ha gu jo ke (codes are unordered within a statement)\nStatement 4: borrower maturity liquidity interest capital -> jo fo pi di ke (codes are unordered within a statement)\nStatement 5: repayment loan capital budget maturity -> ha be ke mo fo (codes are unordered within a statement)\n\nWhich code represents maturity?",
+      "options": {
+        "A": "fo",
+        "B": "ha",
+        "C": "gu",
+        "D": "be",
+        "E": "di"
+      },
+      "correct_option": "A",
+      "expected_answer": "fo",
+      "independent_reasoning": "maturity appears in statements [4, 5] and is absent from statements [1, 2, 3]. Only code fo has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-2-3",
+      "puzzle_group": "coded-language-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "7a87efcb-6e34-4a35-a52e-244e9006b762",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang24",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang24",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: liquidity equity budget -> pi lu mo (codes are unordered within a statement)\nStatement 3: repayment collateral borrower capital -> ha gu jo ke (codes are unordered within a statement)\nStatement 4: borrower maturity liquidity interest capital -> jo fo pi di ke (codes are unordered within a statement)\nStatement 5: repayment loan capital budget maturity -> ha be ke mo fo (codes are unordered within a statement)\n\nWhich code represents collateral?",
+      "options": {
+        "A": "be",
+        "B": "fo",
+        "C": "ha",
+        "D": "gu",
+        "E": "di"
+      },
+      "correct_option": "D",
+      "expected_answer": "gu",
+      "independent_reasoning": "collateral appears in statements [3] and is absent from statements [1, 2, 4, 5]. Only code gu has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-2-4",
+      "puzzle_group": "coded-language-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "1537638e-ed32-44f7-a170-0fa7602bbfa8",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang25",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang25",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: liquidity equity budget -> pi lu mo (codes are unordered within a statement)\nStatement 3: repayment collateral borrower capital -> ha gu jo ke (codes are unordered within a statement)\nStatement 4: borrower maturity liquidity interest capital -> jo fo pi di ke (codes are unordered within a statement)\nStatement 5: repayment loan capital budget maturity -> ha be ke mo fo (codes are unordered within a statement)\n\nWhich code represents repayment?",
+      "options": {
+        "A": "gu",
+        "B": "fo",
+        "C": "di",
+        "D": "ha",
+        "E": "be"
+      },
+      "correct_option": "D",
+      "expected_answer": "ha",
+      "independent_reasoning": "repayment appears in statements [3, 5] and is absent from statements [1, 2, 4]. Only code ha has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-2-5",
+      "puzzle_group": "coded-language-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "d62dda80-9d34-4a4c-826f-622d621fff60",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang31",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang31",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: account signature remittance -> za bi cu (codes are unordered within a statement)\nStatement 3: cashier transfer endorsement balance -> yo wa vu xe (codes are unordered within a statement)\nStatement 4: remittance payee cashier drawer balance -> cu to yo si xe (codes are unordered within a statement)\nStatement 5: payee cashier transfer cheque signature -> to yo wa ra bi (codes are unordered within a statement)\n\nWhich code represents cheque?",
+      "options": {
+        "A": "vu",
+        "B": "ra",
+        "C": "to",
+        "D": "wa",
+        "E": "si"
+      },
+      "correct_option": "B",
+      "expected_answer": "ra",
+      "independent_reasoning": "cheque appears in statements [5] and is absent from statements [1, 2, 3, 4]. Only code ra has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-3-1",
+      "puzzle_group": "coded-language-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "78de7735-bda7-411e-b56f-ca4c1ac56b73",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang32",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang32",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: account signature remittance -> za bi cu (codes are unordered within a statement)\nStatement 3: cashier transfer endorsement balance -> yo wa vu xe (codes are unordered within a statement)\nStatement 4: remittance payee cashier drawer balance -> cu to yo si xe (codes are unordered within a statement)\nStatement 5: payee cashier transfer cheque signature -> to yo wa ra bi (codes are unordered within a statement)\n\nWhich code represents drawer?",
+      "options": {
+        "A": "si",
+        "B": "wa",
+        "C": "vu",
+        "D": "ra",
+        "E": "to"
+      },
+      "correct_option": "A",
+      "expected_answer": "si",
+      "independent_reasoning": "drawer appears in statements [4] and is absent from statements [1, 2, 3, 5]. Only code si has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-3-2",
+      "puzzle_group": "coded-language-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "b4e1e041-962f-4f7e-81c6-b3a99f5b09ef",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang33",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang33",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: account signature remittance -> za bi cu (codes are unordered within a statement)\nStatement 3: cashier transfer endorsement balance -> yo wa vu xe (codes are unordered within a statement)\nStatement 4: remittance payee cashier drawer balance -> cu to yo si xe (codes are unordered within a statement)\nStatement 5: payee cashier transfer cheque signature -> to yo wa ra bi (codes are unordered within a statement)\n\nWhich code represents payee?",
+      "options": {
+        "A": "ra",
+        "B": "vu",
+        "C": "wa",
+        "D": "to",
+        "E": "si"
+      },
+      "correct_option": "D",
+      "expected_answer": "to",
+      "independent_reasoning": "payee appears in statements [4, 5] and is absent from statements [1, 2, 3]. Only code to has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-3-3",
+      "puzzle_group": "coded-language-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "29bbc251-4ede-415e-93e8-a980af13d95e",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang34",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang34",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: account signature remittance -> za bi cu (codes are unordered within a statement)\nStatement 3: cashier transfer endorsement balance -> yo wa vu xe (codes are unordered within a statement)\nStatement 4: remittance payee cashier drawer balance -> cu to yo si xe (codes are unordered within a statement)\nStatement 5: payee cashier transfer cheque signature -> to yo wa ra bi (codes are unordered within a statement)\n\nWhich code represents endorsement?",
+      "options": {
+        "A": "wa",
+        "B": "to",
+        "C": "si",
+        "D": "vu",
+        "E": "ra"
+      },
+      "correct_option": "D",
+      "expected_answer": "vu",
+      "independent_reasoning": "endorsement appears in statements [3] and is absent from statements [1, 2, 4, 5]. Only code vu has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-3-4",
+      "puzzle_group": "coded-language-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "53b473ae-312b-4058-8fa9-7c118bf7f32f",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang35",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang35",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: account signature remittance -> za bi cu (codes are unordered within a statement)\nStatement 3: cashier transfer endorsement balance -> yo wa vu xe (codes are unordered within a statement)\nStatement 4: remittance payee cashier drawer balance -> cu to yo si xe (codes are unordered within a statement)\nStatement 5: payee cashier transfer cheque signature -> to yo wa ra bi (codes are unordered within a statement)\n\nWhich code represents transfer?",
+      "options": {
+        "A": "si",
+        "B": "vu",
+        "C": "wa",
+        "D": "to",
+        "E": "ra"
+      },
+      "correct_option": "C",
+      "expected_answer": "wa",
+      "independent_reasoning": "transfer appears in statements [3, 5] and is absent from statements [1, 2, 4]. Only code wa has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-3-5",
+      "puzzle_group": "coded-language-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "28464285-4672-4f72-8ea3-45fce02d35d1",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang41",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang41",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: delivery manifest tracking -> mu pa no (codes are unordered within a statement)\nStatement 3: warehouse schedule dispatch courier -> ko le ji he (codes are unordered within a statement)\nStatement 4: schedule manifest parcel receipt warehouse -> le pa go fi ko (codes are unordered within a statement)\nStatement 5: schedule parcel invoice dispatch tracking -> le go da ji no (codes are unordered within a statement)\n\nWhich code represents invoice?",
+      "options": {
+        "A": "da",
+        "B": "ji",
+        "C": "he",
+        "D": "fi",
+        "E": "go"
+      },
+      "correct_option": "A",
+      "expected_answer": "da",
+      "independent_reasoning": "invoice appears in statements [5] and is absent from statements [1, 2, 3, 4]. Only code da has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-4-1",
+      "puzzle_group": "coded-language-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "add532d4-63e7-40a3-bf2a-a05e1bf0e845",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang42",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang42",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: delivery manifest tracking -> mu pa no (codes are unordered within a statement)\nStatement 3: warehouse schedule dispatch courier -> ko le ji he (codes are unordered within a statement)\nStatement 4: schedule manifest parcel receipt warehouse -> le pa go fi ko (codes are unordered within a statement)\nStatement 5: schedule parcel invoice dispatch tracking -> le go da ji no (codes are unordered within a statement)\n\nWhich code represents receipt?",
+      "options": {
+        "A": "da",
+        "B": "he",
+        "C": "ji",
+        "D": "fi",
+        "E": "go"
+      },
+      "correct_option": "D",
+      "expected_answer": "fi",
+      "independent_reasoning": "receipt appears in statements [4] and is absent from statements [1, 2, 3, 5]. Only code fi has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-4-2",
+      "puzzle_group": "coded-language-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "3e556066-2ec7-4f08-905f-c8a9653afc40",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang43",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang43",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: delivery manifest tracking -> mu pa no (codes are unordered within a statement)\nStatement 3: warehouse schedule dispatch courier -> ko le ji he (codes are unordered within a statement)\nStatement 4: schedule manifest parcel receipt warehouse -> le pa go fi ko (codes are unordered within a statement)\nStatement 5: schedule parcel invoice dispatch tracking -> le go da ji no (codes are unordered within a statement)\n\nWhich code represents parcel?",
+      "options": {
+        "A": "ji",
+        "B": "he",
+        "C": "fi",
+        "D": "go",
+        "E": "da"
+      },
+      "correct_option": "D",
+      "expected_answer": "go",
+      "independent_reasoning": "parcel appears in statements [4, 5] and is absent from statements [1, 2, 3]. Only code go has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-4-3",
+      "puzzle_group": "coded-language-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "7d37be5a-4ef6-4068-9130-507e8be653bc",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang44",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang44",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: delivery manifest tracking -> mu pa no (codes are unordered within a statement)\nStatement 3: warehouse schedule dispatch courier -> ko le ji he (codes are unordered within a statement)\nStatement 4: schedule manifest parcel receipt warehouse -> le pa go fi ko (codes are unordered within a statement)\nStatement 5: schedule parcel invoice dispatch tracking -> le go da ji no (codes are unordered within a statement)\n\nWhich code represents courier?",
+      "options": {
+        "A": "fi",
+        "B": "ji",
+        "C": "he",
+        "D": "go",
+        "E": "da"
+      },
+      "correct_option": "C",
+      "expected_answer": "he",
+      "independent_reasoning": "courier appears in statements [3] and is absent from statements [1, 2, 4, 5]. Only code he has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-4-4",
+      "puzzle_group": "coded-language-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "692b1e3f-c60f-4e25-9945-cae79868fb02",
+      "database_verified": true
+    },
+    {
+      "question_id": "cdlang45",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "cdlang45",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In each statement below, each listed word maps to one unique code token, and a word always has the same code. The order of code tokens is deliberately not aligned with the word order.\nStatement 1:  ->  (codes are unordered within a statement)\nStatement 2: delivery manifest tracking -> mu pa no (codes are unordered within a statement)\nStatement 3: warehouse schedule dispatch courier -> ko le ji he (codes are unordered within a statement)\nStatement 4: schedule manifest parcel receipt warehouse -> le pa go fi ko (codes are unordered within a statement)\nStatement 5: schedule parcel invoice dispatch tracking -> le go da ji no (codes are unordered within a statement)\n\nWhich code represents dispatch?",
+      "options": {
+        "A": "fi",
+        "B": "go",
+        "C": "ji",
+        "D": "da",
+        "E": "he"
+      },
+      "correct_option": "C",
+      "expected_answer": "ji",
+      "independent_reasoning": "dispatch appears in statements [3, 5] and is absent from statements [1, 2, 4]. Only code ji has that same membership pattern across the five unordered code lists.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "coded-language-incidence-4-5",
+      "puzzle_group": "coded-language-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "b9983b4c-9201-4dcb-b932-956a82f847df",
+      "database_verified": true
+    }
+  ],
+  "external_pattern_references": [
+    {
+      "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+      "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+      "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+    },
+    {
+      "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+      "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+      "type": "third-party memory-based paper, not represented as an official IBPS release"
+    },
+    {
+      "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+      "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+      "type": "publisher-labeled mock practice, explicitly not past papers"
+    }
+  ],
+  "access_date": "2026-11-23",
+  "database_verification": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "initial_active": 3,
+    "inserted": 37,
+    "final_active": 40,
+    "inactive": 0,
+    "all_new_rows_verified": 37,
+    "dry_run": {
+      "would_import": 37,
+      "duplicates": 0,
+      "rejected": 0,
+      "errors": 0
+    },
+    "transactional_import": {
+      "imported": 37,
+      "duplicates": 0,
+      "rejected": 0,
+      "errors": 0
+    },
+    "replay_dry_run": {
+      "would_import": 0,
+      "duplicates": 37,
+      "rejected": 0,
+      "errors": 0
+    }
+  },
+  "api_verification": {
+    "backend": "started locally on 127.0.0.1:8000 with process-only DATABASE_URL pointing to local ssc_prep",
+    "health_endpoint": {
+      "path": "/api/health",
+      "status_code": 200,
+      "result": "healthy"
+    },
+    "readiness_endpoint": {
+      "path": "/api/ready",
+      "status_code": 200,
+      "result": "ready"
+    },
+    "authenticated_exam_catalog": {
+      "path": "/api/exams",
+      "status_code": 401,
+      "result": "Not authenticated"
+    },
+    "authenticated_question_management": {
+      "path": "/api/questions?chapter_id=<target>&limit=1",
+      "status_code": 401,
+      "result": "Not authenticated"
+    },
+    "question_payload_verified": false,
+    "limitation": "No valid signed-in user/admin bearer session was available to this process; no credentials or token were fabricated."
+  }
+}

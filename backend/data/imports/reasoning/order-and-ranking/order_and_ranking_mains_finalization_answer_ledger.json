@@ -1,0 +1,1725 @@
+{
+  "chapter": "order-and-ranking",
+  "chapter_id": "a176b11e-88f3-4cbb-9e2d-a54845a8d17c",
+  "source_pdf_audit": {
+    "artifact_path": "order_and_ranking_mains_topup_answer_ledger.json",
+    "entries": [
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page": 10,
+        "question": "Q10",
+        "status": "verified_import_candidate",
+        "answer": "D",
+        "group": "g3"
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page": 11,
+        "question": "Q11",
+        "status": "verified_import_candidate",
+        "answer": "D",
+        "group": "g3"
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page": 11,
+        "question": "Q12",
+        "status": "verified_import_candidate",
+        "answer": "D",
+        "group": "g3"
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page": 13,
+        "question": "unnumbered",
+        "status": "verified_import_candidate",
+        "answer": "C",
+        "group": "g4"
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          15,
+          16
+        ],
+        "question": "unnumbered",
+        "status": "verified_import_candidate",
+        "answer": "B",
+        "group": "g5"
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          4,
+          5
+        ],
+        "question": "Q4",
+        "status": "held",
+        "reason": "Source group is an elementary fixed ordering exercise; not appropriate for the Mains target."
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          4,
+          5
+        ],
+        "question": "Q5",
+        "status": "held",
+        "reason": "Source group is an elementary fixed ordering exercise; not appropriate for the Mains target."
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          4,
+          5
+        ],
+        "question": "Q6",
+        "status": "held",
+        "reason": "Ordering constraints do not establish one exact numeric weight; multiple listed weights remain possible."
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          7,
+          8
+        ],
+        "question": "Q7",
+        "status": "held",
+        "reason": "Elementary rank lookup; held as below Mains level."
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          7,
+          8
+        ],
+        "question": "Q8",
+        "status": "held",
+        "reason": "The requested count varies across valid orders."
+      },
+      {
+        "source": "Order and Ranking 01  Class Notes.pdf",
+        "page_span": [
+          7,
+          8
+        ],
+        "question": "Q9",
+        "status": "held",
+        "reason": "The third-place person is not invariant across valid orders."
+      }
+    ]
+  },
+  "new_original_practice_questions": [
+    {
+      "question_id": "orm011",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm011",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Aarav, Bhavna, Chirag, Diya, Eshan, Farah, Gautam are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Gautam and Diya finished in consecutive positions; Exactly 3 people finished between Farah and Diya; Chirag finished ahead of Bhavna; Gautam finished ahead of Farah; Gautam and Chirag finished in consecutive positions; Chirag and Gautam finished in consecutive positions; Exactly 2 people finished between Bhavna and Diya; Diya finished ahead of Bhavna; Aarav finished ahead of Farah; Diya and Gautam finished in consecutive positions; Gautam finished ahead of Eshan; Diya finished ahead of Farah; Chirag finished ahead of Eshan; Aarav finished ahead of Eshan; Diya and Aarav finished in consecutive positions; Aarav finished ahead of Chirag.\n\nWho finished at rank 3?",
+      "options": {
+        "A": "Gautam",
+        "B": "Aarav",
+        "C": "Diya",
+        "D": "Bhavna",
+        "E": "Chirag"
+      },
+      "correct_option": "A",
+      "expected_answer": "Gautam",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Aarav > Diya > Gautam > Chirag > Bhavna > Farah > Eshan (highest to lowest). The clue set leaves one ranking under exhaustive permutation checking; reading the requested position gives the named candidate.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-1-query-1",
+      "puzzle_group": "ranking-group-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "0937dab0-134a-4840-b6c5-a09038191a87",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm012",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm012",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Aarav, Bhavna, Chirag, Diya, Eshan, Farah, Gautam are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Gautam and Diya finished in consecutive positions; Exactly 3 people finished between Farah and Diya; Chirag finished ahead of Bhavna; Gautam finished ahead of Farah; Gautam and Chirag finished in consecutive positions; Chirag and Gautam finished in consecutive positions; Exactly 2 people finished between Bhavna and Diya; Diya finished ahead of Bhavna; Aarav finished ahead of Farah; Diya and Gautam finished in consecutive positions; Gautam finished ahead of Eshan; Diya finished ahead of Farah; Chirag finished ahead of Eshan; Aarav finished ahead of Eshan; Diya and Aarav finished in consecutive positions; Aarav finished ahead of Chirag.\n\nWho finished immediately after Diya?",
+      "options": {
+        "A": "Aarav",
+        "B": "Gautam",
+        "C": "Bhavna",
+        "D": "Diya",
+        "E": "Chirag"
+      },
+      "correct_option": "B",
+      "expected_answer": "Gautam",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Aarav > Diya > Gautam > Chirag > Bhavna > Farah > Eshan (highest to lowest). In the unique ranking, Diya is followed immediately by Gautam (rank 2 then 3).",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-1-query-2",
+      "puzzle_group": "ranking-group-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "974d58c0-ce72-48b8-bb03-b845d5048807",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm013",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm013",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Aarav, Bhavna, Chirag, Diya, Eshan, Farah, Gautam are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Gautam and Diya finished in consecutive positions; Exactly 3 people finished between Farah and Diya; Chirag finished ahead of Bhavna; Gautam finished ahead of Farah; Gautam and Chirag finished in consecutive positions; Chirag and Gautam finished in consecutive positions; Exactly 2 people finished between Bhavna and Diya; Diya finished ahead of Bhavna; Aarav finished ahead of Farah; Diya and Gautam finished in consecutive positions; Gautam finished ahead of Eshan; Diya finished ahead of Farah; Chirag finished ahead of Eshan; Aarav finished ahead of Eshan; Diya and Aarav finished in consecutive positions; Aarav finished ahead of Chirag.\n\nHow many candidates finished between Aarav and Bhavna?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "1",
+        "D": "2",
+        "E": "5"
+      },
+      "correct_option": "B",
+      "expected_answer": "3",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Aarav > Diya > Gautam > Chirag > Bhavna > Farah > Eshan (highest to lowest). Their unique ranks are 1 and 5; the difference minus one is 3.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-1-query-3",
+      "puzzle_group": "ranking-group-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "a26ed59d-1748-4218-aac8-3a37de299fd8",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm014",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm014",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Aarav, Bhavna, Chirag, Diya, Eshan, Farah, Gautam are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Gautam and Diya finished in consecutive positions; Exactly 3 people finished between Farah and Diya; Chirag finished ahead of Bhavna; Gautam finished ahead of Farah; Gautam and Chirag finished in consecutive positions; Chirag and Gautam finished in consecutive positions; Exactly 2 people finished between Bhavna and Diya; Diya finished ahead of Bhavna; Aarav finished ahead of Farah; Diya and Gautam finished in consecutive positions; Gautam finished ahead of Eshan; Diya finished ahead of Farah; Chirag finished ahead of Eshan; Aarav finished ahead of Eshan; Diya and Aarav finished in consecutive positions; Aarav finished ahead of Chirag.\n\nWhich candidate ranked immediately before Farah?",
+      "options": {
+        "A": "Diya",
+        "B": "Bhavna",
+        "C": "Aarav",
+        "D": "Chirag",
+        "E": "Eshan"
+      },
+      "correct_option": "B",
+      "expected_answer": "Bhavna",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Aarav > Diya > Gautam > Chirag > Bhavna > Farah > Eshan (highest to lowest). The unique arrangement places Bhavna directly ahead of Farah.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-1-query-4",
+      "puzzle_group": "ranking-group-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "01aa0c1c-47a3-4bb4-8b30-49f6fb978092",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm015",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm015",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Aarav, Bhavna, Chirag, Diya, Eshan, Farah, Gautam are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Gautam and Diya finished in consecutive positions; Exactly 3 people finished between Farah and Diya; Chirag finished ahead of Bhavna; Gautam finished ahead of Farah; Gautam and Chirag finished in consecutive positions; Chirag and Gautam finished in consecutive positions; Exactly 2 people finished between Bhavna and Diya; Diya finished ahead of Bhavna; Aarav finished ahead of Farah; Diya and Gautam finished in consecutive positions; Gautam finished ahead of Eshan; Diya finished ahead of Farah; Chirag finished ahead of Eshan; Aarav finished ahead of Eshan; Diya and Aarav finished in consecutive positions; Aarav finished ahead of Chirag.\n\nWho ranked lowest?",
+      "options": {
+        "A": "Eshan",
+        "B": "Bhavna",
+        "C": "Chirag",
+        "D": "Aarav",
+        "E": "Diya"
+      },
+      "correct_option": "A",
+      "expected_answer": "Eshan",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Aarav > Diya > Gautam > Chirag > Bhavna > Farah > Eshan (highest to lowest). The sole arrangement places Eshan at rank 7, the lowest position.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-1-query-5",
+      "puzzle_group": "ranking-group-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "03f9639b-d4ef-47f8-a044-53151df6ab61",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm021",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm021",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Heena, Ishaan, Juhi, Kartik, Lavanya, Manav, Nisha are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Heena and Nisha finished in consecutive positions; Juhi and Kartik finished in consecutive positions; Juhi finished ahead of Nisha; Lavanya finished ahead of Ishaan; Exactly 3 people finished between Nisha and Juhi; Exactly 2 people finished between Manav and Ishaan; Juhi finished ahead of Heena; Manav and Juhi finished in consecutive positions.\n\nWho finished at rank 4?",
+      "options": {
+        "A": "Heena",
+        "B": "Kartik",
+        "C": "Ishaan",
+        "D": "Lavanya",
+        "E": "Juhi"
+      },
+      "correct_option": "B",
+      "expected_answer": "Kartik",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Lavanya > Manav > Juhi > Kartik > Ishaan > Heena > Nisha (highest to lowest). The clue set leaves one ranking under exhaustive permutation checking; reading the requested position gives the named candidate.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-2-query-1",
+      "puzzle_group": "ranking-group-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "c2d45b0f-b5df-4cb3-b375-51ae2826402d",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm022",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm022",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Heena, Ishaan, Juhi, Kartik, Lavanya, Manav, Nisha are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Heena and Nisha finished in consecutive positions; Juhi and Kartik finished in consecutive positions; Juhi finished ahead of Nisha; Lavanya finished ahead of Ishaan; Exactly 3 people finished between Nisha and Juhi; Exactly 2 people finished between Manav and Ishaan; Juhi finished ahead of Heena; Manav and Juhi finished in consecutive positions.\n\nWho finished immediately after Manav?",
+      "options": {
+        "A": "Kartik",
+        "B": "Juhi",
+        "C": "Heena",
+        "D": "Ishaan",
+        "E": "Lavanya"
+      },
+      "correct_option": "B",
+      "expected_answer": "Juhi",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Lavanya > Manav > Juhi > Kartik > Ishaan > Heena > Nisha (highest to lowest). In the unique ranking, Manav is followed immediately by Juhi (rank 2 then 3).",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-2-query-2",
+      "puzzle_group": "ranking-group-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "6b6e6f76-bc15-433b-90cd-47aac5752121",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm023",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm023",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Heena, Ishaan, Juhi, Kartik, Lavanya, Manav, Nisha are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Heena and Nisha finished in consecutive positions; Juhi and Kartik finished in consecutive positions; Juhi finished ahead of Nisha; Lavanya finished ahead of Ishaan; Exactly 3 people finished between Nisha and Juhi; Exactly 2 people finished between Manav and Ishaan; Juhi finished ahead of Heena; Manav and Juhi finished in consecutive positions.\n\nHow many candidates finished between Lavanya and Ishaan?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "1",
+        "D": "2",
+        "E": "5"
+      },
+      "correct_option": "B",
+      "expected_answer": "3",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Lavanya > Manav > Juhi > Kartik > Ishaan > Heena > Nisha (highest to lowest). Their unique ranks are 1 and 5; the difference minus one is 3.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-2-query-3",
+      "puzzle_group": "ranking-group-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "14c9d806-680d-4429-8bc6-9c3251b32664",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm024",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm024",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Heena, Ishaan, Juhi, Kartik, Lavanya, Manav, Nisha are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Heena and Nisha finished in consecutive positions; Juhi and Kartik finished in consecutive positions; Juhi finished ahead of Nisha; Lavanya finished ahead of Ishaan; Exactly 3 people finished between Nisha and Juhi; Exactly 2 people finished between Manav and Ishaan; Juhi finished ahead of Heena; Manav and Juhi finished in consecutive positions.\n\nWhich candidate ranked immediately before Heena?",
+      "options": {
+        "A": "Ishaan",
+        "B": "Juhi",
+        "C": "Kartik",
+        "D": "Heena",
+        "E": "Lavanya"
+      },
+      "correct_option": "A",
+      "expected_answer": "Ishaan",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Lavanya > Manav > Juhi > Kartik > Ishaan > Heena > Nisha (highest to lowest). The unique arrangement places Ishaan directly ahead of Heena.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-2-query-4",
+      "puzzle_group": "ranking-group-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "863e3b41-0353-44ed-8eea-cc130b19e389",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm025",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm025",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Heena, Ishaan, Juhi, Kartik, Lavanya, Manav, Nisha are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Heena and Nisha finished in consecutive positions; Juhi and Kartik finished in consecutive positions; Juhi finished ahead of Nisha; Lavanya finished ahead of Ishaan; Exactly 3 people finished between Nisha and Juhi; Exactly 2 people finished between Manav and Ishaan; Juhi finished ahead of Heena; Manav and Juhi finished in consecutive positions.\n\nWho ranked lowest?",
+      "options": {
+        "A": "Ishaan",
+        "B": "Juhi",
+        "C": "Nisha",
+        "D": "Kartik",
+        "E": "Heena"
+      },
+      "correct_option": "C",
+      "expected_answer": "Nisha",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Lavanya > Manav > Juhi > Kartik > Ishaan > Heena > Nisha (highest to lowest). The sole arrangement places Nisha at rank 7, the lowest position.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-2-query-5",
+      "puzzle_group": "ranking-group-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "5ed55d8e-0f8a-405b-bc47-f15f26ae8012",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm031",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm031",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Ojas, Pallavi, Qadir, Rhea, Samar, Tanvi, Uday are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Qadir finished ahead of Tanvi; Pallavi and Rhea finished in consecutive positions; Samar and Tanvi finished in consecutive positions; Exactly 2 people finished between Tanvi and Qadir; Exactly 1 people finished between Uday and Samar; Qadir and Ojas finished in consecutive positions; Ojas and Uday finished in consecutive positions; Uday finished ahead of Rhea; Ojas finished ahead of Samar; Exactly 3 people finished between Rhea and Ojas.\n\nWho finished at rank 2?",
+      "options": {
+        "A": "Rhea",
+        "B": "Ojas",
+        "C": "Pallavi",
+        "D": "Qadir",
+        "E": "Samar"
+      },
+      "correct_option": "B",
+      "expected_answer": "Ojas",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Qadir > Ojas > Uday > Tanvi > Samar > Rhea > Pallavi (highest to lowest). The clue set leaves one ranking under exhaustive permutation checking; reading the requested position gives the named candidate.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-3-query-1",
+      "puzzle_group": "ranking-group-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "03e14a06-ea9a-4cd7-b88e-1311c3987c31",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm032",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm032",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Ojas, Pallavi, Qadir, Rhea, Samar, Tanvi, Uday are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Qadir finished ahead of Tanvi; Pallavi and Rhea finished in consecutive positions; Samar and Tanvi finished in consecutive positions; Exactly 2 people finished between Tanvi and Qadir; Exactly 1 people finished between Uday and Samar; Qadir and Ojas finished in consecutive positions; Ojas and Uday finished in consecutive positions; Uday finished ahead of Rhea; Ojas finished ahead of Samar; Exactly 3 people finished between Rhea and Ojas.\n\nWho finished immediately after Ojas?",
+      "options": {
+        "A": "Qadir",
+        "B": "Uday",
+        "C": "Ojas",
+        "D": "Pallavi",
+        "E": "Rhea"
+      },
+      "correct_option": "B",
+      "expected_answer": "Uday",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Qadir > Ojas > Uday > Tanvi > Samar > Rhea > Pallavi (highest to lowest). In the unique ranking, Ojas is followed immediately by Uday (rank 2 then 3).",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-3-query-2",
+      "puzzle_group": "ranking-group-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "8f7516ca-1c70-4fdb-a621-bd1a34286d23",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm033",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm033",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Ojas, Pallavi, Qadir, Rhea, Samar, Tanvi, Uday are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Qadir finished ahead of Tanvi; Pallavi and Rhea finished in consecutive positions; Samar and Tanvi finished in consecutive positions; Exactly 2 people finished between Tanvi and Qadir; Exactly 1 people finished between Uday and Samar; Qadir and Ojas finished in consecutive positions; Ojas and Uday finished in consecutive positions; Uday finished ahead of Rhea; Ojas finished ahead of Samar; Exactly 3 people finished between Rhea and Ojas.\n\nHow many candidates finished between Qadir and Samar?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "1",
+        "E": "5"
+      },
+      "correct_option": "A",
+      "expected_answer": "3",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Qadir > Ojas > Uday > Tanvi > Samar > Rhea > Pallavi (highest to lowest). Their unique ranks are 1 and 5; the difference minus one is 3.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-3-query-3",
+      "puzzle_group": "ranking-group-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "6866382e-86f1-471a-9f06-415350e8c1bf",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm034",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm034",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Ojas, Pallavi, Qadir, Rhea, Samar, Tanvi, Uday are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Qadir finished ahead of Tanvi; Pallavi and Rhea finished in consecutive positions; Samar and Tanvi finished in consecutive positions; Exactly 2 people finished between Tanvi and Qadir; Exactly 1 people finished between Uday and Samar; Qadir and Ojas finished in consecutive positions; Ojas and Uday finished in consecutive positions; Uday finished ahead of Rhea; Ojas finished ahead of Samar; Exactly 3 people finished between Rhea and Ojas.\n\nWhich candidate ranked immediately before Rhea?",
+      "options": {
+        "A": "Pallavi",
+        "B": "Qadir",
+        "C": "Samar",
+        "D": "Rhea",
+        "E": "Ojas"
+      },
+      "correct_option": "C",
+      "expected_answer": "Samar",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Qadir > Ojas > Uday > Tanvi > Samar > Rhea > Pallavi (highest to lowest). The unique arrangement places Samar directly ahead of Rhea.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-3-query-4",
+      "puzzle_group": "ranking-group-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "d5db8cd2-192a-449a-822a-765517e62d65",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm035",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm035",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Ojas, Pallavi, Qadir, Rhea, Samar, Tanvi, Uday are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Qadir finished ahead of Tanvi; Pallavi and Rhea finished in consecutive positions; Samar and Tanvi finished in consecutive positions; Exactly 2 people finished between Tanvi and Qadir; Exactly 1 people finished between Uday and Samar; Qadir and Ojas finished in consecutive positions; Ojas and Uday finished in consecutive positions; Uday finished ahead of Rhea; Ojas finished ahead of Samar; Exactly 3 people finished between Rhea and Ojas.\n\nWho ranked lowest?",
+      "options": {
+        "A": "Pallavi",
+        "B": "Qadir",
+        "C": "Rhea",
+        "D": "Samar",
+        "E": "Ojas"
+      },
+      "correct_option": "A",
+      "expected_answer": "Pallavi",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Qadir > Ojas > Uday > Tanvi > Samar > Rhea > Pallavi (highest to lowest). The sole arrangement places Pallavi at rank 7, the lowest position.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-3-query-5",
+      "puzzle_group": "ranking-group-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "4a518018-2de3-4f2a-9a60-f66fabf0ffa4",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm041",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm041",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Vani, Wasim, Xena, Yash, Zara, Aditi, Bharat are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Zara finished ahead of Vani; Aditi finished at rank 7; Vani finished ahead of Yash; Exactly 1 people finished between Wasim and Vani; Exactly 3 people finished between Yash and Wasim; Exactly 1 people finished between Vani and Wasim; Xena finished ahead of Aditi; Yash and Aditi finished in consecutive positions; Exactly 2 people finished between Zara and Vani; Exactly 3 people finished between Zara and Xena.\n\nWho finished at rank 3?",
+      "options": {
+        "A": "Xena",
+        "B": "Bharat",
+        "C": "Vani",
+        "D": "Wasim",
+        "E": "Yash"
+      },
+      "correct_option": "B",
+      "expected_answer": "Bharat",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Zara > Wasim > Bharat > Vani > Xena > Yash > Aditi (highest to lowest). The clue set leaves one ranking under exhaustive permutation checking; reading the requested position gives the named candidate.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-4-query-1",
+      "puzzle_group": "ranking-group-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "887c9141-f854-46eb-af4c-ad7bcc749e37",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm042",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm042",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Vani, Wasim, Xena, Yash, Zara, Aditi, Bharat are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Zara finished ahead of Vani; Aditi finished at rank 7; Vani finished ahead of Yash; Exactly 1 people finished between Wasim and Vani; Exactly 3 people finished between Yash and Wasim; Exactly 1 people finished between Vani and Wasim; Xena finished ahead of Aditi; Yash and Aditi finished in consecutive positions; Exactly 2 people finished between Zara and Vani; Exactly 3 people finished between Zara and Xena.\n\nWho finished immediately after Wasim?",
+      "options": {
+        "A": "Bharat",
+        "B": "Wasim",
+        "C": "Xena",
+        "D": "Vani",
+        "E": "Yash"
+      },
+      "correct_option": "A",
+      "expected_answer": "Bharat",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Zara > Wasim > Bharat > Vani > Xena > Yash > Aditi (highest to lowest). In the unique ranking, Wasim is followed immediately by Bharat (rank 2 then 3).",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-4-query-2",
+      "puzzle_group": "ranking-group-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "b4a423de-b792-43fc-9fb7-996ffc68be78",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm043",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm043",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Vani, Wasim, Xena, Yash, Zara, Aditi, Bharat are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Zara finished ahead of Vani; Aditi finished at rank 7; Vani finished ahead of Yash; Exactly 1 people finished between Wasim and Vani; Exactly 3 people finished between Yash and Wasim; Exactly 1 people finished between Vani and Wasim; Xena finished ahead of Aditi; Yash and Aditi finished in consecutive positions; Exactly 2 people finished between Zara and Vani; Exactly 3 people finished between Zara and Xena.\n\nHow many candidates finished between Zara and Xena?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "5",
+        "E": "1"
+      },
+      "correct_option": "C",
+      "expected_answer": "3",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Zara > Wasim > Bharat > Vani > Xena > Yash > Aditi (highest to lowest). Their unique ranks are 1 and 5; the difference minus one is 3.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-4-query-3",
+      "puzzle_group": "ranking-group-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "fc38f18a-e42a-4732-a2c6-3e85b4973b0a",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm044",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm044",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Vani, Wasim, Xena, Yash, Zara, Aditi, Bharat are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Zara finished ahead of Vani; Aditi finished at rank 7; Vani finished ahead of Yash; Exactly 1 people finished between Wasim and Vani; Exactly 3 people finished between Yash and Wasim; Exactly 1 people finished between Vani and Wasim; Xena finished ahead of Aditi; Yash and Aditi finished in consecutive positions; Exactly 2 people finished between Zara and Vani; Exactly 3 people finished between Zara and Xena.\n\nWhich candidate ranked immediately before Yash?",
+      "options": {
+        "A": "Xena",
+        "B": "Wasim",
+        "C": "Yash",
+        "D": "Zara",
+        "E": "Vani"
+      },
+      "correct_option": "A",
+      "expected_answer": "Xena",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Zara > Wasim > Bharat > Vani > Xena > Yash > Aditi (highest to lowest). The unique arrangement places Xena directly ahead of Yash.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-4-query-4",
+      "puzzle_group": "ranking-group-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "00ba89c4-ebd1-44b0-8c0a-4859f40c648e",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm045",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm045",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Vani, Wasim, Xena, Yash, Zara, Aditi, Bharat are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Zara finished ahead of Vani; Aditi finished at rank 7; Vani finished ahead of Yash; Exactly 1 people finished between Wasim and Vani; Exactly 3 people finished between Yash and Wasim; Exactly 1 people finished between Vani and Wasim; Xena finished ahead of Aditi; Yash and Aditi finished in consecutive positions; Exactly 2 people finished between Zara and Vani; Exactly 3 people finished between Zara and Xena.\n\nWho ranked lowest?",
+      "options": {
+        "A": "Xena",
+        "B": "Aditi",
+        "C": "Vani",
+        "D": "Wasim",
+        "E": "Yash"
+      },
+      "correct_option": "B",
+      "expected_answer": "Aditi",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Zara > Wasim > Bharat > Vani > Xena > Yash > Aditi (highest to lowest). The sole arrangement places Aditi at rank 7, the lowest position.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-4-query-5",
+      "puzzle_group": "ranking-group-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "cb6806d5-06db-4adf-b9f7-040c43268c37",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm051",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm051",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Charu, Dev, Ekta, Faisal, Gita, Harish, Ira are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Ekta and Charu finished in consecutive positions; Exactly 3 people finished between Ira and Faisal; Faisal finished ahead of Harish; Exactly 1 people finished between Dev and Gita; Exactly 1 people finished between Harish and Ira; Charu finished ahead of Ira; Faisal finished ahead of Charu; Exactly 3 people finished between Charu and Gita.\n\nWho finished at rank 4?",
+      "options": {
+        "A": "Dev",
+        "B": "Ekta",
+        "C": "Faisal",
+        "D": "Charu",
+        "E": "Gita"
+      },
+      "correct_option": "A",
+      "expected_answer": "Dev",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Faisal > Charu > Ekta > Dev > Ira > Gita > Harish (highest to lowest). The clue set leaves one ranking under exhaustive permutation checking; reading the requested position gives the named candidate.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-5-query-1",
+      "puzzle_group": "ranking-group-5",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "3f683ca7-10f2-416e-8c20-c3cad25a7ba4",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm052",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm052",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Charu, Dev, Ekta, Faisal, Gita, Harish, Ira are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Ekta and Charu finished in consecutive positions; Exactly 3 people finished between Ira and Faisal; Faisal finished ahead of Harish; Exactly 1 people finished between Dev and Gita; Exactly 1 people finished between Harish and Ira; Charu finished ahead of Ira; Faisal finished ahead of Charu; Exactly 3 people finished between Charu and Gita.\n\nWho finished immediately after Charu?",
+      "options": {
+        "A": "Dev",
+        "B": "Faisal",
+        "C": "Ekta",
+        "D": "Gita",
+        "E": "Charu"
+      },
+      "correct_option": "C",
+      "expected_answer": "Ekta",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Faisal > Charu > Ekta > Dev > Ira > Gita > Harish (highest to lowest). In the unique ranking, Charu is followed immediately by Ekta (rank 2 then 3).",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-5-query-2",
+      "puzzle_group": "ranking-group-5",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "629fde76-c6da-4b48-81d9-f6b07466b692",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm053",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm053",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Charu, Dev, Ekta, Faisal, Gita, Harish, Ira are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Ekta and Charu finished in consecutive positions; Exactly 3 people finished between Ira and Faisal; Faisal finished ahead of Harish; Exactly 1 people finished between Dev and Gita; Exactly 1 people finished between Harish and Ira; Charu finished ahead of Ira; Faisal finished ahead of Charu; Exactly 3 people finished between Charu and Gita.\n\nHow many candidates finished between Faisal and Ira?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "1"
+      },
+      "correct_option": "A",
+      "expected_answer": "3",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Faisal > Charu > Ekta > Dev > Ira > Gita > Harish (highest to lowest). Their unique ranks are 1 and 5; the difference minus one is 3.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-5-query-3",
+      "puzzle_group": "ranking-group-5",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "76ce6951-5dbb-4a7d-b875-951299ea53c1",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm054",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm054",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Charu, Dev, Ekta, Faisal, Gita, Harish, Ira are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Ekta and Charu finished in consecutive positions; Exactly 3 people finished between Ira and Faisal; Faisal finished ahead of Harish; Exactly 1 people finished between Dev and Gita; Exactly 1 people finished between Harish and Ira; Charu finished ahead of Ira; Faisal finished ahead of Charu; Exactly 3 people finished between Charu and Gita.\n\nWhich candidate ranked immediately before Gita?",
+      "options": {
+        "A": "Ekta",
+        "B": "Ira",
+        "C": "Charu",
+        "D": "Dev",
+        "E": "Faisal"
+      },
+      "correct_option": "B",
+      "expected_answer": "Ira",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Faisal > Charu > Ekta > Dev > Ira > Gita > Harish (highest to lowest). The unique arrangement places Ira directly ahead of Gita.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-5-query-4",
+      "puzzle_group": "ranking-group-5",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "d46a52c5-fa9a-4cc7-8d7b-3d5fe351af08",
+      "database_verified": true
+    },
+    {
+      "question_id": "orm055",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "orm055",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Seven candidates Charu, Dev, Ekta, Faisal, Gita, Harish, Ira are ranked from 1 (highest score) to 7 (lowest). All ranks are distinct. Clues: Ekta and Charu finished in consecutive positions; Exactly 3 people finished between Ira and Faisal; Faisal finished ahead of Harish; Exactly 1 people finished between Dev and Gita; Exactly 1 people finished between Harish and Ira; Charu finished ahead of Ira; Faisal finished ahead of Charu; Exactly 3 people finished between Charu and Gita.\n\nWho ranked lowest?",
+      "options": {
+        "A": "Faisal",
+        "B": "Charu",
+        "C": "Ekta",
+        "D": "Dev",
+        "E": "Harish"
+      },
+      "correct_option": "E",
+      "expected_answer": "Harish",
+      "independent_reasoning": "The clue constraints were exhaustively checked against all 7! rankings and yield exactly one solution: Faisal > Charu > Ekta > Dev > Ira > Gita > Harish (highest to lowest). The sole arrangement places Harish at rank 7, the lowest position.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "unique-ranking-5-query-5",
+      "puzzle_group": "ranking-group-5",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "b3fc4481-9588-42f5-9fdf-afc6e4c1bdc3",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum01",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum01",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A cohort has 58 analysts. Kavya ranks 17th from the top. What is her rank from the bottom?",
+      "options": {
+        "A": "43",
+        "B": "40",
+        "C": "41",
+        "D": "44",
+        "E": "42"
+      },
+      "correct_option": "E",
+      "expected_answer": "42",
+      "independent_reasoning": "58 - 17 + 1 = 42.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-1",
+      "puzzle_group": "rank-transform-1",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "e0b57059-5bb6-4f8b-9261-d1476b5b6429",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum02",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum02",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In an assessment, Ritesh is 14th from the top and 22nd from the bottom. How many candidates took the assessment?",
+      "options": {
+        "A": "37",
+        "B": "36",
+        "C": "33",
+        "D": "34",
+        "E": "35"
+      },
+      "correct_option": "E",
+      "expected_answer": "35",
+      "independent_reasoning": "Total = top rank + bottom rank - 1 = 14 + 22 - 1 = 35.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-2",
+      "puzzle_group": "rank-transform-2",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "4a5f56c2-3b99-4f20-a059-433dd6892672",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum03",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum03",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In a group of 46, Neel is 12th from the top and Farah is 27th from the top. They exchange positions. What is Neel's new rank from the top?",
+      "options": {
+        "A": "28",
+        "B": "29",
+        "C": "26",
+        "D": "25",
+        "E": "27"
+      },
+      "correct_option": "E",
+      "expected_answer": "27",
+      "independent_reasoning": "After the exchange Neel occupies Farah's former position, rank 27.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-3",
+      "puzzle_group": "rank-transform-3",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "97b61532-a2ad-4702-abac-541435c9de81",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum04",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum04",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A list has 64 candidates. Isha is 18th from the top; Mohan is 21st from the bottom. How many candidates are strictly between them?",
+      "options": {
+        "A": "24",
+        "B": "25",
+        "C": "27",
+        "D": "23",
+        "E": "26"
+      },
+      "correct_option": "B",
+      "expected_answer": "25",
+      "independent_reasoning": "Mohan is 64 - 21 + 1 = 44th from the top; positions 19 through 43 are 25 candidates between ranks 18 and 44.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-4",
+      "puzzle_group": "rank-transform-4",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "7b4425fa-9b30-4002-991a-edc5c3569b3f",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum05",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum05",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In a merit list, Tanu is 19th. Seven candidates ranked above her withdraw and no one else changes position. What is her new rank?",
+      "options": {
+        "A": "11",
+        "B": "14",
+        "C": "12",
+        "D": "10",
+        "E": "13"
+      },
+      "correct_option": "C",
+      "expected_answer": "12",
+      "independent_reasoning": "Removing seven candidates above Tanu moves her from 19th to 19 - 7 = 12th.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-5",
+      "puzzle_group": "rank-transform-5",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "b071c7bf-8622-4263-8885-a23bb1be772c",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum06",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum06",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A runner is 23rd from the top. Five new runners are inserted ahead of him. What is his new rank from the top?",
+      "options": {
+        "A": "26",
+        "B": "30",
+        "C": "29",
+        "D": "27",
+        "E": "28"
+      },
+      "correct_option": "E",
+      "expected_answer": "28",
+      "independent_reasoning": "Five entrants move his position down five places: 23 + 5 = 28.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-6",
+      "puzzle_group": "rank-transform-6",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "81cc1f03-8d62-46ef-a146-f809337c2833",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum07",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum07",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "Ravi is 26th from the top. During the final round he overtakes the three people immediately ahead of him. What rank does he then hold?",
+      "options": {
+        "A": "23",
+        "B": "25",
+        "C": "22",
+        "D": "24",
+        "E": "21"
+      },
+      "correct_option": "A",
+      "expected_answer": "23",
+      "independent_reasoning": "Passing three people ahead improves the rank by three: 26 - 3 = 23.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-7",
+      "puzzle_group": "rank-transform-7",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "405cd1e7-8a9a-46ca-8ead-3be2febe52fe",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum08",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum08",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "In a queue, Noor has 11 people ahead and 18 behind. Four people ahead leave the queue. How many people are now behind Noor?",
+      "options": {
+        "A": "20",
+        "B": "16",
+        "C": "19",
+        "D": "18",
+        "E": "17"
+      },
+      "correct_option": "D",
+      "expected_answer": "18",
+      "independent_reasoning": "Leaving people ahead does not change the number behind; Noor still has 18 behind.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-8",
+      "puzzle_group": "rank-transform-8",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "eba45c17-aa0e-4443-a01c-67dd56708183",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum09",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum09",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "There are 52 candidates. P is 16th from the top. Q is 9 positions below P. How many candidates lie between Q and the bottom-ranked candidate?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "28",
+        "D": "26",
+        "E": "27"
+      },
+      "correct_option": "D",
+      "expected_answer": "26",
+      "independent_reasoning": "Q is rank 16 + 9 = 25. The bottom rank is 52, so 52 - 25 = 27 candidates lie below Q; strictly between Q and the last candidate there are 26.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-9",
+      "puzzle_group": "rank-transform-9",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "21b712b5-70ba-4193-8565-57700f6b085a",
+      "database_verified": true
+    },
+    {
+      "question_id": "ormnum10",
+      "status": "verified_import_candidate",
+      "source_type": "original",
+      "source_reference": "ormnum10",
+      "source_pdf": null,
+      "source_page": null,
+      "source_question_number": null,
+      "access_date": "2026-11-23",
+      "question": "A row of 39 candidates is reversed end-to-end. Before reversal, Dev is 8th from the left. What is his position from the left afterward?",
+      "options": {
+        "A": "33",
+        "B": "30",
+        "C": "31",
+        "D": "34",
+        "E": "32"
+      },
+      "correct_option": "E",
+      "expected_answer": "32",
+      "independent_reasoning": "Reversal maps position r to N-r+1: 39 - 8 + 1 = 32.",
+      "option_review": "Five unique options were checked; exactly one matches the independently computed result.",
+      "concept_signature": "ranking-transform-case-10",
+      "puzzle_group": "rank-transform-10",
+      "cross_chapter_duplicate_check": "Distinct generated template and prompt; database-wide normalized-stem scan will be run before import.",
+      "external_pattern_references": [
+        {
+          "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+          "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+          "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+        },
+        {
+          "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+          "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+          "type": "third-party memory-based paper, not represented as an official IBPS release"
+        },
+        {
+          "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+          "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+          "type": "publisher-labeled mock practice, explicitly not past papers"
+        }
+      ],
+      "database_question_id": "5ede4e73-03a2-4501-8e1a-6024b09a91cd",
+      "database_verified": true
+    }
+  ],
+  "external_pattern_references": [
+    {
+      "name": "NDLI Tutor - IBPS Clerk, IBPS Clerk (Mains): Reasoning Ability Question Paper 20_T2_01",
+      "url": "https://www.ndl.iitkgp.ac.in/cd_document/ndli_tutor_ibps_clerk/ndli_career_ibpsc/IBPS_C_20_T2_01_Q_GI",
+      "type": "open-access educational repository item; NDLI page describes a 50-question MCQ Reasoning set and marks access Open; host page does not establish publisher reproduction rights"
+    },
+    {
+      "name": "Adda247, IBPS Clerk Mains PYP (Held on 13.10.2024)",
+      "url": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/06/19181917/IBPS-Clerk-Mains-Question-Paper-Held-on-13.10.2024.pdf",
+      "type": "third-party memory-based paper, not represented as an official IBPS release"
+    },
+    {
+      "name": "Previous Year Questions, IBPS Clerk Topic-wise Practice",
+      "url": "https://previousyearquestions.app/ibps-clerk/topics/",
+      "type": "publisher-labeled mock practice, explicitly not past papers"
+    }
+  ],
+  "access_date": "2026-11-23",
+  "database_verification": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "initial_active": 5,
+    "inserted": 35,
+    "final_active": 40,
+    "inactive": 0,
+    "all_new_rows_verified": 35,
+    "dry_run": {
+      "would_import": 35,
+      "duplicates": 0,
+      "rejected": 0,
+      "errors": 0
+    },
+    "transactional_import": {
+      "imported": 35,
+      "duplicates": 0,
+      "rejected": 0,
+      "errors": 0
+    },
+    "replay_dry_run": {
+      "would_import": 0,
+      "duplicates": 35,
+      "rejected": 0,
+      "errors": 0
+    }
+  },
+  "api_verification": {
+    "backend": "started locally on 127.0.0.1:8000 with process-only DATABASE_URL pointing to local ssc_prep",
+    "health_endpoint": {
+      "path": "/api/health",
+      "status_code": 200,
+      "result": "healthy"
+    },
+    "readiness_endpoint": {
+      "path": "/api/ready",
+      "status_code": 200,
+      "result": "ready"
+    },
+    "authenticated_exam_catalog": {
+      "path": "/api/exams",
+      "status_code": 401,
+      "result": "Not authenticated"
+    },
+    "authenticated_question_management": {
+      "path": "/api/questions?chapter_id=<target>&limit=1",
+      "status_code": 401,
+      "result": "Not authenticated"
+    },
+    "question_payload_verified": false,
+    "limitation": "No valid signed-in user/admin bearer session was available to this process; no credentials or token were fabricated."
+  }
+}
