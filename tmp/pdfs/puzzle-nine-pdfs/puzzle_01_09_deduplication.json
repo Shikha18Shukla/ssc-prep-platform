@@ -1,19 +1,2454 @@
 {
-  "phase_status": "PRELIMINARY_ONLY_NOT_FINAL",
+  "phase_status": "PHASE_2_COMPLETE_ALL_NINE_PDFS",
   "inventory_entries": 180,
   "contextual_normalized_keys": 180,
   "exact_contextual_duplicate_groups": [],
-  "within_pdf_duplicates": "no exact contextual duplicates detected; semantic review incomplete",
-  "across_pdf_duplicates": "no exact contextual duplicates detected; semantic review incomplete",
+  "within_pdf_duplicates": "No semantic duplicates identified within any of the nine source PDFs after shared directions, arrangement clues, prompts, and options were compared.",
+  "across_pdf_duplicates": "No semantic duplicates identified across the three Designation-Based PDFs; all 60 question contexts are distinct.",
   "destination_database_overlaps": {
-    "status": "verified_read_only_local_query",
-    "weekdays_chapter_id": "a6d1bdfc-f147-4c1b-b88d-17e415219f4f",
-    "weekdays_active": 0,
-    "weekdays_inactive": 0,
+    "status": "verified_read_only_local_query_2026-11-21",
     "designation_chapter_id": "4ed7e743-a62d-4236-af91-20298410eb2f",
     "designation_active": 0,
     "designation_inactive": 0,
     "matching_records": 0
   },
-  "note": "Shared-direction-aware normalization did not merge prompts. Generic prompts reused in different groups remain distinct. This is not a final semantic deduplication audit."
+  "note": "All 180 source appearances are classified. The Designation-Based source set has 60 unique verified candidates and no repeats; the local destination chapter had no prior records. No database writes or migrations occurred.",
+  "database_check": {
+    "mode": "read_only_local",
+    "database": "ssc_prep",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "designation_chapter_id": "4ed7e743-a62d-4236-af91-20298410eb2f",
+    "designation_active": 0,
+    "designation_inactive": 0,
+    "destination_overlaps": 0,
+    "transaction": "READ ONLY"
+  },
+  "semantic_review_progress": {
+    "groups_reviewed": 36,
+    "groups_total": 36,
+    "question_appearances_reviewed": 180,
+    "question_appearances_total": 180,
+    "fully_semantic_dedup_complete": true,
+    "within_processed_material": "All six Day-Based and three Designation-Based PDFs have completed contextual review; no Designation source or destination duplicates found."
+  },
+  "question_classifications": [
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q01-05",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q01-05",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q01-05",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q01-05",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q01-05",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 3 | Q6",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        3
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q06-10",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 3 | Q7",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        3
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q06-10",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 3 | Q8",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        3
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q06-10",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 3 | Q9",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        3
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q06-10",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 3 | Q10",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        3
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q06-10",
+      "duplicate_status": "no_duplicate_detected_preliminary",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_for_batch_1"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 3-4 | Q11",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        3,
+        4
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q11-15",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_2"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 4 | Q12",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q11-15",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_2"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 4 | Q13",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q11-15",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_2"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 4 | Q14",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q11-15",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_2"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 4 | Q15",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q11-15",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_2"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 4 | Q16",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q16-20",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_3"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 4-5 | Q17",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        4,
+        5
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q16-20",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_3"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 5 | Q18",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q16-20",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_3"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 5 | Q19",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q16-20",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_3"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-1 (Eng).pdf | p. 5 | Q20",
+      "source_pdf": "DAY BASED PUZZLE SET-1 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-1 (Eng):Q16-20",
+      "duplicate_status": "no_duplicate_found_in_completed_batches_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_batch_3"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 4 | Q7",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 5 | Q8",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 5 | Q9",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 6 | Q11",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        6
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q12",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q13",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q14",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q15",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 8 | Q16",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 8 | Q17",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 8 | Q18",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 9 | Q19",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-2 (Eng).pdf | p. 9 | Q20",
+      "source_pdf": "DAY BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_2_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 4 | Q7",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 4 | Q8",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 4-5 | Q9",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        4,
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q11",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q12",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q13",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q14",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q15",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 9 | Q16",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 9 | Q17",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 9 | Q18",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 10 | Q19",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-3 (Eng).pdf | p. 9-10 | Q20",
+      "source_pdf": "DAY BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9,
+        10
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_processed_questions_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_3_batch"
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 2-3 | Q5",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2,
+        3
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q6",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q7",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q8",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q9",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 8 | Q11",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 8 | Q12",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 8 | Q13",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 8 | Q14",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 8 | Q15",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q16",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The three valid arrangements yield either Friday D/TCS (where options A and C both describe that same Friday person) or Friday B/Microsoft (where options B and D are both correct); exactly-one-option integrity and answer stability fail."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q17",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The odd pair is not stable: FB is the positional-gap outlier in arrangements 1 and 3, while arrangement 2 has a different gap pattern (CG is four apart and FB one apart), so a unique odd pair is not established."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q18",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The correct response is C in arrangement 1 but E (none of A-D) in arrangements 2 and 3."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q19",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context and arrangement clues differ from prior groups; no semantic duplicate identified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-4 (Eng).pdf | p. 11 | Q20",
+      "source_pdf": "DAY BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        11
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_4_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_4_against_sets_1_3_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The truth set varies: arrangement 1 makes A-D true; arrangement 2 makes only A true; arrangement 3 makes A, C and D true, for which no listed response exists."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The exhaustive clue check leaves five different valid arrangements; the person ordering Idly changes (C, F, A, C, C), so no single listed answer is established."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 4-5 | Q7",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        4,
+        5
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The conditional “If E orders on Monday, C orders on 7, and so on in the same logic” does not define a mapping for the other people or explain what “7” means for a Monday-Saturday event; the printed key cannot be independently derived."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 5 | Q8",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "held",
+      "review_note": "Thursday contains Idly in four valid arrangements but Parota in the fifth, so the answer is not invariant."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 5 | Q9",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "held",
+      "review_note": "Poori is Friday in four valid arrangements and Monday in the fifth, so the day is not invariant."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "held",
+      "review_note": "The number between B and C is two in three valid arrangements and four in two; both options B and D occur."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 6-7 | Q11",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        6,
+        7
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 7 | Q12",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 7 | Q13",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 7 | Q14",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 7 | Q15",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 9-10 | Q16",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        9,
+        10
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 9 | Q17",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 9-10 | Q18",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        9,
+        10
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 10 | Q19",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-5 (Eng).pdf | p. 10 | Q20",
+      "source_pdf": "DAY BASED PUZZLE SET-5 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-5 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_5_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_5_against_sets_1_4_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "No same-context semantic duplicate found; answer independently verified."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 2-3 | Q5",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        2,
+        3
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 4 | Q7",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 4 | Q8",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 4-5 | Q9",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        4,
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 6 | Q11",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        6
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 6 | Q12",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        6
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 6 | Q13",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        6
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 6-7 | Q14",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        6,
+        7
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 7 | Q15",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 9 | Q16",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 9 | Q17",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 9 | Q18",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 9 | Q19",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DAY BASED PUZZLE SET-6 (Eng).pdf | p. 9 | Q20",
+      "source_pdf": "DAY BASED PUZZLE SET-6 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DAY BASED PUZZLE SET-6 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_found_in_sets_1_6_or_destination_db",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_set_6_against_sets_1_5_and_destination_chapters",
+      "classification": "verified_import_candidate",
+      "review_note": "Arrangement and answer independently verified; distinct clue context from earlier sets."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | pp. 4-5 | Q7",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        4,
+        5
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 5 | Q8",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 5 | Q9",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q11",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q12",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 7 | Q13",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 8 | Q14",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 8 | Q15",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 9 | Q16",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 9 | Q17",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 9 | Q18",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | pp. 9-10 | Q19",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        9,
+        10
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf | p. 10 | Q20",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-2 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-2 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | pp. 4-5 | Q7",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        4,
+        5
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 5 | Q8",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 5 | Q9",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q11",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q12",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q13",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q14",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 7 | Q15",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 9 | Q16",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 9 | Q17",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | pp. 9-10 | Q18",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        9,
+        10
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 10 | Q19",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf | p. 10 | Q20",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-3 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-3 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q1",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 1,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q2",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 2,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q3",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 3,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q4",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 4,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 2 | Q5",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        2
+      ],
+      "printed_question_number": 5,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q01-05",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 4 | Q6",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": 6,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q7",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 7,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q8",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 8,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q9",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 9,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 5 | Q10",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": 10,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q06-10",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 7 | Q11",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 11,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 7 | Q12",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 12,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 7 | Q13",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 13,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 7 | Q14",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        7
+      ],
+      "printed_question_number": 14,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | pp. 7-8 | Q15",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        7,
+        8
+      ],
+      "printed_question_number": 15,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q11-15",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q16",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 16,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q17",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 17,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q18",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 18,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q19",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 19,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    },
+    {
+      "source_id": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf | p. 10 | Q20",
+      "source_pdf": "DESIGNATION BASED PUZZLE SET-4 (Eng).pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": 20,
+      "puzzle_group_id": "DESIGNATION BASED PUZZLE SET-4 (Eng):Q16-20",
+      "duplicate_status": "no_semantic_duplicate_within_sources_or_destination",
+      "duplicate_of": null,
+      "semantic_review_status": "completed_designation_based_phase_2",
+      "classification": "verified_import_candidate",
+      "review_note": "Question context compared within all three PDFs and the local destination; unique candidate, answer independently verified."
+    }
+  ]
 }
