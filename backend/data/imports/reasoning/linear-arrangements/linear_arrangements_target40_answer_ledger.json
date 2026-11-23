@@ -1,0 +1,78 @@
+{
+  "chapter": "Linear Arrangements",
+  "chapter_slug": "linear-arrangements",
+  "entries": [
+    {
+      "question_text": "Original Practice Question (not PYQ) — Linear Arrangements, Puzzle 1, Question 1.\nEight people A-H stand in a single row facing north. Positions are counted from the left. Clues: G occupies position 5 from the left. B occupies position 3 from the left. H occupies position 4 from the left. D occupies position 1 from the left. F occupies position 2 from the left. E occupies position 7 from the left. A occupies position 8 from the left.\n\nWho stands 5th from the left?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "H",
+        "B": "G",
+        "C": "D",
+        "D": "B",
+        "E": "A"
+      },
+      "explanation": "Exhaustive checking gives the unique left-to-right order D, F, B, H, G, C, E, A. Therefore who stands 5th from the left is G.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 1.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "B",
+        "H",
+        "G",
+        "C",
+        "E",
+        "A"
+      ],
+      "clues": [
+        "G occupies position 5 from the left.",
+        "B occupies position 3 from the left.",
+        "H occupies position 4 from the left.",
+        "D occupies position 1 from the left.",
+        "F occupies position 2 from the left.",
+        "E occupies position 7 from the left.",
+        "A occupies position 8 from the left."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Linear Arrangements, Puzzle 1, Question 2.\nEight people A-H stand in a single row facing north. Positions are counted from the left. Clues: G occupies position 5 from the left. B occupies position 3 from the left. H occupies position 4 from the left. D occupies position 1 from the left. F occupies position 2 from the left. E occupies position 7 from the left. A occupies position 8 from the left.\n\nWhat is D’s position from the left?",
+      "classification": "verified_unique_original",
+      "correct_option": "E",
+      "options": {
+        "A": "7",
+        "B": "4",
+        "C": "5",
+        "D": "3",
+        "E": "1"
+      },
+      "explanation": "Exhaustive checking gives the unique left-to-right order D, F, B, H, G, C, E, A. Therefore what is d’s position from the left is 1.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 2.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "B",
+        "H",
+        "G",
+        "C",
+        "E",
+        "A"
+      ],
+      "clues": [
+        "G occupies position 5 from the left.",
+        "B occupies position 3 from the left.",
+        "H occupies position 4 from the left.",
+        "D occupies position 1 from the left.",
+        "F occupies position 2 from the left.",
+        "E occupies position 7 from the left.",
+        "A occupies position 8 from the left."
+      ],
+      "solution_count": 1
+    }
+  ],
+  "held": [],
+  "pdf_source_audit": {
+    "status": "completed from saved verified audit"
+  }
+}

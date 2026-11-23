@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "order-and-ranking-mains",
+      "question_text": "Seven persons A, B, C, M, N, P, and R are of different heights. C is taller than B, who is taller than both N and A. R is taller than both N and M. The number of persons taller than N is the same as those shorter than N. B is shorter than R, who is not the tallest person. Only two person heights between B and P, who is taller than M.\nQ10. How many persons’ heights are between R and P?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "1",
+        "D": "3",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "The unique low-to-high order is M, P, A, N, B, R, C. A, N and B lie between P and R, so there are three.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Order and Ranking 01  Class Notes.pdf, physical p. 10",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "order-and-ranking-mains",
+      "question_text": "Seven persons A, B, C, M, N, P, and R are of different heights. C is taller than B, who is taller than both N and A. R is taller than both N and M. The number of persons taller than N is the same as those shorter than N. B is shorter than R, who is not the tallest person. Only two person heights between B and P, who is taller than M.\nQ11. Who among the following persons is the third tallest?",
+      "options": {
+        "A": "N",
+        "B": "R",
+        "C": "C",
+        "D": "B",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "In the unique low-to-high order M, P, A, N, B, R, C, the third tallest is B.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Order and Ranking 01  Class Notes.pdf, physical p. 11",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "order-and-ranking-mains",
+      "question_text": "Seven persons A, B, C, M, N, P, and R are of different heights. C is taller than B, who is taller than both N and A. R is taller than both N and M. The number of persons taller than N is the same as those shorter than N. B is shorter than R, who is not the tallest person. Only two person heights between B and P, who is taller than M.\nQ12. Which pair is the shortest and the tallest person respectively?",
+      "options": {
+        "A": "RM",
+        "B": "CP",
+        "C": "CM",
+        "D": "MC",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "The unique order places M shortest and C tallest, giving MC.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Order and Ranking 01  Class Notes.pdf, physical p. 11",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "order-and-ranking-mains",
+      "question_text": "A, B, C, D, P, Q, and R are seven friends. Each has a different height. There are two friends whose heights are between Q and R, with Q taller than those friends but shorter than R. Q is not the shortest. Only two friends are taller than C. A is taller than D but shorter than B, who is not the tallest. Not more than four people are shorter than B. P is not the second tallest.\nHow many people are taller than B?",
+      "options": {
+        "A": "One",
+        "B": "Two",
+        "C": "Three",
+        "D": "Four",
+        "E": "More than four"
+      },
+      "correct_option": "C",
+      "explanation": "The unique order from shortest to tallest is D, A, Q, B, C, R, P. C, R and P are taller than B: three people.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Order and Ranking 01  Class Notes.pdf, physical p. 13",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "order-and-ranking-mains",
+      "question_text": "Six persons A, B, C, D, E and F have different heights. Each person likes a different colour—Red, Blue, White, Pink, Yellow and Grey. The person who likes Pink is not the tallest. The person who likes Blue is taller than C but shorter than the person who likes Pink. F is shorter than the person who likes Pink but taller than the person who likes Blue. F likes Red. B is taller than the person who likes Yellow but shorter than F. The person who likes Yellow is taller than E. A likes neither Pink nor Grey. The second tallest is 150 cm and the third lowest is 60 cm.\nIf the sum of the heights of D and F is 290 cm, what is the possible height of F?",
+      "options": {
+        "A": "160 cm",
+        "B": "140 cm",
+        "C": "130 cm",
+        "D": "100 cm",
+        "E": "90 cm"
+      },
+      "correct_option": "B",
+      "explanation": "The unique ordering is E, C, B, F, D, A from shortest to tallest. D is second tallest at 150 cm, so F=290−150=140 cm.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Order and Ranking 01  Class Notes.pdf, physical pp. 15–16",
+      "is_active": true
+    }
+  ]
+}

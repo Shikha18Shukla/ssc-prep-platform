@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Point H is 6 m west of E. E is 3 m south of V. V is 6 m west of T. P is 8 m south of T. P is 6 m east of Z. Z is 2 m south of S, and S is 6 m east of K.\nबिंदु H, बिंदु E से 6 मीटर पश्चिम में है। बिंदु E, बिंदु V से 3 मीटर दक्षिण में है। बिंदु V, बिंदु T से 6 मीटर पश्चिम में है। बिंदु P, बिंदु T से 8 मीटर दक्षिण में है। बिंदु P, बिंदु Z से 6 मीटर पूर्व में है। बिंदु Z, बिंदु S से 2 मीटर दक्षिण में है, जो बिंदु K से 6 मीटर पूर्व में है।\n\nWhat is the distance between point T and point Z?",
+      "options": {
+        "A": "10 m",
+        "B": "8 m",
+        "C": "13 m",
+        "D": "17 m",
+        "E": "None of the above"
+      },
+      "correct_option": "A",
+      "explanation": "Set T=(0,0). P is 8 m south of T, so P=(0,-8). Since P is 6 m east of Z, Z=(-6,-8). Therefore TZ=√(6²+8²)=10 m.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_Class Notes.pdf, lecture 2, PDF page 10; topic: direction and distance",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Point H is 6 m west of E. E is 3 m south of V. V is 6 m west of T. P is 8 m south of T. P is 6 m east of Z. Z is 2 m south of S, and S is 6 m east of K.\nबिंदु H, बिंदु E से 6 मीटर पश्चिम में है। बिंदु E, बिंदु V से 3 मीटर दक्षिण में है। बिंदु V, बिंदु T से 6 मीटर पश्चिम में है। बिंदु P, बिंदु T से 8 मीटर दक्षिण में है। बिंदु P, बिंदु Z से 6 मीटर पूर्व में है। बिंदु Z, बिंदु S से 2 मीटर दक्षिण में है, जो बिंदु K से 6 मीटर पूर्व में है।\n\nWhat is the direction of point K with respect to point T?",
+      "options": {
+        "A": "North",
+        "B": "North-West",
+        "C": "North-East",
+        "D": "South-East",
+        "E": "None of the above"
+      },
+      "correct_option": "E",
+      "explanation": "Set T=(0,0). Then V=(-6,0), E=(-6,-3), H=(-12,-3), P=(0,-8), Z=(-6,-8), S=(-6,-6), and K=(-12,-6). K is south-west of T; that direction is not among the listed choices, so the answer is None of the above.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_Class Notes.pdf, lecture 2, PDF page 10; topic: direction and distance",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance",
+      "question_text": "Point H is 6 m west of E. E is 3 m south of V. V is 6 m west of T. P is 8 m south of T. P is 6 m east of Z. Z is 2 m south of S, and S is 6 m east of K.\nबिंदु H, बिंदु E से 6 मीटर पश्चिम में है। बिंदु E, बिंदु V से 3 मीटर दक्षिण में है। बिंदु V, बिंदु T से 6 मीटर पश्चिम में है। बिंदु P, बिंदु T से 8 मीटर दक्षिण में है। बिंदु P, बिंदु Z से 6 मीटर पूर्व में है। बिंदु Z, बिंदु S से 2 मीटर दक्षिण में है, जो बिंदु K से 6 मीटर पूर्व में है।\n\nHow far and in which direction is point P with respect to point H?",
+      "options": {
+        "A": "13 m, South-East",
+        "B": "10 m, North-East",
+        "C": "13 m, North-West",
+        "D": "10 m, North-West",
+        "E": "None of the above"
+      },
+      "correct_option": "A",
+      "explanation": "With T=(0,0), H=(-12,-3) and P=(0,-8). From H to P the displacement is 12 m east and 5 m south. The distance is √(12²+5²)=13 m, toward the South-East.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Direction and Distance 02_Class Notes.pdf, lecture 2, PDF page 10; topic: direction and distance",
+      "is_active": true
+    }
+  ]
+}

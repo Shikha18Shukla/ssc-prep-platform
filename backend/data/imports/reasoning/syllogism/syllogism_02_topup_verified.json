@@ -1,0 +1,312 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: All A are B; some B are C.\nConclusions: I. Some A are C is a possibility. II. All C are B is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "E",
+      "explanation": "The A–B overlap may extend into C, so I is possible. C may also lie wholly inside B while still overlapping B as stated, so II is possible.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 13",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: Some A are B; some B are C.\nConclusions: I. Some A can be C. II. All C are A is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "E",
+      "explanation": "The two stated overlaps can be arranged so A and C overlap, making I possible. They can also be arranged with C wholly inside A while retaining the required B–C and A–B overlaps, making II possible.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 15",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: All A are B; no B is C.\nConclusions: I. All B are C is a possibility. II. Some A may be C.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "D",
+      "explanation": "The first conclusion conflicts with the given separation between B and C. Since A is contained in B, A also cannot overlap C, so the second possibility is impossible. Neither conclusion follows.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 17",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: All A are B; all B are C.\nConclusions: I. All C are A is a possibility. II. No B is C is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "A",
+      "explanation": "The sets may all coincide, so I is possible. Since B is contained in C, B and C cannot be disjoint in a nonempty syllogism class, so II is not possible.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 21",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: No A is B; all B are C; some C are D.\nConclusions: I. No A is C is a possibility. II. No B is D is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "E",
+      "explanation": "A may be kept disjoint from C, satisfying I. The required C–D overlap may be placed in the part of C outside B, so B and D may also be disjoint, satisfying II.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 25",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: Some A are B; no B is C; all D are C.\nConclusions: I. No B can be D. II. All A are C is a possibility. III. All C may be A.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "Because D is contained in C and B is disjoint from C, I follows. The known A–B member cannot be in C, so II is impossible. C may be contained in A without violating the other statements, so III is possible; only III follows.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 27",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: No A is B; some B are C; all C are D.\nConclusions: I. Some A are C is a possibility. II. All D are A is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "A",
+      "explanation": "A may overlap C outside B, so I is possible. The stated B–C member belongs to D and cannot belong to A because A and B are disjoint; therefore D cannot be wholly inside A.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 29",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: Some A are B; some B are C; all C are D.\nConclusions: I. No A is D is a possibility. II. Some D can be B.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "E",
+      "explanation": "The A–B and B–C witnesses need not be the same, so A can be disjoint from D while the premises remain true. The B–C witness is also in D, so some B is D. Both conclusions follow. The slide’s answer marking appears inconsistent with conclusion II; the key here is based on the statements.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 31",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: No A is B; some B are C.\nConclusions: I. All C are A is a possibility. II. No A is C is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "The existing B–C member prevents C from being wholly inside A, because A and B are disjoint. A can be placed disjoint from C, so II is possible and only II follows.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 35",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: All A are B; some B are C; no C is D.\nConclusions: I. No A is D is a possibility. II. No A is C is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "E",
+      "explanation": "Neither statement forces A to overlap D or C. A may be placed disjoint from D, and it may be placed disjoint from C while the required B–C overlap lies outside A. Both possibilities hold.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 37",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: All A are B; some B are C; all C are D; no D is E.\nConclusions: I. Some A can be C. II. Some B may be E. III. All A are E is a possibility. IV. Some C can be E. V. All E are B is a possibility. VI. All B are E is a possibility.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusions I and IV follow",
+        "B": "All conclusions follow",
+        "C": "Only conclusions I, II and III follow",
+        "D": "Only conclusions I, II, III and V follow",
+        "E": "Only conclusion IV follows"
+      },
+      "correct_option": "D",
+      "explanation": "I is possible by placing A within the B–C overlap. II is possible by placing some other B outside C in E. III is possible by placing A in E outside D. IV is impossible because C is within D and D is disjoint from E. V is possible by placing E within B. VI is impossible because the required B–C member is in D, hence outside E.",
+      "difficulty": "HARD",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 39",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: All A are B; some B are not C.\nConclusions: I. Some A cannot be B. II. Some B cannot be C.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "I contradicts All A are B. The second premise directly establishes that some B are outside C, so II follows.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 44",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: Some A are B; no B is C.\nConclusions: I. Some C cannot be A. II. Some A cannot be C.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusions I and II follow"
+      },
+      "correct_option": "B",
+      "explanation": "The premises do not guarantee that any C exists, so I does not follow. The stated A–B member is outside C because B and C are disjoint, establishing II.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 02_Class Notes.pdf, p. 46",
+      "is_active": true
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "syllogism",
+      "question_text": "Statements: Some A are B; no B is C.\nConclusions: I. Some B cannot be A. II. Some B cannot be C.\nWhich conclusion(s) follow?",
+      "options": {
+        "A": "Only conclusion I follows",
+        "B": "Only conclusion II follows",
+        "C": "Either conclusion I or conclusion II follows",
+        "D": "Neither conclusion I nor conclusion II follows",
+        "E": "Both conclusion I and conclusion II follow"
+      },
+      "correct_option": "B",
+      "explanation": "The overlap of A and B does not establish that any B lies outside A, so I does not follow. The known A–B member is a B, and no B is C; therefore some B is necessarily outside C, so II follows.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "Syllogism 03_Class Notes.pdf, p. 24",
+      "is_active": true
+    }
+  ]
+}

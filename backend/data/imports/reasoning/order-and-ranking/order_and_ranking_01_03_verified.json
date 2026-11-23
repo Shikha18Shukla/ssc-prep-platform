@@ -1,0 +1,544 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five students A, B, C, D and E scored different marks. C scored more than A but less than E. E did not score the highest marks.\n\nहिन्दी: पाँच छात्र A, B, C, D और E NEET परीक्षा लिख रहे हैं और अलग-अलग अंक प्राप्त कर रहे हैं। C ने A से अधिक लेकिन E से कम अंक प्राप्त किए। E ने उच्चतम अंक प्राप्त नहीं किए। A ने दूसरा सबसे कम अंक प्राप्त किया। D के अंक 640 हैं और तीसरा सबसे कम अंक प्राप्त करने वाले विद्यार्थी के 510 अंक हैं। A scored the second-lowest mark. D scored 640, and the student in third-lowest position scored 510. Who scored the lowest marks?",
+      "options": {
+        "A": "A",
+        "B": "C",
+        "C": "D",
+        "D": "B",
+        "E": "E"
+      },
+      "correct_option": "D",
+      "explanation": "A is second-lowest. C is above A and E is above C, but E is not highest, so C and E occupy third and fourth. Since D scored 640 while the third-lowest score is 510, D is highest and B is lowest.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five students A, B, C, D and E scored different marks. C scored more than A but less than E. E did not score the highest marks.\n\nहिन्दी: पाँच छात्र A, B, C, D और E NEET परीक्षा लिख रहे हैं और अलग-अलग अंक प्राप्त कर रहे हैं। C ने A से अधिक लेकिन E से कम अंक प्राप्त किए। E ने उच्चतम अंक प्राप्त नहीं किए। A ने दूसरा सबसे कम अंक प्राप्त किया। D के अंक 640 हैं और तीसरा सबसे कम अंक प्राप्त करने वाले विद्यार्थी के 510 अंक हैं। A scored the second-lowest mark. D scored 640, and the student in third-lowest position scored 510. Which statement is true about the final ranking? A) A scored 530. B) B scored the highest. C) E scored the second-highest. D) A scored the least. E) All of these.",
+      "options": {
+        "A": "A scored 530.",
+        "B": "B scored the highest marks among all.",
+        "C": "E's mark is the second-highest.",
+        "D": "A scored the least mark.",
+        "E": "All of these."
+      },
+      "correct_option": "C",
+      "explanation": "The ordering is D > E > C > A > B. Therefore E is second-highest. The other statements do not follow (and A’s exact mark is not specified).",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five students A, B, C, D and E scored different marks. C scored more than A but less than E. E did not score the highest marks.\n\nहिन्दी: पाँच छात्र A, B, C, D और E NEET परीक्षा लिख रहे हैं और अलग-अलग अंक प्राप्त कर रहे हैं। C ने A से अधिक लेकिन E से कम अंक प्राप्त किए। E ने उच्चतम अंक प्राप्त नहीं किए। A ने दूसरा सबसे कम अंक प्राप्त किया। D के अंक 640 हैं और तीसरा सबसे कम अंक प्राप्त करने वाले विद्यार्थी के 510 अंक हैं। A scored the second-lowest mark. D scored 640, and the student in third-lowest position scored 510. If B scored 20 fewer marks than C, which could be A’s score?",
+      "options": {
+        "A": "498",
+        "B": "512",
+        "C": "487",
+        "D": "470",
+        "E": "520"
+      },
+      "correct_option": "A",
+      "explanation": "The third-lowest student is C and scores 510. Thus B scores 490. A is above B but below C, so 490 < A < 510; only 498 fits.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people A, B, C, D, E and G have different numbers of pens. B has more pens than C. E has more pens than D and G. C is not the person with the fewest pens. B has more pens than E but fewer than A. C has fewer pens than G. G has 18 pens.\n\nहिन्दी: छह व्यक्ति A, B, C, D, E और G के पास पेन की अलग-अलग संख्या है। B के पास C से अधिक पेन हैं। E के पास D और G से अधिक पेन हैं। C के पास सबसे कम पेन नहीं हैं। B के पास E से अधिक, लेकिन A से कम पेन हैं। C के पास G से कम पेन हैं। G के पास 18 पेन हैं। Who has the fewest pens?",
+      "options": {
+        "A": "C",
+        "B": "G",
+        "C": "D",
+        "D": "E",
+        "E": "Cannot be determined"
+      },
+      "correct_option": "C",
+      "explanation": "The strict relations give A > B > E > G > C. Since C is not last, D must be below C. Therefore D has the fewest.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 8"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people A, B, C, D, E and G have different numbers of pens. B has more pens than C. E has more pens than D and G. C is not the person with the fewest pens. B has more pens than E but fewer than A. C has fewer pens than G. G has 18 pens.\n\nहिन्दी: छह व्यक्ति A, B, C, D, E और G के पास पेन की अलग-अलग संख्या है। B के पास C से अधिक पेन हैं। E के पास D और G से अधिक पेन हैं। C के पास सबसे कम पेन नहीं हैं। B के पास E से अधिक, लेकिन A से कम पेन हैं। C के पास G से कम पेन हैं। G के पास 18 पेन हैं। Which could be D’s number of pens?",
+      "options": {
+        "A": "20",
+        "B": "28",
+        "C": "19",
+        "D": "22",
+        "E": "14"
+      },
+      "correct_option": "E",
+      "explanation": "Because D < C < G and G has 18 pens, D must have fewer than 18. Among the choices, only 14 is possible.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 8"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people A, B, C, D, E and G have different numbers of pens. B has more pens than C. E has more pens than D and G. C is not the person with the fewest pens. B has more pens than E but fewer than A. C has fewer pens than G. G has 18 pens.\n\nहिन्दी: छह व्यक्ति A, B, C, D, E और G के पास पेन की अलग-अलग संख्या है। B के पास C से अधिक पेन हैं। E के पास D और G से अधिक पेन हैं। C के पास सबसे कम पेन नहीं हैं। B के पास E से अधिक, लेकिन A से कम पेन हैं। C के पास G से कम पेन हैं। G के पास 18 पेन हैं। Who has the most pens?",
+      "options": {
+        "A": "C",
+        "B": "A",
+        "C": "E",
+        "D": "B",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "A has more pens than B, and B is above E, G and C. D is below C, so A is highest.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 8"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Ramya bought five sweets with different weights. Jalebi weighs more than Jamun. Mysore Pak weighs 5 kg and is the lightest. There are two sweets between Halwa and Ladoo; Ladoo weighs less than Jalebi. Jalebi weighs 25 kg.\n\nहिन्दी: राम्या ने अलग-अलग वजन वाली पांच मिठाइयां खरीदीं। जलेबी का वजन जामुन से अधिक है। मैसूर पाक का वजन 5 किलो है और वह सबसे हल्की मिठाई है। हलवा और लड्डू के बीच दो मिठाइयां हैं। लड्डू का वजन जलेबी से कम है। जलेबी का वजन 25 किलो है. How many sweets weigh more than Ladoo?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "1",
+        "D": "4",
+        "E": "None"
+      },
+      "correct_option": "B",
+      "explanation": "The arrangement is Halwa > Jalebi (25 kg) > Jamun > Ladoo > Mysore Pak (5 kg). Three sweets are above Ladoo.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Ramya bought five sweets with different weights. Jalebi weighs more than Jamun. Mysore Pak weighs 5 kg and is the lightest. There are two sweets between Halwa and Ladoo; Ladoo weighs less than Jalebi. Jalebi weighs 25 kg.\n\nहिन्दी: राम्या ने अलग-अलग वजन वाली पांच मिठाइयां खरीदीं। जलेबी का वजन जामुन से अधिक है। मैसूर पाक का वजन 5 किलो है और वह सबसे हल्की मिठाई है। हलवा और लड्डू के बीच दो मिठाइयां हैं। लड्डू का वजन जलेबी से कम है। जलेबी का वजन 25 किलो है. If Jamun and Mysore Pak together weigh 25 kg, what is the combined weight of Jamun and Jalebi?",
+      "options": {
+        "A": "50 kg",
+        "B": "40 kg",
+        "C": "45 kg",
+        "D": "35 kg",
+        "E": "None"
+      },
+      "correct_option": "C",
+      "explanation": "Mysore Pak weighs 5 kg, so Jamun weighs 20 kg. Jalebi is 25 kg; together they weigh 45 kg.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Ramya bought five sweets with different weights. Jalebi weighs more than Jamun. Mysore Pak weighs 5 kg and is the lightest. There are two sweets between Halwa and Ladoo; Ladoo weighs less than Jalebi. Jalebi weighs 25 kg.\n\nहिन्दी: राम्या ने अलग-अलग वजन वाली पांच मिठाइयां खरीदीं। जलेबी का वजन जामुन से अधिक है। मैसूर पाक का वजन 5 किलो है और वह सबसे हल्की मिठाई है। हलवा और लड्डू के बीच दो मिठाइयां हैं। लड्डू का वजन जलेबी से कम है। जलेबी का वजन 25 किलो है. The number of sweets heavier than Halwa equals the number lighter than which sweet?",
+      "options": {
+        "A": "Ladoo",
+        "B": "Mysore Pak",
+        "C": "Jalebi",
+        "D": "Jamun",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "Halwa is the heaviest, so zero sweets are heavier than it. Mysore Pak is the lightest, so zero sweets are lighter than it.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 01 - Class Notes.pdf, lecture 01, page 10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Seven people A, B, C, M, N, P and R have different weights. M is heavier than B, who is heavier than both N and A. R is heavier than both N and C. The number of people heavier than N equals the number lighter than N. B is lighter than R, who is not the heaviest. Exactly two people are between B and P, and P is heavier than C.\n\nहिन्दी: सात व्यक्ति A, B, C, M, N, P और R के वजन अलग-अलग हैं। M, B से भारी है और B, N तथा A दोनों से भारी है। R, N और C दोनों से भारी है। N से भारी व्यक्तियों की संख्या N से हल्के व्यक्तियों की संख्या के बराबर है। B, R से हल्का है और R सबसे भारी नहीं है। B और P के बीच केवल दो व्यक्ति हैं तथा P, C से भारी है। Who is third-lightest?",
+      "options": {
+        "A": "P",
+        "B": "A",
+        "C": "C",
+        "D": "N",
+        "E": "B"
+      },
+      "correct_option": "B",
+      "explanation": "N has three people above and three below, so N is fourth from the top. M > B > N and R > N, with B < R and R not heaviest, fix M > R > B > N. The remaining lower order is A > P > C, so A is third-lightest.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 02 - Class Notes.pdf, lecture 02, page 4"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Seven people A, B, C, M, N, P and R have different weights. M is heavier than B, who is heavier than both N and A. R is heavier than both N and C. The number of people heavier than N equals the number lighter than N. B is lighter than R, who is not the heaviest. Exactly two people are between B and P, and P is heavier than C.\n\nहिन्दी: सात व्यक्ति A, B, C, M, N, P और R के वजन अलग-अलग हैं। M, B से भारी है और B, N तथा A दोनों से भारी है। R, N और C दोनों से भारी है। N से भारी व्यक्तियों की संख्या N से हल्के व्यक्तियों की संख्या के बराबर है। B, R से हल्का है और R सबसे भारी नहीं है। B और P के बीच केवल दो व्यक्ति हैं तथा P, C से भारी है। How many people are between R and P?",
+      "options": {
+        "A": "Two",
+        "B": "Four",
+        "C": "One",
+        "D": "Three",
+        "E": "None"
+      },
+      "correct_option": "D",
+      "explanation": "The full order is M > R > B > N > A > P > C. Three people (B, N, A) are between R and P.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 02 - Class Notes.pdf, lecture 02, page 4"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Seven people A, B, C, M, N, P and R have different weights. M is heavier than B, who is heavier than both N and A. R is heavier than both N and C. The number of people heavier than N equals the number lighter than N. B is lighter than R, who is not the heaviest. Exactly two people are between B and P, and P is heavier than C.\n\nहिन्दी: सात व्यक्ति A, B, C, M, N, P और R के वजन अलग-अलग हैं। M, B से भारी है और B, N तथा A दोनों से भारी है। R, N और C दोनों से भारी है। N से भारी व्यक्तियों की संख्या N से हल्के व्यक्तियों की संख्या के बराबर है। B, R से हल्का है और R सबसे भारी नहीं है। B और P के बीच केवल दो व्यक्ति हैं तथा P, C से भारी है। If N weighs 72 kg and P weighs 60 kg, what could C weigh?",
+      "options": {
+        "A": "65 kg",
+        "B": "67 kg",
+        "C": "58 kg",
+        "D": "61 kg",
+        "E": "70 kg"
+      },
+      "correct_option": "C",
+      "explanation": "P is above C in the final order. Since P weighs 60 kg, C must weigh less than 60 kg; only 58 kg fits.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 02 - Class Notes.pdf, lecture 02, page 4"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Eight people S, T, U, V, W, X, Y and Z have different lengths of service. Y is senior to S but junior to U. X is senior to V but junior to S. Exactly two people are senior to U. Z is senior to both S and Y but is not the most senior. T is junior to W.\n\nहिन्दी: आठ व्यक्ति S, T, U, V, W, X, Y और Z एक ही कंपनी में अलग-अलग वर्षों से काम कर रहे हैं। Y, S से वरिष्ठ है लेकिन U से कनिष्ठ है। X, V से वरिष्ठ है लेकिन S से कनिष्ठ है। U से केवल दो व्यक्ति वरिष्ठ हैं। Z, S और Y दोनों से वरिष्ठ है लेकिन सबसे वरिष्ठ नहीं है। T, W से कनिष्ठ है. Who is the most senior?",
+      "options": {
+        "A": "T",
+        "B": "X",
+        "C": "V",
+        "D": "W",
+        "E": "Z"
+      },
+      "correct_option": "D",
+      "explanation": "U is third because exactly two people are senior to U. Z is above Y and S but cannot be first, so Z is second. W must be first: T is junior to W, and the remaining people in the chain U > Y > S > X > V are below U.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 02 - Class Notes.pdf, lecture 02, page 6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six laptops—Sony, Lenovo, HP, Dell, Asus and Acer—have different drive capacities. Acer has more capacity than Lenovo. Exactly one laptop is between Lenovo and Dell. At least two laptops have less capacity than HP. Neither Acer nor Lenovo has less capacity than HP. Sony has more capacity than Dell, which has less capacity than HP. The highest drive capacity is 1 TB, and Acer does not have 1 TB.\n\nहिन्दी: छह लैपटॉप—सोनी, लेनोवो, एचपी, डेल, आसुस और एसर—की ड्राइव क्षमता अलग-अलग है। एसर की क्षमता लेनोवो से अधिक है। लेनोवो और डेल के बीच केवल एक लैपटॉप है। कम-से-कम दो लैपटॉप की क्षमता एचपी से कम है। एसर और लेनोवो, दोनों की क्षमता एचपी से कम नहीं है। सोनी की क्षमता डेल से अधिक है और डेल की क्षमता एचपी से कम है। सबसे अधिक ड्राइव क्षमता 1 TB है और एसर की क्षमता 1 TB नहीं है। As many laptops have more capacity than Acer as have less capacity than which laptop?",
+      "options": {
+        "A": "Asus",
+        "B": "Sony",
+        "C": "Lenovo",
+        "D": "Dell",
+        "E": "HP"
+      },
+      "correct_option": "D",
+      "explanation": "The unique order is Sony > Acer > Lenovo > HP > Dell > Asus. One laptop is above Acer; exactly one (Asus) is below Dell.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 4-7"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six laptops—Sony, Lenovo, HP, Dell, Asus and Acer—have different drive capacities. Acer has more capacity than Lenovo. Exactly one laptop is between Lenovo and Dell. At least two laptops have less capacity than HP. Neither Acer nor Lenovo has less capacity than HP. Sony has more capacity than Dell, which has less capacity than HP. The highest drive capacity is 1 TB, and Acer does not have 1 TB.\n\nहिन्दी: छह लैपटॉप—सोनी, लेनोवो, एचपी, डेल, आसुस और एसर—की ड्राइव क्षमता अलग-अलग है। एसर की क्षमता लेनोवो से अधिक है। लेनोवो और डेल के बीच केवल एक लैपटॉप है। कम-से-कम दो लैपटॉप की क्षमता एचपी से कम है। एसर और लेनोवो, दोनों की क्षमता एचपी से कम नहीं है। सोनी की क्षमता डेल से अधिक है और डेल की क्षमता एचपी से कम है। सबसे अधिक ड्राइव क्षमता 1 TB है और एसर की क्षमता 1 TB नहीं है। If Lenovo and Dell together have 1000 GB of capacity, what may Lenovo’s capacity be?",
+      "options": {
+        "A": "250 GB",
+        "B": "125 GB",
+        "C": "280 GB",
+        "D": "Cannot be determined",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "Only the order Lenovo > HP > Dell is fixed. From Lenovo + Dell = 1000 and Lenovo > Dell, Lenovo must exceed 500 GB, but its exact value is not determined.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 4-7"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six laptops—Sony, Lenovo, HP, Dell, Asus and Acer—have different drive capacities. Acer has more capacity than Lenovo. Exactly one laptop is between Lenovo and Dell. At least two laptops have less capacity than HP. Neither Acer nor Lenovo has less capacity than HP. Sony has more capacity than Dell, which has less capacity than HP. The highest drive capacity is 1 TB, and Acer does not have 1 TB.\n\nहिन्दी: छह लैपटॉप—सोनी, लेनोवो, एचपी, डेल, आसुस और एसर—की ड्राइव क्षमता अलग-अलग है। एसर की क्षमता लेनोवो से अधिक है। लेनोवो और डेल के बीच केवल एक लैपटॉप है। कम-से-कम दो लैपटॉप की क्षमता एचपी से कम है। एसर और लेनोवो, दोनों की क्षमता एचपी से कम नहीं है। सोनी की क्षमता डेल से अधिक है और डेल की क्षमता एचपी से कम है। सबसे अधिक ड्राइव क्षमता 1 TB है और एसर की क्षमता 1 TB नहीं है। How many laptops are between Sony and Asus?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "1",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "Sony is highest and Asus is lowest in the unique arrangement; Acer, Lenovo, HP and Dell lie between them.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 4-7"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people are listed in descending order by their coin counts. Only two people have fewer coins than X. Two persons are there between Z and U who have a coin immediately less than X. V has more coins than Y. The number of people with more coins than U is one less than the number with fewer coins than W. V and U have 37 and 28 coins, respectively.\n\nहिन्दी: छह व्यक्तियों को उनके सिक्कों की संख्या के आधार पर अवरोही क्रम में रखा गया है। केवल दो व्यक्तियों के पास X से कम सिक्के हैं। Z और U के बीच दो व्यक्ति हैं, जिनके पास X से ठीक कम सिक्के हैं। V के पास Y से अधिक सिक्के हैं। U से अधिक सिक्के रखने वाले व्यक्तियों की संख्या, W से कम सिक्के रखने वाले व्यक्तियों की संख्या से एक कम है। V और U के पास क्रमशः 37 और 28 सिक्के हैं। If U and W differ by 30 coins, what is a possible number of coins Z has?",
+      "options": {
+        "A": "35",
+        "B": "33",
+        "C": "61",
+        "D": "44",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "X is fourth and U is fifth; W is first, so W has 58 coins. Z is second and above V (37), so Z is between 37 and 58. Only 44 is possible.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 8-11"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people are listed in descending order by their coin counts. Only two people have fewer coins than X. Two persons are there between Z and U who have a coin immediately less than X. V has more coins than Y. The number of people with more coins than U is one less than the number with fewer coins than W. V and U have 37 and 28 coins, respectively.\n\nहिन्दी: छह व्यक्तियों को उनके सिक्कों की संख्या के आधार पर अवरोही क्रम में रखा गया है। केवल दो व्यक्तियों के पास X से कम सिक्के हैं। Z और U के बीच दो व्यक्ति हैं, जिनके पास X से ठीक कम सिक्के हैं। V के पास Y से अधिक सिक्के हैं। U से अधिक सिक्के रखने वाले व्यक्तियों की संख्या, W से कम सिक्के रखने वाले व्यक्तियों की संख्या से एक कम है। V और U के पास क्रमशः 37 और 28 सिक्के हैं। If Y has 21 coins, which is 11 fewer than X, what is the total number of coins U, V and X have?",
+      "options": {
+        "A": "63",
+        "B": "97",
+        "C": "71",
+        "D": "73",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "X has 32 coins. Therefore U + V + X = 28 + 37 + 32 = 97.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 8-11"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people L, M, J, P, Q and S have different numbers of shirts. P has four more shirts than S. J has fewer shirts than only M. Q has three more shirts than P. S does not have the fewest shirts. The person with the second-fewest number has 13 shirts. The difference between Q’s and S’s shirt counts is one less than L’s shirt count.\n\nहिन्दी: छह व्यक्तियों L, M, J, P, Q और S के पास अलग-अलग संख्या में शर्ट हैं। P के पास S से चार शर्ट अधिक हैं। J के पास केवल M से कम शर्ट हैं। Q के पास P से तीन शर्ट अधिक हैं। S के पास सबसे कम शर्ट नहीं हैं। दूसरे सबसे कम शर्ट वाले व्यक्ति के पास 13 शर्ट हैं। Q और S की शर्टों की संख्या का अंतर, L की शर्टों की संख्या से एक कम है। What is the total number of shirts P and S have?",
+      "options": {
+        "A": "32",
+        "B": "30",
+        "C": "28",
+        "D": "34",
+        "E": "31"
+      },
+      "correct_option": "B",
+      "explanation": "Q = S + 7 and Q − S is one less than L, so L = 8. Since S is not least, L is least; S is second-least with 13. Thus P = 17 and P + S = 30.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 12-15"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Six people L, M, J, P, Q and S have different numbers of shirts. P has four more shirts than S. J has fewer shirts than only M. Q has three more shirts than P. S does not have the fewest shirts. The person with the second-fewest number has 13 shirts. The difference between Q’s and S’s shirt counts is one less than L’s shirt count.\n\nहिन्दी: छह व्यक्तियों L, M, J, P, Q और S के पास अलग-अलग संख्या में शर्ट हैं। P के पास S से चार शर्ट अधिक हैं। J के पास केवल M से कम शर्ट हैं। Q के पास P से तीन शर्ट अधिक हैं। S के पास सबसे कम शर्ट नहीं हैं। दूसरे सबसे कम शर्ट वाले व्यक्ति के पास 13 शर्ट हैं। Q और S की शर्टों की संख्या का अंतर, L की शर्टों की संख्या से एक कम है। If the difference between P’s and S’s shirt counts is twice the difference between J’s and Q’s, how many shirts does J have?",
+      "options": {
+        "A": "22",
+        "B": "23",
+        "C": "24",
+        "D": "28",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "P − S = 4, so J − Q = 2. With Q = 20 from P = 17, J has 22 shirts.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 12-15"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "A survey covers six cities J, K, L, O, P and V with different numbers of lakes. V has more lakes than P, and at least three cities have more lakes than V. K has twice as many lakes as P; O has three more than P. The city with the second-fewest count has 12. L and J have more lakes than K. O has fewer than K. No more than two cities lie between O and J. L has 10 more lakes than O, and O has fewer lakes than V. The second-highest count is odd.\n\nहिन्दी: छह शहरों J, K, L, O, P और V में झीलों की संख्या अलग-अलग है। V में P से अधिक झीलें हैं और कम-से-कम तीन शहरों में V से अधिक झीलें हैं। K में P से दोगुनी झीलें हैं; O में P से तीन अधिक हैं। दूसरे सबसे कम झीलों वाले शहर में 12 झीलें हैं। L और J में K से अधिक झीलें हैं। O में K से कम झीलें हैं। O और J के बीच अधिकतम दो शहर हैं। L में O से 10 अधिक झीलें हैं और O में V से कम झीलें हैं। दूसरी सबसे अधिक संख्या विषम है। Which city has the fourth-highest number of lakes?",
+      "options": {
+        "A": "K",
+        "B": "V",
+        "C": "O",
+        "D": "P",
+        "E": "J"
+      },
+      "correct_option": "B",
+      "explanation": "The ordering is L > J > K > V > O > P. Therefore V is fourth from the top.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 16-19"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "A survey covers six cities J, K, L, O, P and V with different numbers of lakes. V has more lakes than P, and at least three cities have more lakes than V. K has twice as many lakes as P; O has three more than P. The city with the second-fewest count has 12. L and J have more lakes than K. O has fewer than K. No more than two cities lie between O and J. L has 10 more lakes than O, and O has fewer lakes than V. The second-highest count is odd.\n\nहिन्दी: छह शहरों J, K, L, O, P और V में झीलों की संख्या अलग-अलग है। V में P से अधिक झीलें हैं और कम-से-कम तीन शहरों में V से अधिक झीलें हैं। K में P से दोगुनी झीलें हैं; O में P से तीन अधिक हैं। दूसरे सबसे कम झीलों वाले शहर में 12 झीलें हैं। L और J में K से अधिक झीलें हैं। O में K से कम झीलें हैं। O और J के बीच अधिकतम दो शहर हैं। L में O से 10 अधिक झीलें हैं और O में V से कम झीलें हैं। दूसरी सबसे अधिक संख्या विषम है। If the difference between O’s and P’s lake counts equals the difference between J’s and K’s, how many lakes does J have?",
+      "options": {
+        "A": "21",
+        "B": "23",
+        "C": "20",
+        "D": "17",
+        "E": "19"
+      },
+      "correct_option": "A",
+      "explanation": "P = 9 and O = 12, so O − P = 3. K = 18; hence J − K = 3 and J = 21.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 16-19"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "A survey covers six cities J, K, L, O, P and V with different numbers of lakes. V has more lakes than P, and at least three cities have more lakes than V. K has twice as many lakes as P; O has three more than P. The city with the second-fewest count has 12. L and J have more lakes than K. O has fewer than K. No more than two cities lie between O and J. L has 10 more lakes than O, and O has fewer lakes than V. The second-highest count is odd.\n\nहिन्दी: छह शहरों J, K, L, O, P और V में झीलों की संख्या अलग-अलग है। V में P से अधिक झीलें हैं और कम-से-कम तीन शहरों में V से अधिक झीलें हैं। K में P से दोगुनी झीलें हैं; O में P से तीन अधिक हैं। दूसरे सबसे कम झीलों वाले शहर में 12 झीलें हैं। L और J में K से अधिक झीलें हैं। O में K से कम झीलें हैं। O और J के बीच अधिकतम दो शहर हैं। L में O से 10 अधिक झीलें हैं और O में V से कम झीलें हैं। दूसरी सबसे अधिक संख्या विषम है। If V has one fewer lake than K, what is the total number of lakes in K, V and L?",
+      "options": {
+        "A": "57",
+        "B": "59",
+        "C": "60",
+        "D": "56",
+        "E": "61"
+      },
+      "correct_option": "A",
+      "explanation": "K = 18, V = 17 and L = 22. Their total is 57.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 16-19"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five people B, G, M, S and V have different numbers of chocolates. B has five more chocolates than V. Exactly one person is between B and S. Neither B nor S has the highest or lowest count. G has fewer than V. V has two more chocolates than S. The difference between B and V equals the difference between S and G. The person with the second-highest count has 27 chocolates. V and S together have 10 more chocolates than M.\n\nहिन्दी: पांच व्यक्तियों B, G, M, S और V के पास चॉकलेट की अलग-अलग संख्या है। B के पास V से पांच अधिक चॉकलेट हैं। B और S के बीच केवल एक व्यक्ति है। B और S के पास न तो सबसे अधिक और न ही सबसे कम चॉकलेट हैं। G के पास V से कम चॉकलेट हैं। V के पास S से दो अधिक चॉकलेट हैं। B और V का अंतर, S और G के अंतर के बराबर है। दूसरे सबसे अधिक चॉकलेट वाले व्यक्ति के पास 27 चॉकलेट हैं। V और S की कुल संख्या M से 10 अधिक है। How many chocolates does M have?",
+      "options": {
+        "A": "30",
+        "B": "32",
+        "C": "28",
+        "D": "37",
+        "E": "35"
+      },
+      "correct_option": "B",
+      "explanation": "B = 27. Since B − V = 5, V = 22; V − S = 2, so S = 20. V + S = 42, which is 10 more than M, so M = 32.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 20-23"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five people B, G, M, S and V have different numbers of chocolates. B has five more chocolates than V. Exactly one person is between B and S. Neither B nor S has the highest or lowest count. G has fewer than V. V has two more chocolates than S. The difference between B and V equals the difference between S and G. The person with the second-highest count has 27 chocolates. V and S together have 10 more chocolates than M.\n\nहिन्दी: पांच व्यक्तियों B, G, M, S और V के पास चॉकलेट की अलग-अलग संख्या है। B के पास V से पांच अधिक चॉकलेट हैं। B और S के बीच केवल एक व्यक्ति है। B और S के पास न तो सबसे अधिक और न ही सबसे कम चॉकलेट हैं। G के पास V से कम चॉकलेट हैं। V के पास S से दो अधिक चॉकलेट हैं। B और V का अंतर, S और G के अंतर के बराबर है। दूसरे सबसे अधिक चॉकलेट वाले व्यक्ति के पास 27 चॉकलेट हैं। V और S की कुल संख्या M से 10 अधिक है। How many people have more chocolates than S?",
+      "options": {
+        "A": "Four",
+        "B": "One",
+        "C": "Three",
+        "D": "Two",
+        "E": "None"
+      },
+      "correct_option": "C",
+      "explanation": "The order is M > B > V > S > G. M, B and V all have more chocolates than S: three people.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 20-23"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five brands of steel rods—Jindal, Rathi, SAIL, Tata and Kiscol—have different diameters and are ranked in descending order. Rathi’s diameter is greater than Kiscol’s. Exactly two rods lie between Kiscol and SAIL. Tata’s diameter is greater than Jindal’s, and Jindal has a greater diameter than only SAIL. Jindal is 10 mm and Kiscol is 28 mm.\n\nहिन्दी: पांच ब्रांड की स्टील छड़ों—जिंदल, राठी, SAIL, टाटा और किस्कोल—के व्यास अलग-अलग हैं और उन्हें अवरोही क्रम में रखा गया है। राठी का व्यास किस्कोल से अधिक है। किस्कोल और SAIL के बीच दो छड़ें हैं। टाटा का व्यास जिंदल से अधिक है और जिंदल का व्यास केवल SAIL से अधिक है। जिंदल का व्यास 10 मिमी और किस्कोल का 28 मिमी है। How many rods have a greater diameter than Tata?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "None"
+      },
+      "correct_option": "B",
+      "explanation": "The order is Rathi > Kiscol (28 mm) > Tata > Jindal (10 mm) > SAIL. Rathi and Kiscol are above Tata, so two rods.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 24-27"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five brands of steel rods—Jindal, Rathi, SAIL, Tata and Kiscol—have different diameters and are ranked in descending order. Rathi’s diameter is greater than Kiscol’s. Exactly two rods lie between Kiscol and SAIL. Tata’s diameter is greater than Jindal’s, and Jindal has a greater diameter than only SAIL. Jindal is 10 mm and Kiscol is 28 mm.\n\nहिन्दी: पांच ब्रांड की स्टील छड़ों—जिंदल, राठी, SAIL, टाटा और किस्कोल—के व्यास अलग-अलग हैं और उन्हें अवरोही क्रम में रखा गया है। राठी का व्यास किस्कोल से अधिक है। किस्कोल और SAIL के बीच दो छड़ें हैं। टाटा का व्यास जिंदल से अधिक है और जिंदल का व्यास केवल SAIL से अधिक है। जिंदल का व्यास 10 मिमी और किस्कोल का 28 मिमी है। If Kiscol and Rathi together have a diameter of 60 mm, what is Rathi’s diameter?",
+      "options": {
+        "A": "36 mm",
+        "B": "34 mm",
+        "C": "32 mm",
+        "D": "30 mm",
+        "E": "28 mm"
+      },
+      "correct_option": "C",
+      "explanation": "Rathi = 60 − 28 = 32 mm.",
+      "difficulty": "EASY",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 24-27"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five brands of steel rods—Jindal, Rathi, SAIL, Tata and Kiscol—have different diameters and are ranked in descending order. Rathi’s diameter is greater than Kiscol’s. Exactly two rods lie between Kiscol and SAIL. Tata’s diameter is greater than Jindal’s, and Jindal has a greater diameter than only SAIL. Jindal is 10 mm and Kiscol is 28 mm.\n\nहिन्दी: पांच ब्रांड की स्टील छड़ों—जिंदल, राठी, SAIL, टाटा और किस्कोल—के व्यास अलग-अलग हैं और उन्हें अवरोही क्रम में रखा गया है। राठी का व्यास किस्कोल से अधिक है। किस्कोल और SAIL के बीच दो छड़ें हैं। टाटा का व्यास जिंदल से अधिक है और जिंदल का व्यास केवल SAIL से अधिक है। जिंदल का व्यास 10 मिमी और किस्कोल का 28 मिमी है। What could Tata’s diameter be?",
+      "options": {
+        "A": "20 mm",
+        "B": "8 mm",
+        "C": "32 mm",
+        "D": "30 mm",
+        "E": "9 mm"
+      },
+      "correct_option": "A",
+      "explanation": "Tata lies strictly between Kiscol (28 mm) and Jindal (10 mm). Only 20 mm is in that interval.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 24-27"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five laptops—Acer, HP, Sony, Lenovo and Dell—have different prices and are ordered from highest to lowest. Acer costs more than Dell but less than HP. Exactly two laptops are between Lenovo and Acer. Lenovo is not the most expensive. Sony costs Rs 35,000 and HP costs Rs 50,000. Sony does not cost more than Dell.\n\nहिन्दी: पांच अलग-अलग लैपटॉप—एसर, एचपी, सोनी, लेनोवो और डेल—की कीमतें अलग-अलग हैं और उन्हें अवरोही क्रम में रखा गया है। एसर, डेल से महंगा लेकिन एचपी से सस्ता है। लेनोवो और एसर के बीच ठीक दो लैपटॉप हैं। लेनोवो सबसे महंगा नहीं है। सोनी की कीमत ₹35,000 और एचपी की ₹50,000 है। सोनी, डेल से महंगा नहीं है। If Sony and Lenovo together cost Rs 65,000, what is Lenovo’s price?",
+      "options": {
+        "A": "Rs 25,000",
+        "B": "Rs 30,000",
+        "C": "Rs 20,000",
+        "D": "Rs 35,000",
+        "E": "None"
+      },
+      "correct_option": "B",
+      "explanation": "The price order is HP > Acer > Dell > Sony > Lenovo. Sony costs Rs 35,000, so Lenovo costs Rs 65,000 − Rs 35,000 = Rs 30,000.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 28-31"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "chapter_slug": "order-and-ranking",
+      "question_text": "Five laptops—Acer, HP, Sony, Lenovo and Dell—have different prices and are ordered from highest to lowest. Acer costs more than Dell but less than HP. Exactly two laptops are between Lenovo and Acer. Lenovo is not the most expensive. Sony costs Rs 35,000 and HP costs Rs 50,000. Sony does not cost more than Dell.\n\nहिन्दी: पांच अलग-अलग लैपटॉप—एसर, एचपी, सोनी, लेनोवो और डेल—की कीमतें अलग-अलग हैं और उन्हें अवरोही क्रम में रखा गया है। एसर, डेल से महंगा लेकिन एचपी से सस्ता है। लेनोवो और एसर के बीच ठीक दो लैपटॉप हैं। लेनोवो सबसे महंगा नहीं है। सोनी की कीमत ₹35,000 और एचपी की ₹50,000 है। सोनी, डेल से महंगा नहीं है। If HP costs Rs 5,000 more than Acer, what could Dell’s price be?",
+      "options": {
+        "A": "Rs 45,000",
+        "B": "Rs 47,000",
+        "C": "Rs 40,000",
+        "D": "Rs 48,000",
+        "E": "Rs 34,000"
+      },
+      "correct_option": "C",
+      "explanation": "Acer = Rs 50,000 − Rs 5,000 = Rs 45,000. Dell is cheaper than Acer but more expensive than Sony (Rs 35,000), so Rs 40,000 is the only valid choice.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Order and Ranking 03 - Class Notes.pdf, lecture 03, pages 28-31"
+    }
+  ]
+}

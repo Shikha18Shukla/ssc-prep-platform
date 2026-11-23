@@ -1,0 +1,1270 @@
+{
+  "chapter": "Square / Rectangular Arrangements",
+  "chapter_slug": "square-rectangular-arrangements",
+  "entries": [
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 1, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: E occupies position 3 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. A occupies position 5 clockwise from the north-west corner.\n\nWho occupies the south-east corner?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "F",
+        "B": "A",
+        "C": "H",
+        "D": "D",
+        "E": "B"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: G, south-east corner: A, south side: H, south-west corner: B, west side: C. Therefore who occupies the south-east corner is A.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 1.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "G",
+        "A",
+        "H",
+        "B",
+        "C"
+      ],
+      "clues": [
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "A occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 1, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: E occupies position 3 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. A occupies position 5 clockwise from the north-west corner.\n\nAt which seat does D sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "north-west corner",
+        "B": "north side",
+        "C": "south side",
+        "D": "east side",
+        "E": "west side"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: G, south-east corner: A, south side: H, south-west corner: B, west side: C. Therefore at which seat does d sit is north-west corner.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 2.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "G",
+        "A",
+        "H",
+        "B",
+        "C"
+      ],
+      "clues": [
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "A occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 1, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: E occupies position 3 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. A occupies position 5 clockwise from the north-west corner.\n\nAre A and B in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "Neither",
+        "B": "No",
+        "C": "Cannot be determined",
+        "D": "Yes",
+        "E": "Only if reversed"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: G, south-east corner: A, south side: H, south-west corner: B, west side: C. Therefore are a and b in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 3.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "G",
+        "A",
+        "H",
+        "B",
+        "C"
+      ],
+      "clues": [
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "A occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 1, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: E occupies position 3 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. A occupies position 5 clockwise from the north-west corner.\n\nWho sits immediately clockwise from G?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "B",
+        "B": "D",
+        "C": "A",
+        "D": "G",
+        "E": "H"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: G, south-east corner: A, south side: H, south-west corner: B, west side: C. Therefore who sits immediately clockwise from g is A.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 4.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "G",
+        "A",
+        "H",
+        "B",
+        "C"
+      ],
+      "clues": [
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "A occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 1, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: E occupies position 3 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. A occupies position 5 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between B and F?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "1",
+        "D": "0",
+        "E": "4"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: G, south-east corner: A, south side: H, south-west corner: B, west side: C. Therefore what is the smaller number of seats between b and f is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 1, question 5.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "G",
+        "A",
+        "H",
+        "B",
+        "C"
+      ],
+      "clues": [
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "A occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 2, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 2 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. B occupies position 1 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. E occupies position 4 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 3 clockwise from the north-west corner.\n\nWho occupies the south side?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "B",
+        "B": "H",
+        "C": "D",
+        "D": "E",
+        "E": "G"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: B, north side: D, north-east corner: A, east side: E, south-east corner: F, south side: H, south-west corner: G, west side: C. Therefore who occupies the south side is H.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 2, question 1.",
+      "valid_arrangement": [
+        "B",
+        "D",
+        "A",
+        "E",
+        "F",
+        "H",
+        "G",
+        "C"
+      ],
+      "clues": [
+        "D occupies position 2 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "E occupies position 4 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 2, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 2 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. B occupies position 1 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. E occupies position 4 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 3 clockwise from the north-west corner.\n\nAt which seat does E sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "D",
+      "options": {
+        "A": "west side",
+        "B": "north side",
+        "C": "north-east corner",
+        "D": "east side",
+        "E": "south side"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: B, north side: D, north-east corner: A, east side: E, south-east corner: F, south side: H, south-west corner: G, west side: C. Therefore at which seat does e sit is east side.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 2, question 2.",
+      "valid_arrangement": [
+        "B",
+        "D",
+        "A",
+        "E",
+        "F",
+        "H",
+        "G",
+        "C"
+      ],
+      "clues": [
+        "D occupies position 2 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "E occupies position 4 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 2, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 2 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. B occupies position 1 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. E occupies position 4 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 3 clockwise from the north-west corner.\n\nAre H and C in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "Only if reversed",
+        "B": "Yes",
+        "C": "No",
+        "D": "Cannot be determined",
+        "E": "Neither"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: B, north side: D, north-east corner: A, east side: E, south-east corner: F, south side: H, south-west corner: G, west side: C. Therefore are h and c in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 2, question 3.",
+      "valid_arrangement": [
+        "B",
+        "D",
+        "A",
+        "E",
+        "F",
+        "H",
+        "G",
+        "C"
+      ],
+      "clues": [
+        "D occupies position 2 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "E occupies position 4 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 2, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 2 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. B occupies position 1 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. E occupies position 4 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 3 clockwise from the north-west corner.\n\nWho sits immediately clockwise from A?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "B",
+        "B": "H",
+        "C": "E",
+        "D": "A",
+        "E": "G"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: B, north side: D, north-east corner: A, east side: E, south-east corner: F, south side: H, south-west corner: G, west side: C. Therefore who sits immediately clockwise from a is E.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 2, question 4.",
+      "valid_arrangement": [
+        "B",
+        "D",
+        "A",
+        "E",
+        "F",
+        "H",
+        "G",
+        "C"
+      ],
+      "clues": [
+        "D occupies position 2 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "E occupies position 4 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 2, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 2 clockwise from the north-west corner. C occupies position 8 clockwise from the north-west corner. B occupies position 1 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. E occupies position 4 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 3 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between C and A?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "4",
+        "B": "2",
+        "C": "3",
+        "D": "0",
+        "E": "1"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: B, north side: D, north-east corner: A, east side: E, south-east corner: F, south side: H, south-west corner: G, west side: C. Therefore what is the smaller number of seats between c and a is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 2, question 5.",
+      "valid_arrangement": [
+        "B",
+        "D",
+        "A",
+        "E",
+        "F",
+        "H",
+        "G",
+        "C"
+      ],
+      "clues": [
+        "D occupies position 2 clockwise from the north-west corner.",
+        "C occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "E occupies position 4 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 3, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 3 clockwise from the north-west corner. F occupies position 6 clockwise from the north-west corner. H occupies position 8 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. G occupies position 5 clockwise from the north-west corner. C occupies position 1 clockwise from the north-west corner. D occupies position 4 clockwise from the north-west corner.\n\nWho occupies the south-west corner?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "D",
+        "B": "H",
+        "C": "B",
+        "D": "G",
+        "E": "F"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: C, north side: E, north-east corner: A, east side: D, south-east corner: G, south side: F, south-west corner: B, west side: H. Therefore who occupies the south-west corner is B.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 3, question 1.",
+      "valid_arrangement": [
+        "C",
+        "E",
+        "A",
+        "D",
+        "G",
+        "F",
+        "B",
+        "H"
+      ],
+      "clues": [
+        "A occupies position 3 clockwise from the north-west corner.",
+        "F occupies position 6 clockwise from the north-west corner.",
+        "H occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 3, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 3 clockwise from the north-west corner. F occupies position 6 clockwise from the north-west corner. H occupies position 8 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. G occupies position 5 clockwise from the north-west corner. C occupies position 1 clockwise from the north-west corner. D occupies position 4 clockwise from the north-west corner.\n\nAt which seat does F sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "south side",
+        "B": "east side",
+        "C": "south-west corner",
+        "D": "north-west corner",
+        "E": "south-east corner"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: C, north side: E, north-east corner: A, east side: D, south-east corner: G, south side: F, south-west corner: B, west side: H. Therefore at which seat does f sit is south side.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 3, question 2.",
+      "valid_arrangement": [
+        "C",
+        "E",
+        "A",
+        "D",
+        "G",
+        "F",
+        "B",
+        "H"
+      ],
+      "clues": [
+        "A occupies position 3 clockwise from the north-west corner.",
+        "F occupies position 6 clockwise from the north-west corner.",
+        "H occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 3, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 3 clockwise from the north-west corner. F occupies position 6 clockwise from the north-west corner. H occupies position 8 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. G occupies position 5 clockwise from the north-west corner. C occupies position 1 clockwise from the north-west corner. D occupies position 4 clockwise from the north-west corner.\n\nAre B and C in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "Only if reversed",
+        "B": "No",
+        "C": "Neither",
+        "D": "Cannot be determined",
+        "E": "Yes"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: C, north side: E, north-east corner: A, east side: D, south-east corner: G, south side: F, south-west corner: B, west side: H. Therefore are b and c in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 3, question 3.",
+      "valid_arrangement": [
+        "C",
+        "E",
+        "A",
+        "D",
+        "G",
+        "F",
+        "B",
+        "H"
+      ],
+      "clues": [
+        "A occupies position 3 clockwise from the north-west corner.",
+        "F occupies position 6 clockwise from the north-west corner.",
+        "H occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 3, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 3 clockwise from the north-west corner. F occupies position 6 clockwise from the north-west corner. H occupies position 8 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. G occupies position 5 clockwise from the north-west corner. C occupies position 1 clockwise from the north-west corner. D occupies position 4 clockwise from the north-west corner.\n\nWho sits immediately clockwise from C?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "E",
+        "B": "B",
+        "C": "C",
+        "D": "F",
+        "E": "G"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: C, north side: E, north-east corner: A, east side: D, south-east corner: G, south side: F, south-west corner: B, west side: H. Therefore who sits immediately clockwise from c is E.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 3, question 4.",
+      "valid_arrangement": [
+        "C",
+        "E",
+        "A",
+        "D",
+        "G",
+        "F",
+        "B",
+        "H"
+      ],
+      "clues": [
+        "A occupies position 3 clockwise from the north-west corner.",
+        "F occupies position 6 clockwise from the north-west corner.",
+        "H occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 3, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 3 clockwise from the north-west corner. F occupies position 6 clockwise from the north-west corner. H occupies position 8 clockwise from the north-west corner. B occupies position 7 clockwise from the north-west corner. G occupies position 5 clockwise from the north-west corner. C occupies position 1 clockwise from the north-west corner. D occupies position 4 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between C and D?",
+      "classification": "verified_unique_original",
+      "correct_option": "E",
+      "options": {
+        "A": "4",
+        "B": "0",
+        "C": "3",
+        "D": "1",
+        "E": "2"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: C, north side: E, north-east corner: A, east side: D, south-east corner: G, south side: F, south-west corner: B, west side: H. Therefore what is the smaller number of seats between c and d is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 3, question 5.",
+      "valid_arrangement": [
+        "C",
+        "E",
+        "A",
+        "D",
+        "G",
+        "F",
+        "B",
+        "H"
+      ],
+      "clues": [
+        "A occupies position 3 clockwise from the north-west corner.",
+        "F occupies position 6 clockwise from the north-west corner.",
+        "H occupies position 8 clockwise from the north-west corner.",
+        "B occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 4, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 2 clockwise from the north-west corner. G occupies position 1 clockwise from the north-west corner. D occupies position 7 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. C occupies position 3 clockwise from the north-west corner. E occupies position 6 clockwise from the north-west corner.\n\nWho occupies the west side?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "E",
+        "D": "D",
+        "E": "F"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: G, north side: A, north-east corner: C, east side: H, south-east corner: F, south side: E, south-west corner: D, west side: B. Therefore who occupies the west side is B.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 4, question 1.",
+      "valid_arrangement": [
+        "G",
+        "A",
+        "C",
+        "H",
+        "F",
+        "E",
+        "D",
+        "B"
+      ],
+      "clues": [
+        "A occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 7 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 3 clockwise from the north-west corner.",
+        "E occupies position 6 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 4, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 2 clockwise from the north-west corner. G occupies position 1 clockwise from the north-west corner. D occupies position 7 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. C occupies position 3 clockwise from the north-west corner. E occupies position 6 clockwise from the north-west corner.\n\nAt which seat does G sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "E",
+      "options": {
+        "A": "east side",
+        "B": "south-east corner",
+        "C": "north side",
+        "D": "north-east corner",
+        "E": "north-west corner"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: G, north side: A, north-east corner: C, east side: H, south-east corner: F, south side: E, south-west corner: D, west side: B. Therefore at which seat does g sit is north-west corner.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 4, question 2.",
+      "valid_arrangement": [
+        "G",
+        "A",
+        "C",
+        "H",
+        "F",
+        "E",
+        "D",
+        "B"
+      ],
+      "clues": [
+        "A occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 7 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 3 clockwise from the north-west corner.",
+        "E occupies position 6 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 4, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 2 clockwise from the north-west corner. G occupies position 1 clockwise from the north-west corner. D occupies position 7 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. C occupies position 3 clockwise from the north-west corner. E occupies position 6 clockwise from the north-west corner.\n\nAre B and A in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "D",
+      "options": {
+        "A": "Yes",
+        "B": "Cannot be determined",
+        "C": "Neither",
+        "D": "No",
+        "E": "Only if reversed"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: G, north side: A, north-east corner: C, east side: H, south-east corner: F, south side: E, south-west corner: D, west side: B. Therefore are b and a in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 4, question 3.",
+      "valid_arrangement": [
+        "G",
+        "A",
+        "C",
+        "H",
+        "F",
+        "E",
+        "D",
+        "B"
+      ],
+      "clues": [
+        "A occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 7 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 3 clockwise from the north-west corner.",
+        "E occupies position 6 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 4, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 2 clockwise from the north-west corner. G occupies position 1 clockwise from the north-west corner. D occupies position 7 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. C occupies position 3 clockwise from the north-west corner. E occupies position 6 clockwise from the north-west corner.\n\nWho sits immediately clockwise from E?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "A",
+        "B": "D",
+        "C": "E",
+        "D": "B",
+        "E": "C"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: G, north side: A, north-east corner: C, east side: H, south-east corner: F, south side: E, south-west corner: D, west side: B. Therefore who sits immediately clockwise from e is D.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 4, question 4.",
+      "valid_arrangement": [
+        "G",
+        "A",
+        "C",
+        "H",
+        "F",
+        "E",
+        "D",
+        "B"
+      ],
+      "clues": [
+        "A occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 7 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 3 clockwise from the north-west corner.",
+        "E occupies position 6 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 4, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: A occupies position 2 clockwise from the north-west corner. G occupies position 1 clockwise from the north-west corner. D occupies position 7 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner. F occupies position 5 clockwise from the north-west corner. C occupies position 3 clockwise from the north-west corner. E occupies position 6 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between A and F?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "3",
+        "B": "0",
+        "C": "2",
+        "D": "4",
+        "E": "1"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: G, north side: A, north-east corner: C, east side: H, south-east corner: F, south side: E, south-west corner: D, west side: B. Therefore what is the smaller number of seats between a and f is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 4, question 5.",
+      "valid_arrangement": [
+        "G",
+        "A",
+        "C",
+        "H",
+        "F",
+        "E",
+        "D",
+        "B"
+      ],
+      "clues": [
+        "A occupies position 2 clockwise from the north-west corner.",
+        "G occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 7 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner.",
+        "F occupies position 5 clockwise from the north-west corner.",
+        "C occupies position 3 clockwise from the north-west corner.",
+        "E occupies position 6 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 5, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 6 clockwise from the north-west corner. B occupies position 8 clockwise from the north-west corner. C occupies position 5 clockwise from the north-west corner. H occupies position 7 clockwise from the north-west corner. A occupies position 2 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. D occupies position 3 clockwise from the north-west corner.\n\nWho occupies the north-west corner?",
+      "classification": "verified_unique_original",
+      "correct_option": "E",
+      "options": {
+        "A": "G",
+        "B": "C",
+        "C": "A",
+        "D": "D",
+        "E": "E"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: A, north-east corner: D, east side: G, south-east corner: C, south side: F, south-west corner: H, west side: B. Therefore who occupies the north-west corner is E.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 5, question 1.",
+      "valid_arrangement": [
+        "E",
+        "A",
+        "D",
+        "G",
+        "C",
+        "F",
+        "H",
+        "B"
+      ],
+      "clues": [
+        "F occupies position 6 clockwise from the north-west corner.",
+        "B occupies position 8 clockwise from the north-west corner.",
+        "C occupies position 5 clockwise from the north-west corner.",
+        "H occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 2 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 5, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 6 clockwise from the north-west corner. B occupies position 8 clockwise from the north-west corner. C occupies position 5 clockwise from the north-west corner. H occupies position 7 clockwise from the north-west corner. A occupies position 2 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. D occupies position 3 clockwise from the north-west corner.\n\nAt which seat does H sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "D",
+      "options": {
+        "A": "west side",
+        "B": "north side",
+        "C": "east side",
+        "D": "south-west corner",
+        "E": "north-east corner"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: A, north-east corner: D, east side: G, south-east corner: C, south side: F, south-west corner: H, west side: B. Therefore at which seat does h sit is south-west corner.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 5, question 2.",
+      "valid_arrangement": [
+        "E",
+        "A",
+        "D",
+        "G",
+        "C",
+        "F",
+        "H",
+        "B"
+      ],
+      "clues": [
+        "F occupies position 6 clockwise from the north-west corner.",
+        "B occupies position 8 clockwise from the north-west corner.",
+        "C occupies position 5 clockwise from the north-west corner.",
+        "H occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 2 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 5, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 6 clockwise from the north-west corner. B occupies position 8 clockwise from the north-west corner. C occupies position 5 clockwise from the north-west corner. H occupies position 7 clockwise from the north-west corner. A occupies position 2 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. D occupies position 3 clockwise from the north-west corner.\n\nAre E and D in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "D",
+      "options": {
+        "A": "Cannot be determined",
+        "B": "Neither",
+        "C": "Yes",
+        "D": "No",
+        "E": "Only if reversed"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: A, north-east corner: D, east side: G, south-east corner: C, south side: F, south-west corner: H, west side: B. Therefore are e and d in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 5, question 3.",
+      "valid_arrangement": [
+        "E",
+        "A",
+        "D",
+        "G",
+        "C",
+        "F",
+        "H",
+        "B"
+      ],
+      "clues": [
+        "F occupies position 6 clockwise from the north-west corner.",
+        "B occupies position 8 clockwise from the north-west corner.",
+        "C occupies position 5 clockwise from the north-west corner.",
+        "H occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 2 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 5, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 6 clockwise from the north-west corner. B occupies position 8 clockwise from the north-west corner. C occupies position 5 clockwise from the north-west corner. H occupies position 7 clockwise from the north-west corner. A occupies position 2 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. D occupies position 3 clockwise from the north-west corner.\n\nWho sits immediately clockwise from G?",
+      "classification": "verified_unique_original",
+      "correct_option": "D",
+      "options": {
+        "A": "E",
+        "B": "G",
+        "C": "H",
+        "D": "C",
+        "E": "B"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: A, north-east corner: D, east side: G, south-east corner: C, south side: F, south-west corner: H, west side: B. Therefore who sits immediately clockwise from g is C.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 5, question 4.",
+      "valid_arrangement": [
+        "E",
+        "A",
+        "D",
+        "G",
+        "C",
+        "F",
+        "H",
+        "B"
+      ],
+      "clues": [
+        "F occupies position 6 clockwise from the north-west corner.",
+        "B occupies position 8 clockwise from the north-west corner.",
+        "C occupies position 5 clockwise from the north-west corner.",
+        "H occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 2 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 5, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 6 clockwise from the north-west corner. B occupies position 8 clockwise from the north-west corner. C occupies position 5 clockwise from the north-west corner. H occupies position 7 clockwise from the north-west corner. A occupies position 2 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. D occupies position 3 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between D and F?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "1",
+        "E": "3"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: A, north-east corner: D, east side: G, south-east corner: C, south side: F, south-west corner: H, west side: B. Therefore what is the smaller number of seats between d and f is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 5, question 5.",
+      "valid_arrangement": [
+        "E",
+        "A",
+        "D",
+        "G",
+        "C",
+        "F",
+        "H",
+        "B"
+      ],
+      "clues": [
+        "F occupies position 6 clockwise from the north-west corner.",
+        "B occupies position 8 clockwise from the north-west corner.",
+        "C occupies position 5 clockwise from the north-west corner.",
+        "H occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 2 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "D occupies position 3 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 6, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. B occupies position 3 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 4 clockwise from the north-west corner. D occupies position 5 clockwise from the north-west corner.\n\nWho occupies the north side?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "C",
+        "B": "A",
+        "C": "F",
+        "D": "B",
+        "E": "H"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: C, north-east corner: B, east side: A, south-east corner: D, south side: H, south-west corner: G, west side: F. Therefore who occupies the north side is C.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 6, question 1.",
+      "valid_arrangement": [
+        "E",
+        "C",
+        "B",
+        "A",
+        "D",
+        "H",
+        "G",
+        "F"
+      ],
+      "clues": [
+        "F occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "B occupies position 3 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 4 clockwise from the north-west corner.",
+        "D occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 6, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. B occupies position 3 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 4 clockwise from the north-west corner. D occupies position 5 clockwise from the north-west corner.\n\nAt which seat does A sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "north side",
+        "B": "north-east corner",
+        "C": "east side",
+        "D": "west side",
+        "E": "south-west corner"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: C, north-east corner: B, east side: A, south-east corner: D, south side: H, south-west corner: G, west side: F. Therefore at which seat does a sit is east side.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 6, question 2.",
+      "valid_arrangement": [
+        "E",
+        "C",
+        "B",
+        "A",
+        "D",
+        "H",
+        "G",
+        "F"
+      ],
+      "clues": [
+        "F occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "B occupies position 3 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 4 clockwise from the north-west corner.",
+        "D occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 6, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. B occupies position 3 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 4 clockwise from the north-west corner. D occupies position 5 clockwise from the north-west corner.\n\nAre C and A in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "Cannot be determined",
+        "B": "Neither",
+        "C": "No",
+        "D": "Only if reversed",
+        "E": "Yes"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: C, north-east corner: B, east side: A, south-east corner: D, south side: H, south-west corner: G, west side: F. Therefore are c and a in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 6, question 3.",
+      "valid_arrangement": [
+        "E",
+        "C",
+        "B",
+        "A",
+        "D",
+        "H",
+        "G",
+        "F"
+      ],
+      "clues": [
+        "F occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "B occupies position 3 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 4 clockwise from the north-west corner.",
+        "D occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 6, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. B occupies position 3 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 4 clockwise from the north-west corner. D occupies position 5 clockwise from the north-west corner.\n\nWho sits immediately clockwise from A?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "H",
+        "B": "B",
+        "C": "D",
+        "D": "C",
+        "E": "F"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: C, north-east corner: B, east side: A, south-east corner: D, south side: H, south-west corner: G, west side: F. Therefore who sits immediately clockwise from a is D.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 6, question 4.",
+      "valid_arrangement": [
+        "E",
+        "C",
+        "B",
+        "A",
+        "D",
+        "H",
+        "G",
+        "F"
+      ],
+      "clues": [
+        "F occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "B occupies position 3 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 4 clockwise from the north-west corner.",
+        "D occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 6, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: F occupies position 8 clockwise from the north-west corner. H occupies position 6 clockwise from the north-west corner. E occupies position 1 clockwise from the north-west corner. B occupies position 3 clockwise from the north-west corner. G occupies position 7 clockwise from the north-west corner. A occupies position 4 clockwise from the north-west corner. D occupies position 5 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between A and G?",
+      "classification": "verified_unique_original",
+      "correct_option": "E",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "3",
+        "D": "0",
+        "E": "2"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: E, north side: C, north-east corner: B, east side: A, south-east corner: D, south side: H, south-west corner: G, west side: F. Therefore what is the smaller number of seats between a and g is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 6, question 5.",
+      "valid_arrangement": [
+        "E",
+        "C",
+        "B",
+        "A",
+        "D",
+        "H",
+        "G",
+        "F"
+      ],
+      "clues": [
+        "F occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 6 clockwise from the north-west corner.",
+        "E occupies position 1 clockwise from the north-west corner.",
+        "B occupies position 3 clockwise from the north-west corner.",
+        "G occupies position 7 clockwise from the north-west corner.",
+        "A occupies position 4 clockwise from the north-west corner.",
+        "D occupies position 5 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 7, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: H occupies position 7 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. D occupies position 1 clockwise from the north-west corner. F occupies position 8 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 2 clockwise from the north-west corner.\n\nWho occupies the north-east corner?",
+      "classification": "verified_unique_original",
+      "correct_option": "C",
+      "options": {
+        "A": "G",
+        "B": "B",
+        "C": "E",
+        "D": "A",
+        "E": "D"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: C, north-east corner: E, east side: G, south-east corner: B, south side: A, south-west corner: H, west side: F. Therefore who occupies the north-east corner is E.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 7, question 1.",
+      "valid_arrangement": [
+        "D",
+        "C",
+        "E",
+        "G",
+        "B",
+        "A",
+        "H",
+        "F"
+      ],
+      "clues": [
+        "H occupies position 7 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "D occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 8 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 2 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 7, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: H occupies position 7 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. D occupies position 1 clockwise from the north-west corner. F occupies position 8 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 2 clockwise from the north-west corner.\n\nAt which seat does B sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "south-east corner",
+        "B": "north-east corner",
+        "C": "east side",
+        "D": "south-west corner",
+        "E": "west side"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: C, north-east corner: E, east side: G, south-east corner: B, south side: A, south-west corner: H, west side: F. Therefore at which seat does b sit is south-east corner.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 7, question 2.",
+      "valid_arrangement": [
+        "D",
+        "C",
+        "E",
+        "G",
+        "B",
+        "A",
+        "H",
+        "F"
+      ],
+      "clues": [
+        "H occupies position 7 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "D occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 8 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 2 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 7, Question 3.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: H occupies position 7 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. D occupies position 1 clockwise from the north-west corner. F occupies position 8 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 2 clockwise from the north-west corner.\n\nAre E and B in adjacent seats?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "No",
+        "B": "Cannot be determined",
+        "C": "Neither",
+        "D": "Yes",
+        "E": "Only if reversed"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: C, north-east corner: E, east side: G, south-east corner: B, south side: A, south-west corner: H, west side: F. Therefore are e and b in adjacent seats is No.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 7, question 3.",
+      "valid_arrangement": [
+        "D",
+        "C",
+        "E",
+        "G",
+        "B",
+        "A",
+        "H",
+        "F"
+      ],
+      "clues": [
+        "H occupies position 7 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "D occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 8 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 2 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 7, Question 4.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: H occupies position 7 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. D occupies position 1 clockwise from the north-west corner. F occupies position 8 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 2 clockwise from the north-west corner.\n\nWho sits immediately clockwise from C?",
+      "classification": "verified_unique_original",
+      "correct_option": "A",
+      "options": {
+        "A": "E",
+        "B": "C",
+        "C": "F",
+        "D": "G",
+        "E": "H"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: C, north-east corner: E, east side: G, south-east corner: B, south side: A, south-west corner: H, west side: F. Therefore who sits immediately clockwise from c is E.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 7, question 4.",
+      "valid_arrangement": [
+        "D",
+        "C",
+        "E",
+        "G",
+        "B",
+        "A",
+        "H",
+        "F"
+      ],
+      "clues": [
+        "H occupies position 7 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "D occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 8 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 2 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 7, Question 5.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: H occupies position 7 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. D occupies position 1 clockwise from the north-west corner. F occupies position 8 clockwise from the north-west corner. G occupies position 4 clockwise from the north-west corner. C occupies position 2 clockwise from the north-west corner.\n\nWhat is the smaller number of seats between B and F?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "0",
+        "B": "2",
+        "C": "4",
+        "D": "3",
+        "E": "1"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: C, north-east corner: E, east side: G, south-east corner: B, south side: A, south-west corner: H, west side: F. Therefore what is the smaller number of seats between b and f is 2.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 7, question 5.",
+      "valid_arrangement": [
+        "D",
+        "C",
+        "E",
+        "G",
+        "B",
+        "A",
+        "H",
+        "F"
+      ],
+      "clues": [
+        "H occupies position 7 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "D occupies position 1 clockwise from the north-west corner.",
+        "F occupies position 8 clockwise from the north-west corner.",
+        "G occupies position 4 clockwise from the north-west corner.",
+        "C occupies position 2 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 8, Question 1.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 1 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. A occupies position 7 clockwise from the north-west corner. G occupies position 8 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner.\n\nWho occupies the east side?",
+      "classification": "verified_unique_original",
+      "correct_option": "B",
+      "options": {
+        "A": "G",
+        "B": "H",
+        "C": "B",
+        "D": "A",
+        "E": "C"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: H, south-east corner: B, south side: C, south-west corner: A, west side: G. Therefore who occupies the east side is H.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 8, question 1.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "H",
+        "B",
+        "C",
+        "A",
+        "G"
+      ],
+      "clues": [
+        "D occupies position 1 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "A occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    },
+    {
+      "question_text": "Original Practice Question (not PYQ) — Square / Rectangular Arrangements, Puzzle 8, Question 2.\nEight people A-H sit at eight consecutive positions clockwise around a rectangular table, all facing inward. The clockwise seats are: north-west corner, north side, north-east corner, east side, south-east corner, south side, south-west corner, west side.\nClues: D occupies position 1 clockwise from the north-west corner. E occupies position 3 clockwise from the north-west corner. B occupies position 5 clockwise from the north-west corner. F occupies position 2 clockwise from the north-west corner. A occupies position 7 clockwise from the north-west corner. G occupies position 8 clockwise from the north-west corner. H occupies position 4 clockwise from the north-west corner.\n\nAt which seat does C sit?",
+      "classification": "verified_unique_original",
+      "correct_option": "E",
+      "options": {
+        "A": "south-east corner",
+        "B": "west side",
+        "C": "north-east corner",
+        "D": "south-west corner",
+        "E": "south side"
+      },
+      "explanation": "Applying the complete clue set gives the clockwise order north-west corner: D, north side: F, north-east corner: E, east side: H, south-east corner: B, south side: C, south-west corner: A, west side: G. Therefore at which seat does c sit is south side.",
+      "source": "Original Practice Question (not PYQ); generated and exhaustively checked for Banking Clerk practice. Group 8, question 2.",
+      "valid_arrangement": [
+        "D",
+        "F",
+        "E",
+        "H",
+        "B",
+        "C",
+        "A",
+        "G"
+      ],
+      "clues": [
+        "D occupies position 1 clockwise from the north-west corner.",
+        "E occupies position 3 clockwise from the north-west corner.",
+        "B occupies position 5 clockwise from the north-west corner.",
+        "F occupies position 2 clockwise from the north-west corner.",
+        "A occupies position 7 clockwise from the north-west corner.",
+        "G occupies position 8 clockwise from the north-west corner.",
+        "H occupies position 4 clockwise from the north-west corner."
+      ],
+      "solution_count": 1
+    }
+  ],
+  "held": [],
+  "pdf_source_audit": {
+    "status": "not completed; source questions were not classified as held or approved",
+    "unreviewed_question_appearances": 30,
+    "note": "Only independently verified original practice questions are in this batch. The original PDF questions remain unreviewed and were not imported."
+  }
+}

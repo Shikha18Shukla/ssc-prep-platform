@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Tabular Puzzle Q1. Five students A, B, C, D and E are studying in different schools KNP, PAV, NTS, MAX and GUV, but not necessarily in the same order. Each one likes only one subject from Hindi, Mathematics, Science, Social Science and English. C studies in NTS. B does not like Social Science and Hindi. D likes English and studies in MAX. The student of PAV likes Mathematics. E likes Hindi but is not from GUV or PAV. B studies in GUV. Which student studies in PAV school and likes Mathematics?",
+      "options": {
+        "A": "A",
+        "B": "C",
+        "C": "D",
+        "D": "B",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "C is in NTS, B is in GUV, and D is in MAX. E likes Hindi and cannot be in GUV or PAV, so E is in KNP. The remaining school, PAV, belongs to A, and its student likes Mathematics. Therefore A is the answer.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical p. 2 (printed p. 1), Q1; Tabular Puzzle"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Tabular Puzzle Q2. Four people A, B, C and D each like only one of four different drinks: Tea, Coffee, Mango Shake and Banana Shake. A does not like Mango Shake. D prefers Banana Shake or Coffee. C prefers Coffee. Who prefers Tea?",
+      "options": {
+        "A": "A",
+        "B": "C",
+        "C": "B",
+        "D": "D",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "C has Coffee. Since each drink is assigned to a different person, D cannot have Coffee and therefore has Banana Shake. A and B must take Tea and Mango Shake; A does not like Mango Shake, so A prefers Tea.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical p. 2 (printed p. 1), Q2; Tabular Puzzle"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Tabular Puzzle Q3. Five students A, B, C, D and E study in different schools K, L, M, N and O, but not necessarily in the same order. Each one likes only one subject: Hindi, Mathematics, Science, Social Science or English. C studies in M. B does not like Social Science. D likes English and studies in N. The student of L likes Mathematics. E likes Hindi but is neither from O nor L. B studies in O. Which student studies in school L and likes Mathematics?",
+      "options": {
+        "A": "B",
+        "B": "A",
+        "C": "D",
+        "D": "C",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "C is in M, B is in O, and D is in N. E likes Hindi and cannot be in O or L, so E is in K. A is therefore in L, where the student likes Mathematics. The answer is option B, naming student A.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical p. 3 (printed p. 2), Q3; Tabular Puzzle"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Tabular Puzzle Q4. Five boys A, B, C, D and E have one of five different cars C1, C2, C3, C4 and C5, and each likes one of five different bikes B1, B2, B3, B4 and B5, not necessarily in the same order. C does not like B2. B has C3 but does not like B3. E does not have C4 but likes B4. A does not like B5. C and D do not have C2 and C1 respectively. The person who has C2 likes B5. The person who has C1 likes B2. Which Boy–Car–Bike combination is not correct?",
+      "options": {
+        "A": "C - C5 - B3",
+        "B": "B - C3 - B1",
+        "C": "D - C2 - B5",
+        "D": "A - C1 - B2",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "Exhaustive assignment of the five distinct cars and five distinct bikes under all clues gives the unique table A=C1/B2, B=C3/B1, C=C4/B3, D=C2/B5, E=C5/B4. Options B, C and D match this table. Option A claims C has C5, but C has C4, so A is the combination that is not correct.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical pp. 3-4 (printed pp. 2-3; options continue on p. 4), Q4; Tabular Puzzle"
+    }
+  ]
+}
