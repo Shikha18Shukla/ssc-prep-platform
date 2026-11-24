@@ -1,0 +1,1166 @@
+{
+  "chapter": "Scheduling Puzzles - Year Based",
+  "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+  "status": "source_question_audit_and_target_bank_dedup_complete",
+  "source_pdf_count": 4,
+  "source_pages": 52,
+  "visual_pages_reviewed": 52,
+  "question_appearances_identified": 10,
+  "question_level_cross_database_deduplication": "read_only local target chapter checked: 40 active, 0 inactive; no exact or semantic overlaps identified",
+  "global_cross_source_deduplication": "All supplied Year-Based PDFs and the exact Year-Based destination chapter were checked. Cross-topic duplicate comparison against other chapter banks was not performed; no wrong-chapter items were found in these PDFs.",
+  "entries": [
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year01_birth_years_7_people",
+      "question": "C was born in which year?",
+      "shared_directions": "Seven people A-G; years 1985, 1988, 1990, 1991, 1994, 1997, 2001. A has an odd birth year; D is two positions after A; exactly three years separate C and E, with C older and E in an even year; number between D/E equals number between B/F; G is younger than F.",
+      "options": {
+        "A": "1994",
+        "B": "1991",
+        "C": "1990",
+        "D": "1985",
+        "E": "1988"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "1985": "C",
+          "1988": "E",
+          "1990": "F",
+          "1991": "A",
+          "1994": "G",
+          "1997": "D",
+          "2001": "B"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "D",
+      "reasoning": "The unique ordering assigns C to 1985. The other clues place A=1991, D=1997, E=1988, F=1990, G=1994, B=2001.",
+      "printed_key_or_annotation": "Visible mark D; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "d7c01a4e-d5d4-44fc-899e-e152104e5c70",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "D"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [7, 8, 9] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf",
+      "physical_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year01_birth_years_8_people_set1",
+      "question": "Who was born in 1995?",
+      "shared_directions": "Eight people L-S; years 1987, 1989, 1990, 1992, 1995, 1997, 1999, 2004. R is five years older than M; at least two are older than R; count older than R equals count younger than S; three people between S and P; two between S and L, with L younger than S; N is two years older than O.",
+      "options": {
+        "A": "The person born immediately before P",
+        "B": "The person born two persons after Q",
+        "C": "M",
+        "D": "R",
+        "E": "P"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "1987": "Q",
+          "1989": "S",
+          "1990": "N",
+          "1992": "O",
+          "1995": "L",
+          "1997": "P",
+          "1999": "R",
+          "2004": "M"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "The unique arrangement puts L in 1995 and P in 1997, so L is immediately before P.",
+      "printed_key_or_annotation": "Visible mark A; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "764fde7d-75b0-4621-b9f1-2f47e33a0ac2",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 7-9",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [10, 11, 12] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf",
+      "physical_pages": [
+        10,
+        11,
+        12
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year01_birth_years_7_people_set2",
+      "question": "H was born in which year?",
+      "shared_directions": "Seven people D,E,F,G,H,I,J; years 1980, 1984, 1990, 1994, 1999, 2003, 2007. E is a leap year; three people between E and D; one between D and H; H and G differ by four years; G is older than D; positional gap E/G equals D/J; I is older than F but not eldest.",
+      "options": {
+        "A": "1984",
+        "B": "1990",
+        "C": "1980",
+        "D": "1994",
+        "E": "2003"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "1980": "E",
+          "1984": "J",
+          "1990": "H",
+          "1994": "G",
+          "1999": "D",
+          "2003": "I",
+          "2007": "F"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "B",
+      "reasoning": "Unique assignment gives H=1990.",
+      "printed_key_or_annotation": "Visible mark B; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "4614057b-a0d1-40e8-b577-85979107f11a",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 10-12",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf | physical page(s) [5, 6, 7] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf",
+      "physical_pages": [
+        5,
+        6,
+        7
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year02_birth_years_8_people",
+      "question": "Who was born in 1978?",
+      "shared_directions": "Eight people C,D,E,F,G,H,I,J born on 28 August in years 1972, 1975, 1978, 1982, 1987, 1989, 1996, 1997. Ages at 28 Aug 2020. More than two people between H/J; J age multiple of 11; J/G age difference 9; I immediately after F, whose year is odd; people before C are one fewer than people after C; at most three people between D/E, with E after D.",
+      "options": {
+        "A": "G",
+        "B": "H",
+        "C": "J",
+        "D": "I",
+        "E": "None of these"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "1972": "H",
+          "1975": "F",
+          "1978": "I",
+          "1982": "C",
+          "1987": "J",
+          "1989": "D",
+          "1996": "G",
+          "1997": "E"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "D",
+      "reasoning": "The unique assignment places I in 1978.",
+      "printed_key_or_annotation": "Visible mark D; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "b15c459d-a56b-414e-854a-d071734f81ab",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 5-7",
+        "correct_option": "D"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf | physical page(s) [8, 9, 10] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year02_ages_open_year_range",
+      "question": "What is the age of G?",
+      "shared_directions": "Seven people A-G have distinct birth years 1950-2000; ages as of 2020. D is fourth oldest and born 1989 (age31). The person adjacent to D and second younger than A differs in age by 5. Number older than A equals number younger than E. Person adjacent to E is age25, which is 20 less than A. F has square age and was born immediately after C in consecutive leap years. G age is average of D/B; B is two years older than youngest.",
+      "options": {
+        "A": "26",
+        "B": "Two years older than B",
+        "C": "Eight years younger than F",
+        "D": "25",
+        "E": "NOT (none of these)"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "45": "A",
+          "40": "C",
+          "36": "F",
+          "31": "D",
+          "28": "G",
+          "25": "B",
+          "23": "E"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "C",
+      "reasoning": "The constraints force A=45, C=40, F=36, D=31, B=25, G=28, E=23. Thus G is eight years younger than F. Constrained enumeration over integer ages 20-70 yields one assignment.",
+      "printed_key_or_annotation": "Visible mark C; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "0a9988cb-ccf5-422e-930d-037d3062cc6f",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 8-10",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year03_age_values_8_people",
+      "question": "Who is the youngest person?",
+      "shared_directions": "Eight people A-H have distinct ages from 10 to 41 (reference year 2021). G is a square age; F=G+1; H=F-10; A=2H; G+H=C+1; E=H+2; D=E+1; |B-H|=|H-D|.",
+      "options": {
+        "A": "G",
+        "B": "The person whose age is 16",
+        "C": "B",
+        "D": "A",
+        "E": "C"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "A": 32,
+          "B": 13,
+          "C": 40,
+          "D": 19,
+          "E": 18,
+          "F": 26,
+          "G": 25,
+          "H": 16
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "C",
+      "reasoning": "Algebra plus the age bounds yields one valid assignment: A32, B13, C40, D19, E18, F26, G25, H16. B is the youngest at 13.",
+      "printed_key_or_annotation": "Visible mark C; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "3f66d27d-9a07-4134-8a6f-0dce0bcbf095",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [7, 8, 9] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf",
+      "physical_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year03_birth_years_8_friends",
+      "question": "What is the age difference between R and Q?",
+      "shared_directions": "Eight friends P-W born in 1975,1979,1981,1985,1987,1991,1997,2000 (age reference 1 Jan 2019). R/S age difference 10, R older; three between R/Q with Q after R; two between U/V; W immediately after V; age(W)+age(T)=age(P)+1.",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "12",
+        "D": "11",
+        "E": "None of these"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "1975": "R",
+          "1979": "P",
+          "1981": "U",
+          "1985": "S",
+          "1987": "Q",
+          "1991": "V",
+          "1997": "W",
+          "2000": "T"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "C",
+      "reasoning": "Unique arrangement: R=1975 (age44), Q=1987 (age32), so the difference is 12.",
+      "printed_key_or_annotation": "Visible mark C; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "73c304c8-6048-43d8-9b06-6fc1d54d7831",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 7-9",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [10, 11, 12, 13] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf",
+      "physical_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year03_birth_years_10_people",
+      "question": "How many people were born between P and the person born in 1971?",
+      "shared_directions": "Ten people P-Y born in 1960,1964,1971,1975,1979,1983,1988,1990,1995,2000 (ages as of 2020). Before P count is one more than after P; three between P/W; Q age prime; R immediately before Q; |S-R| is two less than |R-U|; two between Q/S; V and X have square ages; one between X/Y and Y is eldest.",
+      "options": {
+        "A": "As many as between Y and X",
+        "B": "As many as between U and the person born in 1995",
+        "C": "As many as between P and the person born in 1995",
+        "D": "As many as between R and U",
+        "E": "Both C & D"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "1960": "Y",
+          "1964": "S",
+          "1971": "X",
+          "1975": "R",
+          "1979": "Q",
+          "1983": "P",
+          "1988": "U",
+          "1990": "T",
+          "1995": "V",
+          "2000": "W"
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "E",
+      "reasoning": "Unique order is Y,S,X,R,Q,P,U,T,V,W from earliest to latest year. The requested count is two. Option C also describes two (P/V have two between); option D also describes two (R/U have Q and P between), so E “Both C & D” is the sole correct option.",
+      "printed_key_or_annotation": "Visible annotation emphasizes E “Both C & D”; agrees.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "f440b403-323c-43af-89f8-5796cba21345",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 10-13",
+        "correct_option": "E"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf | physical page(s) [4, 5, 6, 7] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year04_age_and_boxes_6_people",
+      "question": "Who is older than E but has fewer boxes than E?",
+      "shared_directions": "Six people A-F ages 32,13,16,8,35,26. Distinct box counts 8-44. B age=2A, A>=10; F age is 10 more than F box count; C younger than E but older than D; D boxes=C boxes+5; product of C and F box counts is an odd square; D boxes non-prime; boxes of the square-age person are a perfect cube; |B boxes-E boxes|=C boxes; E boxes=2×A age+2.",
+      "options": {
+        "A": "B",
+        "B": "A",
+        "C": "F",
+        "D": "C",
+        "E": "None of these"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 2,
+        "arrangement": [
+          {
+            "A": {
+              "age": 16,
+              "boxes": 8
+            },
+            "B": {
+              "age": 32,
+              "boxes": 43
+            },
+            "C": {
+              "age": 13,
+              "boxes": 9
+            },
+            "D": {
+              "age": 8,
+              "boxes": 14
+            },
+            "E": {
+              "age": 26,
+              "boxes": 34
+            },
+            "F": {
+              "age": 35,
+              "boxes": 25
+            }
+          },
+          {
+            "A": {
+              "age": 16,
+              "boxes": 27
+            },
+            "B": {
+              "age": 32,
+              "boxes": 43
+            },
+            "C": {
+              "age": 13,
+              "boxes": 9
+            },
+            "D": {
+              "age": 8,
+              "boxes": 14
+            },
+            "E": {
+              "age": 26,
+              "boxes": 34
+            },
+            "F": {
+              "age": 35,
+              "boxes": 25
+            }
+          }
+        ],
+        "answer_invariant_across_valid_arrangements": true,
+        "interpretation_note": "The two allocation results were enumerated only under a product interpretation; that interpretation is not explicit in the source text."
+      },
+      "independently_derived_answer": null,
+      "reasoning": "The asked comparison would be F under the worked-table interpretation, but the source clue never states whether the two box counts are added, multiplied, or otherwise combined. The worked table is compatible with the product reading (9×25=225=15²), but that operation is not in the wording. Holding rather than supplying the missing relation.",
+      "printed_key_or_annotation": "Visible mark C; agrees. Enumeration yields two valid A-box alternatives; asked relation remains fixed.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "held",
+      "confidence": "medium",
+      "review_note": "Held: clue is under-specified; printed table alone cannot establish the missing operation safely.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf | physical page(s) [8, 9, 10, 11] | question appearance",
+      "source_pdf": "Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "year04_ages_and_companies_8_workers",
+      "question": "Which person is working in IBM?",
+      "shared_directions": "Eight workers P-W have ages 13,15,16,19,22,26,31,37 and distinct companies Facebook, Google, Snapdeal, HCL, IBM, Infosys, Flipkart, Wipro. S is 6 older than Infosys worker and S even; R=Snapdeal and not younger than S; 2 people between R/Facebook; U= W+7 and W not Wipro; Wipro worker and V have the minimum age gap; T younger than V and not IBM; eldest HCL; P not HCL; Google worker is 4 younger than Flipkart worker.",
+      "options": {
+        "A": "The one who is two years elder than T",
+        "B": "The one who is three years younger than V",
+        "C": "The one who is five years elder than U",
+        "D": "The one who is one year elder than P",
+        "E": "None of these"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of the finite year/age assignment space using all transcribed written constraints",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "age37": {
+            "person": "Q",
+            "company": "HCL"
+          },
+          "age31": {
+            "person": "R",
+            "company": "Snapdeal"
+          },
+          "age26": {
+            "person": "U",
+            "company": "Flipkart"
+          },
+          "age22": {
+            "person": "S",
+            "company": "Google"
+          },
+          "age19": {
+            "person": "W",
+            "company": "Facebook"
+          },
+          "age16": {
+            "person": "V",
+            "company": "Infosys"
+          },
+          "age15": {
+            "person": "T",
+            "company": "Wipro"
+          },
+          "age13": {
+            "person": "P",
+            "company": "IBM"
+          }
+        },
+        "answer_invariant_across_valid_arrangements": true
+      },
+      "independently_derived_answer": "B",
+      "reasoning": "Unique arrangement assigns V age16 and P age13 at IBM; P is three years younger than V. A is false because no listed person is 2 years older than T (15); C names R (31), and D would require age14.",
+      "printed_key_or_annotation": "Handwritten marks appear beside multiple choices; no single reliable key mark. Independent exhaustive arrangement gives B; printed annotation is treated as ambiguous, not as a disagreement.",
+      "key_discrepancy": false,
+      "within_pdf_duplicate_status": "unique prompt in reviewed Year Based PDFs",
+      "destination_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "active_rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "no equivalent chronological arrangement conditions and target question found among existing destination rows"
+      },
+      "classification": "verified_answer_candidate_unique_within_year_sources_and_destination_bank",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "91fa4b0d-9930-4a73-bd69-aa4afbbfff10",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf; physical page(s) 8-11",
+        "correct_option": "B"
+      }
+    }
+  ],
+  "summary": {
+    "verified_answer_candidates": 9,
+    "unique_within_year_based_pdfs": 9,
+    "duplicates_within_year_based_pdfs": 0,
+    "duplicates_against_destination_database": 0,
+    "held": 1,
+    "wrong_chapter": 0,
+    "unclassified": 0,
+    "answer_key_disagreements": 0
+  },
+  "integration_result": {
+    "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+    "before_active": 40,
+    "before_inactive": 0,
+    "imported_count": 9,
+    "retired_count": 9,
+    "after_active": 40,
+    "after_inactive": 9,
+    "imported_records": [
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+        "question_id": "d7c01a4e-d5d4-44fc-899e-e152104e5c70",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "D",
+        "answer": "1985"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [7, 8, 9] | question appearance",
+        "question_id": "764fde7d-75b0-4621-b9f1-2f47e33a0ac2",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 7-9",
+        "correct_option": "A",
+        "answer": "The person born immediately before P"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [10, 11, 12] | question appearance",
+        "question_id": "4614057b-a0d1-40e8-b577-85979107f11a",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 10-12",
+        "correct_option": "B",
+        "answer": "1990"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf | physical page(s) [5, 6, 7] | question appearance",
+        "question_id": "b15c459d-a56b-414e-854a-d071734f81ab",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 5-7",
+        "correct_option": "D",
+        "answer": "I"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf | physical page(s) [8, 9, 10] | question appearance",
+        "question_id": "0a9988cb-ccf5-422e-930d-037d3062cc6f",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 8-10",
+        "correct_option": "C",
+        "answer": "Eight years younger than F"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+        "question_id": "3f66d27d-9a07-4134-8a6f-0dce0bcbf095",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "C",
+        "answer": "B"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [7, 8, 9] | question appearance",
+        "question_id": "73c304c8-6048-43d8-9b06-6fc1d54d7831",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 7-9",
+        "correct_option": "C",
+        "answer": "12"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [10, 11, 12, 13] | question appearance",
+        "question_id": "f440b403-323c-43af-89f8-5796cba21345",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 10-13",
+        "correct_option": "E",
+        "answer": "Both C & D"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf | physical page(s) [8, 9, 10, 11] | question appearance",
+        "question_id": "91fa4b0d-9930-4a73-bd69-aa4afbbfff10",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf; physical page(s) 8-11",
+        "correct_option": "B",
+        "answer": "The one who is three years younger than V"
+      }
+    ],
+    "retired_records": [
+      {
+        "id": "bff3a14b-d71a-4fac-9372-ead69ded72ae",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people E, B, F, D, A, C were born in six different years: 1984, 1987, 1990, 1993, 1996, 1999. Each year is assigned to one person. Shared clues: E was born earlier than B. B was born earlier than F. F was born earlier than D. D was born earlier than A. A was born earlier than C.\n\nQuestion: In which year was A born?",
+        "explanation": "The clues force the birth-year order E → B → F → D → A → C from earliest to latest. Therefore A corresponds to 1996.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1990",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1993",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1996",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1999",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1987",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "d3873c2c-561c-4382-acfe-ba7d4a3c6201",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people E, B, F, D, A, C were born in six different years: 1984, 1987, 1990, 1993, 1996, 1999. Each year is assigned to one person. Shared clues: E was born earlier than B. B was born earlier than F. F was born earlier than D. D was born earlier than A. A was born earlier than C.\n\nQuestion: In which year was D born?",
+        "explanation": "The clues force the birth-year order E → B → F → D → A → C from earliest to latest. Therefore D corresponds to 1993.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1993",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1987",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1996",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1990",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1999",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "e04ee40c-fc0c-4fcc-a995-fd16d1aa2ab8",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people F, E, A, C, B, D were born in six different years: 1982, 1986, 1991, 1994, 1998, 2002. Each year is assigned to one person. Shared clues: F was born earlier than E. E was born earlier than A. A was born earlier than C. C was born earlier than B. B was born earlier than D.\n\nQuestion: In which year was B born?",
+        "explanation": "The clues force the birth-year order F → E → A → C → B → D from earliest to latest. Therefore B corresponds to 1998.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1986",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1994",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "2002",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1991",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1998",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "9b3dca10-ea45-4b71-9270-a36a1b511a79",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people B, F, D, C, A, E were born in six different years: 1978, 1983, 1989, 1992, 1997, 2001. Each year is assigned to one person. Shared clues: B was born earlier than F. F was born earlier than D. D was born earlier than C. C was born earlier than A. A was born earlier than E.\n\nQuestion: In which year was A born?",
+        "explanation": "The clues force the birth-year order B → F → D → C → A → E from earliest to latest. Therefore A corresponds to 1997.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "2001",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1997",
+            "correct": true,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1983",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1978",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1992",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "fc7fb563-5124-4588-ac9c-921eb666ed2b",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people E, D, A, F, C, B were born in six different years: 1981, 1985, 1988, 1993, 1996, 2000. Each year is assigned to one person. Shared clues: E was born earlier than D. D was born earlier than A. A was born earlier than F. F was born earlier than C. C was born earlier than B.\n\nQuestion: In which year was C born?",
+        "explanation": "The clues force the birth-year order E → D → A → F → C → B from earliest to latest. Therefore C corresponds to 1996.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1988",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1993",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "2000",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1996",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1985",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "175c61b0-4391-4f11-97b5-b40861d40919",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people C, B, A, D, F, E were born in six different years: 1975, 1980, 1986, 1991, 1995, 2003. Each year is assigned to one person. Shared clues: C was born earlier than B. B was born earlier than A. A was born earlier than D. D was born earlier than F. F was born earlier than E.\n\nQuestion: In which year was F born?",
+        "explanation": "The clues force the birth-year order C → B → A → D → F → E from earliest to latest. Therefore F corresponds to 1995.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1980",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1986",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1991",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1975",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1995",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "ef159da3-485b-444d-bc7c-ccf8ef8498d5",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people D, B, C, E, A, F were born in six different years: 1979, 1984, 1987, 1992, 1998, 2001. Each year is assigned to one person. Shared clues: D was born earlier than B. B was born earlier than C. C was born earlier than E. E was born earlier than A. A was born earlier than F.\n\nQuestion: In which year was A born?",
+        "explanation": "The clues force the birth-year order D → B → C → E → A → F from earliest to latest. Therefore A corresponds to 1998.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "2001",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1992",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1984",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1998",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1987",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "dddc281a-f519-4563-9bf6-47dc9ceb0cec",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people E, D, C, B, A, F were born in six different years: 1983, 1988, 1990, 1995, 1999, 2004. Each year is assigned to one person. Shared clues: E was born earlier than D. D was born earlier than C. C was born earlier than B. B was born earlier than A. A was born earlier than F.\n\nQuestion: In which year was A born?",
+        "explanation": "The clues force the birth-year order E → D → C → B → A → F from earliest to latest. Therefore A corresponds to 1999.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1983",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "1988",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1995",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "2004",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1999",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "153f3b32-5809-4c8f-bc7c-908a8f0eb066",
+        "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+        "question_text": "Original Practice Question — Six people D, B, E, A, C, F were born in six different years: 1977, 1982, 1989, 1994, 1997, 2002. Each year is assigned to one person. Shared clues: D was born earlier than B. B was born earlier than E. E was born earlier than A. A was born earlier than C. C was born earlier than F.\n\nQuestion: In which year was C born?",
+        "explanation": "The clues force the birth-year order D → B → E → A → C → F from earliest to latest. Therefore C corresponds to 1997.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "1982",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "2002",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "1989",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "1994",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "1997",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      }
+    ],
+    "import_result": {
+      "total_records": 9,
+      "imported": 9,
+      "rejected": 0,
+      "duplicates": 0,
+      "dry_run": false,
+      "would_import": 9,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": []
+    },
+    "replay_result": {
+      "total_records": 9,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 9,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+  "chapter_name": "HOT Category Puzzles – Uncertain Seating Arrangement Based",
+  "database_identity": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1/32",
+    "port": 5432
+  },
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown-length straight row faces south. Q is sixth to the right of S; T is fourth to the left of Q; two people sit between Q and P; six sit between W and V; R is fourth to the left of S; U sits between S and T; V is second to the right of U; W is third from an end; S is eighth from the left end (read relative to the facing direction, as reflected by the source solution diagram).\n\nQuestion: How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "17",
+        "C": "23",
+        "D": "18",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "Exhaustive placement with south-facing left/right gives one row length, 20. The named seats are W=3, P=4, Q=7, V=10, T=11, U=12, S=13 and R=17; all stated offsets hold.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 8-10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown-length north-facing row. M is eighth left of J; N is fourth right of K; O immediately left of P; L is exactly midway between K and J; P is third from the right end. The number between J and P equals that between K and J. Exactly ten people are left of J; six people are between N and O; the number between M and J equals that between Q and J.\n\nQuestion: How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "19",
+        "C": "23",
+        "D": "18",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "J has exactly ten people to its left, so J=11. The K/J gap equals the J/P gap; the midpoint clue puts L midway between K and J. The K=17 branch would force P=17 too, so it collides; thus K=5,L=8. P is six positions right of J at 17, so n=19. O=P−1=16, N=K+4=9, and six people lie between N and O. M=3 and Q=19 satisfy the final equal-gap clue.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 11-13"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "A straight row of an unknown number of people faces south. W is fifth to the left of U; two people sit between W and X; X is second from an end; five people sit between X and V; S is eighth to the right of V; the number between U and S equals the number between T and S; exactly two people sit to T’s right.\n\nQuestion: Who is sitting second to the left of U?",
+      "options": {
+        "A": "V",
+        "B": "W",
+        "C": "T",
+        "D": "S",
+        "E": "X"
+      },
+      "correct_option": "A",
+      "explanation": "Constraint enumeration yields one valid row of 24 seats: T=3, S=9, U=15, V=17, W=20, X=23. For south-facing people, second to U’s left is two physical positions to the right of U, position 17, occupied by V.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 14-16"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown-length north-facing row. G is third to either side of H. B is sixth left of C, and C is second left of E. G and E are immediate neighbors of D. F is fourth right of H. The number between H and A is one less than the number between B and C. I is immediately left of H, and the number to the left of I is twice the number between B and E. A is second from the right end.\n\nQuestion: How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "19",
+        "C": "23",
+        "D": "18",
+        "E": "None of these"
+      },
+      "correct_option": "E",
+      "explanation": "The written clues force I=15 and H=16; A must be 21, hence n=22. A satisfying placement is B3,C9,E11,D12,G13,H16,F20,A21,I15. The count 22 is not among 20,19,23,18, so option E is correct.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 4-6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown row of fewer than 20 people, facing north. Q is fifth right of R. J is third left of U and adjacent to Q; P sits exactly midway between Q and U. The number between R and M equals the number between B and R. The number between M and B equals the number between B and U. Six people sit between P and L, with L at an end. The number right of G equals the number left of M.\n\nQuestion: How many persons sit in the row?",
+      "options": {
+        "A": "Twice the number to the right of Q",
+        "B": "Thrice the number between R and P",
+        "C": "19",
+        "D": "17",
+        "E": "15"
+      },
+      "correct_option": "C",
+      "explanation": "Exhaustive enumeration gives one arrangement with n=19: M2,R5,B8,Q10,J11,P12,U14,G18,L19. Both relational distractors evaluate to 18, while the row contains 19 people; option C is the only correct choice.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 7-9"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown-length north-facing row of at least 20 people. Three sit between W and G and neither is at an end. Y is second right of G. The number between W and G is one more than the number between Y and C, with C right of W. B is fourth right of C; R is third left of W. The number left of R is one less than the number between G and Y. Two sit between B and M, which is not adjacent to C. The number right of M is one less than the number left of W.\n\nQuestion: What is the position of Y with respect to W?",
+      "options": {
+        "A": "Sixth to the right",
+        "B": "Fourth to the right",
+        "C": "Second to the left",
+        "D": "Sixth to the left",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "The clues force W=4, R=1, G=8 and Y=10. The Y-to-W offset is +6 in the north-facing row, so option A. Full solution: R1,W4,C13,G8,Y10,B17,M20, row length 22.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 10-12"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "Shared directions: An unknown number of people in a north-facing row. R is third right of M. Three people sit between S and R. The number between M and S is one less than the number between M and G; G is left of M. S is third left of Q. Q is fifth left of L at an end. The number right of Q is one less than the number left of G. P is at the left end, and more than ten people sit between P and M.\n\nQuestion: Which of the following statements is true? I. G sits to the left of R. II. More than seven persons sit between M and S. III. Not more than two persons sit between S and Q. IV. R sits exactly midway between M and S.",
+      "options": {
+        "A": "Only I and III",
+        "B": "Only I and IV",
+        "C": "Only II and III",
+        "D": "Only II and IV",
+        "E": "All are true"
+      },
+      "correct_option": "A",
+      "explanation": "The unique row has P1,G7,M15,R18,S22,Q25,L30 (n=30). I is true; II is false because six people are between M and S; III is true because two people are between S and Q; IV is false because R=18 is not the midpoint of 15 and 22.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 8-10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "Shared directions: An unknown north-facing row. H is at the leftmost seat; two people sit between H and L; M neighbors L. K is fourth left of I. The number between L and K is one less than the number between I and K. O is exactly midway between I and K. More than three people sit between M and O; O is fifth from the right end.\n\nQuestion: How many persons are sitting in the row?",
+      "options": {
+        "A": "11",
+        "B": "9",
+        "C": "15",
+        "D": "13",
+        "E": "14"
+      },
+      "correct_option": "D",
+      "explanation": "H=1 and L=4. K cannot be 1 because H is there, so K=7; I=11 and O=9. M must be the other neighbor of L, position 3: M=5 would leave only three people between M and O, not more than three. O fifth from the right gives n=13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 11-12"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown north-facing row. N is fourth left of Q; two sit between Q and L; the number between N/L equals the number between L/P. P is fourth right of S. The number between S/P is one more than that between M/N; M and P are not neighbors. I is immediately left of S; no more than five people sit right of I. The number right of I is one more than the number left of G. G is second left of M; three sit between G and T. T is not adjacent to Q or N; more than two sit between T and N.\n\nQuestion: How many persons are sitting in the row?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "23",
+        "D": "22",
+        "E": "None of the above"
+      },
+      "correct_option": "B",
+      "explanation": "The written equations force N=10,Q=14,L=17,P=24,S=20,I=19,G=5,M=7 and T=2. The row therefore has 24 seats. Exhaustive enumeration gives one valid placement; the visible answer mark B agrees.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 7-8"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown north-facing row. Three people sit between A and B; C is second right of A; three sit between B and D; E is immediately left of A; C is fifth from the right end; I is at an end. The number between C and F equals the number between F and D. J is second left of G, which is adjacent to B; no more than two people sit between G and D. Five sit between D and I; H is midway between D and I.\n\nQuestion: Who is sitting second to the right of G?",
+      "options": {
+        "A": "F",
+        "B": "D",
+        "C": "C",
+        "D": "J",
+        "E": "B"
+      },
+      "correct_option": "A",
+      "explanation": "Exhaustive enumeration produces one valid 21-seat row: I1,H4,D7,J8,G10,B11,F12,E14,A15,C17. The second seat right of G (10) is position 12, occupied by F; option A.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 13-15"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-uncertain-seating-arrangement-based",
+      "question_text": "An unknown south-facing row. C is at an end. The number between D and F equals the number between E and D. Eight people sit between E and B; one person sits between C and E. B is third from an end. A is fifth to the right of D (relative to south-facing people). More than six sit between C and F; no more than five sit between B and A.\n\nQuestion: How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "17",
+        "C": "23",
+        "D": "14",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "Exhaustive enumeration gives one 14-seat row: B3,A4,F6,D9,E12,C14. For a south-facing person, right is physical left, so A=D−5. Every distance clue is satisfied; option D.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 16-18"
+    }
+  ],
+  "integration_result": {
+    "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+    "imported_count": 11,
+    "retired_count": 11,
+    "imported_records": [
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [8, 9, 10] | question appearance",
+        "question_id": "6ba243b8-8655-4302-877c-0b1b5feef180",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 8-10",
+        "correct_option": "A",
+        "answer": "20"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [11, 12, 13] | question appearance",
+        "question_id": "e21bfbc8-bf6e-42dd-9531-be9631bebe6a",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 11-13",
+        "correct_option": "B",
+        "answer": "19"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [14, 15, 16] | question appearance",
+        "question_id": "e7274b6c-e00c-48a4-9ad2-0c96472b33c7",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 14-16",
+        "correct_option": "A",
+        "answer": "V"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [4, 5, 6] | question appearance",
+        "question_id": "c1addf03-a2cb-4bb2-bc3a-b0e5797f907f",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 4-6",
+        "correct_option": "E",
+        "answer": "None of these"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [7, 8, 9] | question appearance",
+        "question_id": "abdd2f3f-079f-4267-840e-59d85f9a0b1b",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 7-9",
+        "correct_option": "C",
+        "answer": "19"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [10, 11, 12] | question appearance",
+        "question_id": "3d31c576-4f1c-45ef-b082-c4920a1bdcfd",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 10-12",
+        "correct_option": "A",
+        "answer": "Sixth to the right"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [8, 9, 10] | question appearance",
+        "question_id": "1cd011cd-61e0-4021-a85b-440672e7716c",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 8-10",
+        "correct_option": "A",
+        "answer": "Only I and III"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [11, 12] | question appearance",
+        "question_id": "f53010fd-bfbb-4886-95db-e1af489ac474",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 11-12",
+        "correct_option": "D",
+        "answer": "13"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [7, 8] | question appearance",
+        "question_id": "a60af440-db9c-4ae3-b8aa-d6048a7271eb",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 7-8",
+        "correct_option": "B",
+        "answer": "24"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [13, 14, 15] | question appearance",
+        "question_id": "77b2ae69-95ae-4f24-921e-436ed1dfe73d",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 13-15",
+        "correct_option": "A",
+        "answer": "F"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [16, 17, 18] | question appearance",
+        "question_id": "b92a1ad9-6dde-460b-b227-d0b9cdd095aa",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 16-18",
+        "correct_option": "D",
+        "answer": "14"
+      }
+    ],
+    "replay_result": {
+      "total_records": 11,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 11,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  }
+}

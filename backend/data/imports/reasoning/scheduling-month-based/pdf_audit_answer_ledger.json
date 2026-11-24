@@ -1,0 +1,1478 @@
+{
+  "chapter": "Scheduling Puzzles — Month Based",
+  "status": "complete_source_review_and_target_bank_deduplication",
+  "source_pdf_count": 4,
+  "source_pages": 66,
+  "visual_pages_reviewed": 66,
+  "question_appearances_identified": 12,
+  "entries": [
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 4 | appearance 1",
+      "source_pdf": "Scheduling Puzzles Month Based 02  Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "bike_brands_may_december",
+      "page_kind": "question with answer/solution slides",
+      "question": "Which bike brand was registered in August?",
+      "shared_directions": "Eight brands Bajaj, Hero, Honda, Jawa, Revolt, Suzuki, TVS and Yamaha were registered in distinct months May–December. Constraints: Revolt in a 30-day month immediately before Honda; exactly three brands between Honda and TVS; Hero immediately before TVS and two months before Jawa; Yamaha immediately before Suzuki, after Bajaj but not immediately after; Bajaj not first.",
+      "options": {
+        "A": "Yamaha",
+        "B": "Suzuki",
+        "C": "Revolt",
+        "D": "Bajaj",
+        "E": "Jawa"
+      },
+      "enumeration": {
+        "method": "Exhaustive permutation of 8 brands over 8 months",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "May": "Hero",
+          "June": "TVS",
+          "July": "Jawa",
+          "August": "Bajaj",
+          "September": "Revolt",
+          "October": "Honda",
+          "November": "Yamaha",
+          "December": "Suzuki"
+        }
+      },
+      "verified_answer": "D",
+      "reasoning": "The written constraints yield one arrangement. August is occupied by Bajaj. Each clue holds in the arrangement: Revolt/ Honda are consecutive in Sep/Oct; Honda and TVS have three entries between; Hero–TVS–Jawa occupy May–June–July; Yamaha/Suzuki are Nov/Dec with Bajaj in August.",
+      "printed_key": "D (visible check)",
+      "key_discrepancy": false,
+      "classification": "verified_unique_candidate",
+      "confidence": "high",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "f9b3b50f-74a6-462f-9954-54e1ca5204ad",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "D"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 7 | appearance 2",
+      "source_pdf": "Scheduling Puzzles Month Based 02  Class Notes.pdf",
+      "physical_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "nine_pens_january_september",
+      "page_kind": "odd-one-out arrangement question",
+      "question": "Four of the following five are alike in a certain way as per the given arrangement and hence form a group. Find the one which does not belong to that group.",
+      "shared_directions": "Nine pens A–I were sold in distinct months January–September. Alphabetically consecutive pens are not in adjacent months. A is four months before C and after March. The number of pens between A and C is two less than the number between B and F; neither B nor F is in a month with fewer than 31 days. Exactly two pens are between E and A. Number before E equals number after I. Number between A and E equals number between G and H on question page 7; continuation page 8 instead says equals number between C and H. I is before H. The G/H vs C/H wording conflicts across the source pages.",
+      "options": {
+        "A": "Pen F",
+        "B": "Pen A",
+        "C": "Pen E",
+        "D": "Pen G",
+        "E": "Pen H"
+      },
+      "enumeration": {
+        "question_page_constraint_G_H_solutions": 1,
+        "arrangement_G_H": {
+          "January": "F",
+          "February": "I",
+          "March": "G",
+          "April": "D",
+          "May": "A",
+          "June": "H",
+          "July": "B",
+          "August": "E",
+          "September": "C"
+        },
+        "continuation_page_constraint_C_H_solutions": 2,
+        "example_alternate_arrangement": {
+          "January": "F",
+          "February": "I",
+          "March": "D",
+          "April": "G",
+          "May": "A",
+          "June": "H",
+          "July": "B",
+          "August": "E",
+          "September": "C"
+        }
+      },
+      "verified_answer": null,
+      "reasoning": "Using the question-slide G/H condition alone gives one arrangement and makes H the only listed pen sold in a 30-day month (June); however, the continuation page replaces G/H with C/H and permits another arrangement where G is also in a 30-day month. Therefore the source does not support a stable unique odd-one answer across its conflicting versions.",
+      "printed_key": "A visible mark appears at E (Pen H), consistent with the question-slide-only solution, but not enough to resolve the source conflict.",
+      "key_discrepancy": null,
+      "classification": "held",
+      "hold_reason": "The shared clue changes from “between G and H” on p.7 to “between C and H” on p.8. Under the latter, multiple arrangements make the odd-one answer ambiguous.",
+      "confidence": "high that the source conflicts",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 10 | appearance 3",
+      "source_pdf": "Scheduling Puzzles Month Based 02  Class Notes.pdf",
+      "physical_pages": [
+        10,
+        11,
+        12
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "nine_moviegoers_sparse_months",
+      "page_kind": "question with repeated shared directions and solution table",
+      "question": "If X goes to the movie immediately after E, in which month does X go?",
+      "shared_directions": "Nine persons A–I occupy the listed months January, March, April, June, July, September, October, November and December. B is in an even-day month after July; exactly two persons are between B and A; C is two positions before A; persons before C equals persons after D; exactly one person is between D and I; G immediately follows I; H immediately precedes E; F is not after E.",
+      "options": {
+        "A": "July",
+        "B": "December",
+        "C": "November",
+        "D": "October",
+        "E": "September"
+      },
+      "enumeration": {
+        "method": "Exhaustive permutation of nine people over the nine listed month positions",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "January": "C",
+          "March": "F",
+          "April": "A",
+          "June": "H",
+          "July": "E",
+          "September": "B",
+          "October": "I",
+          "November": "G",
+          "December": "D"
+        }
+      },
+      "verified_answer": "E",
+      "reasoning": "The arrangement is unique. E is in July; the next listed scheduling month after July is September, so hypothetical X would go in September. The page 12 solution table matches this arrangement.",
+      "printed_key": "E (visible check)",
+      "key_discrepancy": false,
+      "classification": "verified_unique_candidate",
+      "confidence": "high",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "44a1f464-8996-400f-a6b6-6afe0d19eb2e",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 10-12",
+        "correct_option": "E"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 13 | appearance 4",
+      "source_pdf": "Scheduling Puzzles Month Based 02  Class Notes.pdf",
+      "physical_pages": [
+        13,
+        14
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "nine_countries_vaccine_months_2020",
+      "page_kind": "question with solution/case table",
+      "question": "Which country invented the vaccine in October?",
+      "shared_directions": "Nine countries India, America, Denmark, Bhutan, Russia, Israel, Nepal, Japan and China occupy January, February, April, May, June, August, September, October and November 2020. Israel is after July but not November; exactly three countries are between Israel and Bhutan; Russia is before Bhutan and not in a month with fewer than 31 days; Japan is three months after Nepal; America is immediately after Japan; China is in a 30-day month; Denmark is after America but before India.",
+      "options": {
+        "A": "India",
+        "B": "Israel",
+        "C": "Denmark",
+        "D": "America",
+        "E": "None of these"
+      },
+      "enumeration": {
+        "method": "Exhaustive permutation of nine countries over nine listed month positions",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "January": "Russia",
+          "February": "Nepal",
+          "April": "China",
+          "May": "Bhutan",
+          "June": "Japan",
+          "August": "America",
+          "September": "Denmark",
+          "October": "Israel",
+          "November": "India"
+        }
+      },
+      "verified_answer": "B",
+      "reasoning": "Exhaustive enumeration of the written constraints gives one arrangement; Israel occupies October. The rendered answer annotation appears to mark option A (India), which conflicts with the independent arrangement.",
+      "printed_key": "A appears marked on page 13; page 14 handwriting is not sufficiently legible to override the written clues.",
+      "key_discrepancy": true,
+      "classification": "verified_unique_candidate",
+      "confidence": "high for derivation; source key mismatch",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "55d20fde-e442-45b3-b4e9-15cec18a03cf",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 13-14",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 18 | repeated question prompt",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        18
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "hospital_amounts_months",
+      "page_kind": "repeated prompt/options; shared clue set on p.19",
+      "question": "Which month does G go to the hospital?",
+      "shared_directions": "See the canonical complete question entry on p.19; this slide repeats its prompt and options without the clue set.",
+      "options": {
+        "A": "December",
+        "B": "September",
+        "C": "August",
+        "D": "June",
+        "E": "NOT"
+      },
+      "verified_answer": null,
+      "reasoning": "Repeated prompt appearance; answer audited with the complete clue set on p.19.",
+      "printed_key": "No distinct answer mark on this prompt-only slide.",
+      "key_discrepancy": false,
+      "classification": "duplicate_prompt_appearance",
+      "duplicate_of": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 19 | hospital_amounts_months",
+      "confidence": "high",
+      "integration": {
+        "status": "duplicate_appearance_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 19 | hospital question",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        19,
+        20,
+        21
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "hospital_amounts_months",
+      "page_kind": "shared clues and question, repeated clue/working slide, solution table",
+      "question": "Which month does G go to the hospital?",
+      "shared_directions": "Six persons D, E, F, G, H, and I go for medical checkups in different months—January, April, June, August, September and December—and spend different amounts. I goes in a month with an odd number of days. I is two positions before the person spending ₹700. Exactly one person is between I and H. The number before H equals the number after the ₹1800 spender. F is three positions before the person immediately after D. Neither F nor D spends ₹1800. G goes in an even-day month. G spends three times H; I spends ₹300 more than G; H+E is ₹200 less than D; no amount exceeds ₹2500; F spends ₹500 less than D.",
+      "options": {
+        "A": "December",
+        "B": "September",
+        "C": "August",
+        "D": "June",
+        "E": "NOT"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of six month positions plus positive, distinct whole-rupee amounts bounded by the stated maximum, enforcing all amount equations, the explicit 700/1800 clues, and all position/month constraints. “Three persons before” interpreted as three positions earlier; this interpretation is consistent with the written ordering convention and yields the displayed table.",
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "January": "F",
+          "April": "H",
+          "June": "D",
+          "August": "I",
+          "September": "G",
+          "December": "E"
+        },
+        "amounts_by_month": {
+          "January": 1000,
+          "April": 600,
+          "June": 1500,
+          "August": 2100,
+          "September": 1800,
+          "December": 700
+        }
+      },
+      "verified_answer": "B",
+      "reasoning": "The constraints yield the unique order Jan F, Apr H, Jun D, Aug I, Sep G, Dec E. The amounts are respectively ₹1000, ₹600, ₹1500, ₹2100, ₹1800 and ₹700. Every numerical relation holds, including G=3H, I=G+300, H+E=D−200, F=D−500, I two positions before the ₹700 spender, and neither F nor D spending ₹1800. Therefore G goes in September.",
+      "printed_key": "B (September) marked on p.19; handwritten solution/table on pp.20–21 agrees.",
+      "key_discrepancy": false,
+      "classification": "verified_unique_candidate",
+      "confidence": "high",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "f99afef5-af9b-4324-ad64-b96c2b8a5c6c",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 19-21",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 22 | repeated question prompt",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        22
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "cycle_brands_months",
+      "page_kind": "repeated prompt/options; shared clue set on p.23",
+      "question": "In which month does J buy a cycle?",
+      "shared_directions": "See the canonical complete question entry on p.23; this slide repeats its prompt and options without the clue set.",
+      "options": {
+        "A": "November",
+        "B": "September",
+        "C": "None of these",
+        "D": "March",
+        "E": "May"
+      },
+      "verified_answer": null,
+      "reasoning": "Repeated prompt appearance; answer audited with the complete clue set on p.23.",
+      "printed_key": "No distinct answer mark on this prompt-only slide.",
+      "key_discrepancy": false,
+      "classification": "duplicate_prompt_appearance",
+      "duplicate_of": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 23 | cycle_brands_months",
+      "confidence": "high",
+      "integration": {
+        "status": "duplicate_appearance_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 23 | cycle question",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        23,
+        24,
+        25
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "cycle_brands_months",
+      "page_kind": "shared clues and question, worked diagram, solution table",
+      "question": "In which month does J buy a cycle?",
+      "shared_directions": "Six people I, J, K, L, M and N buy distinct cycles—Atlas, Avon, Hercules, Mach City, Hero and Roadmaster—in March, May, June, September, October and November. J buys in a month with an even number of days. Exactly two people are between J and the Atlas buyer; Atlas is not bought in November. The number before the Atlas buyer equals the number after N. I is two positions before the Hercules buyer and does not buy Atlas. M is two positions before the Avon buyer; M is not after I and is not in May. K is before the Mach City buyer. N does not buy Mach City. Neither N nor K buys Hero.",
+      "options": {
+        "A": "November",
+        "B": "September",
+        "C": "None of these",
+        "D": "March",
+        "E": "May"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of all 6! person orders and 6! cycle assignments; “two persons before” interpreted as two positions earlier, distinct from the clue wording “two persons between.”",
+        "valid_arrangement_count": 1,
+        "arrangement_by_month": {
+          "March": {
+            "person": "M",
+            "cycle": "Atlas"
+          },
+          "May": {
+            "person": "I",
+            "cycle": "Hero"
+          },
+          "June": {
+            "person": "K",
+            "cycle": "Avon"
+          },
+          "September": {
+            "person": "J",
+            "cycle": "Hercules"
+          },
+          "October": {
+            "person": "L",
+            "cycle": "Mach City"
+          },
+          "November": {
+            "person": "N",
+            "cycle": "Roadmaster"
+          }
+        }
+      },
+      "verified_answer": "B",
+      "reasoning": "Exactly one complete assignment satisfies all clues: March M/Atlas, May I/Hero, June K/Avon, September J/Hercules, October L/Mach City, November N/Roadmaster. Thus J buys in September. All positional and exclusion clues check against this table.",
+      "printed_key": "B (September) marked on p.23; the solution table on p.25 agrees.",
+      "key_discrepancy": false,
+      "classification": "verified_unique_candidate",
+      "confidence": "high",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "cf5e0ae1-d0e4-4939-a05e-a5fd5e8dc617",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 23-25",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 4 | butterscotch question",
+      "source_pdf": "Scheduling Puzzles Month Based 05 Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "seven_birthdays_cake_flavors",
+      "page_kind": "question on p.4, repeated English clues/prompt on p.5, working p.6 and solution table p.7",
+      "question": "Who among the following persons likes butterscotch?",
+      "shared_directions": "Seven persons I, J, K, L, M, N and O have birthdays in January, February, May, June, August, September and October and like distinct flavors: vanilla, black forest, pineapple, red velvet, butterscotch, strawberry and chocolate. Before M is one more person than after O, and O is after M. M likes strawberry; the red-velvet person is three positions after M. Exactly two persons are after the chocolate person. Exactly two persons are between the pineapple person and J; J is in May or June. K is before L; neither K nor L is in a month with fewer than 31 days; neither likes chocolate. N likes neither vanilla nor pineapple. K and J have vanilla and black forest in some order. Butterscotch is immediately before black forest.",
+      "options": {
+        "A": "N",
+        "B": "J",
+        "C": "The person whose birthday is in February",
+        "D": "M",
+        "E": "Both A and C"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of 7! person orders and 7! flavor assignments, enforcing all stated conditions",
+        "valid_arrangement_count": 1,
+        "arrangement_by_month": [
+          {
+            "January": {
+              "person": "K",
+              "flavor": "vanilla"
+            }
+          },
+          {
+            "February": {
+              "person": "N",
+              "flavor": "butterscotch"
+            }
+          },
+          {
+            "May": {
+              "person": "J",
+              "flavor": "black forest"
+            }
+          },
+          {
+            "June": {
+              "person": "M",
+              "flavor": "strawberry"
+            }
+          },
+          {
+            "August": {
+              "person": "O",
+              "flavor": "chocolate"
+            }
+          },
+          {
+            "September": {
+              "person": "I",
+              "flavor": "pineapple"
+            }
+          },
+          {
+            "October": {
+              "person": "L",
+              "flavor": "red velvet"
+            }
+          }
+        ]
+      },
+      "derived_answer": "N; N is also the February celebrant.",
+      "verified_answer": null,
+      "reasoning": "The written clues yield the single table shown. N is the butterscotch person and celebrates in February. Thus options A and C are each independently correct, while E (Both A and C) is also a true combined response. The MCQ has multiple valid answer options and is held.",
+      "printed_key": "E (Both A and C) appears marked on p.4/p.5; it reflects the intended combined answer but does not make the other individually true options incorrect.",
+      "key_discrepancy": null,
+      "classification": "held",
+      "hold_reason": "The correct identity appears separately as option A and option C, while option E repeats both as a combined response. Multiple listed options are logically correct, so the question is not a single-answer MCQ.",
+      "confidence": "high for arrangement and defect",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 5 | repeated English prompt appearance",
+      "source_pdf": "Scheduling Puzzles Month Based 05 Class Notes.pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "seven_birthdays_cake_flavors",
+      "page_kind": "repeated prompt/options with English shared clues; canonical question p.4",
+      "question": "Who among the following persons likes butterscotch?",
+      "shared_directions": "English repeat of the complete group on p.4.",
+      "options": {
+        "A": "N",
+        "B": "J",
+        "C": "The person whose birthday is in February",
+        "D": "M",
+        "E": "Both A and C"
+      },
+      "verified_answer": null,
+      "classification": "duplicate_prompt_appearance",
+      "duplicate_of": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 4 | butterscotch question",
+      "reasoning": "Same question, options, and group as p.4; repeated appearance shares its held status.",
+      "confidence": "high",
+      "integration": {
+        "status": "duplicate_appearance_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 8 | repeated bilingual prompt appearance",
+      "source_pdf": "Scheduling Puzzles Month Based 05 Class Notes.pdf",
+      "physical_pages": [
+        8
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "six_joiners_month_city_odd_pair",
+      "page_kind": "question/options with Hindi shared conditions; full English condition repeat on p.9",
+      "question": "Who among the following does not belong to the group?",
+      "shared_directions": "The six joiners U, V, W, X, Y, Z occupy April, May, June, August, October and November and distinct cities Mumbai, Kolkata, Chennai, Delhi, Pune and Bangalore. Complete English clues are repeated on p.9.",
+      "options": {
+        "A": "Z-Kolkata",
+        "B": "Y-Mumbai",
+        "C": "V-Pune",
+        "D": "U-Delhi",
+        "E": "W-Chennai"
+      },
+      "verified_answer": null,
+      "classification": "duplicate_bilingual_prompt_appearance",
+      "duplicate_of": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 9 | city odd-pair question",
+      "reasoning": "The complete question and options are repeated in English on p.9; this bilingual appearance is retained as a duplicate source appearance.",
+      "confidence": "high",
+      "integration": {
+        "status": "duplicate_appearance_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 9 | city odd-pair question",
+      "source_pdf": "Scheduling Puzzles Month Based 05 Class Notes.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "six_joiners_month_city_odd_pair",
+      "page_kind": "question repeated on p.8; complete English clues/question p.9; handwritten solution p.10; table p.11",
+      "question": "Who among the following does not belong to the group?",
+      "shared_directions": "Six persons U, V, W, X, Y, Z join in April, May, June, August, October and November, each in a different city among Mumbai, Kolkata, Chennai, Delhi, Pune and Bangalore. Y is in an even-day month and joins two positions after the Delhi person. One person is between Y and Z. The number before Z equals the number after the Chennai person. U is in an even-day month after Z. V joins two calendar months before the Pune person; V is neither in Delhi nor Bangalore. X joins before W; W is not in Chennai. Neither V nor Y is in Kolkata.",
+      "options": {
+        "A": "Z-Kolkata",
+        "B": "Y-Mumbai",
+        "C": "V-Pune",
+        "D": "U-Delhi",
+        "E": "W-Chennai"
+      },
+      "enumeration": {
+        "method": "Exhaustive enumeration of all 6! person orders and 6! city assignments; calendar-month distance used for two months before Pune",
+        "valid_arrangement_count": 1,
+        "arrangement_by_month": [
+          {
+            "April": {
+              "person": "Z",
+              "city": "Delhi"
+            }
+          },
+          {
+            "May": {
+              "person": "X",
+              "city": "Kolkata"
+            }
+          },
+          {
+            "June": {
+              "person": "Y",
+              "city": "Bangalore"
+            }
+          },
+          {
+            "August": {
+              "person": "V",
+              "city": "Mumbai"
+            }
+          },
+          {
+            "October": {
+              "person": "W",
+              "city": "Pune"
+            }
+          },
+          {
+            "November": {
+              "person": "U",
+              "city": "Chennai"
+            }
+          }
+        ]
+      },
+      "verified_answer": "D",
+      "reasoning": "The unique arrangement is Apr Z/Delhi, May X/Kolkata, Jun Y/Bangalore, Aug V/Mumbai, Oct W/Pune, Nov U/Chennai. A, B, C and E each pair a listed person with the next chronological person’s city. D pairs the final person U with Delhi (Z’s city), wrapping from the end to the beginning, and is the odd one.",
+      "printed_key": "D marked on p.9; handwritten arrangement p.10 and table p.11 agree.",
+      "key_discrepancy": false,
+      "classification": "verified_unique_candidate",
+      "confidence": "high",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "9ba26ad0-b2f3-4299-b26e-81f9caea1d92",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "source": "PDF: Scheduling Puzzles Month Based 05 Class Notes.pdf; physical page(s) 8-11",
+        "correct_option": "D"
+      }
+    }
+  ],
+  "page_classification": {
+    "1": "cover",
+    "2": "recap",
+    "3": "topic_overview",
+    "4": "bilingual_question_and_clues",
+    "5": "repeated_english_question_and_clues",
+    "6": "worked_solution_with_clue_repetition",
+    "7": "solution_table",
+    "8": "bilingual_question_and_clues",
+    "9": "repeated_english_question_and_clues",
+    "10": "worked_solution_with_clue_repetition",
+    "11": "solution_table",
+    "12": "closing"
+  },
+  "summary": {
+    "answer_verified_unique_candidates": 6,
+    "held_unique_questions": 2,
+    "duplicate_question_prompt_appearances": 4,
+    "worked_example_nonquestion_groups": 9,
+    "cross_pdf_duplicate_worked_examples": 3,
+    "wrong_chapter": 0,
+    "unclassified_question_appearances": 0,
+    "cross_pdf_dedup_complete": true,
+    "cross_bank_dedup_complete_for_verified_candidates": true,
+    "source_pdf_audit_complete": true
+  },
+  "note": "Final status: all 66 source pages and 12 question appearances classified; six verified unique candidates, two held unique prompts, and four repeated appearances. Same-chapter PDF and destination-bank duplicate review is complete; no database writes were made.",
+  "source_groups": [
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 03 Class Notes.pdf | physical page(s) [5, 6, 7] | worked example 1",
+      "source_pdf": "Scheduling Puzzles Month Based 03 Class Notes.pdf",
+      "physical_pages": [
+        5,
+        6,
+        7
+      ],
+      "group": "eight birthdays across May/August/September/December on the 6th or 21st",
+      "classification": "worked_example_nonquestion",
+      "question_appearance_count": 0,
+      "shared_conditions": "G is in a 31-day month; E immediately follows D; B is in August; two people between B and C; one between C and H; F is on the 21st; H is not August; C after B; three people between A and H.",
+      "independent_enumeration": {
+        "valid_arrangements": 1,
+        "arrangement_by_chronological_date": [
+          {
+            "May 6": "A"
+          },
+          {
+            "May 21": "D"
+          },
+          {
+            "August 6": "E"
+          },
+          {
+            "August 21": "B"
+          },
+          {
+            "September 6": "H"
+          },
+          {
+            "September 21": "F"
+          },
+          {
+            "December 6": "C"
+          },
+          {
+            "December 21": "G"
+          }
+        ]
+      },
+      "note": "All clues check. Slides contain shared directions and a completed arrangement, but no individual interrogative prompt or answer options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 03 Class Notes.pdf | physical page(s) [8, 9, 10] | worked example 2",
+      "source_pdf": "Scheduling Puzzles Month Based 03 Class Notes.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10
+      ],
+      "group": "nine birthdays across February/March/April on the 3rd, 6th, or 9th",
+      "classification": "worked_example_nonquestion",
+      "question_appearance_count": 0,
+      "shared_conditions": "F is not adjacent to H; H is on an odd date in April; F is not March; B before I; one person between E and I; four between H and G; E after A and both on the 3rd; one person between A and D.",
+      "independent_enumeration": {
+        "valid_arrangements": 1,
+        "arrangement_by_chronological_date": [
+          {
+            "February 3": "A"
+          },
+          {
+            "February 6": "G"
+          },
+          {
+            "February 9": "D"
+          },
+          {
+            "March 3": "E"
+          },
+          {
+            "March 6": "B"
+          },
+          {
+            "March 9": "I"
+          },
+          {
+            "April 3": "H"
+          },
+          {
+            "April 6": "C"
+          },
+          {
+            "April 9": "F"
+          }
+        ]
+      },
+      "note": "The displayed table matches the unique arrangement. No question prompt/options appear on the pages."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 03 Class Notes.pdf | physical page(s) [11, 12] | worked example 3",
+      "source_pdf": "Scheduling Puzzles Month Based 03 Class Notes.pdf",
+      "physical_pages": [
+        11,
+        12
+      ],
+      "group": "eight meetings across April, June, July, August on day 18 or 19",
+      "classification": "worked_example_nonquestion",
+      "question_appearance_count": 0,
+      "shared_conditions": "At most two people per month; distinct meeting dates; T before R; S in June; T in a month with maximum days; three between O and P; Q and O same month; P on April 19; gaps between M/N and Q/R equal; M before N; N not after O.",
+      "independent_enumeration": {
+        "valid_arrangements": 1,
+        "arrangement_by_chronological_slot": [
+          {
+            "April 18": "M"
+          },
+          {
+            "April 19": "P"
+          },
+          {
+            "June 18": "S"
+          },
+          {
+            "June 19": "N"
+          },
+          {
+            "July 18": "Q"
+          },
+          {
+            "July 19": "O"
+          },
+          {
+            "August 18": "T"
+          },
+          {
+            "August 19": "R"
+          }
+        ]
+      },
+      "note": "Unique under the stated month/day order (July and August are both 31-day months). The pages contain clues and partial handwritten working only; no interrogative prompt/options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 4-6 | eight-birthday example",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "group": "eight birthdays across May/August/September/December on the 6th or 21st",
+      "classification": "worked_example_nonquestion; cross-PDF duplicate",
+      "question_appearance_count": 0,
+      "duplicate_of": "Scheduling Puzzles Month Based 03 Class Notes.pdf | pages 5-7 | eight-birthday example",
+      "note": "Same people, date/month domains, clue set and completed arrangement as Lecture 03 pages 5–7. No question prompt/options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 7-9 | nine-birthday example",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        7,
+        8,
+        9
+      ],
+      "group": "nine birthdays across February/March/April on the 3rd, 6th or 9th",
+      "classification": "worked_example_nonquestion; cross-PDF duplicate",
+      "question_appearance_count": 0,
+      "duplicate_of": "Scheduling Puzzles Month Based 03 Class Notes.pdf | pages 8-10 | nine-birthday example",
+      "note": "Same domains, clue structure and completed arrangement as Lecture 03 pages 8–10. No question prompt/options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 10-11 | eight-meeting example",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        10,
+        11
+      ],
+      "group": "eight meetings across April, June, July and August on dates 18/19",
+      "classification": "worked_example_nonquestion; cross-PDF duplicate",
+      "question_appearance_count": 0,
+      "duplicate_of": "Scheduling Puzzles Month Based 03 Class Notes.pdf | pages 11-12 | eight-meeting example",
+      "note": "Same group and conditions as Lecture 03 pages 11–12; handwritten working appears on p.11. No question prompt/options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 12-13 | six-teacher ground meeting example",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        12,
+        13
+      ],
+      "group": "six teachers at Jan/Apr/Aug meetings on 5th or 11th",
+      "classification": "worked_example_nonquestion",
+      "question_appearance_count": 0,
+      "shared_conditions": "A–F occupy six ordered slots Jan 5, Jan 11, Apr 5, Apr 11, Aug 5, Aug 11. B is on an 11th before D; no one between C and D; two teachers between B and D; two between A and F; one between F and C; C is in August.",
+      "independent_enumeration": {
+        "method": "Exhaustive permutations over six slots",
+        "valid_arrangements": 1,
+        "arrangement_by_chronological_slot": [
+          {
+            "Jan 5": "A"
+          },
+          {
+            "Jan 11": "B"
+          },
+          {
+            "Apr 5": "E"
+          },
+          {
+            "Apr 11": "F"
+          },
+          {
+            "Aug 5": "D"
+          },
+          {
+            "Aug 11": "C"
+          }
+        ]
+      },
+      "note": "No interrogative prompt/options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 14-15 | ten-employee leave example",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        14,
+        15
+      ],
+      "group": "ten employees on the 10th/15th across April-August",
+      "classification": "worked_example_nonquestion",
+      "question_appearance_count": 0,
+      "shared_conditions": "J–S receive leave on the 10th or 15th in April–August, one person per date; the full clue text is on pp.14–15 and handwriting on p.15.",
+      "note": "No individual question prompt/options; retained as non-question context rather than counted as an MCQ."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 16-17 | eight-birth-year example",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        16,
+        17
+      ],
+      "group": "eight people assigned birth years 2010, 2004, 1996, 1995, 1987, 1980, 1974 and 1964",
+      "classification": "worked_example_nonquestion",
+      "question_appearance_count": 0,
+      "shared_conditions": "Ages based on 2023; H>20; A,E<45; B not youngest and cube age; C at most 20 years older than A; one between G/B; E immediately precedes A in the year ordering; two between G/H; D younger than F with age difference at most 10.",
+      "note": "Directions repeated on pp.16–17; no interrogative prompt/options."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 18-21 | hospital amounts question group",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "group": "six hospital checkups across Jan/Apr/Jun/Aug/Sep/Dec with different expenses",
+      "classification": "question_group",
+      "question_appearance_count": 2,
+      "canonical_question": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 19 | hospital question",
+      "solution": {
+        "valid_arrangement_count": 1,
+        "arrangement": {
+          "January": "F",
+          "April": "H",
+          "June": "D",
+          "August": "I",
+          "September": "G",
+          "December": "E"
+        },
+        "amounts_by_month": {
+          "January": 1000,
+          "April": 600,
+          "June": 1500,
+          "August": 2100,
+          "September": 1800,
+          "December": 700
+        }
+      },
+      "note": "The question prompt/options repeat on p.18 and p.19; p.19 includes the complete shared clues, pp.20–21 show handwritten work/table."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | pages 22-25 | cycle brands question group",
+      "source_pdf": "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+      "physical_pages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "group": "six cycle purchases across Mar/May/Jun/Sep/Oct/Nov",
+      "classification": "question_group",
+      "question_appearance_count": 2,
+      "canonical_question": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 23 | cycle question",
+      "solution": {
+        "valid_arrangement_count": 1,
+        "arrangement_by_month": {
+          "March": {
+            "person": "M",
+            "cycle": "Atlas"
+          },
+          "May": {
+            "person": "I",
+            "cycle": "Hero"
+          },
+          "June": {
+            "person": "K",
+            "cycle": "Avon"
+          },
+          "September": {
+            "person": "J",
+            "cycle": "Hercules"
+          },
+          "October": {
+            "person": "L",
+            "cycle": "Mach City"
+          },
+          "November": {
+            "person": "N",
+            "cycle": "Roadmaster"
+          }
+        }
+      },
+      "note": "The question/options repeat on p.22 and p.23; p.23 includes complete shared clues; p.24 handwritten solution; p.25 table."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | pages 4-7 | birthday/flavor group",
+      "source_pdf": "Scheduling Puzzles Month Based 05 Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "group": "seven birthdays across seven listed months with cake flavors",
+      "question_appearance_count": 2,
+      "canonical_question": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 4 | butterscotch question",
+      "classification": "question_group; question held for overlapping correct options",
+      "solution": {
+        "valid_arrangements": 1,
+        "arrangement_by_month": [
+          {
+            "January": {
+              "person": "K",
+              "flavor": "vanilla"
+            }
+          },
+          {
+            "February": {
+              "person": "N",
+              "flavor": "butterscotch"
+            }
+          },
+          {
+            "May": {
+              "person": "J",
+              "flavor": "black forest"
+            }
+          },
+          {
+            "June": {
+              "person": "M",
+              "flavor": "strawberry"
+            }
+          },
+          {
+            "August": {
+              "person": "O",
+              "flavor": "chocolate"
+            }
+          },
+          {
+            "September": {
+              "person": "I",
+              "flavor": "pineapple"
+            }
+          },
+          {
+            "October": {
+              "person": "L",
+              "flavor": "red velvet"
+            }
+          }
+        ]
+      },
+      "answer_issue": "N is the butterscotch person and is also the February celebrant; options A, C and E all state true answers."
+    },
+    {
+      "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | pages 8-11 | city odd-pair group",
+      "source_pdf": "Scheduling Puzzles Month Based 05 Class Notes.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "group": "six company joiners assigned months and cities",
+      "question_appearance_count": 2,
+      "canonical_question": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 9 | city odd-pair question",
+      "classification": "question_group; verified unique",
+      "solution": {
+        "valid_arrangements": 1,
+        "arrangement_by_month": [
+          {
+            "April": {
+              "person": "Z",
+              "city": "Delhi"
+            }
+          },
+          {
+            "May": {
+              "person": "X",
+              "city": "Kolkata"
+            }
+          },
+          {
+            "June": {
+              "person": "Y",
+              "city": "Bangalore"
+            }
+          },
+          {
+            "August": {
+              "person": "V",
+              "city": "Mumbai"
+            }
+          },
+          {
+            "October": {
+              "person": "W",
+              "city": "Pune"
+            }
+          },
+          {
+            "November": {
+              "person": "U",
+              "city": "Chennai"
+            }
+          }
+        ]
+      },
+      "note": "Options A, B, C and E connect a person to the next chronological person’s city; D is the wraparound pairing."
+    }
+  ],
+  "audited_source_pdfs": [
+    "Scheduling Puzzles Month Based 02  Class Notes.pdf",
+    "Scheduling Puzzles Month Based 03 Class Notes.pdf",
+    "Scheduling Puzzles Month Based 04  Class Notes.pdf",
+    "Scheduling Puzzles Month Based 05 Class Notes.pdf"
+  ],
+  "page_classification_by_pdf": {
+    "Scheduling Puzzles Month Based 02  Class Notes.pdf": {
+      "1": "cover",
+      "2": "topic_overview",
+      "3": "shared_directions",
+      "4": "question",
+      "5": "repeated_directions_and_solution",
+      "6": "solution_table",
+      "7": "question",
+      "8": "conflicting_continuation",
+      "9": "worked_solution",
+      "10": "question",
+      "11": "repeated_directions",
+      "12": "worked_solution_table",
+      "13": "question",
+      "14": "worked_solution_table",
+      "15": "closing"
+    },
+    "Scheduling Puzzles Month Based 03 Class Notes.pdf": {
+      "1": "cover",
+      "2": "recap",
+      "3": "topic_overview",
+      "4": "worked_example_notes_no_mcq",
+      "5": "shared_clues_no_mcq",
+      "6": "worked_solution_case_work",
+      "7": "worked_solution_table",
+      "8": "shared_clues_no_mcq",
+      "9": "worked_solution_case_work",
+      "10": "worked_solution_table",
+      "11": "shared_clues_no_mcq",
+      "12": "partial_worked_solution",
+      "13": "closing"
+    },
+    "Scheduling Puzzles Month Based 04  Class Notes.pdf": {
+      "1": "cover",
+      "2": "recap",
+      "3": "topic_overview",
+      "4": "shared_clues_no_mcq",
+      "5": "repeated_shared_clues",
+      "6": "worked_solution_table",
+      "7": "shared_clues_no_mcq",
+      "8": "repeated_shared_clues",
+      "9": "worked_solution_table",
+      "10": "shared_clues_no_mcq",
+      "11": "continued_clues_and_handwritten_work",
+      "12": "puzzle_5_shared_clues_no_mcq",
+      "13": "continued_clues_and_handwritten_work",
+      "14": "shared_clues_no_mcq",
+      "15": "continued_clues_and_handwritten_work",
+      "16": "shared_clues_no_mcq",
+      "17": "repeated_shared_clues_no_mcq",
+      "18": "question_prompt_and_options",
+      "19": "shared_clues_and_repeated_question",
+      "20": "worked_solution_and_repeated_clues",
+      "21": "worked_solution_table",
+      "22": "question_prompt_and_options",
+      "23": "shared_clues_and_repeated_question",
+      "24": "worked_solution_diagram",
+      "25": "worked_solution_table",
+      "26": "closing"
+    },
+    "Scheduling Puzzles Month Based 05 Class Notes.pdf": {
+      "1": "cover",
+      "2": "recap",
+      "3": "topic_overview",
+      "4": "bilingual_question_and_clues",
+      "5": "repeated_english_question_and_clues",
+      "6": "worked_solution_with_clue_repetition",
+      "7": "solution_table",
+      "8": "bilingual_question_and_clues",
+      "9": "repeated_english_question_and_clues",
+      "10": "worked_solution_with_clue_repetition",
+      "11": "solution_table",
+      "12": "closing"
+    }
+  },
+  "integration_result": {
+    "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+    "before_active": 40,
+    "before_inactive": 0,
+    "imported_count": 6,
+    "retired_count": 6,
+    "after_active": 40,
+    "after_inactive": 6,
+    "imported_records": [
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 4 | appearance 1",
+        "question_id": "f9b3b50f-74a6-462f-9954-54e1ca5204ad",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "D",
+        "answer": "Bajaj"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 10 | appearance 3",
+        "question_id": "44a1f464-8996-400f-a6b6-6afe0d19eb2e",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 10-12",
+        "correct_option": "E",
+        "answer": "September"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 13 | appearance 4",
+        "question_id": "55d20fde-e442-45b3-b4e9-15cec18a03cf",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 13-14",
+        "correct_option": "B",
+        "answer": "Israel"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 19 | hospital question",
+        "question_id": "f99afef5-af9b-4324-ad64-b96c2b8a5c6c",
+        "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 19-21",
+        "correct_option": "B",
+        "answer": "September"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 23 | cycle question",
+        "question_id": "cf5e0ae1-d0e4-4939-a05e-a5fd5e8dc617",
+        "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 23-25",
+        "correct_option": "B",
+        "answer": "September"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 9 | city odd-pair question",
+        "question_id": "9ba26ad0-b2f3-4299-b26e-81f9caea1d92",
+        "source": "PDF: Scheduling Puzzles Month Based 05 Class Notes.pdf; physical page(s) 8-11",
+        "correct_option": "D",
+        "answer": "U-Delhi"
+      }
+    ],
+    "retired_records": [
+      {
+        "id": "249f4365-573d-4159-8b3b-36d724ca5d97",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "question_text": "Original Practice Question — Six different people F, D, C, E, A, B are scheduled in six distinct months: January, March, May, July, September, November. Each month is used once. Shared clues: F is scheduled earlier in the year than D. D is scheduled earlier in the year than C. C is scheduled earlier in the year than E. E is scheduled earlier in the year than A. A is scheduled earlier in the year than B.\n\nQuestion: In which month is A scheduled?",
+        "explanation": "The five precedence clues force the complete order F → D → C → E → A → B. The listed months follow that order, so A is scheduled in September.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "January",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "November",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "May",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "July",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "September",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "613436c9-0c8a-4541-bfa1-fce90b9e12a0",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "question_text": "Original Practice Question — Six different people D, C, E, F, B, A are scheduled in six distinct months: February, April, June, August, October, December. Each month is used once. Shared clues: D is scheduled earlier in the year than C. C is scheduled earlier in the year than E. E is scheduled earlier in the year than F. F is scheduled earlier in the year than B. B is scheduled earlier in the year than A.\n\nQuestion: In which month is B scheduled?",
+        "explanation": "The five precedence clues force the complete order D → C → E → F → B → A. The listed months follow that order, so B is scheduled in October.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "October",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "December",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "August",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "June",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "April",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "cb2ea773-5f0b-483a-9118-3fc4a63b568a",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "question_text": "Original Practice Question — Six different people B, A, D, F, E, C are scheduled in six distinct months: January, April, June, July, October, December. Each month is used once. Shared clues: B is scheduled earlier in the year than A. A is scheduled earlier in the year than D. D is scheduled earlier in the year than F. F is scheduled earlier in the year than E. E is scheduled earlier in the year than C.\n\nQuestion: In which month is E scheduled?",
+        "explanation": "The five precedence clues force the complete order B → A → D → F → E → C. The listed months follow that order, so E is scheduled in October.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "January",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "June",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "December",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "October",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "July",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "36845130-dac1-4a2a-a6b7-2cf675d19b7b",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "question_text": "Original Practice Question — Six different people F, C, A, D, E, B are scheduled in six distinct months: February, March, May, August, September, November. Each month is used once. Shared clues: F is scheduled earlier in the year than C. C is scheduled earlier in the year than A. A is scheduled earlier in the year than D. D is scheduled earlier in the year than E. E is scheduled earlier in the year than B.\n\nQuestion: In which month is E scheduled?",
+        "explanation": "The five precedence clues force the complete order F → C → A → D → E → B. The listed months follow that order, so E is scheduled in September.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "August",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "March",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "November",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "May",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "September",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "c9908082-b147-408f-901d-ae7499996867",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "question_text": "Original Practice Question — Six different people E, A, C, D, F, B are scheduled in six distinct months: January, May, June, August, September, December. Each month is used once. Shared clues: E is scheduled earlier in the year than A. A is scheduled earlier in the year than C. C is scheduled earlier in the year than D. D is scheduled earlier in the year than F. F is scheduled earlier in the year than B.\n\nQuestion: In which month is F scheduled?",
+        "explanation": "The five precedence clues force the complete order E → A → C → D → F → B. The listed months follow that order, so F is scheduled in September.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "September",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "June",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "May",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "December",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "August",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "27dad3e0-72a4-4391-bc8a-0fb0a9d0fa6e",
+        "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+        "question_text": "Original Practice Question — Six different people E, F, B, C, A, D are scheduled in six distinct months: February, April, May, July, October, November. Each month is used once. Shared clues: E is scheduled earlier in the year than F. F is scheduled earlier in the year than B. B is scheduled earlier in the year than C. C is scheduled earlier in the year than A. A is scheduled earlier in the year than D.\n\nQuestion: In which month is A scheduled?",
+        "explanation": "The five precedence clues force the complete order E → F → B → C → A → D. The listed months follow that order, so A is scheduled in October.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "October",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "November",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "February",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "April",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "July",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      }
+    ],
+    "import_result": {
+      "total_records": 6,
+      "imported": 6,
+      "rejected": 0,
+      "duplicates": 0,
+      "dry_run": false,
+      "would_import": 6,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": []
+    },
+    "replay_result": {
+      "total_records": 6,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 6,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  }
+}

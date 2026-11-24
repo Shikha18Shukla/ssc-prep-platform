@@ -1,0 +1,291 @@
+{
+  "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+  "chapter_name": "Scheduling Puzzles – Year Based",
+  "database_identity": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1/32",
+    "port": 5432
+  },
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Seven people A-G; years 1985, 1988, 1990, 1991, 1994, 1997, 2001. A has an odd birth year; D is two positions after A; exactly three years separate C and E, with C older and E in an even year; number between D/E equals number between B/F; G is younger than F.\n\nQuestion: C was born in which year?",
+      "options": {
+        "A": "1994",
+        "B": "1991",
+        "C": "1990",
+        "D": "1985",
+        "E": "1988"
+      },
+      "correct_option": "D",
+      "explanation": "The unique ordering assigns C to 1985. The other clues place A=1991, D=1997, E=1988, F=1990, G=1994, B=2001.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 4-6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Eight people L-S; years 1987, 1989, 1990, 1992, 1995, 1997, 1999, 2004. R is five years older than M; at least two are older than R; count older than R equals count younger than S; three people between S and P; two between S and L, with L younger than S; N is two years older than O.\n\nQuestion: Who was born in 1995?",
+      "options": {
+        "A": "The person born immediately before P",
+        "B": "The person born two persons after Q",
+        "C": "M",
+        "D": "R",
+        "E": "P"
+      },
+      "correct_option": "A",
+      "explanation": "The unique arrangement puts L in 1995 and P in 1997, so L is immediately before P.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 7-9"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Seven people D,E,F,G,H,I,J; years 1980, 1984, 1990, 1994, 1999, 2003, 2007. E is a leap year; three people between E and D; one between D and H; H and G differ by four years; G is older than D; positional gap E/G equals D/J; I is older than F but not eldest.\n\nQuestion: H was born in which year?",
+      "options": {
+        "A": "1984",
+        "B": "1990",
+        "C": "1980",
+        "D": "1994",
+        "E": "2003"
+      },
+      "correct_option": "B",
+      "explanation": "Unique assignment gives H=1990.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 10-12"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Eight people C,D,E,F,G,H,I,J born on 28 August in years 1972, 1975, 1978, 1982, 1987, 1989, 1996, 1997. Ages at 28 Aug 2020. More than two people between H/J; J age multiple of 11; J/G age difference 9; I immediately after F, whose year is odd; people before C are one fewer than people after C; at most three people between D/E, with E after D.\n\nQuestion: Who was born in 1978?",
+      "options": {
+        "A": "G",
+        "B": "H",
+        "C": "J",
+        "D": "I",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "The unique assignment places I in 1978.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 5-7"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Seven people A-G have distinct birth years 1950-2000; ages as of 2020. D is fourth oldest and born 1989 (age31). The person adjacent to D and second younger than A differs in age by 5. Number older than A equals number younger than E. Person adjacent to E is age25, which is 20 less than A. F has square age and was born immediately after C in consecutive leap years. G age is average of D/B; B is two years older than youngest.\n\nQuestion: What is the age of G?",
+      "options": {
+        "A": "26",
+        "B": "Two years older than B",
+        "C": "Eight years younger than F",
+        "D": "25",
+        "E": "NOT (none of these)"
+      },
+      "correct_option": "C",
+      "explanation": "The constraints force A=45, C=40, F=36, D=31, B=25, G=28, E=23. Thus G is eight years younger than F. Constrained enumeration over integer ages 20-70 yields one assignment.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 8-10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Eight people A-H have distinct ages from 10 to 41 (reference year 2021). G is a square age; F=G+1; H=F-10; A=2H; G+H=C+1; E=H+2; D=E+1; |B-H|=|H-D|.\n\nQuestion: Who is the youngest person?",
+      "options": {
+        "A": "G",
+        "B": "The person whose age is 16",
+        "C": "B",
+        "D": "A",
+        "E": "C"
+      },
+      "correct_option": "C",
+      "explanation": "Algebra plus the age bounds yields one valid assignment: A32, B13, C40, D19, E18, F26, G25, H16. B is the youngest at 13.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 4-6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Eight friends P-W born in 1975,1979,1981,1985,1987,1991,1997,2000 (age reference 1 Jan 2019). R/S age difference 10, R older; three between R/Q with Q after R; two between U/V; W immediately after V; age(W)+age(T)=age(P)+1.\n\nQuestion: What is the age difference between R and Q?",
+      "options": {
+        "A": "13",
+        "B": "14",
+        "C": "12",
+        "D": "11",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "Unique arrangement: R=1975 (age44), Q=1987 (age32), so the difference is 12.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 7-9"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Ten people P-Y born in 1960,1964,1971,1975,1979,1983,1988,1990,1995,2000 (ages as of 2020). Before P count is one more than after P; three between P/W; Q age prime; R immediately before Q; |S-R| is two less than |R-U|; two between Q/S; V and X have square ages; one between X/Y and Y is eldest.\n\nQuestion: How many people were born between P and the person born in 1971?",
+      "options": {
+        "A": "As many as between Y and X",
+        "B": "As many as between U and the person born in 1995",
+        "C": "As many as between P and the person born in 1995",
+        "D": "As many as between R and U",
+        "E": "Both C & D"
+      },
+      "correct_option": "E",
+      "explanation": "Unique order is Y,S,X,R,Q,P,U,T,V,W from earliest to latest year. The requested count is two. Option C also describes two (P/V have two between); option D also describes two (R/U have Q and P between), so E “Both C & D” is the sole correct option.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 10-13"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-year-based",
+      "question_text": "Eight workers P-W have ages 13,15,16,19,22,26,31,37 and distinct companies Facebook, Google, Snapdeal, HCL, IBM, Infosys, Flipkart, Wipro. S is 6 older than Infosys worker and S even; R=Snapdeal and not younger than S; 2 people between R/Facebook; U= W+7 and W not Wipro; Wipro worker and V have the minimum age gap; T younger than V and not IBM; eldest HCL; P not HCL; Google worker is 4 younger than Flipkart worker.\n\nQuestion: Which person is working in IBM?",
+      "options": {
+        "A": "The one who is two years elder than T",
+        "B": "The one who is three years younger than V",
+        "C": "The one who is five years elder than U",
+        "D": "The one who is one year elder than P",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "Unique arrangement assigns V age16 and P age13 at IBM; P is three years younger than V. A is false because no listed person is 2 years older than T (15); C names R (31), and D would require age14.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf; physical page(s) 8-11"
+    }
+  ],
+  "integration_result": {
+    "chapter_id": "73959b25-9732-4d8f-adfd-1894ef4d088b",
+    "imported_count": 9,
+    "retired_count": 9,
+    "imported_records": [
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+        "question_id": "d7c01a4e-d5d4-44fc-899e-e152104e5c70",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "D",
+        "answer": "1985"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [7, 8, 9] | question appearance",
+        "question_id": "764fde7d-75b0-4621-b9f1-2f47e33a0ac2",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 7-9",
+        "correct_option": "A",
+        "answer": "The person born immediately before P"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf | physical page(s) [10, 11, 12] | question appearance",
+        "question_id": "4614057b-a0d1-40e8-b577-85979107f11a",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 01 Class Notes.pdf; physical page(s) 10-12",
+        "correct_option": "B",
+        "answer": "1990"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf | physical page(s) [5, 6, 7] | question appearance",
+        "question_id": "b15c459d-a56b-414e-854a-d071734f81ab",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 5-7",
+        "correct_option": "D",
+        "answer": "I"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf | physical page(s) [8, 9, 10] | question appearance",
+        "question_id": "0a9988cb-ccf5-422e-930d-037d3062cc6f",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 02 Class Notes-.pdf; physical page(s) 8-10",
+        "correct_option": "C",
+        "answer": "Eight years younger than F"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+        "question_id": "3f66d27d-9a07-4134-8a6f-0dce0bcbf095",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "C",
+        "answer": "B"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [7, 8, 9] | question appearance",
+        "question_id": "73c304c8-6048-43d8-9b06-6fc1d54d7831",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 7-9",
+        "correct_option": "C",
+        "answer": "12"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf | physical page(s) [10, 11, 12, 13] | question appearance",
+        "question_id": "f440b403-323c-43af-89f8-5796cba21345",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 03 _ Class Notes.pdf; physical page(s) 10-13",
+        "correct_option": "E",
+        "answer": "Both C & D"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf | physical page(s) [8, 9, 10, 11] | question appearance",
+        "question_id": "91fa4b0d-9930-4a73-bd69-aa4afbbfff10",
+        "source": "PDF: Scheduling Puzzles Year Based Puzzles 04 _ Class Notes.pdf; physical page(s) 8-11",
+        "correct_option": "B",
+        "answer": "The one who is three years younger than V"
+      }
+    ],
+    "replay_result": {
+      "total_records": 9,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 9,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  }
+}

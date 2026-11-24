@@ -1,0 +1,204 @@
+{
+  "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+  "chapter_name": "Scheduling Puzzles – Month Based",
+  "database_identity": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1/32",
+    "port": 5432
+  },
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-month-based",
+      "question_text": "Eight brands Bajaj, Hero, Honda, Jawa, Revolt, Suzuki, TVS and Yamaha were registered in distinct months May–December. Constraints: Revolt in a 30-day month immediately before Honda; exactly three brands between Honda and TVS; Hero immediately before TVS and two months before Jawa; Yamaha immediately before Suzuki, after Bajaj but not immediately after; Bajaj not first.\n\nQuestion: Which bike brand was registered in August?",
+      "options": {
+        "A": "Yamaha",
+        "B": "Suzuki",
+        "C": "Revolt",
+        "D": "Bajaj",
+        "E": "Jawa"
+      },
+      "correct_option": "D",
+      "explanation": "The written constraints yield one arrangement. August is occupied by Bajaj. Each clue holds in the arrangement: Revolt/ Honda are consecutive in Sep/Oct; Honda and TVS have three entries between; Hero–TVS–Jawa occupy May–June–July; Yamaha/Suzuki are Nov/Dec with Bajaj in August.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 4-6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-month-based",
+      "question_text": "Nine persons A–I occupy the listed months January, March, April, June, July, September, October, November and December. B is in an even-day month after July; exactly two persons are between B and A; C is two positions before A; persons before C equals persons after D; exactly one person is between D and I; G immediately follows I; H immediately precedes E; F is not after E.\n\nQuestion: If X goes to the movie immediately after E, in which month does X go?",
+      "options": {
+        "A": "July",
+        "B": "December",
+        "C": "November",
+        "D": "October",
+        "E": "September"
+      },
+      "correct_option": "E",
+      "explanation": "The arrangement is unique. E is in July; the next listed scheduling month after July is September, so hypothetical X would go in September. The page 12 solution table matches this arrangement.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 10-12"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-month-based",
+      "question_text": "Nine countries India, America, Denmark, Bhutan, Russia, Israel, Nepal, Japan and China occupy January, February, April, May, June, August, September, October and November 2020. Israel is after July but not November; exactly three countries are between Israel and Bhutan; Russia is before Bhutan and not in a month with fewer than 31 days; Japan is three months after Nepal; America is immediately after Japan; China is in a 30-day month; Denmark is after America but before India.\n\nQuestion: Which country invented the vaccine in October?",
+      "options": {
+        "A": "India",
+        "B": "Israel",
+        "C": "Denmark",
+        "D": "America",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "Exhaustive enumeration of the written constraints gives one arrangement; Israel occupies October. The rendered answer annotation appears to mark option A (India), which conflicts with the independent arrangement.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 13-14"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-month-based",
+      "question_text": "Six persons D, E, F, G, H, and I go for medical checkups in different months—January, April, June, August, September and December—and spend different amounts. I goes in a month with an odd number of days. I is two positions before the person spending ₹700. Exactly one person is between I and H. The number before H equals the number after the ₹1800 spender. F is three positions before the person immediately after D. Neither F nor D spends ₹1800. G goes in an even-day month. G spends three times H; I spends ₹300 more than G; H+E is ₹200 less than D; no amount exceeds ₹2500; F spends ₹500 less than D.\n\nQuestion: Which month does G go to the hospital?",
+      "options": {
+        "A": "December",
+        "B": "September",
+        "C": "August",
+        "D": "June",
+        "E": "NOT"
+      },
+      "correct_option": "B",
+      "explanation": "The constraints yield the unique order Jan F, Apr H, Jun D, Aug I, Sep G, Dec E. The amounts are respectively ₹1000, ₹600, ₹1500, ₹2100, ₹1800 and ₹700. Every numerical relation holds, including G=3H, I=G+300, H+E=D−200, F=D−500, I two positions before the ₹700 spender, and neither F nor D spending ₹1800. Therefore G goes in September.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 19-21"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-month-based",
+      "question_text": "Six people I, J, K, L, M and N buy distinct cycles—Atlas, Avon, Hercules, Mach City, Hero and Roadmaster—in March, May, June, September, October and November. J buys in a month with an even number of days. Exactly two people are between J and the Atlas buyer; Atlas is not bought in November. The number before the Atlas buyer equals the number after N. I is two positions before the Hercules buyer and does not buy Atlas. M is two positions before the Avon buyer; M is not after I and is not in May. K is before the Mach City buyer. N does not buy Mach City. Neither N nor K buys Hero.\n\nQuestion: In which month does J buy a cycle?",
+      "options": {
+        "A": "November",
+        "B": "September",
+        "C": "None of these",
+        "D": "March",
+        "E": "May"
+      },
+      "correct_option": "B",
+      "explanation": "Exactly one complete assignment satisfies all clues: March M/Atlas, May I/Hero, June K/Avon, September J/Hercules, October L/Mach City, November N/Roadmaster. Thus J buys in September. All positional and exclusion clues check against this table.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 23-25"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "scheduling-puzzles-month-based",
+      "question_text": "Six persons U, V, W, X, Y, Z join in April, May, June, August, October and November, each in a different city among Mumbai, Kolkata, Chennai, Delhi, Pune and Bangalore. Y is in an even-day month and joins two positions after the Delhi person. One person is between Y and Z. The number before Z equals the number after the Chennai person. U is in an even-day month after Z. V joins two calendar months before the Pune person; V is neither in Delhi nor Bangalore. X joins before W; W is not in Chennai. Neither V nor Y is in Kolkata.\n\nQuestion: Who among the following does not belong to the group?",
+      "options": {
+        "A": "Z-Kolkata",
+        "B": "Y-Mumbai",
+        "C": "V-Pune",
+        "D": "U-Delhi",
+        "E": "W-Chennai"
+      },
+      "correct_option": "D",
+      "explanation": "The unique arrangement is Apr Z/Delhi, May X/Kolkata, Jun Y/Bangalore, Aug V/Mumbai, Oct W/Pune, Nov U/Chennai. A, B, C and E each pair a listed person with the next chronological person’s city. D pairs the final person U with Delhi (Z’s city), wrapping from the end to the beginning, and is the odd one.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Scheduling Puzzles Month Based 05 Class Notes.pdf; physical page(s) 8-11"
+    }
+  ],
+  "integration_result": {
+    "chapter_id": "792acd2d-d6b4-459d-850e-c71657696718",
+    "imported_count": 6,
+    "retired_count": 6,
+    "imported_records": [
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 4 | appearance 1",
+        "question_id": "f9b3b50f-74a6-462f-9954-54e1ca5204ad",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 4-6",
+        "correct_option": "D",
+        "answer": "Bajaj"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 10 | appearance 3",
+        "question_id": "44a1f464-8996-400f-a6b6-6afe0d19eb2e",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 10-12",
+        "correct_option": "E",
+        "answer": "September"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 02  Class Notes.pdf | physical page 13 | appearance 4",
+        "question_id": "55d20fde-e442-45b3-b4e9-15cec18a03cf",
+        "source": "PDF: Scheduling Puzzles Month Based 02  Class Notes.pdf; physical page(s) 13-14",
+        "correct_option": "B",
+        "answer": "Israel"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 19 | hospital question",
+        "question_id": "f99afef5-af9b-4324-ad64-b96c2b8a5c6c",
+        "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 19-21",
+        "correct_option": "B",
+        "answer": "September"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 04  Class Notes.pdf | physical page 23 | cycle question",
+        "question_id": "cf5e0ae1-d0e4-4939-a05e-a5fd5e8dc617",
+        "source": "PDF: Scheduling Puzzles Month Based 04  Class Notes.pdf; physical page(s) 23-25",
+        "correct_option": "B",
+        "answer": "September"
+      },
+      {
+        "source_identifier": "Scheduling Puzzles Month Based 05 Class Notes.pdf | physical page 9 | city odd-pair question",
+        "question_id": "9ba26ad0-b2f3-4299-b26e-81f9caea1d92",
+        "source": "PDF: Scheduling Puzzles Month Based 05 Class Notes.pdf; physical page(s) 8-11",
+        "correct_option": "D",
+        "answer": "U-Delhi"
+      }
+    ],
+    "replay_result": {
+      "total_records": 6,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 6,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  }
+}

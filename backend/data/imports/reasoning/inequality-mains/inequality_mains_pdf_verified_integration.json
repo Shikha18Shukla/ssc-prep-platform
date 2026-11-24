@@ -1,0 +1,233 @@
+{
+  "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+  "chapter_name": "Inequality (Mains)",
+  "database_identity": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1/32",
+    "port": 5432
+  },
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: @ means >; % means ≤; # means <; & means >=; ^ means =;\n\nStatement: K & H @ U @ L ^ G % P # J ^ N\n\nConclusions:\nI. N # L\nII. K @ G\nIII. H % J\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only I follows",
+        "B": "Both I and II follow",
+        "C": "Either I or II follows",
+        "D": "Only II follows",
+        "E": "Neither I nor II follows"
+      },
+      "correct_option": "D",
+      "explanation": "The chain gives K≥H>U>L=G≤P<J=N. II (K>G) is forced; I is false because N>L; III (H≤J) is not forced.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 3"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: # means ≤; $ means >; % means =; & means <; @ means >=;\n\nStatement: A # Y % B & E @ S @ G\n\nConclusions:\nI. G @ A\nII. Y # E\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only I follows",
+        "B": "Both I and II follow",
+        "C": "Either I or II follows",
+        "D": "Only II follows",
+        "E": "Neither I nor II follows"
+      },
+      "correct_option": "D",
+      "explanation": "The chain is A≤Y=B<E and E≥S≥G. Thus Y<E, so II follows; G≥A is not entailed.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 4"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: @ means <; # means >; % means =; $ means >=; Ω means ≤;\n\nStatement: R # J @ S Ω B @ D % F $ C Ω H # K $ T\n\nConclusions:\nI. D @ T\nII. F $ T\nIII. J $ F\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only III is true",
+        "B": "Either I or II is true",
+        "C": "Both I and II are true",
+        "D": "Both I and III are true",
+        "E": "None is true"
+      },
+      "correct_option": "E",
+      "explanation": "The chain yields R>J, J<S≤B<D=F, F≥C≤H<K and K≥T. Neither D<T nor F≥T is forced. J<S≤B<D=F proves J<F, contradicting III.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 5"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: @ means >; % means ≤; # means <; & means >=; ^ means =;\n\nStatement: S ^ T # U % V & W @ X\n\nConclusions:\nI. S # V\nII. T & W\nIII. X # S\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "S=T<U≤V and W>X. Thus S<V, so I follows. The other comparisons are not entailed.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: & means =; % means <; $ means >; @ means ≤; # means >=;\n\nStatement: A % B & C @ D # E & F\n\nConclusions:\nI. A & E\nII. D $ A\nIII. C # F\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "A<B=C≤D≥E=F. II (D>A) follows because D≥C=B>A. I is not forced and C≥F is not forced.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 9"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: & means =; % means <; $ means >; @ means ≤; # means >=;\n\nStatement: A $ B & C, C & D # E % F\n\nConclusions:\nI. A & E\nII. C & E\nIII. B # D\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "A>B=C=D≥E and E<F. Equality conclusions I and II do not follow; B=D makes III true under # (≥).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 10"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "inequality-mains",
+      "question_text": "Symbol meanings: $ means =; & means <; % means >; # means ≤; @ means >=;\n\nStatement: T $ U % V, W # X $ V % Y\n\nConclusions:\nI. T % X\nII. U # Y\nIII. W # Y\n\nQuestion: Which of the listed conclusions logically follow?",
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "T=U>V=X>Y and W≤X. I (T>X) follows; II is false, while W≤Y is not entailed.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 13"
+    }
+  ],
+  "integration_result": {
+    "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+    "imported_count": 7,
+    "retired_count": 7,
+    "imported_records": [
+      {
+        "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [3] | appearance 1",
+        "question_id": "25f0800e-f98c-4347-8934-d73de06b72c5",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 3",
+        "correct_option": "D",
+        "answer": "Only II follows"
+      },
+      {
+        "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [4] | appearance 2",
+        "question_id": "c68f87b0-56e0-4451-9da8-e25c037ce246",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 4",
+        "correct_option": "D",
+        "answer": "Only II follows"
+      },
+      {
+        "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [5] | appearance 3",
+        "question_id": "f17f20af-ad63-4957-b60a-27af3223f993",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 5",
+        "correct_option": "E",
+        "answer": "None is true"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [6] | appearance 3",
+        "question_id": "b8eb8b60-dc0a-49bc-bc2b-21f881cefd54",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 6",
+        "correct_option": "A",
+        "answer": "Only conclusion i follows"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [9] | appearance 5",
+        "question_id": "782540bb-92fb-4660-9702-dca13ca24939",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 9",
+        "correct_option": "B",
+        "answer": "Only conclusion ii follows"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [10] | appearance 6",
+        "question_id": "0f58a87d-7e27-4267-848b-0d00655a497d",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 10",
+        "correct_option": "C",
+        "answer": "Only conclusion iii follows"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [13] | appearance 9",
+        "question_id": "381a6927-7484-4d5c-a333-fbda83ed5383",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 13",
+        "correct_option": "A",
+        "answer": "Only conclusion i follows"
+      }
+    ],
+    "replay_result": {
+      "total_records": 7,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 7,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  }
+}

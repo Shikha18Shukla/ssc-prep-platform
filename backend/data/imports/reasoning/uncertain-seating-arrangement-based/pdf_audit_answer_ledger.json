@@ -1,0 +1,1222 @@
+{
+  "chapter": "HOT Category Puzzles — Uncertain Seating Arrangement Based",
+  "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+  "status": "page_review_complete_question_audit_complete_destination_bank_dedup_complete",
+  "source_pdf_count": 4,
+  "source_pages": 68,
+  "visual_pages_reviewed": 68,
+  "question_appearances_identified": 14,
+  "distinct_question_prompts": 13,
+  "question_level_cross_database_deduplication": {
+    "database": "local ssc_prep at 127.0.0.1:5432",
+    "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+    "active_rows_compared": 40,
+    "inactive_rows_compared": 0,
+    "duplicate_candidates": 0,
+    "method": "Compared full shared directions, question meaning, and solved arrangements against all 40 target-chapter rows in a read-only local transaction. Inspected the highest text-overlap records; these are self-authored north-facing rows with six named people separated by a fixed two-seat gap, while the PDF puzzles use different clues/variables, row lengths, and asked relations. No equivalent puzzle set/question was found."
+  },
+  "entries": [
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [5, 6] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf",
+      "physical_pages": [
+        5,
+        6
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain01_north_row_DG_DC_conflict",
+      "shared_directions": "A north-facing row has an unknown number of people. C is at an end and has two people between it and B. The number to the right of G equals the number to its left. F is third left of B; B is fourth from an end. A is at an end; F is not at an end. Five people sit between A and D, with E exactly midway between them. The source copies disagree on the next clue: physical page 5 says two people are between D and G, while page 6 says two people are between D and C. The remaining copied clue says the number between F and C equals the number between F and D.",
+      "question": "Who is sitting third to the right of F?",
+      "options": {
+        "A": "D",
+        "B": "C",
+        "C": "A",
+        "D": "B",
+        "E": "E"
+      },
+      "independently_derived_answer": null,
+      "reasoning": "Held without selecting either version of the shared clue. The two source pages conflict (D–G on p.5; D–C on p.6), so the written puzzle is not a single consistent specification.",
+      "classification": "held",
+      "printed_key_or_annotation": "No reliable answer can be verified from the contradictory source.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": null,
+      "confidence": "held",
+      "review_note": "Both pages were checked visually; the OCR reflects the visible source difference.",
+      "appearance_key": "u1_q1",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [8, 9, 10] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain01_south_row_count",
+      "shared_directions": "An unknown-length straight row faces south. Q is sixth to the right of S; T is fourth to the left of Q; two people sit between Q and P; six sit between W and V; R is fourth to the left of S; U sits between S and T; V is second to the right of U; W is third from an end; S is eighth from the left end (read relative to the facing direction, as reflected by the source solution diagram).",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "17",
+        "C": "23",
+        "D": "18",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "Exhaustive placement with south-facing left/right gives one row length, 20. The named seats are W=3, P=4, Q=7, V=10, T=11, U=12, S=13 and R=17; all stated offsets hold.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible answer mark A agrees.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "W": 3,
+        "P": 4,
+        "Q": 7,
+        "V": 10,
+        "T": 11,
+        "U": 12,
+        "S": 13,
+        "R": 17
+      },
+      "review_note": "The “left end” reference was resolved using the south-facing convention and checked against the rendered worked row.",
+      "appearance_key": "u1_q2",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "6ba243b8-8655-4302-877c-0b1b5feef180",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 8-10",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [11, 12, 13] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf",
+      "physical_pages": [
+        11,
+        12,
+        13
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain01_north_row_count",
+      "shared_directions": "An unknown-length north-facing row. M is eighth left of J; N is fourth right of K; O immediately left of P; L is exactly midway between K and J; P is third from the right end. The number between J and P equals that between K and J. Exactly ten people are left of J; six people are between N and O; the number between M and J equals that between Q and J.",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "19",
+        "C": "23",
+        "D": "18",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "B",
+      "reasoning": "J has exactly ten people to its left, so J=11. The K/J gap equals the J/P gap; the midpoint clue puts L midway between K and J. The K=17 branch would force P=17 too, so it collides; thus K=5,L=8. P is six positions right of J at 17, so n=19. O=P−1=16, N=K+4=9, and six people lie between N and O. M=3 and Q=19 satisfy the final equal-gap clue.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible answer mark B agrees.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "M": 3,
+        "K": 5,
+        "L": 8,
+        "N": 9,
+        "J": 11,
+        "O": 16,
+        "P": 17,
+        "Q": 19
+      },
+      "review_note": "The complete satisfying placement is M3,K5,L8,N9,J11,O16,P17,Q19; there are 19 seats.",
+      "appearance_key": "u1_q3",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "e21bfbc8-bf6e-42dd-9531-be9631bebe6a",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 11-13",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [14, 15, 16] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf",
+      "physical_pages": [
+        14,
+        15,
+        16
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain01_south_row_second_left_U",
+      "shared_directions": "A straight row of an unknown number of people faces south. W is fifth to the left of U; two people sit between W and X; X is second from an end; five people sit between X and V; S is eighth to the right of V; the number between U and S equals the number between T and S; exactly two people sit to T’s right.",
+      "question": "Who is sitting second to the left of U?",
+      "options": {
+        "A": "V",
+        "B": "W",
+        "C": "T",
+        "D": "S",
+        "E": "X"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "Constraint enumeration yields one valid row of 24 seats: T=3, S=9, U=15, V=17, W=20, X=23. For south-facing people, second to U’s left is two physical positions to the right of U, position 17, occupied by V.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible answer mark A agrees with the source solution diagram.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "T": 3,
+        "S": 9,
+        "U": 15,
+        "V": 17,
+        "W": 20,
+        "X": 23
+      },
+      "review_note": "A prior enumeration omitted the W–X distance constraint and produced spurious arrangements; the corrected enumeration includes every written clue.",
+      "appearance_key": "u1_q4",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "e7274b6c-e00c-48a4-9ad2-0c96472b33c7",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 14-16",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [4, 5, 6] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain02_north_row_count",
+      "shared_directions": "An unknown-length north-facing row. G is third to either side of H. B is sixth left of C, and C is second left of E. G and E are immediate neighbors of D. F is fourth right of H. The number between H and A is one less than the number between B and C. I is immediately left of H, and the number to the left of I is twice the number between B and E. A is second from the right end.",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "19",
+        "C": "23",
+        "D": "18",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "E",
+      "reasoning": "The written clues force I=15 and H=16; A must be 21, hence n=22. A satisfying placement is B3,C9,E11,D12,G13,H16,F20,A21,I15. The count 22 is not among 20,19,23,18, so option E is correct.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible source mark E agrees.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "B": 3,
+        "C": 9,
+        "E": 11,
+        "D": 12,
+        "G": 13,
+        "I": 15,
+        "H": 16,
+        "F": 20,
+        "A": 21
+      },
+      "review_note": "One valid placement establishes n=22; exhaustive branch checking of G=H±3 and D’s two-neighbor condition leaves only this placement.",
+      "appearance_key": "u2_q1",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "c1addf03-a2cb-4bb2-bc3a-b0e5797f907f",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 4-6",
+        "correct_option": "E"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [7, 8, 9] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain02_north_row_count",
+      "shared_directions": "An unknown row of fewer than 20 people, facing north. Q is fifth right of R. J is third left of U and adjacent to Q; P sits exactly midway between Q and U. The number between R and M equals the number between B and R. The number between M and B equals the number between B and U. Six people sit between P and L, with L at an end. The number right of G equals the number left of M.",
+      "question": "How many persons sit in the row?",
+      "options": {
+        "A": "Twice the number to the right of Q",
+        "B": "Thrice the number between R and P",
+        "C": "19",
+        "D": "17",
+        "E": "15"
+      },
+      "independently_derived_answer": "C",
+      "reasoning": "Exhaustive enumeration gives one arrangement with n=19: M2,R5,B8,Q10,J11,P12,U14,G18,L19. Both relational distractors evaluate to 18, while the row contains 19 people; option C is the only correct choice.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "No unambiguous marked key is visible on the question/solution pages; independent answer is C.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "M": 2,
+        "R": 5,
+        "B": 8,
+        "Q": 10,
+        "J": 11,
+        "P": 12,
+        "U": 14,
+        "G": 18,
+        "L": 19
+      },
+      "review_note": "All listed positions are distinct and every clue is satisfied.",
+      "appearance_key": "u2_q2",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "abdd2f3f-079f-4267-840e-59d85f9a0b1b",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 7-9",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [10, 11, 12] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        10,
+        11,
+        12
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain02_north_row_Y_relative_W",
+      "shared_directions": "An unknown-length north-facing row of at least 20 people. Three sit between W and G and neither is at an end. Y is second right of G. The number between W and G is one more than the number between Y and C, with C right of W. B is fourth right of C; R is third left of W. The number left of R is one less than the number between G and Y. Two sit between B and M, which is not adjacent to C. The number right of M is one less than the number left of W.",
+      "question": "What is the position of Y with respect to W?",
+      "options": {
+        "A": "Sixth to the right",
+        "B": "Fourth to the right",
+        "C": "Second to the left",
+        "D": "Sixth to the left",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "The clues force W=4, R=1, G=8 and Y=10. The Y-to-W offset is +6 in the north-facing row, so option A. Full solution: R1,W4,C13,G8,Y10,B17,M20, row length 22.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "The same answer choices appear in the repeated lecture copy; no separate marked key is legible.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "R": 1,
+        "W": 4,
+        "G": 8,
+        "Y": 10,
+        "C": 13,
+        "B": 17,
+        "M": 20
+      },
+      "review_note": "A second copy occurs in Lecture 03 p.4; see duplicate entry.",
+      "appearance_key": "u2_q3",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "3d31c576-4f1c-45ef-b082-c4920a1bdcfd",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 10-12",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [4, 5, 6] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain03_repeat_uncertain02_Y_relative_W",
+      "shared_directions": "An unknown-length north-facing row of at least 20 people. Three sit between W and G and neither is at an end. Y is second right of G. The number between W and G is one more than the number between Y and C, with C right of W. B is fourth right of C; R is third left of W. The number left of R is one less than the number between G and Y. Two sit between B and M, which is not adjacent to C. The number right of M is one less than the number left of W.",
+      "question": "What is the position of Y with respect to W?",
+      "options": {
+        "A": "Sixth to the right",
+        "B": "Fourth to the right",
+        "C": "Second to the left",
+        "D": "Sixth to the left",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "This is the same clue set and same Y-relative-to-W question as Lecture 02 physical page 10; its independently verified answer is A.",
+      "classification": "duplicate",
+      "printed_key_or_annotation": "No separate key mark; canonical source independently solves to A.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "R": 1,
+        "W": 4,
+        "G": 8,
+        "Y": 10,
+        "C": 13,
+        "B": 17,
+        "M": 20
+      },
+      "review_note": "Exact semantic duplicate: same entities, positional clues, and answer choices; canonical is Lecture 02 p.10.",
+      "canonical_source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [10, 11, 12] | question appearance",
+      "appearance_key": "u3_q1_duplicate",
+      "integration": {
+        "status": "duplicate_appearance_not_imported"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [8, 9, 10] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain03_north_row_statement_truth",
+      "shared_directions": "Shared directions: An unknown number of people in a north-facing row. R is third right of M. Three people sit between S and R. The number between M and S is one less than the number between M and G; G is left of M. S is third left of Q. Q is fifth left of L at an end. The number right of Q is one less than the number left of G. P is at the left end, and more than ten people sit between P and M.",
+      "question": "Which of the following statements is true? I. G sits to the left of R. II. More than seven persons sit between M and S. III. Not more than two persons sit between S and Q. IV. R sits exactly midway between M and S.",
+      "options": {
+        "A": "Only I and III",
+        "B": "Only I and IV",
+        "C": "Only II and III",
+        "D": "Only II and IV",
+        "E": "All are true"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "The unique row has P1,G7,M15,R18,S22,Q25,L30 (n=30). I is true; II is false because six people are between M and S; III is true because two people are between S and Q; IV is false because R=18 is not the midpoint of 15 and 22.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Handwritten checks on the solution page mark I and III; agrees with A.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "P": 1,
+        "G": 7,
+        "M": 15,
+        "R": 18,
+        "S": 22,
+        "Q": 25,
+        "L": 30
+      },
+      "review_note": "Exhaustive position enumeration over n≥20 leaves one valid arrangement.",
+      "appearance_key": "u3_q2",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "1cd011cd-61e0-4021-a85b-440672e7716c",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 8-10",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [11, 12] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf",
+      "physical_pages": [
+        11,
+        12
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain03_north_row_count",
+      "shared_directions": "Shared directions: An unknown north-facing row. H is at the leftmost seat; two people sit between H and L; M neighbors L. K is fourth left of I. The number between L and K is one less than the number between I and K. O is exactly midway between I and K. More than three people sit between M and O; O is fifth from the right end.",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "11",
+        "B": "9",
+        "C": "15",
+        "D": "13",
+        "E": "14"
+      },
+      "independently_derived_answer": "D",
+      "reasoning": "H=1 and L=4. K cannot be 1 because H is there, so K=7; I=11 and O=9. M must be the other neighbor of L, position 3: M=5 would leave only three people between M and O, not more than three. O fifth from the right gives n=13.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible answer mark D agrees.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "H": 1,
+        "M": 3,
+        "L": 4,
+        "K": 7,
+        "O": 9,
+        "I": 11
+      },
+      "review_note": "All constraints have one valid placement and n=13.",
+      "appearance_key": "u3_q3",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "f53010fd-bfbb-4886-95db-e1af489ac474",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 11-12",
+        "correct_option": "D"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [7, 8] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        7,
+        8
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain04_north_row_count",
+      "shared_directions": "An unknown north-facing row. N is fourth left of Q; two sit between Q and L; the number between N/L equals the number between L/P. P is fourth right of S. The number between S/P is one more than that between M/N; M and P are not neighbors. I is immediately left of S; no more than five people sit right of I. The number right of I is one more than the number left of G. G is second left of M; three sit between G and T. T is not adjacent to Q or N; more than two sit between T and N.",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "25",
+        "B": "24",
+        "C": "23",
+        "D": "22",
+        "E": "None of the above"
+      },
+      "independently_derived_answer": "B",
+      "reasoning": "The written equations force N=10,Q=14,L=17,P=24,S=20,I=19,G=5,M=7 and T=2. The row therefore has 24 seats. Exhaustive enumeration gives one valid placement; the visible answer mark B agrees.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible answer mark B (24) agrees.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "T": 2,
+        "G": 5,
+        "M": 7,
+        "N": 10,
+        "I": 19,
+        "S": 20,
+        "Q": 14,
+        "L": 17,
+        "P": 24
+      },
+      "review_note": "The continuation OCR on p.8 reads one letter ambiguously; the rendered p.7 says G, and the complete written system is consistent only with the G reading.",
+      "appearance_key": "u4_q1",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "a60af440-db9c-4ae3-b8aa-d6048a7271eb",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 7-8",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [10, 11] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        10,
+        11
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain04_north_row_contradictory_count",
+      "shared_directions": "An unknown north-facing row. F and H are stated to sit at the two extreme ends, with five people between them. A sits adjacent to G and fourth left of F. I is fourth from the right end and second left of J. Three sit between F and B, with E exactly between them; the number between F/B equals the number between D/I. C is second left of D. G is not adjacent to H. Two people sit between B and C, and C is not left of E. Exactly one person sits right of J.",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "16",
+        "B": "23",
+        "C": "22",
+        "D": "18",
+        "E": "19"
+      },
+      "independently_derived_answer": null,
+      "reasoning": "Held: the literal clue puts F and H at opposite ends with five people between them, which fixes a seven-seat row; the question’s ten distinct named people A–J cannot occupy seven seats. No arrangement satisfies the complete written conditions.",
+      "classification": "held",
+      "printed_key_or_annotation": "A visible mark appears on option B (23), but the written conditions contradict the presence of ten distinct named participants; the marked value is not independently supportable.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": null,
+      "confidence": "held",
+      "review_note": "Classified held as internally inconsistent; no answer was inferred from the key.",
+      "appearance_key": "u4_q2",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [13, 14, 15] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        13,
+        14,
+        15
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain04_north_row_second_right_G",
+      "shared_directions": "An unknown north-facing row. Three people sit between A and B; C is second right of A; three sit between B and D; E is immediately left of A; C is fifth from the right end; I is at an end. The number between C and F equals the number between F and D. J is second left of G, which is adjacent to B; no more than two people sit between G and D. Five sit between D and I; H is midway between D and I.",
+      "question": "Who is sitting second to the right of G?",
+      "options": {
+        "A": "F",
+        "B": "D",
+        "C": "C",
+        "D": "J",
+        "E": "B"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "Exhaustive enumeration produces one valid 21-seat row: I1,H4,D7,J8,G10,B11,F12,E14,A15,C17. The second seat right of G (10) is position 12, occupied by F; option A.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "No clearly marked multiple-choice key on the question slide; the visible worked arrangement is consistent with the independently derived answer.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "I": 1,
+        "H": 4,
+        "D": 7,
+        "J": 8,
+        "G": 10,
+        "B": 11,
+        "F": 12,
+        "E": 14,
+        "A": 15,
+        "C": 17
+      },
+      "review_note": "Physical p.13 states the C–F midpoint clue. The p.14 repeated directions/OCR line is inconsistent in its OCR reading; the rendered source/working supports C–F and the unique arrangement.",
+      "appearance_key": "u4_q3",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "77b2ae69-95ae-4f24-921e-436ed1dfe73d",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 13-15",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [16, 17, 18] | question appearance",
+      "source_pdf": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        16,
+        17,
+        18
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "uncertain04_south_row_count",
+      "shared_directions": "An unknown south-facing row. C is at an end. The number between D and F equals the number between E and D. Eight people sit between E and B; one person sits between C and E. B is third from an end. A is fifth to the right of D (relative to south-facing people). More than six sit between C and F; no more than five sit between B and A.",
+      "question": "How many persons are sitting in the row?",
+      "options": {
+        "A": "20",
+        "B": "17",
+        "C": "23",
+        "D": "14",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "D",
+      "reasoning": "Exhaustive enumeration gives one 14-seat row: B3,A4,F6,D9,E12,C14. For a south-facing person, right is physical left, so A=D−5. Every distance clue is satisfied; option D.",
+      "classification": "verified_candidate",
+      "printed_key_or_annotation": "Visible answer mark D agrees.",
+      "key_discrepancy": null,
+      "valid_arrangement_count": 1,
+      "confidence": "high",
+      "arrangement_positions_left_to_right": {
+        "B": 3,
+        "A": 4,
+        "F": 6,
+        "D": 9,
+        "E": 12,
+        "C": 14
+      },
+      "review_note": "The south-facing directions are applied consistently; source solution slide also labels the row total as 14.",
+      "appearance_key": "u4_q4",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "b92a1ad9-6dde-460b-b227-d0b9cdd095aa",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 16-18",
+        "correct_option": "D"
+      }
+    }
+  ],
+  "summary": {
+    "verified_unique": 11,
+    "held": 2,
+    "duplicate_appearances": 1,
+    "wrong_chapter": 0,
+    "complete_mcqs_with_options": 14,
+    "independently_answer_verified_unique": 11,
+    "unclassified": 0,
+    "answer_key_disagreements": 1,
+    "non_question_color_example_repeated_in_lectures_03_and_04": true
+  },
+  "integration_result": {
+    "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+    "before_active": 40,
+    "before_inactive": 0,
+    "imported_count": 11,
+    "retired_count": 11,
+    "after_active": 40,
+    "after_inactive": 11,
+    "imported_records": [
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [8, 9, 10] | question appearance",
+        "question_id": "6ba243b8-8655-4302-877c-0b1b5feef180",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 8-10",
+        "correct_option": "A",
+        "answer": "20"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [11, 12, 13] | question appearance",
+        "question_id": "e21bfbc8-bf6e-42dd-9531-be9631bebe6a",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 11-13",
+        "correct_option": "B",
+        "answer": "19"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf | physical page(s) [14, 15, 16] | question appearance",
+        "question_id": "e7274b6c-e00c-48a4-9ad2-0c96472b33c7",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 01 _ Class Notes.pdf; physical page(s) 14-16",
+        "correct_option": "A",
+        "answer": "V"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [4, 5, 6] | question appearance",
+        "question_id": "c1addf03-a2cb-4bb2-bc3a-b0e5797f907f",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 4-6",
+        "correct_option": "E",
+        "answer": "None of these"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [7, 8, 9] | question appearance",
+        "question_id": "abdd2f3f-079f-4267-840e-59d85f9a0b1b",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 7-9",
+        "correct_option": "C",
+        "answer": "19"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf | physical page(s) [10, 11, 12] | question appearance",
+        "question_id": "3d31c576-4f1c-45ef-b082-c4920a1bdcfd",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 02 _ Class Notes.pdf.pdf; physical page(s) 10-12",
+        "correct_option": "A",
+        "answer": "Sixth to the right"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [8, 9, 10] | question appearance",
+        "question_id": "1cd011cd-61e0-4021-a85b-440672e7716c",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 8-10",
+        "correct_option": "A",
+        "answer": "Only I and III"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf | physical page(s) [11, 12] | question appearance",
+        "question_id": "f53010fd-bfbb-4886-95db-e1af489ac474",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 03  Class Notes.pdf; physical page(s) 11-12",
+        "correct_option": "D",
+        "answer": "13"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [7, 8] | question appearance",
+        "question_id": "a60af440-db9c-4ae3-b8aa-d6048a7271eb",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 7-8",
+        "correct_option": "B",
+        "answer": "24"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [13, 14, 15] | question appearance",
+        "question_id": "77b2ae69-95ae-4f24-921e-436ed1dfe73d",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 13-15",
+        "correct_option": "A",
+        "answer": "F"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf | physical page(s) [16, 17, 18] | question appearance",
+        "question_id": "b92a1ad9-6dde-460b-b227-d0b9cdd095aa",
+        "source": "PDF: HOT Category Puzzles Uncertain Seating Arrangement based 04 _ Class Notes.pdf.pdf; physical page(s) 16-18",
+        "correct_option": "D",
+        "answer": "14"
+      }
+    ],
+    "retired_records": [
+      {
+        "id": "fe1f08fb-729e-43f2-b3a1-1d70b3989e5f",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people A, B, C, D, E, F are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: A sits second from the left. B sits exactly two seats to the right of A; C sits exactly two seats to the right of B; D sits exactly two seats to the right of C; E sits exactly two seats to the right of D; F sits exactly two seats to the right of E.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats A=2, B=4, C=6, D=8, E=10, F=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "B",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "D",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "A",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "C",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "13903279-a671-4d96-a2d7-9f984ba483b9",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people J, K, L, M, N, O are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: J sits second from the left. K sits exactly two seats to the right of J; L sits exactly two seats to the right of K; M sits exactly two seats to the right of L; N sits exactly two seats to the right of M; O sits exactly two seats to the right of N.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats J=2, K=4, L=6, M=8, N=10, O=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "J",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "M",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "L",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "K",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "e48a896f-ddf5-448e-bf00-766824d3949f",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people P, Q, R, S, T, U are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: P sits second from the left. Q sits exactly two seats to the right of P; R sits exactly two seats to the right of Q; S sits exactly two seats to the right of R; T sits exactly two seats to the right of S; U sits exactly two seats to the right of T.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats P=2, Q=4, R=6, S=8, T=10, U=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "R",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "Q",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "S",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "P",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "666cdf2a-6d36-4e0b-a8e3-a9afc435823f",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people V, W, X, Y, Z, B are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: V sits second from the left. W sits exactly two seats to the right of V; X sits exactly two seats to the right of W; Y sits exactly two seats to the right of X; Z sits exactly two seats to the right of Y; B sits exactly two seats to the right of Z.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats V=2, W=4, X=6, Y=8, Z=10, B=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "X",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "V",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "Y",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "W",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "07c48e01-c35a-43b3-b2c0-9f5e6879448c",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people C, D, E, F, G, H are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: C sits second from the left. D sits exactly two seats to the right of C; E sits exactly two seats to the right of D; F sits exactly two seats to the right of E; G sits exactly two seats to the right of F; H sits exactly two seats to the right of G.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats C=2, D=4, E=6, F=8, G=10, H=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "E",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "F",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "D",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "C",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "5d48db69-6122-466c-8c54-91e618b4ddda",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people K, L, M, N, O, P are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: K sits second from the left. L sits exactly two seats to the right of K; M sits exactly two seats to the right of L; N sits exactly two seats to the right of M; O sits exactly two seats to the right of N; P sits exactly two seats to the right of O.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats K=2, L=4, M=6, N=8, O=10, P=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "L",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "K",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "M",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "N",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "b6a322cc-f2d4-4f38-abef-6812ccf437ec",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people R, S, T, U, V, W are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: R sits second from the left. S sits exactly two seats to the right of R; T sits exactly two seats to the right of S; U sits exactly two seats to the right of T; V sits exactly two seats to the right of U; W sits exactly two seats to the right of V.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats R=2, S=4, T=6, U=8, V=10, W=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "S",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "T",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "U",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "R",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "a9fa9373-f66b-4e2c-b7e9-57933ee06a34",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people H, J, K, L, M, N are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: H sits second from the left. J sits exactly two seats to the right of H; K sits exactly two seats to the right of J; L sits exactly two seats to the right of K; M sits exactly two seats to the right of L; N sits exactly two seats to the right of M.\n\nQuestion: Who occupies seat 11?",
+        "explanation": "The clues place the six named people at seats H=2, J=4, K=6, L=8, M=10, N=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: An unnamed participant.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "L",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "H",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "An unnamed participant",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "K",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "J",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "6f8098cf-b038-4be9-837c-7633d1bf4a11",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people A, B, C, D, E, F are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: A sits second from the left. B sits exactly two seats to the right of A; C sits exactly two seats to the right of B; D sits exactly two seats to the right of C; E sits exactly two seats to the right of D; F sits exactly two seats to the right of E.\n\nQuestion: Who occupies seat 4 from the left?",
+        "explanation": "The clues place the six named people at seats A=2, B=4, C=6, D=8, E=10, F=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: B.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "B",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "C",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "F",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "E",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "A",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "3e18e357-dd8b-4d2c-94aa-135cce2ffe0e",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people V, W, X, Y, Z, B are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: V sits second from the left. W sits exactly two seats to the right of V; X sits exactly two seats to the right of W; Y sits exactly two seats to the right of X; Z sits exactly two seats to the right of Y; B sits exactly two seats to the right of Z.\n\nQuestion: Who occupies seat 4 from the left?",
+        "explanation": "The clues place the six named people at seats V=2, W=4, X=6, Y=8, Z=10, B=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: W.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "Y",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "V",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "B",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "W",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "X",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "7baf4b99-0671-4b06-80d3-5cc148367cca",
+        "chapter_id": "5f13ba4b-5f8d-414d-9d52-652051d463e8",
+        "question_text": "Original Practice Question — A row has an unknown total of 12, 13, 14, or 15 people, all facing north. The six named people H, J, K, L, M, N are present, and every other seat is occupied by a different, unnamed person. Number seats from the left starting at 1. Shared clues: H sits second from the left. J sits exactly two seats to the right of H; K sits exactly two seats to the right of J; L sits exactly two seats to the right of K; M sits exactly two seats to the right of L; N sits exactly two seats to the right of M.\n\nQuestion: Who occupies seat 4 from the left?",
+        "explanation": "The clues place the six named people at seats H=2, J=4, K=6, L=8, M=10, N=12. These positions fit every permitted row length 12–15; unnamed participants fill the other seats. The requested fact is the same in all four valid row lengths: J.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "N",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "M",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "H",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "J",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "L",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      }
+    ],
+    "import_result": {
+      "total_records": 11,
+      "imported": 11,
+      "rejected": 0,
+      "duplicates": 0,
+      "dry_run": false,
+      "would_import": 11,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": []
+    },
+    "replay_result": {
+      "total_records": 11,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 11,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  }
+}

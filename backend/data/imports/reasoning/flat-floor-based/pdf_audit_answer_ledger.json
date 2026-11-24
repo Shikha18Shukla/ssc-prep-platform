@@ -1,0 +1,518 @@
+{
+  "chapter": "HOT Category Puzzles - Flat + Floor Based",
+  "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+  "status": "source_question_audit_and_target_bank_dedup_complete",
+  "source_pdf_count": 2,
+  "source_pages": 31,
+  "visual_pages_reviewed": 31,
+  "question_appearances_identified": 6,
+  "entries": [
+    {
+      "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf | physical pages 5-7 | printed Q1",
+      "source_pdf": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        5,
+        6,
+        7
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "flatfloor01_two_flats_four_floors_M_to_T",
+      "shared_directions": "Eight people M,N,O,P,Q,R,S,T occupy two flats A and B on four floors; A is west of B; floors are numbered bottom-up. S is in Flat A on an even floor immediately above Q in the other flat. Q and R have one floor between them and occupy the same flat type. M is on Q’s floor and immediately below O. N and P share flat type; N is not on T’s floor; T is not below O.",
+      "question": "Who among the following persons stays on the topmost floor?",
+      "options": {
+        "A": "N",
+        "B": "R",
+        "C": "T",
+        "D": "M",
+        "E": "None of these"
+      },
+      "arrangement": {
+        "floor4": {
+          "A": "T",
+          "B": "P"
+        },
+        "floor3": {
+          "A": "S",
+          "B": "O"
+        },
+        "floor2": {
+          "A": "Q",
+          "B": "M"
+        },
+        "floor1": {
+          "A": "R",
+          "B": "N"
+        }
+      },
+      "valid_arrangement_count": 1,
+      "independently_derived_answer": "C",
+      "reasoning": "Exhaustive placement of eight distinct people into the eight flat-floor slots under the written constraints yields one arrangement; T and P occupy floor 4, and among the options only T appears.",
+      "printed_key_or_annotation": "Visible mark C; agrees.",
+      "classification": "verified_answer_candidate",
+      "confidence": "high",
+      "review_note": "OCR misspells “same floor” as “same=n”; rendered source confirms the wording.",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "5893029d-3ac6-4755-979c-9c3ed2d7e315",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf; physical page(s) 5-7",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf | physical pages 8-10 | question appearance",
+      "source_pdf": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        8,
+        9,
+        10
+      ],
+      "printed_question_number": null,
+      "puzzle_group": "flatfloor01_two_flats_four_floors_B_to_Z",
+      "shared_directions": "Eight people B,F,H,L,Q,U,W,Z occupy two flats X and Y on four floors, X west of Y. H is on an odd floor; Q is three floors above H in the other flat. One floor lies between B and F; F is on Q’s floor. B is immediately southwest of Z. W is three floors below F. L is northeast of W.",
+      "question": "If U is related to L and B is related to H in a certain way, then who among the following person is related to Z?",
+      "options": {
+        "A": "F",
+        "B": "H",
+        "C": "Q",
+        "D": "W",
+        "E": "None of these"
+      },
+      "valid_arrangement_count": 2,
+      "independently_derived_answer": null,
+      "reasoning": "The written constraints admit two valid layouts. Under the stated relation transformation, Z maps to Q in one valid layout and to a person outside options A-D in the other; the answer is not invariant.",
+      "printed_key_or_annotation": "Visible mark C; not sufficient to resolve the ambiguity.",
+      "classification": "held",
+      "confidence": "high",
+      "review_note": "Question held because valid arrangements yield different answer choices.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf | physical pages 11-14 | printed Q1",
+      "source_pdf": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf",
+      "physical_pages": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "printed_question_number": "Q1",
+      "puzzle_group": "flatfloor01_five_floors_two_flats_Q_to_Z",
+      "shared_directions": "Ten people Q,R,S,T,U,V,W,X,Y,Z occupy five floors with two flats I and II. R and Z are separated by two floors and both occupy odd-numbered flats. Y is on an even floor three floors below W. Y and Z are in different flat numbers. X is immediately above V in the same flat. Q is below R and shares V’s floor. T is in X’s flat number and a different flat number from W. The number of floors between Z and X is one more than between Q and S. T is on a prime-numbered floor.",
+      "question": "Four of the following are alike in a certain way and hence form a group. Who among the following does not belong to the group?",
+      "options": {
+        "A": "W",
+        "B": "X",
+        "C": "Z",
+        "D": "T",
+        "E": "S"
+      },
+      "valid_arrangement_count": 2,
+      "independently_derived_answer": null,
+      "reasoning": "Source pages show separate Case 1 and Case 2 solution tables. The written clues do not specify a unique grouping criterion for the “odd one out” question, and the result is not invariant across the displayed cases.",
+      "printed_key_or_annotation": "Visible mark B (X); no unique answer can be established from the supplied conditions.",
+      "classification": "held",
+      "confidence": "high",
+      "review_note": "Two printed cases and no stated grouping rule; the answer cannot be reliably determined.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 4-6 | printed Q1",
+      "source_pdf": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf",
+      "physical_pages": [
+        4,
+        5,
+        6
+      ],
+      "printed_question_number": "Q1",
+      "puzzle_group": "flatfloor02_four_floors_M_N_A_to_H",
+      "shared_directions": "Eight people A-H occupy four floors, two flats M (west) and N. F is on an odd floor, not N. A is immediately above F on another flat. One floor lies between A and E; nobody is west of E. C and G are on even floors, C above G. B and H share a floor; B is immediately below G’s floor. D and H are in different flats.",
+      "question": "Who among the following people lives on floor number first?",
+      "options": {
+        "A": "C",
+        "B": "B",
+        "C": "A",
+        "D": "D",
+        "E": "None of the above"
+      },
+      "arrangement": {
+        "floor4": {
+          "M": "A",
+          "N": "D"
+        },
+        "floor3": {
+          "M": "F",
+          "N": "E"
+        },
+        "floor2": {
+          "M": "C",
+          "N": "H"
+        },
+        "floor1": {
+          "M": "G",
+          "N": "B"
+        }
+      },
+      "valid_arrangement_count": 1,
+      "independently_derived_answer": "B",
+      "reasoning": "The unique arrangement places G and B on floor 1; among the listed choices, B is present.",
+      "printed_key_or_annotation": "Visible mark B; agrees.",
+      "classification": "verified_answer_candidate",
+      "confidence": "high",
+      "review_note": "",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "7755622a-824c-4189-9728-2a572781d712",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 4-6; printed Q1",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 7-9 | printed Q6",
+      "source_pdf": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf",
+      "physical_pages": [
+        7,
+        8,
+        9
+      ],
+      "printed_question_number": "Q6",
+      "puzzle_group": "flatfloor02_four_floors_P_Q_A_to_H",
+      "shared_directions": "Eight people A-H occupy four floors, two flats P (west) and Q. The note says 1 is not treated as a perfect square. G is on a perfect-square floor; one floor separates G and C. B immediately above C, in a different flat from G. One floor separates B and A; two floors separate A and F. H is above A but below D in a different flat from A. A does not live in flat P.",
+      "question": "Who lives in Flat Q on the top floor?",
+      "options": {
+        "A": "H",
+        "B": "E",
+        "C": "F",
+        "D": "A",
+        "E": "None of the above"
+      },
+      "valid_arrangement_count": 2,
+      "answer_invariant_across_valid_arrangements": true,
+      "independently_derived_answer": "C",
+      "reasoning": "The source’s two valid layouts differ only in a lower-floor placement; F occupies Flat Q on the top floor in both.",
+      "printed_key_or_annotation": "Visible mark C; agrees.",
+      "classification": "verified_answer_candidate",
+      "confidence": "high",
+      "review_note": "Answer is invariant despite two valid arrangements.",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "89e7ae3c-e273-4ce9-8d19-78da1f20025e",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 7-9; printed Q6",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 10-13 | printed Q11",
+      "source_pdf": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf",
+      "physical_pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "printed_question_number": "Q11",
+      "puzzle_group": "flatfloor02_three_floors_three_flats_R_to_Z",
+      "shared_directions": "Nine people Z,Y,X,W,V,U,T,S,R occupy three floors and three flats A,B,C (A west of B west of C). Clues: V is immediately above R; V is in flat B. Y is immediately above S; S is on an even-numbered floor. Nobody is west of Y. X is above U in different flats; X is not in B. T shares X’s flat number but not W’s. Z is immediately below T in flat B.",
+      "question": "Who among the following people lives on floor number first?",
+      "options": {
+        "A": "Y, X, W",
+        "B": "S, Z, V",
+        "C": "T, Z, X",
+        "D": "U, R, Z",
+        "E": "None of the above"
+      },
+      "arrangement": {
+        "floor3": {
+          "A": "Y",
+          "B": "W",
+          "C": "X"
+        },
+        "floor2": {
+          "A": "T",
+          "B": "V",
+          "C": "S"
+        },
+        "floor1": {
+          "A": "U",
+          "B": "Z",
+          "C": "R"
+        }
+      },
+      "valid_arrangement_count": 1,
+      "independently_derived_answer": "D",
+      "reasoning": "The constraints force floor 1 to contain U, Z and R, matching option D. V is in flat B immediately above R; T is directly above Z, and X above U in a different flat.",
+      "printed_key_or_annotation": "No visible key mark on the question page; independently derived answer D.",
+      "classification": "verified_answer_candidate",
+      "confidence": "high",
+      "review_note": "OCR initially suggested R shared V’s flat; rendered source says only that V is in flat B and directly above R. Corrected constraint interpretation.",
+      "integration": {
+        "status": "imported_active",
+        "question_id": "004b1ce5-84ae-4703-b898-4e2694d073b6",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 10-13; printed Q11",
+        "correct_option": "D"
+      }
+    }
+  ],
+  "summary": {
+    "verified_answer_candidates": 4,
+    "held": 2,
+    "duplicates_within_pdfs": 0,
+    "duplicates_against_destination_database": 0,
+    "wrong_chapter": 0,
+    "unclassified": 0,
+    "answer_key_disagreements": 0
+  },
+  "database_comparison": {
+    "database": "local ssc_prep at 127.0.0.1:5432",
+    "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+    "active_rows_compared": 40,
+    "inactive_rows_compared": 0,
+    "exact_duplicates": 0,
+    "semantic_duplicates_identified": 0,
+    "scope_note": "No equivalent prompt/set was identified among the 40 active and 0 inactive records in the exact destination chapter. Cross-topic comparisons against unrelated chapter banks were not performed."
+  },
+  "scope_note": "All 31 pages, six question appearances, within-source duplicates, and the exact Flat + Floor destination chapter were audited. Cross-topic duplicate comparison against other chapter banks was not performed; no wrong-chapter items were found. No database changes were made.",
+  "integration_result": {
+    "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+    "before_active": 40,
+    "before_inactive": 0,
+    "imported_count": 4,
+    "retired_count": 4,
+    "after_active": 40,
+    "after_inactive": 4,
+    "imported_records": [
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf | physical pages 5-7 | printed Q1",
+        "question_id": "5893029d-3ac6-4755-979c-9c3ed2d7e315",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf; physical page(s) 5-7",
+        "correct_option": "C",
+        "answer": "T"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 4-6 | printed Q1",
+        "question_id": "7755622a-824c-4189-9728-2a572781d712",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 4-6; printed Q1",
+        "correct_option": "B",
+        "answer": "B"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 7-9 | printed Q6",
+        "question_id": "89e7ae3c-e273-4ce9-8d19-78da1f20025e",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 7-9; printed Q6",
+        "correct_option": "C",
+        "answer": "F"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 10-13 | printed Q11",
+        "question_id": "004b1ce5-84ae-4703-b898-4e2694d073b6",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 10-13; printed Q11",
+        "correct_option": "D",
+        "answer": "U, R, Z"
+      }
+    ],
+    "retired_records": [
+      {
+        "id": "25eb852a-5cde-425a-bfdf-f856d7fd0e0a",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "question_text": "Original Practice Question — Eight residents B, G, D, A, H, F, C, E occupy a four-floor building. Each floor has one West flat and one East flat; floor 1 is lowest and floor 4 highest. All eight locations are occupied. Shared clues: B and G occupy floor 4; B is in West flat and G in East flat. B lives immediately above D in West flat. D lives immediately above H in West flat. H lives immediately above C in West flat. G lives immediately above A in East flat. A lives immediately above F in East flat. F lives immediately above E in East flat.\n\nQuestion: Who lives on floor 1 in the East flat?",
+        "explanation": "The clue for the top-floor pair fixes the top locations. The three immediate-above clues in each flat then fix the residents floor by floor. The unique arrangement is 4: West B, East G; 3: West D, East A; 2: West H, East F; 1: West C, East E. Thus floor 1 East is occupied by E.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "G",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "D",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "F",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "E",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "C",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "f4e8e032-c4fe-47d0-bbb2-17c461e2db0a",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "question_text": "Original Practice Question — Eight residents C, F, B, H, G, E, D, A occupy a four-floor building. Each floor has one West flat and one East flat; floor 1 is lowest and floor 4 highest. All eight locations are occupied. Shared clues: C and F occupy floor 4; C is in West flat and F in East flat. C lives immediately above B in West flat. B lives immediately above G in West flat. G lives immediately above D in West flat. F lives immediately above H in East flat. H lives immediately above E in East flat. E lives immediately above A in East flat.\n\nQuestion: Who lives on floor 1 in the West flat?",
+        "explanation": "The clue for the top-floor pair fixes the top locations. The three immediate-above clues in each flat then fix the residents floor by floor. The unique arrangement is 4: West C, East F; 3: West B, East H; 2: West G, East E; 1: West D, East A. Thus floor 1 West is occupied by D.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "A",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "B",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "G",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "E",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "D",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "332dcfb0-2b4c-48b3-863e-83608915b935",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "question_text": "Original Practice Question — Eight residents D, E, A, H, C, F, B, G occupy a four-floor building. Each floor has one West flat and one East flat; floor 1 is lowest and floor 4 highest. All eight locations are occupied. Shared clues: D and E occupy floor 4; D is in West flat and E in East flat. D lives immediately above A in West flat. A lives immediately above C in West flat. C lives immediately above B in West flat. E lives immediately above H in East flat. H lives immediately above F in East flat. F lives immediately above G in East flat.\n\nQuestion: Who lives on floor 1 in the West flat?",
+        "explanation": "The clue for the top-floor pair fixes the top locations. The three immediate-above clues in each flat then fix the residents floor by floor. The unique arrangement is 4: West D, East E; 3: West A, East H; 2: West C, East F; 1: West B, East G. Thus floor 1 West is occupied by B.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "B",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "F",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "G",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "A",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "D",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "1550dcc9-95b3-4b8f-9fba-fa3da3e324aa",
+        "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+        "question_text": "Original Practice Question — Eight residents F, E, A, G, B, D, H, C occupy a four-floor building. Each floor has one West flat and one East flat; floor 1 is lowest and floor 4 highest. All eight locations are occupied. Shared clues: F and E occupy floor 4; F is in West flat and E in East flat. F lives immediately above A in West flat. A lives immediately above B in West flat. B lives immediately above H in West flat. E lives immediately above G in East flat. G lives immediately above D in East flat. D lives immediately above C in East flat.\n\nQuestion: Who lives on floor 1 in the East flat?",
+        "explanation": "The clue for the top-floor pair fixes the top locations. The three immediate-above clues in each flat then fix the residents floor by floor. The unique arrangement is 4: West F, East E; 3: West A, East G; 2: West B, East D; 1: West H, East C. Thus floor 1 East is occupied by C.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "C",
+            "correct": true,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "H",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "A",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "G",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "E",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      }
+    ],
+    "import_result": {
+      "total_records": 4,
+      "imported": 4,
+      "rejected": 0,
+      "duplicates": 0,
+      "dry_run": false,
+      "would_import": 4,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": []
+    },
+    "replay_result": {
+      "total_records": 4,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 4,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

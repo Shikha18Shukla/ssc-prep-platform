@@ -1,0 +1,146 @@
+{
+  "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+  "chapter_name": "HOT Category Puzzles – Flat + Floor Based",
+  "database_identity": {
+    "database": "ssc_prep",
+    "host": "127.0.0.1/32",
+    "port": 5432
+  },
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-flat-floor-based",
+      "question_text": "Eight people M,N,O,P,Q,R,S,T occupy two flats A and B on four floors; A is west of B; floors are numbered bottom-up. S is in Flat A on an even floor immediately above Q in the other flat. Q and R have one floor between them and occupy the same flat type. M is on Q’s floor and immediately below O. N and P share flat type; N is not on T’s floor; T is not below O.\n\nQuestion: Who among the following persons stays on the topmost floor?",
+      "options": {
+        "A": "N",
+        "B": "R",
+        "C": "T",
+        "D": "M",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "Exhaustive placement of eight distinct people into the eight flat-floor slots under the written constraints yields one arrangement; T and P occupy floor 4, and among the options only T appears.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf; physical page(s) 5-7"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-flat-floor-based",
+      "question_text": "Eight people A-H occupy four floors, two flats M (west) and N. F is on an odd floor, not N. A is immediately above F on another flat. One floor lies between A and E; nobody is west of E. C and G are on even floors, C above G. B and H share a floor; B is immediately below G’s floor. D and H are in different flats.\n\nQuestion: Who among the following people lives on floor number first?",
+      "options": {
+        "A": "C",
+        "B": "B",
+        "C": "A",
+        "D": "D",
+        "E": "None of the above"
+      },
+      "correct_option": "B",
+      "explanation": "The unique arrangement places G and B on floor 1; among the listed choices, B is present.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 4-6; printed Q1"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-flat-floor-based",
+      "question_text": "Eight people A-H occupy four floors, two flats P (west) and Q. The note says 1 is not treated as a perfect square. G is on a perfect-square floor; one floor separates G and C. B immediately above C, in a different flat from G. One floor separates B and A; two floors separate A and F. H is above A but below D in a different flat from A. A does not live in flat P.\n\nQuestion: Who lives in Flat Q on the top floor?",
+      "options": {
+        "A": "H",
+        "B": "E",
+        "C": "F",
+        "D": "A",
+        "E": "None of the above"
+      },
+      "correct_option": "C",
+      "explanation": "The source’s two valid layouts differ only in a lower-floor placement; F occupies Flat Q on the top floor in both.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 7-9; printed Q6"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": null,
+      "chapter_slug": "hot-category-puzzles-flat-floor-based",
+      "question_text": "Nine people Z,Y,X,W,V,U,T,S,R occupy three floors and three flats A,B,C (A west of B west of C). Clues: V is immediately above R; V is in flat B. Y is immediately above S; S is on an even-numbered floor. Nobody is west of Y. X is above U in different flats; X is not in B. T shares X’s flat number but not W’s. Z is immediately below T in flat B.\n\nQuestion: Who among the following people lives on floor number first?",
+      "options": {
+        "A": "Y, X, W",
+        "B": "S, Z, V",
+        "C": "T, Z, X",
+        "D": "U, R, Z",
+        "E": "None of the above"
+      },
+      "correct_option": "D",
+      "explanation": "The constraints force floor 1 to contain U, Z and R, matching option D. V is in flat B immediately above R; T is directly above Z, and X above U in a different flat.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "pyq_year": null,
+      "pyq_exam_name": null,
+      "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 10-13; printed Q11"
+    }
+  ],
+  "integration_result": {
+    "chapter_id": "59c468db-e3f8-44ff-be9c-0830a5a7ebce",
+    "imported_count": 4,
+    "retired_count": 4,
+    "imported_records": [
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf | physical pages 5-7 | printed Q1",
+        "question_id": "5893029d-3ac6-4755-979c-9c3ed2d7e315",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 01 _ Class Notes.pdf.pdf; physical page(s) 5-7",
+        "correct_option": "C",
+        "answer": "T"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 4-6 | printed Q1",
+        "question_id": "7755622a-824c-4189-9728-2a572781d712",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 4-6; printed Q1",
+        "correct_option": "B",
+        "answer": "B"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 7-9 | printed Q6",
+        "question_id": "89e7ae3c-e273-4ce9-8d19-78da1f20025e",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 7-9; printed Q6",
+        "correct_option": "C",
+        "answer": "F"
+      },
+      {
+        "source_identifier": "HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf | physical pages 10-13 | printed Q11",
+        "question_id": "004b1ce5-84ae-4703-b898-4e2694d073b6",
+        "source": "PDF: HOT Category Puzzles Flat   Floor puzzles based 02 _ Class Notes.pdf; physical page(s) 10-13; printed Q11",
+        "correct_option": "D",
+        "answer": "U, R, Z"
+      }
+    ],
+    "replay_result": {
+      "total_records": 4,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 4,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

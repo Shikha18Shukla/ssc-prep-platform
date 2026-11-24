@@ -1,0 +1,1021 @@
+{
+  "chapter": "Inequality (Mains)",
+  "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+  "source_pdf_count": 2,
+  "source_pages": 24,
+  "question_appearances_identified": 13,
+  "question_level_cross_database_deduplication": "complete_read_only_local",
+  "entries": [
+    {
+      "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [3] | appearance 1",
+      "source_pdf": "Inequality 01  Class Notes.pdf.pdf",
+      "physical_pages": [
+        3
+      ],
+      "printed_question_number": null,
+      "appearance_number": 1,
+      "shared_symbol_definitions": {
+        "@": ">",
+        "%": "≤",
+        "#": "<",
+        "&": ">=",
+        "^": "="
+      },
+      "statement": "K & H @ U @ L ^ G % P # J ^ N",
+      "conclusions": [
+        "I. N # L",
+        "II. K @ G",
+        "III. H % J"
+      ],
+      "options": {
+        "A": "Only I follows",
+        "B": "Both I and II follow",
+        "C": "Either I or II follows",
+        "D": "Only II follows",
+        "E": "Neither I nor II follows"
+      },
+      "independently_derived_answer": "D",
+      "reasoning": "The chain gives K≥H>U>L=G≤P<J=N. II (K>G) is forced; I is false because N>L; III (H≤J) is not forced.",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "The visible handwritten working indicates only II; it agrees with the independent derivation.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "25f0800e-f98c-4347-8934-d73de06b72c5",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 3",
+        "correct_option": "D"
+      }
+    },
+    {
+      "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [4] | appearance 2",
+      "source_pdf": "Inequality 01  Class Notes.pdf.pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": null,
+      "appearance_number": 2,
+      "shared_symbol_definitions": {
+        "#": "≤",
+        "$": ">",
+        "%": "=",
+        "&": "<",
+        "@": ">="
+      },
+      "statement": "A # Y % B & E @ S @ G",
+      "conclusions": [
+        "I. G @ A",
+        "II. Y # E"
+      ],
+      "options": {
+        "A": "Only I follows",
+        "B": "Both I and II follow",
+        "C": "Either I or II follows",
+        "D": "Only II follows",
+        "E": "Neither I nor II follows"
+      },
+      "independently_derived_answer": "D",
+      "reasoning": "The chain is A≤Y=B<E and E≥S≥G. Thus Y<E, so II follows; G≥A is not entailed.",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "The handwritten answer marking near E appears to conflict with the written working (which establishes II); record the mark as an apparent key discrepancy, not as proof.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "c68f87b0-56e0-4451-9da8-e25c037ce246",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 4",
+        "correct_option": "D"
+      }
+    },
+    {
+      "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [5] | appearance 3",
+      "source_pdf": "Inequality 01  Class Notes.pdf.pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": null,
+      "appearance_number": 3,
+      "shared_symbol_definitions": {
+        "@": "<",
+        "#": ">",
+        "%": "=",
+        "$": ">=",
+        "Ω": "≤"
+      },
+      "statement": "R # J @ S Ω B @ D % F $ C Ω H # K $ T",
+      "conclusions": [
+        "I. D @ T",
+        "II. F $ T",
+        "III. J $ F"
+      ],
+      "options": {
+        "A": "Only III is true",
+        "B": "Either I or II is true",
+        "C": "Both I and II are true",
+        "D": "Both I and III are true",
+        "E": "None is true"
+      },
+      "independently_derived_answer": "E",
+      "reasoning": "The chain yields R>J, J<S≤B<D=F, F≥C≤H<K and K≥T. Neither D<T nor F≥T is forced. J<S≤B<D=F proves J<F, contradicting III.",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "The visible annotation indicates none; it agrees.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "f17f20af-ad63-4957-b60a-27af3223f993",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 5",
+        "correct_option": "E"
+      }
+    },
+    {
+      "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [6, 7] | appearance 4",
+      "source_pdf": "Inequality 01  Class Notes.pdf.pdf",
+      "physical_pages": [
+        6,
+        7
+      ],
+      "printed_question_number": null,
+      "appearance_number": 4,
+      "shared_symbol_definitions": {
+        "@": ">",
+        "%": "≤",
+        "#": "<",
+        "&": ">=",
+        "^": "="
+      },
+      "statement": "M @ N @ O & P ^ Q & R",
+      "conclusions": [
+        "I. M @ P",
+        "II. O ^ R",
+        "III. N & Q"
+      ],
+      "options": {
+        "A": "Only i",
+        "B": "Only ii",
+        "C": "Only iii",
+        "D": "Both ii and iii",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "I and III",
+      "reasoning": "M>N>O≥P=Q≥R; I is true and III is true, while II is not forced. The options do not include “Both i and iii.”",
+      "classification": "held",
+      "source_key_or_annotation": "The correct conclusion combination is absent from the printed options; do not force a listed answer.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [4] | appearance 1",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        4
+      ],
+      "printed_question_number": null,
+      "appearance_number": 1,
+      "shared_symbol_definitions": {
+        "@": ">",
+        "%": "≤",
+        "#": "<",
+        "&": ">=",
+        "^": "="
+      },
+      "statement": "A ^ B ^ C & D @ E & F",
+      "conclusions": [
+        "I. A & F",
+        "II. B @ E",
+        "III. F # B"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": null,
+      "reasoning": "A=B=C≥D>E≥F, so all three listed conclusions are true. The displayed options have no “all three” choice.",
+      "classification": "held",
+      "source_key_or_annotation": "The question has no valid listed answer because all three conclusions follow.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [5] | appearance 2",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        5
+      ],
+      "printed_question_number": null,
+      "appearance_number": 2,
+      "shared_symbol_definitions": {
+        "@": ">",
+        "%": "≤",
+        "#": "<",
+        "&": ">=",
+        "^": "="
+      },
+      "statement": "X # Y % Z ^ C @ K & L",
+      "conclusions": [
+        "I. X % K",
+        "II. Z @ L",
+        "III. Y % G"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "II only",
+      "reasoning": "X<Y≤Z=C>K≥L. II (Z>L) follows. I is not determined. G is absent from the statement, so III cannot be evaluated.",
+      "classification": "held",
+      "source_key_or_annotation": "Conclusion III contains G, which is not introduced in the statement; the full answer cannot be validated.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [6] | appearance 3",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        6
+      ],
+      "printed_question_number": null,
+      "appearance_number": 3,
+      "shared_symbol_definitions": {
+        "@": ">",
+        "%": "≤",
+        "#": "<",
+        "&": ">=",
+        "^": "="
+      },
+      "statement": "S ^ T # U % V & W @ X",
+      "conclusions": [
+        "I. S # V",
+        "II. T & W",
+        "III. X # S"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "S=T<U≤V and W>X. Thus S<V, so I follows. The other comparisons are not entailed.",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "The visible handwritten mark appears to select only i; it agrees.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "b8eb8b60-dc0a-49bc-bc2b-21f881cefd54",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 6",
+        "correct_option": "A"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [7, 8] | appearance 4",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        7,
+        8
+      ],
+      "printed_question_number": null,
+      "appearance_number": 4,
+      "shared_symbol_definitions": {
+        "@": ">",
+        "%": "≤",
+        "#": "<",
+        "&": ">=",
+        "^": "="
+      },
+      "statement": "P @ Q % R ^ S ^ T % U",
+      "conclusions": [
+        "I. Q # U",
+        "II. P % S",
+        "III. U ^ Q"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "Either I or III",
+      "reasoning": "Q≤R=S=T≤U. Therefore exactly one of Q<U (I) and U=Q (III) holds. II is not forced.",
+      "classification": "held",
+      "source_key_or_annotation": "The written working identifies the either/or pair I and III, but the transcribed printed options do not contain that answer. Confirm option text from the original before use.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [9] | appearance 5",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        9
+      ],
+      "printed_question_number": null,
+      "appearance_number": 5,
+      "shared_symbol_definitions": {
+        "&": "=",
+        "%": "<",
+        "$": ">",
+        "@": "≤",
+        "#": ">="
+      },
+      "statement": "A % B & C @ D # E & F",
+      "conclusions": [
+        "I. A & E",
+        "II. D $ A",
+        "III. C # F"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "B",
+      "reasoning": "A<B=C≤D≥E=F. II (D>A) follows because D≥C=B>A. I is not forced and C≥F is not forced.",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "The visible answer annotation is consistent with only II.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "782540bb-92fb-4660-9702-dca13ca24939",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 9",
+        "correct_option": "B"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [10] | appearance 6",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        10
+      ],
+      "printed_question_number": null,
+      "appearance_number": 6,
+      "shared_symbol_definitions": {
+        "&": "=",
+        "%": "<",
+        "$": ">",
+        "@": "≤",
+        "#": ">="
+      },
+      "statement": "A $ B & C, C & D # E % F",
+      "conclusions": [
+        "I. A & E",
+        "II. C & E",
+        "III. B # D"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "C",
+      "reasoning": "A>B=C=D≥E and E<F. Equality conclusions I and II do not follow; B=D makes III true under # (≥).",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "The handwritten solution appears to select only iii.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "0f58a87d-7e27-4267-848b-0d00655a497d",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 10",
+        "correct_option": "C"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [11] | appearance 7",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        11
+      ],
+      "printed_question_number": null,
+      "appearance_number": 7,
+      "shared_symbol_definitions": {
+        "$": "=",
+        "&": "<",
+        "%": ">",
+        "#": "≤",
+        "@": ">="
+      },
+      "statement": "P % Q @ R, S # R @ U % V",
+      "conclusions": [
+        "I. P % S",
+        "II. V & Q",
+        "III. P @ V"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": null,
+      "reasoning": "P>Q≥R, S≤R, and R≥U>V. Therefore P>S, V<Q, and P≥V: all three conclusions follow, but the displayed choices do not include all three.",
+      "classification": "held",
+      "source_key_or_annotation": "No listed answer represents all three conclusions being true.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [12] | appearance 8",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        12
+      ],
+      "printed_question_number": null,
+      "appearance_number": 8,
+      "shared_symbol_definitions": {
+        "$": "=",
+        "&": "<",
+        "%": ">",
+        "#": "≤",
+        "@": ">="
+      },
+      "statement": "Statement is visually/OCR ambiguous; it begins “P % Q @ R,” and the second relation and one or more conclusion symbols are not sufficiently clear.",
+      "conclusions": [
+        "Question text requires reinspection"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": null,
+      "reasoning": "Cannot derive a reliable answer without an exact transcription of the second statement and conclusions.",
+      "classification": "held",
+      "source_key_or_annotation": "Source transcription remains ambiguous; no reconstruction from the adjacent question was assumed.",
+      "integration": {
+        "status": "held_not_imported"
+      }
+    },
+    {
+      "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [13] | appearance 9",
+      "source_pdf": "Inequality 02  Class Notes.pdf",
+      "physical_pages": [
+        13
+      ],
+      "printed_question_number": null,
+      "appearance_number": 9,
+      "shared_symbol_definitions": {
+        "$": "=",
+        "&": "<",
+        "%": ">",
+        "#": "≤",
+        "@": ">="
+      },
+      "statement": "T $ U % V, W # X $ V % Y",
+      "conclusions": [
+        "I. T % X",
+        "II. U # Y",
+        "III. W # Y"
+      ],
+      "options": {
+        "A": "Only conclusion i follows",
+        "B": "Only conclusion ii follows",
+        "C": "Only conclusion iii follows",
+        "D": "Both conclusions ii and iii follow",
+        "E": "None of these"
+      },
+      "independently_derived_answer": "A",
+      "reasoning": "T=U>V=X>Y and W≤X. I (T>X) follows; II is false, while W≤Y is not entailed.",
+      "classification": "verified_candidate",
+      "source_key_or_annotation": "Visible answer mark appears to select only i.",
+      "cross_bank_deduplication": {
+        "database": "local ssc_prep at 127.0.0.1:5432",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "rows_compared": 40,
+        "inactive_rows_compared": 0,
+        "exact_duplicate": false,
+        "semantic_duplicate": false,
+        "result": "unique_against_current_destination_bank",
+        "method": "Compared normalized coded statement/conclusion content against every stored chapter question; inspected highest textual similarity candidates. Matches were generic inequality practice format only; no equivalent relation graph and conclusions were found."
+      },
+      "global_cross_bank_deduplication": {
+        "database_question_rows_compared": 6119,
+        "exact_or_semantic_duplicate": false,
+        "scope": "All active and inactive question rows in local ssc_prep; highest same-topic text overlaps manually checked."
+      },
+      "integration": {
+        "status": "imported_active",
+        "question_id": "381a6927-7484-4d5c-a333-fbda83ed5383",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 13",
+        "correct_option": "A"
+      }
+    }
+  ],
+  "summary": {
+    "verified_candidate": 7,
+    "held": 6,
+    "duplicate": 0,
+    "wrong_chapter": 0,
+    "fully_deduplicated_unique": 7
+  },
+  "status": "question_audit_complete_global_local_bank_dedup_complete_source_appearance_dedup_complete",
+  "global_cross_bank_deduplication": {
+    "database": "local ssc_prep at 127.0.0.1:5432",
+    "database_identity_verified": {
+      "database": "ssc_prep",
+      "host": "127.0.0.1",
+      "port": 5432
+    },
+    "question_rows_compared": 6119,
+    "destination_chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+    "destination_active": 40,
+    "destination_inactive": 0,
+    "candidate_count": 7,
+    "exact_duplicates": 0,
+    "semantic_duplicates": 0,
+    "method": "Read-only token/content comparison of the seven independently answer-verified statement/conclusion sets against all database question_text rows, followed by manual inspection of the highest-overlap same-topic results for the relation graph and conclusion set. Compared all 13 Inequality source appearances against one another; no repeated question prompt was found.",
+    "result": "No matching relation graph plus conclusions, including among stored original-practice and prior PDF-derived Inequality rows. Highest token-overlap results were other inequality items with generic shared variables/operators but different statement graphs/conclusions; no semantic duplicate."
+  },
+  "integration_result": {
+    "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+    "before_active": 40,
+    "before_inactive": 0,
+    "imported_count": 7,
+    "retired_count": 7,
+    "after_active": 40,
+    "after_inactive": 7,
+    "imported_records": [
+      {
+        "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [3] | appearance 1",
+        "question_id": "25f0800e-f98c-4347-8934-d73de06b72c5",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 3",
+        "correct_option": "D",
+        "answer": "Only II follows"
+      },
+      {
+        "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [4] | appearance 2",
+        "question_id": "c68f87b0-56e0-4451-9da8-e25c037ce246",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 4",
+        "correct_option": "D",
+        "answer": "Only II follows"
+      },
+      {
+        "source_identifier": "Inequality 01  Class Notes.pdf.pdf | physical page(s) [5] | appearance 3",
+        "question_id": "f17f20af-ad63-4957-b60a-27af3223f993",
+        "source": "PDF: Inequality 01  Class Notes.pdf.pdf; physical page(s) 5",
+        "correct_option": "E",
+        "answer": "None is true"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [6] | appearance 3",
+        "question_id": "b8eb8b60-dc0a-49bc-bc2b-21f881cefd54",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 6",
+        "correct_option": "A",
+        "answer": "Only conclusion i follows"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [9] | appearance 5",
+        "question_id": "782540bb-92fb-4660-9702-dca13ca24939",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 9",
+        "correct_option": "B",
+        "answer": "Only conclusion ii follows"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [10] | appearance 6",
+        "question_id": "0f58a87d-7e27-4267-848b-0d00655a497d",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 10",
+        "correct_option": "C",
+        "answer": "Only conclusion iii follows"
+      },
+      {
+        "source_identifier": "Inequality 02  Class Notes.pdf | physical page(s) [13] | appearance 9",
+        "question_id": "381a6927-7484-4d5c-a333-fbda83ed5383",
+        "source": "PDF: Inequality 02  Class Notes.pdf; physical page(s) 13",
+        "correct_option": "A",
+        "answer": "Only conclusion i follows"
+      }
+    ],
+    "retired_records": [
+      {
+        "id": "d8dd253c-d21c-4e51-b0e4-7d0b8b6dc63a",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: G < A, A >= F, F <= E, E > C, C <= B. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (G < A; A >= F; F <= E; E > C; C <= B), the conclusion C <= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "B < E",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "B < C",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "E < F",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "C >= G",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "C <= B",
+            "correct": true,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "78b9931c-5615-473e-8702-3d4a992ec0fc",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: B >= A, A < G, G > F, F >= D, D <= E. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (B >= A; A < G; G > F; F >= D; D <= E), the conclusion B >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "E <= A",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "F < E",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "F >= B",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "B >= A",
+            "correct": true,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "D = F",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "453faa3d-6bcd-46fd-80e8-8a98595eb677",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: E > A, A < G, G <= B, B >= D, D <= C. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (E > A; A < G; G <= B; B >= D; D <= C), the conclusion D <= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "A = B",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "B >= E",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "D <= C",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "G > D",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "C >= G",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "70f659d1-dd67-4cff-8ab9-c8ccc983fad6",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: B < E, E <= A, A <= G, G = F, F <= D. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (B < E; E <= A; A <= G; G = F; F <= D), the conclusion E <= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "D < A",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "E <= A",
+            "correct": true,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "E = B",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "D > E",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "D > F",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "fde2dfd7-fd81-4fe0-bd11-5394b1890330",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: D <= G, G > A, A <= E, E > F, F = C. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (D <= G; G > A; A <= E; E > F; F = C), the conclusion C = F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "A = C",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "C = F",
+            "correct": true,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "A < C",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "C < A",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "E <= G",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "d50266dd-4071-4e24-b8f0-056027a63742",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: F >= A, A > E, E = D, D < G, G > C. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (F >= A; A > E; E = D; D < G; G > C), the conclusion F >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "F < G",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "C >= F",
+            "correct": false,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "F >= A",
+            "correct": true,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "G > A",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "F <= E",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      },
+      {
+        "id": "54429781-d9d2-4138-b582-7204b36b34ac",
+        "chapter_id": "5615c02a-f5ce-4f67-b256-78b68de1486f",
+        "question_text": "Original Practice Question — Given the inequalities: E < C, C <= B, B > G, G < D, D >= F. Which one of the following conclusions must be true?",
+        "explanation": "Across all numeric assignments satisfying the statements (E < C; C <= B; B > G; G < D; D >= F), the conclusion D >= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+        "difficulty": "MEDIUM",
+        "is_pyq": false,
+        "source": "Original Practice Question (self-authored; not PDF-derived)",
+        "is_active": false,
+        "options": [
+          {
+            "key": "A",
+            "text": "G >= B",
+            "correct": false,
+            "order": 1
+          },
+          {
+            "key": "B",
+            "text": "D >= F",
+            "correct": true,
+            "order": 2
+          },
+          {
+            "key": "C",
+            "text": "C <= G",
+            "correct": false,
+            "order": 3
+          },
+          {
+            "key": "D",
+            "text": "F <= C",
+            "correct": false,
+            "order": 4
+          },
+          {
+            "key": "E",
+            "text": "C > F",
+            "correct": false,
+            "order": 5
+          }
+        ]
+      }
+    ],
+    "import_result": {
+      "total_records": 7,
+      "imported": 7,
+      "rejected": 0,
+      "duplicates": 0,
+      "dry_run": false,
+      "would_import": 7,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": []
+    },
+    "replay_result": {
+      "total_records": 7,
+      "imported": 0,
+      "rejected": 0,
+      "duplicates": 7,
+      "dry_run": true,
+      "would_import": 0,
+      "aborted": false,
+      "errors": [],
+      "duplicate_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  }
+}
