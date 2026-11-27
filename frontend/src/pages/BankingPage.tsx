@@ -40,6 +40,11 @@ const mathsChapterKeys: Record<string, string> = {
   approximation: "approximation",
   "missing-number-series": "missing_series",
   "wrong-number-series": "wrong_series",
+  "quadratic-equations": "quadratic_equations",
+  "number-system": "number_system",
+  percentage: "percentage",
+  "ratio-and-proportion": "ratio_proportion",
+  "profit-loss-and-discount": "profit_loss_discount",
 };
 const mathsParts = [
   { part: 1, count: 15, minutes: 10.5, title: "Part 1", subtitle: "15 Questions · 10.5 Minutes", level: "Easy" },

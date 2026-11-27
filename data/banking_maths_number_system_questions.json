@@ -1,0 +1,3922 @@
+[
+  {
+    "id": "number_system-0001",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "What remainder is left when 4031 is divided by 13?",
+    "options": [
+      "1",
+      "6",
+      "9",
+      "5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1",
+    "explanation": "13 x 310 = 4030, so the remainder is 4031 - 4030 = 1.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 4031,
+      "b": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0002",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "What remainder is left when 2694 is divided by 13?",
+    "options": [
+      "3",
+      "0",
+      "9",
+      "10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3",
+    "explanation": "13 x 207 = 2691, so the remainder is 2694 - 2691 = 3.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 2694,
+      "b": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0003",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "What remainder is left when 6162 is divided by 10?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "10 x 616 = 6160, so the remainder is 6162 - 6160 = 2.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 6162,
+      "b": 10
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0004",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "What remainder is left when 5047 is divided by 14?",
+    "options": [
+      "11",
+      "2",
+      "6",
+      "7"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7",
+    "explanation": "14 x 360 = 5040, so the remainder is 5047 - 5040 = 7.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 5047,
+      "b": 14
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0005",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the unit digit of 4^37.",
+    "options": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4",
+    "explanation": "The unit digits of successive powers of 4 follow the cycle [4, 6, 4, 6]. Position 1 in that cycle gives the unit digit 4.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_unit",
+      "a": 4,
+      "b": 37
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0006",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the unit digit of 5^58.",
+    "options": [
+      "6",
+      "8",
+      "7",
+      "5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5",
+    "explanation": "The unit digits of successive powers of 5 follow the cycle [5, 5, 5, 5]. Position 2 in that cycle gives the unit digit 5.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_unit",
+      "a": 5,
+      "b": 58
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0007",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the unit digit of 8^14.",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4",
+    "explanation": "The unit digits of successive powers of 8 follow the cycle [8, 4, 2, 6]. Position 2 in that cycle gives the unit digit 4.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_unit",
+      "a": 8,
+      "b": 14
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0008",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the greatest number that divides 70, 80 and 50 exactly.",
+    "options": [
+      "12",
+      "6",
+      "10",
+      "5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10",
+    "explanation": "Write each number as a multiple: 70 = 10 x 7, 80 = 10 x 8, 50 = 10 x 5. The multipliers are pairwise coprime, so the HCF is 10.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_gcd",
+      "nums": [
+        70,
+        80,
+        50
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0009",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the greatest number that divides 180, 54 and 126 exactly.",
+    "options": [
+      "12",
+      "22",
+      "18",
+      "16"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18",
+    "explanation": "Write each number as a multiple: 180 = 18 x 10, 54 = 18 x 3, 126 = 18 x 7. The multipliers are pairwise coprime, so the HCF is 18.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_gcd",
+      "nums": [
+        180,
+        54,
+        126
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0010",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the greatest number that divides 216, 198 and 126 exactly.",
+    "options": [
+      "19",
+      "14",
+      "18",
+      "24"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18",
+    "explanation": "Write each number as a multiple: 216 = 18 x 12, 198 = 18 x 11, 126 = 18 x 7. The multipliers are pairwise coprime, so the HCF is 18.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_gcd",
+      "nums": [
+        216,
+        198,
+        126
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0011",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the least number that is exactly divisible by 2, 5 and 9.",
+    "options": [
+      "84",
+      "99",
+      "87",
+      "90"
+    ],
+    "correct_option": "D",
+    "correct_answer": "90",
+    "explanation": "The three numbers are pairwise coprime, so their LCM is their product: 2 x 5 x 9 = 90.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_lcm",
+      "nums": [
+        2,
+        5,
+        9
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0012",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the least number that is exactly divisible by 10, 7 and 11.",
+    "options": [
+      "767",
+      "761",
+      "771",
+      "770"
+    ],
+    "correct_option": "D",
+    "correct_answer": "770",
+    "explanation": "The three numbers are pairwise coprime, so their LCM is their product: 10 x 7 x 11 = 770.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_lcm",
+      "nums": [
+        10,
+        7,
+        11
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0013",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Find the least number that is exactly divisible by 2, 3 and 5.",
+    "options": [
+      "20",
+      "30",
+      "28",
+      "35"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30",
+    "explanation": "The three numbers are pairwise coprime, so their LCM is their product: 2 x 3 x 5 = 30.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_lcm",
+      "nums": [
+        2,
+        3,
+        5
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0014",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Which of the numbers 1056, 1065, 1059 and 1057 is divisible by 12?",
+    "options": [
+      "1056",
+      "1057",
+      "1059",
+      "1065"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1056",
+    "explanation": "1056 = 12 x 88, so it is exactly divisible by 12. The other three leave non-zero remainders.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_pick_divisible",
+      "divisor": 12,
+      "options": [
+        "1056",
+        "1065",
+        "1059",
+        "1057"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0015",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 1,
+    "section": "number_system_part_1",
+    "question_text": "Which of the numbers 119, 124, 125 and 120 is divisible by 7?",
+    "options": [
+      "119",
+      "124",
+      "120",
+      "125"
+    ],
+    "correct_option": "A",
+    "correct_answer": "119",
+    "explanation": "119 = 7 x 17, so it is exactly divisible by 7. The other three leave non-zero remainders.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_pick_divisible",
+      "divisor": 7,
+      "options": [
+        "119",
+        "124",
+        "125",
+        "120"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0016",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "What remainder is left when 7076 is divided by 12?",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8",
+    "explanation": "12 x 589 = 7068, so the remainder is 7076 - 7068 = 8.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 7076,
+      "b": 12
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0017",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "What remainder is left when 2636 is divided by 12?",
+    "options": [
+      "9",
+      "0",
+      "8",
+      "2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8",
+    "explanation": "12 x 219 = 2628, so the remainder is 2636 - 2628 = 8.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 2636,
+      "b": 12
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0018",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "What remainder is left when 5074 is divided by 7?",
+    "options": [
+      "3",
+      "6",
+      "5",
+      "2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6",
+    "explanation": "7 x 724 = 5068, so the remainder is 5074 - 5068 = 6.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_mod",
+      "a": 5074,
+      "b": 7
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0019",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the unit digit of 7^53.",
+    "options": [
+      "7",
+      "8",
+      "0",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7",
+    "explanation": "The unit digits of successive powers of 7 follow the cycle [7, 9, 3, 1]. Position 1 in that cycle gives the unit digit 7.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_unit",
+      "a": 7,
+      "b": 53
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0020",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the unit digit of 7^10.",
+    "options": [
+      "0",
+      "9",
+      "2",
+      "1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "The unit digits of successive powers of 7 follow the cycle [7, 9, 3, 1]. Position 2 in that cycle gives the unit digit 9.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_unit",
+      "a": 7,
+      "b": 10
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0021",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the unit digit of 2^52.",
+    "options": [
+      "9",
+      "7",
+      "8",
+      "6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6",
+    "explanation": "The unit digits of successive powers of 2 follow the cycle [2, 4, 8, 6]. Position 4 in that cycle gives the unit digit 6.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_unit",
+      "a": 2,
+      "b": 52
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0022",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the greatest number that divides 80, 128 and 112 exactly.",
+    "options": [
+      "20",
+      "16",
+      "17",
+      "22"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16",
+    "explanation": "Write each number as a multiple: 80 = 16 x 5, 128 = 16 x 8, 112 = 16 x 7. The multipliers are pairwise coprime, so the HCF is 16.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_gcd",
+      "nums": [
+        80,
+        128,
+        112
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0023",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the greatest number that divides 35, 42 and 49 exactly.",
+    "options": [
+      "2",
+      "8",
+      "3",
+      "7"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7",
+    "explanation": "Write each number as a multiple: 35 = 7 x 5, 42 = 7 x 6, 49 = 7 x 7. The multipliers are pairwise coprime, so the HCF is 7.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_gcd",
+      "nums": [
+        35,
+        42,
+        49
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0024",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the least number that is exactly divisible by 4, 3 and 11.",
+    "options": [
+      "136",
+      "132",
+      "125",
+      "141"
+    ],
+    "correct_option": "B",
+    "correct_answer": "132",
+    "explanation": "The three numbers are pairwise coprime, so their LCM is their product: 4 x 3 x 11 = 132.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_lcm",
+      "nums": [
+        4,
+        3,
+        11
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0025",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the least number that is exactly divisible by 9, 2 and 5.",
+    "options": [
+      "97",
+      "93",
+      "90",
+      "80"
+    ],
+    "correct_option": "C",
+    "correct_answer": "90",
+    "explanation": "The three numbers are pairwise coprime, so their LCM is their product: 9 x 2 x 5 = 90.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_lcm",
+      "nums": [
+        9,
+        2,
+        5
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0026",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the number of positive divisors of 375.",
+    "options": [
+      "5",
+      "12",
+      "8",
+      "6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8",
+    "explanation": "375 = 3^1 x 5^3. The number of factors is 2 x 4 = 8.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 375
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0027",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the number of positive divisors of 2744.",
+    "options": [
+      "20",
+      "13",
+      "16",
+      "19"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16",
+    "explanation": "2744 = 2^3 x 7^3. The number of factors is 4 x 4 = 16.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 2744
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0028",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the number of positive divisors of 686.",
+    "options": [
+      "6",
+      "8",
+      "11",
+      "10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8",
+    "explanation": "686 = 2^1 x 7^3. The number of factors is 2 x 4 = 8.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 686
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0029",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Find the number of positive divisors of 200.",
+    "options": [
+      "12",
+      "14",
+      "10",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "200 = 2^3 x 5^2. The number of factors is 4 x 3 = 12.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 200
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0030",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Which of the numbers 688, 691, 695 and 693 is divisible by 8?",
+    "options": [
+      "695",
+      "688",
+      "691",
+      "693"
+    ],
+    "correct_option": "B",
+    "correct_answer": "688",
+    "explanation": "688 = 8 x 86, so it is exactly divisible by 8. The other three leave non-zero remainders.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_pick_divisible",
+      "divisor": 8,
+      "options": [
+        "688",
+        "691",
+        "695",
+        "693"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0031",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Which of the numbers 392, 397, 398 and 396 is divisible by 8?",
+    "options": [
+      "398",
+      "396",
+      "397",
+      "392"
+    ],
+    "correct_option": "D",
+    "correct_answer": "392",
+    "explanation": "392 = 8 x 49, so it is exactly divisible by 8. The other three leave non-zero remainders.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_pick_divisible",
+      "divisor": 8,
+      "options": [
+        "392",
+        "397",
+        "398",
+        "396"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0032",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Which of the numbers 432, 438, 436 and 435 is divisible by 12?",
+    "options": [
+      "436",
+      "432",
+      "438",
+      "435"
+    ],
+    "correct_option": "B",
+    "correct_answer": "432",
+    "explanation": "432 = 12 x 36, so it is exactly divisible by 12. The other three leave non-zero remainders.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_pick_divisible",
+      "divisor": 12,
+      "options": [
+        "432",
+        "438",
+        "436",
+        "435"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0033",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Which of the numbers 87, 75, 49 and 61 is a prime number?",
+    "options": [
+      "75",
+      "61",
+      "87",
+      "49"
+    ],
+    "correct_option": "B",
+    "correct_answer": "61",
+    "explanation": "61 has no divisor other than 1 and itself. The other options are composite.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_prime_pick",
+      "options": [
+        "87",
+        "75",
+        "49",
+        "61"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0034",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Which of the numbers 82, 63, 78 and 31 is a prime number?",
+    "options": [
+      "31",
+      "82",
+      "78",
+      "63"
+    ],
+    "correct_option": "A",
+    "correct_answer": "31",
+    "explanation": "31 has no divisor other than 1 and itself. The other options are composite.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_prime_pick",
+      "options": [
+        "82",
+        "63",
+        "78",
+        "31"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0035",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 2,
+    "section": "number_system_part_2",
+    "question_text": "Which of the numbers 63, 54, 83 and 51 is a prime number?",
+    "options": [
+      "51",
+      "63",
+      "83",
+      "54"
+    ],
+    "correct_option": "C",
+    "correct_answer": "83",
+    "explanation": "83 has no divisor other than 1 and itself. The other options are composite.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_prime_pick",
+      "options": [
+        "63",
+        "54",
+        "83",
+        "51"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0036",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the number of positive divisors of 3500.",
+    "options": [
+      "24",
+      "25",
+      "27",
+      "28"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "3500 = 2^2 x 5^3 x 7^1. The number of factors is 3 x 4 x 2 = 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 3500
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0037",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the number of positive divisors of 63.",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6",
+    "explanation": "63 = 3^2 x 7^1. The number of factors is 3 x 2 = 6.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 63
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0038",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the number of positive divisors of 875.",
+    "options": [
+      "7",
+      "8",
+      "5",
+      "10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8",
+    "explanation": "875 = 5^3 x 7^1. The number of factors is 4 x 2 = 8.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 875
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0039",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the number of positive divisors of 150.",
+    "options": [
+      "12",
+      "10",
+      "8",
+      "14"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "150 = 2^1 x 3^1 x 5^2. The number of factors is 2 x 2 x 3 = 12.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 150
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0040",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the number of positive divisors of 45.",
+    "options": [
+      "2",
+      "6",
+      "4",
+      "8"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6",
+    "explanation": "45 = 3^2 x 5^1. The number of factors is 3 x 2 = 6.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divcount",
+      "n": 45
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0041",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the sum of all positive factors of 63.",
+    "options": [
+      "110",
+      "104",
+      "101",
+      "97"
+    ],
+    "correct_option": "B",
+    "correct_answer": "104",
+    "explanation": "63 = 3^2 x 7^1. Sum of factors = (3^3 - 1)/(3 - 1) x (7^2 - 1)/(7 - 1) = 104.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 63
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0042",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the sum of all positive factors of 11025.",
+    "options": [
+      "22966",
+      "22970",
+      "22968",
+      "22971"
+    ],
+    "correct_option": "D",
+    "correct_answer": "22971",
+    "explanation": "11025 = 3^2 x 5^2 x 7^2. Sum of factors = (3^3 - 1)/(3 - 1) x (5^3 - 1)/(5 - 1) x (7^3 - 1)/(7 - 1) = 22971.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 11025
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0043",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the sum of all positive factors of 196.",
+    "options": [
+      "399",
+      "402",
+      "407",
+      "391"
+    ],
+    "correct_option": "A",
+    "correct_answer": "399",
+    "explanation": "196 = 2^2 x 7^2. Sum of factors = (2^3 - 1)/(2 - 1) x (7^3 - 1)/(7 - 1) = 399.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 196
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0044",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the sum of all positive factors of 75.",
+    "options": [
+      "125",
+      "124",
+      "118",
+      "122"
+    ],
+    "correct_option": "B",
+    "correct_answer": "124",
+    "explanation": "75 = 3^1 x 5^2. Sum of factors = (3^2 - 1)/(3 - 1) x (5^3 - 1)/(5 - 1) = 124.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 75
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0045",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "How many trailing zeros are there in 86! ?",
+    "options": [
+      "22",
+      "20",
+      "23",
+      "21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 86! using floor division: 86//5 + 86//25 + ... = 20.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 86
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0046",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "How many trailing zeros are there in 22! ?",
+    "options": [
+      "3",
+      "6",
+      "0",
+      "4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 22! using floor division: 22//5 + 22//25 + ... = 4.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 22
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0047",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "How many trailing zeros are there in 102! ?",
+    "options": [
+      "23",
+      "20",
+      "27",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 102! using floor division: 102//5 + 102//25 + ... = 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 102
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0048",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "How many trailing zeros are there in 61! ?",
+    "options": [
+      "14",
+      "18",
+      "15",
+      "10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "14",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 61! using floor division: 61//5 + 61//25 + ... = 14.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 61
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0049",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the remainder when 4^16 is divided by 13.",
+    "options": [
+      "9",
+      "20",
+      "16",
+      "0"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9",
+    "explanation": "Reduce step by step modulo 13: the remainder of 4^16 is 9. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 4,
+      "b": 16,
+      "m": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0050",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the remainder when 2^10 is divided by 11.",
+    "options": [
+      "-3",
+      "4",
+      "-5",
+      "1"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1",
+    "explanation": "Reduce step by step modulo 11: the remainder of 2^10 is 1. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 2,
+      "b": 10,
+      "m": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0051",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the remainder when 7^20 is divided by 9.",
+    "options": [
+      "1",
+      "4",
+      "6",
+      "7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4",
+    "explanation": "Reduce step by step modulo 9: the remainder of 7^20 is 4. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 7,
+      "b": 20,
+      "m": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0052",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the remainder when 11^8 is divided by 7.",
+    "options": [
+      "8",
+      "2",
+      "1",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "Reduce step by step modulo 7: the remainder of 11^8 is 2. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 11,
+      "b": 8,
+      "m": 7
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0053",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Find the remainder when 10^12 is divided by 13.",
+    "options": [
+      "5",
+      "13",
+      "1",
+      "6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1",
+    "explanation": "Reduce step by step modulo 13: the remainder of 10^12 is 1. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 10,
+      "b": 12,
+      "m": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0054",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "If the number x40728 is divisible by 11, find the digit x.",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "For divisibility by 11, the difference of the alternating digit sums must be a multiple of 11; this forces x = 6.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        8,
+        4,
+        0,
+        7,
+        2,
+        8
+      ],
+      "pos": 0,
+      "divisor": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0055",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "If the number x70847 is divisible by 9, find the digit x.",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1",
+    "explanation": "A number is divisible by 9 when its digit sum is a multiple of 9. The known digits sum to 26, so x must be 1.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        8,
+        7,
+        0,
+        8,
+        4,
+        7
+      ],
+      "pos": 0,
+      "divisor": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0056",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "If the number 78580x is divisible by 9, find the digit x.",
+    "options": [
+      "0",
+      "9",
+      "1",
+      "8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8",
+    "explanation": "A number is divisible by 9 when its digit sum is a multiple of 9. The known digits sum to 28, so x must be 8.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        7,
+        8,
+        5,
+        8,
+        0,
+        0
+      ],
+      "pos": 5,
+      "divisor": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0057",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "If the number x17785 is divisible by 11, find the digit x.",
+    "options": [
+      "2",
+      "9",
+      "0",
+      "1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "For divisibility by 11, the difference of the alternating digit sums must be a multiple of 11; this forces x = 9.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        4,
+        1,
+        7,
+        7,
+        8,
+        5
+      ],
+      "pos": 0,
+      "divisor": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0058",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Which of the fractions 1/6, 7/8, 6/7 and 1/3 is the largest?",
+    "options": [
+      "1/3",
+      "6/7",
+      "7/8",
+      "1/6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7/8",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 7/8 is the largest.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "1/6",
+        "7/8",
+        "6/7",
+        "1/3"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0059",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Which of the fractions 4/7, 2/3, 4/11 and 1/6 is the largest?",
+    "options": [
+      "1/6",
+      "4/11",
+      "2/3",
+      "4/7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/3",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 2/3 is the largest.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "4/7",
+        "2/3",
+        "4/11",
+        "1/6"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0060",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Which of the fractions 1/2, 10/11, 1/3 and 5/8 is the largest?",
+    "options": [
+      "1/3",
+      "5/8",
+      "10/11",
+      "1/2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10/11",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 10/11 is the largest.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "1/2",
+        "10/11",
+        "1/3",
+        "5/8"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0061",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Which of the fractions 2/5, 2/3, 4/9 and 3/7 is the largest?",
+    "options": [
+      "3/7",
+      "4/9",
+      "2/3",
+      "2/5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/3",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 2/3 is the largest.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 01, pp. 3-27",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "2/5",
+        "2/3",
+        "4/9",
+        "3/7"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0062",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Two numbers have HCF 17 and product 2601. What is their LCM?",
+    "options": [
+      "153",
+      "160",
+      "163",
+      "141"
+    ],
+    "correct_option": "A",
+    "correct_answer": "153",
+    "explanation": "For two numbers, HCF x LCM = product. So LCM = 2601/17 = 153.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_hcf_lcm",
+      "a": 51,
+      "b": 51,
+      "h": 17
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0063",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Two numbers have HCF 19 and product 5776. What is their LCM?",
+    "options": [
+      "304",
+      "314",
+      "311",
+      "298"
+    ],
+    "correct_option": "A",
+    "correct_answer": "304",
+    "explanation": "For two numbers, HCF x LCM = product. So LCM = 5776/19 = 304.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_hcf_lcm",
+      "a": 38,
+      "b": 152,
+      "h": 19
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0064",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Two numbers have HCF 12 and product 1152. What is their LCM?",
+    "options": [
+      "85",
+      "86",
+      "96",
+      "101"
+    ],
+    "correct_option": "C",
+    "correct_answer": "96",
+    "explanation": "For two numbers, HCF x LCM = product. So LCM = 1152/12 = 96.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_hcf_lcm",
+      "a": 48,
+      "b": 24,
+      "h": 12
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0065",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 3,
+    "section": "number_system_part_3",
+    "question_text": "Two numbers have HCF 13 and product 10647. What is their LCM?",
+    "options": [
+      "815",
+      "819",
+      "817",
+      "808"
+    ],
+    "correct_option": "B",
+    "correct_answer": "819",
+    "explanation": "For two numbers, HCF x LCM = product. So LCM = 10647/13 = 819.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_hcf_lcm",
+      "a": 91,
+      "b": 117,
+      "h": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0066",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 252.",
+    "options": [
+      "730",
+      "728",
+      "722",
+      "723"
+    ],
+    "correct_option": "B",
+    "correct_answer": "728",
+    "explanation": "252 = 2^2 x 3^2 x 7^1. Sum of factors = (2^3 - 1)/(2 - 1) x (3^3 - 1)/(3 - 1) x (7^2 - 1)/(7 - 1) = 728.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 252
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0067",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 245.",
+    "options": [
+      "349",
+      "342",
+      "346",
+      "348"
+    ],
+    "correct_option": "B",
+    "correct_answer": "342",
+    "explanation": "245 = 5^1 x 7^2. Sum of factors = (5^2 - 1)/(5 - 1) x (7^3 - 1)/(7 - 1) = 342.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 245
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0068",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 441.",
+    "options": [
+      "737",
+      "740",
+      "739",
+      "741"
+    ],
+    "correct_option": "D",
+    "correct_answer": "741",
+    "explanation": "441 = 3^2 x 7^2. Sum of factors = (3^3 - 1)/(3 - 1) x (7^3 - 1)/(7 - 1) = 741.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 441
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0069",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 18.",
+    "options": [
+      "39",
+      "34",
+      "31",
+      "33"
+    ],
+    "correct_option": "A",
+    "correct_answer": "39",
+    "explanation": "18 = 2^1 x 3^2. Sum of factors = (2^2 - 1)/(2 - 1) x (3^3 - 1)/(3 - 1) = 39.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 18
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0070",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 2450.",
+    "options": [
+      "5301",
+      "5304",
+      "5299",
+      "5308"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5301",
+    "explanation": "2450 = 2^1 x 5^2 x 7^2. Sum of factors = (2^2 - 1)/(2 - 1) x (5^3 - 1)/(5 - 1) x (7^3 - 1)/(7 - 1) = 5301.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 2450
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0071",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 294.",
+    "options": [
+      "684",
+      "683",
+      "678",
+      "682"
+    ],
+    "correct_option": "A",
+    "correct_answer": "684",
+    "explanation": "294 = 2^1 x 3^1 x 7^2. Sum of factors = (2^2 - 1)/(2 - 1) x (3^2 - 1)/(3 - 1) x (7^3 - 1)/(7 - 1) = 684.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 294
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0072",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 700.",
+    "options": [
+      "1731",
+      "1736",
+      "1742",
+      "1728"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1736",
+    "explanation": "700 = 2^2 x 5^2 x 7^1. Sum of factors = (2^3 - 1)/(2 - 1) x (5^3 - 1)/(5 - 1) x (7^2 - 1)/(7 - 1) = 1736.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 700
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0073",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the sum of all positive factors of 150.",
+    "options": [
+      "367",
+      "371",
+      "372",
+      "364"
+    ],
+    "correct_option": "C",
+    "correct_answer": "372",
+    "explanation": "150 = 2^1 x 3^1 x 5^2. Sum of factors = (2^2 - 1)/(2 - 1) x (3^2 - 1)/(3 - 1) x (5^3 - 1)/(5 - 1) = 372.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_divsum",
+      "n": 150
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0074",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 87! ?",
+    "options": [
+      "20",
+      "16",
+      "21",
+      "22"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 87! using floor division: 87//5 + 87//25 + ... = 20.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 87
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0075",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 29! ?",
+    "options": [
+      "8",
+      "6",
+      "4",
+      "9"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 29! using floor division: 29//5 + 29//25 + ... = 6.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 29
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0076",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 93! ?",
+    "options": [
+      "22",
+      "20",
+      "21",
+      "24"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 93! using floor division: 93//5 + 93//25 + ... = 21.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 93
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0077",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 109! ?",
+    "options": [
+      "29",
+      "24",
+      "25",
+      "27"
+    ],
+    "correct_option": "C",
+    "correct_answer": "25",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 109! using floor division: 109//5 + 109//25 + ... = 25.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 109
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0078",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 113! ?",
+    "options": [
+      "30",
+      "29",
+      "26",
+      "22"
+    ],
+    "correct_option": "C",
+    "correct_answer": "26",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 113! using floor division: 113//5 + 113//25 + ... = 26.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 113
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0079",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 75! ?",
+    "options": [
+      "18",
+      "17",
+      "14",
+      "16"
+    ],
+    "correct_option": "A",
+    "correct_answer": "18",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 75! using floor division: 75//5 + 75//25 + ... = 18.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 75
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0080",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 63! ?",
+    "options": [
+      "14",
+      "13",
+      "18",
+      "10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "14",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 63! using floor division: 63//5 + 63//25 + ... = 14.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 63
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0081",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many trailing zeros are there in 27! ?",
+    "options": [
+      "6",
+      "3",
+      "7",
+      "8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "Each trailing zero needs a factor 10. Count factors of 5 in 27! using floor division: 27//5 + 27//25 + ... = 6.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_zeros",
+      "n": 27
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0082",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 8^19 is divided by 17.",
+    "options": [
+      "2",
+      "3",
+      "18",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2",
+    "explanation": "Reduce step by step modulo 17: the remainder of 8^19 is 2. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 8,
+      "b": 19,
+      "m": 17
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0083",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 10^9 is divided by 17.",
+    "options": [
+      "18",
+      "16",
+      "7",
+      "-4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7",
+    "explanation": "Reduce step by step modulo 17: the remainder of 10^9 is 7. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 10,
+      "b": 9,
+      "m": 17
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0084",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 2^9 is divided by 9.",
+    "options": [
+      "10",
+      "15",
+      "11",
+      "8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8",
+    "explanation": "Reduce step by step modulo 9: the remainder of 2^9 is 8. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 2,
+      "b": 9,
+      "m": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0085",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 3^20 is divided by 7.",
+    "options": [
+      "7",
+      "4",
+      "0",
+      "2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2",
+    "explanation": "Reduce step by step modulo 7: the remainder of 3^20 is 2. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 3,
+      "b": 20,
+      "m": 7
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0086",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 6^15 is divided by 17.",
+    "options": [
+      "3",
+      "6",
+      "5",
+      "8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3",
+    "explanation": "Reduce step by step modulo 17: the remainder of 6^15 is 3. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 6,
+      "b": 15,
+      "m": 17
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0087",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 7^8 is divided by 13.",
+    "options": [
+      "3",
+      "-2",
+      "2",
+      "-1"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3",
+    "explanation": "Reduce step by step modulo 13: the remainder of 7^8 is 3. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 7,
+      "b": 8,
+      "m": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0088",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 11^15 is divided by 13.",
+    "options": [
+      "5",
+      "6",
+      "13",
+      "2"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5",
+    "explanation": "Reduce step by step modulo 13: the remainder of 11^15 is 5. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 11,
+      "b": 15,
+      "m": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0089",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 7^5 is divided by 7.",
+    "options": [
+      "1",
+      "-4",
+      "0",
+      "-2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "0",
+    "explanation": "Reduce step by step modulo 7: the remainder of 7^5 is 0. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 7,
+      "b": 5,
+      "m": 7
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0090",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 3^5 is divided by 13.",
+    "options": [
+      "12",
+      "9",
+      "-2",
+      "21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "Reduce step by step modulo 13: the remainder of 3^5 is 9. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 3,
+      "b": 5,
+      "m": 13
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0091",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Find the remainder when 3^11 is divided by 7.",
+    "options": [
+      "5",
+      "9",
+      "7",
+      "11"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5",
+    "explanation": "Reduce step by step modulo 7: the remainder of 3^11 is 5. (Repeated squaring gives the same value.)",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_powmod",
+      "a": 3,
+      "b": 11,
+      "m": 7
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0092",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 8x5716 is divisible by 11, find the digit x.",
+    "options": [
+      "4",
+      "3",
+      "1",
+      "2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1",
+    "explanation": "For divisibility by 11, the difference of the alternating digit sums must be a multiple of 11; this forces x = 1.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        8,
+        7,
+        5,
+        7,
+        1,
+        6
+      ],
+      "pos": 1,
+      "divisor": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0093",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 886x01 is divisible by 9, find the digit x.",
+    "options": [
+      "7",
+      "4",
+      "6",
+      "5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4",
+    "explanation": "A number is divisible by 9 when its digit sum is a multiple of 9. The known digits sum to 23, so x must be 4.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        8,
+        8,
+        6,
+        7,
+        0,
+        1
+      ],
+      "pos": 3,
+      "divisor": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0094",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number x93714 is divisible by 11, find the digit x.",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5",
+    "explanation": "For divisibility by 11, the difference of the alternating digit sums must be a multiple of 11; this forces x = 5.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        3,
+        9,
+        3,
+        7,
+        1,
+        4
+      ],
+      "pos": 0,
+      "divisor": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0095",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 692x65 is divisible by 9, find the digit x.",
+    "options": [
+      "9",
+      "8",
+      "0",
+      "1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8",
+    "explanation": "A number is divisible by 9 when its digit sum is a multiple of 9. The known digits sum to 28, so x must be 8.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        6,
+        9,
+        2,
+        4,
+        6,
+        5
+      ],
+      "pos": 3,
+      "divisor": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0096",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 4107x7 is divisible by 9, find the digit x.",
+    "options": [
+      "9",
+      "8",
+      "1",
+      "0"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8",
+    "explanation": "A number is divisible by 9 when its digit sum is a multiple of 9. The known digits sum to 19, so x must be 8.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        4,
+        1,
+        0,
+        7,
+        8,
+        7
+      ],
+      "pos": 4,
+      "divisor": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0097",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 30302x is divisible by 9, find the digit x.",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1",
+    "explanation": "A number is divisible by 9 when its digit sum is a multiple of 9. The known digits sum to 8, so x must be 1.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        3,
+        0,
+        3,
+        0,
+        2,
+        6
+      ],
+      "pos": 5,
+      "divisor": 9
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0098",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 3x1310 is divisible by 11, find the digit x.",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2",
+    "explanation": "For divisibility by 11, the difference of the alternating digit sums must be a multiple of 11; this forces x = 2.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        3,
+        8,
+        1,
+        3,
+        1,
+        0
+      ],
+      "pos": 1,
+      "divisor": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0099",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "If the number 26x048 is divisible by 11, find the digit x.",
+    "options": [
+      "8",
+      "0",
+      "1",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8",
+    "explanation": "For divisibility by 11, the difference of the alternating digit sums must be a multiple of 11; this forces x = 8.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_missing_digit",
+      "digits": [
+        2,
+        6,
+        1,
+        0,
+        4,
+        8
+      ],
+      "pos": 2,
+      "divisor": 11
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0100",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 1/3, 4/7, 2/3 and 1/8 is the largest?",
+    "options": [
+      "1/3",
+      "4/7",
+      "2/3",
+      "1/8"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/3",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 2/3 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "1/3",
+        "4/7",
+        "2/3",
+        "1/8"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0101",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 1/4, 1/2, 7/11 and 2/3 is the largest?",
+    "options": [
+      "7/11",
+      "2/3",
+      "1/4",
+      "1/2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2/3",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 2/3 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "1/4",
+        "1/2",
+        "7/11",
+        "2/3"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0102",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 1/3, 5/8, 1/11 and 2/3 is the largest?",
+    "options": [
+      "1/11",
+      "5/8",
+      "1/3",
+      "2/3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2/3",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 2/3 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "1/3",
+        "5/8",
+        "1/11",
+        "2/3"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0103",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 3/4, 1/6, 2/7 and 2/11 is the largest?",
+    "options": [
+      "1/6",
+      "2/11",
+      "3/4",
+      "2/7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/4",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 3/4 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "3/4",
+        "1/6",
+        "2/7",
+        "2/11"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0104",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 5/6, 5/11, 2/3 and 1/5 is the largest?",
+    "options": [
+      "5/6",
+      "2/3",
+      "1/5",
+      "5/11"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/6",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 5/6 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "5/6",
+        "5/11",
+        "2/3",
+        "1/5"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0105",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 3/4, 1/8, 4/5 and 5/6 is the largest?",
+    "options": [
+      "4/5",
+      "5/6",
+      "1/8",
+      "3/4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/6",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 5/6 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "3/4",
+        "1/8",
+        "4/5",
+        "5/6"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0106",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Which of the fractions 2/3, 1/2, 5/8 and 4/5 is the largest?",
+    "options": [
+      "1/2",
+      "5/8",
+      "4/5",
+      "2/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4/5",
+    "explanation": "Compare the fractions by cross-multiplication or by converting to decimals: 4/5 is the largest.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 02, pp. 3-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_frac_max",
+      "fractions": [
+        "2/3",
+        "1/2",
+        "5/8",
+        "4/5"
+      ]
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0107",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 240 have?",
+    "options": [
+      "20",
+      "16",
+      "13",
+      "12"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16",
+    "explanation": "240 = 2^4 x 15. An even factor must contain at least one 2, so there are 4 choices for the power of 2 and 4 choices from 15: 4 x 4 = 16.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 240
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0108",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 30 have?",
+    "options": [
+      "1",
+      "0",
+      "4",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4",
+    "explanation": "30 = 2^1 x 15. An even factor must contain at least one 2, so there are 1 choices for the power of 2 and 4 choices from 15: 1 x 4 = 4.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 30
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0109",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 200 have?",
+    "options": [
+      "8",
+      "9",
+      "12",
+      "11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "200 = 2^3 x 25. An even factor must contain at least one 2, so there are 3 choices for the power of 2 and 3 choices from 25: 3 x 3 = 9.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 200
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0110",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 20 have?",
+    "options": [
+      "8",
+      "4",
+      "7",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4",
+    "explanation": "20 = 2^2 x 5. An even factor must contain at least one 2, so there are 2 choices for the power of 2 and 2 choices from 5: 2 x 2 = 4.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 20
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0111",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 216 have?",
+    "options": [
+      "11",
+      "13",
+      "9",
+      "12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12",
+    "explanation": "216 = 2^3 x 27. An even factor must contain at least one 2, so there are 3 choices for the power of 2 and 4 choices from 27: 3 x 4 = 12.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 216
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0112",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 42 have?",
+    "options": [
+      "5",
+      "8",
+      "2",
+      "4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4",
+    "explanation": "42 = 2^1 x 21. An even factor must contain at least one 2, so there are 1 choices for the power of 2 and 4 choices from 21: 1 x 4 = 4.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 42
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0113",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "How many even factors does 400 have?",
+    "options": [
+      "10",
+      "15",
+      "12",
+      "9"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12",
+    "explanation": "400 = 2^4 x 25. An even factor must contain at least one 2, so there are 4 choices for the power of 2 and 3 choices from 25: 4 x 3 = 12.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_even_divcount",
+      "n": 400
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0114",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (2^5 x 2^3) / 2^3.",
+    "options": [
+      "39",
+      "31",
+      "32",
+      "35"
+    ],
+    "correct_option": "C",
+    "correct_answer": "32",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 5 + 3 - 3 = 5, so the value is 2^5 = 32.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 2,
+      "e1": 5,
+      "e2": 3,
+      "e3": 3
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0115",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (3^2 x 3^4) / 3^3.",
+    "options": [
+      "24",
+      "27",
+      "20",
+      "23"
+    ],
+    "correct_option": "B",
+    "correct_answer": "27",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 2 + 4 - 3 = 3, so the value is 3^3 = 27.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 3,
+      "e1": 2,
+      "e2": 4,
+      "e3": 3
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0116",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (5^4 x 5^2) / 5^1.",
+    "options": [
+      "3119",
+      "3125",
+      "3129",
+      "3128"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3125",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 4 + 2 - 1 = 5, so the value is 5^5 = 3125.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 5,
+      "e1": 4,
+      "e2": 2,
+      "e3": 1
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0117",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (5^4 x 5^2) / 5^2.",
+    "options": [
+      "619",
+      "625",
+      "623",
+      "618"
+    ],
+    "correct_option": "B",
+    "correct_answer": "625",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 4 + 2 - 2 = 4, so the value is 5^4 = 625.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 5,
+      "e1": 4,
+      "e2": 2,
+      "e3": 2
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0118",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (3^4 x 3^2) / 3^1.",
+    "options": [
+      "249",
+      "239",
+      "236",
+      "243"
+    ],
+    "correct_option": "D",
+    "correct_answer": "243",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 4 + 2 - 1 = 5, so the value is 3^5 = 243.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 3,
+      "e1": 4,
+      "e2": 2,
+      "e3": 1
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0119",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (3^3 x 3^4) / 3^2.",
+    "options": [
+      "243",
+      "248",
+      "247",
+      "251"
+    ],
+    "correct_option": "A",
+    "correct_answer": "243",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 3 + 4 - 2 = 5, so the value is 3^5 = 243.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 3,
+      "e1": 3,
+      "e2": 4,
+      "e3": 2
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "number_system-0120",
+    "chapter": "Number System",
+    "chapter_key": "number_system",
+    "part": 4,
+    "section": "number_system_part_4",
+    "question_text": "Simplify: (4^3 x 4^3) / 4^3.",
+    "options": [
+      "64",
+      "61",
+      "70",
+      "69"
+    ],
+    "correct_option": "A",
+    "correct_answer": "64",
+    "explanation": "Add the exponents in the numerator and subtract the divisor's exponent: 3 + 3 - 3 = 3, so the value is 4^3 = 64.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Number System Class Notes (local PDF)",
+    "source_url": "",
+    "source_page": "Number System 03, pp. 3-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set2_questions.py",
+    "verification_data": {
+      "op": "ns_exp",
+      "base": 4,
+      "e1": 3,
+      "e2": 3,
+      "e3": 3
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]
