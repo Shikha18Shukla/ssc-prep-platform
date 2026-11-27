@@ -32,10 +32,27 @@ const poTestConfigs = {
   7: { section: "banking_po_current_affairs_test_7", count: 75, minutes: 53, title: "Current Affairs Test 7", subtitle: "75 Questions · 53 Minutes" },
 } as const;
 
+// Maths chapters are split into four progressive parts.  Section names are
+// unique per exam because the backend filters questions by section alone.
+const mathsChapterKeys: Record<string, string> = {
+  "vedic-maths-tricks-calculation-techniques": "vedic_maths",
+  simplification: "simplification",
+  approximation: "approximation",
+  "missing-number-series": "missing_series",
+  "wrong-number-series": "wrong_series",
+};
+const mathsParts = [
+  { part: 1, count: 15, minutes: 10.5, title: "Part 1", subtitle: "15 Questions · 10.5 Minutes", level: "Easy" },
+  { part: 2, count: 20, minutes: 14, title: "Part 2", subtitle: "20 Questions · 14 Minutes", level: "Easy to Moderate" },
+  { part: 3, count: 30, minutes: 21, title: "Part 3", subtitle: "30 Questions · 21 Minutes", level: "Moderate to Advanced" },
+  { part: 4, count: 55, minutes: 38.5, title: "Part 4", subtitle: "55 Questions · 38.5 Minutes", level: "Advanced" },
+] as const;
+
 export default function BankingPage() {
   const { token } = useAuth(); const navigate = useNavigate();
   const [exams, setExams] = useState<CatalogExam[]>([]); const [subjects, setSubjects] = useState<CatalogSubject[]>([]); const [chapters, setChapters] = useState<CatalogChapter[]>([]);
   const [exam, setExam] = useState<CatalogExam | null>(null); const [subject, setSubject] = useState<CatalogSubject | null>(null); const [mode, setMode] = useState<Mode | null>(null);
+  const [mathsChapter, setMathsChapter] = useState<CatalogChapter | null>(null);
   const [step, setStep] = useState(0); const [selected, setSelected] = useState<string[]>([]); const [counts, setCounts] = useState<Record<string, number>>({}); const [questionCount, setQuestionCount] = useState<number | null>(null);
   const [loading, setLoading] = useState(false); const [error, setError] = useState("");
 
@@ -71,7 +88,7 @@ export default function BankingPage() {
     }
   }
 
-  async function startCAFTest(section: string, count: number) {
+  async function startCAFTest(section: string, count: number, chapterId: string | null = null) {
     if (!token || !exam || !subject) return;
     const cfg = { section, count };
     setLoading(true); setError("");
@@ -80,7 +97,7 @@ export default function BankingPage() {
         exam_id: exam.id,
         subject_id: subject.id,
         test_type: "CHAPTER_WISE" as Mode,
-        chapter_id: null,
+        chapter_id: chapterId,
         chapter_ids: undefined,
         subcategory_id: null,
         difficulty: null,
@@ -95,7 +112,7 @@ export default function BankingPage() {
         exam_id: exam.id,
         subject_id: subject.id,
         test_type: "CHAPTER_WISE" as Mode,
-        chapter_id: null,
+        chapter_id: chapterId,
         chapter_ids: undefined,
         subcategory_id: null,
         difficulty: null,
@@ -107,6 +124,17 @@ export default function BankingPage() {
     } catch (e) {
       setError(message(e));
     } finally { setLoading(false); }
+  }
+
+  function startMathsPart(part: number, count: number) {
+    if (!exam || !mathsChapter) return;
+    const chapterKey = mathsChapterKeys[mathsChapter.slug];
+    if (!chapterKey) {
+      setError("This chapter does not have a Maths test yet.");
+      return;
+    }
+    const section = `${exam.slug.replace(/-/g, "_")}_maths_${chapterKey}_part_${part}`;
+    void startCAFTest(section, count, mathsChapter.id);
   }
 
   async function startTestMiscellaneous() {
@@ -146,8 +174,8 @@ export default function BankingPage() {
             <h1 className="mt-1 text-2xl font-bold sm:text-3xl">
               {step === 0 && "Choose an exam"}
               {step === 1 && "Choose a subject"}
-              {step === 2 && (subject?.slug === 'current-affairs' ? "Current Affairs Practice Tests" : "Choose a test mode")}
-              {step === 3 && (mode === "CHAPTER_WISE" ? "Choose a chapter" : "Choose chapters")}
+              {step === 2 && (subject?.slug === 'current-affairs' ? "Current Affairs Practice Tests" : subject?.slug === 'math-quant' ? "Choose a Maths chapter" : "Choose a test mode")}
+              {step === 3 && (subject?.slug === 'math-quant' ? `${mathsChapter?.name ?? "Maths"} · Choose a part` : mode === "CHAPTER_WISE" ? "Choose a chapter" : "Choose chapters")}
             </h1>
             <p className="mt-2 text-sm text-gray-600">{exam?.name}{subject ? ` · ${subject.name}` : ""}</p>
           </div>
@@ -212,6 +240,29 @@ export default function BankingPage() {
                     ))}
                  </div>
               </div>
+            ) : subject?.slug === 'math-quant' ? (
+              /* Maths: choose a chapter, then one of its four parts */
+              <div className="grid gap-3 sm:grid-cols-2">
+                {chapters.map((chapter) => {
+                  const count = counts[chapter.id] ?? 0;
+                  const hasParts = Boolean(mathsChapterKeys[chapter.slug]);
+                  return (
+                    <button
+                      key={chapter.id}
+                      type="button"
+                      className={card}
+                      disabled={!hasParts || count === 0}
+                      onClick={() => { setMathsChapter(chapter); setStep(3); }}
+                    >
+                      <span className="text-lg font-bold">{chapter.name}</span>
+                      <span className="mt-1 block text-sm text-gray-600">
+                        {hasParts && count > 0 ? `${count} questions · 4 parts` : "Question bank coming soon"}
+                      </span>
+                    </button>
+                  );
+                })}
+                {!chapters.length && <p className="text-sm text-gray-600">No Maths chapters are available yet.</p>}
+              </div>
             ) : (
               /* Non-Current Affairs: Show test mode selection */
               <div className="grid gap-3 sm:grid-cols-2">
@@ -226,8 +277,22 @@ export default function BankingPage() {
           </div>
         )}
 
+        {/* Step 3 (Maths): four progressive parts for the selected chapter */}
+        {step === 3 && subject?.slug === 'math-quant' && mathsChapter && (
+          <div className="mt-5 grid gap-4 sm:grid-cols-2">
+            {mathsParts.map((p) => (
+              <div key={p.part} className={testCard}>
+                <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{p.title}</h3>
+                <p className="mt-1 text-sm text-gray-600">{p.subtitle}</p>
+                <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500">{p.level}</p>
+                <button type="button" className={`${button} mt-3`} onClick={() => startMathsPart(p.part, p.count)}>Start Test</button>
+              </div>
+            ))}
+          </div>
+        )}
+
         {/* Step 3: Chapter selection and test configuration (for non-Current Affairs subjects) */}
-        {step === 3 && (
+        {step === 3 && subject?.slug !== 'math-quant' && (
           <div>
             <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
               {mode === "MISCELLANEOUS" && selected.length > 0 && availableTotal > 0 && (

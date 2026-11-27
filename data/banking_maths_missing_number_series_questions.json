@@ -1,0 +1,4682 @@
+[
+  {
+    "id": "missing_series-0001",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 6, ?, 34, 48, 62",
+    "options": [
+      "21",
+      "22",
+      "19",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "The series increases by 14 each time (arithmetic progression). The missing term is 20.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        6,
+        20,
+        34,
+        48,
+        62
+      ],
+      "missing_index": 1,
+      "expected": 20,
+      "rule": "The series increases by 14 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0002",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 22, 28, 34, 40, ?",
+    "options": [
+      "58",
+      "52",
+      "64",
+      "46"
+    ],
+    "correct_option": "D",
+    "correct_answer": "46",
+    "explanation": "The series increases by 6 each time (arithmetic progression). The missing term is 46.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        22,
+        28,
+        34,
+        40,
+        46
+      ],
+      "missing_index": 4,
+      "expected": 46,
+      "rule": "The series increases by 6 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0003",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 6, 8, ?, 12, 14",
+    "options": [
+      "11",
+      "4",
+      "10",
+      "16"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10",
+    "explanation": "The series increases by 2 each time (arithmetic progression). The missing term is 10.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "missing_index": 2,
+      "expected": 10,
+      "rule": "The series increases by 2 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0004",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 59, 77, ?, 113, 131",
+    "options": [
+      "95",
+      "96",
+      "149",
+      "41"
+    ],
+    "correct_option": "A",
+    "correct_answer": "95",
+    "explanation": "The series increases by 18 each time (arithmetic progression). The missing term is 95.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        59,
+        77,
+        95,
+        113,
+        131
+      ],
+      "missing_index": 2,
+      "expected": 95,
+      "rule": "The series increases by 18 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0005",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 36, 39, 42, ?, 48",
+    "options": [
+      "51",
+      "45",
+      "46",
+      "54"
+    ],
+    "correct_option": "B",
+    "correct_answer": "45",
+    "explanation": "The series increases by 3 each time (arithmetic progression). The missing term is 45.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        36,
+        39,
+        42,
+        45,
+        48
+      ],
+      "missing_index": 3,
+      "expected": 45,
+      "rule": "The series increases by 3 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0006",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 5, 8, 11, ?, 17",
+    "options": [
+      "15",
+      "23",
+      "20",
+      "14"
+    ],
+    "correct_option": "D",
+    "correct_answer": "14",
+    "explanation": "The series increases by 3 each time (arithmetic progression). The missing term is 14.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        8,
+        11,
+        14,
+        17
+      ],
+      "missing_index": 3,
+      "expected": 14,
+      "rule": "The series increases by 3 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0007",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 7, 28, ?, 448, 1792",
+    "options": [
+      "196",
+      "280",
+      "112",
+      "364"
+    ],
+    "correct_option": "C",
+    "correct_answer": "112",
+    "explanation": "Each term is multiplied by 4 (geometric progression). The missing term is 112.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        28,
+        112,
+        448,
+        1792
+      ],
+      "missing_index": 2,
+      "expected": 112,
+      "rule": "Each term is multiplied by 4 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0008",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 12, ?, 108, 324, 972",
+    "options": [
+      "36",
+      "37",
+      "60",
+      "84"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36",
+    "explanation": "Each term is multiplied by 3 (geometric progression). The missing term is 36.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        12,
+        36,
+        108,
+        324,
+        972
+      ],
+      "missing_index": 1,
+      "expected": 36,
+      "rule": "Each term is multiplied by 3 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0009",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 11, 22, 44, 88, ?",
+    "options": [
+      "352",
+      "176",
+      "440",
+      "264"
+    ],
+    "correct_option": "B",
+    "correct_answer": "176",
+    "explanation": "Each term is multiplied by 2 (geometric progression). The missing term is 176.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        11,
+        22,
+        44,
+        88,
+        176
+      ],
+      "missing_index": 4,
+      "expected": 176,
+      "rule": "Each term is multiplied by 2 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0010",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 7, 21, 63, ?, 567",
+    "options": [
+      "315",
+      "190",
+      "189",
+      "441"
+    ],
+    "correct_option": "C",
+    "correct_answer": "189",
+    "explanation": "Each term is multiplied by 3 (geometric progression). The missing term is 189.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        21,
+        63,
+        189,
+        567
+      ],
+      "missing_index": 3,
+      "expected": 189,
+      "rule": "Each term is multiplied by 3 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0011",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 36, 49, 64, ?, 100",
+    "options": [
+      "115",
+      "47",
+      "98",
+      "81"
+    ],
+    "correct_option": "D",
+    "correct_answer": "81",
+    "explanation": "The terms are consecutive perfect squares. The missing term is 81.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        36,
+        49,
+        64,
+        81,
+        100
+      ],
+      "missing_index": 3,
+      "expected": 81,
+      "rule": "The terms are consecutive perfect squares."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0012",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 289, 324, 361, 400, ?",
+    "options": [
+      "523",
+      "482",
+      "359",
+      "441"
+    ],
+    "correct_option": "D",
+    "correct_answer": "441",
+    "explanation": "The terms are consecutive perfect squares. The missing term is 441.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        289,
+        324,
+        361,
+        400,
+        441
+      ],
+      "missing_index": 4,
+      "expected": 441,
+      "rule": "The terms are consecutive perfect squares."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0013",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 400, ?, 484, 529, 576",
+    "options": [
+      "441",
+      "482",
+      "359",
+      "523"
+    ],
+    "correct_option": "A",
+    "correct_answer": "441",
+    "explanation": "The terms are consecutive perfect squares. The missing term is 441.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        400,
+        441,
+        484,
+        529,
+        576
+      ],
+      "missing_index": 1,
+      "expected": 441,
+      "rule": "The terms are consecutive perfect squares."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0014",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 1000, 1331, 1728, 2197, ?",
+    "options": [
+      "3291",
+      "2744",
+      "1650",
+      "3838"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2744",
+    "explanation": "The terms are consecutive perfect cubes. The missing term is 2744.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        1000,
+        1331,
+        1728,
+        2197,
+        2744
+      ],
+      "missing_index": 4,
+      "expected": 2744,
+      "rule": "The terms are consecutive perfect cubes."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0015",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 1,
+    "section": "missing_series_part_1",
+    "question_text": "Find the missing number in the series: 512, ?, 1000, 1331, 1728",
+    "options": [
+      "295",
+      "729",
+      "1163",
+      "946"
+    ],
+    "correct_option": "B",
+    "correct_answer": "729",
+    "explanation": "The terms are consecutive perfect cubes. The missing term is 729.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        512,
+        729,
+        1000,
+        1331,
+        1728
+      ],
+      "missing_index": 1,
+      "expected": 729,
+      "rule": "The terms are consecutive perfect cubes."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0016",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 40, 44, 48, ?, 56",
+    "options": [
+      "64",
+      "60",
+      "52",
+      "53"
+    ],
+    "correct_option": "C",
+    "correct_answer": "52",
+    "explanation": "The series increases by 4 each time (arithmetic progression). The missing term is 52.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        40,
+        44,
+        48,
+        52,
+        56
+      ],
+      "missing_index": 3,
+      "expected": 52,
+      "rule": "The series increases by 4 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0017",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 8, 23, ?, 53, 68",
+    "options": [
+      "39",
+      "37",
+      "38",
+      "83"
+    ],
+    "correct_option": "C",
+    "correct_answer": "38",
+    "explanation": "The series increases by 15 each time (arithmetic progression). The missing term is 38.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        23,
+        38,
+        53,
+        68
+      ],
+      "missing_index": 2,
+      "expected": 38,
+      "rule": "The series increases by 15 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0018",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 50, 58, 66, ?, 82",
+    "options": [
+      "90",
+      "74",
+      "98",
+      "75"
+    ],
+    "correct_option": "B",
+    "correct_answer": "74",
+    "explanation": "The series increases by 8 each time (arithmetic progression). The missing term is 74.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        50,
+        58,
+        66,
+        74,
+        82
+      ],
+      "missing_index": 3,
+      "expected": 74,
+      "rule": "The series increases by 8 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0019",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 27, ?, 35, 39, 43",
+    "options": [
+      "19",
+      "23",
+      "32",
+      "31"
+    ],
+    "correct_option": "D",
+    "correct_answer": "31",
+    "explanation": "The series increases by 4 each time (arithmetic progression). The missing term is 31.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        27,
+        31,
+        35,
+        39,
+        43
+      ],
+      "missing_index": 1,
+      "expected": 31,
+      "rule": "The series increases by 4 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0020",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 9, 27, 45, 63, ?",
+    "options": [
+      "117",
+      "135",
+      "99",
+      "81"
+    ],
+    "correct_option": "D",
+    "correct_answer": "81",
+    "explanation": "The series increases by 18 each time (arithmetic progression). The missing term is 81.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        9,
+        27,
+        45,
+        63,
+        81
+      ],
+      "missing_index": 4,
+      "expected": 81,
+      "rule": "The series increases by 18 each time (arithmetic progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0021",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 12, 48, 192, 768, ?",
+    "options": [
+      "3072",
+      "7680",
+      "5376",
+      "9984"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3072",
+    "explanation": "Each term is multiplied by 4 (geometric progression). The missing term is 3072.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        12,
+        48,
+        192,
+        768,
+        3072
+      ],
+      "missing_index": 4,
+      "expected": 3072,
+      "rule": "Each term is multiplied by 4 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0022",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 4, 16, 64, 256, ?",
+    "options": [
+      "1024",
+      "2560",
+      "1792",
+      "3328"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1024",
+    "explanation": "Each term is multiplied by 4 (geometric progression). The missing term is 1024.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        4,
+        16,
+        64,
+        256,
+        1024
+      ],
+      "missing_index": 4,
+      "expected": 1024,
+      "rule": "Each term is multiplied by 4 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0023",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 2, 6, 18, ?, 162",
+    "options": [
+      "90",
+      "54",
+      "55",
+      "126"
+    ],
+    "correct_option": "B",
+    "correct_answer": "54",
+    "explanation": "Each term is multiplied by 3 (geometric progression). The missing term is 54.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        2,
+        6,
+        18,
+        54,
+        162
+      ],
+      "missing_index": 3,
+      "expected": 54,
+      "rule": "Each term is multiplied by 3 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0024",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 1, 3, 9, ?, 81",
+    "options": [
+      "45",
+      "63",
+      "28",
+      "27"
+    ],
+    "correct_option": "D",
+    "correct_answer": "27",
+    "explanation": "Each term is multiplied by 3 (geometric progression). The missing term is 27.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 13-20",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "missing_index": 3,
+      "expected": 27,
+      "rule": "Each term is multiplied by 3 (geometric progression)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0025",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 23, 24, 28, 37, ?",
+    "options": [
+      "85",
+      "69",
+      "21",
+      "53"
+    ],
+    "correct_option": "D",
+    "correct_answer": "53",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 53.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        23,
+        24,
+        28,
+        37,
+        53
+      ],
+      "missing_index": 4,
+      "expected": 53,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0026",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 23, ?, 28, 37, 53",
+    "options": [
+      "25",
+      "22",
+      "26",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        23,
+        24,
+        28,
+        37,
+        53
+      ],
+      "missing_index": 1,
+      "expected": 24,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0027",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 29, 30, ?, 43, 59",
+    "options": [
+      "38",
+      "42",
+      "26",
+      "34"
+    ],
+    "correct_option": "D",
+    "correct_answer": "34",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 34.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        29,
+        30,
+        34,
+        43,
+        59
+      ],
+      "missing_index": 2,
+      "expected": 34,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0028",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 21, 22, ?, 35, 51",
+    "options": [
+      "30",
+      "18",
+      "26",
+      "34"
+    ],
+    "correct_option": "C",
+    "correct_answer": "26",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 26.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        21,
+        22,
+        26,
+        35,
+        51
+      ],
+      "missing_index": 2,
+      "expected": 26,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0029",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 32, 40, ?, 80, 112",
+    "options": [
+      "72",
+      "24",
+      "88",
+      "56"
+    ],
+    "correct_option": "D",
+    "correct_answer": "56",
+    "explanation": "The differences increase by 8 each time. The missing term is 56.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        32,
+        40,
+        56,
+        80,
+        112
+      ],
+      "missing_index": 2,
+      "expected": 56,
+      "rule": "The differences increase by 8 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0030",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 32, 34, ?, 62, 88",
+    "options": [
+      "44",
+      "64",
+      "24",
+      "54"
+    ],
+    "correct_option": "A",
+    "correct_answer": "44",
+    "explanation": "The differences increase by 8 each time. The missing term is 44.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        32,
+        34,
+        44,
+        62,
+        88
+      ],
+      "missing_index": 2,
+      "expected": 44,
+      "rule": "The differences increase by 8 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0031",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 2, 8, 17, 29, ?",
+    "options": [
+      "14",
+      "59",
+      "44",
+      "74"
+    ],
+    "correct_option": "C",
+    "correct_answer": "44",
+    "explanation": "The differences increase by 3 each time. The missing term is 44.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        2,
+        8,
+        17,
+        29,
+        44
+      ],
+      "missing_index": 4,
+      "expected": 44,
+      "rule": "The differences increase by 3 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0032",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 35, 46, 63, ?, 115",
+    "options": [
+      "86",
+      "132",
+      "109",
+      "40"
+    ],
+    "correct_option": "A",
+    "correct_answer": "86",
+    "explanation": "The differences increase by 6 each time. The missing term is 86.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        35,
+        46,
+        63,
+        86,
+        115
+      ],
+      "missing_index": 3,
+      "expected": 86,
+      "rule": "The differences increase by 6 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0033",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 9, 6, 15, ?, 36",
+    "options": [
+      "33",
+      "39",
+      "27",
+      "21"
+    ],
+    "correct_option": "D",
+    "correct_answer": "21",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 21.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        9,
+        6,
+        15,
+        21,
+        36
+      ],
+      "missing_index": 3,
+      "expected": 21,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0034",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 8, 11, ?, 30, 49",
+    "options": [
+      "19",
+      "3",
+      "27",
+      "35"
+    ],
+    "correct_option": "A",
+    "correct_answer": "19",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 19.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        11,
+        19,
+        30,
+        49
+      ],
+      "missing_index": 2,
+      "expected": 19,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0035",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 2,
+    "section": "missing_series_part_2",
+    "question_text": "Find the missing number in the series: 3, 12, 15, 27, ?",
+    "options": [
+      "42",
+      "57",
+      "72",
+      "87"
+    ],
+    "correct_option": "A",
+    "correct_answer": "42",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 42.",
+    "difficulty": "EASY",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        12,
+        15,
+        27,
+        42
+      ],
+      "missing_index": 4,
+      "expected": 42,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0036",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 6, 7, 11, 20, ?",
+    "options": [
+      "36",
+      "4",
+      "68",
+      "52"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 36.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        6,
+        7,
+        11,
+        20,
+        36
+      ],
+      "missing_index": 4,
+      "expected": 36,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0037",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 24, ?, 29, 38, 54",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "23"
+    ],
+    "correct_option": "B",
+    "correct_answer": "25",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 25.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        24,
+        25,
+        29,
+        38,
+        54
+      ],
+      "missing_index": 1,
+      "expected": 25,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0038",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 8, 9, 13, 22, ?",
+    "options": [
+      "54",
+      "6",
+      "38",
+      "70"
+    ],
+    "correct_option": "C",
+    "correct_answer": "38",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 38.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        9,
+        13,
+        22,
+        38
+      ],
+      "missing_index": 4,
+      "expected": 38,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0039",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 16, 17, ?, 30, 46",
+    "options": [
+      "25",
+      "21",
+      "13",
+      "29"
+    ],
+    "correct_option": "B",
+    "correct_answer": "21",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 21.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        16,
+        17,
+        21,
+        30,
+        46
+      ],
+      "missing_index": 2,
+      "expected": 21,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0040",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 24, 25, ?, 38, 54",
+    "options": [
+      "37",
+      "33",
+      "21",
+      "29"
+    ],
+    "correct_option": "D",
+    "correct_answer": "29",
+    "explanation": "The differences are 1, 4, 9, 16, ... (successive squares). The missing term is 29.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        24,
+        25,
+        29,
+        38,
+        54
+      ],
+      "missing_index": 2,
+      "expected": 29,
+      "rule": "The differences are 1, 4, 9, 16, ... (successive squares)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0041",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 5, 6, 14, ?, 105",
+    "options": [
+      "122",
+      "95",
+      "41",
+      "68"
+    ],
+    "correct_option": "C",
+    "correct_answer": "41",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 41.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        6,
+        14,
+        41,
+        105
+      ],
+      "missing_index": 3,
+      "expected": 41,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0042",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 21, 22, ?, 57, 121",
+    "options": [
+      "46",
+      "30",
+      "38",
+      "14"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 30.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        21,
+        22,
+        30,
+        57,
+        121
+      ],
+      "missing_index": 2,
+      "expected": 30,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0043",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 30, 31, 39, 66, ?",
+    "options": [
+      "130",
+      "2",
+      "258",
+      "194"
+    ],
+    "correct_option": "A",
+    "correct_answer": "130",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 130.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        30,
+        31,
+        39,
+        66,
+        130
+      ],
+      "missing_index": 4,
+      "expected": 130,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0044",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 26, 27, ?, 62, 126",
+    "options": [
+      "19",
+      "43",
+      "51",
+      "35"
+    ],
+    "correct_option": "D",
+    "correct_answer": "35",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 35.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        26,
+        27,
+        35,
+        62,
+        126
+      ],
+      "missing_index": 2,
+      "expected": 35,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0045",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 16, 17, 25, 52, ?",
+    "options": [
+      "116",
+      "308",
+      "244",
+      "180"
+    ],
+    "correct_option": "A",
+    "correct_answer": "116",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 116.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        16,
+        17,
+        25,
+        52,
+        116
+      ],
+      "missing_index": 4,
+      "expected": 116,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0046",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 37, 43, 56, 76, ?",
+    "options": [
+      "130",
+      "49",
+      "103",
+      "157"
+    ],
+    "correct_option": "C",
+    "correct_answer": "103",
+    "explanation": "The differences increase by 7 each time. The missing term is 103.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        37,
+        43,
+        56,
+        76,
+        103
+      ],
+      "missing_index": 4,
+      "expected": 103,
+      "rule": "The differences increase by 7 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0047",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 36, 47, 63, ?, 110",
+    "options": [
+      "105",
+      "126",
+      "84",
+      "42"
+    ],
+    "correct_option": "C",
+    "correct_answer": "84",
+    "explanation": "The differences increase by 5 each time. The missing term is 84.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        36,
+        47,
+        63,
+        84,
+        110
+      ],
+      "missing_index": 3,
+      "expected": 84,
+      "rule": "The differences increase by 5 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0048",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 25, ?, 40, 58, 83",
+    "options": [
+      "37",
+      "21",
+      "29",
+      "33"
+    ],
+    "correct_option": "C",
+    "correct_answer": "29",
+    "explanation": "The differences increase by 7 each time. The missing term is 29.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        25,
+        29,
+        40,
+        58,
+        83
+      ],
+      "missing_index": 1,
+      "expected": 29,
+      "rule": "The differences increase by 7 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0049",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 33, ?, 58, 78, 103",
+    "options": [
+      "43",
+      "53",
+      "63",
+      "23"
+    ],
+    "correct_option": "A",
+    "correct_answer": "43",
+    "explanation": "The differences increase by 5 each time. The missing term is 43.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        33,
+        43,
+        58,
+        78,
+        103
+      ],
+      "missing_index": 1,
+      "expected": 43,
+      "rule": "The differences increase by 5 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0050",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 14, 26, ?, 65, 92",
+    "options": [
+      "60",
+      "9",
+      "43",
+      "77"
+    ],
+    "correct_option": "C",
+    "correct_answer": "43",
+    "explanation": "The differences increase by 5 each time. The missing term is 43.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        14,
+        26,
+        43,
+        65,
+        92
+      ],
+      "missing_index": 2,
+      "expected": 43,
+      "rule": "The differences increase by 5 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0051",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 3, 9, ?, 48, 55",
+    "options": [
+      "23",
+      "30",
+      "2",
+      "16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16",
+    "explanation": "The pattern alternates: x3, then +7. The missing term is 16.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        9,
+        16,
+        48,
+        55
+      ],
+      "missing_index": 2,
+      "expected": 16,
+      "rule": "The pattern alternates: x3, then +7."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0052",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 12, ?, 42, 126, 132",
+    "options": [
+      "108",
+      "84",
+      "60",
+      "36"
+    ],
+    "correct_option": "D",
+    "correct_answer": "36",
+    "explanation": "The pattern alternates: x3, then +6. The missing term is 36.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        12,
+        36,
+        42,
+        126,
+        132
+      ],
+      "missing_index": 1,
+      "expected": 36,
+      "rule": "The pattern alternates: x3, then +6."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0053",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 9, 18, 25, ?, 57",
+    "options": [
+      "50",
+      "125",
+      "100",
+      "75"
+    ],
+    "correct_option": "A",
+    "correct_answer": "50",
+    "explanation": "The pattern alternates: x2, then +7. The missing term is 50.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        9,
+        18,
+        25,
+        50,
+        57
+      ],
+      "missing_index": 3,
+      "expected": 50,
+      "rule": "The pattern alternates: x2, then +7."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0054",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 8, 16, 26, ?, 62",
+    "options": [
+      "130",
+      "52",
+      "104",
+      "78"
+    ],
+    "correct_option": "B",
+    "correct_answer": "52",
+    "explanation": "The pattern alternates: x2, then +10. The missing term is 52.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        16,
+        26,
+        52,
+        62
+      ],
+      "missing_index": 3,
+      "expected": 52,
+      "rule": "The pattern alternates: x2, then +10."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0055",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 5, 10, 21, ?, 53",
+    "options": [
+      "105",
+      "42",
+      "63",
+      "84"
+    ],
+    "correct_option": "B",
+    "correct_answer": "42",
+    "explanation": "The pattern alternates: x2, then +11. The missing term is 42.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        10,
+        21,
+        42,
+        53
+      ],
+      "missing_index": 3,
+      "expected": 42,
+      "rule": "The pattern alternates: x2, then +11."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0056",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 8, 21, ?, 99, 203",
+    "options": [
+      "48",
+      "125",
+      "47",
+      "73"
+    ],
+    "correct_option": "C",
+    "correct_answer": "47",
+    "explanation": "The pattern is x2 + 5. The missing term is 47.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        21,
+        47,
+        99,
+        203
+      ],
+      "missing_index": 2,
+      "expected": 47,
+      "rule": "The pattern is x2 + 5."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0057",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 7, 20, 46, ?, 202",
+    "options": [
+      "150",
+      "254",
+      "99",
+      "98"
+    ],
+    "correct_option": "D",
+    "correct_answer": "98",
+    "explanation": "The pattern is x2 + 6. The missing term is 98.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        20,
+        46,
+        98,
+        202
+      ],
+      "missing_index": 3,
+      "expected": 98,
+      "rule": "The pattern is x2 + 6."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0058",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 7, 24, 58, 126, ?",
+    "options": [
+      "534",
+      "262",
+      "398",
+      "670"
+    ],
+    "correct_option": "B",
+    "correct_answer": "262",
+    "explanation": "The pattern is x2 + 10. The missing term is 262.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        24,
+        58,
+        126,
+        262
+      ],
+      "missing_index": 4,
+      "expected": 262,
+      "rule": "The pattern is x2 + 10."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0059",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 8, 20, 44, 92, ?",
+    "options": [
+      "188",
+      "476",
+      "284",
+      "380"
+    ],
+    "correct_option": "A",
+    "correct_answer": "188",
+    "explanation": "The pattern is x2 + 4. The missing term is 188.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        20,
+        44,
+        92,
+        188
+      ],
+      "missing_index": 4,
+      "expected": 188,
+      "rule": "The pattern is x2 + 4."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0060",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 5, 18, 44, 96, ?",
+    "options": [
+      "304",
+      "512",
+      "408",
+      "200"
+    ],
+    "correct_option": "D",
+    "correct_answer": "200",
+    "explanation": "The pattern is x2 + 8. The missing term is 200.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        18,
+        44,
+        96,
+        200
+      ],
+      "missing_index": 4,
+      "expected": 200,
+      "rule": "The pattern is x2 + 8."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0061",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 29, ?, 37, 41, 43",
+    "options": [
+      "31",
+      "35",
+      "27",
+      "33"
+    ],
+    "correct_option": "A",
+    "correct_answer": "31",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 31.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        29,
+        31,
+        37,
+        41,
+        43
+      ],
+      "missing_index": 1,
+      "expected": 31,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0062",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 41, 43, 47, ?, 59",
+    "options": [
+      "35",
+      "65",
+      "53",
+      "71"
+    ],
+    "correct_option": "C",
+    "correct_answer": "53",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 53.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        41,
+        43,
+        47,
+        53,
+        59
+      ],
+      "missing_index": 3,
+      "expected": 53,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0063",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 17, 19, ?, 29, 31",
+    "options": [
+      "15",
+      "27",
+      "23",
+      "35"
+    ],
+    "correct_option": "C",
+    "correct_answer": "23",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 23.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        17,
+        19,
+        23,
+        29,
+        31
+      ],
+      "missing_index": 2,
+      "expected": 23,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0064",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 7, 11, 13, 17, ?",
+    "options": [
+      "23",
+      "15",
+      "19",
+      "21"
+    ],
+    "correct_option": "C",
+    "correct_answer": "19",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 19.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "missing_index": 4,
+      "expected": 19,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0065",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 3,
+    "section": "missing_series_part_3",
+    "question_text": "Find the missing number in the series: 2, 3, ?, 7, 11",
+    "options": [
+      "5",
+      "9",
+      "1",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 5.",
+    "difficulty": "MEDIUM",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "missing_index": 2,
+      "expected": 5,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0066",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 16, ?, 25, 52, 116",
+    "options": [
+      "15",
+      "17",
+      "18",
+      "19"
+    ],
+    "correct_option": "B",
+    "correct_answer": "17",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 17.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        16,
+        17,
+        25,
+        52,
+        116
+      ],
+      "missing_index": 1,
+      "expected": 17,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0067",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 24, 25, 33, 60, ?",
+    "options": [
+      "316",
+      "188",
+      "252",
+      "124"
+    ],
+    "correct_option": "D",
+    "correct_answer": "124",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 124.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        24,
+        25,
+        33,
+        60,
+        124
+      ],
+      "missing_index": 4,
+      "expected": 124,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0068",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 23, 24, 32, 59, ?",
+    "options": [
+      "315",
+      "251",
+      "187",
+      "123"
+    ],
+    "correct_option": "D",
+    "correct_answer": "123",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 123.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        23,
+        24,
+        32,
+        59,
+        123
+      ],
+      "missing_index": 4,
+      "expected": 123,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0069",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 12, ?, 21, 48, 112",
+    "options": [
+      "13",
+      "15",
+      "11",
+      "14"
+    ],
+    "correct_option": "A",
+    "correct_answer": "13",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 13.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        12,
+        13,
+        21,
+        48,
+        112
+      ],
+      "missing_index": 1,
+      "expected": 13,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0070",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 7, 8, 16, 43, ?",
+    "options": [
+      "107",
+      "235",
+      "299",
+      "171"
+    ],
+    "correct_option": "A",
+    "correct_answer": "107",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 107.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        8,
+        16,
+        43,
+        107
+      ],
+      "missing_index": 4,
+      "expected": 107,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0071",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 5, ?, 14, 41, 105",
+    "options": [
+      "6",
+      "7",
+      "4",
+      "8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 6.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        6,
+        14,
+        41,
+        105
+      ],
+      "missing_index": 1,
+      "expected": 6,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0072",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 22, 23, 31, ?, 122",
+    "options": [
+      "112",
+      "4",
+      "58",
+      "85"
+    ],
+    "correct_option": "C",
+    "correct_answer": "58",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 58.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        22,
+        23,
+        31,
+        58,
+        122
+      ],
+      "missing_index": 3,
+      "expected": 58,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0073",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 24, 25, 33, ?, 124",
+    "options": [
+      "114",
+      "60",
+      "87",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 60.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        24,
+        25,
+        33,
+        60,
+        124
+      ],
+      "missing_index": 3,
+      "expected": 60,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0074",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, 4, ?, 39, 103",
+    "options": [
+      "36",
+      "12",
+      "28",
+      "20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 12.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        4,
+        12,
+        39,
+        103
+      ],
+      "missing_index": 2,
+      "expected": 12,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0075",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 20, 21, ?, 56, 120",
+    "options": [
+      "45",
+      "37",
+      "29",
+      "13"
+    ],
+    "correct_option": "C",
+    "correct_answer": "29",
+    "explanation": "The differences are 1, 8, 27, 64, ... (successive cubes). The missing term is 29.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        20,
+        21,
+        29,
+        56,
+        120
+      ],
+      "missing_index": 2,
+      "expected": 29,
+      "rule": "The differences are 1, 8, 27, 64, ... (successive cubes)."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0076",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 12, ?, 38, 114, 116",
+    "options": [
+      "36",
+      "108",
+      "60",
+      "84"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36",
+    "explanation": "The pattern alternates: x3, then +2. The missing term is 36.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        12,
+        36,
+        38,
+        114,
+        116
+      ],
+      "missing_index": 1,
+      "expected": 36,
+      "rule": "The pattern alternates: x3, then +2."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0077",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, 9, 18, ?, 63",
+    "options": [
+      "90",
+      "126",
+      "162",
+      "54"
+    ],
+    "correct_option": "D",
+    "correct_answer": "54",
+    "explanation": "The pattern alternates: x3, then +9. The missing term is 54.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        9,
+        18,
+        54,
+        63
+      ],
+      "missing_index": 3,
+      "expected": 54,
+      "rule": "The pattern alternates: x3, then +9."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0078",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 4, 12, ?, 42, 44",
+    "options": [
+      "16",
+      "14",
+      "10",
+      "18"
+    ],
+    "correct_option": "B",
+    "correct_answer": "14",
+    "explanation": "The pattern alternates: x3, then +2. The missing term is 14.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        4,
+        12,
+        14,
+        42,
+        44
+      ],
+      "missing_index": 2,
+      "expected": 14,
+      "rule": "The pattern alternates: x3, then +2."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0079",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 10, 20, 28, ?, 64",
+    "options": [
+      "140",
+      "112",
+      "56",
+      "84"
+    ],
+    "correct_option": "C",
+    "correct_answer": "56",
+    "explanation": "The pattern alternates: x2, then +8. The missing term is 56.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        10,
+        20,
+        28,
+        56,
+        64
+      ],
+      "missing_index": 3,
+      "expected": 56,
+      "rule": "The pattern alternates: x2, then +8."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0080",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, 6, 18, ?, 48",
+    "options": [
+      "72",
+      "54",
+      "36",
+      "90"
+    ],
+    "correct_option": "C",
+    "correct_answer": "36",
+    "explanation": "The pattern alternates: x2, then +12. The missing term is 36.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        6,
+        18,
+        36,
+        48
+      ],
+      "missing_index": 3,
+      "expected": 36,
+      "rule": "The pattern alternates: x2, then +12."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0081",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 11, 33, 39, 117, ?",
+    "options": [
+      "135",
+      "111",
+      "123",
+      "129"
+    ],
+    "correct_option": "C",
+    "correct_answer": "123",
+    "explanation": "The pattern alternates: x3, then +6. The missing term is 123.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        11,
+        33,
+        39,
+        117,
+        123
+      ],
+      "missing_index": 4,
+      "expected": 123,
+      "rule": "The pattern alternates: x3, then +6."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0082",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 5, ?, 27, 81, 93",
+    "options": [
+      "45",
+      "15",
+      "35",
+      "25"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15",
+    "explanation": "The pattern alternates: x3, then +12. The missing term is 15.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        15,
+        27,
+        81,
+        93
+      ],
+      "missing_index": 1,
+      "expected": 15,
+      "rule": "The pattern alternates: x3, then +12."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0083",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, 9, ?, 36, 39",
+    "options": [
+      "6",
+      "18",
+      "12",
+      "15"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12",
+    "explanation": "The pattern alternates: x3, then +3. The missing term is 12.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 21-28",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        9,
+        12,
+        36,
+        39
+      ],
+      "missing_index": 2,
+      "expected": 12,
+      "rule": "The pattern alternates: x3, then +3."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0084",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 7, 30, ?, 306, 927",
+    "options": [
+      "100",
+      "237",
+      "99",
+      "168"
+    ],
+    "correct_option": "C",
+    "correct_answer": "99",
+    "explanation": "The pattern is x3 + 9. The missing term is 99.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        30,
+        99,
+        306,
+        927
+      ],
+      "missing_index": 2,
+      "expected": 99,
+      "rule": "The pattern is x3 + 9."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0085",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, 11, 27, 59, ?",
+    "options": [
+      "187",
+      "315",
+      "251",
+      "123"
+    ],
+    "correct_option": "D",
+    "correct_answer": "123",
+    "explanation": "The pattern is x2 + 5. The missing term is 123.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        11,
+        27,
+        59,
+        123
+      ],
+      "missing_index": 4,
+      "expected": 123,
+      "rule": "The pattern is x2 + 5."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0086",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 7, 22, ?, 112, 232",
+    "options": [
+      "142",
+      "53",
+      "52",
+      "82"
+    ],
+    "correct_option": "C",
+    "correct_answer": "52",
+    "explanation": "The pattern is x2 + 8. The missing term is 52.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        22,
+        52,
+        112,
+        232
+      ],
+      "missing_index": 2,
+      "expected": 52,
+      "rule": "The pattern is x2 + 8."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0087",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 7, ?, 49, 105, 217",
+    "options": [
+      "63",
+      "22",
+      "21",
+      "35"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21",
+    "explanation": "The pattern is x2 + 7. The missing term is 21.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        7,
+        21,
+        49,
+        105,
+        217
+      ],
+      "missing_index": 1,
+      "expected": 21,
+      "rule": "The pattern is x2 + 7."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0088",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 1, 3, 7, 15, ?",
+    "options": [
+      "79",
+      "47",
+      "31",
+      "63"
+    ],
+    "correct_option": "C",
+    "correct_answer": "31",
+    "explanation": "The pattern is x2 + 1. The missing term is 31.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        1,
+        3,
+        7,
+        15,
+        31
+      ],
+      "missing_index": 4,
+      "expected": 31,
+      "rule": "The pattern is x2 + 1."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0089",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 1, 6, 16, 36, ?",
+    "options": [
+      "196",
+      "116",
+      "76",
+      "156"
+    ],
+    "correct_option": "C",
+    "correct_answer": "76",
+    "explanation": "The pattern is x2 + 4. The missing term is 76.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        1,
+        6,
+        16,
+        36,
+        76
+      ],
+      "missing_index": 4,
+      "expected": 76,
+      "rule": "The pattern is x2 + 4."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0090",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 4, ?, 52, 116, 244",
+    "options": [
+      "36",
+      "21",
+      "68",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "The pattern is x2 + 12. The missing term is 20.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        4,
+        20,
+        52,
+        116,
+        244
+      ],
+      "missing_index": 1,
+      "expected": 20,
+      "rule": "The pattern is x2 + 12."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0091",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 6, ?, 45, 97, 201",
+    "options": [
+      "19",
+      "20",
+      "32",
+      "58"
+    ],
+    "correct_option": "A",
+    "correct_answer": "19",
+    "explanation": "The pattern is x2 + 7. The missing term is 19.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        6,
+        19,
+        45,
+        97,
+        201
+      ],
+      "missing_index": 1,
+      "expected": 19,
+      "rule": "The pattern is x2 + 7."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0092",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 38, 42, 51, ?, 84",
+    "options": [
+      "79",
+      "93",
+      "65",
+      "37"
+    ],
+    "correct_option": "C",
+    "correct_answer": "65",
+    "explanation": "The differences increase by 5 each time. The missing term is 65.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        38,
+        42,
+        51,
+        65,
+        84
+      ],
+      "missing_index": 3,
+      "expected": 65,
+      "rule": "The differences increase by 5 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0093",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 32, 40, 57, ?, 118",
+    "options": [
+      "109",
+      "83",
+      "135",
+      "31"
+    ],
+    "correct_option": "B",
+    "correct_answer": "83",
+    "explanation": "The differences increase by 9 each time. The missing term is 83.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        32,
+        40,
+        57,
+        83,
+        118
+      ],
+      "missing_index": 3,
+      "expected": 83,
+      "rule": "The differences increase by 9 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0094",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 22, 25, 30, 37, ?",
+    "options": [
+      "55",
+      "46",
+      "28",
+      "64"
+    ],
+    "correct_option": "B",
+    "correct_answer": "46",
+    "explanation": "The differences increase by 2 each time. The missing term is 46.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        22,
+        25,
+        30,
+        37,
+        46
+      ],
+      "missing_index": 4,
+      "expected": 46,
+      "rule": "The differences increase by 2 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0095",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 9, 21, 42, 72, ?",
+    "options": [
+      "189",
+      "111",
+      "33",
+      "150"
+    ],
+    "correct_option": "B",
+    "correct_answer": "111",
+    "explanation": "The differences increase by 9 each time. The missing term is 111.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        9,
+        21,
+        42,
+        72,
+        111
+      ],
+      "missing_index": 4,
+      "expected": 111,
+      "rule": "The differences increase by 9 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0096",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 27, 32, 45, ?, 95",
+    "options": [
+      "66",
+      "87",
+      "108",
+      "24"
+    ],
+    "correct_option": "A",
+    "correct_answer": "66",
+    "explanation": "The differences increase by 8 each time. The missing term is 66.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        27,
+        32,
+        45,
+        66,
+        95
+      ],
+      "missing_index": 3,
+      "expected": 66,
+      "rule": "The differences increase by 8 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0097",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 27, 33, 41, 51, ?",
+    "options": [
+      "63",
+      "87",
+      "39",
+      "75"
+    ],
+    "correct_option": "A",
+    "correct_answer": "63",
+    "explanation": "The differences increase by 2 each time. The missing term is 63.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        27,
+        33,
+        41,
+        51,
+        63
+      ],
+      "missing_index": 4,
+      "expected": 63,
+      "rule": "The differences increase by 2 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0098",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 8, 12, ?, 35, 54",
+    "options": [
+      "30",
+      "3",
+      "21",
+      "39"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21",
+    "explanation": "The differences increase by 5 each time. The missing term is 21.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        12,
+        21,
+        35,
+        54
+      ],
+      "missing_index": 2,
+      "expected": 21,
+      "rule": "The differences increase by 5 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0099",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 26, ?, 51, 68, 88",
+    "options": [
+      "59",
+      "15",
+      "48",
+      "37"
+    ],
+    "correct_option": "D",
+    "correct_answer": "37",
+    "explanation": "The differences increase by 3 each time. The missing term is 37.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 11-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        26,
+        37,
+        51,
+        68,
+        88
+      ],
+      "missing_index": 1,
+      "expected": 37,
+      "rule": "The differences increase by 3 each time."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0100",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 1, 10, 11, ?, 32",
+    "options": [
+      "21",
+      "51",
+      "41",
+      "31"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 21.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        1,
+        10,
+        11,
+        21,
+        32
+      ],
+      "missing_index": 3,
+      "expected": 21,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0101",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 10, 1, 11, 12, ?",
+    "options": [
+      "45",
+      "23",
+      "56",
+      "34"
+    ],
+    "correct_option": "B",
+    "correct_answer": "23",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 23.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        10,
+        1,
+        11,
+        12,
+        23
+      ],
+      "missing_index": 4,
+      "expected": 23,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0102",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 8, 11, 19, 30, ?",
+    "options": [
+      "49",
+      "68",
+      "87",
+      "106"
+    ],
+    "correct_option": "A",
+    "correct_answer": "49",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 49.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        8,
+        11,
+        19,
+        30,
+        49
+      ],
+      "missing_index": 4,
+      "expected": 49,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0103",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 5, 2, ?, 9, 16",
+    "options": [
+      "17",
+      "22",
+      "7",
+      "12"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 7.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        5,
+        2,
+        7,
+        9,
+        16
+      ],
+      "missing_index": 2,
+      "expected": 7,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0104",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 2, 7, 9, ?, 25",
+    "options": [
+      "23",
+      "37",
+      "30",
+      "16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 16.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        2,
+        7,
+        9,
+        16,
+        25
+      ],
+      "missing_index": 3,
+      "expected": 16,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0105",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 1, 3, 4, 7, ?",
+    "options": [
+      "15",
+      "19",
+      "11",
+      "23"
+    ],
+    "correct_option": "C",
+    "correct_answer": "11",
+    "explanation": "Each term is the sum of the two previous terms. The missing term is 11.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        1,
+        3,
+        4,
+        7,
+        11
+      ],
+      "missing_index": 4,
+      "expected": 11,
+      "rule": "Each term is the sum of the two previous terms."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0106",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 348, 343, ?, 318, 298",
+    "options": [
+      "313",
+      "333",
+      "353",
+      "323"
+    ],
+    "correct_option": "B",
+    "correct_answer": "333",
+    "explanation": "The series decreases by 5, then by 10, and so on. The missing term is 333.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        348,
+        343,
+        333,
+        318,
+        298
+      ],
+      "missing_index": 2,
+      "expected": 333,
+      "rule": "The series decreases by 5, then by 10, and so on."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0107",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 474, 464, 451, ?, 416",
+    "options": [
+      "419",
+      "467",
+      "435",
+      "403"
+    ],
+    "correct_option": "C",
+    "correct_answer": "435",
+    "explanation": "The series decreases by 10, then by 13, and so on. The missing term is 435.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        474,
+        464,
+        451,
+        435,
+        416
+      ],
+      "missing_index": 3,
+      "expected": 435,
+      "rule": "The series decreases by 10, then by 13, and so on."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0108",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 493, 488, ?, 472, 461",
+    "options": [
+      "474",
+      "495",
+      "481",
+      "467"
+    ],
+    "correct_option": "C",
+    "correct_answer": "481",
+    "explanation": "The series decreases by 5, then by 7, and so on. The missing term is 481.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        493,
+        488,
+        481,
+        472,
+        461
+      ],
+      "missing_index": 2,
+      "expected": 481,
+      "rule": "The series decreases by 5, then by 7, and so on."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0109",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 375, 365, 348, ?, 293",
+    "options": [
+      "324",
+      "372",
+      "300",
+      "276"
+    ],
+    "correct_option": "A",
+    "correct_answer": "324",
+    "explanation": "The series decreases by 10, then by 17, and so on. The missing term is 324.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        375,
+        365,
+        348,
+        324,
+        293
+      ],
+      "missing_index": 3,
+      "expected": 324,
+      "rule": "The series decreases by 10, then by 17, and so on."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0110",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 380, 374, 362, ?, 320",
+    "options": [
+      "326",
+      "344",
+      "308",
+      "398"
+    ],
+    "correct_option": "B",
+    "correct_answer": "344",
+    "explanation": "The series decreases by 6, then by 12, and so on. The missing term is 344.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        380,
+        374,
+        362,
+        344,
+        320
+      ],
+      "missing_index": 3,
+      "expected": 344,
+      "rule": "The series decreases by 6, then by 12, and so on."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0111",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 501, ?, 487, 477, 465",
+    "options": [
+      "483",
+      "495",
+      "489",
+      "507"
+    ],
+    "correct_option": "B",
+    "correct_answer": "495",
+    "explanation": "The series decreases by 6, then by 8, and so on. The missing term is 495.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 02, pp. 17-23",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        501,
+        495,
+        487,
+        477,
+        465
+      ],
+      "missing_index": 1,
+      "expected": 495,
+      "rule": "The series decreases by 6, then by 8, and so on."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0112",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, 5, 7, 11, ?",
+    "options": [
+      "13",
+      "17",
+      "9",
+      "15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "13",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 13.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "missing_index": 4,
+      "expected": 13,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0113",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 13, 17, 19, ?, 29",
+    "options": [
+      "31",
+      "23",
+      "15",
+      "27"
+    ],
+    "correct_option": "B",
+    "correct_answer": "23",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 23.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        13,
+        17,
+        19,
+        23,
+        29
+      ],
+      "missing_index": 3,
+      "expected": 23,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0114",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 3, ?, 7, 11, 13",
+    "options": [
+      "6",
+      "9",
+      "1",
+      "5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 5.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "missing_index": 1,
+      "expected": 5,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0115",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 29, 31, 37, 41, ?",
+    "options": [
+      "45",
+      "43",
+      "39",
+      "47"
+    ],
+    "correct_option": "B",
+    "correct_answer": "43",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 43.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        29,
+        31,
+        37,
+        41,
+        43
+      ],
+      "missing_index": 4,
+      "expected": 43,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0116",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 17, ?, 23, 29, 31",
+    "options": [
+      "19",
+      "25",
+      "15",
+      "21"
+    ],
+    "correct_option": "A",
+    "correct_answer": "19",
+    "explanation": "The terms are consecutive prime numbers. The missing term is 19.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        17,
+        19,
+        23,
+        29,
+        31
+      ],
+      "missing_index": 1,
+      "expected": 19,
+      "rule": "The terms are consecutive prime numbers."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0117",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 2197, 2744, 3375, 4096, ?",
+    "options": [
+      "6547",
+      "3279",
+      "4913",
+      "5730"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4913",
+    "explanation": "The terms are consecutive perfect cubes. The missing term is 4913.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        2197,
+        2744,
+        3375,
+        4096,
+        4913
+      ],
+      "missing_index": 4,
+      "expected": 4913,
+      "rule": "The terms are consecutive perfect cubes."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0118",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 64, 125, ?, 343, 512",
+    "options": [
+      "307",
+      "34",
+      "216",
+      "398"
+    ],
+    "correct_option": "C",
+    "correct_answer": "216",
+    "explanation": "The terms are consecutive perfect cubes. The missing term is 216.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        64,
+        125,
+        216,
+        343,
+        512
+      ],
+      "missing_index": 2,
+      "expected": 216,
+      "rule": "The terms are consecutive perfect cubes."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0119",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 216, 343, 512, ?, 1000",
+    "options": [
+      "1163",
+      "946",
+      "295",
+      "729"
+    ],
+    "correct_option": "D",
+    "correct_answer": "729",
+    "explanation": "The terms are consecutive perfect cubes. The missing term is 729.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        216,
+        343,
+        512,
+        729,
+        1000
+      ],
+      "missing_index": 3,
+      "expected": 729,
+      "rule": "The terms are consecutive perfect cubes."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "missing_series-0120",
+    "chapter": "Missing Number Series",
+    "chapter_key": "missing_series",
+    "part": 4,
+    "section": "missing_series_part_4",
+    "question_text": "Find the missing number in the series: 64, 125, 216, ?, 512",
+    "options": [
+      "343",
+      "89",
+      "470",
+      "597"
+    ],
+    "correct_option": "A",
+    "correct_answer": "343",
+    "explanation": "The terms are consecutive perfect cubes. The missing term is 343.",
+    "difficulty": "HARD",
+    "source_name": "PW Banking Wallah - Missing Number Series (Class Notes, local PDF)",
+    "source_url": "",
+    "source_page": "Missing Number Series 01, pp. 29-38",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent arithmetic recomputation in generate_banking_maths_questions.py",
+    "verification_data": {
+      "op": "series",
+      "terms": [
+        64,
+        125,
+        216,
+        343,
+        512
+      ],
+      "missing_index": 3,
+      "expected": 343,
+      "rule": "The terms are consecutive perfect cubes."
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited PW Banking Wallah class-notes pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]
