@@ -8,16 +8,19 @@ import type { CatalogChapter, CatalogExam, CatalogSubject } from "@/types";
 
 type Mode = "CHAPTER_WISE" | "MISCELLANEOUS";
 const card = "w-full rounded-lg border border-[#2D3436]/15 bg-white p-5 text-left transition hover:border-[#007BFF] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#007BFF]";
+const testCard = card + " h-full flex flex-col";
 const button = "inline-flex min-h-11 items-center justify-center rounded-md bg-[#007BFF] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#0069d9] disabled:cursor-not-allowed disabled:opacity-50";
 const secondary = "inline-flex min-h-11 items-center justify-center rounded-md border border-[#2D3436]/25 bg-white px-5 py-2.5 text-sm font-semibold";
 const message = (e: unknown) => e instanceof ApiError || e instanceof Error ? e.message : "Unable to load Banking practice.";
 
 // Current Affairs test configurations (defined outside component for type safety)
 const caTestConfigs = {
-  1: { section: 'current_affairs_test_1', count: 50, minutes: 35, title: 'Current Affairs Test 1', subtitle: '50 Questions Â· 35 Minutes' },
-  2: { section: 'current_affairs_test_2', count: 100, minutes: 70, title: 'Current Affairs Test 2', subtitle: '100 Questions Â· 70 Minutes' },
-  3: { section: 'current_affairs_test_3', count: 150, minutes: 105, title: 'Current Affairs Test 3', subtitle: '150 Questions Â· 105 Minutes' },
-  4: { section: 'current_affairs_test_4', count: 144, minutes: 101, title: 'Current Affairs Test 4', subtitle: '144 Questions Â· 101 Minutes' },
+  1: { section: 'current_affairs_test_1', count: 50, minutes: 35, title: 'Current Affairs Test 1', subtitle: '50 Questions · 35 Minutes' },
+  2: { section: 'current_affairs_test_2', count: 100, minutes: 70, title: 'Current Affairs Test 2', subtitle: '100 Questions · 70 Minutes' },
+  3: { section: 'current_affairs_test_3', count: 150, minutes: 105, title: 'Current Affairs Test 3', subtitle: '150 Questions · 105 Minutes' },
+  4: { section: 'current_affairs_test_4', count: 70, minutes: 49, title: 'Current Affairs Test 4', subtitle: '70 Questions · 49 Minutes' },
+  5: { section: 'current_affairs_test_5', count: 74, minutes: 52, title: 'Current Affairs Test 5', subtitle: '74 Questions · 52 Minutes' },
+  6: { section: 'current_affairs_test_6', count: 56, minutes: 40, title: 'Current Affairs Test 6', subtitle: '56 Questions · 40 Minutes' },
 } as const;
 const poTestConfigs = {
   1: { section: "banking_po_current_affairs_test_1", count: 56, minutes: 40, title: "Current Affairs Test 1", subtitle: "56 Questions · 40 Minutes" },
@@ -146,14 +149,14 @@ export default function BankingPage() {
               {step === 2 && (subject?.slug === 'current-affairs' ? "Current Affairs Practice Tests" : "Choose a test mode")}
               {step === 3 && (mode === "CHAPTER_WISE" ? "Choose a chapter" : "Choose chapters")}
             </h1>
-            <p className="mt-2 text-sm text-gray-600">{exam?.name}{subject ? ` Â· ${subject.name}` : ""}</p>
+            <p className="mt-2 text-sm text-gray-600">{exam?.name}{subject ? ` · ${subject.name}` : ""}</p>
           </div>
           <Link to="/dashboard" className={secondary}>Back to Dashboard</Link>
         </header>
 
         {step > 0 && (
           <button type="button" className={`${secondary} mt-5`} onClick={() => { setError(""); setStep(step - 1); }}>
-            â† Back
+            ← Back
           </button>
         )}
 
@@ -185,45 +188,28 @@ export default function BankingPage() {
           </div>
         )}
 
-        {/* Step 2: Current Affairs â†’ show 4 test cards; others â†’ show test mode selection */}
+        {/* Step 2: Current Affairs â†’ show 6 test cards; others â†’ show test mode selection */}
         {step === 2 && (
           <div className="mt-5">
             {subject && subject.slug === 'current-affairs' ? (
-              /* Current Affairs: Show 4 test cards immediately */
+              /* Current Affairs: Show 6 test cards immediately */
               <div className="space-y-4">
                 <h3 className="font-semibold text-lg text-center">Current Affairs Practice Tests</h3>
                   <div className="grid gap-4 sm:grid-cols-2">
                     {exam?.slug === 'banking-po' && Object.values(poTestConfigs).map((cfg) => (
-                      <div key={cfg.section} className={card}>
+                      <div key={cfg.section} className={testCard}>
                         <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{cfg.title}</h3>
-                        <p className="mt-1 text-sm text-gray-600">{cfg.subtitle}</p>
+                        <p className="mt-1 text-sm text-gray-600">{cfg.count} Questions · {cfg.minutes} Minutes</p>
                         <button type="button" className={`${button} mt-3`} onClick={() => void startCAFTest(cfg.section, cfg.count)}>Start Test</button>
                       </div>
                     ))}
-                    {exam?.slug !== 'banking-po' && (
-                      <>
-                      <div className={card}>
-                        <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{caTestConfigs[1].title}</h3>
-                        <p className="mt-1 text-sm text-gray-600">{caTestConfigs[1].subtitle}</p>
-                        <button type="button" className={`${button} mt-3`} onClick={() => void startCAFTest(caTestConfigs[1].section, caTestConfigs[1].count)}>Start Test</button>
+                    {exam?.slug !== 'banking-po' && Object.values(caTestConfigs).map((cfg) => (
+                      <div key={cfg.section} className={testCard}>
+                        <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{cfg.title}</h3>
+                        <p className="mt-1 text-sm text-gray-600">{cfg.count} Questions · {cfg.minutes} Minutes</p>
+                        <button type="button" className={`${button} mt-3`} onClick={() => void startCAFTest(cfg.section, cfg.count)}>Start Test</button>
                       </div>
-                      <div className={card}>
-                        <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{caTestConfigs[2].title}</h3>
-                        <p className="mt-1 text-sm text-gray-600">{caTestConfigs[2].subtitle}</p>
-                        <button type="button" className={`${button} mt-3`} onClick={() => void startCAFTest(caTestConfigs[2].section, caTestConfigs[2].count)}>Start Test</button>
-                      </div>
-                      <div className={card}>
-                        <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{caTestConfigs[3].title}</h3>
-                        <p className="mt-1 text-sm text-gray-600">{caTestConfigs[3].subtitle}</p>
-                        <button type="button" className={`${button} mt-3`} onClick={() => void startCAFTest(caTestConfigs[3].section, caTestConfigs[3].count)}>Start Test</button>
-                      </div>
-                      <div className={card}>
-                        <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{caTestConfigs[4].title}</h3>
-                        <p className="mt-1 text-sm text-gray-600">{caTestConfigs[4].subtitle}</p>
-                        <button type="button" className={`${button} mt-3`} onClick={() => void startCAFTest(caTestConfigs[4].section, caTestConfigs[4].count)}>Start Test</button>
-                      </div>
-                      </>
-                    )}
+                    ))}
                  </div>
               </div>
             ) : (
@@ -251,7 +237,7 @@ export default function BankingPage() {
                 </div>
               )}
               {subject && subject.slug !== 'current-affairs' && (
-                <p className="text-sm text-gray-600">{selectedChapters.length} selected Â· {availableTotal} questions available</p>
+                <p className="text-sm text-gray-600">{selectedChapters.length} selected · {availableTotal} questions available</p>
               )}
             </div>
 
