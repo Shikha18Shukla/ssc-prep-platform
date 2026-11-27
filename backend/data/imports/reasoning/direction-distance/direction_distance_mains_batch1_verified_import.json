@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "At a square intersection, A is north, B west, C east and D south. G&H means car G starts at a fixed point, turns right and reaches H; G%H means car H starts at G, turns left and reaches a fixed point; G$H means car G starts at H, turns right and reaches a fixed point; G@H means car H starts at a fixed point, turns left and reaches G; G+H means car G starts at a fixed point and goes straight to H; G#H means car H starts at G and goes straight to a fixed point.\nQ1. Which combination indicates that car K starts southeast of car L’s destination?",
+      "options": {
+        "A": "i. B%L, K&A",
+        "B": "ii. L$C, A@K",
+        "C": "iii. L+D, K$C",
+        "D": "iv. C#K, L&B",
+        "E": "v. K$A, L&D"
+      },
+      "correct_option": "A",
+      "explanation": "In i, B%L places L’s destination at A. K&A means K turns right and reaches A, so K starts at C. C (east) is southeast of A (north).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Direction and Distance 01  Class Notes.pdf, physical p. 4, Q1; coded directions"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "At a square intersection, A is north, B west, C east and D south. G&H means car G starts at a fixed point, turns right and reaches H; G%H means car H starts at G, turns left and reaches a fixed point; G$H means car G starts at H, turns right and reaches a fixed point; G@H means car H starts at a fixed point, turns left and reaches G; G+H means car G starts at a fixed point and goes straight to H; G#H means car H starts at G and goes straight to a fixed point.\nQ2. Which expressions indicate that car J started at C and reached A? (a) D@J + A; (b) C#J@A; (c) C%J#A.",
+      "options": {
+        "A": "Only (a)",
+        "B": "Only (a) and (b)",
+        "C": "All (a), (b) and (c)",
+        "D": "Only (a) and (c)",
+        "E": "None of these"
+      },
+      "correct_option": "A",
+      "explanation": "Applying the operator definitions in order, (a) is the only expression that establishes both endpoints C and A; (b) and (c) do not.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Direction and Distance 01  Class Notes.pdf, physical p. 8, Q2; coded directions"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "At a square intersection, A is north, B west, C east and D south. G&H means car G starts at a fixed point, turns right and reaches H; G%H means car H starts at G, turns left and reaches a fixed point; G$H means car G starts at H, turns right and reaches a fixed point; G@H means car H starts at a fixed point, turns left and reaches G; G+H means car G starts at a fixed point and goes straight to H; G#H means car H starts at G and goes straight to a fixed point.\nQ3. Given B%E + D@F, in which direction is F’s starting point from B, and in which direction is E’s destination from F’s starting point, respectively?",
+      "options": {
+        "A": "West, northwest",
+        "B": "East, northeast",
+        "C": "Southeast, southwest",
+        "D": "Northeast, north",
+        "E": "East, southeast"
+      },
+      "correct_option": "E",
+      "explanation": "B%E puts E’s destination at A (north); D@F puts F’s start at C (east). C is east of B and southeast of A, so the ordered pair is east, southeast.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Direction and Distance 01  Class Notes.pdf, physical p. 8, Q3; coded directions"
+    }
+  ]
+}

@@ -1,0 +1,906 @@
+{
+  "chapter": "Alphabets (Mains)",
+  "chapter_id": "66584d54-40f0-4c96-9bb2-f2df0f09430b",
+  "chapter_slug": "alphabets-mains",
+  "database": "local ssc_prep at 127.0.0.1:5432",
+  "starting_active_count": 5,
+  "starting_inactive_count": 0,
+  "final_active_count": 40,
+  "final_inactive_count": 0,
+  "source_appearance_count": 29,
+  "source_distinct_prompt_count": 17,
+  "source_duplicate_appearances": 12,
+  "source_questions_previously_imported_or_verified": 5,
+  "held_count": 7,
+  "wrong_chapter_count": 5,
+  "non_mcq_count": 0,
+  "source_ledger": "alphabets_mains_01_02_batch1_answer_ledger.json",
+  "source_entries": [
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 5, Q1; transformation group",
+      "question_prompt": "Q1. In Step 3, what is third to the right of the element eighteenth to the left of #?",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "5",
+      "independent_reasoning": "Step 3 is % ? * & < 9 8 6 5 5 4 3 1 > A B C G H K N P R # @ !. The 18th element left of # is 9; three to its right is 5.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Alphanumeric series: 5 6 ! @ 5 B C 8 N # P 4 > K < G & H * ? 9 1 A R % 3. Step 1: arrange original numbers in increasing order immediately after >. Step 2: arrange original letters in reverse alphabetical order immediately after #. Step 3: reverse the Step 2 result.\nQ1. In Step 3, what is third to the right of the element eighteenth to the left of #?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "<",
+        "E": ">"
+      },
+      "explanation": "Step 3 is % ? * & < 9 8 6 5 5 4 3 1 > A B C G H K N P R # @ !. The 18th element left of # is 9; three to its right is 5.",
+      "source_correct_option": "B"
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 7, Q3; transformation group",
+      "question_prompt": "Q3. Which element is fifth to the left of 1 in Step 1?",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "C",
+      "independent_reasoning": "Step 1 places the sorted numbers after >. Counting five positions left of 1 in the resulting sequence reaches C.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Alphanumeric series: 5 6 ! @ 5 B C 8 N # P 4 > K < G & H * ? 9 1 A R % 3. Step 1: arrange original numbers in increasing order immediately after >. Step 2: arrange original letters in reverse alphabetical order immediately after #. Step 3: reverse the Step 2 result.\nQ3. Which element is fifth to the left of 1 in Step 1?",
+      "options": {
+        "A": "B",
+        "B": "C",
+        "C": "N",
+        "D": "#",
+        "E": "@"
+      },
+      "explanation": "Step 1 places the sorted numbers after >. Counting five positions left of 1 in the resulting sequence reaches C.",
+      "source_correct_option": "B"
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 15, Q10; Q10 also appears in PDF 02 and is deduplicated there",
+      "question_prompt": "Q10. Which is the fourteenth element from the right end after Step 3?",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "#",
+      "independent_reasoning": "The final sequence is 4 G U B Z P K @ 5 U % 1 ~ > * # N $ 3 5 7 8 H C W Y M ? 2. Counting from the right, the fourteenth element is #.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "String: 4 # G U 3 * K @ B 5 U % Z 1 N $ 8 > H 7 C W 5 ~ Y M ? P 2. Step 1: move each symbol immediately preceded by a number and followed by a letter to immediately left of N; the leftmost selected symbol ends furthest right in that group. Step 2: move each letter immediately preceded by a symbol and followed by a number immediately right of 3, preserving left-to-right selection order. Step 3: move each number then immediately preceded and followed by a letter immediately right of $, in increasing order. Step 3 is final.\nQ10. Which is the fourteenth element from the right end after Step 3?",
+      "options": {
+        "A": "*",
+        "B": "#",
+        "C": "N",
+        "D": "3",
+        "E": "None of these"
+      },
+      "explanation": "The final sequence is 4 G U B Z P K @ 5 U % 1 ~ > * # N $ 3 5 7 8 H C W Y M ? 2. Counting from the right, the fourteenth element is #.",
+      "source_correct_option": "B"
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, physical p. 17, Q11; transformation group",
+      "question_prompt": "Q11. If all symbols are dropped from the final string, which element is eighth to the right of Z?",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "5",
+      "independent_reasoning": "Removing symbols gives 4 G U B Z P K 5 U 1 N 3 5 7 8 H C W Y M 2. The eighth element right of Z is 5.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "duplicate_appearance": "Same Q11 appears in Alphabets 01  Class Notes.pdf, physical p. 16; this selected PDF 02 source is valid and is retained as the import provenance.",
+      "question_text": "String: 4 # G U 3 * K @ B 5 U % Z 1 N $ 8 > H 7 C W 5 ~ Y M ? P 2. Step 1: move each symbol immediately preceded by a number and followed by a letter to immediately left of N; the leftmost selected symbol ends furthest right in that group. Step 2: move each letter immediately preceded by a symbol and followed by a number immediately right of 3, preserving left-to-right selection order. Step 3: move each number then immediately preceded and followed by a letter immediately right of $, in increasing order. Step 3 is final.\nQ11. If all symbols are dropped from the final string, which element is eighth to the right of Z?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "H",
+        "D": "C",
+        "E": "None of these"
+      },
+      "explanation": "Removing symbols gives 4 G U B Z P K 5 U 1 N 3 5 7 8 H C W Y M 2. The eighth element right of Z is 5.",
+      "source_correct_option": "B"
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, physical p. 17, Q12; transformation group",
+      "question_prompt": "Q12. If the last ten elements of the final string are reversed, which element is ninth to the left of 8 afterward?",
+      "classification": "verified_import_candidate",
+      "correct_option": "E",
+      "answer": "None of these",
+      "independent_reasoning": "Reversing the final ten moves 8 to position 27; the ninth element to its left is $, absent from the choices. Answer: None of these.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "duplicate_appearance": "Same Q12 appears in Alphabets 01  Class Notes.pdf, physical p. 16; this selected PDF 02 source is valid and is retained as the import provenance.",
+      "question_text": "String: 4 # G U 3 * K @ B 5 U % Z 1 N $ 8 > H 7 C W 5 ~ Y M ? P 2. Step 1: move each symbol immediately preceded by a number and followed by a letter to immediately left of N; the leftmost selected symbol ends furthest right in that group. Step 2: move each letter immediately preceded by a symbol and followed by a number immediately right of 3, preserving left-to-right selection order. Step 3: move each number then immediately preceded and followed by a letter immediately right of $, in increasing order. Step 3 is final.\nQ12. If the last ten elements of the final string are reversed, which element is ninth to the left of 8 afterward?",
+      "options": {
+        "A": "U",
+        "B": "?",
+        "C": "3",
+        "D": "~",
+        "E": "None of these"
+      },
+      "explanation": "Reversing the final ten moves 8 to position 27; the ninth element to its left is $, absent from the choices. Answer: None of these.",
+      "source_correct_option": "E"
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 7, Q2",
+      "question_prompt": "Q2",
+      "classification": "held_for_review",
+      "reason": "Step 2 middle pair is ordered >,1; the listed/keyed pair is 1,>. The prompt does not establish whether pair order matters."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 7, Q4",
+      "question_prompt": "Q4",
+      "classification": "held_for_review",
+      "reason": "The five cross-step pairs do not define a single consistent odd-one-out relation."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical pages 8-13, Q5",
+      "question_prompt": "Q5",
+      "classification": "wrong_chapter",
+      "reason": "Arithmetic row-operation practice, not an Alphabets question."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical pages 8-13, Q6",
+      "question_prompt": "Q6",
+      "classification": "wrong_chapter",
+      "reason": "Arithmetic row-operation practice, not an Alphabets question."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical pages 8-13, Q7",
+      "question_prompt": "Q7",
+      "classification": "wrong_chapter",
+      "reason": "Arithmetic row-operation practice, not an Alphabets question."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical pages 8-13, Q8",
+      "question_prompt": "Q8",
+      "classification": "wrong_chapter",
+      "reason": "Arithmetic row-operation practice, not an Alphabets question."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical pages 8-13, Q9",
+      "question_prompt": "Q9",
+      "classification": "wrong_chapter",
+      "reason": "Arithmetic row-operation practice, not an Alphabets question."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 18, Q13",
+      "question_prompt": "Q13",
+      "classification": "held_for_review",
+      "reason": "Shared series contains only symbols (= ^ $ ~ @ * & ! < +), while the steps require numbers, letters, and vowels; the source is incomplete."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 19, Q14",
+      "question_prompt": "Q14",
+      "classification": "held_for_review",
+      "reason": "Shared series contains only symbols (= ^ $ ~ @ * & ! < +), while the steps require numbers, letters, and vowels; the source is incomplete."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 20, Q15",
+      "question_prompt": "Q15",
+      "classification": "held_for_review",
+      "reason": "Shared series contains only symbols (= ^ $ ~ @ * & ! < +), while the steps require numbers, letters, and vowels; the source is incomplete."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 21, Q16",
+      "question_prompt": "Q16",
+      "classification": "held_for_review",
+      "reason": "Shared series contains only symbols (= ^ $ ~ @ * & ! < +), while the steps require numbers, letters, and vowels; the source is incomplete."
+    },
+    {
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 22, Q17",
+      "question_prompt": "Q17",
+      "classification": "held_for_review",
+      "reason": "Shared series contains only symbols (= ^ $ ~ @ * & ! < +), while the steps require numbers, letters, and vowels; the source is incomplete."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q1",
+      "question_prompt": "Q1",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q1",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q2",
+      "question_prompt": "Q2",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q2",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q3",
+      "question_prompt": "Q3",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q3",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q4",
+      "question_prompt": "Q4",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q4",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q5",
+      "question_prompt": "Q5",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q5",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q6",
+      "question_prompt": "Q6",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q6",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q7",
+      "question_prompt": "Q7",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q7",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q8",
+      "question_prompt": "Q8",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q8",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q9",
+      "question_prompt": "Q9",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q9",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q10",
+      "question_prompt": "Q10",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q10",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q11",
+      "question_prompt": "Q11",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q11",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    },
+    {
+      "source": "Alphabets 02  Class Notes.pdf, Q12",
+      "question_prompt": "Q12",
+      "classification": "duplicate",
+      "duplicate_of": "Alphabets 01  Class Notes.pdf, Q12",
+      "reason": "Repeated prompt and shared-series content; not counted or imported a second time."
+    }
+  ],
+  "original_practice_count": 35,
+  "original_practice_entries": [
+    {
+      "question_number": 1,
+      "classification": "verified_original_practice_imported",
+      "database_id": "bfa9e6cd-6f63-41f9-838b-0735398aed5d",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (E+H−C)?",
+      "options": {
+        "A": "J",
+        "B": "H",
+        "C": "I",
+        "D": "K",
+        "E": "L"
+      },
+      "correct_option": "A",
+      "correct_answer": "J",
+      "explanation": "The positions are 5, 8, and 3. Their result is 5+8−3=10; wrapping to 1–26 gives position 10, letter J.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 2,
+      "classification": "verified_original_practice_imported",
+      "database_id": "cfe3db6b-c80e-4ea7-b39f-49bb68a85341",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (H+M−J)?",
+      "options": {
+        "A": "I",
+        "B": "K",
+        "C": "J",
+        "D": "L",
+        "E": "M"
+      },
+      "correct_option": "B",
+      "correct_answer": "K",
+      "explanation": "The positions are 8, 13, and 10. Their result is 8+13−10=11; wrapping to 1–26 gives position 11, letter K.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 3,
+      "classification": "verified_original_practice_imported",
+      "database_id": "5dc6d07e-2166-4a37-8e8f-44b7a92c1634",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (K+R−Q)?",
+      "options": {
+        "A": "K",
+        "B": "J",
+        "C": "L",
+        "D": "M",
+        "E": "N"
+      },
+      "correct_option": "C",
+      "correct_answer": "L",
+      "explanation": "The positions are 11, 18, and 17. Their result is 11+18−17=12; wrapping to 1–26 gives position 12, letter L.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 4,
+      "classification": "verified_original_practice_imported",
+      "database_id": "98a10dc0-e233-45ff-b828-fbd976b56ef1",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (N+W−X)?",
+      "options": {
+        "A": "N",
+        "B": "K",
+        "C": "L",
+        "D": "M",
+        "E": "O"
+      },
+      "correct_option": "D",
+      "correct_answer": "M",
+      "explanation": "The positions are 14, 23, and 24. Their result is 14+23−24=13; wrapping to 1–26 gives position 13, letter M.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 5,
+      "classification": "verified_original_practice_imported",
+      "database_id": "58a627d0-15ad-42ad-9065-88bb23578fd5",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (Q+B−E)?",
+      "options": {
+        "A": "P",
+        "B": "L",
+        "C": "M",
+        "D": "O",
+        "E": "N"
+      },
+      "correct_option": "E",
+      "correct_answer": "N",
+      "explanation": "The positions are 17, 2, and 5. Their result is 17+2−5=14; wrapping to 1–26 gives position 14, letter N.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 6,
+      "classification": "verified_original_practice_imported",
+      "database_id": "9f5e39e0-43e7-4d00-a468-eee9ceaa9e1b",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (T+G−L)?",
+      "options": {
+        "A": "O",
+        "B": "M",
+        "C": "N",
+        "D": "P",
+        "E": "Q"
+      },
+      "correct_option": "A",
+      "correct_answer": "O",
+      "explanation": "The positions are 20, 7, and 12. Their result is 20+7−12=15; wrapping to 1–26 gives position 15, letter O.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 7,
+      "classification": "verified_original_practice_imported",
+      "database_id": "f3a26592-bd94-42df-ba97-9d270cede945",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (W+L−S)?",
+      "options": {
+        "A": "N",
+        "B": "P",
+        "C": "O",
+        "D": "Q",
+        "E": "R"
+      },
+      "correct_option": "B",
+      "correct_answer": "P",
+      "explanation": "The positions are 23, 12, and 19. Their result is 23+12−19=16; wrapping to 1–26 gives position 16, letter P.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 8,
+      "classification": "verified_original_practice_imported",
+      "database_id": "0bc6434d-3b4a-42d6-ab6f-b945e2ec9149",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 1 positions from its first term to its second; each later jump is 1 positions larger than the preceding jump. What is the next letter in B, C, E, H, using circular alphabet positions?",
+      "options": {
+        "A": "K",
+        "B": "I",
+        "C": "L",
+        "D": "M",
+        "E": "N"
+      },
+      "correct_option": "C",
+      "correct_answer": "L",
+      "explanation": "The jumps are 1, 2, 3; the next jump is 4. Adding it to H (position 8) gives position 12, which wraps to L.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 9,
+      "classification": "verified_original_practice_imported",
+      "database_id": "3fd63efc-71ce-455a-a380-51b0c55a88a9",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 2 positions from its first term to its second; each later jump is 2 positions larger than the preceding jump. What is the next letter in D, F, J, P, using circular alphabet positions?",
+      "options": {
+        "A": "Y",
+        "B": "U",
+        "C": "W",
+        "D": "X",
+        "E": "Z"
+      },
+      "correct_option": "D",
+      "correct_answer": "X",
+      "explanation": "The jumps are 2, 4, 6; the next jump is 8. Adding it to P (position 16) gives position 24, which wraps to X.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 10,
+      "classification": "verified_original_practice_imported",
+      "database_id": "0b7985f2-ee7a-49df-84a7-9103ff2707bf",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 3 positions from its first term to its second; each later jump is 3 positions larger than the preceding jump. What is the next letter in F, I, O, X, using circular alphabet positions?",
+      "options": {
+        "A": "L",
+        "B": "G",
+        "C": "I",
+        "D": "K",
+        "E": "J"
+      },
+      "correct_option": "E",
+      "correct_answer": "J",
+      "explanation": "The jumps are 3, 6, 9; the next jump is 12. Adding it to X (position 24) gives position 36, which wraps to J.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 11,
+      "classification": "verified_original_practice_imported",
+      "database_id": "0babc45d-b399-4a5b-ad58-3eb7a821c0b4",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 4 positions from its first term to its second; each later jump is 1 positions larger than the preceding jump. What is the next letter in H, L, Q, W, using circular alphabet positions?",
+      "options": {
+        "A": "D",
+        "B": "A",
+        "C": "C",
+        "D": "E",
+        "E": "F"
+      },
+      "correct_option": "A",
+      "correct_answer": "D",
+      "explanation": "The jumps are 4, 5, 6; the next jump is 7. Adding it to W (position 23) gives position 30, which wraps to D.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 12,
+      "classification": "verified_original_practice_imported",
+      "database_id": "c6f1421b-87f5-4430-a94f-c685a2abd9e5",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 1 positions from its first term to its second; each later jump is 2 positions larger than the preceding jump. What is the next letter in J, K, N, S, using circular alphabet positions?",
+      "options": {
+        "A": "W",
+        "B": "Z",
+        "C": "Y",
+        "D": "A",
+        "E": "B"
+      },
+      "correct_option": "B",
+      "correct_answer": "Z",
+      "explanation": "The jumps are 1, 3, 5; the next jump is 7. Adding it to S (position 19) gives position 26, which wraps to Z.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 13,
+      "classification": "verified_original_practice_imported",
+      "database_id": "67c26978-276d-46ce-aa1e-17bb08de69d2",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 2 positions from its first term to its second; each later jump is 3 positions larger than the preceding jump. What is the next letter in L, N, S, A, using circular alphabet positions?",
+      "options": {
+        "A": "K",
+        "B": "I",
+        "C": "L",
+        "D": "M",
+        "E": "N"
+      },
+      "correct_option": "C",
+      "correct_answer": "L",
+      "explanation": "The jumps are 2, 5, 8; the next jump is 11. Adding it to A (position 27) gives position 38, which wraps to L.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 14,
+      "classification": "verified_original_practice_imported",
+      "database_id": "3403d6f3-5a1c-4426-894b-be02b5a19ec7",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A letter series advances by 3 positions from its first term to its second; each later jump is 1 positions larger than the preceding jump. What is the next letter in N, Q, U, Z, using circular alphabet positions?",
+      "options": {
+        "A": "G",
+        "B": "C",
+        "C": "E",
+        "D": "F",
+        "E": "H"
+      },
+      "correct_option": "D",
+      "correct_answer": "F",
+      "explanation": "The jumps are 3, 4, 5; the next jump is 6. Adding it to Z (position 26) gives position 32, which wraps to F.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 15,
+      "classification": "verified_original_practice_imported",
+      "database_id": "ace8869f-4974-4446-a131-67995d8f2ddb",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: bracket, branch, brass, brave, bread. Which word comes first?",
+      "options": {
+        "A": "bread",
+        "B": "branch",
+        "C": "brass",
+        "D": "brave",
+        "E": "bracket"
+      },
+      "correct_option": "E",
+      "correct_answer": "bracket",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “bracket” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 16,
+      "classification": "verified_original_practice_imported",
+      "database_id": "2928db26-ca3d-42ee-9fcf-428cb9168075",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: candle, canary, canvas, capable, captain. Which word comes first?",
+      "options": {
+        "A": "canary",
+        "B": "candle",
+        "C": "canvas",
+        "D": "capable",
+        "E": "captain"
+      },
+      "correct_option": "A",
+      "correct_answer": "canary",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “canary” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 17,
+      "classification": "verified_original_practice_imported",
+      "database_id": "37ff102a-afb7-4ae6-9dd7-32bc1e09eef7",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: flight, flinch, fling, flint, float. Which word comes first?",
+      "options": {
+        "A": "flinch",
+        "B": "flight",
+        "C": "fling",
+        "D": "flint",
+        "E": "float"
+      },
+      "correct_option": "B",
+      "correct_answer": "flight",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “flight” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 18,
+      "classification": "verified_original_practice_imported",
+      "database_id": "48568e5c-dbe4-405c-b566-0fd523ebe0ec",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: market, marble, margin, marine, marsh. Which word comes first?",
+      "options": {
+        "A": "margin",
+        "B": "market",
+        "C": "marble",
+        "D": "marine",
+        "E": "marsh"
+      },
+      "correct_option": "C",
+      "correct_answer": "marble",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “marble” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 19,
+      "classification": "verified_original_practice_imported",
+      "database_id": "67e979d9-dbd9-4846-af97-404ea891743d",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: planet, plank, plant, plate, plaza. Which word comes first?",
+      "options": {
+        "A": "plate",
+        "B": "plank",
+        "C": "plant",
+        "D": "planet",
+        "E": "plaza"
+      },
+      "correct_option": "D",
+      "correct_answer": "planet",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “planet” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 20,
+      "classification": "verified_original_practice_imported",
+      "database_id": "c93ef4dc-e980-452c-86d8-fa2fc9a62aa8",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: thread, threat, throne, thrift, throat. Which word comes first?",
+      "options": {
+        "A": "throat",
+        "B": "threat",
+        "C": "throne",
+        "D": "thrift",
+        "E": "thread"
+      },
+      "correct_option": "E",
+      "correct_answer": "thread",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “thread” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 21,
+      "classification": "verified_original_practice_imported",
+      "database_id": "f5717b24-605e-43f2-baeb-e289b45a0688",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: wonder, wonky, wool, word, work. Which word comes first?",
+      "options": {
+        "A": "wonder",
+        "B": "wonky",
+        "C": "wool",
+        "D": "word",
+        "E": "work"
+      },
+      "correct_option": "A",
+      "correct_answer": "wonder",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “wonder” before the other four words, so it is earliest alphabetically.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 22,
+      "classification": "verified_original_practice_imported",
+      "database_id": "7804e973-dd41-4d4d-ae45-0aa771eb4fc8",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string ACEGIK, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6",
+        "E": "7"
+      },
+      "correct_option": "B",
+      "correct_answer": "5",
+      "explanation": "Checking every unordered pair in ACEGIK, the qualifying pairs are AC, CE, EG, GI, IK; there are 5.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 23,
+      "classification": "verified_original_practice_imported",
+      "database_id": "d6409234-e3e3-42b9-89df-bb8039bdaf96",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string BDFHJL, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct_option": "C",
+      "correct_answer": "5",
+      "explanation": "Checking every unordered pair in BDFHJL, the qualifying pairs are BD, DF, FH, HJ, JL; there are 5.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 24,
+      "classification": "verified_original_practice_imported",
+      "database_id": "87cb0d84-5044-4ac3-b297-ff96aecba29e",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string AZBYCX, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "3",
+        "B": "0",
+        "C": "1",
+        "D": "2",
+        "E": "4"
+      },
+      "correct_option": "D",
+      "correct_answer": "2",
+      "explanation": "Checking every unordered pair in AZBYCX, the qualifying pairs are AC, ZX; there are 2.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 25,
+      "classification": "verified_original_practice_imported",
+      "database_id": "df714bad-eb4d-483a-a57b-31799ad2f292",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string MNOQSU, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "4"
+      },
+      "correct_option": "E",
+      "correct_answer": "4",
+      "explanation": "Checking every unordered pair in MNOQSU, the qualifying pairs are MO, OQ, QS, SU; there are 4.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 26,
+      "classification": "verified_original_practice_imported",
+      "database_id": "80231124-75a9-4c47-b9ee-0fe531d99fb6",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string QWERTY, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "1",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "A",
+      "correct_answer": "2",
+      "explanation": "Checking every unordered pair in QWERTY, the qualifying pairs are WY, RT; there are 2.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 27,
+      "classification": "verified_original_practice_imported",
+      "database_id": "b3920c6e-29df-4dbc-85a3-2b46636617c2",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string PLMOKN, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "5",
+        "E": "6"
+      },
+      "correct_option": "B",
+      "correct_answer": "4",
+      "explanation": "Checking every unordered pair in PLMOKN, the qualifying pairs are PN, LN, MO, MK; there are 4.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 28,
+      "classification": "verified_original_practice_imported",
+      "database_id": "da3c4c8e-1a1d-4f7b-9044-3d8e635b510e",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the string GIKMPR, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct_option": "C",
+      "correct_answer": "4",
+      "explanation": "Checking every unordered pair in GIKMPR, the qualifying pairs are GI, IK, KM, PR; there are 4.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 29,
+      "classification": "verified_original_practice_imported",
+      "database_id": "7fb0dea0-f8e4-4680-a186-c24c24fedb19",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word NOTEBOOK, which letter is 3rd from the left?",
+      "options": {
+        "A": "E",
+        "B": "N",
+        "C": "K",
+        "D": "T",
+        "E": "O"
+      },
+      "correct_option": "D",
+      "correct_answer": "T",
+      "explanation": "Reading NOTEBOOK from the left, the 3th letter is T.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 30,
+      "classification": "verified_original_practice_imported",
+      "database_id": "7656cf55-eab6-44b0-9b2f-a03e3464b72e",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word TRIANGLE, which letter is 2nd from the right?",
+      "options": {
+        "A": "T",
+        "B": "N",
+        "C": "A",
+        "D": "G",
+        "E": "L"
+      },
+      "correct_option": "E",
+      "correct_answer": "L",
+      "explanation": "Reading TRIANGLE from the right, the 2th letter is L.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 31,
+      "classification": "verified_original_practice_imported",
+      "database_id": "1e768704-a47f-483f-b441-812010f48e1a",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word MARKET, which letter is 4th from the left?",
+      "options": {
+        "A": "K",
+        "B": "A",
+        "C": "T",
+        "D": "M",
+        "E": "E"
+      },
+      "correct_option": "A",
+      "correct_answer": "K",
+      "explanation": "Reading MARKET from the left, the 4th letter is K.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 32,
+      "classification": "verified_original_practice_imported",
+      "database_id": "712c4bcc-d1fc-4a09-bcf2-c9141337a2ee",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word POINTER, which letter is 3rd from the right?",
+      "options": {
+        "A": "N",
+        "B": "T",
+        "C": "P",
+        "D": "I",
+        "E": "O"
+      },
+      "correct_option": "B",
+      "correct_answer": "T",
+      "explanation": "Reading POINTER from the right, the 3th letter is T.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 33,
+      "classification": "verified_original_practice_imported",
+      "database_id": "8f9b33c3-032a-4160-8c47-370619e781df",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word CAMPUS, which letter is 5th from the left?",
+      "options": {
+        "A": "A",
+        "B": "S",
+        "C": "U",
+        "D": "P",
+        "E": "M"
+      },
+      "correct_option": "C",
+      "correct_answer": "U",
+      "explanation": "Reading CAMPUS from the left, the 5th letter is U.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 34,
+      "classification": "verified_original_practice_imported",
+      "database_id": "71b065e1-f146-4954-8f2d-6f2889722c24",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word FRIEND, which letter is 2nd from the right?",
+      "options": {
+        "A": "E",
+        "B": "F",
+        "C": "I",
+        "D": "N",
+        "E": "D"
+      },
+      "correct_option": "D",
+      "correct_answer": "N",
+      "explanation": "Reading FRIEND from the right, the 2th letter is N.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 35,
+      "classification": "verified_original_practice_imported",
+      "database_id": "a63178a6-2ffd-4723-8a2c-82cbb9a75e96",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — In the word PUZZLE, which letter is 4th from the left?",
+      "options": {
+        "A": "U",
+        "B": "L",
+        "C": "P",
+        "D": "E",
+        "E": "Z"
+      },
+      "correct_option": "E",
+      "correct_answer": "Z",
+      "explanation": "Reading PUZZLE from the left, the 4th letter is Z.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    }
+  ]
+}

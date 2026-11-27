@@ -1,0 +1,669 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (E+H−C)?",
+      "options": {
+        "A": "J",
+        "B": "H",
+        "C": "I",
+        "D": "K",
+        "E": "L"
+      },
+      "correct_option": "A",
+      "explanation": "The positions are 5, 8, and 3. Their result is 5+8−3=10; wrapping to 1–26 gives position 10, letter J.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (H+M−J)?",
+      "options": {
+        "A": "I",
+        "B": "K",
+        "C": "J",
+        "D": "L",
+        "E": "M"
+      },
+      "correct_option": "B",
+      "explanation": "The positions are 8, 13, and 10. Their result is 8+13−10=11; wrapping to 1–26 gives position 11, letter K.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (K+R−Q)?",
+      "options": {
+        "A": "K",
+        "B": "J",
+        "C": "L",
+        "D": "M",
+        "E": "N"
+      },
+      "correct_option": "C",
+      "explanation": "The positions are 11, 18, and 17. Their result is 11+18−17=12; wrapping to 1–26 gives position 12, letter L.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (N+W−X)?",
+      "options": {
+        "A": "N",
+        "B": "K",
+        "C": "L",
+        "D": "M",
+        "E": "O"
+      },
+      "correct_option": "D",
+      "explanation": "The positions are 14, 23, and 24. Their result is 14+23−24=13; wrapping to 1–26 gives position 13, letter M.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (Q+B−E)?",
+      "options": {
+        "A": "P",
+        "B": "L",
+        "C": "M",
+        "D": "O",
+        "E": "N"
+      },
+      "correct_option": "E",
+      "explanation": "The positions are 17, 2, and 5. Their result is 17+2−5=14; wrapping to 1–26 gives position 14, letter N.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (T+G−L)?",
+      "options": {
+        "A": "O",
+        "B": "M",
+        "C": "N",
+        "D": "P",
+        "E": "Q"
+      },
+      "correct_option": "A",
+      "explanation": "The positions are 20, 7, and 12. Their result is 20+7−12=15; wrapping to 1–26 gives position 15, letter O.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Using A=1, B=2, …, Z=26 with circular wrap after 26, what letter has position (W+L−S)?",
+      "options": {
+        "A": "N",
+        "B": "P",
+        "C": "O",
+        "D": "Q",
+        "E": "R"
+      },
+      "correct_option": "B",
+      "explanation": "The positions are 23, 12, and 19. Their result is 23+12−19=16; wrapping to 1–26 gives position 16, letter P.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 1 positions from its first term to its second; each later jump is 1 positions larger than the preceding jump. What is the next letter in B, C, E, H, using circular alphabet positions?",
+      "options": {
+        "A": "K",
+        "B": "I",
+        "C": "L",
+        "D": "M",
+        "E": "N"
+      },
+      "correct_option": "C",
+      "explanation": "The jumps are 1, 2, 3; the next jump is 4. Adding it to H (position 8) gives position 12, which wraps to L.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 2 positions from its first term to its second; each later jump is 2 positions larger than the preceding jump. What is the next letter in D, F, J, P, using circular alphabet positions?",
+      "options": {
+        "A": "Y",
+        "B": "U",
+        "C": "W",
+        "D": "X",
+        "E": "Z"
+      },
+      "correct_option": "D",
+      "explanation": "The jumps are 2, 4, 6; the next jump is 8. Adding it to P (position 16) gives position 24, which wraps to X.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 3 positions from its first term to its second; each later jump is 3 positions larger than the preceding jump. What is the next letter in F, I, O, X, using circular alphabet positions?",
+      "options": {
+        "A": "L",
+        "B": "G",
+        "C": "I",
+        "D": "K",
+        "E": "J"
+      },
+      "correct_option": "E",
+      "explanation": "The jumps are 3, 6, 9; the next jump is 12. Adding it to X (position 24) gives position 36, which wraps to J.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 4 positions from its first term to its second; each later jump is 1 positions larger than the preceding jump. What is the next letter in H, L, Q, W, using circular alphabet positions?",
+      "options": {
+        "A": "D",
+        "B": "A",
+        "C": "C",
+        "D": "E",
+        "E": "F"
+      },
+      "correct_option": "A",
+      "explanation": "The jumps are 4, 5, 6; the next jump is 7. Adding it to W (position 23) gives position 30, which wraps to D.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 1 positions from its first term to its second; each later jump is 2 positions larger than the preceding jump. What is the next letter in J, K, N, S, using circular alphabet positions?",
+      "options": {
+        "A": "W",
+        "B": "Z",
+        "C": "Y",
+        "D": "A",
+        "E": "B"
+      },
+      "correct_option": "B",
+      "explanation": "The jumps are 1, 3, 5; the next jump is 7. Adding it to S (position 19) gives position 26, which wraps to Z.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 2 positions from its first term to its second; each later jump is 3 positions larger than the preceding jump. What is the next letter in L, N, S, A, using circular alphabet positions?",
+      "options": {
+        "A": "K",
+        "B": "I",
+        "C": "L",
+        "D": "M",
+        "E": "N"
+      },
+      "correct_option": "C",
+      "explanation": "The jumps are 2, 5, 8; the next jump is 11. Adding it to A (position 27) gives position 38, which wraps to L.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — A letter series advances by 3 positions from its first term to its second; each later jump is 1 positions larger than the preceding jump. What is the next letter in N, Q, U, Z, using circular alphabet positions?",
+      "options": {
+        "A": "G",
+        "B": "C",
+        "C": "E",
+        "D": "F",
+        "E": "H"
+      },
+      "correct_option": "D",
+      "explanation": "The jumps are 3, 4, 5; the next jump is 6. Adding it to Z (position 26) gives position 32, which wraps to F.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: bracket, branch, brass, brave, bread. Which word comes first?",
+      "options": {
+        "A": "bread",
+        "B": "branch",
+        "C": "brass",
+        "D": "brave",
+        "E": "bracket"
+      },
+      "correct_option": "E",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “bracket” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: candle, canary, canvas, capable, captain. Which word comes first?",
+      "options": {
+        "A": "canary",
+        "B": "candle",
+        "C": "canvas",
+        "D": "capable",
+        "E": "captain"
+      },
+      "correct_option": "A",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “canary” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: flight, flinch, fling, flint, float. Which word comes first?",
+      "options": {
+        "A": "flinch",
+        "B": "flight",
+        "C": "fling",
+        "D": "flint",
+        "E": "float"
+      },
+      "correct_option": "B",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “flight” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: market, marble, margin, marine, marsh. Which word comes first?",
+      "options": {
+        "A": "margin",
+        "B": "market",
+        "C": "marble",
+        "D": "marine",
+        "E": "marsh"
+      },
+      "correct_option": "C",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “marble” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: planet, plank, plant, plate, plaza. Which word comes first?",
+      "options": {
+        "A": "plate",
+        "B": "plank",
+        "C": "plant",
+        "D": "planet",
+        "E": "plaza"
+      },
+      "correct_option": "D",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “planet” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: thread, threat, throne, thrift, throat. Which word comes first?",
+      "options": {
+        "A": "throat",
+        "B": "threat",
+        "C": "throne",
+        "D": "thrift",
+        "E": "thread"
+      },
+      "correct_option": "E",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “thread” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — Arrange these words in dictionary order: wonder, wonky, wool, word, work. Which word comes first?",
+      "options": {
+        "A": "wonder",
+        "B": "wonky",
+        "C": "wool",
+        "D": "word",
+        "E": "work"
+      },
+      "correct_option": "A",
+      "explanation": "Compare letters from left to right. The first differing letter sequence places “wonder” before the other four words, so it is earliest alphabetically.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string ACEGIK, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6",
+        "E": "7"
+      },
+      "correct_option": "B",
+      "explanation": "Checking every unordered pair in ACEGIK, the qualifying pairs are AC, CE, EG, GI, IK; there are 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string BDFHJL, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "4",
+        "B": "3",
+        "C": "5",
+        "D": "6",
+        "E": "7"
+      },
+      "correct_option": "C",
+      "explanation": "Checking every unordered pair in BDFHJL, the qualifying pairs are BD, DF, FH, HJ, JL; there are 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string AZBYCX, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "3",
+        "B": "0",
+        "C": "1",
+        "D": "2",
+        "E": "4"
+      },
+      "correct_option": "D",
+      "explanation": "Checking every unordered pair in AZBYCX, the qualifying pairs are AC, ZX; there are 2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string MNOQSU, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "6",
+        "B": "2",
+        "C": "3",
+        "D": "5",
+        "E": "4"
+      },
+      "correct_option": "E",
+      "explanation": "Checking every unordered pair in MNOQSU, the qualifying pairs are MO, OQ, QS, SU; there are 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string QWERTY, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "1",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "A",
+      "explanation": "Checking every unordered pair in QWERTY, the qualifying pairs are WY, RT; there are 2.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string PLMOKN, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "5",
+        "E": "6"
+      },
+      "correct_option": "B",
+      "explanation": "Checking every unordered pair in PLMOKN, the qualifying pairs are PN, LN, MO, MK; there are 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the string GIKMPR, consider each pair of positions once. How many pairs contain letters whose alphabet positions differ by exactly 2?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "6"
+      },
+      "correct_option": "C",
+      "explanation": "Checking every unordered pair in GIKMPR, the qualifying pairs are GI, IK, KM, PR; there are 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word NOTEBOOK, which letter is 3rd from the left?",
+      "options": {
+        "A": "E",
+        "B": "N",
+        "C": "K",
+        "D": "T",
+        "E": "O"
+      },
+      "correct_option": "D",
+      "explanation": "Reading NOTEBOOK from the left, the 3th letter is T.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word TRIANGLE, which letter is 2nd from the right?",
+      "options": {
+        "A": "T",
+        "B": "N",
+        "C": "A",
+        "D": "G",
+        "E": "L"
+      },
+      "correct_option": "E",
+      "explanation": "Reading TRIANGLE from the right, the 2th letter is L.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word MARKET, which letter is 4th from the left?",
+      "options": {
+        "A": "K",
+        "B": "A",
+        "C": "T",
+        "D": "M",
+        "E": "E"
+      },
+      "correct_option": "A",
+      "explanation": "Reading MARKET from the left, the 4th letter is K.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word POINTER, which letter is 3rd from the right?",
+      "options": {
+        "A": "N",
+        "B": "T",
+        "C": "P",
+        "D": "I",
+        "E": "O"
+      },
+      "correct_option": "B",
+      "explanation": "Reading POINTER from the right, the 3th letter is T.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word CAMPUS, which letter is 5th from the left?",
+      "options": {
+        "A": "A",
+        "B": "S",
+        "C": "U",
+        "D": "P",
+        "E": "M"
+      },
+      "correct_option": "C",
+      "explanation": "Reading CAMPUS from the left, the 5th letter is U.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word FRIEND, which letter is 2nd from the right?",
+      "options": {
+        "A": "E",
+        "B": "F",
+        "C": "I",
+        "D": "N",
+        "E": "D"
+      },
+      "correct_option": "D",
+      "explanation": "Reading FRIEND from the right, the 2th letter is N.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Original Practice Question — In the word PUZZLE, which letter is 4th from the left?",
+      "options": {
+        "A": "U",
+        "B": "L",
+        "C": "P",
+        "D": "E",
+        "E": "Z"
+      },
+      "correct_option": "E",
+      "explanation": "Reading PUZZLE from the left, the 4th letter is Z.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    }
+  ]
+}

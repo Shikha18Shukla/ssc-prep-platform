@@ -1,0 +1,99 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Alphanumeric series: 5 6 ! @ 5 B C 8 N # P 4 > K < G & H * ? 9 1 A R % 3. Step 1: arrange original numbers in increasing order immediately after >. Step 2: arrange original letters in reverse alphabetical order immediately after #. Step 3: reverse the Step 2 result.\nQ1. In Step 3, what is third to the right of the element eighteenth to the left of #?",
+      "options": {
+        "A": "6",
+        "B": "5",
+        "C": "4",
+        "D": "<",
+        "E": ">"
+      },
+      "correct_option": "B",
+      "explanation": "Step 3 is % ? * & < 9 8 6 5 5 4 3 1 > A B C G H K N P R # @ !. The 18th element left of # is 9; three to its right is 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 5, Q1; transformation group"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "Alphanumeric series: 5 6 ! @ 5 B C 8 N # P 4 > K < G & H * ? 9 1 A R % 3. Step 1: arrange original numbers in increasing order immediately after >. Step 2: arrange original letters in reverse alphabetical order immediately after #. Step 3: reverse the Step 2 result.\nQ3. Which element is fifth to the left of 1 in Step 1?",
+      "options": {
+        "A": "B",
+        "B": "C",
+        "C": "N",
+        "D": "#",
+        "E": "@"
+      },
+      "correct_option": "B",
+      "explanation": "Step 1 places the sorted numbers after >. Counting five positions left of 1 in the resulting sequence reaches C.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 7, Q3; transformation group"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "String: 4 # G U 3 * K @ B 5 U % Z 1 N $ 8 > H 7 C W 5 ~ Y M ? P 2. Step 1: move each symbol immediately preceded by a number and followed by a letter to immediately left of N; the leftmost selected symbol ends furthest right in that group. Step 2: move each letter immediately preceded by a symbol and followed by a number immediately right of 3, preserving left-to-right selection order. Step 3: move each number then immediately preceded and followed by a letter immediately right of $, in increasing order. Step 3 is final.\nQ10. Which is the fourteenth element from the right end after Step 3?",
+      "options": {
+        "A": "*",
+        "B": "#",
+        "C": "N",
+        "D": "3",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "The final sequence is 4 G U B Z P K @ 5 U % 1 ~ > * # N $ 3 5 7 8 H C W Y M ? 2. Counting from the right, the fourteenth element is #.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Alphabets 01  Class Notes.pdf, physical p. 15, Q10; Q10 also appears in PDF 02 and is deduplicated there"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "String: 4 # G U 3 * K @ B 5 U % Z 1 N $ 8 > H 7 C W 5 ~ Y M ? P 2. Step 1: move each symbol immediately preceded by a number and followed by a letter to immediately left of N; the leftmost selected symbol ends furthest right in that group. Step 2: move each letter immediately preceded by a symbol and followed by a number immediately right of 3, preserving left-to-right selection order. Step 3: move each number then immediately preceded and followed by a letter immediately right of $, in increasing order. Step 3 is final.\nQ11. If all symbols are dropped from the final string, which element is eighth to the right of Z?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "H",
+        "D": "C",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "Removing symbols gives 4 G U B Z P K 5 U 1 N 3 5 7 8 H C W Y M 2. The eighth element right of Z is 5.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Alphabets 02  Class Notes.pdf, physical p. 17, Q11; transformation group"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "alphabets-mains",
+      "question_text": "String: 4 # G U 3 * K @ B 5 U % Z 1 N $ 8 > H 7 C W 5 ~ Y M ? P 2. Step 1: move each symbol immediately preceded by a number and followed by a letter to immediately left of N; the leftmost selected symbol ends furthest right in that group. Step 2: move each letter immediately preceded by a symbol and followed by a number immediately right of 3, preserving left-to-right selection order. Step 3: move each number then immediately preceded and followed by a letter immediately right of $, in increasing order. Step 3 is final.\nQ12. If the last ten elements of the final string are reversed, which element is ninth to the left of 8 afterward?",
+      "options": {
+        "A": "U",
+        "B": "?",
+        "C": "3",
+        "D": "~",
+        "E": "None of these"
+      },
+      "correct_option": "E",
+      "explanation": "Reversing the final ten moves 8 to position 27; the ninth element to its left is $, absent from the choices. Answer: None of these.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Alphabets 02  Class Notes.pdf, physical p. 17, Q12; transformation group"
+    }
+  ]
+}

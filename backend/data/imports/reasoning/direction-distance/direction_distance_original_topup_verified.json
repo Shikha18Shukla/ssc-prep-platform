@@ -1,0 +1,707 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 6 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+2, +2) km (east, north coordinates)",
+        "B": "(-2, +2) km (east, north coordinates)",
+        "C": "(+2, -2) km (east, north coordinates)",
+        "D": "(+3, +2) km (east, north coordinates)",
+        "E": "(+2, +3) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is +2 km and north-south displacement is +2 km after cancelling opposite legs, so the endpoint coordinates are (+2, +2) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 6 km, then south 7 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+3, -5) km (east, north coordinates)",
+        "B": "(-3, -5) km (east, north coordinates)",
+        "C": "(-3, +5) km (east, north coordinates)",
+        "D": "(-2, -5) km (east, north coordinates)",
+        "E": "(-3, -4) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is -3 km and north-south displacement is -5 km after cancelling opposite legs, so the endpoint coordinates are (-3, -5) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 6 km, then north 12 km, then west 2 km, then south 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "4 km",
+        "B": "12 km",
+        "C": "√(16+64) km = 8.94 km",
+        "D": "√(81) km",
+        "E": "8 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are 4 km and 8 km. The shortest distance is √(4² + 8²) = 8.94 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 6 km, then north 3 km, then east 1 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 5 km west and 3 km south; therefore the endpoint is in the south-west direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 10 km, then south 3 km, then west 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "North-south component",
+        "D": "The endpoint is at the origin",
+        "E": "Both components are equal"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |6|=6 km east-west and |6|=6 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 10 km, then south 11 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-7, -9) km (east, north coordinates)",
+        "B": "(+7, -9) km (east, north coordinates)",
+        "C": "(-7, +9) km (east, north coordinates)",
+        "D": "(-6, -9) km (east, north coordinates)",
+        "E": "(-7, -8) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is -7 km and north-south displacement is -9 km after cancelling opposite legs, so the endpoint coordinates are (-7, -9) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 10 km, then north 8 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-8, +4) km (east, north coordinates)",
+        "B": "(+8, +4) km (east, north coordinates)",
+        "C": "(+8, -4) km (east, north coordinates)",
+        "D": "(+9, +4) km (east, north coordinates)",
+        "E": "(+8, +5) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is +8 km and north-south displacement is +4 km after cancelling opposite legs, so the endpoint coordinates are (+8, +4) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 3 km, then north 3 km, then east 1 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "5 km",
+        "B": "9 km",
+        "C": "√(4+49) km = 7.28 km",
+        "D": "√(54) km",
+        "E": "7 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are -2 km and -7 km. The shortest distance is √(-2² + -7²) = 7.28 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 7 km, then south 3 km, then west 4 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "south-west",
+        "B": "north",
+        "C": "east",
+        "D": "north-east",
+        "E": "west-north"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 3 km east and 2 km north; therefore the endpoint is in the north-east direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 7 km, then south 7 km, then east 3 km, then north 2 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "North-south component"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |-4|=4 km east-west and |-5|=5 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 7 km, then north 12 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+5, +8) km (east, north coordinates)",
+        "B": "(-5, +8) km (east, north coordinates)",
+        "C": "(+5, -8) km (east, north coordinates)",
+        "D": "(+6, +8) km (east, north coordinates)",
+        "E": "(+5, +9) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is +5 km and north-south displacement is +8 km after cancelling opposite legs, so the endpoint coordinates are (+5, +8) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 7 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+6, -3) km (east, north coordinates)",
+        "B": "(-6, -3) km (east, north coordinates)",
+        "C": "(-6, +3) km (east, north coordinates)",
+        "D": "(-5, -3) km (east, north coordinates)",
+        "E": "(-6, -2) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is -6 km and north-south displacement is -3 km after cancelling opposite legs, so the endpoint coordinates are (-6, -3) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 11 km, then south 3 km, then west 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "1 km",
+        "B": "13 km",
+        "C": "√(49+36) km = 9.22 km",
+        "D": "√(86) km",
+        "E": "7 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are 7 km and 6 km. The shortest distance is √(7² + 6²) = 9.22 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 11 km, then south 11 km, then east 3 km, then north 2 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 8 km west and 9 km south; therefore the endpoint is in the south-west direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 4 km, then north 8 km, then west 2 km, then south 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "North-south component"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |2|=2 km east-west and |4|=4 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 4 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-3, -7) km (east, north coordinates)",
+        "B": "(+3, -7) km (east, north coordinates)",
+        "C": "(-3, +7) km (east, north coordinates)",
+        "D": "(-2, -7) km (east, north coordinates)",
+        "E": "(-3, -6) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is -3 km and north-south displacement is -7 km after cancelling opposite legs, so the endpoint coordinates are (-3, -7) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 8 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-4, +2) km (east, north coordinates)",
+        "B": "(+4, +2) km (east, north coordinates)",
+        "C": "(+4, -2) km (east, north coordinates)",
+        "D": "(+5, +2) km (east, north coordinates)",
+        "E": "(+4, +3) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is +4 km and north-south displacement is +2 km after cancelling opposite legs, so the endpoint coordinates are (+4, +2) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 8 km, then south 7 km, then east 3 km, then north 2 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "0 km",
+        "B": "10 km",
+        "C": "√(25+25) km = 7.07 km",
+        "D": "√(51) km",
+        "E": "5 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are -5 km and -5 km. The shortest distance is √(-5² + -5²) = 7.07 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 8 km, then north 12 km, then west 2 km, then south 4 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "south-west",
+        "B": "north",
+        "C": "east",
+        "D": "north-east",
+        "E": "west-north"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 6 km east and 8 km north; therefore the endpoint is in the north-east direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 8 km, then north 3 km, then east 1 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "East-west component"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |-7|=7 km east-west and |-3|=3 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 12 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+8, +6) km (east, north coordinates)",
+        "B": "(-8, +6) km (east, north coordinates)",
+        "C": "(+8, -6) km (east, north coordinates)",
+        "D": "(+9, +6) km (east, north coordinates)",
+        "E": "(+8, +7) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is +8 km and north-south displacement is +6 km after cancelling opposite legs, so the endpoint coordinates are (+8, +6) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 5 km, then south 11 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+2, -9) km (east, north coordinates)",
+        "B": "(-2, -9) km (east, north coordinates)",
+        "C": "(-2, +9) km (east, north coordinates)",
+        "D": "(-1, -9) km (east, north coordinates)",
+        "E": "(-2, -8) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is -2 km and north-south displacement is -9 km after cancelling opposite legs, so the endpoint coordinates are (-2, -9) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 5 km, then north 8 km, then west 2 km, then south 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "1 km",
+        "B": "7 km",
+        "C": "√(9+16) km = 5.00 km",
+        "D": "√(26) km",
+        "E": "4 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are 3 km and 4 km. The shortest distance is √(3² + 4²) = 5.00 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 5 km, then north 3 km, then east 1 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 4 km west and 7 km south; therefore the endpoint is in the south-west direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 9 km, then south 3 km, then west 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "East-west component"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |5|=5 km east-west and |2|=2 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 9 km, then south 7 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-6, -5) km (east, north coordinates)",
+        "B": "(+6, -5) km (east, north coordinates)",
+        "C": "(-6, +5) km (east, north coordinates)",
+        "D": "(-5, -5) km (east, north coordinates)",
+        "E": "(-6, -4) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is -6 km and north-south displacement is -5 km after cancelling opposite legs, so the endpoint coordinates are (-6, -5) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 9 km, then north 12 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-7, +8) km (east, north coordinates)",
+        "B": "(+7, +8) km (east, north coordinates)",
+        "C": "(+7, -8) km (east, north coordinates)",
+        "D": "(+8, +8) km (east, north coordinates)",
+        "E": "(+7, +9) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is +7 km and north-south displacement is +8 km after cancelling opposite legs, so the endpoint coordinates are (+7, +8) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 9 km, then north 3 km, then east 1 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "5 km",
+        "B": "11 km",
+        "C": "√(64+9) km = 8.54 km",
+        "D": "√(74) km",
+        "E": "8 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are -8 km and -3 km. The shortest distance is √(-8² + -3²) = 8.54 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 6 km, then south 3 km, then west 4 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "south-west",
+        "B": "north",
+        "C": "east",
+        "D": "north-east",
+        "E": "west-north"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 2 km east and 6 km north; therefore the endpoint is in the north-east direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 6 km, then south 11 km, then east 3 km, then north 2 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "North-south component"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |-3|=3 km east-west and |-9|=9 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 6 km, then north 8 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+4, +4) km (east, north coordinates)",
+        "B": "(-4, +4) km (east, north coordinates)",
+        "C": "(+4, -4) km (east, north coordinates)",
+        "D": "(+5, +4) km (east, north coordinates)",
+        "E": "(+4, +5) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is +4 km and north-south displacement is +4 km after cancelling opposite legs, so the endpoint coordinates are (+4, +4) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 6 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+5, -7) km (east, north coordinates)",
+        "B": "(-5, -7) km (east, north coordinates)",
+        "C": "(-5, +7) km (east, north coordinates)",
+        "D": "(-4, -7) km (east, north coordinates)",
+        "E": "(-5, -6) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is -5 km and north-south displacement is -7 km after cancelling opposite legs, so the endpoint coordinates are (-5, -7) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 10 km, then south 3 km, then west 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "4 km",
+        "B": "8 km",
+        "C": "√(36+4) km = 6.32 km",
+        "D": "√(41) km",
+        "E": "6 km"
+      },
+      "correct_option": "C",
+      "explanation": "After cancelling opposite legs the net components are 6 km and 2 km. The shortest distance is √(6² + 2²) = 6.32 km.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 10 km, then south 7 km, then east 3 km, then north 2 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "explanation": "The net displacement is 7 km west and 5 km south; therefore the endpoint is in the south-west direction.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 10 km, then north 12 km, then west 2 km, then south 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "North-south component",
+        "D": "The endpoint is at the origin",
+        "E": "Both components are equal"
+      },
+      "correct_option": "E",
+      "explanation": "The uncancelled components have magnitudes |8|=8 km east-west and |8|=8 km north-south.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 3 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-2, -3) km (east, north coordinates)",
+        "B": "(+2, -3) km (east, north coordinates)",
+        "C": "(-2, +3) km (east, north coordinates)",
+        "D": "(-1, -3) km (east, north coordinates)",
+        "E": "(-2, -2) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "explanation": "East-west displacement is -2 km and north-south displacement is -3 km after cancelling opposite legs, so the endpoint coordinates are (-2, -3) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "direction-and-distance-mains",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 7 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-3, +6) km (east, north coordinates)",
+        "B": "(+3, +6) km (east, north coordinates)",
+        "C": "(+3, -6) km (east, north coordinates)",
+        "D": "(+4, +6) km (east, north coordinates)",
+        "E": "(+3, +7) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "explanation": "East-west displacement is +3 km and north-south displacement is +6 km after cancelling opposite legs, so the endpoint coordinates are (+3, +6) km (east, north coordinates).",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    }
+  ]
+}

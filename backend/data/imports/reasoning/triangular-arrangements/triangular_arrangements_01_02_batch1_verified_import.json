@@ -1,0 +1,80 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Six persons U, V, W, X, Y and Z sit around a triangular table facing the centre; three sit at corners and three at side middles. They use distinct brands Sony, Apple, Dell, HP, Acer and Asus. The Apple user is third left of W; one person sits between W and the Sony user; W sits at a middle seat; the Acer user is immediately left of the person third right of Y; Y uses neither Apple nor Sony; HP is immediately right of Dell; V uses Asus; X is second left of the person immediately right of Z; U uses neither HP nor Apple; X is not at a middle seat.\nWhich combination is true? I. U–HP  II. X–Apple  III. Z–Sony.",
+      "options": {
+        "A": "Only II",
+        "B": "Only II and III",
+        "C": "Only III",
+        "D": "All I, II and III",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "Exhaustive enumeration, fixing rotation, gives U=Acer, V=Asus, W=HP, X=Apple, Y=Dell, Z=Sony. II and III alone are true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Triangular Arrangements 01  Class Notes.pdf, physical p. 4, Q1; group 1"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Six persons A, B, C, D, E and F sit at six equally spaced triangular-table seats facing the centre, alternating corners and side middles. They like distinct cartoons Flintstones, Pokemon, Popeye, Scooby-Doo, Shinchan and Superman. D is at a corner and next to the Flintstones fan. A is second right of the Flintstones fan and third left of the Popeye fan. One person sits between the Popeye fan and E; E is immediately right of the Pokemon fan; Shinchan is immediately left of Pokemon. At least one person sits between Shinchan and B; B likes neither Popeye nor Superman. C is immediately right of F and does not like Flintstones.\nWhich statement is true? I. F and the Shinchan fan sit at corners. II. Neither C nor D likes Shinchan. III. Superman is third left of D. IV. B sits second right of the Pokemon fan.",
+      "options": {
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Only III",
+        "D": "Only IV",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "Enumeration of seat and cartoon assignments gives F=Flintstones, A=Pokemon, D=Popeye, B=Scooby-Doo, C=Shinchan and E=Superman up to rotation. I–III are false; IV is true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Triangular Arrangements 01  Class Notes.pdf, physical p. 7, Q2; cartoon group"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Nine persons Anuj, Sejal, Kartik, Surbhi, Krish, Vinay, Mohit, Mishi and Neha sit facing outward at a triangular table with three corners and two seats per side. They like distinct colours Red, Yellow, Blue, Green, Black, Purple, Peach, Golden and Pink. Neha likes Green and is immediately right of Krish, who likes Peach; neither is at a corner. One person sits between Krish and Mishi. Three sit between Neha and Surbhi, who likes Golden and is at a corner. Sejal likes Black and is two places from Surbhi. Yellow is immediately right of Sejal. Anuj likes Purple and is second left of Kartik; Kartik likes neither Yellow nor Pink. Mohit likes Red. The Pink and Peach holders both neighbour the Blue holder.\nWho sits second to the right of Anuj?",
+      "options": {
+        "A": "The person who likes Black",
+        "B": "The person who likes Red",
+        "C": "The person who likes Yellow",
+        "D": "The person who likes Blue",
+        "E": "None of these"
+      },
+      "correct_option": "D",
+      "explanation": "Systematic enumeration of the outward-facing seats and colour assignments gives a unique arrangement: Kartik is second right of Anuj and likes Blue.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Triangular Arrangements 02 _ Class Notes.pdf.pdf, physical p. 7, Q1; colour group"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Nine persons Tahir, Mehul, Pratim, Rajan, Vishnu, Somit, Jeevan, Abhay and Akku sit facing inward at a triangular table with three corners and two seats per side. They like distinct colours Red, Yellow, Blue, Green, Black, White, Peach, Orange and Grey. Somit likes Grey and is not at a corner; Mehul is second left of Somit; Rajan likes Green and is immediately left of Mehul; two people sit between Rajan and Pratim; Pratim likes Red or Yellow; Red neighbours Grey and its wearer is not at a corner; White and Yellow are on the same side; Vishnu likes Orange and is not adjacent to Rajan or Somit; Grey neighbours Akku and Tahir, who likes Blue; Jeevan likes neither Green nor Peach; Peach is immediately next to Vishnu.\nWhich pair are not immediate neighbours?",
+      "options": {
+        "A": "Tahir and the White wearer",
+        "B": "The Red wearer and Abhay",
+        "C": "Pratim and Jeevan",
+        "D": "Vishnu and the Peach wearer",
+        "E": "The Black wearer and Akku"
+      },
+      "correct_option": "B",
+      "explanation": "Exhaustive enumeration gives one arrangement up to rotation. The Red wearer and Abhay are not neighbours; each of the other four listed pairs is adjacent.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Triangular Arrangements 02 _ Class Notes.pdf.pdf, physical p. 11, Q1; colour group"
+    }
+  ]
+}

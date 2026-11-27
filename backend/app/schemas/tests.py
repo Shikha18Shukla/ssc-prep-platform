@@ -19,7 +19,9 @@ class TestCreate(BaseModel):
     chapter_ids: list[uuid.UUID] | None = Field(default=None, max_length=100)
     # PYQ is an independent selection mode, not a difficulty level.
     difficulty: str | None = None
-    question_count: int = Field(ge=1, le=25)
+    question_count: int = Field(ge=1, le=150)
+    # Section filter for Current Affairs practice tests (e.g., 'current_affairs_test_1')
+    section_filter: str | None = None
 
 
 class TestAvailabilityRead(BaseModel):

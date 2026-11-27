@@ -1,0 +1,53 @@
+{
+  "chapter_id": "a17ca992-53a7-44a8-8217-90cc130193fd",
+  "chapter": "Triangular Arrangements",
+  "entries": [
+    {
+      "source": "Triangular Arrangements 01  Class Notes.pdf, physical p. 4, Q1; group 1",
+      "question_prompt": "Which combination is true? I. U–HP  II. X–Apple  III. Z–Sony.",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "Only II and III",
+      "independent_reasoning": "Exhaustive enumeration, fixing rotation, gives U=Acer, V=Asus, W=HP, X=Apple, Y=Dell, Z=Sony. II and III alone are true.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    },
+    {
+      "source": "Triangular Arrangements 01  Class Notes.pdf, physical p. 7, Q2; cartoon group",
+      "question_prompt": "Which statement is true? I. F and the Shinchan fan sit at corners. II. Neither C nor D likes Shinchan. III. Superman is third left of D. IV. B sits second right of the Pokemon fan.",
+      "classification": "verified_import_candidate",
+      "correct_option": "D",
+      "answer": "Only IV",
+      "independent_reasoning": "Enumeration of seat and cartoon assignments gives F=Flintstones, A=Pokemon, D=Popeye, B=Scooby-Doo, C=Shinchan and E=Superman up to rotation. I–III are false; IV is true.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    },
+    {
+      "source": "Triangular Arrangements 02 _ Class Notes.pdf.pdf, physical p. 7, Q1; colour group",
+      "question_prompt": "Who sits second to the right of Anuj?",
+      "classification": "verified_import_candidate",
+      "correct_option": "D",
+      "answer": "The person who likes Blue",
+      "independent_reasoning": "Systematic enumeration of the outward-facing seats and colour assignments gives a unique arrangement: Kartik is second right of Anuj and likes Blue.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    },
+    {
+      "source": "Triangular Arrangements 02 _ Class Notes.pdf.pdf, physical p. 11, Q1; colour group",
+      "question_prompt": "Which pair are not immediate neighbours?",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "The Red wearer and Abhay",
+      "independent_reasoning": "Exhaustive enumeration gives one arrangement up to rotation. The Red wearer and Abhay are not neighbours; each of the other four listed pairs is adjacent.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    },
+    {
+      "source": "Triangular Arrangements 01  Class Notes.pdf, physical pp. 9-10, Q3; sports group",
+      "classification": "held_for_review",
+      "reason": "Multiple seatings satisfy written clues and the requested count relative to X varies across valid arrangements."
+    },
+    {
+      "source": "Triangular Arrangements 02 _ Class Notes.pdf.pdf, physical p. 4, Q1; sports group",
+      "classification": "duplicate",
+      "duplicate_of": "Triangular Arrangements 01  Class Notes.pdf, physical pp. 9-10, Q3",
+      "reason": "Same sports/variable-facing prompt and shared clues."
+    }
+  ]
+}

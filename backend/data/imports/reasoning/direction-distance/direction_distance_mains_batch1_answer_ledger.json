@@ -1,0 +1,33 @@
+{
+  "chapter_id": "10b96d9e-f228-4eab-990a-c5d061ae818f",
+  "chapter": "Direction and Distance (Mains)",
+  "entries": [
+    {
+      "source": "Direction and Distance 01  Class Notes.pdf, physical p. 4, Q1; coded directions",
+      "question_prompt": "Q1. Which combination indicates that car K starts southeast of car L’s destination?",
+      "classification": "verified_import_candidate",
+      "correct_option": "A",
+      "answer": "i. B%L, K&A",
+      "independent_reasoning": "In i, B%L places L’s destination at A. K&A means K turns right and reaches A, so K starts at C. C (east) is southeast of A (north).",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    },
+    {
+      "source": "Direction and Distance 01  Class Notes.pdf, physical p. 8, Q2; coded directions",
+      "question_prompt": "Q2. Which expressions indicate that car J started at C and reached A? (a) D@J + A; (b) C#J@A; (c) C%J#A.",
+      "classification": "verified_import_candidate",
+      "correct_option": "A",
+      "answer": "Only (a)",
+      "independent_reasoning": "Applying the operator definitions in order, (a) is the only expression that establishes both endpoints C and A; (b) and (c) do not.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    },
+    {
+      "source": "Direction and Distance 01  Class Notes.pdf, physical p. 8, Q3; coded directions",
+      "question_prompt": "Q3. Given B%E + D@F, in which direction is F’s starting point from B, and in which direction is E’s destination from F’s starting point, respectively?",
+      "classification": "verified_import_candidate",
+      "correct_option": "E",
+      "answer": "East, southeast",
+      "independent_reasoning": "B%E puts E’s destination at A (north); D@F puts F’s start at C (east). C is east of B and southeast of A, so the ordered pair is east, southeast.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records."
+    }
+  ]
+}

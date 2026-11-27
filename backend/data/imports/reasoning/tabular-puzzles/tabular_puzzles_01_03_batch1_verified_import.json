@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Seven colleges J, K, L, M, N, O and P use Dell, Lenovo and HP systems; at least two colleges use each brand. K uses HP; M uses Lenovo; L uses Dell. N uses the same brand as P. Neither O nor N uses Dell. P does not use the same brand as M. Which brand does O use?",
+      "options": {
+        "A": "HP",
+        "B": "Dell",
+        "C": "Lenovo",
+        "D": "Cannot be determined",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "N and P share a non-Dell brand, and P cannot use Lenovo because M does. Thus N and P are HP. With K also HP, and L already Dell, the remaining groups are Dell {L,J}, Lenovo {M,O}, HP {K,N,P}; O uses Lenovo.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 4, Q1; brand table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Nine persons L, M, N, O, P, Q, R, S and T study Marketing, Accounting and Architecture. Each course has two to four students. L studies with N, who studies neither Architecture nor Marketing. M and N study different courses. Q studies with neither L nor M. Marketing has one more student than Architecture. T studies with only one other person. O and S study the same course, but not with L. Q does not study with T. Who among the following studies Marketing?",
+      "options": {
+        "A": "M",
+        "B": "The one who studies with P",
+        "C": "T",
+        "D": "The one who studies with O",
+        "E": "N"
+      },
+      "correct_option": "D",
+      "explanation": "The course-size and clue constraints force course sizes Accounting=4, Marketing=3 and Architecture=2. L,N are Accounting; O,S are Marketing; T and M are Architecture; Q must be Marketing. Thus O’s study partners Q and S are in Marketing, making option D the only true choice among the listed descriptions.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 7, Q2; course table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Nine persons A-I applied for TNPSC, Railways and IBPS; each exam has two to four applicants. B and D applied for different exams, neither IBPS. A and F applied for the same exam. F applied for neither TNPSC nor Railways. The TNPSC count is one fewer than IBPS. H is in an exam group with only one other person and is not in Railways. E and I applied for the same exam. C and E applied for different exams. I and D applied for different exams. Who applied for IBPS?",
+      "options": {
+        "A": "E and H",
+        "B": "G and A",
+        "C": "I and B",
+        "D": "D and F",
+        "E": "A and C"
+      },
+      "correct_option": "E",
+      "explanation": "The unique assignment has IBPS {A,C,F}, TNPSC {D,H} and Railways {B,E,G,I}. Among the options only A and C are both IBPS applicants.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 12, Q3; exam table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Nine persons A-I wear Gold, Platinum or Diamond rings. D wears Diamond; C wears a different type from D. Only B shares H’s ring type. A and G share a type; neither D nor E shares A’s type. Exactly three people wear Diamond. F wears neither Gold nor Diamond. Who wears a Platinum ring?",
+      "options": {
+        "A": "The person sharing B’s ring type",
+        "B": "F",
+        "C": "The person sharing A’s ring type",
+        "D": "Both (a) and (b)",
+        "E": "Both (b) and (c)"
+      },
+      "correct_option": "E",
+      "explanation": "The unique ring groups are Gold {B,H}, Platinum {A,C,F,G} and Diamond {D,E,I}. F and the people sharing A’s type are Platinum, so both (b) and (c) are correct.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 15, Q4; ring table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Nine persons A-I receive distinct consecutive multiples of 50, all above 200 and below 700. I earns 350 more than B. Equal numbers of people earn more and less than G. H earns immediately less than I and 200 more than A. H’s wage equals B plus D; D earns 100 less than F. E earns more than C. Who earns the highest wage?",
+      "options": {
+        "A": "C",
+        "B": "The person immediately above F",
+        "C": "E",
+        "D": "The person earning 250 more than I",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "Enumeration over the nine consecutive wages yields A350, B250, C500, D300, E650, F400, G450, H550 and I600. E has the highest wage, 650.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical pp. 4-6, Q1; wages table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Five students Q, O, N, I and H study at JNU, BHU, LNMU, AU and DU, and like Puma, Reebok, Nike, Sparx and Adidas, each once. H likes Adidas and is not at BHU. Q studies at DU and likes neither Puma nor Nike. N likes Reebok and is neither at BHU nor AU. O likes Nike. I is neither at JNU nor BHU. The LNMU student likes Puma. Which brand does Q like?",
+      "options": {
+        "A": "Reebok",
+        "B": "Sparx",
+        "C": "Adidas",
+        "D": "Cannot be determined",
+        "E": "None of these"
+      },
+      "correct_option": "B",
+      "explanation": "N must be at JNU; I is then at LNMU and likes Puma. H is at AU with Adidas; O is at BHU with Nike. Q therefore likes Sparx, option B.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical pp. 7-8, Q2; university-brand table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "P, Q, R, S, T, U and V watch different movies Pokemon, Ad Astra, Toy Story, Aladdin, Frozen 2, Wonder Women and Rocketman in different cities Nasik, Agra, Bhopal, Rajkot, Jaipur, Pune and Surat. T is in Bhopal; U watches Toy Story; P is neither in Rajkot nor Nasik; T watches Aladdin; either S or V is in Agra; S and U are not in Nasik; P and V watch Pokemon and Ad Astra respectively; Q does not watch Rocketman; the Pune viewer watches neither Pokemon nor Toy Story; S and V are not in Pune; Frozen 2 is watched in Jaipur; neither Q nor S watches Frozen 2. Which pair does not belong?",
+      "options": {
+        "A": "P–Surat",
+        "B": "Q–Pune",
+        "C": "U–Rajkot",
+        "D": "S–Agra",
+        "E": "V–Jaipur"
+      },
+      "correct_option": "E",
+      "explanation": "There are 12 valid arrangements, but the answer is invariant: V is never in Jaipur. Each of the first four listed pairs occurs in at least one valid arrangement, so only V–Jaipur is always the odd pair.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical p. 10, Q3; city/movie table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Seven persons A-G like distinct places Jama Masjid, Qutub Minar, Akshardham, Red Fort, Lotus Temple, India Gate and Jantar Mantar and belong to Delhi, Lucknow, Surat, Chennai, Shimla, Kanpur and Indore. C is from Indore but does not like Lotus Temple. The Kanpur person likes Jantar Mantar. B is from Lucknow and likes India Gate. G likes Akshardham but is not from Shimla. Neither A nor G is from Chennai. The Surat person likes Jama Masjid. E likes Qutub Minar. F likes neither Jama Masjid nor Jantar Mantar. The Lotus Temple person is not from Shimla. D is not from Surat. What place does the person from Chennai like?",
+      "options": {
+        "A": "Qutub Minar",
+        "B": "Red Fort",
+        "C": "Lotus Temple",
+        "D": "Akshardham",
+        "E": "None of these"
+      },
+      "correct_option": "C",
+      "explanation": "The unique assignment is A Surat–Jama Masjid, B Lucknow–India Gate, C Indore–Red Fort, D Kanpur–Jantar Mantar, E Shimla–Qutub Minar, F Chennai–Lotus Temple and G Delhi–Akshardham. The Chennai person therefore likes Lotus Temple, option C.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical p. 14, Q4; city/monument table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Seven persons A-G bought distinct shirts Allen Solly, Levis, Tommy Hilfiger, Parx, Raymond, Ajio and Peter England, and cars Honda, Suzuki, Ford, Jaguar, Fiat, Acura and Hyundai. E bought Parx; C has Acura. The Ford owner bought Tommy Hilfiger. Neither B nor G has Ford. Either G or B bought Levis. The Peter England buyer has Hyundai. Neither F nor G has Hyundai. Neither D nor A bought Peter England. The Levis buyer has neither Jaguar nor Honda. The Acura buyer did not buy Raymond. The Honda buyer has neither Raymond nor Parx. F does not have Honda. Neither E nor F has Fiat. Which combination is true?",
+      "options": {
+        "A": "B–Honda",
+        "B": "Ajio–Fiat",
+        "C": "Allen Solly–Hyundai",
+        "D": "Levis–Suzuki",
+        "E": "E–Acura"
+      },
+      "correct_option": "D",
+      "explanation": "There are four valid assignments; in each, the Levis wearer has Suzuki. The other listed combinations are false in the verified solution set, making D invariant.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 03  Class Notes.pdf, physical p. 4, Q1; shirt/car table"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "tabular-puzzles",
+      "question_text": "Seven persons P, Q, R, S, T, U and V buy distinct fruits Mango, Plum, Kiwi, Fig, Apricot, Papaya and Peach at distinct weights 2-8 kg. Q buys Papaya weighing 6 kg; U’s fruit weighs 7 kg. Either T or R buys Plum. R’s fruit weighs twice Peach’s weight. Apricot is lightest. R and S have even weights. Kiwi is heavier than Fig. Neither S nor T buys Apricot. Mango weighs one kg more than Apricot. V buys neither Mango nor Peach. Plum weighs less than Kiwi. Who buys Peach?",
+      "options": {
+        "A": "P",
+        "B": "R",
+        "C": "S",
+        "D": "T",
+        "E": "V"
+      },
+      "correct_option": "C",
+      "explanation": "The unique table is P Mango/3 kg, Q Papaya/6 kg, R Kiwi/8 kg, S Peach/4 kg, T Plum/5 kg, U Fig/7 kg and V Apricot/2 kg. S buys Peach.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Tabular Puzzles 03  Class Notes.pdf, physical p. 8, Q2; fruit/weight table"
+    }
+  ]
+}

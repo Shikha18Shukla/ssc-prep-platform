@@ -1,0 +1,931 @@
+{
+  "chapter": "Triangular Arrangements",
+  "chapter_slug": "triangular-arrangements",
+  "created_questions": 36,
+  "source_kind": "Original Practice Question",
+  "verification_note": "Generated in-house for this question bank; not copied from source PDFs or labeled as PYQ.",
+  "groups": [
+    {
+      "group_id": "ORIG-TRI-01",
+      "solution_clockwise_from_apex": [
+        "Asha",
+        "Bharat",
+        "Charu",
+        "Dev",
+        "Esha",
+        "Farah"
+      ],
+      "clues": "Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha.",
+      "question_answers": [
+        {
+          "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who occupies the upper-right side?",
+          "answer": "Bharat",
+          "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Bharat."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Which marked seat is occupied by Charu?",
+          "answer": "lower-right corner",
+          "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives lower-right corner."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who sits immediately clockwise from Dev?",
+          "answer": "Esha",
+          "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Esha."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who sits immediately counterclockwise from Esha?",
+          "answer": "Dev",
+          "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Dev."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. How many seat-steps clockwise from Bharat to Farah?",
+          "answer": "4",
+          "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives 4."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Which person is at the lower-left corner?",
+          "answer": "Esha",
+          "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Esha."
+        }
+      ],
+      "valid_arrangements": 1
+    },
+    {
+      "group_id": "ORIG-TRI-02",
+      "solution_clockwise_from_apex": [
+        "Gita",
+        "Hari",
+        "Lokesh",
+        "Kavya",
+        "Jay",
+        "Ira"
+      ],
+      "clues": "Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh.",
+      "question_answers": [
+        {
+          "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who occupies the lower-right corner?",
+          "answer": "Lokesh",
+          "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Lokesh."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Which marked seat is occupied by Kavya?",
+          "answer": "base midpoint",
+          "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives base midpoint."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who sits immediately clockwise from Jay?",
+          "answer": "Ira",
+          "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Ira."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who sits immediately counterclockwise from Ira?",
+          "answer": "Jay",
+          "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Jay."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. How many seat-steps clockwise from Lokesh to Gita?",
+          "answer": "4",
+          "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives 4."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Which person is at the upper-left side?",
+          "answer": "Ira",
+          "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Ira."
+        }
+      ],
+      "valid_arrangements": 1
+    },
+    {
+      "group_id": "ORIG-TRI-03",
+      "solution_clockwise_from_apex": [
+        "Meera",
+        "Pooja",
+        "Ravi",
+        "Sana",
+        "Nikhil",
+        "Ojas"
+      ],
+      "clues": "Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi.",
+      "question_answers": [
+        {
+          "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who occupies the base midpoint?",
+          "answer": "Sana",
+          "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Sana."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Which marked seat is occupied by Nikhil?",
+          "answer": "lower-left corner",
+          "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives lower-left corner."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who sits immediately clockwise from Ojas?",
+          "answer": "Meera",
+          "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Meera."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who sits immediately counterclockwise from Meera?",
+          "answer": "Ojas",
+          "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Ojas."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. How many seat-steps clockwise from Sana to Pooja?",
+          "answer": "4",
+          "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives 4."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Which person is at the apex?",
+          "answer": "Meera",
+          "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Meera."
+        }
+      ],
+      "valid_arrangements": 1
+    },
+    {
+      "group_id": "ORIG-TRI-04",
+      "solution_clockwise_from_apex": [
+        "Tara",
+        "Waseem",
+        "Vani",
+        "Uday",
+        "Yash",
+        "Xena"
+      ],
+      "clues": "Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash.",
+      "question_answers": [
+        {
+          "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who occupies the lower-left corner?",
+          "answer": "Yash",
+          "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Yash."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Which marked seat is occupied by Xena?",
+          "answer": "upper-left side",
+          "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives upper-left side."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who sits immediately clockwise from Tara?",
+          "answer": "Waseem",
+          "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Waseem."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who sits immediately counterclockwise from Waseem?",
+          "answer": "Tara",
+          "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Tara."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. How many seat-steps clockwise from Yash to Vani?",
+          "answer": "4",
+          "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives 4."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Which person is at the upper-right side?",
+          "answer": "Waseem",
+          "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Waseem."
+        }
+      ],
+      "valid_arrangements": 1
+    },
+    {
+      "group_id": "ORIG-TRI-05",
+      "solution_clockwise_from_apex": [
+        "Anil",
+        "Fiza",
+        "Bela",
+        "Chirag",
+        "Diya",
+        "Evan"
+      ],
+      "clues": "Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan.",
+      "question_answers": [
+        {
+          "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who occupies the upper-left side?",
+          "answer": "Evan",
+          "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Evan."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Which marked seat is occupied by Anil?",
+          "answer": "apex",
+          "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives apex."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who sits immediately clockwise from Fiza?",
+          "answer": "Bela",
+          "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Bela."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who sits immediately counterclockwise from Bela?",
+          "answer": "Fiza",
+          "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Fiza."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. How many seat-steps clockwise from Evan to Chirag?",
+          "answer": "4",
+          "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives 4."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Which person is at the lower-right corner?",
+          "answer": "Bela",
+          "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Bela."
+        }
+      ],
+      "valid_arrangements": 1
+    },
+    {
+      "group_id": "ORIG-TRI-06",
+      "solution_clockwise_from_apex": [
+        "Gaurav",
+        "Leela",
+        "Karan",
+        "Juhi",
+        "Ishan",
+        "Hina"
+      ],
+      "clues": "Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan.",
+      "question_answers": [
+        {
+          "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who occupies the apex?",
+          "answer": "Gaurav",
+          "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Gaurav."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Which marked seat is occupied by Leela?",
+          "answer": "upper-right side",
+          "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives upper-right side."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who sits immediately clockwise from Karan?",
+          "answer": "Juhi",
+          "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Juhi."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who sits immediately counterclockwise from Juhi?",
+          "answer": "Karan",
+          "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Karan."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. How many seat-steps clockwise from Gaurav to Ishan?",
+          "answer": "4",
+          "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives 4."
+        },
+        {
+          "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Which person is at the base midpoint?",
+          "answer": "Juhi",
+          "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Juhi."
+        }
+      ],
+      "valid_arrangements": 1
+    }
+  ],
+  "entries": [
+    {
+      "question_number": 1,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who occupies the upper-right side?",
+      "options": {
+        "A": "Bharat",
+        "B": "Asha",
+        "C": "Charu",
+        "D": "Dev",
+        "E": "Esha"
+      },
+      "correct_option": "A",
+      "correct_answer": "Bharat",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Bharat.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "fc6da39a-e79b-4260-ad54-5b29a43c3b11"
+    },
+    {
+      "question_number": 2,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Which marked seat is occupied by Charu?",
+      "options": {
+        "A": "apex",
+        "B": "lower-right corner",
+        "C": "upper-right side",
+        "D": "base midpoint",
+        "E": "lower-left corner"
+      },
+      "correct_option": "B",
+      "correct_answer": "lower-right corner",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives lower-right corner.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "96fadacf-f709-4572-b20f-aafabc3aab1a"
+    },
+    {
+      "question_number": 3,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who sits immediately clockwise from Dev?",
+      "options": {
+        "A": "Bharat",
+        "B": "Asha",
+        "C": "Esha",
+        "D": "Charu",
+        "E": "Dev"
+      },
+      "correct_option": "C",
+      "correct_answer": "Esha",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Esha.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "763f7acd-d3f0-48c8-822b-f334530020f2"
+    },
+    {
+      "question_number": 4,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who sits immediately counterclockwise from Esha?",
+      "options": {
+        "A": "Charu",
+        "B": "Asha",
+        "C": "Bharat",
+        "D": "Dev",
+        "E": "Esha"
+      },
+      "correct_option": "D",
+      "correct_answer": "Dev",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Dev.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "aaa35f8c-44c1-48fa-81dc-0034d81c5b3e"
+    },
+    {
+      "question_number": 5,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. How many seat-steps clockwise from Bharat to Farah?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "E",
+      "correct_answer": "4",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "4a1755a2-9d9f-4a37-a4f0-d9beb47b1681"
+    },
+    {
+      "question_number": 6,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Which person is at the lower-left corner?",
+      "options": {
+        "A": "Esha",
+        "B": "Asha",
+        "C": "Bharat",
+        "D": "Charu",
+        "E": "Dev"
+      },
+      "correct_option": "A",
+      "correct_answer": "Esha",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Esha.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "f96847ec-2f19-435c-993e-3862d86281b2"
+    },
+    {
+      "question_number": 7,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who occupies the lower-right corner?",
+      "options": {
+        "A": "Gita",
+        "B": "Lokesh",
+        "C": "Hari",
+        "D": "Ira",
+        "E": "Jay"
+      },
+      "correct_option": "B",
+      "correct_answer": "Lokesh",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Lokesh.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "9516ea45-396b-4c69-9f3b-9a7461224bc8"
+    },
+    {
+      "question_number": 8,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Which marked seat is occupied by Kavya?",
+      "options": {
+        "A": "upper-right side",
+        "B": "apex",
+        "C": "base midpoint",
+        "D": "lower-right corner",
+        "E": "lower-left corner"
+      },
+      "correct_option": "C",
+      "correct_answer": "base midpoint",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives base midpoint.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0c9ae9a6-a27d-4ceb-9cb9-f917704dbe79"
+    },
+    {
+      "question_number": 9,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who sits immediately clockwise from Jay?",
+      "options": {
+        "A": "Jay",
+        "B": "Gita",
+        "C": "Hari",
+        "D": "Ira",
+        "E": "Kavya"
+      },
+      "correct_option": "D",
+      "correct_answer": "Ira",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Ira.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "24f3a04c-6662-4a10-abcb-00f3b51992c6"
+    },
+    {
+      "question_number": 10,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who sits immediately counterclockwise from Ira?",
+      "options": {
+        "A": "Kavya",
+        "B": "Gita",
+        "C": "Hari",
+        "D": "Ira",
+        "E": "Jay"
+      },
+      "correct_option": "E",
+      "correct_answer": "Jay",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Jay.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "d9a3753a-b231-4ea4-9985-ea50a7b51f1a"
+    },
+    {
+      "question_number": 11,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. How many seat-steps clockwise from Lokesh to Gita?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "5"
+      },
+      "correct_option": "A",
+      "correct_answer": "4",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "82d3c2c5-6d8a-4fd0-b533-b8ff8a65e6dd"
+    },
+    {
+      "question_number": 12,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Which person is at the upper-left side?",
+      "options": {
+        "A": "Gita",
+        "B": "Ira",
+        "C": "Hari",
+        "D": "Jay",
+        "E": "Kavya"
+      },
+      "correct_option": "B",
+      "correct_answer": "Ira",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Ira.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "ed2997e6-bb2c-4698-8ff2-3a478b0f3bc8"
+    },
+    {
+      "question_number": 13,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who occupies the base midpoint?",
+      "options": {
+        "A": "Nikhil",
+        "B": "Meera",
+        "C": "Sana",
+        "D": "Ojas",
+        "E": "Pooja"
+      },
+      "correct_option": "C",
+      "correct_answer": "Sana",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Sana.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0f1bc346-f298-4690-a2b8-6602ba537c10"
+    },
+    {
+      "question_number": 14,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Which marked seat is occupied by Nikhil?",
+      "options": {
+        "A": "lower-right corner",
+        "B": "apex",
+        "C": "upper-right side",
+        "D": "lower-left corner",
+        "E": "base midpoint"
+      },
+      "correct_option": "D",
+      "correct_answer": "lower-left corner",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives lower-left corner.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "c71308b0-379d-4390-ad4c-c2a7a85563d8"
+    },
+    {
+      "question_number": 15,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who sits immediately clockwise from Ojas?",
+      "options": {
+        "A": "Ravi",
+        "B": "Nikhil",
+        "C": "Ojas",
+        "D": "Pooja",
+        "E": "Meera"
+      },
+      "correct_option": "E",
+      "correct_answer": "Meera",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Meera.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "3fc506c7-8fcd-4dbc-9169-97c50de051d3"
+    },
+    {
+      "question_number": 16,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who sits immediately counterclockwise from Meera?",
+      "options": {
+        "A": "Ojas",
+        "B": "Meera",
+        "C": "Nikhil",
+        "D": "Pooja",
+        "E": "Ravi"
+      },
+      "correct_option": "A",
+      "correct_answer": "Ojas",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Ojas.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0d763ffb-3f57-4cf5-bbb0-b10a5bc15676"
+    },
+    {
+      "question_number": 17,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. How many seat-steps clockwise from Sana to Pooja?",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "2",
+        "D": "3",
+        "E": "5"
+      },
+      "correct_option": "B",
+      "correct_answer": "4",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "47963ddb-16ea-4c4d-a21d-a0df031cf27c"
+    },
+    {
+      "question_number": 18,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Which person is at the apex?",
+      "options": {
+        "A": "Ojas",
+        "B": "Nikhil",
+        "C": "Meera",
+        "D": "Pooja",
+        "E": "Ravi"
+      },
+      "correct_option": "C",
+      "correct_answer": "Meera",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Meera.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "25beb584-5516-4e3f-8a7d-6c47030d33bd"
+    },
+    {
+      "question_number": 19,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who occupies the lower-left corner?",
+      "options": {
+        "A": "Vani",
+        "B": "Tara",
+        "C": "Uday",
+        "D": "Yash",
+        "E": "Waseem"
+      },
+      "correct_option": "D",
+      "correct_answer": "Yash",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Yash.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0a115679-8009-431a-82e2-1e56f16aa877"
+    },
+    {
+      "question_number": 20,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Which marked seat is occupied by Xena?",
+      "options": {
+        "A": "base midpoint",
+        "B": "apex",
+        "C": "upper-right side",
+        "D": "lower-right corner",
+        "E": "upper-left side"
+      },
+      "correct_option": "E",
+      "correct_answer": "upper-left side",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives upper-left side.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "f5052580-d296-4762-ab1f-fb1b537f9196"
+    },
+    {
+      "question_number": 21,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who sits immediately clockwise from Tara?",
+      "options": {
+        "A": "Waseem",
+        "B": "Tara",
+        "C": "Uday",
+        "D": "Vani",
+        "E": "Xena"
+      },
+      "correct_option": "A",
+      "correct_answer": "Waseem",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Waseem.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "5922fe66-5e57-4b2d-8699-bb660fa51d3f"
+    },
+    {
+      "question_number": 22,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who sits immediately counterclockwise from Waseem?",
+      "options": {
+        "A": "Uday",
+        "B": "Tara",
+        "C": "Vani",
+        "D": "Waseem",
+        "E": "Xena"
+      },
+      "correct_option": "B",
+      "correct_answer": "Tara",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Tara.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "14d9ce6d-c471-4901-ae36-57fb0bbf3d35"
+    },
+    {
+      "question_number": 23,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. How many seat-steps clockwise from Yash to Vani?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "3",
+        "E": "5"
+      },
+      "correct_option": "C",
+      "correct_answer": "4",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "5c6d20c3-7952-4630-a2e9-1d91c092059c"
+    },
+    {
+      "question_number": 24,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Which person is at the upper-right side?",
+      "options": {
+        "A": "Vani",
+        "B": "Tara",
+        "C": "Uday",
+        "D": "Waseem",
+        "E": "Xena"
+      },
+      "correct_option": "D",
+      "correct_answer": "Waseem",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Waseem.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "53482fd5-90b4-434f-a5a4-789f31fe1971"
+    },
+    {
+      "question_number": 25,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who occupies the upper-left side?",
+      "options": {
+        "A": "Diya",
+        "B": "Anil",
+        "C": "Bela",
+        "D": "Chirag",
+        "E": "Evan"
+      },
+      "correct_option": "E",
+      "correct_answer": "Evan",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Evan.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "3d7eae09-e467-47d1-9ac5-f3cfd815c751"
+    },
+    {
+      "question_number": 26,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Which marked seat is occupied by Anil?",
+      "options": {
+        "A": "apex",
+        "B": "upper-right side",
+        "C": "lower-right corner",
+        "D": "base midpoint",
+        "E": "lower-left corner"
+      },
+      "correct_option": "A",
+      "correct_answer": "apex",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives apex.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "9de00338-25a1-487d-b81f-0214dec3556e"
+    },
+    {
+      "question_number": 27,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who sits immediately clockwise from Fiza?",
+      "options": {
+        "A": "Anil",
+        "B": "Bela",
+        "C": "Chirag",
+        "D": "Diya",
+        "E": "Evan"
+      },
+      "correct_option": "B",
+      "correct_answer": "Bela",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Bela.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "1aac72a7-3fce-4d33-b4b6-6bb4b95d7b3d"
+    },
+    {
+      "question_number": 28,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who sits immediately counterclockwise from Bela?",
+      "options": {
+        "A": "Bela",
+        "B": "Anil",
+        "C": "Fiza",
+        "D": "Chirag",
+        "E": "Diya"
+      },
+      "correct_option": "C",
+      "correct_answer": "Fiza",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Fiza.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "083a365c-a761-4c9c-8bad-54d267a97eee"
+    },
+    {
+      "question_number": 29,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. How many seat-steps clockwise from Evan to Chirag?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4",
+        "E": "5"
+      },
+      "correct_option": "D",
+      "correct_answer": "4",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "84574b43-0608-4223-b429-222a81ec86d9"
+    },
+    {
+      "question_number": 30,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Which person is at the lower-right corner?",
+      "options": {
+        "A": "Evan",
+        "B": "Anil",
+        "C": "Chirag",
+        "D": "Diya",
+        "E": "Bela"
+      },
+      "correct_option": "E",
+      "correct_answer": "Bela",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Bela.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "38829c00-0654-405a-a462-6c11df93d8c0"
+    },
+    {
+      "question_number": 31,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who occupies the apex?",
+      "options": {
+        "A": "Gaurav",
+        "B": "Hina",
+        "C": "Ishan",
+        "D": "Juhi",
+        "E": "Karan"
+      },
+      "correct_option": "A",
+      "correct_answer": "Gaurav",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Gaurav.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "5b8b91e2-71e2-4dfb-b45c-60bf3b491c0f"
+    },
+    {
+      "question_number": 32,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Which marked seat is occupied by Leela?",
+      "options": {
+        "A": "apex",
+        "B": "upper-right side",
+        "C": "lower-right corner",
+        "D": "base midpoint",
+        "E": "lower-left corner"
+      },
+      "correct_option": "B",
+      "correct_answer": "upper-right side",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives upper-right side.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "5d97f783-6132-4acf-8929-b11753caefd7"
+    },
+    {
+      "question_number": 33,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who sits immediately clockwise from Karan?",
+      "options": {
+        "A": "Hina",
+        "B": "Gaurav",
+        "C": "Juhi",
+        "D": "Ishan",
+        "E": "Karan"
+      },
+      "correct_option": "C",
+      "correct_answer": "Juhi",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Juhi.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "ad39a772-c641-41da-ae31-173b0b1f82a6"
+    },
+    {
+      "question_number": 34,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who sits immediately counterclockwise from Juhi?",
+      "options": {
+        "A": "Ishan",
+        "B": "Gaurav",
+        "C": "Hina",
+        "D": "Karan",
+        "E": "Juhi"
+      },
+      "correct_option": "D",
+      "correct_answer": "Karan",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Karan.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "ce26e684-f4fc-42cb-b890-6e5136260dfe"
+    },
+    {
+      "question_number": 35,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. How many seat-steps clockwise from Gaurav to Ishan?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "E",
+      "correct_answer": "4",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "afba7bc1-82a9-4b35-8d4f-bdc7b32fbe42"
+    },
+    {
+      "question_number": 36,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Which person is at the base midpoint?",
+      "options": {
+        "A": "Juhi",
+        "B": "Gaurav",
+        "C": "Hina",
+        "D": "Ishan",
+        "E": "Karan"
+      },
+      "correct_option": "A",
+      "correct_answer": "Juhi",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Juhi.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "51827258-f9ad-4f07-b35a-61b38c19f41a"
+    }
+  ],
+  "final_active_count": 40,
+  "final_inactive_count": 0
+}

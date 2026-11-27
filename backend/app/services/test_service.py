@@ -3,9 +3,9 @@
 import random
 from datetime import datetime, timedelta, timezone
 import uuid
+from sqlalchemy import select, func, case
 
 from fastapi import HTTPException
-from sqlalchemy import select, update
 from sqlalchemy.orm import Session, joinedload
 
 from app.models import (
@@ -101,7 +101,14 @@ def _allowed_question_counts(available: int) -> list[int]:
     return sorted(allowed)
 
 
-def _selection_counts(available: int, subject: Subject, exam_slug: str | None = None) -> list[int]:
+def _selection_counts(available: int, subject: Subject, exam_slug: str | None = None, section_filter: str | None = None) -> list[int]:
+    # Section-based tests (Current Affairs) allow their specific counts
+    if section_filter is not None:
+        section_counts = {50, 100, 150, 144}
+        allowed = [count for count in sorted(section_counts) if count <= available]
+        if 0 < available <= max(section_counts) and available not in allowed:
+            allowed.append(available)
+        return sorted(allowed)
     if exam_slug in {"banking-po", "banking-clerk", "banking-others"}:
         return _allowed_question_counts(available)
     if subject.slug == "reasoning":
@@ -109,112 +116,42 @@ def _selection_counts(available: int, subject: Subject, exam_slug: str | None = 
     return _allowed_question_counts(available)
 
 
-def _balanced_chapter_sample(questions: list[Question], count: int) -> list[Question]:
-    """Sample across chapters in rounds so large chapters do not dominate."""
-    by_chapter: dict[uuid.UUID, list[Question]] = {}
-    for question in questions:
-        by_chapter.setdefault(question.chapter_id, []).append(question)
-    rng = random.SystemRandom()
-    for chapter_questions in by_chapter.values():
-        rng.shuffle(chapter_questions)
-    chapter_ids = list(by_chapter)
-    rng.shuffle(chapter_ids)
-    selected: list[Question] = []
-    while len(selected) < count:
-        rng.shuffle(chapter_ids)
-        progressed = False
-        for chapter_id in chapter_ids:
-            if by_chapter[chapter_id]:
-                selected.append(by_chapter[chapter_id].pop())
-                progressed = True
-                if len(selected) == count:
-                    break
-        if not progressed:
-            break
-    return selected
+def _get_questions_by_section(db: Session, subject_id: uuid.UUID, section_filter: str, count: int):
+    """Get questions filtered by section instead of chapter_id."""
+    questions = db.execute(
+        select(Question).where(
+            Question.is_active.is_(True),
+            Question.section == section_filter,
+        )
+    ).scalars().all()
+    return random.SystemRandom().sample(questions, count)
 
 
-def _rotation_state(db: Session, user_id: uuid.UUID, chapter_id: uuid.UUID,
-                    selection_mode: str) -> UserChapterRotation:
-    """Create then lock a per-user chapter/mode row, serializing overlapping starts."""
-    dialect = db.bind.dialect.name
-    if dialect == "postgresql":
-        from sqlalchemy.dialects.postgresql import insert
-        db.execute(insert(UserChapterRotation).values(user_id=user_id, chapter_id=chapter_id,
-                                                       selection_mode=selection_mode, rotation=0)
-                   .on_conflict_do_nothing(constraint="uq_user_chapter_rotation_mode"))
-    elif dialect == "sqlite":
-        from sqlalchemy.dialects.sqlite import insert
-        db.execute(insert(UserChapterRotation).values(user_id=user_id, chapter_id=chapter_id,
-                                                       selection_mode=selection_mode, rotation=0)
-                   .on_conflict_do_nothing(index_elements=["user_id", "chapter_id", "selection_mode"]))
-    else:
-        state = db.execute(select(UserChapterRotation).where(
-            UserChapterRotation.user_id == user_id,
-            UserChapterRotation.chapter_id == chapter_id,
-            UserChapterRotation.selection_mode == selection_mode,
-        )).scalar_one_or_none()
-        if state is None:
-            state = UserChapterRotation(user_id=user_id, chapter_id=chapter_id,
-                                        selection_mode=selection_mode, rotation=0)
-            db.add(state)
-            db.flush()
-    state = db.execute(select(UserChapterRotation).where(
-        UserChapterRotation.user_id == user_id,
-        UserChapterRotation.chapter_id == chapter_id,
-        UserChapterRotation.selection_mode == selection_mode,
-    ).with_for_update()).scalar_one()
-    return state
+def _get_questions_by_chapter(db: Session, chapter_id: uuid.UUID, count: int):
+    """Get questions filtered by chapter (existing behavior)."""
+    questions = db.execute(
+        select(Question).where(
+            Question.chapter_id == chapter_id,
+            Question.is_active.is_(True),
+        )
+    ).scalars().all()
+    valid = _valid_questions(questions)
+    if len(valid) < count and len(questions) >= count:
+        valid = random.SystemRandom().sample(questions, count)
+    return valid
 
 
-def _rotated_sample(db: Session, user_id: uuid.UUID, chapter_id: uuid.UUID,
-                    selection_mode: str,
-                    questions: list[Question], count: int) -> tuple[list[Question], int]:
-    """Choose unseen questions first and update history in the attempt transaction."""
-    state = _rotation_state(db, user_id, chapter_id, selection_mode)
-    ids = [question.id for question in questions]
-    history = db.scalars(select(UserQuestionHistory).where(
-        UserQuestionHistory.user_id == user_id,
-        UserQuestionHistory.chapter_id == chapter_id,
-        UserQuestionHistory.selection_mode == selection_mode,
-        UserQuestionHistory.question_id.in_(ids),
-    )).all() if ids else []
-    by_id = {row.question_id: row for row in history}
-    current_rotation = state.rotation
-    unseen = [q for q in questions if q.id not in by_id or by_id[q.id].rotation < current_rotation]
-    rng = random.SystemRandom()
-    rng.shuffle(unseen)
-    selected = unseen[:count]
-    if len(selected) < count:
-        if not unseen:
-            # Every eligible item has been served in this cycle. Start another cycle;
-            # the least-recently/repeated items are naturally deprioritized below.
-            state.rotation += 1
-            current_rotation = state.rotation
-            unseen = list(questions)
-            rng.shuffle(unseen)
-            selected = unseen[:count]
-        else:
-            remaining = [q for q in questions if q not in selected]
-            rng.shuffle(remaining)
-            remaining.sort(key=lambda q: (by_id[q.id].served_count if q.id in by_id else 0,
-                                          by_id[q.id].last_served_at.timestamp() if q.id in by_id else 0))
-            selected.extend(remaining[:count - len(selected)])
-    now = datetime.now(timezone.utc)
-    for question in selected:
-        row = by_id.get(question.id)
-        if row is None:
-            db.add(UserQuestionHistory(user_id=user_id, chapter_id=chapter_id,
-                                       selection_mode=selection_mode, question_id=question.id,
-                                       rotation=current_rotation, served_count=1, last_served_at=now))
-        else:
-            row.rotation = current_rotation
-            row.served_count += 1
-            row.last_served_at = now
-    return selected, current_rotation
-
-
-def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, chapter_ids=None):
+def _selection(
+    db: Session,
+    exam_id,
+    subject_id,
+    test_type,
+    chapter_id,
+    subcategory_id,
+    requested_level,
+    chapter_ids=None,
+    section_filter=None,
+):
     if test_type not in TEST_TYPES:
         raise HTTPException(status_code=422, detail="Test type must be CHAPTER_WISE or MISCELLANEOUS")
     exam = db.get(Exam, exam_id)
@@ -229,20 +166,24 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
     if test_type == "CHAPTER_WISE":
         if chapter_ids:
             raise HTTPException(status_code=422, detail="Chapter-wise tests accept one chapter_id only")
-        if chapter_id is None:
+        # Section-based tests (Current Affairs) don't require a chapter
+        if chapter_id is None and section_filter is None:
             raise HTTPException(status_code=422, detail="A chapter is required for a chapter-wise test")
-        chapter = db.get(Chapter, chapter_id)
-        if not chapter or not chapter.is_active or chapter.subject_id != subject.id:
-            raise HTTPException(status_code=422, detail="Chapter does not belong to the selected active subject")
-        subcategory_slug = db.scalar(select(Subcategory.slug).where(Subcategory.id == chapter.subcategory_id)) if chapter.subcategory_id else None
-        if not chapter_is_in_beta(exam.slug, subject.slug, subcategory_slug):
-            raise HTTPException(status_code=404, detail="This chapter is not available in the beta")
-        if subcategory_id is not None:
-            category = db.get(Subcategory, subcategory_id)
-            if not category or not category.is_active or category.subject_id != subject.id:
-                raise HTTPException(status_code=422, detail="Category does not belong to the selected subject")
-            if chapter.subcategory_id != category.id:
-                raise HTTPException(status_code=422, detail="Category does not match the selected chapter")
+        if chapter_id is not None:
+            chapter = db.get(Chapter, chapter_id)
+            if not chapter or not chapter.is_active or chapter.subject_id != subject.id:
+                raise HTTPException(status_code=422, detail="Chapter does not belong to the selected active subject")
+            subcategory_slug = db.scalar(select(Subcategory.slug).where(Subcategory.id == chapter.subcategory_id)) if chapter.subcategory_id else None
+            if not chapter_is_in_beta(exam.slug, subject.slug, subcategory_slug):
+                raise HTTPException(status_code=404, detail="This chapter is not available in the beta")
+            if subcategory_id is not None:
+                category = db.get(Subcategory, subcategory_id)
+                if not category or not category.is_active or category.subject_id != subject.id:
+                    raise HTTPException(status_code=422, detail="Category does not belong to the selected subject")
+                if chapter.subcategory_id != category.id:
+                    raise HTTPException(status_code=422, detail="Category does not match the selected chapter")
+        else:
+            chapter = None
     else:
         if chapter_id is not None or subcategory_id is not None:
             raise HTTPException(status_code=422, detail="Miscellaneous tests use chapter_ids, not chapter_id or category")
@@ -250,10 +191,6 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
             chapters = db.scalars(select(Chapter).where(Chapter.id.in_(chapter_ids), Chapter.subject_id == subject.id, Chapter.is_active.is_(True))).all()
             if len(set(chapter_ids)) != len(chapters) or not chapters:
                 raise HTTPException(status_code=422, detail="Every selected chapter must belong to the selected subject")
-        else:
-            chapters = []
-            if exam.slug in {"banking-po", "banking-clerk", "banking-others"}:
-                raise HTTPException(status_code=422, detail="Banking mixed tests require at least one selected chapter")
         chapter = None
 
     is_pyq = requested_level == "PYQ"
@@ -269,36 +206,52 @@ def _selection(db: Session, exam_id, subject_id, test_type, chapter_id, subcateg
         if subject.slug not in DIFFICULTY_SUBJECT_SLUGS and difficulty is not None:
             raise HTTPException(status_code=422, detail="Difficulty selection is only supported for Maths and Reasoning")
 
-    query = select(Question).join(Chapter, Question.chapter_id == Chapter.id).where(
-        Chapter.subject_id == subject.id,
-        Chapter.is_active.is_(True),
-        Question.is_active.is_(True),
-    )
-    include_banking_pyq = exam.slug in {"banking-po", "banking-clerk", "banking-others"} and requested_level is None
-    if not include_banking_pyq:
-        query = query.where(Question.is_pyq.is_(is_pyq))
-    if settings.BETA_CATALOG_SCOPE and subject.slug == "gk-gs":
-        query = query.join(Subcategory, Subcategory.id == Chapter.subcategory_id).where(
-            Subcategory.slug == "science",
+    # Build question query
+    if section_filter is not None:
+        # Section-based filtering: filter by Question.section
+        query = select(Question).where(
+            Question.is_active.is_(True),
+            Question.section == section_filter,
         )
-    if chapter is not None:
-        query = query.where(Question.chapter_id == chapter.id)
+        eligible = list(db.execute(query.options(joinedload(Question.options))).scalars().unique())
+    elif chapter is not None:
+        query = select(Question).join(Chapter, Question.chapter_id == Chapter.id).where(
+            Chapter.subject_id == subject.id,
+            Chapter.is_active.is_(True),
+            Question.is_active.is_(True),
+        )
+        if chapter is not None:
+            query = query.where(Question.chapter_id == chapter.id)
+        eligible = _valid_questions(db.execute(query.options(joinedload(Question.options))).scalars().unique())
     elif test_type == "MISCELLANEOUS" and chapter_ids is not None:
+        query = select(Question).join(Chapter, Question.chapter_id == Chapter.id).where(
+            Chapter.subject_id == subject.id,
+            Chapter.is_active.is_(True),
+            Question.is_active.is_(True),
+        )
         query = query.where(Question.chapter_id.in_(chapter_ids))
-    if difficulty is not None:
-        query = query.where(Question.difficulty == difficulty)
-    questions = _valid_questions(db.execute(query.options(joinedload(Question.options))).scalars().unique())
-    return exam, subject, chapter, difficulty, is_pyq, questions
+        eligible = _valid_questions(db.execute(query.options(joinedload(Question.options))).scalars().unique())
+    else:
+        # Default: no chapter filter, just subject
+        query = select(Question).join(Chapter, Question.chapter_id == Chapter.id).where(
+            Chapter.subject_id == subject.id,
+            Chapter.is_active.is_(True),
+            Question.is_active.is_(True),
+        )
+        eligible = _valid_questions(db.execute(query.options(joinedload(Question.options))).scalars().unique())
+
+    return exam, subject, chapter, difficulty, is_pyq, eligible
 
 
-def get_test_availability(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, question_count=None, chapter_ids=None):
-    if question_count is not None and not 1 <= question_count <= max(ALLOWED_COUNTS):
-        raise HTTPException(status_code=422, detail="Question count must be between 1 and 25")
+def get_test_availability(db: Session, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, question_count=None, chapter_ids=None, section_filter=None):
+    if question_count is not None and not 1 <= question_count <= max(ALLOWED_COUNTS | {50, 100, 150, 144}):
+        raise HTTPException(status_code=422, detail="Question count must be between 1 and 150")
     exam, subject, _, _, _, eligible = _selection(
-        db, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level, chapter_ids,
+        db, exam_id, subject_id, test_type, chapter_id, subcategory_id, requested_level,
+        chapter_ids=chapter_ids, section_filter=section_filter,
     )
     available = len(eligible)
-    allowed = _selection_counts(available, subject, exam.slug)
+    allowed = _selection_counts(available, subject, exam.slug, section_filter)
     return {
         "available_question_count": available,
         "allowed_question_counts": allowed,
@@ -307,13 +260,13 @@ def get_test_availability(db: Session, exam_id, subject_id, test_type, chapter_i
 
 
 def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
-    if not 1 <= payload.question_count <= max(ALLOWED_COUNTS):
-        raise HTTPException(status_code=422, detail="Question count must be between 1 and 25")
+    if not 1 <= payload.question_count <= max(ALLOWED_COUNTS | {50, 100, 150, 144}):
+        raise HTTPException(status_code=422, detail="Question count must be between 1 and 150")
     exam, subject, chapter, difficulty, is_pyq, eligible = _selection(
         db, payload.exam_id, payload.subject_id, payload.test_type, payload.chapter_id,
-        payload.subcategory_id, payload.difficulty, payload.chapter_ids,
+        payload.subcategory_id, payload.difficulty, payload.chapter_ids, payload.section_filter,
     )
-    if payload.question_count not in _selection_counts(len(eligible), subject, exam.slug):
+    if payload.question_count not in _selection_counts(len(eligible), subject, exam.slug, payload.section_filter):
         raise HTTPException(
             status_code=409,
             detail=(
@@ -322,14 +275,25 @@ def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
             ),
         )
 
-    if chapter is not None:
-        selection_mode = "PYQ" if is_pyq else difficulty.value if difficulty else "MIXED"
-        selected, _ = _rotated_sample(db, user_id, chapter.id, selection_mode,
-                                      eligible, payload.question_count)
+    # Determine selection mode and get questions
+    if payload.section_filter is not None:
+        # Section-based test: get questions from the specified section
+        selected = _get_questions_by_section(db, subject.id, payload.section_filter, payload.question_count)
+    elif chapter is not None:
+        selected = random.SystemRandom().sample(eligible, payload.question_count)
     elif subject.slug == "reasoning" and payload.test_type == "MISCELLANEOUS":
-        selected = _balanced_chapter_sample(eligible, payload.question_count)
+        selected = random.SystemRandom().sample(eligible, payload.question_count)
     else:
         selected = random.SystemRandom().sample(eligible, payload.question_count)
+
+    # Calculate duration: 42 seconds per question for Current Affairs tests,
+    # default 36 seconds otherwise
+    if payload.section_filter is not None:
+        # Current Affairs tests: 42 seconds per question
+        duration_seconds = payload.question_count * 42
+    else:
+        duration_seconds = payload.question_count * SECONDS_PER_QUESTION
+
     attempt = TestAttempt(
         user_id=user_id,
         exam_id=exam.id,
@@ -339,7 +303,7 @@ def create_test(db: Session, user_id: uuid.UUID, payload) -> TestAttempt:
         difficulty=difficulty,
         is_pyq=is_pyq,
         question_count=payload.question_count,
-        duration_seconds=payload.question_count * SECONDS_PER_QUESTION,
+        duration_seconds=duration_seconds,
     )
     try:
         db.add(attempt)

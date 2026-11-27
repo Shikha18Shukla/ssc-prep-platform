@@ -1,0 +1,706 @@
+{
+  "chapter": "Tabular Puzzles",
+  "chapter_id": "f00ab2eb-5830-4425-8dc9-c2b3efe96863",
+  "chapter_slug": "tabular-puzzles",
+  "database": "local ssc_prep at 127.0.0.1:5432",
+  "starting_active_count": 19,
+  "starting_inactive_count": 0,
+  "final_active_count": 40,
+  "final_inactive_count": 0,
+  "source_appearance_count": 33,
+  "source_distinct_prompt_count": 33,
+  "source_duplicate_appearances": 0,
+  "source_questions_previously_imported_or_verified": 10,
+  "held_count": 19,
+  "wrong_chapter_count": 0,
+  "non_mcq_count": 0,
+  "source_ledger": "tabular_puzzles_01_03_batch1_answer_ledger.json",
+  "source_entries": [
+    {
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 4, Q1; brand table",
+      "question_prompt": "Seven colleges J, K, L, M, N, O and P use Dell, Lenovo and HP systems; at least two colleges use each brand. K uses HP; M uses Lenovo; L uses Dell. N uses the same brand as P. Neither O nor N uses Dell. P does not use the same brand as M. Which brand does O use?",
+      "classification": "verified_import_candidate",
+      "correct_option": "C",
+      "answer": "Lenovo",
+      "independent_reasoning": "N and P share a non-Dell brand, and P cannot use Lenovo because M does. Thus N and P are HP. With K also HP, and L already Dell, the remaining groups are Dell {L,J}, Lenovo {M,O}, HP {K,N,P}; O uses Lenovo.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Seven colleges J, K, L, M, N, O and P use Dell, Lenovo and HP systems; at least two colleges use each brand. K uses HP; M uses Lenovo; L uses Dell. N uses the same brand as P. Neither O nor N uses Dell. P does not use the same brand as M. Which brand does O use?",
+      "options": {
+        "A": "HP",
+        "B": "Dell",
+        "C": "Lenovo",
+        "D": "Cannot be determined",
+        "E": "None of these"
+      },
+      "explanation": "N and P share a non-Dell brand, and P cannot use Lenovo because M does. Thus N and P are HP. With K also HP, and L already Dell, the remaining groups are Dell {L,J}, Lenovo {M,O}, HP {K,N,P}; O uses Lenovo.",
+      "source_correct_option": "C"
+    },
+    {
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 7, Q2; course table",
+      "question_prompt": "Nine persons L, M, N, O, P, Q, R, S and T study Marketing, Accounting and Architecture. Each course has two to four students. L studies with N, who studies neither Architecture nor Marketing. M and N study different courses. Q studies with neither L nor M. Marketing has one more student than Architecture. T studies with only one other person. O and S study the same course, but not with L. Q does not study with T. Who among the following studies Marketing?",
+      "classification": "verified_import_candidate",
+      "correct_option": "D",
+      "answer": "The one who studies with O",
+      "independent_reasoning": "The course-size and clue constraints force course sizes Accounting=4, Marketing=3 and Architecture=2. L,N are Accounting; O,S are Marketing; T and M are Architecture; Q must be Marketing. Thus O’s study partners Q and S are in Marketing, making option D the only true choice among the listed descriptions.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Nine persons L, M, N, O, P, Q, R, S and T study Marketing, Accounting and Architecture. Each course has two to four students. L studies with N, who studies neither Architecture nor Marketing. M and N study different courses. Q studies with neither L nor M. Marketing has one more student than Architecture. T studies with only one other person. O and S study the same course, but not with L. Q does not study with T. Who among the following studies Marketing?",
+      "options": {
+        "A": "M",
+        "B": "The one who studies with P",
+        "C": "T",
+        "D": "The one who studies with O",
+        "E": "N"
+      },
+      "explanation": "The course-size and clue constraints force course sizes Accounting=4, Marketing=3 and Architecture=2. L,N are Accounting; O,S are Marketing; T and M are Architecture; Q must be Marketing. Thus O’s study partners Q and S are in Marketing, making option D the only true choice among the listed descriptions.",
+      "source_correct_option": "D"
+    },
+    {
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 12, Q3; exam table",
+      "question_prompt": "Nine persons A-I applied for TNPSC, Railways and IBPS; each exam has two to four applicants. B and D applied for different exams, neither IBPS. A and F applied for the same exam. F applied for neither TNPSC nor Railways. The TNPSC count is one fewer than IBPS. H is in an exam group with only one other person and is not in Railways. E and I applied for the same exam. C and E applied for different exams. I and D applied for different exams. Who applied for IBPS?",
+      "classification": "verified_import_candidate",
+      "correct_option": "E",
+      "answer": "A and C",
+      "independent_reasoning": "The unique assignment has IBPS {A,C,F}, TNPSC {D,H} and Railways {B,E,G,I}. Among the options only A and C are both IBPS applicants.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Nine persons A-I applied for TNPSC, Railways and IBPS; each exam has two to four applicants. B and D applied for different exams, neither IBPS. A and F applied for the same exam. F applied for neither TNPSC nor Railways. The TNPSC count is one fewer than IBPS. H is in an exam group with only one other person and is not in Railways. E and I applied for the same exam. C and E applied for different exams. I and D applied for different exams. Who applied for IBPS?",
+      "options": {
+        "A": "E and H",
+        "B": "G and A",
+        "C": "I and B",
+        "D": "D and F",
+        "E": "A and C"
+      },
+      "explanation": "The unique assignment has IBPS {A,C,F}, TNPSC {D,H} and Railways {B,E,G,I}. Among the options only A and C are both IBPS applicants.",
+      "source_correct_option": "E"
+    },
+    {
+      "source": "Tabular Puzzles 01 _ Class Notes.pdf, physical p. 15, Q4; ring table",
+      "question_prompt": "Nine persons A-I wear Gold, Platinum or Diamond rings. D wears Diamond; C wears a different type from D. Only B shares H’s ring type. A and G share a type; neither D nor E shares A’s type. Exactly three people wear Diamond. F wears neither Gold nor Diamond. Who wears a Platinum ring?",
+      "classification": "verified_import_candidate",
+      "correct_option": "E",
+      "answer": "Both (b) and (c)",
+      "independent_reasoning": "The unique ring groups are Gold {B,H}, Platinum {A,C,F,G} and Diamond {D,E,I}. F and the people sharing A’s type are Platinum, so both (b) and (c) are correct.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Nine persons A-I wear Gold, Platinum or Diamond rings. D wears Diamond; C wears a different type from D. Only B shares H’s ring type. A and G share a type; neither D nor E shares A’s type. Exactly three people wear Diamond. F wears neither Gold nor Diamond. Who wears a Platinum ring?",
+      "options": {
+        "A": "The person sharing B’s ring type",
+        "B": "F",
+        "C": "The person sharing A’s ring type",
+        "D": "Both (a) and (b)",
+        "E": "Both (b) and (c)"
+      },
+      "explanation": "The unique ring groups are Gold {B,H}, Platinum {A,C,F,G} and Diamond {D,E,I}. F and the people sharing A’s type are Platinum, so both (b) and (c) are correct.",
+      "source_correct_option": "E"
+    },
+    {
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical pp. 4-6, Q1; wages table",
+      "question_prompt": "Nine persons A-I receive distinct consecutive multiples of 50, all above 200 and below 700. I earns 350 more than B. Equal numbers of people earn more and less than G. H earns immediately less than I and 200 more than A. H’s wage equals B plus D; D earns 100 less than F. E earns more than C. Who earns the highest wage?",
+      "classification": "verified_import_candidate",
+      "correct_option": "C",
+      "answer": "E",
+      "independent_reasoning": "Enumeration over the nine consecutive wages yields A350, B250, C500, D300, E650, F400, G450, H550 and I600. E has the highest wage, 650.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Nine persons A-I receive distinct consecutive multiples of 50, all above 200 and below 700. I earns 350 more than B. Equal numbers of people earn more and less than G. H earns immediately less than I and 200 more than A. H’s wage equals B plus D; D earns 100 less than F. E earns more than C. Who earns the highest wage?",
+      "options": {
+        "A": "C",
+        "B": "The person immediately above F",
+        "C": "E",
+        "D": "The person earning 250 more than I",
+        "E": "None of these"
+      },
+      "explanation": "Enumeration over the nine consecutive wages yields A350, B250, C500, D300, E650, F400, G450, H550 and I600. E has the highest wage, 650.",
+      "source_correct_option": "C"
+    },
+    {
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical pp. 7-8, Q2; university-brand table",
+      "question_prompt": "Five students Q, O, N, I and H study at JNU, BHU, LNMU, AU and DU, and like Puma, Reebok, Nike, Sparx and Adidas, each once. H likes Adidas and is not at BHU. Q studies at DU and likes neither Puma nor Nike. N likes Reebok and is neither at BHU nor AU. O likes Nike. I is neither at JNU nor BHU. The LNMU student likes Puma. Which brand does Q like?",
+      "classification": "verified_import_candidate",
+      "correct_option": "B",
+      "answer": "Sparx",
+      "independent_reasoning": "N must be at JNU; I is then at LNMU and likes Puma. H is at AU with Adidas; O is at BHU with Nike. Q therefore likes Sparx, option B.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Five students Q, O, N, I and H study at JNU, BHU, LNMU, AU and DU, and like Puma, Reebok, Nike, Sparx and Adidas, each once. H likes Adidas and is not at BHU. Q studies at DU and likes neither Puma nor Nike. N likes Reebok and is neither at BHU nor AU. O likes Nike. I is neither at JNU nor BHU. The LNMU student likes Puma. Which brand does Q like?",
+      "options": {
+        "A": "Reebok",
+        "B": "Sparx",
+        "C": "Adidas",
+        "D": "Cannot be determined",
+        "E": "None of these"
+      },
+      "explanation": "N must be at JNU; I is then at LNMU and likes Puma. H is at AU with Adidas; O is at BHU with Nike. Q therefore likes Sparx, option B.",
+      "source_correct_option": "B"
+    },
+    {
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical p. 10, Q3; city/movie table",
+      "question_prompt": "P, Q, R, S, T, U and V watch different movies Pokemon, Ad Astra, Toy Story, Aladdin, Frozen 2, Wonder Women and Rocketman in different cities Nasik, Agra, Bhopal, Rajkot, Jaipur, Pune and Surat. T is in Bhopal; U watches Toy Story; P is neither in Rajkot nor Nasik; T watches Aladdin; either S or V is in Agra; S and U are not in Nasik; P and V watch Pokemon and Ad Astra respectively; Q does not watch Rocketman; the Pune viewer watches neither Pokemon nor Toy Story; S and V are not in Pune; Frozen 2 is watched in Jaipur; neither Q nor S watches Frozen 2. Which pair does not belong?",
+      "classification": "verified_import_candidate",
+      "correct_option": "E",
+      "answer": "V–Jaipur",
+      "independent_reasoning": "There are 12 valid arrangements, but the answer is invariant: V is never in Jaipur. Each of the first four listed pairs occurs in at least one valid arrangement, so only V–Jaipur is always the odd pair.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "P, Q, R, S, T, U and V watch different movies Pokemon, Ad Astra, Toy Story, Aladdin, Frozen 2, Wonder Women and Rocketman in different cities Nasik, Agra, Bhopal, Rajkot, Jaipur, Pune and Surat. T is in Bhopal; U watches Toy Story; P is neither in Rajkot nor Nasik; T watches Aladdin; either S or V is in Agra; S and U are not in Nasik; P and V watch Pokemon and Ad Astra respectively; Q does not watch Rocketman; the Pune viewer watches neither Pokemon nor Toy Story; S and V are not in Pune; Frozen 2 is watched in Jaipur; neither Q nor S watches Frozen 2. Which pair does not belong?",
+      "options": {
+        "A": "P–Surat",
+        "B": "Q–Pune",
+        "C": "U–Rajkot",
+        "D": "S–Agra",
+        "E": "V–Jaipur"
+      },
+      "explanation": "There are 12 valid arrangements, but the answer is invariant: V is never in Jaipur. Each of the first four listed pairs occurs in at least one valid arrangement, so only V–Jaipur is always the odd pair.",
+      "source_correct_option": "E"
+    },
+    {
+      "source": "Tabular Puzzles 02  Class Notes.pdf, physical p. 14, Q4; city/monument table",
+      "question_prompt": "Seven persons A-G like distinct places Jama Masjid, Qutub Minar, Akshardham, Red Fort, Lotus Temple, India Gate and Jantar Mantar and belong to Delhi, Lucknow, Surat, Chennai, Shimla, Kanpur and Indore. C is from Indore but does not like Lotus Temple. The Kanpur person likes Jantar Mantar. B is from Lucknow and likes India Gate. G likes Akshardham but is not from Shimla. Neither A nor G is from Chennai. The Surat person likes Jama Masjid. E likes Qutub Minar. F likes neither Jama Masjid nor Jantar Mantar. The Lotus Temple person is not from Shimla. D is not from Surat. What place does the person from Chennai like?",
+      "classification": "verified_import_candidate",
+      "correct_option": "C",
+      "answer": "Lotus Temple",
+      "independent_reasoning": "The unique assignment is A Surat–Jama Masjid, B Lucknow–India Gate, C Indore–Red Fort, D Kanpur–Jantar Mantar, E Shimla–Qutub Minar, F Chennai–Lotus Temple and G Delhi–Akshardham. The Chennai person therefore likes Lotus Temple, option C.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Seven persons A-G like distinct places Jama Masjid, Qutub Minar, Akshardham, Red Fort, Lotus Temple, India Gate and Jantar Mantar and belong to Delhi, Lucknow, Surat, Chennai, Shimla, Kanpur and Indore. C is from Indore but does not like Lotus Temple. The Kanpur person likes Jantar Mantar. B is from Lucknow and likes India Gate. G likes Akshardham but is not from Shimla. Neither A nor G is from Chennai. The Surat person likes Jama Masjid. E likes Qutub Minar. F likes neither Jama Masjid nor Jantar Mantar. The Lotus Temple person is not from Shimla. D is not from Surat. What place does the person from Chennai like?",
+      "options": {
+        "A": "Qutub Minar",
+        "B": "Red Fort",
+        "C": "Lotus Temple",
+        "D": "Akshardham",
+        "E": "None of these"
+      },
+      "explanation": "The unique assignment is A Surat–Jama Masjid, B Lucknow–India Gate, C Indore–Red Fort, D Kanpur–Jantar Mantar, E Shimla–Qutub Minar, F Chennai–Lotus Temple and G Delhi–Akshardham. The Chennai person therefore likes Lotus Temple, option C.",
+      "source_correct_option": "C"
+    },
+    {
+      "source": "Tabular Puzzles 03  Class Notes.pdf, physical p. 4, Q1; shirt/car table",
+      "question_prompt": "Seven persons A-G bought distinct shirts Allen Solly, Levis, Tommy Hilfiger, Parx, Raymond, Ajio and Peter England, and cars Honda, Suzuki, Ford, Jaguar, Fiat, Acura and Hyundai. E bought Parx; C has Acura. The Ford owner bought Tommy Hilfiger. Neither B nor G has Ford. Either G or B bought Levis. The Peter England buyer has Hyundai. Neither F nor G has Hyundai. Neither D nor A bought Peter England. The Levis buyer has neither Jaguar nor Honda. The Acura buyer did not buy Raymond. The Honda buyer has neither Raymond nor Parx. F does not have Honda. Neither E nor F has Fiat. Which combination is true?",
+      "classification": "verified_import_candidate",
+      "correct_option": "D",
+      "answer": "Levis–Suzuki",
+      "independent_reasoning": "There are four valid assignments; in each, the Levis wearer has Suzuki. The other listed combinations are false in the verified solution set, making D invariant.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Seven persons A-G bought distinct shirts Allen Solly, Levis, Tommy Hilfiger, Parx, Raymond, Ajio and Peter England, and cars Honda, Suzuki, Ford, Jaguar, Fiat, Acura and Hyundai. E bought Parx; C has Acura. The Ford owner bought Tommy Hilfiger. Neither B nor G has Ford. Either G or B bought Levis. The Peter England buyer has Hyundai. Neither F nor G has Hyundai. Neither D nor A bought Peter England. The Levis buyer has neither Jaguar nor Honda. The Acura buyer did not buy Raymond. The Honda buyer has neither Raymond nor Parx. F does not have Honda. Neither E nor F has Fiat. Which combination is true?",
+      "options": {
+        "A": "B–Honda",
+        "B": "Ajio–Fiat",
+        "C": "Allen Solly–Hyundai",
+        "D": "Levis–Suzuki",
+        "E": "E–Acura"
+      },
+      "explanation": "There are four valid assignments; in each, the Levis wearer has Suzuki. The other listed combinations are false in the verified solution set, making D invariant.",
+      "source_correct_option": "D"
+    },
+    {
+      "source": "Tabular Puzzles 03  Class Notes.pdf, physical p. 8, Q2; fruit/weight table",
+      "question_prompt": "Seven persons P, Q, R, S, T, U and V buy distinct fruits Mango, Plum, Kiwi, Fig, Apricot, Papaya and Peach at distinct weights 2-8 kg. Q buys Papaya weighing 6 kg; U’s fruit weighs 7 kg. Either T or R buys Plum. R’s fruit weighs twice Peach’s weight. Apricot is lightest. R and S have even weights. Kiwi is heavier than Fig. Neither S nor T buys Apricot. Mango weighs one kg more than Apricot. V buys neither Mango nor Peach. Plum weighs less than Kiwi. Who buys Peach?",
+      "classification": "verified_import_candidate",
+      "correct_option": "C",
+      "answer": "S",
+      "independent_reasoning": "The unique table is P Mango/3 kg, Q Papaya/6 kg, R Kiwi/8 kg, S Peach/4 kg, T Plum/5 kg, U Fig/7 kg and V Apricot/2 kg. S buys Peach.",
+      "source_key": "Compared after independent solving; no unresolved key conflict for these selected records.",
+      "question_text": "Seven persons P, Q, R, S, T, U and V buy distinct fruits Mango, Plum, Kiwi, Fig, Apricot, Papaya and Peach at distinct weights 2-8 kg. Q buys Papaya weighing 6 kg; U’s fruit weighs 7 kg. Either T or R buys Plum. R’s fruit weighs twice Peach’s weight. Apricot is lightest. R and S have even weights. Kiwi is heavier than Fig. Neither S nor T buys Apricot. Mango weighs one kg more than Apricot. V buys neither Mango nor Peach. Plum weighs less than Kiwi. Who buys Peach?",
+      "options": {
+        "A": "P",
+        "B": "R",
+        "C": "S",
+        "D": "T",
+        "E": "V"
+      },
+      "explanation": "The unique table is P Mango/3 kg, Q Papaya/6 kg, R Kiwi/8 kg, S Peach/4 kg, T Plum/5 kg, U Fig/7 kg and V Apricot/2 kg. S buys Peach.",
+      "source_correct_option": "C"
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, Q1",
+      "classification": "verified_imported_existing",
+      "reason": "Previously verified/imported; preserved, not re-imported."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, Q2",
+      "classification": "verified_imported_existing",
+      "reason": "Previously verified/imported; preserved, not re-imported."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, Q3",
+      "classification": "verified_imported_existing",
+      "reason": "Previously verified/imported; preserved, not re-imported."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, Q4",
+      "classification": "verified_imported_existing",
+      "reason": "Previously verified/imported; preserved, not re-imported."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q5",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q6",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q7",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q8",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q9",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q10",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q11",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q12",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q13",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q14",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q15",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q16",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q17",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q18",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q19",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q20",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q21",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q22",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    },
+    {
+      "source": "20 TABULAR PUZZLE by Arpit sir.pdf, physical page(s) as documented in tabular_puzzles_arpit_review_report.md, Q23",
+      "classification": "held_for_review",
+      "reason": "Clue-only entry without an individual MCQ prompt and option list; no question/options invented."
+    }
+  ],
+  "original_practice_count": 21,
+  "original_practice_entries": [
+    {
+      "question_number": 1,
+      "classification": "verified_original_practice_imported",
+      "database_id": "83ddbe16-e67d-474d-a290-2906792b2ee7",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. On which weekday is Bilal assigned?",
+      "options": {
+        "A": "Thursday",
+        "B": "Monday",
+        "C": "Tuesday",
+        "D": "Wednesday",
+        "E": "Friday"
+      },
+      "correct_option": "A",
+      "correct_answer": "Thursday",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Thursday.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 2,
+      "classification": "verified_original_practice_imported",
+      "database_id": "e842462e-63fe-4be6-9166-01074d00af75",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Who is assigned to Wednesday?",
+      "options": {
+        "A": "Asha",
+        "B": "Esha",
+        "C": "Bilal",
+        "D": "Charu",
+        "E": "Dev"
+      },
+      "correct_option": "B",
+      "correct_answer": "Esha",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Esha.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 3,
+      "classification": "verified_original_practice_imported",
+      "database_id": "a296caf1-9c12-4f9f-a4de-e858aadb0f1e",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. How many daily requests handled does Dev handle?",
+      "options": {
+        "A": "25",
+        "B": "12",
+        "C": "18",
+        "D": "31",
+        "E": "40"
+      },
+      "correct_option": "C",
+      "correct_answer": "18",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is 18.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 4,
+      "classification": "verified_original_practice_imported",
+      "database_id": "4f774467-46be-4ff7-9267-bf776439bd0e",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Who handles 40 daily requests handled?",
+      "options": {
+        "A": "Dev",
+        "B": "Asha",
+        "C": "Bilal",
+        "D": "Charu",
+        "E": "Esha"
+      },
+      "correct_option": "D",
+      "correct_answer": "Charu",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Charu.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 5,
+      "classification": "verified_original_practice_imported",
+      "database_id": "24f07eaf-c22a-41be-a729-84323393197a",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. How many weekdays apart are Bilal and Esha assigned?",
+      "options": {
+        "A": "4",
+        "B": "0",
+        "C": "2",
+        "D": "3",
+        "E": "1"
+      },
+      "correct_option": "E",
+      "correct_answer": "1",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is 1.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 6,
+      "classification": "verified_original_practice_imported",
+      "database_id": "a358f030-7ed4-470b-9337-8fd2e961b28b",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Which clerk has the highest daily requests handled?",
+      "options": {
+        "A": "Charu",
+        "B": "Asha",
+        "C": "Bilal",
+        "D": "Dev",
+        "E": "Esha"
+      },
+      "correct_option": "A",
+      "correct_answer": "Charu",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Charu.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 7,
+      "classification": "verified_original_practice_imported",
+      "database_id": "5fa27dc4-be88-48fd-ab06-728207eed1b2",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Which table entry is correct?",
+      "options": {
+        "A": "Asha — Tuesday — 12",
+        "B": "Charu — Monday — 40",
+        "C": "Bilal — Thursday — 25",
+        "D": "Dev — Friday — 18",
+        "E": "Esha — Wednesday — 31"
+      },
+      "correct_option": "B",
+      "correct_answer": "Charu — Monday — 40",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Charu — Monday — 40.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 8,
+      "classification": "verified_original_practice_imported",
+      "database_id": "46ba1d79-c7e1-435b-a953-fbbcf99713d1",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. On which weekday is Hina assigned?",
+      "options": {
+        "A": "Tuesday",
+        "B": "Monday",
+        "C": "Thursday",
+        "D": "Wednesday",
+        "E": "Friday"
+      },
+      "correct_option": "C",
+      "correct_answer": "Thursday",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Thursday.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 9,
+      "classification": "verified_original_practice_imported",
+      "database_id": "294e3cee-0458-4896-a796-04ee2277df98",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Who is assigned to Thursday?",
+      "options": {
+        "A": "Irfan",
+        "B": "Farah",
+        "C": "Gopal",
+        "D": "Hina",
+        "E": "Jaya"
+      },
+      "correct_option": "D",
+      "correct_answer": "Hina",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Hina.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 10,
+      "classification": "verified_original_practice_imported",
+      "database_id": "70cba7ce-4d3a-4430-a1ee-e246f8a2dbbf",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. How many loan files reviewed does Jaya handle?",
+      "options": {
+        "A": "36",
+        "B": "15",
+        "C": "21",
+        "D": "28",
+        "E": "45"
+      },
+      "correct_option": "E",
+      "correct_answer": "45",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is 45.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 11,
+      "classification": "verified_original_practice_imported",
+      "database_id": "4e917c4d-0931-4985-b41f-a2fd2db44e88",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Who handles 15 loan files reviewed?",
+      "options": {
+        "A": "Hina",
+        "B": "Farah",
+        "C": "Gopal",
+        "D": "Irfan",
+        "E": "Jaya"
+      },
+      "correct_option": "A",
+      "correct_answer": "Hina",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Hina.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 12,
+      "classification": "verified_original_practice_imported",
+      "database_id": "44e45b81-88ea-4f5a-97f1-29ca933bb21c",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. How many weekdays apart are Hina and Farah assigned?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "B",
+      "correct_answer": "1",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is 1.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 13,
+      "classification": "verified_original_practice_imported",
+      "database_id": "6aa489de-06dd-44b3-8bdf-0bd6e53483f4",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Which clerk has the highest loan files reviewed?",
+      "options": {
+        "A": "Gopal",
+        "B": "Farah",
+        "C": "Jaya",
+        "D": "Hina",
+        "E": "Irfan"
+      },
+      "correct_option": "C",
+      "correct_answer": "Jaya",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Jaya.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 14,
+      "classification": "verified_original_practice_imported",
+      "database_id": "0bbee6cc-6edc-4697-a9a7-991a55568803",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Which table entry is correct?",
+      "options": {
+        "A": "Jaya — Wednesday — 45",
+        "B": "Gopal — Monday — 36",
+        "C": "Hina — Thursday — 15",
+        "D": "Irfan — Tuesday — 28",
+        "E": "Farah — Friday — 21"
+      },
+      "correct_option": "D",
+      "correct_answer": "Irfan — Tuesday — 28",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Irfan — Tuesday — 28.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 15,
+      "classification": "verified_original_practice_imported",
+      "database_id": "46b79921-f3e0-4a7d-b8bf-5307b74c2142",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. On which weekday is Nisha assigned?",
+      "options": {
+        "A": "Friday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday",
+        "E": "Monday"
+      },
+      "correct_option": "E",
+      "correct_answer": "Monday",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Monday.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 16,
+      "classification": "verified_original_practice_imported",
+      "database_id": "cc725916-5995-4469-9803-f094913830e0",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Who is assigned to Friday?",
+      "options": {
+        "A": "Lata",
+        "B": "Karan",
+        "C": "Manav",
+        "D": "Nisha",
+        "E": "Omar"
+      },
+      "correct_option": "A",
+      "correct_answer": "Lata",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Lata.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 17,
+      "classification": "verified_original_practice_imported",
+      "database_id": "548ad680-abd6-4c14-ace9-bc25f8c44b99",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. How many forms processed does Karan handle?",
+      "options": {
+        "A": "14",
+        "B": "27",
+        "C": "20",
+        "D": "35",
+        "E": "44"
+      },
+      "correct_option": "B",
+      "correct_answer": "27",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is 27.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 18,
+      "classification": "verified_original_practice_imported",
+      "database_id": "14780fdd-3689-4fe1-a989-98d0791f1f19",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Who handles 20 forms processed?",
+      "options": {
+        "A": "Lata",
+        "B": "Karan",
+        "C": "Manav",
+        "D": "Nisha",
+        "E": "Omar"
+      },
+      "correct_option": "C",
+      "correct_answer": "Manav",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Manav.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 19,
+      "classification": "verified_original_practice_imported",
+      "database_id": "e5764f44-6e2c-4702-897c-0ebb6e3f8ef7",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. How many weekdays apart are Nisha and Lata assigned?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "1",
+        "D": "4",
+        "E": "3"
+      },
+      "correct_option": "D",
+      "correct_answer": "4",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is 4.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 20,
+      "classification": "verified_original_practice_imported",
+      "database_id": "fd2beaf4-1152-45bb-9b0f-e3ad52298954",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Which clerk has the highest forms processed?",
+      "options": {
+        "A": "Omar",
+        "B": "Karan",
+        "C": "Manav",
+        "D": "Nisha",
+        "E": "Lata"
+      },
+      "correct_option": "E",
+      "correct_answer": "Lata",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Lata.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    },
+    {
+      "question_number": 21,
+      "classification": "verified_original_practice_imported",
+      "database_id": "8dfeb3ec-3c1c-437b-857c-6dcaf5bbeb84",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Which table entry is correct?",
+      "options": {
+        "A": "Omar — Thursday — 14",
+        "B": "Manav — Tuesday — 20",
+        "C": "Nisha — Monday — 35",
+        "D": "Karan — Wednesday — 27",
+        "E": "Lata — Friday — 44"
+      },
+      "correct_option": "A",
+      "correct_answer": "Omar — Thursday — 14",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Omar — Thursday — 14.",
+      "verification": "Five distinct options; one correct option; answer independently derived and record read back from the intended local chapter."
+    }
+  ]
+}

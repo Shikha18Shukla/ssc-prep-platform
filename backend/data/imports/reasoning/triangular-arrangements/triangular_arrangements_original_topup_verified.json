@@ -1,0 +1,688 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who occupies the upper-right side?",
+      "options": {
+        "A": "Bharat",
+        "B": "Asha",
+        "C": "Charu",
+        "D": "Dev",
+        "E": "Esha"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Bharat.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Which marked seat is occupied by Charu?",
+      "options": {
+        "A": "apex",
+        "B": "lower-right corner",
+        "C": "upper-right side",
+        "D": "base midpoint",
+        "E": "lower-left corner"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives lower-right corner.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who sits immediately clockwise from Dev?",
+      "options": {
+        "A": "Bharat",
+        "B": "Asha",
+        "C": "Esha",
+        "D": "Charu",
+        "E": "Dev"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Esha.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Who sits immediately counterclockwise from Esha?",
+      "options": {
+        "A": "Charu",
+        "B": "Asha",
+        "C": "Bharat",
+        "D": "Dev",
+        "E": "Esha"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Dev.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. How many seat-steps clockwise from Bharat to Farah?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Asha, Bharat, Charu, Dev, Esha, Farah occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bharat sits 5 seat(s) clockwise from Charu; Dev sits 4 seat(s) clockwise from Farah; Bharat sits 3 seat(s) clockwise from Esha. Which person is at the lower-left corner?",
+      "options": {
+        "A": "Esha",
+        "B": "Asha",
+        "C": "Bharat",
+        "D": "Charu",
+        "E": "Dev"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Asha → Bharat → Charu → Dev → Esha → Farah → back to Asha. In the marked seat order, Bharat is at the upper-right side, Charu at the lower-right corner, and the queried placement/relation gives Esha.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who occupies the lower-right corner?",
+      "options": {
+        "A": "Gita",
+        "B": "Lokesh",
+        "C": "Hari",
+        "D": "Ira",
+        "E": "Jay"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Lokesh.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Which marked seat is occupied by Kavya?",
+      "options": {
+        "A": "upper-right side",
+        "B": "apex",
+        "C": "base midpoint",
+        "D": "lower-right corner",
+        "E": "lower-left corner"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives base midpoint.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who sits immediately clockwise from Jay?",
+      "options": {
+        "A": "Jay",
+        "B": "Gita",
+        "C": "Hari",
+        "D": "Ira",
+        "E": "Kavya"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Ira.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Who sits immediately counterclockwise from Ira?",
+      "options": {
+        "A": "Kavya",
+        "B": "Gita",
+        "C": "Hari",
+        "D": "Ira",
+        "E": "Jay"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Jay.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. How many seat-steps clockwise from Lokesh to Gita?",
+      "options": {
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "5"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gita, Hari, Ira, Jay, Kavya, Lokesh occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hari sits 2 seat(s) clockwise from Ira; Jay sits 1 seat(s) clockwise from Kavya; Hari sits 5 seat(s) clockwise from Lokesh. Which person is at the upper-left side?",
+      "options": {
+        "A": "Gita",
+        "B": "Ira",
+        "C": "Hari",
+        "D": "Jay",
+        "E": "Kavya"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Gita → Hari → Lokesh → Kavya → Jay → Ira → back to Gita. In the marked seat order, Lokesh is at the lower-right corner, Kavya at the base midpoint, and the queried placement/relation gives Ira.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who occupies the base midpoint?",
+      "options": {
+        "A": "Nikhil",
+        "B": "Meera",
+        "C": "Sana",
+        "D": "Ojas",
+        "E": "Pooja"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Sana.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Which marked seat is occupied by Nikhil?",
+      "options": {
+        "A": "lower-right corner",
+        "B": "apex",
+        "C": "upper-right side",
+        "D": "lower-left corner",
+        "E": "base midpoint"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives lower-left corner.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who sits immediately clockwise from Ojas?",
+      "options": {
+        "A": "Ravi",
+        "B": "Nikhil",
+        "C": "Ojas",
+        "D": "Pooja",
+        "E": "Meera"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Meera.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Who sits immediately counterclockwise from Meera?",
+      "options": {
+        "A": "Ojas",
+        "B": "Meera",
+        "C": "Nikhil",
+        "D": "Pooja",
+        "E": "Ravi"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Ojas.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. How many seat-steps clockwise from Sana to Pooja?",
+      "options": {
+        "A": "1",
+        "B": "4",
+        "C": "2",
+        "D": "3",
+        "E": "5"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Meera, Nikhil, Ojas, Pooja, Ravi, Sana occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Nikhil sits 5 seat(s) clockwise from Ojas; Pooja sits 4 seat(s) clockwise from Sana; Nikhil sits 2 seat(s) clockwise from Ravi. Which person is at the apex?",
+      "options": {
+        "A": "Ojas",
+        "B": "Nikhil",
+        "C": "Meera",
+        "D": "Pooja",
+        "E": "Ravi"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Meera → Pooja → Ravi → Sana → Nikhil → Ojas → back to Meera. In the marked seat order, Sana is at the base midpoint, Nikhil at the lower-left corner, and the queried placement/relation gives Meera.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who occupies the lower-left corner?",
+      "options": {
+        "A": "Vani",
+        "B": "Tara",
+        "C": "Uday",
+        "D": "Yash",
+        "E": "Waseem"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Yash.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Which marked seat is occupied by Xena?",
+      "options": {
+        "A": "base midpoint",
+        "B": "apex",
+        "C": "upper-right side",
+        "D": "lower-right corner",
+        "E": "upper-left side"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives upper-left side.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who sits immediately clockwise from Tara?",
+      "options": {
+        "A": "Waseem",
+        "B": "Tara",
+        "C": "Uday",
+        "D": "Vani",
+        "E": "Xena"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Waseem.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Who sits immediately counterclockwise from Waseem?",
+      "options": {
+        "A": "Uday",
+        "B": "Tara",
+        "C": "Vani",
+        "D": "Waseem",
+        "E": "Xena"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Tara.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. How many seat-steps clockwise from Yash to Vani?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "4",
+        "D": "3",
+        "E": "5"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Tara, Uday, Vani, Waseem, Xena, Yash occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Uday sits 1 seat(s) clockwise from Vani; Waseem sits 2 seat(s) clockwise from Xena; Uday sits 5 seat(s) clockwise from Yash. Which person is at the upper-right side?",
+      "options": {
+        "A": "Vani",
+        "B": "Tara",
+        "C": "Uday",
+        "D": "Waseem",
+        "E": "Xena"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Tara → Waseem → Vani → Uday → Yash → Xena → back to Tara. In the marked seat order, Yash is at the lower-left corner, Xena at the upper-left side, and the queried placement/relation gives Waseem.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who occupies the upper-left side?",
+      "options": {
+        "A": "Diya",
+        "B": "Anil",
+        "C": "Bela",
+        "D": "Chirag",
+        "E": "Evan"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Evan.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Which marked seat is occupied by Anil?",
+      "options": {
+        "A": "apex",
+        "B": "upper-right side",
+        "C": "lower-right corner",
+        "D": "base midpoint",
+        "E": "lower-left corner"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives apex.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who sits immediately clockwise from Fiza?",
+      "options": {
+        "A": "Anil",
+        "B": "Bela",
+        "C": "Chirag",
+        "D": "Diya",
+        "E": "Evan"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Bela.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Who sits immediately counterclockwise from Bela?",
+      "options": {
+        "A": "Bela",
+        "B": "Anil",
+        "C": "Fiza",
+        "D": "Chirag",
+        "E": "Diya"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Fiza.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. How many seat-steps clockwise from Evan to Chirag?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4",
+        "E": "5"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Anil, Bela, Chirag, Diya, Evan, Fiza occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Bela sits 5 seat(s) clockwise from Chirag; Diya sits 3 seat(s) clockwise from Fiza; Diya sits 5 seat(s) clockwise from Evan. Which person is at the lower-right corner?",
+      "options": {
+        "A": "Evan",
+        "B": "Anil",
+        "C": "Chirag",
+        "D": "Diya",
+        "E": "Bela"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Anil → Fiza → Bela → Chirag → Diya → Evan → back to Anil. In the marked seat order, Evan is at the upper-left side, Anil at the apex, and the queried placement/relation gives Bela.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who occupies the apex?",
+      "options": {
+        "A": "Gaurav",
+        "B": "Hina",
+        "C": "Ishan",
+        "D": "Juhi",
+        "E": "Karan"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Gaurav.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Which marked seat is occupied by Leela?",
+      "options": {
+        "A": "apex",
+        "B": "upper-right side",
+        "C": "lower-right corner",
+        "D": "base midpoint",
+        "E": "lower-left corner"
+      },
+      "correct_option": "B",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives upper-right side.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who sits immediately clockwise from Karan?",
+      "options": {
+        "A": "Hina",
+        "B": "Gaurav",
+        "C": "Juhi",
+        "D": "Ishan",
+        "E": "Karan"
+      },
+      "correct_option": "C",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Juhi.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Who sits immediately counterclockwise from Juhi?",
+      "options": {
+        "A": "Ishan",
+        "B": "Gaurav",
+        "C": "Hina",
+        "D": "Karan",
+        "E": "Juhi"
+      },
+      "correct_option": "D",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Karan.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. How many seat-steps clockwise from Gaurav to Ishan?",
+      "options": {
+        "A": "5",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "E",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives 4.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "triangular-arrangements",
+      "question_text": "Original Practice Question — Six clerks Gaurav, Hina, Ishan, Juhi, Karan, Leela occupy the six marked seats around a triangular table: apex, upper-right side, lower-right corner, base midpoint, lower-left corner, and upper-left side, in that clockwise order. Everyone faces inward. Clockwise and counterclockwise refer to the marked perimeter direction, and the seat at the apex is fixed. The clues are: Hina sits 1 seat(s) clockwise from Ishan; Juhi sits 2 seat(s) clockwise from Leela; Hina sits 3 seat(s) clockwise from Karan. Which person is at the base midpoint?",
+      "options": {
+        "A": "Juhi",
+        "B": "Gaurav",
+        "C": "Hina",
+        "D": "Ishan",
+        "E": "Karan"
+      },
+      "correct_option": "A",
+      "explanation": "The clues uniquely give the clockwise order: Gaurav → Leela → Karan → Juhi → Ishan → Hina → back to Gaurav. In the marked seat order, Gaurav is at the apex, Leela at the upper-right side, and the queried placement/relation gives Juhi.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "questions": [
+    {
+      "question_text": "Original Practice Question — Given the inequalities: G < A, A >= F, F <= E, E > C, C <= B. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "C <= B",
+      "reasoning": "Across all numeric assignments satisfying the statements (G < A; A >= F; F <= E; E > C; C <= B), the conclusion C <= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 10304,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B >= A, A < G, G > F, F >= D, D <= E. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "B >= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (B >= A; A < G; G > F; F >= D; D <= E), the conclusion B >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 7462,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: C <= E, E < A, A > F, F > D, D > G. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "G < D",
+      "reasoning": "Across all numeric assignments satisfying the statements (C <= E; E < A; A > F; F > D; D > G), the conclusion G < D is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 616,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: E >= F, F = A, A = G, G <= D, D > B. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "A = G",
+      "reasoning": "Across all numeric assignments satisfying the statements (E >= F; F = A; A = G; G <= D; D > B), the conclusion A = G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 518,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: E = F, F < B, B = G, G = D, D < A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "B > E",
+      "reasoning": "Across all numeric assignments satisfying the statements (E = F; F < B; B = G; G = D; D < A), the conclusion B > E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 35,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: C = E, E = G, G = B, B = F, F > D. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "C <= E",
+      "reasoning": "Across all numeric assignments satisfying the statements (C = E; E = G; G = B; B = F; F > D), the conclusion C <= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 21,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D > F, F = E, E < B, B >= C, C > G. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "F >= E",
+      "reasoning": "Across all numeric assignments satisfying the statements (D > F; F = E; E < B; B >= C; C > G), the conclusion F >= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1050,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B > F, F = A, A <= G, G <= C, C > E. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "B >= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (B > F; F = A; A <= G; G <= C; C > E), the conclusion B >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1638,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B >= E, E < G, G < D, D > C, C < A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "D >= C",
+      "reasoning": "Across all numeric assignments satisfying the statements (B >= E; E < G; G < D; D > C; C < A), the conclusion D >= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 4046,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B = G, G > F, F = D, D = C, C <= E. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "E >= F",
+      "reasoning": "Across all numeric assignments satisfying the statements (B = G; G > F; F = D; D = C; C <= E), the conclusion E >= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 112,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: E > A, A < G, G <= B, B >= D, D <= C. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "D <= C",
+      "reasoning": "Across all numeric assignments satisfying the statements (E > A; A < G; G <= B; B >= D; D <= C), the conclusion D <= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 6776,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: C <= E, E < A, A > B, B < D, D >= G. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "C < A",
+      "reasoning": "Across all numeric assignments satisfying the statements (C <= E; E < A; A > B; B < D; D >= G), the conclusion C < A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 5474,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: C < F, F = A, A = D, D = G, G >= E. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "F = G",
+      "reasoning": "Across all numeric assignments satisfying the statements (C < F; F = A; A = D; D = G; G >= E), the conclusion F = G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 112,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D > A, A >= E, E < B, B <= C, C = F. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "F > E",
+      "reasoning": "Across all numeric assignments satisfying the statements (D > A; A >= E; E < B; B <= C; C = F), the conclusion F > E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 812,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D > C, C >= A, A > B, B <= E, E >= F. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "D > B",
+      "reasoning": "Across all numeric assignments satisfying the statements (D > C; C >= A; A > B; B <= E; E >= F), the conclusion D > B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1876,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B < E, E <= A, A <= G, G = F, F <= D. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "E <= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (B < E; E <= A; A <= G; G = F; F <= D), the conclusion E <= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 252,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: F < E, E > C, C <= D, D <= G, G > A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "F <= E",
+      "reasoning": "Across all numeric assignments satisfying the statements (F < E; E > C; C <= D; D <= G; G > A), the conclusion F <= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 6636,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: F > E, E > G, G = B, B >= C, C > A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "B >= C",
+      "reasoning": "Across all numeric assignments satisfying the statements (F > E; E > G; G = B; B >= C; C > A), the conclusion B >= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 56,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D <= G, G > A, A <= E, E > F, F = C. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "C = F",
+      "reasoning": "Across all numeric assignments satisfying the statements (D <= G; G > A; A <= E; E > F; F = C), the conclusion C = F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 2128,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: F >= A, A > E, E = D, D < G, G > C. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "F >= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (F >= A; A > E; E = D; D < G; G > C), the conclusion F >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1050,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B < D, D = E, E >= C, C > F, F >= A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "F < D",
+      "reasoning": "Across all numeric assignments satisfying the statements (B < D; D = E; E >= C; C > F; F >= A), the conclusion F < D is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 630,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D >= C, C <= G, G < F, F < B, B > A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "B > G",
+      "reasoning": "Across all numeric assignments satisfying the statements (D >= C; C <= G; G < F; F < B; B > A), the conclusion B > G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 2240,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: F = A, A > G, G = C, C < E, E >= B. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "F > C",
+      "reasoning": "Across all numeric assignments satisfying the statements (F = A; A > G; G = C; C < E; E >= B), the conclusion F > C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 462,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D < B, B = F, F >= C, C <= A, A <= G. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "G >= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (D < B; B = F; F >= C; C <= A; A <= G), the conclusion G >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1638,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B = C, C >= D, D >= F, F >= G, G > A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "F > A",
+      "reasoning": "Across all numeric assignments satisfying the statements (B = C; C >= D; D >= F; F >= G; G > A), the conclusion F > A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 252,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: G >= D, D < C, C <= E, E < A, A <= B. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "C < A",
+      "reasoning": "Across all numeric assignments satisfying the statements (G >= D; D < C; C <= E; E < A; A <= B), the conclusion C < A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 798,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: B >= F, F >= G, G < E, E < D, D < C. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "E < C",
+      "reasoning": "Across all numeric assignments satisfying the statements (B >= F; F >= G; G < E; E < D; D < C), the conclusion E < C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 840,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: E <= C, C < D, D >= B, B > A, A = G. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "D >= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (E <= C; C < D; D >= B; B > A; A = G), the conclusion D >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 812,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: E >= G, G = A, A < C, C >= B, B = D. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "E >= A",
+      "reasoning": "Across all numeric assignments satisfying the statements (E >= G; G = A; A < C; C >= B; B = D), the conclusion E >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 574,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: A < G, G >= F, F < D, D >= B, B > C. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "D >= B",
+      "reasoning": "Across all numeric assignments satisfying the statements (A < G; G >= F; F < D; D >= B; B > C), the conclusion D >= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 4970,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: G < C, C = B, B >= F, F >= A, A < E. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "C >= B",
+      "reasoning": "Across all numeric assignments satisfying the statements (G < C; C = B; B >= F; F >= A; A < E), the conclusion C >= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1638,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: F = A, A <= B, B = D, D > C, C >= E. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "D >= E",
+      "reasoning": "Across all numeric assignments satisfying the statements (F = A; A <= B; B = D; D > C; C >= E), the conclusion D >= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 322,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: G > D, D >= C, C < F, F > E, E > B. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "A",
+      "answer_text": "E <= F",
+      "reasoning": "Across all numeric assignments satisfying the statements (G > D; D >= C; C < F; F > E; E > B), the conclusion E <= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 1876,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D <= G, G <= B, B < E, E <= C, C = A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "G < E",
+      "reasoning": "Across all numeric assignments satisfying the statements (D <= G; G <= B; B < E; E <= C; C = A), the conclusion G < E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 252,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D = B, B <= G, G > C, C <= E, E >= A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "G >= B",
+      "reasoning": "Across all numeric assignments satisfying the statements (D = B; B <= G; G > C; C <= E; E >= A), the conclusion G >= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 2702,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: D < F, F = G, G <= A, A < B, B <= C. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "F <= G",
+      "reasoning": "Across all numeric assignments satisfying the statements (D < F; F = G; G <= A; A < B; B <= C), the conclusion F <= G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 126,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: E < C, C <= B, B > G, G < D, D >= F. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "B",
+      "answer_text": "D >= F",
+      "reasoning": "Across all numeric assignments satisfying the statements (E < C; C <= B; B > G; G < D; D >= F), the conclusion D >= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 5474,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: C <= D, D < A, A = B, B > E, E = F. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "D",
+      "answer_text": "B > D",
+      "reasoning": "Across all numeric assignments satisfying the statements (C <= D; D < A; A = B; B > E; E = F), the conclusion B > D is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 266,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: C = B, B >= D, D <= A, A <= F, F < G. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "C",
+      "answer_text": "B = C",
+      "reasoning": "Across all numeric assignments satisfying the statements (C = B; B >= D; D <= A; A <= F; F < G), the conclusion B = C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 756,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    },
+    {
+      "question_text": "Original Practice Question — Given the inequalities: G = D, D > B, B > E, E < F, F > A. Which one of the following conclusions must be true?",
+      "classification": "original_practice_verified",
+      "answer": "E",
+      "answer_text": "E < B",
+      "reasoning": "Across all numeric assignments satisfying the statements (G = D; D > B; B > E; E < F; F > A), the conclusion E < B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "model_count": 679,
+      "entailed_option_count": 1,
+      "duplicate_status": "unique_within_batch"
+    }
+  ],
+  "independent_solver": "deterministic exhaustive enumeration"
+}

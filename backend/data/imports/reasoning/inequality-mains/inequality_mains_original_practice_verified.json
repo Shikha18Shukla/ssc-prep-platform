@@ -1,0 +1,764 @@
+{
+  "questions": [
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: G < A, A >= F, F <= E, E > C, C <= B. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "B < E",
+        "B": "B < C",
+        "C": "E < F",
+        "D": "C >= G",
+        "E": "C <= B"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (G < A; A >= F; F <= E; E > C; C <= B), the conclusion C <= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B >= A, A < G, G > F, F >= D, D <= E. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "E <= A",
+        "B": "F < E",
+        "C": "F >= B",
+        "D": "B >= A",
+        "E": "D = F"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (B >= A; A < G; G > F; F >= D; D <= E), the conclusion B >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: C <= E, E < A, A > F, F > D, D > G. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C <= D",
+        "B": "D >= C",
+        "C": "G > E",
+        "D": "A < F",
+        "E": "G < D"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (C <= E; E < A; A > F; F > D; D > G), the conclusion G < D is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: E >= F, F = A, A = G, G <= D, D > B. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "A < F",
+        "B": "B = F",
+        "C": "F = E",
+        "D": "B > G",
+        "E": "A = G"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (E >= F; F = A; A = G; G <= D; D > B), the conclusion A = G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: E = F, F < B, B = G, G = D, D < A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "B > G",
+        "B": "D >= A",
+        "C": "B > E",
+        "D": "A < F",
+        "E": "A = E"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (E = F; F < B; B = G; G = D; D < A), the conclusion B > E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: C = E, E = G, G = B, B = F, F > D. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C <= E",
+        "B": "G < B",
+        "C": "F = D",
+        "D": "D >= E",
+        "E": "F > B"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (C = E; E = G; G = B; B = F; F > D), the conclusion C <= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D > F, F = E, E < B, B >= C, C > G. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "F = B",
+        "B": "D <= F",
+        "C": "G = D",
+        "D": "F >= E",
+        "E": "F > E"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (D > F; F = E; E < B; B >= C; C > G), the conclusion F >= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B > F, F = A, A <= G, G <= C, C > E. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "F > B",
+        "B": "C > F",
+        "C": "F < C",
+        "D": "B >= A",
+        "E": "E > G"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (B > F; F = A; A <= G; G <= C; C > E), the conclusion B >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B >= E, E < G, G < D, D > C, C < A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "E = D",
+        "B": "B < D",
+        "C": "B <= D",
+        "D": "G = E",
+        "E": "D >= C"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (B >= E; E < G; G < D; D > C; C < A), the conclusion D >= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B = G, G > F, F = D, D = C, C <= E. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "E >= F",
+        "B": "F = B",
+        "C": "G < C",
+        "D": "F < D",
+        "E": "B < F"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (B = G; G > F; F = D; D = C; C <= E), the conclusion E >= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: E > A, A < G, G <= B, B >= D, D <= C. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "A = B",
+        "B": "B >= E",
+        "C": "D <= C",
+        "D": "G > D",
+        "E": "C >= G"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (E > A; A < G; G <= B; B >= D; D <= C), the conclusion D <= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: C <= E, E < A, A > B, B < D, D >= G. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "G >= A",
+        "B": "G = A",
+        "C": "C < A",
+        "D": "E = C",
+        "E": "B <= C"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (C <= E; E < A; A > B; B < D; D >= G), the conclusion C < A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: C < F, F = A, A = D, D = G, G >= E. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "G < F",
+        "B": "C > A",
+        "C": "F = G",
+        "D": "A < F",
+        "E": "D <= C"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (C < F; F = A; A = D; D = G; G >= E), the conclusion F = G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D > A, A >= E, E < B, B <= C, C = F. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "F < E",
+        "B": "A > D",
+        "C": "A <= B",
+        "D": "F > E",
+        "E": "E < A"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (D > A; A >= E; E < B; B <= C; C = F), the conclusion F > E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D > C, C >= A, A > B, B <= E, E >= F. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "F = E",
+        "B": "A < F",
+        "C": "F <= B",
+        "D": "F > D",
+        "E": "D > B"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (D > C; C >= A; A > B; B <= E; E >= F), the conclusion D > B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B < E, E <= A, A <= G, G = F, F <= D. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "D < A",
+        "B": "E <= A",
+        "C": "E = B",
+        "D": "D > E",
+        "E": "D > F"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (B < E; E <= A; A <= G; G = F; F <= D), the conclusion E <= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: F < E, E > C, C <= D, D <= G, G > A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C < F",
+        "B": "F <= E",
+        "C": "A > G",
+        "D": "D >= A",
+        "E": "G < D"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (F < E; E > C; C <= D; D <= G; G > A), the conclusion F <= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: F > E, E > G, G = B, B >= C, C > A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "B >= C",
+        "B": "G > F",
+        "C": "E <= G",
+        "D": "G >= E",
+        "E": "C > G"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (F > E; E > G; G = B; B >= C; C > A), the conclusion B >= C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D <= G, G > A, A <= E, E > F, F = C. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "A = C",
+        "B": "C = F",
+        "C": "A < C",
+        "D": "C < A",
+        "E": "E <= G"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (D <= G; G > A; A <= E; E > F; F = C), the conclusion C = F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: F >= A, A > E, E = D, D < G, G > C. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "F < G",
+        "B": "C >= F",
+        "C": "F >= A",
+        "D": "G > A",
+        "E": "F <= E"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (F >= A; A > E; E = D; D < G; G > C), the conclusion F >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B < D, D = E, E >= C, C > F, F >= A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "A >= E",
+        "B": "A > C",
+        "C": "F < D",
+        "D": "F > E",
+        "E": "F >= C"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (B < D; D = E; E >= C; C > F; F >= A), the conclusion F < D is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D >= C, C <= G, G < F, F < B, B > A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C > F",
+        "B": "B > G",
+        "C": "F = B",
+        "D": "B = D",
+        "E": "F >= A"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (D >= C; C <= G; G < F; F < B; B > A), the conclusion B > G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: F = A, A > G, G = C, C < E, E >= B. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "F > C",
+        "B": "C = B",
+        "C": "B >= F",
+        "D": "C < B",
+        "E": "C >= E"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (F = A; A > G; G = C; C < E; E >= B), the conclusion F > C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D < B, B = F, F >= C, C <= A, A <= G. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "G <= D",
+        "B": "G >= A",
+        "C": "C >= B",
+        "D": "F >= G",
+        "E": "F < B"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (D < B; B = F; F >= C; C <= A; A <= G), the conclusion G >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B = C, C >= D, D >= F, F >= G, G > A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "A >= F",
+        "B": "G = C",
+        "C": "A = B",
+        "D": "F > A",
+        "E": "F < D"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (B = C; C >= D; D >= F; F >= G; G > A), the conclusion F > A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: G >= D, D < C, C <= E, E < A, A <= B. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C < A",
+        "B": "A < B",
+        "C": "A >= B",
+        "D": "A = C",
+        "E": "E <= G"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (G >= D; D < C; C <= E; E < A; A <= B), the conclusion C < A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: B >= F, F >= G, G < E, E < D, D < C. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "E < B",
+        "B": "B <= G",
+        "C": "G >= C",
+        "D": "F < D",
+        "E": "E < C"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (B >= F; F >= G; G < E; E < D; D < C), the conclusion E < C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: E <= C, C < D, D >= B, B > A, A = G. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "B <= C",
+        "B": "D > B",
+        "C": "D <= C",
+        "D": "D >= A",
+        "E": "E <= G"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (E <= C; C < D; D >= B; B > A; A = G), the conclusion D >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: E >= G, G = A, A < C, C >= B, B = D. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C >= E",
+        "B": "E >= A",
+        "C": "E > B",
+        "D": "D > G",
+        "E": "G > E"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (E >= G; G = A; A < C; C >= B; B = D), the conclusion E >= A is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: A < G, G >= F, F < D, D >= B, B > C. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "D >= B",
+        "B": "D < G",
+        "C": "G = A",
+        "D": "B < A",
+        "E": "A >= D"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (A < G; G >= F; F < D; D >= B; B > C), the conclusion D >= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: G < C, C = B, B >= F, F >= A, A < E. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C <= E",
+        "B": "C = G",
+        "C": "C >= B",
+        "D": "C > B",
+        "E": "F = C"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (G < C; C = B; B >= F; F >= A; A < E), the conclusion C >= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: F = A, A <= B, B = D, D > C, C >= E. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "A > B",
+        "B": "A < C",
+        "C": "C < E",
+        "D": "D >= E",
+        "E": "F <= C"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (F = A; A <= B; B = D; D > C; C >= E), the conclusion D >= E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: G > D, D >= C, C < F, F > E, E > B. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "E <= F",
+        "B": "E <= C",
+        "C": "C > E",
+        "D": "B >= G",
+        "E": "D < B"
+      },
+      "correct_option": "A",
+      "explanation": "Across all numeric assignments satisfying the statements (G > D; D >= C; C < F; F > E; E > B), the conclusion E <= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D <= G, G <= B, B < E, E <= C, C = A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "D >= C",
+        "B": "G >= C",
+        "C": "E >= C",
+        "D": "C < E",
+        "E": "G < E"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (D <= G; G <= B; B < E; E <= C; C = A), the conclusion G < E is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D = B, B <= G, G > C, C <= E, E >= A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "B >= G",
+        "B": "C >= D",
+        "C": "G < A",
+        "D": "G >= B",
+        "E": "A > D"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (D = B; B <= G; G > C; C <= E; E >= A), the conclusion G >= B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: D < F, F = G, G <= A, A < B, B <= C. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "D > A",
+        "B": "G > F",
+        "C": "F <= G",
+        "D": "B <= F",
+        "E": "A >= C"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (D < F; F = G; G <= A; A < B; B <= C), the conclusion F <= G is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: E < C, C <= B, B > G, G < D, D >= F. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "G >= B",
+        "B": "D >= F",
+        "C": "C <= G",
+        "D": "F <= C",
+        "E": "C > F"
+      },
+      "correct_option": "B",
+      "explanation": "Across all numeric assignments satisfying the statements (E < C; C <= B; B > G; G < D; D >= F), the conclusion D >= F is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: C <= D, D < A, A = B, B > E, E = F. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "D < E",
+        "B": "E < D",
+        "C": "E > A",
+        "D": "B > D",
+        "E": "A = E"
+      },
+      "correct_option": "D",
+      "explanation": "Across all numeric assignments satisfying the statements (C <= D; D < A; A = B; B > E; E = F), the conclusion B > D is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: C = B, B >= D, D <= A, A <= F, F < G. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "C < B",
+        "B": "A < C",
+        "C": "B = C",
+        "D": "B = A",
+        "E": "D > A"
+      },
+      "correct_option": "C",
+      "explanation": "Across all numeric assignments satisfying the statements (C = B; B >= D; D <= A; A <= F; F < G), the conclusion B = C is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    },
+    {
+      "exam_slug": "banking-clerk",
+      "subject_slug": "reasoning",
+      "subcategory_slug": "",
+      "chapter_slug": "inequality-mains",
+      "question_text": "Original Practice Question — Given the inequalities: G = D, D > B, B > E, E < F, F > A. Which one of the following conclusions must be true?",
+      "options": {
+        "A": "B >= D",
+        "B": "G >= F",
+        "C": "E > A",
+        "D": "B = A",
+        "E": "E < B"
+      },
+      "correct_option": "E",
+      "explanation": "Across all numeric assignments satisfying the statements (G = D; D > B; B > E; E < F; F > A), the conclusion E < B is true; exhaustive finite order-model enumeration found it entailed. Each of the other four options fails in at least one satisfying assignment, so none is necessarily true.",
+      "difficulty": "MEDIUM",
+      "is_pyq": false,
+      "source": "Original Practice Question (self-authored; not PDF-derived)"
+    }
+  ]
+}

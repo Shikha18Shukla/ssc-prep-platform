@@ -100,6 +100,11 @@ class Question(Base, TimestampMixin):
         nullable=False,
         index=True,
     )
+    section: Mapped[str | None] = mapped_column(
+        String(100),
+        nullable=True,
+        index=True,
+    )
 
     # Relationships
     chapter: Mapped["Chapter"] = relationship(

@@ -1,0 +1,451 @@
+{
+  "chapter": "Tabular Puzzles",
+  "chapter_slug": "tabular-puzzles",
+  "created_questions": 21,
+  "source_kind": "Original Practice Question",
+  "verification_note": "Generated in-house for this question bank; not copied from source PDFs or labeled as PYQ.",
+  "groups": [
+    {
+      "group_id": "ORIG-TAB-01",
+      "context_and_clues": "Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's.",
+      "unique_solution": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31.",
+      "day_mapping": {
+        "Asha": "Tuesday",
+        "Bilal": "Thursday",
+        "Charu": "Monday",
+        "Dev": "Friday",
+        "Esha": "Wednesday"
+      },
+      "measure_mapping": {
+        "Asha": 12,
+        "Bilal": 25,
+        "Charu": 40,
+        "Dev": 18,
+        "Esha": 31
+      },
+      "valid_solutions": 1
+    },
+    {
+      "group_id": "ORIG-TAB-02",
+      "context_and_clues": "Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's.",
+      "unique_solution": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45.",
+      "day_mapping": {
+        "Farah": "Friday",
+        "Gopal": "Monday",
+        "Hina": "Thursday",
+        "Irfan": "Tuesday",
+        "Jaya": "Wednesday"
+      },
+      "measure_mapping": {
+        "Farah": 21,
+        "Gopal": 36,
+        "Hina": 15,
+        "Irfan": 28,
+        "Jaya": 45
+      },
+      "valid_solutions": 1
+    },
+    {
+      "group_id": "ORIG-TAB-03",
+      "context_and_clues": "Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's.",
+      "unique_solution": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14.",
+      "day_mapping": {
+        "Karan": "Wednesday",
+        "Lata": "Friday",
+        "Manav": "Tuesday",
+        "Nisha": "Monday",
+        "Omar": "Thursday"
+      },
+      "measure_mapping": {
+        "Karan": 27,
+        "Lata": 44,
+        "Manav": 20,
+        "Nisha": 35,
+        "Omar": 14
+      },
+      "valid_solutions": 1
+    }
+  ],
+  "entries": [
+    {
+      "question_number": 1,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. On which weekday is Bilal assigned?",
+      "options": {
+        "A": "Thursday",
+        "B": "Monday",
+        "C": "Tuesday",
+        "D": "Wednesday",
+        "E": "Friday"
+      },
+      "correct_option": "A",
+      "correct_answer": "Thursday",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Thursday.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "83ddbe16-e67d-474d-a290-2906792b2ee7"
+    },
+    {
+      "question_number": 2,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Who is assigned to Wednesday?",
+      "options": {
+        "A": "Asha",
+        "B": "Esha",
+        "C": "Bilal",
+        "D": "Charu",
+        "E": "Dev"
+      },
+      "correct_option": "B",
+      "correct_answer": "Esha",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Esha.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "e842462e-63fe-4be6-9166-01074d00af75"
+    },
+    {
+      "question_number": 3,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. How many daily requests handled does Dev handle?",
+      "options": {
+        "A": "25",
+        "B": "12",
+        "C": "18",
+        "D": "31",
+        "E": "40"
+      },
+      "correct_option": "C",
+      "correct_answer": "18",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is 18.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "a296caf1-9c12-4f9f-a4de-e858aadb0f1e"
+    },
+    {
+      "question_number": 4,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Who handles 40 daily requests handled?",
+      "options": {
+        "A": "Dev",
+        "B": "Asha",
+        "C": "Bilal",
+        "D": "Charu",
+        "E": "Esha"
+      },
+      "correct_option": "D",
+      "correct_answer": "Charu",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Charu.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "4f774467-46be-4ff7-9267-bf776439bd0e"
+    },
+    {
+      "question_number": 5,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. How many weekdays apart are Bilal and Esha assigned?",
+      "options": {
+        "A": "4",
+        "B": "0",
+        "C": "2",
+        "D": "3",
+        "E": "1"
+      },
+      "correct_option": "E",
+      "correct_answer": "1",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is 1.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "24f07eaf-c22a-41be-a729-84323393197a"
+    },
+    {
+      "question_number": 6,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Which clerk has the highest daily requests handled?",
+      "options": {
+        "A": "Charu",
+        "B": "Asha",
+        "C": "Bilal",
+        "D": "Dev",
+        "E": "Esha"
+      },
+      "correct_option": "A",
+      "correct_answer": "Charu",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Charu.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "a358f030-7ed4-470b-9337-8fd2e961b28b"
+    },
+    {
+      "question_number": 7,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Asha, Bilal, Charu, Dev, Esha) are each assigned a different weekday from Monday to Friday and handle a different number of daily requests handled. Use the resulting table to answer the questions. Clues: Asha is immediately before Esha; Bilal is scheduled on Thursday; Charu is immediately before Asha; Bilal's workload is exactly 7 greater than Dev's; Charu's workload is exactly 9 greater than Esha's. Which table entry is correct?",
+      "options": {
+        "A": "Asha — Tuesday — 12",
+        "B": "Charu — Monday — 40",
+        "C": "Bilal — Thursday — 25",
+        "D": "Dev — Friday — 18",
+        "E": "Esha — Wednesday — 31"
+      },
+      "correct_option": "B",
+      "correct_answer": "Charu — Monday — 40",
+      "explanation": "Solved table (clerk — weekday — daily requests handled): Asha — Tuesday — 12; Bilal — Thursday — 25; Charu — Monday — 40; Dev — Friday — 18; Esha — Wednesday — 31. The requested entry is Charu — Monday — 40.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "5fa27dc4-be88-48fd-ab06-728207eed1b2"
+    },
+    {
+      "question_number": 8,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. On which weekday is Hina assigned?",
+      "options": {
+        "A": "Tuesday",
+        "B": "Monday",
+        "C": "Thursday",
+        "D": "Wednesday",
+        "E": "Friday"
+      },
+      "correct_option": "C",
+      "correct_answer": "Thursday",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Thursday.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "46ba1d79-c7e1-435b-a953-fbbcf99713d1"
+    },
+    {
+      "question_number": 9,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Who is assigned to Thursday?",
+      "options": {
+        "A": "Irfan",
+        "B": "Farah",
+        "C": "Gopal",
+        "D": "Hina",
+        "E": "Jaya"
+      },
+      "correct_option": "D",
+      "correct_answer": "Hina",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Hina.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "294e3cee-0458-4896-a796-04ee2277df98"
+    },
+    {
+      "question_number": 10,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. How many loan files reviewed does Jaya handle?",
+      "options": {
+        "A": "36",
+        "B": "15",
+        "C": "21",
+        "D": "28",
+        "E": "45"
+      },
+      "correct_option": "E",
+      "correct_answer": "45",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is 45.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "70cba7ce-4d3a-4430-a1ee-e246f8a2dbbf"
+    },
+    {
+      "question_number": 11,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Who handles 15 loan files reviewed?",
+      "options": {
+        "A": "Hina",
+        "B": "Farah",
+        "C": "Gopal",
+        "D": "Irfan",
+        "E": "Jaya"
+      },
+      "correct_option": "A",
+      "correct_answer": "Hina",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Hina.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "4e917c4d-0931-4985-b41f-a2fd2db44e88"
+    },
+    {
+      "question_number": 12,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. How many weekdays apart are Hina and Farah assigned?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "E": "4"
+      },
+      "correct_option": "B",
+      "correct_answer": "1",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is 1.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "44e45b81-88ea-4f5a-97f1-29ca933bb21c"
+    },
+    {
+      "question_number": 13,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Which clerk has the highest loan files reviewed?",
+      "options": {
+        "A": "Gopal",
+        "B": "Farah",
+        "C": "Jaya",
+        "D": "Hina",
+        "E": "Irfan"
+      },
+      "correct_option": "C",
+      "correct_answer": "Jaya",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Jaya.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "6aa489de-06dd-44b3-8bdf-0bd6e53483f4"
+    },
+    {
+      "question_number": 14,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Farah, Gopal, Hina, Irfan, Jaya) are each assigned a different weekday from Monday to Friday and handle a different number of loan files reviewed. Use the resulting table to answer the questions. Clues: Farah is scheduled on Friday; exactly 3 weekdays separate Gopal and Hina; Gopal is immediately before Irfan; Irfan's workload is exactly 7 greater than Farah's; Jaya's workload is exactly 9 greater than Gopal's. Which table entry is correct?",
+      "options": {
+        "A": "Jaya — Wednesday — 45",
+        "B": "Gopal — Monday — 36",
+        "C": "Hina — Thursday — 15",
+        "D": "Irfan — Tuesday — 28",
+        "E": "Farah — Friday — 21"
+      },
+      "correct_option": "D",
+      "correct_answer": "Irfan — Tuesday — 28",
+      "explanation": "Solved table (clerk — weekday — loan files reviewed): Farah — Friday — 21; Gopal — Monday — 36; Hina — Thursday — 15; Irfan — Tuesday — 28; Jaya — Wednesday — 45. The requested entry is Irfan — Tuesday — 28.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0bbee6cc-6edc-4697-a9a7-991a55568803"
+    },
+    {
+      "question_number": 15,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. On which weekday is Nisha assigned?",
+      "options": {
+        "A": "Friday",
+        "B": "Tuesday",
+        "C": "Wednesday",
+        "D": "Thursday",
+        "E": "Monday"
+      },
+      "correct_option": "E",
+      "correct_answer": "Monday",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Monday.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "46b79921-f3e0-4a7d-b8bf-5307b74c2142"
+    },
+    {
+      "question_number": 16,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Who is assigned to Friday?",
+      "options": {
+        "A": "Lata",
+        "B": "Karan",
+        "C": "Manav",
+        "D": "Nisha",
+        "E": "Omar"
+      },
+      "correct_option": "A",
+      "correct_answer": "Lata",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Lata.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "cc725916-5995-4469-9803-f094913830e0"
+    },
+    {
+      "question_number": 17,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. How many forms processed does Karan handle?",
+      "options": {
+        "A": "14",
+        "B": "27",
+        "C": "20",
+        "D": "35",
+        "E": "44"
+      },
+      "correct_option": "B",
+      "correct_answer": "27",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is 27.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "548ad680-abd6-4c14-ace9-bc25f8c44b99"
+    },
+    {
+      "question_number": 18,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Who handles 20 forms processed?",
+      "options": {
+        "A": "Lata",
+        "B": "Karan",
+        "C": "Manav",
+        "D": "Nisha",
+        "E": "Omar"
+      },
+      "correct_option": "C",
+      "correct_answer": "Manav",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Manav.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "14780fdd-3689-4fe1-a989-98d0791f1f19"
+    },
+    {
+      "question_number": 19,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. How many weekdays apart are Nisha and Lata assigned?",
+      "options": {
+        "A": "2",
+        "B": "0",
+        "C": "1",
+        "D": "4",
+        "E": "3"
+      },
+      "correct_option": "D",
+      "correct_answer": "4",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is 4.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "e5764f44-6e2c-4702-897c-0ebb6e3f8ef7"
+    },
+    {
+      "question_number": 20,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Which clerk has the highest forms processed?",
+      "options": {
+        "A": "Omar",
+        "B": "Karan",
+        "C": "Manav",
+        "D": "Nisha",
+        "E": "Lata"
+      },
+      "correct_option": "E",
+      "correct_answer": "Lata",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Lata.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "fd2beaf4-1152-45bb-9b0f-e3ad52298954"
+    },
+    {
+      "question_number": 21,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — Five clerks (Karan, Lata, Manav, Nisha, Omar) are each assigned a different weekday from Monday to Friday and handle a different number of forms processed. Use the resulting table to answer the questions. Clues: Karan is immediately before Omar; Manav is scheduled on Tuesday; Karan is scheduled before Lata; Karan's workload is exactly 7 greater than Manav's; Lata's workload is exactly 9 greater than Nisha's. Which table entry is correct?",
+      "options": {
+        "A": "Omar — Thursday — 14",
+        "B": "Manav — Tuesday — 20",
+        "C": "Nisha — Monday — 35",
+        "D": "Karan — Wednesday — 27",
+        "E": "Lata — Friday — 44"
+      },
+      "correct_option": "A",
+      "correct_answer": "Omar — Thursday — 14",
+      "explanation": "Solved table (clerk — weekday — forms processed): Karan — Wednesday — 27; Lata — Friday — 44; Manav — Tuesday — 20; Nisha — Monday — 35; Omar — Thursday — 14. The requested entry is Omar — Thursday — 14.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "8dfeb3ec-3c1c-437b-857c-6dcaf5bbeb84"
+    }
+  ],
+  "final_active_count": 40,
+  "final_inactive_count": 0
+}

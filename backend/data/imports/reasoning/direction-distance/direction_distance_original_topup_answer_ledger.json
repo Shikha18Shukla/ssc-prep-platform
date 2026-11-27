@@ -1,0 +1,678 @@
+{
+  "chapter": "Direction and Distance (Mains)",
+  "chapter_slug": "direction-and-distance-mains",
+  "created_questions": 37,
+  "source_kind": "Original Practice Question",
+  "verification_note": "Generated in-house for this question bank; not copied from source PDFs or labeled as PYQ.",
+  "groups": [],
+  "entries": [
+    {
+      "question_number": 1,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 6 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+2, +2) km (east, north coordinates)",
+        "B": "(-2, +2) km (east, north coordinates)",
+        "C": "(+2, -2) km (east, north coordinates)",
+        "D": "(+3, +2) km (east, north coordinates)",
+        "E": "(+2, +3) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(+2, +2) km (east, north coordinates)",
+      "explanation": "East-west displacement is +2 km and north-south displacement is +2 km after cancelling opposite legs, so the endpoint coordinates are (+2, +2) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "1da09ec9-16fa-4433-abc9-e92ae2890423"
+    },
+    {
+      "question_number": 2,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 6 km, then south 7 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+3, -5) km (east, north coordinates)",
+        "B": "(-3, -5) km (east, north coordinates)",
+        "C": "(-3, +5) km (east, north coordinates)",
+        "D": "(-2, -5) km (east, north coordinates)",
+        "E": "(-3, -4) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(-3, -5) km (east, north coordinates)",
+      "explanation": "East-west displacement is -3 km and north-south displacement is -5 km after cancelling opposite legs, so the endpoint coordinates are (-3, -5) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "9c6634ba-5de6-4eae-9212-b01ba1e6550d"
+    },
+    {
+      "question_number": 3,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 6 km, then north 12 km, then west 2 km, then south 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "4 km",
+        "B": "12 km",
+        "C": "√(16+64) km = 8.94 km",
+        "D": "√(81) km",
+        "E": "8 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(16+64) km = 8.94 km",
+      "explanation": "After cancelling opposite legs the net components are 4 km and 8 km. The shortest distance is √(4² + 8²) = 8.94 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "f2c9543c-7ecf-45d4-b491-db2d4ea2ffcc"
+    },
+    {
+      "question_number": 4,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 6 km, then north 3 km, then east 1 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "correct_answer": "south-west",
+      "explanation": "The net displacement is 5 km west and 3 km south; therefore the endpoint is in the south-west direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "c75730d9-617d-4284-80ed-9eec10253bdc"
+    },
+    {
+      "question_number": 5,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 10 km, then south 3 km, then west 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "North-south component",
+        "D": "The endpoint is at the origin",
+        "E": "Both components are equal"
+      },
+      "correct_option": "E",
+      "correct_answer": "Both components are equal",
+      "explanation": "The uncancelled components have magnitudes |6|=6 km east-west and |6|=6 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "ae906648-9f8a-4724-a08c-81eb975d92b8"
+    },
+    {
+      "question_number": 6,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 10 km, then south 11 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-7, -9) km (east, north coordinates)",
+        "B": "(+7, -9) km (east, north coordinates)",
+        "C": "(-7, +9) km (east, north coordinates)",
+        "D": "(-6, -9) km (east, north coordinates)",
+        "E": "(-7, -8) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(-7, -9) km (east, north coordinates)",
+      "explanation": "East-west displacement is -7 km and north-south displacement is -9 km after cancelling opposite legs, so the endpoint coordinates are (-7, -9) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "b9c4e1ab-43c6-4ae8-91ad-586972d1fd9c"
+    },
+    {
+      "question_number": 7,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 10 km, then north 8 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-8, +4) km (east, north coordinates)",
+        "B": "(+8, +4) km (east, north coordinates)",
+        "C": "(+8, -4) km (east, north coordinates)",
+        "D": "(+9, +4) km (east, north coordinates)",
+        "E": "(+8, +5) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(+8, +4) km (east, north coordinates)",
+      "explanation": "East-west displacement is +8 km and north-south displacement is +4 km after cancelling opposite legs, so the endpoint coordinates are (+8, +4) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "40ffb833-440d-4488-b2dc-242576d81721"
+    },
+    {
+      "question_number": 8,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 3 km, then north 3 km, then east 1 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "5 km",
+        "B": "9 km",
+        "C": "√(4+49) km = 7.28 km",
+        "D": "√(54) km",
+        "E": "7 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(4+49) km = 7.28 km",
+      "explanation": "After cancelling opposite legs the net components are -2 km and -7 km. The shortest distance is √(-2² + -7²) = 7.28 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "d29f05ba-2f25-47a4-841d-1b998c2e5c7f"
+    },
+    {
+      "question_number": 9,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 7 km, then south 3 km, then west 4 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "south-west",
+        "B": "north",
+        "C": "east",
+        "D": "north-east",
+        "E": "west-north"
+      },
+      "correct_option": "D",
+      "correct_answer": "north-east",
+      "explanation": "The net displacement is 3 km east and 2 km north; therefore the endpoint is in the north-east direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "e946d3e5-af4c-45d4-b03b-3e40121b7078"
+    },
+    {
+      "question_number": 10,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 7 km, then south 7 km, then east 3 km, then north 2 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "North-south component"
+      },
+      "correct_option": "E",
+      "correct_answer": "North-south component",
+      "explanation": "The uncancelled components have magnitudes |-4|=4 km east-west and |-5|=5 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "9a2d08f2-1782-406e-b603-c66ff55a0aa4"
+    },
+    {
+      "question_number": 11,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 7 km, then north 12 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+5, +8) km (east, north coordinates)",
+        "B": "(-5, +8) km (east, north coordinates)",
+        "C": "(+5, -8) km (east, north coordinates)",
+        "D": "(+6, +8) km (east, north coordinates)",
+        "E": "(+5, +9) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(+5, +8) km (east, north coordinates)",
+      "explanation": "East-west displacement is +5 km and north-south displacement is +8 km after cancelling opposite legs, so the endpoint coordinates are (+5, +8) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "a3ddf7de-1d08-49ee-8a5a-4382b08c0b95"
+    },
+    {
+      "question_number": 12,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 7 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+6, -3) km (east, north coordinates)",
+        "B": "(-6, -3) km (east, north coordinates)",
+        "C": "(-6, +3) km (east, north coordinates)",
+        "D": "(-5, -3) km (east, north coordinates)",
+        "E": "(-6, -2) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(-6, -3) km (east, north coordinates)",
+      "explanation": "East-west displacement is -6 km and north-south displacement is -3 km after cancelling opposite legs, so the endpoint coordinates are (-6, -3) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "fa083cf0-a0fd-4d02-b0e8-ff3012b7dece"
+    },
+    {
+      "question_number": 13,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 11 km, then south 3 km, then west 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "1 km",
+        "B": "13 km",
+        "C": "√(49+36) km = 9.22 km",
+        "D": "√(86) km",
+        "E": "7 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(49+36) km = 9.22 km",
+      "explanation": "After cancelling opposite legs the net components are 7 km and 6 km. The shortest distance is √(7² + 6²) = 9.22 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "6e37b55d-42da-4539-ac4e-ace18bc40a2d"
+    },
+    {
+      "question_number": 14,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 11 km, then south 11 km, then east 3 km, then north 2 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "correct_answer": "south-west",
+      "explanation": "The net displacement is 8 km west and 9 km south; therefore the endpoint is in the south-west direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "57b22d4d-cf69-4dcb-810b-169486a186d3"
+    },
+    {
+      "question_number": 15,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 4 km, then north 8 km, then west 2 km, then south 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "North-south component"
+      },
+      "correct_option": "E",
+      "correct_answer": "North-south component",
+      "explanation": "The uncancelled components have magnitudes |2|=2 km east-west and |4|=4 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "99f08f96-3d01-487a-b83d-3dddd15a6fc4"
+    },
+    {
+      "question_number": 16,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 4 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-3, -7) km (east, north coordinates)",
+        "B": "(+3, -7) km (east, north coordinates)",
+        "C": "(-3, +7) km (east, north coordinates)",
+        "D": "(-2, -7) km (east, north coordinates)",
+        "E": "(-3, -6) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(-3, -7) km (east, north coordinates)",
+      "explanation": "East-west displacement is -3 km and north-south displacement is -7 km after cancelling opposite legs, so the endpoint coordinates are (-3, -7) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "a64a7c21-1490-4e18-b8f7-ae9ccfe846ad"
+    },
+    {
+      "question_number": 17,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 8 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-4, +2) km (east, north coordinates)",
+        "B": "(+4, +2) km (east, north coordinates)",
+        "C": "(+4, -2) km (east, north coordinates)",
+        "D": "(+5, +2) km (east, north coordinates)",
+        "E": "(+4, +3) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(+4, +2) km (east, north coordinates)",
+      "explanation": "East-west displacement is +4 km and north-south displacement is +2 km after cancelling opposite legs, so the endpoint coordinates are (+4, +2) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "772e7a73-1870-43d4-bb62-e589c85af8a4"
+    },
+    {
+      "question_number": 18,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 8 km, then south 7 km, then east 3 km, then north 2 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "0 km",
+        "B": "10 km",
+        "C": "√(25+25) km = 7.07 km",
+        "D": "√(51) km",
+        "E": "5 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(25+25) km = 7.07 km",
+      "explanation": "After cancelling opposite legs the net components are -5 km and -5 km. The shortest distance is √(-5² + -5²) = 7.07 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "bb0242fe-4ba4-4162-bb8a-ad0c9b1afaa1"
+    },
+    {
+      "question_number": 19,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 8 km, then north 12 km, then west 2 km, then south 4 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "south-west",
+        "B": "north",
+        "C": "east",
+        "D": "north-east",
+        "E": "west-north"
+      },
+      "correct_option": "D",
+      "correct_answer": "north-east",
+      "explanation": "The net displacement is 6 km east and 8 km north; therefore the endpoint is in the north-east direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "dc0ad716-52b0-488c-aedb-a34d9671a6db"
+    },
+    {
+      "question_number": 20,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 8 km, then north 3 km, then east 1 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "East-west component"
+      },
+      "correct_option": "E",
+      "correct_answer": "East-west component",
+      "explanation": "The uncancelled components have magnitudes |-7|=7 km east-west and |-3|=3 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "ed7bb930-b010-4142-960e-529f2ed5e35f"
+    },
+    {
+      "question_number": 21,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 12 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+8, +6) km (east, north coordinates)",
+        "B": "(-8, +6) km (east, north coordinates)",
+        "C": "(+8, -6) km (east, north coordinates)",
+        "D": "(+9, +6) km (east, north coordinates)",
+        "E": "(+8, +7) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(+8, +6) km (east, north coordinates)",
+      "explanation": "East-west displacement is +8 km and north-south displacement is +6 km after cancelling opposite legs, so the endpoint coordinates are (+8, +6) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "b6bd9bb8-006e-4414-8650-2c01e16671d5"
+    },
+    {
+      "question_number": 22,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 5 km, then south 11 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+2, -9) km (east, north coordinates)",
+        "B": "(-2, -9) km (east, north coordinates)",
+        "C": "(-2, +9) km (east, north coordinates)",
+        "D": "(-1, -9) km (east, north coordinates)",
+        "E": "(-2, -8) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(-2, -9) km (east, north coordinates)",
+      "explanation": "East-west displacement is -2 km and north-south displacement is -9 km after cancelling opposite legs, so the endpoint coordinates are (-2, -9) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "3f51275e-6a37-4855-98d2-04711eb8b7e2"
+    },
+    {
+      "question_number": 23,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 5 km, then north 8 km, then west 2 km, then south 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "1 km",
+        "B": "7 km",
+        "C": "√(9+16) km = 5.00 km",
+        "D": "√(26) km",
+        "E": "4 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(9+16) km = 5.00 km",
+      "explanation": "After cancelling opposite legs the net components are 3 km and 4 km. The shortest distance is √(3² + 4²) = 5.00 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0dc51cb4-47b5-48a7-9955-8e82b69093f5"
+    },
+    {
+      "question_number": 24,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 5 km, then north 3 km, then east 1 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "correct_answer": "south-west",
+      "explanation": "The net displacement is 4 km west and 7 km south; therefore the endpoint is in the south-west direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "cab6c4d4-c8bb-4029-bcba-2caeff6808db"
+    },
+    {
+      "question_number": 25,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 9 km, then south 3 km, then west 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "East-west component"
+      },
+      "correct_option": "E",
+      "correct_answer": "East-west component",
+      "explanation": "The uncancelled components have magnitudes |5|=5 km east-west and |2|=2 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "0b482307-3085-4d9d-98f0-36ded9866c21"
+    },
+    {
+      "question_number": 26,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 9 km, then south 7 km, then east 3 km, then north 2 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-6, -5) km (east, north coordinates)",
+        "B": "(+6, -5) km (east, north coordinates)",
+        "C": "(-6, +5) km (east, north coordinates)",
+        "D": "(-5, -5) km (east, north coordinates)",
+        "E": "(-6, -4) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(-6, -5) km (east, north coordinates)",
+      "explanation": "East-west displacement is -6 km and north-south displacement is -5 km after cancelling opposite legs, so the endpoint coordinates are (-6, -5) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "4c634763-83ab-4b09-ad57-188ef43ca325"
+    },
+    {
+      "question_number": 27,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 9 km, then north 12 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-7, +8) km (east, north coordinates)",
+        "B": "(+7, +8) km (east, north coordinates)",
+        "C": "(+7, -8) km (east, north coordinates)",
+        "D": "(+8, +8) km (east, north coordinates)",
+        "E": "(+7, +9) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(+7, +8) km (east, north coordinates)",
+      "explanation": "East-west displacement is +7 km and north-south displacement is +8 km after cancelling opposite legs, so the endpoint coordinates are (+7, +8) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "e91b205e-8943-4df6-8134-e8127aabc504"
+    },
+    {
+      "question_number": 28,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 9 km, then north 3 km, then east 1 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "5 km",
+        "B": "11 km",
+        "C": "√(64+9) km = 8.54 km",
+        "D": "√(74) km",
+        "E": "8 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(64+9) km = 8.54 km",
+      "explanation": "After cancelling opposite legs the net components are -8 km and -3 km. The shortest distance is √(-8² + -3²) = 8.54 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "b72d1eb2-e798-47fe-be58-349fb66e5795"
+    },
+    {
+      "question_number": 29,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 6 km, then south 3 km, then west 4 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "south-west",
+        "B": "north",
+        "C": "east",
+        "D": "north-east",
+        "E": "west-north"
+      },
+      "correct_option": "D",
+      "correct_answer": "north-east",
+      "explanation": "The net displacement is 2 km east and 6 km north; therefore the endpoint is in the north-east direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "3abaa9be-6c6c-4ad1-8e79-3d1488ca4bc3"
+    },
+    {
+      "question_number": 30,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 6 km, then south 11 km, then east 3 km, then north 2 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "Both components are equal",
+        "D": "The endpoint is at the origin",
+        "E": "North-south component"
+      },
+      "correct_option": "E",
+      "correct_answer": "North-south component",
+      "explanation": "The uncancelled components have magnitudes |-3|=3 km east-west and |-9|=9 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "3c71a0e1-b97b-4055-8649-f29b5a574885"
+    },
+    {
+      "question_number": 31,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 6 km, then north 8 km, then west 2 km, then south 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+4, +4) km (east, north coordinates)",
+        "B": "(-4, +4) km (east, north coordinates)",
+        "C": "(+4, -4) km (east, north coordinates)",
+        "D": "(+5, +4) km (east, north coordinates)",
+        "E": "(+4, +5) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(+4, +4) km (east, north coordinates)",
+      "explanation": "East-west displacement is +4 km and north-south displacement is +4 km after cancelling opposite legs, so the endpoint coordinates are (+4, +4) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "7fcb001a-4aeb-424b-90ff-d80900f5cbae"
+    },
+    {
+      "question_number": 32,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 10 km, then west 6 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(+5, -7) km (east, north coordinates)",
+        "B": "(-5, -7) km (east, north coordinates)",
+        "C": "(-5, +7) km (east, north coordinates)",
+        "D": "(-4, -7) km (east, north coordinates)",
+        "E": "(-5, -6) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(-5, -7) km (east, north coordinates)",
+      "explanation": "East-west displacement is -5 km and north-south displacement is -7 km after cancelling opposite legs, so the endpoint coordinates are (-5, -7) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "bd7cefc2-acde-4d79-a25d-e837213911ca"
+    },
+    {
+      "question_number": 33,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 5 km, then east 10 km, then south 3 km, then west 4 km. How far is the endpoint from the starting point in a straight line?",
+      "options": {
+        "A": "4 km",
+        "B": "8 km",
+        "C": "√(36+4) km = 6.32 km",
+        "D": "√(41) km",
+        "E": "6 km"
+      },
+      "correct_option": "C",
+      "correct_answer": "√(36+4) km = 6.32 km",
+      "explanation": "After cancelling opposite legs the net components are 6 km and 2 km. The shortest distance is √(6² + 2²) = 6.32 km.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "26467983-9b25-43c2-a261-93a03dcd98ae"
+    },
+    {
+      "question_number": 34,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks west 10 km, then south 7 km, then east 3 km, then north 2 km. In which direction is the endpoint from the starting point?",
+      "options": {
+        "A": "north-east",
+        "B": "south",
+        "C": "west",
+        "D": "south-west",
+        "E": "east-south"
+      },
+      "correct_option": "D",
+      "correct_answer": "south-west",
+      "explanation": "The net displacement is 7 km west and 5 km south; therefore the endpoint is in the south-west direction.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "44a2ff85-0f1e-475e-81b0-9559f519fe05"
+    },
+    {
+      "question_number": 35,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks east 10 km, then north 12 km, then west 2 km, then south 4 km. Which component has the greater absolute displacement?",
+      "options": {
+        "A": "Cannot be determined from the route",
+        "B": "The route has zero displacement",
+        "C": "North-south component",
+        "D": "The endpoint is at the origin",
+        "E": "Both components are equal"
+      },
+      "correct_option": "E",
+      "correct_answer": "Both components are equal",
+      "explanation": "The uncancelled components have magnitudes |8|=8 km east-west and |8|=8 km north-south.",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "ab054608-4b95-4382-b1b8-f3dcf2c7dced"
+    },
+    {
+      "question_number": 36,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks south 6 km, then west 3 km, then north 3 km, then east 1 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-2, -3) km (east, north coordinates)",
+        "B": "(+2, -3) km (east, north coordinates)",
+        "C": "(-2, +3) km (east, north coordinates)",
+        "D": "(-1, -3) km (east, north coordinates)",
+        "E": "(-2, -2) km (east, north coordinates)"
+      },
+      "correct_option": "A",
+      "correct_answer": "(-2, -3) km (east, north coordinates)",
+      "explanation": "East-west displacement is -2 km and north-south displacement is -3 km after cancelling opposite legs, so the endpoint coordinates are (-2, -3) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "61960745-c634-40dc-9110-e10129668d12"
+    },
+    {
+      "question_number": 37,
+      "classification": "verified_original_practice_imported",
+      "source": "Original Practice Question",
+      "question_text": "Original Practice Question — A courier starts at O and walks north 9 km, then east 7 km, then south 3 km, then west 4 km. What are the endpoint coordinates relative to the starting point, taking east and north as positive?",
+      "options": {
+        "A": "(-3, +6) km (east, north coordinates)",
+        "B": "(+3, +6) km (east, north coordinates)",
+        "C": "(+3, -6) km (east, north coordinates)",
+        "D": "(+4, +6) km (east, north coordinates)",
+        "E": "(+3, +7) km (east, north coordinates)"
+      },
+      "correct_option": "B",
+      "correct_answer": "(+3, +6) km (east, north coordinates)",
+      "explanation": "East-west displacement is +3 km and north-south displacement is +6 km after cancelling opposite legs, so the endpoint coordinates are (+3, +6) km (east, north coordinates).",
+      "independent_validation": "Answer derived from the stated rule, constraints, or criteria; correct option checked against all five unique options.",
+      "database_id": "c9effc1e-6fa3-4d86-aadc-c3ccdbe37c0d"
+    }
+  ],
+  "final_active_count": 40,
+  "final_inactive_count": 0
+}
