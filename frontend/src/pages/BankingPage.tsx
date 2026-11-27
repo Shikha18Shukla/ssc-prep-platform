@@ -45,6 +45,12 @@ const mathsChapterKeys: Record<string, string> = {
   percentage: "percentage",
   "ratio-and-proportion": "ratio_proportion",
   "profit-loss-and-discount": "profit_loss_discount",
+  "pipe-and-cistern": "pipe_and_cistern",
+  average: "average",
+  "speed-time-and-distance": "speed_time_distance",
+  "problems-on-trains": "problems_on_trains",
+  "boats-and-streams": "boats_and_streams",
+  "mensuration-2d": "mensuration_2d",
 };
 const mathsParts = [
   { part: 1, count: 15, minutes: 10.5, title: "Part 1", subtitle: "15 Questions · 10.5 Minutes", level: "Easy" },
