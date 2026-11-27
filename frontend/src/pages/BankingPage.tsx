@@ -25,6 +25,8 @@ const poTestConfigs = {
   3: { section: "banking_po_current_affairs_test_3", count: 100, minutes: 70, title: "Current Affairs Test 3", subtitle: "100 Questions · 70 Minutes" },
   4: { section: "banking_po_current_affairs_test_4", count: 75, minutes: 53, title: "Current Affairs Test 4", subtitle: "75 Questions · 53 Minutes" },
   5: { section: "banking_po_current_affairs_test_5", count: 75, minutes: 53, title: "Current Affairs Test 5", subtitle: "75 Questions · 53 Minutes" },
+  6: { section: "banking_po_current_affairs_test_6", count: 50, minutes: 35, title: "Current Affairs Test 6", subtitle: "50 Questions · 35 Minutes" },
+  7: { section: "banking_po_current_affairs_test_7", count: 75, minutes: 53, title: "Current Affairs Test 7", subtitle: "75 Questions · 53 Minutes" },
 } as const;
 
 export default function BankingPage() {
