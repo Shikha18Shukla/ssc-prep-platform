@@ -1,0 +1,4242 @@
+[
+  {
+    "id": "profit_and_loss_mains-0001",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "An article has marked price ₹40000 and cost ₹28000. Successive discounts of 10% and 5% are given. Find the profit percent.",
+    "options": [
+      "20.14%",
+      "11.07%",
+      "22.14%",
+      "24.14%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "22.14%",
+    "explanation": "Selling price = ₹34200; profit = ₹6200; profit% = 22.14%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_successive_discount_profit",
+      "variant": 0,
+      "inputs": {
+        "mp": 40000,
+        "cost": 28000,
+        "d1": 10,
+        "d2": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0002",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "An article has marked price ₹50000 and cost ₹36000. Successive discounts of 15% and 10% are given. Find the profit percent.",
+    "options": [
+      "4.25%",
+      "8.25%",
+      "3.12%",
+      "6.25%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6.25%",
+    "explanation": "Selling price = ₹38250; profit = ₹2250; profit% = 6.25%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_successive_discount_profit",
+      "variant": 1,
+      "inputs": {
+        "mp": 50000,
+        "cost": 36000,
+        "d1": 15,
+        "d2": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0003",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "An article has marked price ₹60000 and cost ₹42000. Successive discounts of 20% and 5% are given. Find the profit percent.",
+    "options": [
+      "8.57%",
+      "10.57%",
+      "6.57%",
+      "4.29%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8.57%",
+    "explanation": "Selling price = ₹45600; profit = ₹3600; profit% = 8.57%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_successive_discount_profit",
+      "variant": 2,
+      "inputs": {
+        "mp": 60000,
+        "cost": 42000,
+        "d1": 20,
+        "d2": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0004",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "An article has marked price ₹72000 and cost ₹50000. Successive discounts of 25% and 10% are given. Find the profit percent.",
+    "options": [
+      "-0.8%",
+      "-4.8%",
+      "-2.8%",
+      "-1.4%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-2.8%",
+    "explanation": "Selling price = ₹48600; profit = ₹-1400; profit% = -2.8%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_successive_discount_profit",
+      "variant": 3,
+      "inputs": {
+        "mp": 72000,
+        "cost": 50000,
+        "d1": 25,
+        "d2": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0005",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "An article has marked price ₹90000 and cost ₹63000. Successive discounts of 20% and 15% are given. Find the profit percent.",
+    "options": [
+      "-1.43%",
+      "-4.86%",
+      "-2.86%",
+      "-0.86%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-2.86%",
+    "explanation": "Selling price = ₹61200; profit = ₹-1800; profit% = -2.86%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_successive_discount_profit",
+      "variant": 4,
+      "inputs": {
+        "mp": 90000,
+        "cost": 63000,
+        "d1": 20,
+        "d2": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0006",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Marked price : cost price = 5:4. A discount of 10% is given. Find the profit percent.",
+    "options": [
+      "6.25%",
+      "14.5%",
+      "10.5%",
+      "12.5%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12.5%",
+    "explanation": "Let CP = 4x and MP = 5x. SP = 5x x 90/100. Profit% = 12.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mp_cp_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 5,
+        "b": 4,
+        "discount": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0007",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Marked price : cost price = 7:5. A discount of 20% is given. Find the profit percent.",
+    "options": [
+      "6%",
+      "12%",
+      "14%",
+      "10%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12%",
+    "explanation": "Let CP = 5x and MP = 7x. SP = 7x x 80/100. Profit% = 12%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mp_cp_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 7,
+        "b": 5,
+        "discount": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0008",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Marked price : cost price = 9:7. A discount of 15% is given. Find the profit percent.",
+    "options": [
+      "9.29%",
+      "11.29%",
+      "4.64%",
+      "7.29%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9.29%",
+    "explanation": "Let CP = 7x and MP = 9x. SP = 9x x 85/100. Profit% = 9.29%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mp_cp_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 9,
+        "b": 7,
+        "discount": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0009",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Marked price : cost price = 11:8. A discount of 25% is given. Find the profit percent.",
+    "options": [
+      "1.56%",
+      "5.12%",
+      "1.12%",
+      "3.12%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3.12%",
+    "explanation": "Let CP = 8x and MP = 11x. SP = 11x x 75/100. Profit% = 3.12%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mp_cp_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 11,
+        "b": 8,
+        "discount": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0010",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Marked price : cost price = 13:10. A discount of 20% is given. Find the profit percent.",
+    "options": [
+      "6%",
+      "2%",
+      "5%",
+      "4%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4%",
+    "explanation": "Let CP = 10x and MP = 13x. SP = 13x x 80/100. Profit% = 4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mp_cp_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 13,
+        "b": 10,
+        "discount": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0011",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Two articles are sold at the same price ₹24000. One earns 20% and the other loses 20%. Find the net profit or loss percent.",
+    "options": [
+      "-3%",
+      "-2%",
+      "-4%",
+      "-6%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-4%",
+    "explanation": "CPs are ₹20000 and ₹30000; total CP = ₹50000, total SP = ₹48000; net = -4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_same_sp",
+      "variant": 0,
+      "inputs": {
+        "sp": 24000,
+        "profit": 20,
+        "loss": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0012",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Two articles are sold at the same price ₹36000. One earns 25% and the other loses 10%. Find the net profit or loss percent.",
+    "options": [
+      "6.65%",
+      "2.33%",
+      "4.65%",
+      "2.65%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4.65%",
+    "explanation": "CPs are ₹28800 and ₹40000; total CP = ₹68800, total SP = ₹72000; net = 4.65%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_same_sp",
+      "variant": 1,
+      "inputs": {
+        "sp": 36000,
+        "profit": 25,
+        "loss": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0013",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Two articles are sold at the same price ₹48000. One earns 30% and the other loses 20%. Find the net profit or loss percent.",
+    "options": [
+      "1.05%",
+      "-0.95%",
+      "-0.48%",
+      "-2.95%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-0.95%",
+    "explanation": "CPs are ₹480000/13 and ₹60000; total CP = ₹1260000/13, total SP = ₹96000; net = -0.95%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_same_sp",
+      "variant": 2,
+      "inputs": {
+        "sp": 48000,
+        "profit": 30,
+        "loss": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0014",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Two articles are sold at the same price ₹60000. One earns 20% and the other loses 25%. Find the net profit or loss percent.",
+    "options": [
+      "-7.69%",
+      "-9.69%",
+      "-3.85%",
+      "-5.69%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "-7.69%",
+    "explanation": "CPs are ₹50000 and ₹80000; total CP = ₹130000, total SP = ₹120000; net = -7.69%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_same_sp",
+      "variant": 3,
+      "inputs": {
+        "sp": 60000,
+        "profit": 20,
+        "loss": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0015",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 1,
+    "section": "profit_and_loss_mains_part_1",
+    "question_text": "Two articles are sold at the same price ₹72000. One earns 40% and the other loses 20%. Find the net profit or loss percent.",
+    "options": [
+      "3.82%",
+      "-0.18%",
+      "1.82%",
+      "0.91%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1.82%",
+    "explanation": "CPs are ₹360000/7 and ₹90000; total CP = ₹990000/7, total SP = ₹144000; net = 1.82%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_same_sp",
+      "variant": 4,
+      "inputs": {
+        "sp": 72000,
+        "profit": 40,
+        "loss": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0016",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A trader mixes 20 kg of free filler with 80 kg of goods costing ₹50/kg and sells the whole lot at ₹55/kg. Find the profit percent.",
+    "options": [
+      "39.5%",
+      "37.5%",
+      "18.75%",
+      "35.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "37.5%",
+    "explanation": "Cost = ₹4000; revenue = ₹5500; profit% = 37.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_adulteration",
+      "variant": 0,
+      "inputs": {
+        "pure": 80,
+        "added": 20,
+        "cost": 50,
+        "sell": 55
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0017",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A trader mixes 25 kg of free filler with 100 kg of goods costing ₹60/kg and sells the whole lot at ₹66/kg. Find the profit percent.",
+    "options": [
+      "18.75%",
+      "37.5%",
+      "35.5%",
+      "39.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "37.5%",
+    "explanation": "Cost = ₹6000; revenue = ₹8250; profit% = 37.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_adulteration",
+      "variant": 1,
+      "inputs": {
+        "pure": 100,
+        "added": 25,
+        "cost": 60,
+        "sell": 66
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0018",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A trader mixes 30 kg of free filler with 120 kg of goods costing ₹75/kg and sells the whole lot at ₹80/kg. Find the profit percent.",
+    "options": [
+      "31.33%",
+      "35.33%",
+      "16.67%",
+      "33.33%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "33.33%",
+    "explanation": "Cost = ₹9000; revenue = ₹12000; profit% = 33.33%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_adulteration",
+      "variant": 2,
+      "inputs": {
+        "pure": 120,
+        "added": 30,
+        "cost": 75,
+        "sell": 80
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0019",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A trader mixes 50 kg of free filler with 150 kg of goods costing ₹80/kg and sells the whole lot at ₹85/kg. Find the profit percent.",
+    "options": [
+      "41.67%",
+      "39.67%",
+      "20.83%",
+      "43.67%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "41.67%",
+    "explanation": "Cost = ₹12000; revenue = ₹17000; profit% = 41.67%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_adulteration",
+      "variant": 3,
+      "inputs": {
+        "pure": 150,
+        "added": 50,
+        "cost": 80,
+        "sell": 85
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0020",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A trader mixes 40 kg of free filler with 200 kg of goods costing ₹90/kg and sells the whole lot at ₹95/kg. Find the profit percent.",
+    "options": [
+      "28.67%",
+      "24.67%",
+      "26.67%",
+      "13.33%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "26.67%",
+    "explanation": "Cost = ₹18000; revenue = ₹22800; profit% = 26.67%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_adulteration",
+      "variant": 4,
+      "inputs": {
+        "pure": 200,
+        "added": 40,
+        "cost": 90,
+        "sell": 95
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0021",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A dealer sells 900 g while charging for 1000 g at the cost rate of ₹80/kg. Find the profit percent.",
+    "options": [
+      "11.11%",
+      "5.56%",
+      "9.11%",
+      "13.11%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11.11%",
+    "explanation": "He receives payment for 1000 g but parts with 900 g. Profit% = (1000-900)/900 x 100 = 11.11%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_false_weight",
+      "variant": 0,
+      "inputs": {
+        "claimed": 1000,
+        "actual": 900,
+        "rate": 80
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0022",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A dealer sells 850 g while charging for 1000 g at the cost rate of ₹100/kg. Find the profit percent.",
+    "options": [
+      "19.65%",
+      "17.65%",
+      "8.82%",
+      "15.65%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "17.65%",
+    "explanation": "He receives payment for 1000 g but parts with 850 g. Profit% = (1000-850)/850 x 100 = 17.65%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_false_weight",
+      "variant": 1,
+      "inputs": {
+        "claimed": 1000,
+        "actual": 850,
+        "rate": 100
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0023",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A dealer sells 1750 g while charging for 2000 g at the cost rate of ₹60/kg. Find the profit percent.",
+    "options": [
+      "16.29%",
+      "7.14%",
+      "14.29%",
+      "12.29%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "14.29%",
+    "explanation": "He receives payment for 2000 g but parts with 1750 g. Profit% = (2000-1750)/1750 x 100 = 14.29%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_false_weight",
+      "variant": 2,
+      "inputs": {
+        "claimed": 2000,
+        "actual": 1750,
+        "rate": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0024",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A dealer sells 4500 g while charging for 5000 g at the cost rate of ₹120/kg. Find the profit percent.",
+    "options": [
+      "13.11%",
+      "5.56%",
+      "9.11%",
+      "11.11%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11.11%",
+    "explanation": "He receives payment for 5000 g but parts with 4500 g. Profit% = (5000-4500)/4500 x 100 = 11.11%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_false_weight",
+      "variant": 3,
+      "inputs": {
+        "claimed": 5000,
+        "actual": 4500,
+        "rate": 120
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0025",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A dealer sells 8750 g while charging for 10000 g at the cost rate of ₹150/kg. Find the profit percent.",
+    "options": [
+      "7.14%",
+      "16.29%",
+      "14.29%",
+      "12.29%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "14.29%",
+    "explanation": "He receives payment for 10000 g but parts with 8750 g. Profit% = (10000-8750)/8750 x 100 = 14.29%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_false_weight",
+      "variant": 4,
+      "inputs": {
+        "claimed": 10000,
+        "actual": 8750,
+        "rate": 150
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0026",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A scheme offers 1 free item(s) for every 4 bought. The markup on cost is 20%. Find the effective profit percent.",
+    "options": [
+      "-2%",
+      "-6%",
+      "-3%",
+      "-4%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "-4%",
+    "explanation": "Customer pays for 4 units at 120% of cost and receives 5; profit% = -4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_free_item",
+      "variant": 0,
+      "inputs": {
+        "buy": 4,
+        "free": 1,
+        "markup": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0027",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A scheme offers 1 free item(s) for every 5 bought. The markup on cost is 25%. Find the effective profit percent.",
+    "options": [
+      "2.17%",
+      "2.08%",
+      "4.17%",
+      "6.17%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4.17%",
+    "explanation": "Customer pays for 5 units at 125% of cost and receives 6; profit% = 4.17%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_free_item",
+      "variant": 1,
+      "inputs": {
+        "buy": 5,
+        "free": 1,
+        "markup": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0028",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A scheme offers 2 free item(s) for every 6 bought. The markup on cost is 30%. Find the effective profit percent.",
+    "options": [
+      "-1.25%",
+      "-2.5%",
+      "-4.5%",
+      "-0.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-2.5%",
+    "explanation": "Customer pays for 6 units at 130% of cost and receives 8; profit% = -2.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_free_item",
+      "variant": 2,
+      "inputs": {
+        "buy": 6,
+        "free": 2,
+        "markup": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0029",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A scheme offers 2 free item(s) for every 8 bought. The markup on cost is 40%. Find the effective profit percent.",
+    "options": [
+      "10%",
+      "6%",
+      "14%",
+      "12%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12%",
+    "explanation": "Customer pays for 8 units at 140% of cost and receives 10; profit% = 12%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_free_item",
+      "variant": 3,
+      "inputs": {
+        "buy": 8,
+        "free": 2,
+        "markup": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0030",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "A scheme offers 3 free item(s) for every 9 bought. The markup on cost is 50%. Find the effective profit percent.",
+    "options": [
+      "14.5%",
+      "6.25%",
+      "12.5%",
+      "10.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12.5%",
+    "explanation": "Customer pays for 9 units at 150% of cost and receives 12; profit% = 12.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_free_item",
+      "variant": 4,
+      "inputs": {
+        "buy": 9,
+        "free": 3,
+        "markup": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0031",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "An item costs ₹50000 before overheads of 8%. The seller wants 15% profit on the total cost. Find the selling price.",
+    "options": [
+      "₹62100",
+      "₹64100",
+      "₹60100",
+      "₹124200"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹62100",
+    "explanation": "Effective cost = ₹54000; SP = ₹62100.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_overheads",
+      "variant": 0,
+      "inputs": {
+        "base": 50000,
+        "overhead": 8,
+        "profit": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0032",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "An item costs ₹60000 before overheads of 10%. The seller wants 20% profit on the total cost. Find the selling price.",
+    "options": [
+      "₹77200",
+      "₹158400",
+      "₹79200",
+      "₹81200"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹79200",
+    "explanation": "Effective cost = ₹66000; SP = ₹79200.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_overheads",
+      "variant": 1,
+      "inputs": {
+        "base": 60000,
+        "overhead": 10,
+        "profit": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0033",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "An item costs ₹75000 before overheads of 12%. The seller wants 18% profit on the total cost. Find the selling price.",
+    "options": [
+      "₹97120",
+      "₹198240",
+      "₹101120",
+      "₹99120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹99120",
+    "explanation": "Effective cost = ₹84000; SP = ₹99120.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_overheads",
+      "variant": 2,
+      "inputs": {
+        "base": 75000,
+        "overhead": 12,
+        "profit": 18
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0034",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "An item costs ₹90000 before overheads of 15%. The seller wants 25% profit on the total cost. Find the selling price.",
+    "options": [
+      "₹131375",
+      "₹127375",
+      "₹258750",
+      "₹129375"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹129375",
+    "explanation": "Effective cost = ₹103500; SP = ₹129375.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_overheads",
+      "variant": 3,
+      "inputs": {
+        "base": 90000,
+        "overhead": 15,
+        "profit": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0035",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 2,
+    "section": "profit_and_loss_mains_part_2",
+    "question_text": "An item costs ₹120000 before overheads of 20%. The seller wants 30% profit on the total cost. Find the selling price.",
+    "options": [
+      "₹189200",
+      "₹187200",
+      "₹374400",
+      "₹185200"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹187200",
+    "explanation": "Effective cost = ₹144000; SP = ₹187200.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_overheads",
+      "variant": 4,
+      "inputs": {
+        "base": 120000,
+        "overhead": 20,
+        "profit": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0036",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A trader sells an article at 20% profit, buys it back at that price and sells it again at 10% loss. Find the net profit or loss percent on the original cost.",
+    "options": [
+      "8%",
+      "10%",
+      "4%",
+      "6%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8%",
+    "explanation": "Final SP = original cost x 120/100 x 90/100 = ₹21600; net = 8%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_two_transactions",
+      "variant": 0,
+      "inputs": {
+        "cost": 20000,
+        "p": 20,
+        "q": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0037",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A trader sells an article at 25% profit, buys it back at that price and sells it again at 15% loss. Find the net profit or loss percent on the original cost.",
+    "options": [
+      "6.25%",
+      "8.25%",
+      "3.12%",
+      "4.25%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6.25%",
+    "explanation": "Final SP = original cost x 125/100 x 85/100 = ₹31875; net = 6.25%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_two_transactions",
+      "variant": 1,
+      "inputs": {
+        "cost": 30000,
+        "p": 25,
+        "q": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0038",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A trader sells an article at 30% profit, buys it back at that price and sells it again at 20% loss. Find the net profit or loss percent on the original cost.",
+    "options": [
+      "5%",
+      "4%",
+      "2%",
+      "6%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4%",
+    "explanation": "Final SP = original cost x 130/100 x 80/100 = ₹41600; net = 4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_two_transactions",
+      "variant": 2,
+      "inputs": {
+        "cost": 40000,
+        "p": 30,
+        "q": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0039",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A trader sells an article at 10% profit, buys it back at that price and sells it again at 25% loss. Find the net profit or loss percent on the original cost.",
+    "options": [
+      "-8.75%",
+      "-17.5%",
+      "-15.5%",
+      "-19.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-17.5%",
+    "explanation": "Final SP = original cost x 110/100 x 75/100 = ₹41250; net = -17.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_two_transactions",
+      "variant": 3,
+      "inputs": {
+        "cost": 50000,
+        "p": 10,
+        "q": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0040",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A trader sells an article at 15% profit, buys it back at that price and sells it again at 30% loss. Find the net profit or loss percent on the original cost.",
+    "options": [
+      "-21.5%",
+      "-17.5%",
+      "-19.5%",
+      "-9.75%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-19.5%",
+    "explanation": "Final SP = original cost x 115/100 x 70/100 = ₹48300; net = -19.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_two_transactions",
+      "variant": 4,
+      "inputs": {
+        "cost": 60000,
+        "p": 15,
+        "q": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0041",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Profit is 20% of the selling price ₹40000. Find the profit percent on cost.",
+    "options": [
+      "27%",
+      "23%",
+      "12.5%",
+      "25%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "25%",
+    "explanation": "Cost = ₹32000; profit = ₹8000; profit% on cost = 25%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_profit_on_sp",
+      "variant": 0,
+      "inputs": {
+        "sp": 40000,
+        "p": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0042",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Profit is 25% of the selling price ₹50000. Find the profit percent on cost.",
+    "options": [
+      "31.33%",
+      "16.67%",
+      "33.33%",
+      "35.33%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "33.33%",
+    "explanation": "Cost = ₹37500; profit = ₹12500; profit% on cost = 33.33%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_profit_on_sp",
+      "variant": 1,
+      "inputs": {
+        "sp": 50000,
+        "p": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0043",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Profit is 30% of the selling price ₹60000. Find the profit percent on cost.",
+    "options": [
+      "40.86%",
+      "42.86%",
+      "44.86%",
+      "21.43%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "42.86%",
+    "explanation": "Cost = ₹42000; profit = ₹18000; profit% on cost = 42.86%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_profit_on_sp",
+      "variant": 2,
+      "inputs": {
+        "sp": 60000,
+        "p": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0044",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Profit is 40% of the selling price ₹72000. Find the profit percent on cost.",
+    "options": [
+      "68.67%",
+      "64.67%",
+      "66.67%",
+      "33.33%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "66.67%",
+    "explanation": "Cost = ₹43200; profit = ₹28800; profit% on cost = 66.67%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_profit_on_sp",
+      "variant": 3,
+      "inputs": {
+        "sp": 72000,
+        "p": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0045",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Profit is 50% of the selling price ₹90000. Find the profit percent on cost.",
+    "options": [
+      "102%",
+      "100%",
+      "98%",
+      "50%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "100%",
+    "explanation": "Cost = ₹45000; profit = ₹45000; profit% on cost = 100%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_profit_on_sp",
+      "variant": 4,
+      "inputs": {
+        "sp": 90000,
+        "p": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0046",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Two articles are sold at the same price, one at 10% profit and the other at 10% loss. Find the net result percent.",
+    "options": [
+      "-3%",
+      "-1%",
+      "1%",
+      "-0.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-1%",
+    "explanation": "With equal selling prices, net loss% = p²/100 = 10²/100 = 1%, written as -1%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_sp_loss",
+      "variant": 0,
+      "inputs": {
+        "p": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0047",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Two articles are sold at the same price, one at 20% profit and the other at 20% loss. Find the net result percent.",
+    "options": [
+      "-6%",
+      "-3%",
+      "-2%",
+      "-4%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "-4%",
+    "explanation": "With equal selling prices, net loss% = p²/100 = 20²/100 = 4%, written as -4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_sp_loss",
+      "variant": 1,
+      "inputs": {
+        "p": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0048",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Two articles are sold at the same price, one at 25% profit and the other at 25% loss. Find the net result percent.",
+    "options": [
+      "-3.12%",
+      "-8.25%",
+      "-6.25%",
+      "-4.25%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-6.25%",
+    "explanation": "With equal selling prices, net loss% = p²/100 = 25²/100 = 6.25%, written as -6.25%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_sp_loss",
+      "variant": 2,
+      "inputs": {
+        "p": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0049",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Two articles are sold at the same price, one at 30% profit and the other at 30% loss. Find the net result percent.",
+    "options": [
+      "-9%",
+      "-11%",
+      "-7%",
+      "-4.5%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "-9%",
+    "explanation": "With equal selling prices, net loss% = p²/100 = 30²/100 = 9%, written as -9%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_sp_loss",
+      "variant": 3,
+      "inputs": {
+        "p": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0050",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "Two articles are sold at the same price, one at 40% profit and the other at 40% loss. Find the net result percent.",
+    "options": [
+      "-16%",
+      "-14%",
+      "-18%",
+      "-8%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "-16%",
+    "explanation": "With equal selling prices, net loss% = p²/100 = 40²/100 = 16%, written as -16%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_sp_loss",
+      "variant": 4,
+      "inputs": {
+        "p": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0051",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "An invoice has cost ₹30000, marked price ₹40000, discount 10% and tax 8% on the discounted price. Find the profit before tax.",
+    "options": [
+      "₹6000",
+      "₹5000",
+      "₹7000",
+      "₹12000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹6000",
+    "explanation": "Discounted price = ₹36000; tax = ₹2880 (not part of profit); profit = ₹6000.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_tax_invoice",
+      "variant": 0,
+      "inputs": {
+        "cost": 30000,
+        "mp": 40000,
+        "discount": 10,
+        "tax": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0052",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "An invoice has cost ₹40000, marked price ₹52000, discount 15% and tax 5% on the discounted price. Find the profit before tax.",
+    "options": [
+      "₹4200",
+      "₹3200",
+      "₹8400",
+      "₹5200"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹4200",
+    "explanation": "Discounted price = ₹44200; tax = ₹2210 (not part of profit); profit = ₹4200.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_tax_invoice",
+      "variant": 1,
+      "inputs": {
+        "cost": 40000,
+        "mp": 52000,
+        "discount": 15,
+        "tax": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0053",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "An invoice has cost ₹50000, marked price ₹65000, discount 20% and tax 12% on the discounted price. Find the profit before tax.",
+    "options": [
+      "₹1000",
+      "₹2000",
+      "₹3000",
+      "₹4000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹2000",
+    "explanation": "Discounted price = ₹52000; tax = ₹6240 (not part of profit); profit = ₹2000.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_tax_invoice",
+      "variant": 2,
+      "inputs": {
+        "cost": 50000,
+        "mp": 65000,
+        "discount": 20,
+        "tax": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0054",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "An invoice has cost ₹60000, marked price ₹78000, discount 25% and tax 6% on the discounted price. Find the profit before tax.",
+    "options": [
+      "₹-3000",
+      "₹-2500",
+      "₹-1500",
+      "₹-500"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹-1500",
+    "explanation": "Discounted price = ₹58500; tax = ₹3510 (not part of profit); profit = ₹-1500.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_tax_invoice",
+      "variant": 3,
+      "inputs": {
+        "cost": 60000,
+        "mp": 78000,
+        "discount": 25,
+        "tax": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0055",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "An invoice has cost ₹80000, marked price ₹100000, discount 20% and tax 10% on the discounted price. Find the profit before tax.",
+    "options": [
+      "₹1",
+      "₹-1000",
+      "₹0",
+      "₹1000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹0",
+    "explanation": "Discounted price = ₹80000; tax = ₹8000 (not part of profit); profit = ₹0.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_tax_invoice",
+      "variant": 4,
+      "inputs": {
+        "cost": 80000,
+        "mp": 100000,
+        "discount": 20,
+        "tax": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0056",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A maker sells to a retailer at 20% profit and the retailer marks up 25% before giving 10% discount. Starting from cost ₹20000, find the overall profit percent.",
+    "options": [
+      "37%",
+      "33%",
+      "35%",
+      "17.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35%",
+    "explanation": "Final price = ₹27000; profit% = 35%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_chain",
+      "variant": 0,
+      "inputs": {
+        "cost": 20000,
+        "p": 20,
+        "q": 25,
+        "discount": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0057",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A maker sells to a retailer at 15% profit and the retailer marks up 20% before giving 5% discount. Starting from cost ₹30000, find the overall profit percent.",
+    "options": [
+      "33.1%",
+      "15.55%",
+      "31.1%",
+      "29.1%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "31.1%",
+    "explanation": "Final price = ₹39330; profit% = 31.1%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_chain",
+      "variant": 1,
+      "inputs": {
+        "cost": 30000,
+        "p": 15,
+        "q": 20,
+        "discount": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0058",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A maker sells to a retailer at 25% profit and the retailer marks up 20% before giving 15% discount. Starting from cost ₹40000, find the overall profit percent.",
+    "options": [
+      "27.5%",
+      "25.5%",
+      "29.5%",
+      "13.75%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27.5%",
+    "explanation": "Final price = ₹51000; profit% = 27.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_chain",
+      "variant": 2,
+      "inputs": {
+        "cost": 40000,
+        "p": 25,
+        "q": 20,
+        "discount": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0059",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A maker sells to a retailer at 10% profit and the retailer marks up 30% before giving 10% discount. Starting from cost ₹50000, find the overall profit percent.",
+    "options": [
+      "26.7%",
+      "28.7%",
+      "30.7%",
+      "14.35%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "28.7%",
+    "explanation": "Final price = ₹64350; profit% = 28.7%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_chain",
+      "variant": 3,
+      "inputs": {
+        "cost": 50000,
+        "p": 10,
+        "q": 30,
+        "discount": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0060",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A maker sells to a retailer at 20% profit and the retailer marks up 25% before giving 20% discount. Starting from cost ₹60000, find the overall profit percent.",
+    "options": [
+      "20%",
+      "22%",
+      "18%",
+      "10%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20%",
+    "explanation": "Final price = ₹72000; profit% = 20%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_chain",
+      "variant": 4,
+      "inputs": {
+        "cost": 60000,
+        "p": 20,
+        "q": 25,
+        "discount": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0061",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A merchant buys 100 kg at ₹40/kg. 10% is wasted and the rest sold at ₹52/kg. Find the profit percent.",
+    "options": [
+      "19%",
+      "8.5%",
+      "15%",
+      "17%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17%",
+    "explanation": "Good quantity = 90 kg; revenue = ₹4680; cost = ₹4000; profit% = 17%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_wastage",
+      "variant": 0,
+      "inputs": {
+        "qty": 100,
+        "cost": 40,
+        "waste": 10,
+        "sell": 52
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0062",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A merchant buys 200 kg at ₹50/kg. 15% is wasted and the rest sold at ₹65/kg. Find the profit percent.",
+    "options": [
+      "10.5%",
+      "5.25%",
+      "12.5%",
+      "8.5%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10.5%",
+    "explanation": "Good quantity = 170 kg; revenue = ₹11050; cost = ₹10000; profit% = 10.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_wastage",
+      "variant": 1,
+      "inputs": {
+        "qty": 200,
+        "cost": 50,
+        "waste": 15,
+        "sell": 65
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0063",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A merchant buys 300 kg at ₹60/kg. 20% is wasted and the rest sold at ₹78/kg. Find the profit percent.",
+    "options": [
+      "2%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4%",
+    "explanation": "Good quantity = 240 kg; revenue = ₹18720; cost = ₹18000; profit% = 4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_wastage",
+      "variant": 2,
+      "inputs": {
+        "qty": 300,
+        "cost": 60,
+        "waste": 20,
+        "sell": 78
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0064",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A merchant buys 400 kg at ₹75/kg. 25% is wasted and the rest sold at ₹100/kg. Find the profit percent.",
+    "options": [
+      "0%",
+      "2%",
+      "1%",
+      "-2%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "0%",
+    "explanation": "Good quantity = 300 kg; revenue = ₹30000; cost = ₹30000; profit% = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_wastage",
+      "variant": 3,
+      "inputs": {
+        "qty": 400,
+        "cost": 75,
+        "waste": 25,
+        "sell": 100
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0065",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 3,
+    "section": "profit_and_loss_mains_part_3",
+    "question_text": "A merchant buys 500 kg at ₹80/kg. 30% is wasted and the rest sold at ₹110/kg. Find the profit percent.",
+    "options": [
+      "-1.75%",
+      "-5.75%",
+      "-3.75%",
+      "-1.88%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-3.75%",
+    "explanation": "Good quantity = 350 kg; revenue = ₹38500; cost = ₹40000; profit% = -3.75%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_wastage",
+      "variant": 4,
+      "inputs": {
+        "qty": 500,
+        "cost": 80,
+        "waste": 30,
+        "sell": 110
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0066",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article costs ₹28000. The seller wants 25% profit after a 20% discount. Find the required marked price.",
+    "options": [
+      "₹43750",
+      "₹45750",
+      "₹41750",
+      "₹87500"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹43750",
+    "explanation": "Required SP = ₹35000; MP = SP x 100/80 = ₹43750.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_markup_target",
+      "variant": 0,
+      "inputs": {
+        "cost": 28000,
+        "target": 25,
+        "discount": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0067",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article costs ₹36000. The seller wants 30% profit after a 25% discount. Find the required marked price.",
+    "options": [
+      "₹64400",
+      "₹62400",
+      "₹124800",
+      "₹60400"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹62400",
+    "explanation": "Required SP = ₹46800; MP = SP x 100/75 = ₹62400.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_markup_target",
+      "variant": 1,
+      "inputs": {
+        "cost": 36000,
+        "target": 30,
+        "discount": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0068",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article costs ₹45000. The seller wants 20% profit after a 10% discount. Find the required marked price.",
+    "options": [
+      "₹62000",
+      "₹58000",
+      "₹60000",
+      "₹120000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹60000",
+    "explanation": "Required SP = ₹54000; MP = SP x 100/90 = ₹60000.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_markup_target",
+      "variant": 2,
+      "inputs": {
+        "cost": 45000,
+        "target": 20,
+        "discount": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0069",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article costs ₹56000. The seller wants 35% profit after a 30% discount. Find the required marked price.",
+    "options": [
+      "₹108000",
+      "₹216000",
+      "₹110000",
+      "₹106000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹108000",
+    "explanation": "Required SP = ₹75600; MP = SP x 100/70 = ₹108000.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_markup_target",
+      "variant": 3,
+      "inputs": {
+        "cost": 56000,
+        "target": 35,
+        "discount": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0070",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article costs ₹70000. The seller wants 40% profit after a 20% discount. Find the required marked price.",
+    "options": [
+      "₹245000",
+      "₹122500",
+      "₹120500",
+      "₹124500"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹122500",
+    "explanation": "Required SP = ₹98000; MP = SP x 100/80 = ₹122500.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_markup_target",
+      "variant": 4,
+      "inputs": {
+        "cost": 70000,
+        "target": 40,
+        "discount": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0071",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "40% of a stock is sold at 20% profit and the rest at 10% loss. Find the overall profit or loss percent.",
+    "options": [
+      "2%",
+      "1%",
+      "0%",
+      "4%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2%",
+    "explanation": "Weighted result = (40x20 - 60x10)/100 = 2%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_partial",
+      "variant": 0,
+      "inputs": {
+        "x": 40,
+        "p": 20,
+        "q": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0072",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "50% of a stock is sold at 25% profit and the rest at 15% loss. Find the overall profit or loss percent.",
+    "options": [
+      "5%",
+      "3%",
+      "2.5%",
+      "7%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5%",
+    "explanation": "Weighted result = (50x25 - 50x15)/100 = 5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_partial",
+      "variant": 1,
+      "inputs": {
+        "x": 50,
+        "p": 25,
+        "q": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0073",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "60% of a stock is sold at 30% profit and the rest at 20% loss. Find the overall profit or loss percent.",
+    "options": [
+      "10%",
+      "5%",
+      "12%",
+      "8%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10%",
+    "explanation": "Weighted result = (60x30 - 40x20)/100 = 10%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_partial",
+      "variant": 2,
+      "inputs": {
+        "x": 60,
+        "p": 30,
+        "q": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0074",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "75% of a stock is sold at 40% profit and the rest at 25% loss. Find the overall profit or loss percent.",
+    "options": [
+      "21.75%",
+      "23.75%",
+      "25.75%",
+      "11.88%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "23.75%",
+    "explanation": "Weighted result = (75x40 - 25x25)/100 = 23.75%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_partial",
+      "variant": 3,
+      "inputs": {
+        "x": 75,
+        "p": 40,
+        "q": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0075",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "80% of a stock is sold at 15% profit and the rest at 30% loss. Find the overall profit or loss percent.",
+    "options": [
+      "3%",
+      "6%",
+      "4%",
+      "8%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6%",
+    "explanation": "Weighted result = (80x15 - 20x30)/100 = 6%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_partial",
+      "variant": 4,
+      "inputs": {
+        "x": 80,
+        "p": 15,
+        "q": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0076",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Find the selling price of an article marked ₹80000 after successive discounts of 10%, 15% and 5%.",
+    "options": [
+      "₹56140",
+      "₹58140",
+      "₹60140",
+      "₹116280"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹58140",
+    "explanation": "SP = 80000 x 90/100 x 85/100 x 95/100 = ₹58140.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_discount_series",
+      "variant": 0,
+      "inputs": {
+        "mp": 80000,
+        "d1": 10,
+        "d2": 15,
+        "d3": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0077",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Find the selling price of an article marked ₹90000 after successive discounts of 20%, 10% and 5%.",
+    "options": [
+      "₹61560",
+      "₹123120",
+      "₹63560",
+      "₹59560"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹61560",
+    "explanation": "SP = 90000 x 80/100 x 90/100 x 95/100 = ₹61560.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_discount_series",
+      "variant": 1,
+      "inputs": {
+        "mp": 90000,
+        "d1": 20,
+        "d2": 10,
+        "d3": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0078",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Find the selling price of an article marked ₹100000 after successive discounts of 15%, 20% and 10%.",
+    "options": [
+      "₹63200",
+      "₹122400",
+      "₹61200",
+      "₹59200"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹61200",
+    "explanation": "SP = 100000 x 85/100 x 80/100 x 90/100 = ₹61200.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_discount_series",
+      "variant": 2,
+      "inputs": {
+        "mp": 100000,
+        "d1": 15,
+        "d2": 20,
+        "d3": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0079",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Find the selling price of an article marked ₹120000 after successive discounts of 25%, 10% and 15%.",
+    "options": [
+      "₹68850",
+      "₹137700",
+      "₹66850",
+      "₹70850"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹68850",
+    "explanation": "SP = 120000 x 75/100 x 90/100 x 85/100 = ₹68850.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_discount_series",
+      "variant": 3,
+      "inputs": {
+        "mp": 120000,
+        "d1": 25,
+        "d2": 10,
+        "d3": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0080",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Find the selling price of an article marked ₹150000 after successive discounts of 20%, 25% and 20%.",
+    "options": [
+      "₹144000",
+      "₹72000",
+      "₹70000",
+      "₹74000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹72000",
+    "explanation": "SP = 150000 x 80/100 x 75/100 x 80/100 = ₹72000.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_discount_series",
+      "variant": 4,
+      "inputs": {
+        "mp": 150000,
+        "d1": 20,
+        "d2": 25,
+        "d3": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0081",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article sold at ₹48000 earned 20% on cost. If cost rises 10% and the selling price stays the same, find the new profit percent.",
+    "options": [
+      "9.09%",
+      "7.09%",
+      "11.09%",
+      "4.55%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9.09%",
+    "explanation": "Old cost = ₹40000; new cost = ₹44000; new profit% = 9.09%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_changed_cost",
+      "variant": 0,
+      "inputs": {
+        "sp": 48000,
+        "old_profit": 20,
+        "rise": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0082",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article sold at ₹60000 earned 25% on cost. If cost rises 20% and the selling price stays the same, find the new profit percent.",
+    "options": [
+      "2.08%",
+      "2.17%",
+      "6.17%",
+      "4.17%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4.17%",
+    "explanation": "Old cost = ₹48000; new cost = ₹57600; new profit% = 4.17%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_changed_cost",
+      "variant": 1,
+      "inputs": {
+        "sp": 60000,
+        "old_profit": 25,
+        "rise": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0083",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article sold at ₹72000 earned 20% on cost. If cost rises 25% and the selling price stays the same, find the new profit percent.",
+    "options": [
+      "-2%",
+      "-3%",
+      "-4%",
+      "-6%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-4%",
+    "explanation": "Old cost = ₹60000; new cost = ₹75000; new profit% = -4%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_changed_cost",
+      "variant": 2,
+      "inputs": {
+        "sp": 72000,
+        "old_profit": 20,
+        "rise": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0084",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article sold at ₹90000 earned 50% on cost. If cost rises 20% and the selling price stays the same, find the new profit percent.",
+    "options": [
+      "25%",
+      "23%",
+      "27%",
+      "12.5%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25%",
+    "explanation": "Old cost = ₹60000; new cost = ₹72000; new profit% = 25%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_changed_cost",
+      "variant": 3,
+      "inputs": {
+        "sp": 90000,
+        "old_profit": 50,
+        "rise": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0085",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "An article sold at ₹105000 earned 40% on cost. If cost rises 30% and the selling price stays the same, find the new profit percent.",
+    "options": [
+      "3.85%",
+      "5.69%",
+      "7.69%",
+      "9.69%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7.69%",
+    "explanation": "Old cost = ₹75000; new cost = ₹97500; new profit% = 7.69%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_changed_cost",
+      "variant": 4,
+      "inputs": {
+        "sp": 105000,
+        "old_profit": 40,
+        "rise": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0086",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Two articles are sold at the same price, earning 20% and 30% respectively. Find the ratio of their cost prices.",
+    "options": [
+      "100:20",
+      "13:12",
+      "20:30",
+      "12:13"
+    ],
+    "correct_option": "B",
+    "correct_answer": "13:12",
+    "explanation": "Equal SP implies CP₁:CP₂ = (100+30):(100+20) = 13:12.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_profit",
+      "variant": 0,
+      "inputs": {
+        "p1": 20,
+        "p2": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0087",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Two articles are sold at the same price, earning 25% and 40% respectively. Find the ratio of their cost prices.",
+    "options": [
+      "28:25",
+      "25:40",
+      "100:25",
+      "25:28"
+    ],
+    "correct_option": "A",
+    "correct_answer": "28:25",
+    "explanation": "Equal SP implies CP₁:CP₂ = (100+40):(100+25) = 28:25.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_profit",
+      "variant": 1,
+      "inputs": {
+        "p1": 25,
+        "p2": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0088",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Two articles are sold at the same price, earning 10% and 25% respectively. Find the ratio of their cost prices.",
+    "options": [
+      "25:22",
+      "100:10",
+      "10:25",
+      "22:25"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25:22",
+    "explanation": "Equal SP implies CP₁:CP₂ = (100+25):(100+10) = 25:22.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_profit",
+      "variant": 2,
+      "inputs": {
+        "p1": 10,
+        "p2": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0089",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Two articles are sold at the same price, earning 30% and 50% respectively. Find the ratio of their cost prices.",
+    "options": [
+      "15:13",
+      "30:50",
+      "13:15",
+      "100:30"
+    ],
+    "correct_option": "A",
+    "correct_answer": "15:13",
+    "explanation": "Equal SP implies CP₁:CP₂ = (100+50):(100+30) = 15:13.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_profit",
+      "variant": 3,
+      "inputs": {
+        "p1": 30,
+        "p2": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0090",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Two articles are sold at the same price, earning 15% and 35% respectively. Find the ratio of their cost prices.",
+    "options": [
+      "23:27",
+      "100:15",
+      "27:23",
+      "15:35"
+    ],
+    "correct_option": "C",
+    "correct_answer": "27:23",
+    "explanation": "Equal SP implies CP₁:CP₂ = (100+35):(100+15) = 27:23.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_equal_profit",
+      "variant": 4,
+      "inputs": {
+        "p1": 15,
+        "p2": 35
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0091",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A shopkeeper buys 20 units at ₹40 and 30 units at ₹60, then sells all at ₹55 each. Find the profit or loss percent.",
+    "options": [
+      "2.88%",
+      "7.77%",
+      "5.77%",
+      "3.77%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5.77%",
+    "explanation": "Total cost = ₹2600; revenue = ₹2750; result = 5.77%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_buy_sell_diff",
+      "variant": 0,
+      "inputs": {
+        "x": 20,
+        "a": 40,
+        "y": 30,
+        "b": 60,
+        "sell": 55
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0092",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A shopkeeper buys 30 units at ₹50 and 40 units at ₹70, then sells all at ₹65 each. Find the profit or loss percent.",
+    "options": [
+      "2.91%",
+      "7.81%",
+      "3.81%",
+      "5.81%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5.81%",
+    "explanation": "Total cost = ₹4300; revenue = ₹4550; result = 5.81%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_buy_sell_diff",
+      "variant": 1,
+      "inputs": {
+        "x": 30,
+        "a": 50,
+        "y": 40,
+        "b": 70,
+        "sell": 65
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0093",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A shopkeeper buys 40 units at ₹60 and 60 units at ₹85, then sells all at ₹80 each. Find the profit or loss percent.",
+    "options": [
+      "4.67%",
+      "6.67%",
+      "3.33%",
+      "8.67%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6.67%",
+    "explanation": "Total cost = ₹7500; revenue = ₹8000; result = 6.67%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_buy_sell_diff",
+      "variant": 2,
+      "inputs": {
+        "x": 40,
+        "a": 60,
+        "y": 60,
+        "b": 85,
+        "sell": 80
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0094",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A shopkeeper buys 50 units at ₹75 and 70 units at ₹100, then sells all at ₹95 each. Find the profit or loss percent.",
+    "options": [
+      "6.05%",
+      "4.05%",
+      "3.02%",
+      "8.05%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6.05%",
+    "explanation": "Total cost = ₹10750; revenue = ₹11400; result = 6.05%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_buy_sell_diff",
+      "variant": 3,
+      "inputs": {
+        "x": 50,
+        "a": 75,
+        "y": 70,
+        "b": 100,
+        "sell": 95
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0095",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A shopkeeper buys 60 units at ₹80 and 90 units at ₹110, then sells all at ₹105 each. Find the profit or loss percent.",
+    "options": [
+      "7.14%",
+      "9.14%",
+      "5.14%",
+      "3.57%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7.14%",
+    "explanation": "Total cost = ₹14700; revenue = ₹15750; result = 7.14%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_buy_sell_diff",
+      "variant": 4,
+      "inputs": {
+        "x": 60,
+        "a": 80,
+        "y": 90,
+        "b": 110,
+        "sell": 105
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0096",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 100 items at ₹50 each. 10% are defective and unsellable; the rest sell at ₹60 each. Find the result percent.",
+    "options": [
+      "8%",
+      "10%",
+      "4%",
+      "6%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8%",
+    "explanation": "Sellable = 90; revenue = ₹5400; cost = ₹5000; result = 8%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_defective",
+      "variant": 0,
+      "inputs": {
+        "n": 100,
+        "cost": 50,
+        "defective_pct": 10,
+        "sell": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0097",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 200 items at ₹60 each. 15% are defective and unsellable; the rest sell at ₹75 each. Find the result percent.",
+    "options": [
+      "8.25%",
+      "4.25%",
+      "6.25%",
+      "3.12%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6.25%",
+    "explanation": "Sellable = 170; revenue = ₹12750; cost = ₹12000; result = 6.25%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_defective",
+      "variant": 1,
+      "inputs": {
+        "n": 200,
+        "cost": 60,
+        "defective_pct": 15,
+        "sell": 75
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0098",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 300 items at ₹80 each. 20% are defective and unsellable; the rest sell at ₹100 each. Find the result percent.",
+    "options": [
+      "2%",
+      "0%",
+      "1%",
+      "-2%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "0%",
+    "explanation": "Sellable = 240; revenue = ₹24000; cost = ₹24000; result = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_defective",
+      "variant": 2,
+      "inputs": {
+        "n": 300,
+        "cost": 80,
+        "defective_pct": 20,
+        "sell": 100
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0099",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 400 items at ₹90 each. 25% are defective and unsellable; the rest sell at ₹120 each. Find the result percent.",
+    "options": [
+      "1%",
+      "-2%",
+      "2%",
+      "0%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "0%",
+    "explanation": "Sellable = 300; revenue = ₹36000; cost = ₹36000; result = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_defective",
+      "variant": 3,
+      "inputs": {
+        "n": 400,
+        "cost": 90,
+        "defective_pct": 25,
+        "sell": 120
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0100",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 500 items at ₹100 each. 30% are defective and unsellable; the rest sell at ₹140 each. Find the result percent.",
+    "options": [
+      "0%",
+      "-2%",
+      "-4%",
+      "-1%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-2%",
+    "explanation": "Sellable = 350; revenue = ₹49000; cost = ₹50000; result = -2%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_defective",
+      "variant": 4,
+      "inputs": {
+        "n": 500,
+        "cost": 100,
+        "defective_pct": 30,
+        "sell": 140
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0101",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Cash price is ₹40000; credit price after 12 months is ₹44000. Money is worth 10% per annum simple interest. Find the seller's effective profit percent.",
+    "options": [
+      "1%",
+      "-2%",
+      "2%",
+      "0%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "0%",
+    "explanation": "Effective cost after interest = ₹44000; profit% = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_credit_terms",
+      "variant": 0,
+      "inputs": {
+        "cash": 40000,
+        "credit": 44000,
+        "months": 12,
+        "rate": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0102",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Cash price is ₹50000; credit price after 12 months is ₹56000. Money is worth 12% per annum simple interest. Find the seller's effective profit percent.",
+    "options": [
+      "0%",
+      "2%",
+      "-2%",
+      "1%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "0%",
+    "explanation": "Effective cost after interest = ₹56000; profit% = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_credit_terms",
+      "variant": 1,
+      "inputs": {
+        "cash": 50000,
+        "credit": 56000,
+        "months": 12,
+        "rate": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0103",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Cash price is ₹60000; credit price after 6 months is ₹66000. Money is worth 12% per annum simple interest. Find the seller's effective profit percent.",
+    "options": [
+      "1.89%",
+      "1.77%",
+      "3.77%",
+      "5.77%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3.77%",
+    "explanation": "Effective cost after interest = ₹63600; profit% = 3.77%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_credit_terms",
+      "variant": 2,
+      "inputs": {
+        "cash": 60000,
+        "credit": 66000,
+        "months": 6,
+        "rate": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0104",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Cash price is ₹80000; credit price after 18 months is ₹88000. Money is worth 10% per annum simple interest. Find the seller's effective profit percent.",
+    "options": [
+      "-6.35%",
+      "-2.35%",
+      "-4.35%",
+      "-2.17%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-4.35%",
+    "explanation": "Effective cost after interest = ₹92000; profit% = -4.35%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_credit_terms",
+      "variant": 3,
+      "inputs": {
+        "cash": 80000,
+        "credit": 88000,
+        "months": 18,
+        "rate": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0105",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Cash price is ₹100000; credit price after 12 months is ₹112000. Money is worth 15% per annum simple interest. Find the seller's effective profit percent.",
+    "options": [
+      "-0.61%",
+      "-1.3%",
+      "-4.61%",
+      "-2.61%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "-2.61%",
+    "explanation": "Effective cost after interest = ₹115000; profit% = -2.61%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_credit_terms",
+      "variant": 4,
+      "inputs": {
+        "cash": 100000,
+        "credit": 112000,
+        "months": 12,
+        "rate": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0106",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 100 units at ₹60 each and gets a 10% quantity discount. He sells them at ₹65 each. Find the profit percent.",
+    "options": [
+      "20.37%",
+      "10.19%",
+      "18.37%",
+      "22.37%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20.37%",
+    "explanation": "Effective cost = ₹5400; revenue = ₹6500; profit% = 20.37%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_quantity_discount",
+      "variant": 0,
+      "inputs": {
+        "qty": 100,
+        "price": 60,
+        "discount": 10,
+        "sell": 65
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0107",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 200 units at ₹75 each and gets a 15% quantity discount. He sells them at ₹82 each. Find the profit percent.",
+    "options": [
+      "14.31%",
+      "26.63%",
+      "28.63%",
+      "30.63%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "28.63%",
+    "explanation": "Effective cost = ₹12750; revenue = ₹16400; profit% = 28.63%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_quantity_discount",
+      "variant": 1,
+      "inputs": {
+        "qty": 200,
+        "price": 75,
+        "discount": 15,
+        "sell": 82
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0108",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 300 units at ₹90 each and gets a 20% quantity discount. He sells them at ₹95 each. Find the profit percent.",
+    "options": [
+      "33.94%",
+      "29.94%",
+      "15.97%",
+      "31.94%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "31.94%",
+    "explanation": "Effective cost = ₹21600; revenue = ₹28500; profit% = 31.94%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_quantity_discount",
+      "variant": 2,
+      "inputs": {
+        "qty": 300,
+        "price": 90,
+        "discount": 20,
+        "sell": 95
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0109",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 400 units at ₹100 each and gets a 25% quantity discount. He sells them at ₹110 each. Find the profit percent.",
+    "options": [
+      "44.67%",
+      "46.67%",
+      "23.33%",
+      "48.67%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "46.67%",
+    "explanation": "Effective cost = ₹30000; revenue = ₹44000; profit% = 46.67%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_quantity_discount",
+      "variant": 3,
+      "inputs": {
+        "qty": 400,
+        "price": 100,
+        "discount": 25,
+        "sell": 110
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0110",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "A buyer purchases 500 units at ₹120 each and gets a 10% quantity discount. He sells them at ₹125 each. Find the profit percent.",
+    "options": [
+      "7.87%",
+      "13.74%",
+      "15.74%",
+      "17.74%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15.74%",
+    "explanation": "Effective cost = ₹54000; revenue = ₹62500; profit% = 15.74%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_quantity_discount",
+      "variant": 4,
+      "inputs": {
+        "qty": 500,
+        "price": 120,
+        "discount": 10,
+        "sell": 125
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0111",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Goods costing ₹40000 are marked up 25%. 40% is sold at marked price and the rest at a 20% discount. Find the overall profit percent.",
+    "options": [
+      "8%",
+      "10%",
+      "5%",
+      "12%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10%",
+    "explanation": "Marked price = ₹50000; average revenue = ₹44000; profit% = 10%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mixed_margin",
+      "variant": 0,
+      "inputs": {
+        "cost": 40000,
+        "markup": 25,
+        "discount": 20,
+        "full_pct": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0112",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Goods costing ₹50000 are marked up 30%. 60% is sold at marked price and the rest at a 15% discount. Find the overall profit percent.",
+    "options": [
+      "11.1%",
+      "20.2%",
+      "22.2%",
+      "24.2%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "22.2%",
+    "explanation": "Marked price = ₹65000; average revenue = ₹61100; profit% = 22.2%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mixed_margin",
+      "variant": 1,
+      "inputs": {
+        "cost": 50000,
+        "markup": 30,
+        "discount": 15,
+        "full_pct": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0113",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Goods costing ₹60000 are marked up 20%. 30% is sold at marked price and the rest at a 25% discount. Find the overall profit percent.",
+    "options": [
+      "1%",
+      "-3%",
+      "-0.5%",
+      "-1%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "-1%",
+    "explanation": "Marked price = ₹72000; average revenue = ₹59400; profit% = -1%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mixed_margin",
+      "variant": 2,
+      "inputs": {
+        "cost": 60000,
+        "markup": 20,
+        "discount": 25,
+        "full_pct": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0114",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Goods costing ₹80000 are marked up 40%. 50% is sold at marked price and the rest at a 30% discount. Find the overall profit percent.",
+    "options": [
+      "21%",
+      "19%",
+      "17%",
+      "9.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "19%",
+    "explanation": "Marked price = ₹112000; average revenue = ₹95200; profit% = 19%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mixed_margin",
+      "variant": 3,
+      "inputs": {
+        "cost": 80000,
+        "markup": 40,
+        "discount": 30,
+        "full_pct": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0115",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Goods costing ₹100000 are marked up 25%. 75% is sold at marked price and the rest at a 10% discount. Find the overall profit percent.",
+    "options": [
+      "21.88%",
+      "10.94%",
+      "23.88%",
+      "19.88%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21.88%",
+    "explanation": "Marked price = ₹125000; average revenue = ₹121875; profit% = 21.88%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_mixed_margin",
+      "variant": 4,
+      "inputs": {
+        "cost": 100000,
+        "markup": 25,
+        "discount": 10,
+        "full_pct": 75
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0116",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Capital of ₹30000 earns 20% profit; the entire proceeds are then reinvested and lose 10%. Find the net profit or loss percent.",
+    "options": [
+      "4%",
+      "6%",
+      "10%",
+      "8%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8%",
+    "explanation": "Final capital = ₹32400; net = 8%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_reinvest",
+      "variant": 0,
+      "inputs": {
+        "cost": 30000,
+        "p": 20,
+        "q": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0117",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Capital of ₹40000 earns 25% profit; the entire proceeds are then reinvested and lose 20%. Find the net profit or loss percent.",
+    "options": [
+      "1%",
+      "0%",
+      "2%",
+      "-2%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "0%",
+    "explanation": "Final capital = ₹40000; net = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 4-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_reinvest",
+      "variant": 1,
+      "inputs": {
+        "cost": 40000,
+        "p": 25,
+        "q": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0118",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Capital of ₹50000 earns 30% profit; the entire proceeds are then reinvested and lose 25%. Find the net profit or loss percent.",
+    "options": [
+      "-1.25%",
+      "-4.5%",
+      "-2.5%",
+      "-0.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-2.5%",
+    "explanation": "Final capital = ₹48750; net = -2.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 8-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_reinvest",
+      "variant": 2,
+      "inputs": {
+        "cost": 50000,
+        "p": 30,
+        "q": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0119",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Capital of ₹60000 earns 15% profit; the entire proceeds are then reinvested and lose 30%. Find the net profit or loss percent.",
+    "options": [
+      "-17.5%",
+      "-21.5%",
+      "-19.5%",
+      "-9.75%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-19.5%",
+    "explanation": "Final capital = ₹48300; net = -19.5%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_reinvest",
+      "variant": 3,
+      "inputs": {
+        "cost": 60000,
+        "p": 15,
+        "q": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "profit_and_loss_mains-0120",
+    "chapter": "Profit and Loss (Mains)",
+    "chapter_key": "profit_and_loss_mains",
+    "part": 4,
+    "section": "profit_and_loss_mains_part_4",
+    "question_text": "Capital of ₹80000 earns 40% profit; the entire proceeds are then reinvested and lose 20%. Find the net profit or loss percent.",
+    "options": [
+      "10%",
+      "14%",
+      "6%",
+      "12%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12%",
+    "explanation": "Final capital = ₹89600; net = 12%.",
+    "difficulty": "HARD",
+    "source_name": "Profit and Loss Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "e6b0be93-e145-4d7c-852e-cab76407378c.pdf, pp. 15-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pl_reinvest",
+      "variant": 4,
+      "inputs": {
+        "cost": 80000,
+        "p": 40,
+        "q": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

@@ -1,171 +1,149 @@
-"""Pydantic schemas for authentication and authorization.
+"""Pydantic schemas for password and Google authentication.
 
-Ensures strict input validation, email normalization, password constraints,
-and safe user output representations (never exposing password hashes).
+Output schemas never expose password hashes, reset tokens, OAuth codes, state,
+nonces, PKCE verifiers, or provider credentials.
 """
 
 from datetime import datetime
 import re
 import uuid
-from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator, model_validator
+
+
+PASSWORD_PATTERN_LETTER = re.compile(r"[A-Za-z]")
+PASSWORD_PATTERN_DIGIT = re.compile(r"\d")
+
+
+def _validate_password_strength(value: str) -> str:
+    """Enforce the local password policy shared by signup and recovery."""
+    if len(value) < 8:
+        raise ValueError("Password must be at least 8 characters long")
+    if len(value) > 128:
+        raise ValueError("Password must be at most 128 characters long")
+    if not PASSWORD_PATTERN_LETTER.search(value):
+        raise ValueError("Password must contain at least one letter")
+    if not PASSWORD_PATTERN_DIGIT.search(value):
+        raise ValueError("Password must contain at least one number")
+    return value
 
 
 class RegisterRequest(BaseModel):
-    """Schema for user signup requests."""
+    """Email/password signup request with explicit confirmation."""
 
-    full_name: str = Field(
-        ...,
-        min_length=1,
-        max_length=100,
-        description="User's full name",
-    )
-    email: EmailStr = Field(
-        ...,
-        description="Valid email address for login and account management",
-    )
-    password: str = Field(
-        ...,
-        min_length=8,
-        max_length=128,
-        description="Plaintext password (minimum 8 characters)",
-    )
-    invitation_code: str | None = Field(default=None, min_length=32, max_length=128)
+    full_name: str = Field(..., min_length=1, max_length=100)
+    email: EmailStr
+    password: str = Field(..., min_length=8, max_length=128)
+    confirm_password: str = Field(..., min_length=8, max_length=128)
 
     @field_validator("email", mode="before")
     @classmethod
-    def normalize_email(cls, v: str) -> str:
-        """Strip whitespace and lowercase email."""
-        if isinstance(v, str):
-            return v.strip().lower()
-        return v
+    def normalize_email(cls, value: str) -> str:
+        return value.strip().lower() if isinstance(value, str) else value
 
     @field_validator("full_name")
     @classmethod
-    def clean_full_name(cls, v: str) -> str:
-        """Strip extra whitespace from full name."""
-        cleaned = " ".join(v.split())
+    def clean_full_name(cls, value: str) -> str:
+        cleaned = " ".join(value.split())
         if not cleaned:
             raise ValueError("Full name cannot be blank")
         return cleaned
 
-    @field_validator("password")
+    @field_validator("password", "confirm_password")
     @classmethod
-    def validate_password_strength(cls, v: str) -> str:
-        """Enforce password strength: at least 8 chars, at least one letter, and at least one number."""
-        if len(v) < 8:
-            raise ValueError("Password must be at least 8 characters long")
-        if not re.search(r"[A-Za-z]", v):
-            raise ValueError("Password must contain at least one letter")
-        if not re.search(r"\d", v):
-            raise ValueError("Password must contain at least one number")
-        return v
+    def validate_password_strength(cls, value: str) -> str:
+        return _validate_password_strength(value)
+
+    @model_validator(mode="after")
+    def passwords_match(self):
+        if self.password != self.confirm_password:
+            raise ValueError("Passwords do not match")
+        return self
 
 
 class LoginRequest(BaseModel):
-    """Schema for user login requests."""
+    """Email/password login request."""
 
-    email: EmailStr = Field(
-        ...,
-        description="Registered email address",
-    )
-    password: str = Field(
-        ...,
-        min_length=1,
-        description="User password",
-    )
+    email: EmailStr
+    password: str = Field(..., min_length=1, max_length=128)
 
     @field_validator("email", mode="before")
     @classmethod
-    def normalize_email(cls, v: str) -> str:
-        """Strip whitespace and lowercase email."""
-        if isinstance(v, str):
-            return v.strip().lower()
-        return v
+    def normalize_email(cls, value: str) -> str:
+        return value.strip().lower() if isinstance(value, str) else value
+
+
+class PasswordResetRequest(BaseModel):
+    """Request a single-use password setup/recovery link."""
+
+    email: EmailStr
+
+    @field_validator("email", mode="before")
+    @classmethod
+    def normalize_email(cls, value: str) -> str:
+        return value.strip().lower() if isinstance(value, str) else value
+
+
+class PasswordResetConfirm(BaseModel):
+    """Complete password setup/recovery with a single-use token."""
+
+    token: str = Field(..., min_length=20, max_length=256)
+    new_password: str = Field(..., min_length=8, max_length=128)
+    confirm_password: str = Field(..., min_length=8, max_length=128)
+
+    @field_validator("new_password", "confirm_password")
+    @classmethod
+    def validate_password_strength(cls, value: str) -> str:
+        return _validate_password_strength(value)
+
+    @model_validator(mode="after")
+    def passwords_match(self):
+        if self.new_password != self.confirm_password:
+            raise ValueError("Passwords do not match")
+        return self
+
+
+class GoogleExchangeRequest(BaseModel):
+    """One-time opaque code returned to the OAuth callback page."""
+
+    code: str = Field(..., min_length=20, max_length=256)
 
 
 class UserResponse(BaseModel):
-    """Safe public user information schema (never exposes password hashes)."""
+    """Safe public user information; never includes secrets."""
 
     id: uuid.UUID
     email: str
     full_name: str | None = None
     is_active: bool
     is_admin: bool
+    has_password: bool
     created_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
 
 
 class TokenResponse(BaseModel):
-    """Schema returned upon successful authentication."""
+    """Session response after signup, login, or Google sign-in."""
 
     access_token: str
     token_type: str = "bearer"
     user: UserResponse
 
 
-class BetaInvitationBatchRequest(BaseModel):
-    emails: list[EmailStr] = Field(min_length=1, max_length=200)
-    expires_in_days: int = Field(default=14, ge=1, le=30)
+class GoogleStartResponse(BaseModel):
+    """Authorization URL for the configured Google OAuth client."""
 
-    @field_validator("emails")
-    @classmethod
-    def normalize_emails(cls, values: list[EmailStr]) -> list[EmailStr]:
-        normalized = [str(value).strip().lower() for value in values]
-        if len(set(map(str, normalized))) != len(normalized):
-            raise ValueError("Invitation email addresses must be unique")
-        return normalized
+    authorization_url: str
 
 
-class BetaInvitationCreated(BaseModel):
-    email: str
-    invitation_code: str
-    expires_at: datetime
+class MessageResponse(BaseModel):
+    """Generic, non-enumerating response message."""
 
-
-class BetaInvitationBatchResponse(BaseModel):
-    invitations: list[BetaInvitationCreated]
-    total_accounts: int
-    pending_invitations: int
-    remaining_slots: int
-
-
-class GenericInvitationBatchRequest(BaseModel):
-    count: Literal[50] = 50
-    expires_in_days: int = Field(default=14, ge=1, le=30)
-
-
-class GenericInvitationCreated(BaseModel):
-    id: uuid.UUID
-    invitation_code: str
-    expires_at: datetime
-
-
-class GenericInvitationBatchResponse(BaseModel):
-    invitations: list[GenericInvitationCreated]
-    expires_at: datetime
-    total_accounts: int
-    pending_invitations: int
-    remaining_slots: int
-
-
-class GenericInvitationStatus(BaseModel):
-    available: int
-    redeemed: int
-    expired: int
-    revoked: int
-
-
-class GenericInvitationListItem(BaseModel):
-    id: uuid.UUID
-    status: Literal["available", "redeemed", "expired", "revoked"]
-    expires_at: datetime
-    redeemed_at: datetime | None
-    revoked_at: datetime | None
-    created_at: datetime
+    message: str
 
 
 class AccountActivationUpdate(BaseModel):
+    """Operator-controlled account activation state."""
+
     is_active: bool

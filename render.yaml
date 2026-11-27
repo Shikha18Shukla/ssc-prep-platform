@@ -26,10 +26,36 @@ services:
         value: HS256
       - key: ACCESS_TOKEN_EXPIRE_MINUTES
         value: "30"
-      - key: BETA_INVITATIONS_REQUIRED
-        value: "true"
+      - key: JWT_ISSUER
+        value: ssc-prep-platform
+      - key: JWT_AUDIENCE
+        value: ssc-prep-web
       - key: BETA_CATALOG_SCOPE
         value: "true"
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_REDIRECT_URI
+        sync: false
+      - key: GOOGLE_SUCCESS_REDIRECT_URL
+        value: https://ssc-prep-beta.onrender.com/auth/google/complete
+      - key: GOOGLE_COOKIE_SECURE
+        value: "true"
+      - key: GOOGLE_COOKIE_SAMESITE
+        value: "none"
+      - key: EMAIL_PROVIDER
+        value: "none"
+      - key: PASSWORD_RESET_URL
+        value: https://ssc-prep-beta.onrender.com/reset-password
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_USERNAME
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: SMTP_FROM_EMAIL
+        sync: false
       - key: RATE_LIMIT_CLEANUP_SECONDS
         value: "900"
       - key: DB_POOL_SIZE

@@ -45,8 +45,10 @@ MODEL_BY_TABLE = {
     "question_options": QuestionOption,
 }
 PROTECTED_TABLES = (
-    "users", "beta_invitations", "test_attempts", "test_questions", "user_answers",
+    "users", "test_attempts", "test_questions", "user_answers",
     "user_chapter_rotations", "user_question_history", "rate_limit_windows",
+    "auth_sessions", "oauth_identities", "oauth_states", "oauth_exchange_codes",
+    "password_reset_tokens",
 )
 
 
@@ -280,9 +282,6 @@ def _apply(url: URL, data: dict[str, list[dict[str, Any]]]) -> dict[str, int]:
                 revision = conn.execute(text("SELECT version_num FROM alembic_version")).scalar_one()
                 if revision != EXPECTED_HEAD:
                     raise RuntimeError(f"Target Alembic revision is {revision!r}, expected {EXPECTED_HEAD!r}.")
-                capacity = conn.execute(text("SELECT max_accounts FROM beta_capacity WHERE id=1")).scalar_one()
-                if int(capacity) != 200:
-                    raise RuntimeError("Target beta capacity is not 200; aborting without writes.")
                 before_protected = _protected_counts(conn)
                 if before_protected["users"][0] < 1 or before_protected["users"][1] < 1:
                     raise RuntimeError("Existing beta administrator was not found; aborting without writes.")

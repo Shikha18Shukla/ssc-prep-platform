@@ -7,9 +7,10 @@
  *
  * Tradeoff:
  * - It remains accessible to JavaScript in this origin, so CSP and XSS prevention matter.
- * - It is cleared when the browser tab session ends. Bearer headers avoid cookie CSRF.
+ * - It is cleared when the browser tab session ends. Bearer headers avoid CSRF for API calls.
  *
- * No refresh token is issued. Expired access tokens require a fresh login.
+ * No refresh token is issued. Expired access tokens require a fresh sign-in.
+ * The Google state cookie is HttpOnly and used only for the OAuth callback.
  */
 
 import { TokenResponse, User } from "@/types";
@@ -30,12 +31,13 @@ export function getCachedUser(): User | null {
 }
 
 function cacheUser(user: User): void {
-  try { sessionStorage.setItem(USER_KEY, JSON.stringify(user)); } catch { /* Cache is optional. */ }
+  try {
+    sessionStorage.setItem(USER_KEY, JSON.stringify(user));
+  } catch {
+    /* Cache is optional. */
+  }
 }
 
-/**
- * Retrieve the active access token from storage.
- */
 export function getToken(): string | null {
   try {
     const sessionToken = sessionStorage.getItem(TOKEN_KEY);
@@ -52,9 +54,6 @@ export function getToken(): string | null {
   }
 }
 
-/**
- * Persist the access token to storage.
- */
 export function setToken(token: string): void {
   try {
     sessionStorage.setItem(TOKEN_KEY, token);
@@ -63,9 +62,6 @@ export function setToken(token: string): void {
   }
 }
 
-/**
- * Clear the stored access token.
- */
 export function removeToken(): void {
   try {
     sessionStorage.removeItem(TOKEN_KEY);
@@ -76,11 +72,17 @@ export function removeToken(): void {
   }
 }
 
+function storeSession(response: TokenResponse): TokenResponse {
+  setToken(response.access_token);
+  cacheUser(response.user);
+  return response;
+}
+
 export interface RegisterPayload {
   full_name: string;
   email: string;
   password: string;
-  invitation_code?: string;
+  confirm_password: string;
 }
 
 export interface LoginPayload {
@@ -88,49 +90,80 @@ export interface LoginPayload {
   password: string;
 }
 
-/**
- * Register a new user account.
- * Endpoint: POST /api/auth/register
- */
-export async function register(payload: RegisterPayload): Promise<User> {
-  return apiFetch<User>("/auth/register", {
-    method: "POST",
-    body: JSON.stringify(payload),
-  });
+export interface GoogleStartResponse {
+  authorization_url: string;
 }
 
-/**
- * Authenticate existing user and obtain access token.
- * Endpoint: POST /api/auth/login
- */
+export interface MessageResponse {
+  message: string;
+}
+
+export async function register(payload: RegisterPayload): Promise<TokenResponse> {
+  return storeSession(await apiFetch<TokenResponse>("/auth/register", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  }));
+}
+
 export async function login(payload: LoginPayload): Promise<TokenResponse> {
-  const response = await apiFetch<TokenResponse>("/auth/login", {
+  return storeSession(await apiFetch<TokenResponse>("/auth/login", {
     method: "POST",
     body: JSON.stringify(payload),
-  });
-  setToken(response.access_token);
-  cacheUser(response.user);
-  return response;
+  }));
 }
 
-/**
- * Fetch authenticated user profile.
- * Endpoint: GET /api/auth/me
- */
 export async function getCurrentUser(): Promise<User> {
   const token = getToken();
   if (!token) {
     throw new Error("No authentication token present");
   }
-  return apiFetch<User>("/auth/me", {
+  return apiFetch<User>("/auth/me", { method: "GET", token });
+}
+
+export async function logout(): Promise<void> {
+  const token = getToken();
+  removeToken();
+  if (!token) return;
+  try {
+    await apiFetch<MessageResponse>("/auth/logout", {
+      method: "POST",
+      token,
+    });
+  } catch {
+    // Local sign-out must always succeed even when the server is unreachable.
+  }
+}
+
+export async function startGoogleSignIn(): Promise<string> {
+  const response = await apiFetch<GoogleStartResponse>("/auth/google/start", {
     method: "GET",
-    token,
+    credentials: "include",
+  });
+  return response.authorization_url;
+}
+
+export async function exchangeGoogleCode(code: string): Promise<TokenResponse> {
+  return storeSession(await apiFetch<TokenResponse>("/auth/google/exchange", {
+    method: "POST",
+    credentials: "include",
+    body: JSON.stringify({ code }),
+  }));
+}
+
+export async function requestPasswordReset(email: string): Promise<MessageResponse> {
+  return apiFetch<MessageResponse>("/auth/password-reset/request", {
+    method: "POST",
+    body: JSON.stringify({ email }),
   });
 }
 
-/**
- * Log out user by removing token from storage.
- */
-export function logout(): void {
-  removeToken();
+export async function confirmPasswordReset(
+  token: string,
+  new_password: string,
+  confirm_password: string,
+): Promise<TokenResponse> {
+  return storeSession(await apiFetch<TokenResponse>("/auth/password-reset/confirm", {
+    method: "POST",
+    body: JSON.stringify({ token, new_password, confirm_password }),
+  }));
 }

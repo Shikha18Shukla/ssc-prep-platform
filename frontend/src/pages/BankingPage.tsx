@@ -45,6 +45,12 @@ const mathsChapterKeys: Record<string, string> = {
   percentage: "percentage",
   "ratio-and-proportion": "ratio_proportion",
   "profit-loss-and-discount": "profit_loss_discount",
+  "simple-interest": "simple_interest",
+  "compound-interest": "compound_interest",
+  "mixture-and-alligation": "mixture_alligation",
+  "problems-on-age": "problems_on_age",
+  partnership: "partnership",
+  "time-and-work": "time_and_work",
   "pipe-and-cistern": "pipe_and_cistern",
   average: "average",
   "speed-time-and-distance": "speed_time_distance",
@@ -57,6 +63,12 @@ const mathsChapterKeys: Record<string, string> = {
   probability: "probability",
   "data-interpretation": "data_interpretation",
   "caselet-data-interpretation": "caselet_data_interpretation",
+  "percentage-arithmetic-mains": "percentage_arithmetic_mains",
+  "percentage-data-interpretation-mains": "percentage_data_interpretation_mains",
+  "ratio-arithmetic-mains": "ratio_arithmetic_mains",
+  "ratio-data-interpretation-mains": "ratio_data_interpretation_mains",
+  "profit-and-loss-mains": "profit_and_loss_mains",
+  "profit-and-loss-data-interpretation": "profit_and_loss_data_interpretation",
 };
 const mathsParts = [
   { part: 1, count: 15, minutes: 10.5, title: "Part 1", subtitle: "15 Questions · 10.5 Minutes", level: "Easy" },
@@ -65,11 +77,25 @@ const mathsParts = [
   { part: 4, count: 55, minutes: 38.5, title: "Part 4", subtitle: "55 Questions · 38.5 Minutes", level: "Advanced" },
 ] as const;
 
+// English, General/Banking Awareness and Computer chapters are split into
+// three fixed sections for Banking Clerk and Banking PO only.
+const threeSectionSubjects = new Set(["english", "general-banking-awareness", "computer"]);
+const threeSectionExamSlugs = new Set(["banking-clerk", "banking-po"]);
+const threeSectionParts = [
+  { part: 1, count: 10, minutes: 7, title: "Section 1", subtitle: "10 Questions · 7 Minutes" },
+  { part: 2, count: 15, minutes: 10.5, title: "Section 2", subtitle: "15 Questions · 10.5 Minutes" },
+  { part: 3, count: 15, minutes: 10.5, title: "Section 3", subtitle: "15 Questions · 10.5 Minutes" },
+] as const;
+const slugKey = (value: string) => value.replace(/-/g, "_");
+const usesThreeSections = (item: CatalogExam | null, subject: CatalogSubject | null) =>
+  Boolean(item && threeSectionExamSlugs.has(item.slug) && subject && threeSectionSubjects.has(subject.slug));
+
 export default function BankingPage() {
   const { token } = useAuth(); const navigate = useNavigate();
   const [exams, setExams] = useState<CatalogExam[]>([]); const [subjects, setSubjects] = useState<CatalogSubject[]>([]); const [chapters, setChapters] = useState<CatalogChapter[]>([]);
   const [exam, setExam] = useState<CatalogExam | null>(null); const [subject, setSubject] = useState<CatalogSubject | null>(null); const [mode, setMode] = useState<Mode | null>(null);
   const [mathsChapter, setMathsChapter] = useState<CatalogChapter | null>(null);
+  const [threeSectionChapter, setThreeSectionChapter] = useState<CatalogChapter | null>(null);
   const [step, setStep] = useState(0); const [selected, setSelected] = useState<string[]>([]); const [counts, setCounts] = useState<Record<string, number>>({}); const [questionCount, setQuestionCount] = useState<number | null>(null);
   const [loading, setLoading] = useState(false); const [error, setError] = useState("");
 
@@ -80,6 +106,7 @@ export default function BankingPage() {
   async function chooseExam(item: CatalogExam) {
     if (!token) return;
     setExam(item); setError(""); setLoading(true);
+    setMode(null); setQuestionCount(null);
     try { setSubjects(await getExamSubjects(token, item.id)); setStep(1); }
     catch (e) { setError(message(e)); }
     finally { setLoading(false); }
@@ -88,6 +115,7 @@ export default function BankingPage() {
   async function chooseSubject(item: CatalogSubject) {
     if (!token) return;
     setSubject(item); setError(""); setLoading(true);
+    setMode(null); setQuestionCount(null);
     try {
       const [list, availability] = await Promise.all([
         getSubjectChapters(token, item.id),
@@ -95,6 +123,8 @@ export default function BankingPage() {
       ]);
       setChapters(list);
       setSelected([]);
+      setMathsChapter(null);
+      setThreeSectionChapter(null);
       setCounts(Object.fromEntries(availability.map(row => [row.chapter_id, row.question_count])));
       // Current Affairs: step 2 shows CA test cards; others: step 2 shows test mode selection
       setStep(2);
@@ -120,7 +150,7 @@ export default function BankingPage() {
         difficulty: null,
         section_filter: cfg.section,
       };
-      const availability = await getTestAvailability(token, selection);
+      const availability = await getTestAvailability(token, { ...selection, question_count: cfg.count });
       if (!availability.can_satisfy_request) {
         setError("There are no questions available for this test selection yet.");
         return;
@@ -152,6 +182,12 @@ export default function BankingPage() {
     }
     const section = `${exam.slug.replace(/-/g, "_")}_maths_${chapterKey}_part_${part}`;
     void startCAFTest(section, count, mathsChapter.id);
+  }
+
+  function startThreeSectionPart(part: number, count: number) {
+    if (!exam || !subject || !threeSectionChapter || !usesThreeSections(exam, subject)) return;
+    const section = `${slugKey(exam.slug)}_${slugKey(subject.slug)}_${slugKey(threeSectionChapter.slug)}_part_${part}`;
+    void startCAFTest(section, count, threeSectionChapter.id);
   }
 
   async function startTestMiscellaneous() {
@@ -191,8 +227,8 @@ export default function BankingPage() {
             <h1 className="mt-1 text-2xl font-bold sm:text-3xl">
               {step === 0 && "Choose an exam"}
               {step === 1 && "Choose a subject"}
-              {step === 2 && (subject?.slug === 'current-affairs' ? "Current Affairs Practice Tests" : subject?.slug === 'math-quant' ? "Choose a Maths chapter" : "Choose a test mode")}
-              {step === 3 && (subject?.slug === 'math-quant' ? `${mathsChapter?.name ?? "Maths"} · Choose a part` : mode === "CHAPTER_WISE" ? "Choose a chapter" : "Choose chapters")}
+              {step === 2 && (subject?.slug === 'current-affairs' ? "Current Affairs Practice Tests" : subject?.slug === 'math-quant' ? "Choose a Maths chapter" : usesThreeSections(exam, subject) ? "Choose a chapter" : "Choose a test mode")}
+              {step === 3 && (subject?.slug === 'math-quant' ? `${mathsChapter?.name ?? "Maths"} · Choose a part` : usesThreeSections(exam, subject) ? `${threeSectionChapter?.name ?? "Chapter"} · Choose a section` : mode === "CHAPTER_WISE" ? "Choose a chapter" : "Choose chapters")}
             </h1>
             <p className="mt-2 text-sm text-gray-600">{exam?.name}{subject ? ` · ${subject.name}` : ""}</p>
           </div>
@@ -280,6 +316,28 @@ export default function BankingPage() {
                 })}
                 {!chapters.length && <p className="text-sm text-gray-600">No Maths chapters are available yet.</p>}
               </div>
+            ) : usesThreeSections(exam, subject) ? (
+              /* Three-section subjects: choose a chapter, then one of its sections */
+              <div className="grid gap-3 sm:grid-cols-2">
+                {chapters.map((chapter) => {
+                  const count = counts[chapter.id] ?? 0;
+                  return (
+                    <button
+                      key={chapter.id}
+                      type="button"
+                      className={card}
+                      disabled={count === 0}
+                      onClick={() => { setThreeSectionChapter(chapter); setStep(3); }}
+                    >
+                      <span className="text-lg font-bold">{chapter.name}</span>
+                      <span className="mt-1 block text-sm text-gray-600">
+                        {count > 0 ? `${count} questions · 3 sections` : "Question bank coming soon"}
+                      </span>
+                    </button>
+                  );
+                })}
+                {!chapters.length && <p className="text-sm text-gray-600">No chapters are available yet for this subject.</p>}
+              </div>
             ) : (
               /* Non-Current Affairs: Show test mode selection */
               <div className="grid gap-3 sm:grid-cols-2">
@@ -308,8 +366,34 @@ export default function BankingPage() {
           </div>
         )}
 
-        {/* Step 3: Chapter selection and test configuration (for non-Current Affairs subjects) */}
-        {step === 3 && subject?.slug !== 'math-quant' && (
+        {/* Step 3: three fixed sections for English, General/Banking Awareness and Computer */}
+        {step === 3 && usesThreeSections(exam, subject) && threeSectionChapter && (
+          <div>
+            <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
+              <button
+                type="button"
+                className={secondary}
+                onClick={() => { setError(""); setThreeSectionChapter(null); setStep(2); }}
+              >
+                ← Back to chapters
+              </button>
+              <p className="text-sm text-gray-600">40 questions across 3 sections</p>
+            </div>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              {threeSectionParts.map((p) => (
+                <div key={p.part} className={testCard}>
+                  <h3 className="font-semibold text-sm uppercase text-[#007BFF]">{p.title}</h3>
+                  <p className="mt-1 text-sm text-gray-600">{p.subtitle}</p>
+                  <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-gray-500">{threeSectionChapter.name}</p>
+                  <button type="button" className={`${button} mt-3`} onClick={() => startThreeSectionPart(p.part, p.count)}>Start Test</button>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Step 3: Chapter selection and test configuration (for the remaining subjects) */}
+        {step === 3 && subject?.slug !== 'math-quant' && !usesThreeSections(exam, subject) && (
           <div>
             <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
               {mode === "MISCELLANEOUS" && selected.length > 0 && availableTotal > 0 && (

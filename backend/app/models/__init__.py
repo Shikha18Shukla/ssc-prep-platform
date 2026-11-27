@@ -1,5 +1,13 @@
 """SQLAlchemy database models for the SSC Prep Platform."""
 
+from app.models.auth_state import (
+    AuthSession,
+    OAuthExchangeCode,
+    OAuthIdentity,
+    OAuthState,
+    PasswordResetToken,
+    RateLimitWindow,
+)
 from app.models.chapter import Chapter
 from app.models.exam import Exam
 from app.models.question import Difficulty, Question, QuestionOption
@@ -10,7 +18,6 @@ from app.models.test_question import TestQuestion
 from app.models.user import User
 from app.models.user_answer import UserAnswer
 from app.models.question_history import UserChapterRotation, UserQuestionHistory
-from app.models.beta_access import BetaCapacity, BetaInvitation, RateLimitWindow
 
 __all__ = [
     "User",
@@ -27,7 +34,10 @@ __all__ = [
     "UserAnswer",
     "UserChapterRotation",
     "UserQuestionHistory",
-    "BetaCapacity",
-    "BetaInvitation",
+    "AuthSession",
+    "OAuthIdentity",
+    "OAuthState",
+    "OAuthExchangeCode",
+    "PasswordResetToken",
     "RateLimitWindow",
 ]

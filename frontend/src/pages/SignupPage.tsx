@@ -4,43 +4,42 @@
 
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { GoogleButton } from "@/components/common";
 import { useAuth } from "@/hooks";
 import { ApiError } from "@/services/api";
 
+interface FieldErrors {
+  fullName?: string;
+  email?: string;
+  password?: string;
+  confirmPassword?: string;
+}
+
+function errorMessage(err: unknown): string {
+  if (err instanceof ApiError) {
+    return typeof err.detail === "string" ? err.detail : err.message;
+  }
+  return "An unexpected error occurred during signup. Please try again.";
+}
+
 export const SignupPage: React.FC = () => {
   const navigate = useNavigate();
-  const { register } = useAuth();
+  const { register, startGoogleSignIn } = useAuth();
 
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [invitationCode, setInvitationCode] = useState("");
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
-
-  // Field-level validation errors
-  const [fieldErrors, setFieldErrors] = useState<{
-    fullName?: string;
-    email?: string;
-    password?: string;
-    confirmPassword?: string;
-    invitationCode?: string;
-  }>({});
+  const [isGoogleStarting, setIsGoogleStarting] = useState(false);
+  const [errorMessageText, setErrorMessage] = useState<string | null>(null);
+  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
 
   const validate = (): boolean => {
-    const errors: {
-      fullName?: string;
-      email?: string;
-      password?: string;
-      confirmPassword?: string;
-      invitationCode?: string;
-    } = {};
+    const errors: FieldErrors = {};
 
-    if (!fullName.trim()) {
-      errors.fullName = "Full name is required";
-    }
+    if (!fullName.trim()) errors.fullName = "Full name is required";
 
     if (!email.trim()) {
       errors.email = "Email is required";
@@ -64,21 +63,14 @@ export const SignupPage: React.FC = () => {
       errors.confirmPassword = "Passwords do not match";
     }
 
-    if (!invitationCode.trim()) {
-      errors.invitationCode = "Beta invitation code is required";
-    }
-
     setFieldErrors(errors);
     return Object.keys(errors).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
     setErrorMessage(null);
-
-    if (!validate()) {
-      return;
-    }
+    if (isSubmitting || isGoogleStarting || !validate()) return;
 
     setIsSubmitting(true);
     try {
@@ -86,19 +78,26 @@ export const SignupPage: React.FC = () => {
         full_name: fullName.trim(),
         email: email.trim().toLowerCase(),
         password,
-        invitation_code: invitationCode.trim(),
+        confirm_password: confirmPassword,
       });
-
-      // Redirect immediately to dashboard upon successful registration & login
       navigate("/dashboard", { replace: true });
     } catch (err) {
-      if (err instanceof ApiError) {
-        setErrorMessage(typeof err.detail === "string" ? err.detail : err.message);
-      } else {
-        setErrorMessage("An unexpected error occurred during signup. Please try again.");
-      }
+      setErrorMessage(errorMessage(err));
     } finally {
       setIsSubmitting(false);
+    }
+  };
+
+  const handleGoogle = async () => {
+    if (isSubmitting || isGoogleStarting) return;
+    setIsGoogleStarting(true);
+    setErrorMessage(null);
+    try {
+      const url = await startGoogleSignIn();
+      window.location.assign(url);
+    } catch (err) {
+      setErrorMessage(errorMessage(err));
+      setIsGoogleStarting(false);
     }
   };
 
@@ -112,44 +111,13 @@ export const SignupPage: React.FC = () => {
           </p>
         </div>
 
-        {errorMessage && (
-          <div className="mb-6 rounded-lg bg-red-50 p-4 border border-wrong/20 text-sm text-wrong">
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span>{errorMessage}</span>
-            </div>
+        {errorMessageText && (
+          <div className="mb-6 rounded-lg bg-red-50 p-4 border border-wrong/20 text-sm text-wrong" role="alert">
+            {errorMessageText}
           </div>
         )}
 
         <form onSubmit={handleSubmit} className="space-y-4" noValidate>
-          <div>
-            <label htmlFor="invitationCode" className="block text-sm font-medium text-content mb-1">
-              Beta Invitation Code
-            </label>
-            <p className="mb-2 text-xs text-gray-500">Use your own email address. New beta codes are not tied to a particular email.</p>
-            <input
-              id="invitationCode"
-              type="password"
-              autoComplete="one-time-code"
-              value={invitationCode}
-              onChange={(e) => setInvitationCode(e.target.value)}
-              className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
-                fieldErrors.invitationCode
-                  ? "border-wrong focus:ring-wrong/20"
-                  : "border-gray-300 focus:border-primary focus:ring-primary/20"
-              }`}
-              placeholder="Enter your one-time code"
-            />
-            {fieldErrors.invitationCode && (
-              <p className="mt-1 text-xs text-wrong">{fieldErrors.invitationCode}</p>
-            )}
-          </div>
           <div>
             <label htmlFor="fullName" className="block text-sm font-medium text-content mb-1">
               Full Name
@@ -159,7 +127,7 @@ export const SignupPage: React.FC = () => {
               type="text"
               autoComplete="name"
               value={fullName}
-              onChange={(e) => setFullName(e.target.value)}
+              onChange={(event) => setFullName(event.target.value)}
               className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
                 fieldErrors.fullName
                   ? "border-wrong focus:ring-wrong/20"
@@ -181,7 +149,7 @@ export const SignupPage: React.FC = () => {
               type="email"
               autoComplete="email"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(event) => setEmail(event.target.value)}
               className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
                 fieldErrors.email
                   ? "border-wrong focus:ring-wrong/20"
@@ -203,7 +171,7 @@ export const SignupPage: React.FC = () => {
               type="password"
               autoComplete="new-password"
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(event) => setPassword(event.target.value)}
               className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
                 fieldErrors.password
                   ? "border-wrong focus:ring-wrong/20"
@@ -225,7 +193,7 @@ export const SignupPage: React.FC = () => {
               type="password"
               autoComplete="new-password"
               value={confirmPassword}
-              onChange={(e) => setConfirmPassword(e.target.value)}
+              onChange={(event) => setConfirmPassword(event.target.value)}
               className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
                 fieldErrors.confirmPassword
                   ? "border-wrong focus:ring-wrong/20"
@@ -240,12 +208,23 @@ export const SignupPage: React.FC = () => {
 
           <button
             type="submit"
-            disabled={isSubmitting}
+            disabled={isSubmitting || isGoogleStarting}
             className="w-full mt-2 rounded-lg bg-primary py-2.5 px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary/40 disabled:opacity-60 cursor-pointer"
           >
             {isSubmitting ? "Creating account..." : "Sign Up"}
           </button>
         </form>
+
+        <div className="my-5 flex items-center gap-3 text-xs text-gray-400">
+          <span className="h-px flex-1 bg-gray-200" />
+          OR
+          <span className="h-px flex-1 bg-gray-200" />
+        </div>
+        <GoogleButton
+          onClick={handleGoogle}
+          disabled={isSubmitting}
+          busy={isGoogleStarting}
+        />
 
         <div className="mt-6 text-center text-sm text-gray-500">
           Already have an account?{" "}

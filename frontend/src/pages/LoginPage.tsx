@@ -4,69 +4,73 @@
 
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { GoogleButton } from "@/components/common";
 import { useAuth } from "@/hooks";
 import { ApiError } from "@/services/api";
+
+interface FieldErrors {
+  email?: string;
+  password?: string;
+}
+
+function errorMessage(err: unknown): string {
+  if (err instanceof ApiError) {
+    return typeof err.detail === "string" ? err.detail : err.message;
+  }
+  return "An unexpected error occurred. Please try again.";
+}
 
 export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { login } = useAuth();
+  const { login, startGoogleSignIn } = useAuth();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [errorMessage, setErrorMessage] = useState<string | null>(null);
-  const [showForgotNotice, setShowForgotNotice] = useState(false);
-
-  // Field validation errors
-  const [fieldErrors, setFieldErrors] = useState<{
-    email?: string;
-    password?: string;
-  }>({});
+  const [isGoogleStarting, setIsGoogleStarting] = useState(false);
+  const [errorMessageText, setErrorMessage] = useState<string | null>(null);
+  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({});
 
   const validate = (): boolean => {
-    const errors: { email?: string; password?: string } = {};
-
+    const errors: FieldErrors = {};
     if (!email.trim()) {
       errors.email = "Email is required";
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       errors.email = "Please enter a valid email address";
     }
-
-    if (!password) {
-      errors.password = "Password is required";
-    }
-
+    if (!password) errors.password = "Password is required";
     setFieldErrors(errors);
     return Object.keys(errors).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
     setErrorMessage(null);
-
-    if (!validate()) {
-      return;
-    }
+    if (isSubmitting || isGoogleStarting || !validate()) return;
 
     setIsSubmitting(true);
     try {
-      await login({
-        email: email.trim().toLowerCase(),
-        password,
-      });
-
-      // Redirect to the intended destination or default to /dashboard
+      await login({ email: email.trim().toLowerCase(), password });
       const from = (location.state as { from?: { pathname: string } })?.from?.pathname || "/dashboard";
       navigate(from, { replace: true });
     } catch (err) {
-      if (err instanceof ApiError) {
-        setErrorMessage(typeof err.detail === "string" ? err.detail : err.message);
-      } else {
-        setErrorMessage("An unexpected error occurred. Please try again.");
-      }
+      setErrorMessage(errorMessage(err));
     } finally {
       setIsSubmitting(false);
+    }
+  };
+
+  const handleGoogle = async () => {
+    if (isSubmitting || isGoogleStarting) return;
+    setIsGoogleStarting(true);
+    setErrorMessage(null);
+    try {
+      const url = await startGoogleSignIn();
+      window.location.assign(url);
+    } catch (err) {
+      setErrorMessage(errorMessage(err));
+      setIsGoogleStarting(false);
     }
   };
 
@@ -80,31 +84,9 @@ export const LoginPage: React.FC = () => {
           </p>
         </div>
 
-        {errorMessage && (
-          <div className="mb-6 rounded-lg bg-red-50 p-4 border border-wrong/20 text-sm text-wrong">
-            <div className="flex items-center gap-2">
-              <svg className="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span>{errorMessage}</span>
-            </div>
-          </div>
-        )}
-
-        {showForgotNotice && (
-          <div className="mb-6 rounded-lg bg-blue-50 p-3 border border-primary/20 text-xs text-primary flex items-center justify-between">
-            <span>Password reset functionality is Coming Soon.</span>
-            <button
-              type="button"
-              onClick={() => setShowForgotNotice(false)}
-              className="text-gray-400 hover:text-gray-600 font-bold ml-2"
-            >
-              &times;
-            </button>
+        {errorMessageText && (
+          <div className="mb-6 rounded-lg bg-red-50 p-4 border border-wrong/20 text-sm text-wrong" role="alert">
+            {errorMessageText}
           </div>
         )}
 
@@ -118,7 +100,7 @@ export const LoginPage: React.FC = () => {
               type="email"
               autoComplete="email"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(event) => setEmail(event.target.value)}
               className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
                 fieldErrors.email
                   ? "border-wrong focus:ring-wrong/20"
@@ -136,20 +118,19 @@ export const LoginPage: React.FC = () => {
               <label htmlFor="password" className="block text-sm font-medium text-content">
                 Password
               </label>
-              <button
-                type="button"
-                onClick={() => setShowForgotNotice(true)}
+              <Link
+                to="/forgot-password"
                 className="text-xs font-medium text-primary hover:underline"
               >
                 Forgot password?
-              </button>
+              </Link>
             </div>
             <input
               id="password"
               type="password"
               autoComplete="current-password"
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(event) => setPassword(event.target.value)}
               className={`w-full rounded-lg border px-3.5 py-2.5 text-content text-sm transition focus:outline-none focus:ring-2 ${
                 fieldErrors.password
                   ? "border-wrong focus:ring-wrong/20"
@@ -164,12 +145,23 @@ export const LoginPage: React.FC = () => {
 
           <button
             type="submit"
-            disabled={isSubmitting}
+            disabled={isSubmitting || isGoogleStarting}
             className="w-full rounded-lg bg-primary py-2.5 px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary/40 disabled:opacity-60 cursor-pointer"
           >
             {isSubmitting ? "Signing in..." : "Sign In"}
           </button>
         </form>
+
+        <div className="my-5 flex items-center gap-3 text-xs text-gray-400">
+          <span className="h-px flex-1 bg-gray-200" />
+          OR
+          <span className="h-px flex-1 bg-gray-200" />
+        </div>
+        <GoogleButton
+          onClick={handleGoogle}
+          disabled={isSubmitting}
+          busy={isGoogleStarting}
+        />
 
         <div className="mt-6 text-center text-sm text-gray-500">
           Don't have an account?{" "}

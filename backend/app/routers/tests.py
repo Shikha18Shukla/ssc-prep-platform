@@ -41,6 +41,7 @@ def _current(attempt: TestAttempt, db: Session) -> ActiveTestRead:
             select(UserAnswer).where(UserAnswer.test_attempt_id == attempt.id)
         ).scalars()
     }
+    attempt_sections = {row.question.section for row in rows if row.question.section}
     return ActiveTestRead(
         id=attempt.id,
         exam_id=attempt.exam_id,
@@ -54,6 +55,7 @@ def _current(attempt: TestAttempt, db: Session) -> ActiveTestRead:
         started_at=attempt.started_at,
         deadline_at=deadline(attempt),
         status=attempt.status,
+        section=attempt_sections.pop() if len(attempt_sections) == 1 else None,
         questions=[
             ActiveTestQuestion(
                 test_question_id=row.id,

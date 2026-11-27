@@ -1,0 +1,4237 @@
+[
+  {
+    "id": "percentage_arithmetic_mains-0001",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "An investment of ₹800 changes by 10%, then 20% and then -15%. What is its final value?",
+    "options": [
+      "₹3988/5",
+      "₹8976/5",
+      "₹4988/5",
+      "₹4488/5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹4488/5",
+    "explanation": "Multiply successively: 800 x 110/100 x 120/100 x 85/100 = 4488/5.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_successive_three",
+      "variant": 0,
+      "inputs": {
+        "base": 800,
+        "a": 10,
+        "b": 20,
+        "c": -15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0002",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "An investment of ₹1200 changes by 15%, then -10% and then 25%. What is its final value?",
+    "options": [
+      "₹3105",
+      "₹2905/2",
+      "₹3105/2",
+      "₹3305/2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹3105/2",
+    "explanation": "Multiply successively: 1200 x 115/100 x 90/100 x 125/100 = 3105/2.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_successive_three",
+      "variant": 1,
+      "inputs": {
+        "base": 1200,
+        "a": 15,
+        "b": -10,
+        "c": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0003",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "An investment of ₹1500 changes by 20%, then 15% and then -20%. What is its final value?",
+    "options": [
+      "₹1556",
+      "₹1756",
+      "₹1656",
+      "₹3312"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹1656",
+    "explanation": "Multiply successively: 1500 x 120/100 x 115/100 x 80/100 = 1656.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_successive_three",
+      "variant": 2,
+      "inputs": {
+        "base": 1500,
+        "a": 20,
+        "b": 15,
+        "c": -20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0004",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "An investment of ₹2400 changes by 25%, then -20% and then 10%. What is its final value?",
+    "options": [
+      "₹2640",
+      "₹2540",
+      "₹2740",
+      "₹5280"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹2640",
+    "explanation": "Multiply successively: 2400 x 125/100 x 80/100 x 110/100 = 2640.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_successive_three",
+      "variant": 3,
+      "inputs": {
+        "base": 2400,
+        "a": 25,
+        "b": -20,
+        "c": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0005",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "An investment of ₹3600 changes by 12%, then 18% and then -25%. What is its final value?",
+    "options": [
+      "₹91708/25",
+      "₹89208/25",
+      "₹178416/25",
+      "₹86708/25"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹89208/25",
+    "explanation": "Multiply successively: 3600 x 112/100 x 118/100 x 75/100 = 89208/25.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_successive_three",
+      "variant": 4,
+      "inputs": {
+        "base": 3600,
+        "a": 12,
+        "b": 18,
+        "c": -25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0006",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A sum becomes ₹1540 after a 10% increase followed by a -20% change. Find the original sum.",
+    "options": [
+      "₹1850",
+      "₹1750",
+      "₹3500",
+      "₹1650"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹1750",
+    "explanation": "Original = 1540 x 10000 / (110 x 80) = 1750.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_reverse_original",
+      "variant": 0,
+      "inputs": {
+        "final": 1540,
+        "a": 10,
+        "b": -20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0007",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A sum becomes ₹1728 after a 20% increase followed by a -10% change. Find the original sum.",
+    "options": [
+      "₹3200",
+      "₹1600",
+      "₹1700",
+      "₹1500"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹1600",
+    "explanation": "Original = 1728 x 10000 / (120 x 90) = 1600.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_reverse_original",
+      "variant": 1,
+      "inputs": {
+        "final": 1728,
+        "a": 20,
+        "b": -10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0008",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A sum becomes ₹2025 after a 25% increase followed by a -20% change. Find the original sum.",
+    "options": [
+      "₹2125",
+      "₹1925",
+      "₹4050",
+      "₹2025"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹2025",
+    "explanation": "Original = 2025 x 10000 / (125 x 80) = 2025.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_reverse_original",
+      "variant": 2,
+      "inputs": {
+        "final": 2025,
+        "a": 25,
+        "b": -20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0009",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A sum becomes ₹1188 after a 10% increase followed by a -10% change. Find the original sum.",
+    "options": [
+      "₹1300",
+      "₹1100",
+      "₹1200",
+      "₹2400"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹1200",
+    "explanation": "Original = 1188 x 10000 / (110 x 90) = 1200.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_reverse_original",
+      "variant": 3,
+      "inputs": {
+        "final": 1188,
+        "a": 10,
+        "b": -10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0010",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A sum becomes ₹2160 after a 20% increase followed by a -10% change. Find the original sum.",
+    "options": [
+      "₹4000",
+      "₹2000",
+      "₹2100",
+      "₹1900"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹2000",
+    "explanation": "Original = 2160 x 10000 / (120 x 90) = 2000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_reverse_original",
+      "variant": 4,
+      "inputs": {
+        "final": 2160,
+        "a": 20,
+        "b": -10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0011",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A town has 12000 residents. It grows by 15% and then gains 600 net migrants. What is the new population?",
+    "options": [
+      "14400",
+      "14900",
+      "28800",
+      "13900"
+    ],
+    "correct_option": "A",
+    "correct_answer": "14400",
+    "explanation": "After growth: 12000 x 115/100 = 13800; then add 600 to get 14400.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_population_net",
+      "variant": 0,
+      "inputs": {
+        "pop": 12000,
+        "growth": 15,
+        "migrants": 600
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0012",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A town has 18000 residents. It grows by 12% and then gains 900 net migrants. What is the new population?",
+    "options": [
+      "21060",
+      "20560",
+      "21560",
+      "42120"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21060",
+    "explanation": "After growth: 18000 x 112/100 = 20160; then add 900 to get 21060.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_population_net",
+      "variant": 1,
+      "inputs": {
+        "pop": 18000,
+        "growth": 12,
+        "migrants": 900
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0013",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A town has 24000 residents. It grows by 8% and then gains -1200 net migrants. What is the new population?",
+    "options": [
+      "49440",
+      "25220",
+      "24720",
+      "24220"
+    ],
+    "correct_option": "C",
+    "correct_answer": "24720",
+    "explanation": "After growth: 24000 x 108/100 = 25920; then add -1200 to get 24720.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_population_net",
+      "variant": 2,
+      "inputs": {
+        "pop": 24000,
+        "growth": 8,
+        "migrants": -1200
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0014",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A town has 30000 residents. It grows by 10% and then gains 1500 net migrants. What is the new population?",
+    "options": [
+      "34500",
+      "69000",
+      "35000",
+      "34000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "34500",
+    "explanation": "After growth: 30000 x 110/100 = 33000; then add 1500 to get 34500.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_population_net",
+      "variant": 3,
+      "inputs": {
+        "pop": 30000,
+        "growth": 10,
+        "migrants": 1500
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0015",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 1,
+    "section": "percentage_arithmetic_mains_part_1",
+    "question_text": "A town has 36000 residents. It grows by 5% and then gains -900 net migrants. What is the new population?",
+    "options": [
+      "73800",
+      "36900",
+      "36400",
+      "37400"
+    ],
+    "correct_option": "B",
+    "correct_answer": "36900",
+    "explanation": "After growth: 36000 x 105/100 = 37800; then add -900 to get 36900.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_population_net",
+      "variant": 4,
+      "inputs": {
+        "pop": 36000,
+        "growth": 5,
+        "migrants": -900
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0016",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "The price of an article rises by 10%. By what percent must it now fall to return to the original price?",
+    "options": [
+      "4.55%",
+      "4.09%",
+      "9.09%",
+      "14.09%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9.09%",
+    "explanation": "Required fall = 10/110 x 100 = 9.09%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_price_return",
+      "variant": 0,
+      "inputs": {
+        "rise": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0017",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "The price of an article rises by 20%. By what percent must it now fall to return to the original price?",
+    "options": [
+      "11.67%",
+      "21.67%",
+      "16.67%",
+      "8.33%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16.67%",
+    "explanation": "Required fall = 20/120 x 100 = 16.67%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_price_return",
+      "variant": 1,
+      "inputs": {
+        "rise": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0018",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "The price of an article rises by 25%. By what percent must it now fall to return to the original price?",
+    "options": [
+      "25%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20%",
+    "explanation": "Required fall = 25/125 x 100 = 20%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_price_return",
+      "variant": 2,
+      "inputs": {
+        "rise": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0019",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "The price of an article rises by 50%. By what percent must it now fall to return to the original price?",
+    "options": [
+      "16.67%",
+      "28.33%",
+      "38.33%",
+      "33.33%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "33.33%",
+    "explanation": "Required fall = 50/150 x 100 = 33.33%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_price_return",
+      "variant": 3,
+      "inputs": {
+        "rise": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0020",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "The price of an article rises by 60%. By what percent must it now fall to return to the original price?",
+    "options": [
+      "32.5%",
+      "37.5%",
+      "42.5%",
+      "18.75%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "37.5%",
+    "explanation": "Required fall = 60/160 x 100 = 37.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_price_return",
+      "variant": 4,
+      "inputs": {
+        "rise": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0021",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "From a monthly income of ₹20000, a person spends 20% on rent, 25% of the remainder on food and 10% of the new remainder on travel. How much is left?",
+    "options": [
+      "₹21600",
+      "₹10300",
+      "₹11300",
+      "₹10800"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹10800",
+    "explanation": "Left = 20000 x 80/100 x 75/100 x 90/100 = 10800.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_allocation_remaining",
+      "variant": 0,
+      "inputs": {
+        "income": 20000,
+        "a": 20,
+        "b": 25,
+        "c": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0022",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "From a monthly income of ₹30000, a person spends 15% on rent, 20% of the remainder on food and 25% of the new remainder on travel. How much is left?",
+    "options": [
+      "₹30600",
+      "₹15300",
+      "₹14800",
+      "₹15800"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹15300",
+    "explanation": "Left = 30000 x 85/100 x 80/100 x 75/100 = 15300.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_allocation_remaining",
+      "variant": 1,
+      "inputs": {
+        "income": 30000,
+        "a": 15,
+        "b": 20,
+        "c": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0023",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "From a monthly income of ₹40000, a person spends 25% on rent, 10% of the remainder on food and 20% of the new remainder on travel. How much is left?",
+    "options": [
+      "₹43200",
+      "₹21100",
+      "₹21600",
+      "₹22100"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹21600",
+    "explanation": "Left = 40000 x 75/100 x 90/100 x 80/100 = 21600.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_allocation_remaining",
+      "variant": 2,
+      "inputs": {
+        "income": 40000,
+        "a": 25,
+        "b": 10,
+        "c": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0024",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "From a monthly income of ₹50000, a person spends 10% on rent, 30% of the remainder on food and 15% of the new remainder on travel. How much is left?",
+    "options": [
+      "₹53550",
+      "₹27275",
+      "₹26775",
+      "₹26275"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹26775",
+    "explanation": "Left = 50000 x 90/100 x 70/100 x 85/100 = 26775.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_allocation_remaining",
+      "variant": 3,
+      "inputs": {
+        "income": 50000,
+        "a": 10,
+        "b": 30,
+        "c": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0025",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "From a monthly income of ₹60000, a person spends 20% on rent, 15% of the remainder on food and 30% of the new remainder on travel. How much is left?",
+    "options": [
+      "₹29060",
+      "₹57120",
+      "₹28060",
+      "₹28560"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹28560",
+    "explanation": "Left = 60000 x 80/100 x 85/100 x 70/100 = 28560.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_allocation_remaining",
+      "variant": 4,
+      "inputs": {
+        "income": 60000,
+        "a": 20,
+        "b": 15,
+        "c": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0026",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "Two solutions of 20 L at 15% strength and 30 L at 35% strength are mixed. Find the strength of the mixture.",
+    "options": [
+      "29%",
+      "27%",
+      "25%",
+      "13.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "27%",
+    "explanation": "Strength = (20x15 + 30x35)/50 = 27%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_weighted_average",
+      "variant": 0,
+      "inputs": {
+        "q1": 20,
+        "c1": 15,
+        "q2": 30,
+        "c2": 35
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0027",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "Two solutions of 30 L at 20% strength and 50 L at 40% strength are mixed. Find the strength of the mixture.",
+    "options": [
+      "16.25%",
+      "32.5%",
+      "34.5%",
+      "30.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "32.5%",
+    "explanation": "Strength = (30x20 + 50x40)/80 = 32.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_weighted_average",
+      "variant": 1,
+      "inputs": {
+        "q1": 30,
+        "c1": 20,
+        "q2": 50,
+        "c2": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0028",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "Two solutions of 40 L at 12% strength and 60 L at 32% strength are mixed. Find the strength of the mixture.",
+    "options": [
+      "24%",
+      "26%",
+      "22%",
+      "12%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24%",
+    "explanation": "Strength = (40x12 + 60x32)/100 = 24%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_weighted_average",
+      "variant": 2,
+      "inputs": {
+        "q1": 40,
+        "c1": 12,
+        "q2": 60,
+        "c2": 32
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0029",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "Two solutions of 50 L at 18% strength and 75 L at 30% strength are mixed. Find the strength of the mixture.",
+    "options": [
+      "25.2%",
+      "27.2%",
+      "23.2%",
+      "12.6%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25.2%",
+    "explanation": "Strength = (50x18 + 75x30)/125 = 25.2%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_weighted_average",
+      "variant": 3,
+      "inputs": {
+        "q1": 50,
+        "c1": 18,
+        "q2": 75,
+        "c2": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0030",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "Two solutions of 60 L at 25% strength and 90 L at 45% strength are mixed. Find the strength of the mixture.",
+    "options": [
+      "37%",
+      "18.5%",
+      "35%",
+      "39%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "37%",
+    "explanation": "Strength = (60x25 + 90x45)/150 = 37%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_weighted_average",
+      "variant": 4,
+      "inputs": {
+        "q1": 60,
+        "c1": 25,
+        "q2": 90,
+        "c2": 45
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0031",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "An election had 50000 votes, of which 10% were invalid. The winner secured 55% of valid votes. Find the winning margin.",
+    "options": [
+      "3500",
+      "4500",
+      "9000",
+      "5500"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4500",
+    "explanation": "Valid votes = 45000; margin = 10% of valid votes = 4500.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_election_margin",
+      "variant": 0,
+      "inputs": {
+        "total": 50000,
+        "invalid": 10,
+        "winner": 55
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0032",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "An election had 60000 votes, of which 15% were invalid. The winner secured 60% of valid votes. Find the winning margin.",
+    "options": [
+      "11200",
+      "10200",
+      "20400",
+      "9200"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10200",
+    "explanation": "Valid votes = 51000; margin = 20% of valid votes = 10200.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_election_margin",
+      "variant": 1,
+      "inputs": {
+        "total": 60000,
+        "invalid": 15,
+        "winner": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0033",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "An election had 72000 votes, of which 12% were invalid. The winner secured 58% of valid votes. Find the winning margin.",
+    "options": [
+      "50688/5",
+      "55688/5",
+      "101376/5",
+      "45688/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "50688/5",
+    "explanation": "Valid votes = 63360; margin = 16% of valid votes = 50688/5.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_election_margin",
+      "variant": 2,
+      "inputs": {
+        "total": 72000,
+        "invalid": 12,
+        "winner": 58
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0034",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "An election had 84000 votes, of which 20% were invalid. The winner secured 62% of valid votes. Find the winning margin.",
+    "options": [
+      "16128",
+      "17128",
+      "15128",
+      "32256"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16128",
+    "explanation": "Valid votes = 67200; margin = 24% of valid votes = 16128.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_election_margin",
+      "variant": 3,
+      "inputs": {
+        "total": 84000,
+        "invalid": 20,
+        "winner": 62
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0035",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 2,
+    "section": "percentage_arithmetic_mains_part_2",
+    "question_text": "An election had 96000 votes, of which 25% were invalid. The winner secured 65% of valid votes. Find the winning margin.",
+    "options": [
+      "21600",
+      "43200",
+      "20600",
+      "22600"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21600",
+    "explanation": "Valid votes = 72000; margin = 30% of valid votes = 21600.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_election_margin",
+      "variant": 4,
+      "inputs": {
+        "total": 96000,
+        "invalid": 25,
+        "winner": 65
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0036",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Of 400 students, 10% were absent. Of those who appeared, 75% passed. How many students passed?",
+    "options": [
+      "540",
+      "245",
+      "295",
+      "270"
+    ],
+    "correct_option": "D",
+    "correct_answer": "270",
+    "explanation": "Appeared = 400 x 90/100; passed = appeared x 75/100 = 270.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_exam_pass",
+      "variant": 0,
+      "inputs": {
+        "enrolled": 400,
+        "absent": 10,
+        "pass_pct": 75
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0037",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Of 500 students, 12% were absent. Of those who appeared, 80% passed. How many students passed?",
+    "options": [
+      "704",
+      "352",
+      "327",
+      "377"
+    ],
+    "correct_option": "B",
+    "correct_answer": "352",
+    "explanation": "Appeared = 500 x 88/100; passed = appeared x 80/100 = 352.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_exam_pass",
+      "variant": 1,
+      "inputs": {
+        "enrolled": 500,
+        "absent": 12,
+        "pass_pct": 80
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0038",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Of 600 students, 15% were absent. Of those who appeared, 70% passed. How many students passed?",
+    "options": [
+      "714",
+      "382",
+      "332",
+      "357"
+    ],
+    "correct_option": "D",
+    "correct_answer": "357",
+    "explanation": "Appeared = 600 x 85/100; passed = appeared x 70/100 = 357.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_exam_pass",
+      "variant": 2,
+      "inputs": {
+        "enrolled": 600,
+        "absent": 15,
+        "pass_pct": 70
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0039",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Of 800 students, 20% were absent. Of those who appeared, 85% passed. How many students passed?",
+    "options": [
+      "1088",
+      "544",
+      "569",
+      "519"
+    ],
+    "correct_option": "B",
+    "correct_answer": "544",
+    "explanation": "Appeared = 800 x 80/100; passed = appeared x 85/100 = 544.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_exam_pass",
+      "variant": 3,
+      "inputs": {
+        "enrolled": 800,
+        "absent": 20,
+        "pass_pct": 85
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0040",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Of 1000 students, 25% were absent. Of those who appeared, 72% passed. How many students passed?",
+    "options": [
+      "565",
+      "1080",
+      "515",
+      "540"
+    ],
+    "correct_option": "D",
+    "correct_answer": "540",
+    "explanation": "Appeared = 1000 x 75/100; passed = appeared x 72/100 = 540.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_exam_pass",
+      "variant": 4,
+      "inputs": {
+        "enrolled": 1000,
+        "absent": 25,
+        "pass_pct": 72
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0041",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "An asset worth ₹200000 depreciates by 10% in the first year and 15% in the second year. Find its value after two years.",
+    "options": [
+      "₹306000",
+      "₹153000",
+      "₹148000",
+      "₹158000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹153000",
+    "explanation": "Value = 200000 x 90/100 x 85/100 = 153000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_depreciation",
+      "variant": 0,
+      "inputs": {
+        "value": 200000,
+        "d1": 10,
+        "d2": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0042",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "An asset worth ₹250000 depreciates by 12% in the first year and 20% in the second year. Find its value after two years.",
+    "options": [
+      "₹176000",
+      "₹171000",
+      "₹352000",
+      "₹181000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹176000",
+    "explanation": "Value = 250000 x 88/100 x 80/100 = 176000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_depreciation",
+      "variant": 1,
+      "inputs": {
+        "value": 250000,
+        "d1": 12,
+        "d2": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0043",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "An asset worth ₹320000 depreciates by 15% in the first year and 10% in the second year. Find its value after two years.",
+    "options": [
+      "₹489600",
+      "₹239800",
+      "₹244800",
+      "₹249800"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹244800",
+    "explanation": "Value = 320000 x 85/100 x 90/100 = 244800.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_depreciation",
+      "variant": 2,
+      "inputs": {
+        "value": 320000,
+        "d1": 15,
+        "d2": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0044",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "An asset worth ₹400000 depreciates by 20% in the first year and 25% in the second year. Find its value after two years.",
+    "options": [
+      "₹240000",
+      "₹480000",
+      "₹235000",
+      "₹245000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹240000",
+    "explanation": "Value = 400000 x 80/100 x 75/100 = 240000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_depreciation",
+      "variant": 3,
+      "inputs": {
+        "value": 400000,
+        "d1": 20,
+        "d2": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0045",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "An asset worth ₹500000 depreciates by 8% in the first year and 12% in the second year. Find its value after two years.",
+    "options": [
+      "₹809600",
+      "₹409800",
+      "₹404800",
+      "₹399800"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹404800",
+    "explanation": "Value = 500000 x 92/100 x 88/100 = 404800.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_depreciation",
+      "variant": 4,
+      "inputs": {
+        "value": 500000,
+        "d1": 8,
+        "d2": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0046",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Income is ₹800000. The first ₹300000 is exempt, the balance is taxed at 10% and a 4% cess is charged on the tax. Find the total tax.",
+    "options": [
+      "₹104000",
+      "₹47000",
+      "₹57000",
+      "₹52000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹52000",
+    "explanation": "Taxable = 800000 - 300000 = 500000; base tax = 50000; with cess = 52000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_tax_slab",
+      "variant": 0,
+      "inputs": {
+        "income": 800000,
+        "free": 300000,
+        "rate": 10,
+        "cess": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0047",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Income is ₹1000000. The first ₹400000 is exempt, the balance is taxed at 15% and a 3% cess is charged on the tax. Find the total tax.",
+    "options": [
+      "₹92700",
+      "₹185400",
+      "₹87700",
+      "₹97700"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹92700",
+    "explanation": "Taxable = 1000000 - 400000 = 600000; base tax = 90000; with cess = 92700.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_tax_slab",
+      "variant": 1,
+      "inputs": {
+        "income": 1000000,
+        "free": 400000,
+        "rate": 15,
+        "cess": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0048",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Income is ₹1200000. The first ₹500000 is exempt, the balance is taxed at 20% and a 2% cess is charged on the tax. Find the total tax.",
+    "options": [
+      "₹147800",
+      "₹285600",
+      "₹142800",
+      "₹137800"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹142800",
+    "explanation": "Taxable = 1200000 - 500000 = 700000; base tax = 140000; with cess = 142800.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_tax_slab",
+      "variant": 2,
+      "inputs": {
+        "income": 1200000,
+        "free": 500000,
+        "rate": 20,
+        "cess": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0049",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Income is ₹1500000. The first ₹600000 is exempt, the balance is taxed at 20% and a 4% cess is charged on the tax. Find the total tax.",
+    "options": [
+      "₹187200",
+      "₹192200",
+      "₹374400",
+      "₹182200"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹187200",
+    "explanation": "Taxable = 1500000 - 600000 = 900000; base tax = 180000; with cess = 187200.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_tax_slab",
+      "variant": 3,
+      "inputs": {
+        "income": 1500000,
+        "free": 600000,
+        "rate": 20,
+        "cess": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0050",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "Income is ₹1800000. The first ₹700000 is exempt, the balance is taxed at 25% and a 3% cess is charged on the tax. Find the total tax.",
+    "options": [
+      "₹283250",
+      "₹288250",
+      "₹566500",
+      "₹278250"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹283250",
+    "explanation": "Taxable = 1800000 - 700000 = 1100000; base tax = 275000; with cess = 283250.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_tax_slab",
+      "variant": 4,
+      "inputs": {
+        "income": 1800000,
+        "free": 700000,
+        "rate": 25,
+        "cess": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0051",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A category was 30% of 20000 and later 25% of 30000. By how many units did its absolute value change?",
+    "options": [
+      "2000",
+      "1500",
+      "3000",
+      "1000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1500",
+    "explanation": "Old part = 6000; new part = 7500; change = 1500.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_percentage_point",
+      "variant": 0,
+      "inputs": {
+        "old_total": 20000,
+        "old_share": 30,
+        "new_total": 30000,
+        "new_share": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0052",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A category was 40% of 24000 and later 35% of 36000. By how many units did its absolute value change?",
+    "options": [
+      "3000",
+      "6000",
+      "3500",
+      "2500"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3000",
+    "explanation": "Old part = 9600; new part = 12600; change = 3000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_percentage_point",
+      "variant": 1,
+      "inputs": {
+        "old_total": 24000,
+        "old_share": 40,
+        "new_total": 36000,
+        "new_share": 35
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0053",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A category was 25% of 30000 and later 30% of 45000. By how many units did its absolute value change?",
+    "options": [
+      "5500",
+      "6500",
+      "12000",
+      "6000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6000",
+    "explanation": "Old part = 7500; new part = 13500; change = 6000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_percentage_point",
+      "variant": 2,
+      "inputs": {
+        "old_total": 30000,
+        "old_share": 25,
+        "new_total": 45000,
+        "new_share": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0054",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A category was 45% of 36000 and later 40% of 48000. By how many units did its absolute value change?",
+    "options": [
+      "3500",
+      "2500",
+      "3000",
+      "6000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3000",
+    "explanation": "Old part = 16200; new part = 19200; change = 3000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_percentage_point",
+      "variant": 3,
+      "inputs": {
+        "old_total": 36000,
+        "old_share": 45,
+        "new_total": 48000,
+        "new_share": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0055",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A category was 20% of 40000 and later 25% of 60000. By how many units did its absolute value change?",
+    "options": [
+      "6500",
+      "7000",
+      "14000",
+      "7500"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7000",
+    "explanation": "Old part = 8000; new part = 15000; change = 7000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_percentage_point",
+      "variant": 4,
+      "inputs": {
+        "old_total": 40000,
+        "old_share": 20,
+        "new_total": 60000,
+        "new_share": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0056",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A is 20% of B and B is 50% of C. Find A:C in simplest form.",
+    "options": [
+      "1:10",
+      "100:50",
+      "100:20",
+      "20:50"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1:10",
+    "explanation": "A/C = 20/100 x 50/100 = 1000/10000 = 1:10 after simplification.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_ratio_from_percent",
+      "variant": 0,
+      "inputs": {
+        "x": 20,
+        "y": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0057",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A is 25% of B and B is 40% of C. Find A:C in simplest form.",
+    "options": [
+      "100:25",
+      "25:40",
+      "100:40",
+      "1:10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1:10",
+    "explanation": "A/C = 25/100 x 40/100 = 1000/10000 = 1:10 after simplification.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_ratio_from_percent",
+      "variant": 1,
+      "inputs": {
+        "x": 25,
+        "y": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0058",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A is 30% of B and B is 60% of C. Find A:C in simplest form.",
+    "options": [
+      "30:60",
+      "100:60",
+      "100:30",
+      "9:50"
+    ],
+    "correct_option": "D",
+    "correct_answer": "9:50",
+    "explanation": "A/C = 30/100 x 60/100 = 1800/10000 = 9:50 after simplification.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_ratio_from_percent",
+      "variant": 2,
+      "inputs": {
+        "x": 30,
+        "y": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0059",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A is 40% of B and B is 25% of C. Find A:C in simplest form.",
+    "options": [
+      "100:40",
+      "100:25",
+      "40:25",
+      "1:10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1:10",
+    "explanation": "A/C = 40/100 x 25/100 = 1000/10000 = 1:10 after simplification.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_ratio_from_percent",
+      "variant": 3,
+      "inputs": {
+        "x": 40,
+        "y": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0060",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "A is 50% of B and B is 20% of C. Find A:C in simplest form.",
+    "options": [
+      "1:10",
+      "100:50",
+      "100:20",
+      "50:20"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1:10",
+    "explanation": "A/C = 50/100 x 20/100 = 1000/10000 = 1:10 after simplification.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_ratio_from_percent",
+      "variant": 4,
+      "inputs": {
+        "x": 50,
+        "y": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0061",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "The price of a commodity rises 20% and its consumption falls 10%. What is the percentage change in expenditure?",
+    "options": [
+      "6%",
+      "10%",
+      "4%",
+      "8%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8%",
+    "explanation": "Expenditure factor = 120/100 x 90/100; change = 8%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_expenditure_change",
+      "variant": 0,
+      "inputs": {
+        "price": 20,
+        "consumption": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0062",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "The price of a commodity rises 25% and its consumption falls 20%. What is the percentage change in expenditure?",
+    "options": [
+      "2%",
+      "-2%",
+      "0%",
+      "1%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "0%",
+    "explanation": "Expenditure factor = 125/100 x 80/100; change = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_expenditure_change",
+      "variant": 1,
+      "inputs": {
+        "price": 25,
+        "consumption": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0063",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "The price of a commodity rises 10% and its consumption falls 5%. What is the percentage change in expenditure?",
+    "options": [
+      "2.25%",
+      "2.5%",
+      "4.5%",
+      "6.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4.5%",
+    "explanation": "Expenditure factor = 110/100 x 95/100; change = 4.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_expenditure_change",
+      "variant": 2,
+      "inputs": {
+        "price": 10,
+        "consumption": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0064",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "The price of a commodity rises 30% and its consumption falls 25%. What is the percentage change in expenditure?",
+    "options": [
+      "-0.5%",
+      "-1.25%",
+      "-2.5%",
+      "-4.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-2.5%",
+    "explanation": "Expenditure factor = 130/100 x 75/100; change = -2.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_expenditure_change",
+      "variant": 3,
+      "inputs": {
+        "price": 30,
+        "consumption": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0065",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 3,
+    "section": "percentage_arithmetic_mains_part_3",
+    "question_text": "The price of a commodity rises 40% and its consumption falls 20%. What is the percentage change in expenditure?",
+    "options": [
+      "10%",
+      "6%",
+      "14%",
+      "12%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12%",
+    "explanation": "Expenditure factor = 140/100 x 80/100; change = 12%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_expenditure_change",
+      "variant": 4,
+      "inputs": {
+        "price": 40,
+        "consumption": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0066",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "In an exam of 200 students, 70% passed Maths, 60% passed English and 40% passed both. How many passed at least one?",
+    "options": [
+      "360",
+      "180",
+      "200",
+      "160"
+    ],
+    "correct_option": "B",
+    "correct_answer": "180",
+    "explanation": "Inclusion-exclusion: 70 + 60 - 40 = 90% of 200 = 180.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_overlap_pass",
+      "variant": 0,
+      "inputs": {
+        "total": 200,
+        "math_pct": 70,
+        "eng_pct": 60,
+        "both_pct": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0067",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "In an exam of 300 students, 65% passed Maths, 55% passed English and 30% passed both. How many passed at least one?",
+    "options": [
+      "290",
+      "270",
+      "250",
+      "540"
+    ],
+    "correct_option": "B",
+    "correct_answer": "270",
+    "explanation": "Inclusion-exclusion: 65 + 55 - 30 = 90% of 300 = 270.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_overlap_pass",
+      "variant": 1,
+      "inputs": {
+        "total": 300,
+        "math_pct": 65,
+        "eng_pct": 55,
+        "both_pct": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0068",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "In an exam of 400 students, 75% passed Maths, 60% passed English and 45% passed both. How many passed at least one?",
+    "options": [
+      "720",
+      "340",
+      "380",
+      "360"
+    ],
+    "correct_option": "D",
+    "correct_answer": "360",
+    "explanation": "Inclusion-exclusion: 75 + 60 - 45 = 90% of 400 = 360.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_overlap_pass",
+      "variant": 2,
+      "inputs": {
+        "total": 400,
+        "math_pct": 75,
+        "eng_pct": 60,
+        "both_pct": 45
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0069",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "In an exam of 500 students, 80% passed Maths, 70% passed English and 55% passed both. How many passed at least one?",
+    "options": [
+      "950",
+      "495",
+      "475",
+      "455"
+    ],
+    "correct_option": "C",
+    "correct_answer": "475",
+    "explanation": "Inclusion-exclusion: 80 + 70 - 55 = 95% of 500 = 475.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_overlap_pass",
+      "variant": 3,
+      "inputs": {
+        "total": 500,
+        "math_pct": 80,
+        "eng_pct": 70,
+        "both_pct": 55
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0070",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "In an exam of 600 students, 72% passed Maths, 68% passed English and 40% passed both. How many passed at least one?",
+    "options": [
+      "580",
+      "600",
+      "1200",
+      "620"
+    ],
+    "correct_option": "B",
+    "correct_answer": "600",
+    "explanation": "Inclusion-exclusion: 72 + 68 - 40 = 100% of 600 = 600.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_overlap_pass",
+      "variant": 4,
+      "inputs": {
+        "total": 600,
+        "math_pct": 72,
+        "eng_pct": 68,
+        "both_pct": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0071",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A population is 20000. Men are 55% of it, with 80% literacy; female literacy is 60%. Find the literate population.",
+    "options": [
+      "13700",
+      "14200",
+      "14700",
+      "28400"
+    ],
+    "correct_option": "B",
+    "correct_answer": "14200",
+    "explanation": "Literate = 20000 x (55x80 + 45x60)/10000 = 14200.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_gender_literacy",
+      "variant": 0,
+      "inputs": {
+        "pop": 20000,
+        "male_pct": 55,
+        "male_lit": 80,
+        "female_lit": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0072",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A population is 30000. Men are 60% of it, with 75% literacy; female literacy is 65%. Find the literate population.",
+    "options": [
+      "21800",
+      "20800",
+      "42600",
+      "21300"
+    ],
+    "correct_option": "D",
+    "correct_answer": "21300",
+    "explanation": "Literate = 30000 x (60x75 + 40x65)/10000 = 21300.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_gender_literacy",
+      "variant": 1,
+      "inputs": {
+        "pop": 30000,
+        "male_pct": 60,
+        "male_lit": 75,
+        "female_lit": 65
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0073",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A population is 40000. Men are 52% of it, with 85% literacy; female literacy is 70%. Find the literate population.",
+    "options": [
+      "62240",
+      "30620",
+      "31620",
+      "31120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "31120",
+    "explanation": "Literate = 40000 x (52x85 + 48x70)/10000 = 31120.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_gender_literacy",
+      "variant": 2,
+      "inputs": {
+        "pop": 40000,
+        "male_pct": 52,
+        "male_lit": 85,
+        "female_lit": 70
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0074",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A population is 50000. Men are 58% of it, with 78% literacy; female literacy is 62%. Find the literate population.",
+    "options": [
+      "35640",
+      "71280",
+      "36140",
+      "35140"
+    ],
+    "correct_option": "A",
+    "correct_answer": "35640",
+    "explanation": "Literate = 50000 x (58x78 + 42x62)/10000 = 35640.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_gender_literacy",
+      "variant": 3,
+      "inputs": {
+        "pop": 50000,
+        "male_pct": 58,
+        "male_lit": 78,
+        "female_lit": 62
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0075",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A population is 60000. Men are 62% of it, with 82% literacy; female literacy is 68%. Find the literate population.",
+    "options": [
+      "46508",
+      "92016",
+      "45508",
+      "46008"
+    ],
+    "correct_option": "D",
+    "correct_answer": "46008",
+    "explanation": "Literate = 60000 x (62x82 + 38x68)/10000 = 46008.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_gender_literacy",
+      "variant": 4,
+      "inputs": {
+        "pop": 60000,
+        "male_pct": 62,
+        "male_lit": 82,
+        "female_lit": 68
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0076",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "₹120000 is split in the ratio 2:3. The parts earn 8% and 12% simple interest respectively. Find the total annual interest.",
+    "options": [
+      "₹13480",
+      "₹11480",
+      "₹12480",
+      "₹24960"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹12480",
+    "explanation": "First part = ₹48000, second = ₹72000; interest = 12480.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_investment_split",
+      "variant": 0,
+      "inputs": {
+        "total": 120000,
+        "x": 2,
+        "y": 3,
+        "r1": 8,
+        "r2": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0077",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "₹180000 is split in the ratio 3:5. The parts earn 6% and 10% simple interest respectively. Find the total annual interest.",
+    "options": [
+      "₹16300",
+      "₹15300",
+      "₹14300",
+      "₹30600"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹15300",
+    "explanation": "First part = ₹67500, second = ₹112500; interest = 15300.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_investment_split",
+      "variant": 1,
+      "inputs": {
+        "total": 180000,
+        "x": 3,
+        "y": 5,
+        "r1": 6,
+        "r2": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0078",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "₹240000 is split in the ratio 4:5. The parts earn 9% and 15% simple interest respectively. Find the total annual interest.",
+    "options": [
+      "₹29600",
+      "₹59200",
+      "₹30600",
+      "₹28600"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹29600",
+    "explanation": "First part = ₹320000/3, second = ₹400000/3; interest = 29600.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_investment_split",
+      "variant": 2,
+      "inputs": {
+        "total": 240000,
+        "x": 4,
+        "y": 5,
+        "r1": 9,
+        "r2": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0079",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "₹300000 is split in the ratio 5:7. The parts earn 7% and 11% simple interest respectively. Find the total annual interest.",
+    "options": [
+      "₹28000",
+      "₹27000",
+      "₹56000",
+      "₹29000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹28000",
+    "explanation": "First part = ₹125000, second = ₹175000; interest = 28000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_investment_split",
+      "variant": 3,
+      "inputs": {
+        "total": 300000,
+        "x": 5,
+        "y": 7,
+        "r1": 7,
+        "r2": 11
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0080",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "₹360000 is split in the ratio 3:7. The parts earn 8% and 13% simple interest respectively. Find the total annual interest.",
+    "options": [
+      "₹41400",
+      "₹42400",
+      "₹40400",
+      "₹82800"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹41400",
+    "explanation": "First part = ₹108000, second = ₹252000; interest = 41400.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_investment_split",
+      "variant": 4,
+      "inputs": {
+        "total": 360000,
+        "x": 3,
+        "y": 7,
+        "r1": 8,
+        "r2": 13
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0081",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An article has marked price ₹25000. A 20% discount is given and then 8% tax is added. What does the customer pay?",
+    "options": [
+      "₹20600",
+      "₹21600",
+      "₹43200",
+      "₹22600"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹21600",
+    "explanation": "Net = 25000 x 80/100 x 108/100 = 21600.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_discount_tax",
+      "variant": 0,
+      "inputs": {
+        "mp": 25000,
+        "discount": 20,
+        "tax": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0082",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An article has marked price ₹32000. A 25% discount is given and then 5% tax is added. What does the customer pay?",
+    "options": [
+      "₹25200",
+      "₹24200",
+      "₹50400",
+      "₹26200"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹25200",
+    "explanation": "Net = 32000 x 75/100 x 105/100 = 25200.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_discount_tax",
+      "variant": 1,
+      "inputs": {
+        "mp": 32000,
+        "discount": 25,
+        "tax": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0083",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An article has marked price ₹40000. A 15% discount is given and then 12% tax is added. What does the customer pay?",
+    "options": [
+      "₹38080",
+      "₹37080",
+      "₹76160",
+      "₹39080"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹38080",
+    "explanation": "Net = 40000 x 85/100 x 112/100 = 38080.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_discount_tax",
+      "variant": 2,
+      "inputs": {
+        "mp": 40000,
+        "discount": 15,
+        "tax": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0084",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An article has marked price ₹48000. A 30% discount is given and then 6% tax is added. What does the customer pay?",
+    "options": [
+      "₹34616",
+      "₹35616",
+      "₹36616",
+      "₹71232"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹35616",
+    "explanation": "Net = 48000 x 70/100 x 106/100 = 35616.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_discount_tax",
+      "variant": 3,
+      "inputs": {
+        "mp": 48000,
+        "discount": 30,
+        "tax": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0085",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An article has marked price ₹60000. A 20% discount is given and then 10% tax is added. What does the customer pay?",
+    "options": [
+      "₹52800",
+      "₹105600",
+      "₹53800",
+      "₹51800"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹52800",
+    "explanation": "Net = 60000 x 80/100 x 110/100 = 52800.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_discount_tax",
+      "variant": 4,
+      "inputs": {
+        "mp": 60000,
+        "discount": 20,
+        "tax": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0086",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "100 L of a 20% solution has 20 L of water evaporated. Find the new concentration.",
+    "options": [
+      "25%",
+      "12.5%",
+      "27%",
+      "23%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25%",
+    "explanation": "Solute = 20 L; final volume = 80 L; strength = 25%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_evaporation",
+      "variant": 0,
+      "inputs": {
+        "total": 100,
+        "solute_pct": 20,
+        "evaporated": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0087",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "150 L of a 25% solution has 30 L of water evaporated. Find the new concentration.",
+    "options": [
+      "31.25%",
+      "29.25%",
+      "33.25%",
+      "15.62%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "31.25%",
+    "explanation": "Solute = 75/2 L; final volume = 120 L; strength = 31.25%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_evaporation",
+      "variant": 1,
+      "inputs": {
+        "total": 150,
+        "solute_pct": 25,
+        "evaporated": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0088",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "200 L of a 15% solution has 40 L of water evaporated. Find the new concentration.",
+    "options": [
+      "16.75%",
+      "20.75%",
+      "18.75%",
+      "9.38%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18.75%",
+    "explanation": "Solute = 30 L; final volume = 160 L; strength = 18.75%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_evaporation",
+      "variant": 2,
+      "inputs": {
+        "total": 200,
+        "solute_pct": 15,
+        "evaporated": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0089",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "250 L of a 30% solution has 50 L of water evaporated. Find the new concentration.",
+    "options": [
+      "18.75%",
+      "37.5%",
+      "35.5%",
+      "39.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "37.5%",
+    "explanation": "Solute = 75 L; final volume = 200 L; strength = 37.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_evaporation",
+      "variant": 3,
+      "inputs": {
+        "total": 250,
+        "solute_pct": 30,
+        "evaporated": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0090",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "300 L of a 24% solution has 60 L of water evaporated. Find the new concentration.",
+    "options": [
+      "32%",
+      "30%",
+      "15%",
+      "28%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30%",
+    "explanation": "Solute = 72 L; final volume = 240 L; strength = 30%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_evaporation",
+      "variant": 4,
+      "inputs": {
+        "total": 300,
+        "solute_pct": 24,
+        "evaporated": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0091",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Two alloys contain 30% and 60% copper. Quantities of 18 kg and 12 kg are melted together. Find the copper percentage in the new alloy.",
+    "options": [
+      "44%",
+      "21%",
+      "42%",
+      "40%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42%",
+    "explanation": "Copper = (18x30 + 12x60)/30 = 42%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_alloy_mix",
+      "variant": 0,
+      "inputs": {
+        "q1": 18,
+        "c1": 30,
+        "q2": 12,
+        "c2": 60
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0092",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Two alloys contain 25% and 50% copper. Quantities of 24 kg and 16 kg are melted together. Find the copper percentage in the new alloy.",
+    "options": [
+      "35%",
+      "33%",
+      "37%",
+      "17.5%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "35%",
+    "explanation": "Copper = (24x25 + 16x50)/40 = 35%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_alloy_mix",
+      "variant": 1,
+      "inputs": {
+        "q1": 24,
+        "c1": 25,
+        "q2": 16,
+        "c2": 50
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0093",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Two alloys contain 40% and 65% copper. Quantities of 30 kg and 20 kg are melted together. Find the copper percentage in the new alloy.",
+    "options": [
+      "25%",
+      "50%",
+      "48%",
+      "52%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50%",
+    "explanation": "Copper = (30x40 + 20x65)/50 = 50%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_alloy_mix",
+      "variant": 2,
+      "inputs": {
+        "q1": 30,
+        "c1": 40,
+        "q2": 20,
+        "c2": 65
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0094",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Two alloys contain 35% and 55% copper. Quantities of 36 kg and 24 kg are melted together. Find the copper percentage in the new alloy.",
+    "options": [
+      "21.5%",
+      "41%",
+      "43%",
+      "45%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "43%",
+    "explanation": "Copper = (36x35 + 24x55)/60 = 43%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_alloy_mix",
+      "variant": 3,
+      "inputs": {
+        "q1": 36,
+        "c1": 35,
+        "q2": 24,
+        "c2": 55
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0095",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Two alloys contain 45% and 70% copper. Quantities of 42 kg and 28 kg are melted together. Find the copper percentage in the new alloy.",
+    "options": [
+      "53%",
+      "57%",
+      "55%",
+      "27.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "55%",
+    "explanation": "Copper = (42x45 + 28x70)/70 = 55%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_alloy_mix",
+      "variant": 4,
+      "inputs": {
+        "q1": 42,
+        "c1": 45,
+        "q2": 28,
+        "c2": 70
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0096",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Of 24 hours, 25% is spent sleeping, 20% of the remainder studying and 30% of the next remainder working. How many hours remain?",
+    "options": [
+      "252/25",
+      "504/25",
+      "227/25",
+      "277/25"
+    ],
+    "correct_option": "A",
+    "correct_answer": "252/25",
+    "explanation": "Remaining = 24 x 75/100 x 80/100 x 70/100 = 252/25 hours.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_time_allocation",
+      "variant": 0,
+      "inputs": {
+        "hours": 24,
+        "sleep": 25,
+        "study": 20,
+        "work": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0097",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Of 24 hours, 30% is spent sleeping, 25% of the remainder studying and 20% of the next remainder working. How many hours remain?",
+    "options": [
+      "252/25",
+      "504/25",
+      "227/25",
+      "277/25"
+    ],
+    "correct_option": "A",
+    "correct_answer": "252/25",
+    "explanation": "Remaining = 24 x 70/100 x 75/100 x 80/100 = 252/25 hours.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_time_allocation",
+      "variant": 1,
+      "inputs": {
+        "hours": 24,
+        "sleep": 30,
+        "study": 25,
+        "work": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0098",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Of 24 hours, 20% is spent sleeping, 30% of the remainder studying and 25% of the next remainder working. How many hours remain?",
+    "options": [
+      "227/25",
+      "252/25",
+      "504/25",
+      "277/25"
+    ],
+    "correct_option": "B",
+    "correct_answer": "252/25",
+    "explanation": "Remaining = 24 x 80/100 x 70/100 x 75/100 = 252/25 hours.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_time_allocation",
+      "variant": 2,
+      "inputs": {
+        "hours": 24,
+        "sleep": 20,
+        "study": 30,
+        "work": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0099",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Of 30 hours, 25% is spent sleeping, 20% of the remainder studying and 40% of the next remainder working. How many hours remain?",
+    "options": [
+      "49/5",
+      "108/5",
+      "54/5",
+      "59/5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "54/5",
+    "explanation": "Remaining = 30 x 75/100 x 80/100 x 60/100 = 54/5 hours.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_time_allocation",
+      "variant": 3,
+      "inputs": {
+        "hours": 30,
+        "sleep": 25,
+        "study": 20,
+        "work": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0100",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Of 36 hours, 30% is spent sleeping, 25% of the remainder studying and 30% of the next remainder working. How many hours remain?",
+    "options": [
+      "1323/50",
+      "1223/100",
+      "1423/100",
+      "1323/100"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1323/100",
+    "explanation": "Remaining = 36 x 70/100 x 75/100 x 70/100 = 1323/100 hours.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_time_allocation",
+      "variant": 4,
+      "inputs": {
+        "hours": 36,
+        "sleep": 30,
+        "study": 25,
+        "work": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0101",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An insurer received 10000 claims. 60% were settled and 25% of the unsettled ones were reopened. How many remain pending?",
+    "options": [
+      "6000",
+      "3000",
+      "2950",
+      "3050"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3000",
+    "explanation": "Unsettled = 10000 x 40/100; after reopening, pending = 3000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_claim_settlement",
+      "variant": 0,
+      "inputs": {
+        "claims": 10000,
+        "settled": 60,
+        "reopened": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0102",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An insurer received 12000 claims. 65% were settled and 20% of the unsettled ones were reopened. How many remain pending?",
+    "options": [
+      "3360",
+      "3310",
+      "3410",
+      "6720"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3360",
+    "explanation": "Unsettled = 12000 x 35/100; after reopening, pending = 3360.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_claim_settlement",
+      "variant": 1,
+      "inputs": {
+        "claims": 12000,
+        "settled": 65,
+        "reopened": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0103",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An insurer received 15000 claims. 70% were settled and 30% of the unsettled ones were reopened. How many remain pending?",
+    "options": [
+      "3100",
+      "3200",
+      "3150",
+      "6300"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3150",
+    "explanation": "Unsettled = 15000 x 30/100; after reopening, pending = 3150.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_claim_settlement",
+      "variant": 2,
+      "inputs": {
+        "claims": 15000,
+        "settled": 70,
+        "reopened": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0104",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An insurer received 18000 claims. 75% were settled and 40% of the unsettled ones were reopened. How many remain pending?",
+    "options": [
+      "2700",
+      "2650",
+      "2750",
+      "5400"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2700",
+    "explanation": "Unsettled = 18000 x 25/100; after reopening, pending = 2700.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_claim_settlement",
+      "variant": 3,
+      "inputs": {
+        "claims": 18000,
+        "settled": 75,
+        "reopened": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0105",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "An insurer received 20000 claims. 80% were settled and 25% of the unsettled ones were reopened. How many remain pending?",
+    "options": [
+      "3050",
+      "3000",
+      "6000",
+      "2950"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3000",
+    "explanation": "Unsettled = 20000 x 20/100; after reopening, pending = 3000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_claim_settlement",
+      "variant": 4,
+      "inputs": {
+        "claims": 20000,
+        "settled": 80,
+        "reopened": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0106",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Find the single discount equivalent to successive discounts of 10% and 20%.",
+    "options": [
+      "30%",
+      "28%",
+      "14%",
+      "26%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "28%",
+    "explanation": "Equivalent discount = 10 + 20 - (10x20)/100 = 28%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_consecutive_discount",
+      "variant": 0,
+      "inputs": {
+        "d1": 10,
+        "d2": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0107",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Find the single discount equivalent to successive discounts of 15% and 25%.",
+    "options": [
+      "34.25%",
+      "36.25%",
+      "18.12%",
+      "38.25%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "36.25%",
+    "explanation": "Equivalent discount = 15 + 25 - (15x25)/100 = 36.25%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_consecutive_discount",
+      "variant": 1,
+      "inputs": {
+        "d1": 15,
+        "d2": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0108",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Find the single discount equivalent to successive discounts of 20% and 30%.",
+    "options": [
+      "42%",
+      "46%",
+      "44%",
+      "22%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "44%",
+    "explanation": "Equivalent discount = 20 + 30 - (20x30)/100 = 44%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_consecutive_discount",
+      "variant": 2,
+      "inputs": {
+        "d1": 20,
+        "d2": 30
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0109",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Find the single discount equivalent to successive discounts of 25% and 40%.",
+    "options": [
+      "27.5%",
+      "57%",
+      "53%",
+      "55%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "55%",
+    "explanation": "Equivalent discount = 25 + 40 - (25x40)/100 = 55%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_consecutive_discount",
+      "variant": 3,
+      "inputs": {
+        "d1": 25,
+        "d2": 40
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0110",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "Find the single discount equivalent to successive discounts of 30% and 35%.",
+    "options": [
+      "56.5%",
+      "52.5%",
+      "27.25%",
+      "54.5%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "54.5%",
+    "explanation": "Equivalent discount = 30 + 35 - (30x35)/100 = 54.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_consecutive_discount",
+      "variant": 4,
+      "inputs": {
+        "d1": 30,
+        "d2": 35
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0111",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A rectangle has length 20 cm and breadth 10 cm. Length changes by 20% and breadth by -10%. Find the percentage change in area.",
+    "options": [
+      "4%",
+      "10%",
+      "8%",
+      "6%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8%",
+    "explanation": "Area factor = 120/100 x 90/100; change = 8%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_area_change",
+      "variant": 0,
+      "inputs": {
+        "length": 20,
+        "breadth": 10,
+        "a": 20,
+        "b": -10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0112",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A rectangle has length 30 cm and breadth 20 cm. Length changes by 15% and breadth by 20%. Find the percentage change in area.",
+    "options": [
+      "36%",
+      "40%",
+      "38%",
+      "19%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "38%",
+    "explanation": "Area factor = 115/100 x 120/100; change = 38%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_area_change",
+      "variant": 1,
+      "inputs": {
+        "length": 30,
+        "breadth": 20,
+        "a": 15,
+        "b": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0113",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A rectangle has length 40 cm and breadth 25 cm. Length changes by 25% and breadth by -20%. Find the percentage change in area.",
+    "options": [
+      "-2%",
+      "0%",
+      "1%",
+      "2%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "0%",
+    "explanation": "Area factor = 125/100 x 80/100; change = 0%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_area_change",
+      "variant": 2,
+      "inputs": {
+        "length": 40,
+        "breadth": 25,
+        "a": 25,
+        "b": -20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0114",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A rectangle has length 50 cm and breadth 30 cm. Length changes by 10% and breadth by 10%. Find the percentage change in area.",
+    "options": [
+      "21%",
+      "23%",
+      "19%",
+      "10.5%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21%",
+    "explanation": "Area factor = 110/100 x 110/100; change = 21%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_area_change",
+      "variant": 3,
+      "inputs": {
+        "length": 50,
+        "breadth": 30,
+        "a": 10,
+        "b": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0115",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A rectangle has length 60 cm and breadth 40 cm. Length changes by 30% and breadth by -25%. Find the percentage change in area.",
+    "options": [
+      "-4.5%",
+      "-2.5%",
+      "-1.25%",
+      "-0.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-2.5%",
+    "explanation": "Area factor = 130/100 x 75/100; change = -2.5%.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_area_change",
+      "variant": 4,
+      "inputs": {
+        "length": 60,
+        "breadth": 40,
+        "a": 30,
+        "b": -25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0116",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A city's population grows 10% in year one and 20% in year two from a base of 10000. Find the population after two years.",
+    "options": [
+      "12700",
+      "13200",
+      "13700",
+      "26400"
+    ],
+    "correct_option": "B",
+    "correct_answer": "13200",
+    "explanation": "Population = 10000 x 110/100 x 120/100 = 13200.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_two_year_growth",
+      "variant": 0,
+      "inputs": {
+        "pop": 10000,
+        "a": 10,
+        "b": 20
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0117",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A city's population grows 12% in year one and 15% in year two from a base of 15000. Find the population after two years.",
+    "options": [
+      "19820",
+      "19320",
+      "38640",
+      "18820"
+    ],
+    "correct_option": "B",
+    "correct_answer": "19320",
+    "explanation": "Population = 15000 x 112/100 x 115/100 = 19320.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-6",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_two_year_growth",
+      "variant": 1,
+      "inputs": {
+        "pop": 15000,
+        "a": 12,
+        "b": 15
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0118",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A city's population grows 20% in year one and 25% in year two from a base of 20000. Find the population after two years.",
+    "options": [
+      "60000",
+      "30500",
+      "30000",
+      "29500"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30000",
+    "explanation": "Population = 20000 x 120/100 x 125/100 = 30000.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 7-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_two_year_growth",
+      "variant": 2,
+      "inputs": {
+        "pop": 20000,
+        "a": 20,
+        "b": 25
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0119",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A city's population grows 8% in year one and 12% in year two from a base of 25000. Find the population after two years.",
+    "options": [
+      "30740",
+      "29740",
+      "30240",
+      "60480"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30240",
+    "explanation": "Population = 25000 x 108/100 x 112/100 = 30240.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 10-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_two_year_growth",
+      "variant": 3,
+      "inputs": {
+        "pop": 25000,
+        "a": 8,
+        "b": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "percentage_arithmetic_mains-0120",
+    "chapter": "Percentage Arithmetic (Mains)",
+    "chapter_key": "percentage_arithmetic_mains",
+    "part": 4,
+    "section": "percentage_arithmetic_mains_part_4",
+    "question_text": "A city's population grows 15% in year one and 10% in year two from a base of 30000. Find the population after two years.",
+    "options": [
+      "37450",
+      "75900",
+      "37950",
+      "38450"
+    ],
+    "correct_option": "C",
+    "correct_answer": "37950",
+    "explanation": "Population = 30000 x 115/100 x 110/100 = 37950.",
+    "difficulty": "HARD",
+    "source_name": "Percentage Arithmetic Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "ed99aa3d-eaea-44e4-b047-f1fdcba71c86.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set6_questions.py",
+    "verification_data": {
+      "family": "pa_two_year_growth",
+      "variant": 4,
+      "inputs": {
+        "pop": 30000,
+        "a": 15,
+        "b": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

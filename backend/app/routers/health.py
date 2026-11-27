@@ -38,13 +38,6 @@ def readiness_check() -> dict[str, str]:
                     status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
                     detail="Database schema is not at the required revision",
                 )
-            if settings.BETA_INVITATIONS_REQUIRED:
-                capacity = connection.execute(text("SELECT max_accounts FROM beta_capacity WHERE id = 1")).scalar_one_or_none()
-                if capacity is None or capacity > 200:
-                    raise HTTPException(
-                        status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-                        detail="Beta account capacity is not configured",
-                    )
     except HTTPException:
         raise
     except SQLAlchemyError as exc:

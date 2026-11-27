@@ -1,0 +1,4372 @@
+[
+  {
+    "id": "compound_interest-0001",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Find the amount when Isha invests Rs.8000 in a recurring deposit at 5% compounded annually for 3 years.",
+    "options": [
+      "9246",
+      "9261",
+      "9291",
+      "9276"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9261",
+    "explanation": "A = P(1 + R/100)^T = 8000(1 + 5/100)^3 = 9261.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_annual",
+      "variant": 0,
+      "inputs": {
+        "P": 8000,
+        "R": 5,
+        "T": 3,
+        "A": "9261"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0002",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Find the amount when Riya invests Rs.10000 in a capital scheme at 8% compounded annually for 2 years.",
+    "options": [
+      "11664",
+      "11649",
+      "11694",
+      "11679"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11664",
+    "explanation": "A = P(1 + R/100)^T = 10000(1 + 8/100)^2 = 11664.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_annual",
+      "variant": 1,
+      "inputs": {
+        "P": 10000,
+        "R": 8,
+        "T": 2,
+        "A": "11664"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0003",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Find the amount when Sneha invests Rs.12000 in a business deposit at 10% compounded annually for 3 years.",
+    "options": [
+      "15957",
+      "15972",
+      "16002",
+      "15987"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15972",
+    "explanation": "A = P(1 + R/100)^T = 12000(1 + 10/100)^3 = 15972.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_annual",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 3,
+        "A": "15972"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0004",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Find the amount when Tara invests Rs.12000 in a bank deposit at 8% compounded annually for 2 years.",
+    "options": [
+      "14011.8",
+      "13996.8",
+      "13981.8",
+      "14026.8"
+    ],
+    "correct_option": "B",
+    "correct_answer": "13996.8",
+    "explanation": "A = P(1 + R/100)^T = 12000(1 + 8/100)^2 = 13996.8.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_annual",
+      "variant": 3,
+      "inputs": {
+        "P": 12000,
+        "R": 8,
+        "T": 2,
+        "A": "13996.8"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0005",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Find the amount when Pooja invests Rs.20000 in a wealth scheme at 5% compounded annually for 3 years.",
+    "options": [
+      "23152.5",
+      "23167.5",
+      "23137.5",
+      "23182.5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "23152.5",
+    "explanation": "A = P(1 + R/100)^T = 20000(1 + 5/100)^3 = 23152.5.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_annual",
+      "variant": 4,
+      "inputs": {
+        "P": 20000,
+        "R": 5,
+        "T": 3,
+        "A": "23152.5"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0006",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Dev puts Rs.15000 into a term deposit at 8% compound interest for 3 years, compounded yearly. What interest is earned?",
+    "options": [
+      "3907.68",
+      "3895.68",
+      "3919.68",
+      "3883.68"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3895.68",
+    "explanation": "A = 18895.68; compound interest = 18895.68 - 15000 = 3895.68.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_annual",
+      "variant": 0,
+      "inputs": {
+        "P": 15000,
+        "R": 8,
+        "T": 3,
+        "CI": "3895.68"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0007",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Nikhil puts Rs.8000 into a savings plan at 8% compound interest for 3 years, compounded yearly. What interest is earned?",
+    "options": [
+      "2077.7",
+      "2065.7",
+      "2101.7",
+      "2089.7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2077.7",
+    "explanation": "A = 10077.7; compound interest = 10077.7 - 8000 = 2077.7.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_annual",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "R": 8,
+        "T": 3,
+        "CI": "2077.7"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0008",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Aditya puts Rs.8000 into an investment at 10% compound interest for 2 years, compounded yearly. What interest is earned?",
+    "options": [
+      "1668",
+      "1692",
+      "1680",
+      "1704"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1680",
+    "explanation": "A = 9680; compound interest = 9680 - 8000 = 1680.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_annual",
+      "variant": 2,
+      "inputs": {
+        "P": 8000,
+        "R": 10,
+        "T": 2,
+        "CI": "1680"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0009",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Manav puts Rs.15000 into a fixed deposit at 8% compound interest for 2 years, compounded yearly. What interest is earned?",
+    "options": [
+      "2520",
+      "2484",
+      "2508",
+      "2496"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2496",
+    "explanation": "A = 17496; compound interest = 17496 - 15000 = 2496.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_annual",
+      "variant": 3,
+      "inputs": {
+        "P": 15000,
+        "R": 8,
+        "T": 2,
+        "CI": "2496"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0010",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Aman puts Rs.12000 into a compound scheme at 8% compound interest for 3 years, compounded yearly. What interest is earned?",
+    "options": [
+      "3140.54",
+      "3128.54",
+      "3104.54",
+      "3116.54"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3116.54",
+    "explanation": "A = 15116.54; compound interest = 15116.54 - 12000 = 3116.54.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_annual",
+      "variant": 4,
+      "inputs": {
+        "P": 12000,
+        "R": 8,
+        "T": 3,
+        "CI": "3116.54"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0011",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Riya deposits Rs.12000 in a capital scheme at 12% per annum compounded half-yearly for 2 year(s). Find the maturity amount.",
+    "options": [
+      "15164.72",
+      "15179.72",
+      "15149.72",
+      "15134.72"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15149.72",
+    "explanation": "Rate per half-year = 12/2 percent; periods = 4; A = 15149.72.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_amount",
+      "variant": 0,
+      "inputs": {
+        "P": 12000,
+        "R": 12,
+        "T": 2,
+        "A": "15149.72"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0012",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Sneha deposits Rs.8000 in a business deposit at 10% per annum compounded half-yearly for 1 year(s). Find the maturity amount.",
+    "options": [
+      "8850",
+      "8805",
+      "8820",
+      "8835"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8820",
+    "explanation": "Rate per half-year = 10/2 percent; periods = 2; A = 8820.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_amount",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "R": 10,
+        "T": 1,
+        "A": "8820"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0013",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Tara deposits Rs.16000 in a bank deposit at 12% per annum compounded half-yearly for 1 year(s). Find the maturity amount.",
+    "options": [
+      "17992.6",
+      "17962.6",
+      "18007.6",
+      "17977.6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17977.6",
+    "explanation": "Rate per half-year = 12/2 percent; periods = 2; A = 17977.6.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_amount",
+      "variant": 2,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 1,
+        "A": "17977.6"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0014",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Pooja deposits Rs.16000 in a wealth scheme at 12% per annum compounded half-yearly for 2 year(s). Find the maturity amount.",
+    "options": [
+      "20199.63",
+      "20184.63",
+      "20214.63",
+      "20229.63"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20199.63",
+    "explanation": "Rate per half-year = 12/2 percent; periods = 4; A = 20199.63.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_amount",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 2,
+        "A": "20199.63"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0015",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 1,
+    "section": "compound_interest_part_1",
+    "question_text": "Isha deposits Rs.20000 in a recurring deposit at 8% per annum compounded half-yearly for 1 year(s). Find the maturity amount.",
+    "options": [
+      "21662",
+      "21632",
+      "21617",
+      "21647"
+    ],
+    "correct_option": "B",
+    "correct_answer": "21632",
+    "explanation": "Rate per half-year = 8/2 percent; periods = 2; A = 21632.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_amount",
+      "variant": 4,
+      "inputs": {
+        "P": 20000,
+        "R": 8,
+        "T": 1,
+        "A": "21632"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0016",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Calculate the compound interest for Nikhil on Rs.10000 in a savings plan at 10% per annum compounded half-yearly for one year.",
+    "options": [
+      "1013",
+      "1049",
+      "1025",
+      "1037"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1025",
+    "explanation": "Half-yearly rate = 5% for 2 periods; A = 11025, CI = 1025.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_interest",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "T": 1,
+        "CI": "1025"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0017",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Calculate the compound interest for Aditya on Rs.12000 in an investment at 10% per annum compounded half-yearly for one year.",
+    "options": [
+      "1230",
+      "1242",
+      "1254",
+      "1218"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1230",
+    "explanation": "Half-yearly rate = 5% for 2 periods; A = 13230, CI = 1230.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_interest",
+      "variant": 1,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 1,
+        "CI": "1230"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0018",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Calculate the compound interest for Manav on Rs.12000 in a fixed deposit at 8% per annum compounded half-yearly for one year.",
+    "options": [
+      "967.2",
+      "991.2",
+      "1003.2",
+      "979.2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "979.2",
+    "explanation": "Half-yearly rate = 4% for 2 periods; A = 12979.2, CI = 979.2.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_interest",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R": 8,
+        "T": 1,
+        "CI": "979.2"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0019",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Calculate the compound interest for Aman on Rs.12000 in a compound scheme at 12% per annum compounded half-yearly for one year.",
+    "options": [
+      "1483.2",
+      "1507.2",
+      "1471.2",
+      "1495.2"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1483.2",
+    "explanation": "Half-yearly rate = 6% for 2 periods; A = 13483.2, CI = 1483.2.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_interest",
+      "variant": 3,
+      "inputs": {
+        "P": 12000,
+        "R": 12,
+        "T": 1,
+        "CI": "1483.2"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0020",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Calculate the compound interest for Dev on Rs.10000 in a term deposit at 12% per annum compounded half-yearly for one year.",
+    "options": [
+      "1224",
+      "1236",
+      "1260",
+      "1248"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1236",
+    "explanation": "Half-yearly rate = 6% for 2 periods; A = 11236, CI = 1236.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_interest",
+      "variant": 4,
+      "inputs": {
+        "P": 10000,
+        "R": 12,
+        "T": 1,
+        "CI": "1236"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0021",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Sneha invests Rs.20000 in a business deposit at 8% per annum compounded quarterly for one year. What amount is received?",
+    "options": [
+      "21648.64",
+      "21678.64",
+      "21663.64",
+      "21633.64"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21648.64",
+    "explanation": "Quarterly rate = 2%; 4 periods; A = 21648.64.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_amount",
+      "variant": 0,
+      "inputs": {
+        "P": 20000,
+        "R": 8,
+        "T": 1,
+        "A": "21648.64"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0022",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Tara invests Rs.16000 in a bank deposit at 12% per annum compounded quarterly for one year. What amount is received?",
+    "options": [
+      "18023.14",
+      "18038.14",
+      "18008.14",
+      "17993.14"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18008.14",
+    "explanation": "Quarterly rate = 3%; 4 periods; A = 18008.14.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_amount",
+      "variant": 1,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 1,
+        "A": "18008.14"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0023",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Pooja invests Rs.16000 in a wealth scheme at 12% per annum compounded quarterly for one year. What amount is received?",
+    "options": [
+      "17993.14",
+      "18038.14",
+      "18008.14",
+      "18023.14"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18008.14",
+    "explanation": "Quarterly rate = 3%; 4 periods; A = 18008.14.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_amount",
+      "variant": 2,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 1,
+        "A": "18008.14"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0024",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Isha invests Rs.20000 in a recurring deposit at 12% per annum compounded quarterly for one year. What amount is received?",
+    "options": [
+      "22510.18",
+      "22495.18",
+      "22540.18",
+      "22525.18"
+    ],
+    "correct_option": "A",
+    "correct_answer": "22510.18",
+    "explanation": "Quarterly rate = 3%; 4 periods; A = 22510.18.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_amount",
+      "variant": 3,
+      "inputs": {
+        "P": 20000,
+        "R": 12,
+        "T": 1,
+        "A": "22510.18"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0025",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Riya invests Rs.12000 in a capital scheme at 8% per annum compounded quarterly for one year. What amount is received?",
+    "options": [
+      "12974.19",
+      "13019.19",
+      "13004.19",
+      "12989.19"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12989.19",
+    "explanation": "Quarterly rate = 2%; 4 periods; A = 12989.19.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_amount",
+      "variant": 4,
+      "inputs": {
+        "P": 12000,
+        "R": 8,
+        "T": 1,
+        "A": "12989.19"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0026",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Find the quarterly-compounded interest on Rs.12000 for Aditya's an investment at 8% per annum for one year.",
+    "options": [
+      "1013.19",
+      "989.19",
+      "1001.19",
+      "977.19"
+    ],
+    "correct_option": "B",
+    "correct_answer": "989.19",
+    "explanation": "Quarterly rate = 2% for 4 periods; A = 12989.19; CI = 989.19.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_interest",
+      "variant": 0,
+      "inputs": {
+        "P": 12000,
+        "R": 8,
+        "T": 1,
+        "CI": "989.19"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0027",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Find the quarterly-compounded interest on Rs.12000 for Manav's a fixed deposit at 10% per annum for one year.",
+    "options": [
+      "1245.75",
+      "1233.75",
+      "1257.75",
+      "1269.75"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1245.75",
+    "explanation": "Quarterly rate = 5/2% for 4 periods; A = 13245.75; CI = 1245.75.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_interest",
+      "variant": 1,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 1,
+        "CI": "1245.75"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0028",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Find the quarterly-compounded interest on Rs.20000 for Aman's a compound scheme at 8% per annum for one year.",
+    "options": [
+      "1660.64",
+      "1648.64",
+      "1636.64",
+      "1672.64"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1648.64",
+    "explanation": "Quarterly rate = 2% for 4 periods; A = 21648.64; CI = 1648.64.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_interest",
+      "variant": 2,
+      "inputs": {
+        "P": 20000,
+        "R": 8,
+        "T": 1,
+        "CI": "1648.64"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0029",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Find the quarterly-compounded interest on Rs.16000 for Dev's a term deposit at 12% per annum for one year.",
+    "options": [
+      "2008.14",
+      "2020.14",
+      "2032.14",
+      "1996.14"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2008.14",
+    "explanation": "Quarterly rate = 3% for 4 periods; A = 18008.14; CI = 2008.14.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_interest",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 1,
+        "CI": "2008.14"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0030",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Find the quarterly-compounded interest on Rs.12000 for Nikhil's a savings plan at 10% per annum for one year.",
+    "options": [
+      "1233.75",
+      "1257.75",
+      "1245.75",
+      "1269.75"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1245.75",
+    "explanation": "Quarterly rate = 5/2% for 4 periods; A = 13245.75; CI = 1245.75.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_interest",
+      "variant": 4,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 1,
+        "CI": "1245.75"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0031",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Tara's a bank deposit matured to Rs.12100 after 2 years at 10% compounded annually. Find the original sum.",
+    "options": [
+      "10001",
+      "9999",
+      "9998",
+      "10000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "10000",
+    "explanation": "P = A / (1 + R/100)^T = 12100 / (1 + 10/100)^2 = 10000.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal",
+      "variant": 0,
+      "inputs": {
+        "A": 12100,
+        "R": 10,
+        "T": 2,
+        "P": 10000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0032",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Pooja's a wealth scheme matured to Rs.11236 after 2 years at 6% compounded annually. Find the original sum.",
+    "options": [
+      "10000",
+      "9998",
+      "9999",
+      "10001"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10000",
+    "explanation": "P = A / (1 + R/100)^T = 11236 / (1 + 6/100)^2 = 10000.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal",
+      "variant": 1,
+      "inputs": {
+        "A": 11236,
+        "R": 6,
+        "T": 2,
+        "P": 10000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0033",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Isha's a recurring deposit matured to Rs.13310 after 3 years at 10% compounded annually. Find the original sum.",
+    "options": [
+      "9999",
+      "9998",
+      "10000",
+      "10001"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10000",
+    "explanation": "P = A / (1 + R/100)^T = 13310 / (1 + 10/100)^3 = 10000.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal",
+      "variant": 2,
+      "inputs": {
+        "A": 13310,
+        "R": 10,
+        "T": 3,
+        "P": 10000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0034",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Riya's a capital scheme matured to Rs.12100 after 2 years at 10% compounded annually. Find the original sum.",
+    "options": [
+      "10000",
+      "9999",
+      "10001",
+      "10002"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10000",
+    "explanation": "P = A / (1 + R/100)^T = 12100 / (1 + 10/100)^2 = 10000.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal",
+      "variant": 3,
+      "inputs": {
+        "A": 12100,
+        "R": 10,
+        "T": 2,
+        "P": 10000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0035",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 2,
+    "section": "compound_interest_part_2",
+    "question_text": "Sneha's a business deposit matured to Rs.11236 after 2 years at 6% compounded annually. Find the original sum.",
+    "options": [
+      "10001",
+      "9999",
+      "10000",
+      "10002"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10000",
+    "explanation": "P = A / (1 + R/100)^T = 11236 / (1 + 6/100)^2 = 10000.",
+    "difficulty": "EASY",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal",
+      "variant": 4,
+      "inputs": {
+        "A": 11236,
+        "R": 6,
+        "T": 2,
+        "P": 10000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0036",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Rs.10000 in a fixed deposit became Rs.12100 for Manav in 2 years with annual compounding. What was the yearly rate?",
+    "options": [
+      "8",
+      "11",
+      "9",
+      "10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "10",
+    "explanation": "Since 12100/10000 = (1 + R/100)^2, the annual rate is 10%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_rate",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "A": 12100,
+        "T": 2,
+        "R": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0037",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Rs.8000 in a compound scheme became Rs.9261 for Aman in 3 years with annual compounding. What was the yearly rate?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5",
+    "explanation": "Since 9261/8000 = (1 + R/100)^3, the annual rate is 5%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_rate",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "A": 9261,
+        "T": 3,
+        "R": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0038",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Rs.12000 in a term deposit became Rs.14520 for Dev in 2 years with annual compounding. What was the yearly rate?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10",
+    "explanation": "Since 14520/12000 = (1 + R/100)^2, the annual rate is 10%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_rate",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "A": 14520,
+        "T": 2,
+        "R": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0039",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Rs.10000 in a savings plan became Rs.12100 for Nikhil in 2 years with annual compounding. What was the yearly rate?",
+    "options": [
+      "10",
+      "9",
+      "12",
+      "11"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10",
+    "explanation": "Since 12100/10000 = (1 + R/100)^2, the annual rate is 10%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_rate",
+      "variant": 3,
+      "inputs": {
+        "P": 10000,
+        "A": 12100,
+        "T": 2,
+        "R": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0040",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Rs.8000 in an investment became Rs.9261 for Aditya in 3 years with annual compounding. What was the yearly rate?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5",
+    "explanation": "Since 9261/8000 = (1 + R/100)^3, the annual rate is 5%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_rate",
+      "variant": 4,
+      "inputs": {
+        "P": 8000,
+        "A": 9261,
+        "T": 3,
+        "R": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0041",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "At 10% compounded annually, how many years did Pooja's Rs.10000 take to become Rs.12100 in a wealth scheme?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2",
+    "explanation": "(1 + 10/100)^T = 12100/10000, so T = 2 years.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_time",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "A": 12100,
+        "R": 10,
+        "T": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0042",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "At 5% compounded annually, how many years did Isha's Rs.8000 take to become Rs.9261 in a recurring deposit?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3",
+    "explanation": "(1 + 5/100)^T = 9261/8000, so T = 3 years.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_time",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "A": 9261,
+        "R": 5,
+        "T": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0043",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "At 20% compounded annually, how many years did Riya's Rs.10000 take to become Rs.14400 in a capital scheme?",
+    "options": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2",
+    "explanation": "(1 + 20/100)^T = 14400/10000, so T = 2 years.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_time",
+      "variant": 2,
+      "inputs": {
+        "P": 10000,
+        "A": 14400,
+        "R": 20,
+        "T": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0044",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "At 10% compounded annually, how many years did Sneha's Rs.10000 take to become Rs.12100 in a business deposit?",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2",
+    "explanation": "(1 + 10/100)^T = 12100/10000, so T = 2 years.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_time",
+      "variant": 3,
+      "inputs": {
+        "P": 10000,
+        "A": 12100,
+        "R": 10,
+        "T": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0045",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "At 5% compounded annually, how many years did Tara's Rs.8000 take to become Rs.9261 in a bank deposit?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3",
+    "explanation": "(1 + 5/100)^T = 9261/8000, so T = 3 years.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_find_time",
+      "variant": 4,
+      "inputs": {
+        "P": 8000,
+        "A": 9261,
+        "R": 5,
+        "T": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0046",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "For Rs.8000 at 5% for 2 years, how much more is compound interest than simple interest in Aman's a compound scheme?",
+    "options": [
+      "30",
+      "20",
+      "10",
+      "40"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20",
+    "explanation": "For 2 years, CI - SI = P(R/100)^2 = 8000 x (5/100)^2 = 20.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff2",
+      "variant": 0,
+      "inputs": {
+        "P": 8000,
+        "R": 5,
+        "T": 2,
+        "D": "20"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0047",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "For Rs.12000 at 10% for 2 years, how much more is compound interest than simple interest in Dev's a term deposit?",
+    "options": [
+      "130",
+      "120",
+      "110",
+      "140"
+    ],
+    "correct_option": "B",
+    "correct_answer": "120",
+    "explanation": "For 2 years, CI - SI = P(R/100)^2 = 12000 x (10/100)^2 = 120.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff2",
+      "variant": 1,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 2,
+        "D": "120"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0048",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "For Rs.20000 at 5% for 2 years, how much more is compound interest than simple interest in Nikhil's a savings plan?",
+    "options": [
+      "50",
+      "40",
+      "70",
+      "60"
+    ],
+    "correct_option": "A",
+    "correct_answer": "50",
+    "explanation": "For 2 years, CI - SI = P(R/100)^2 = 20000 x (5/100)^2 = 50.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff2",
+      "variant": 2,
+      "inputs": {
+        "P": 20000,
+        "R": 5,
+        "T": 2,
+        "D": "50"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0049",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "For Rs.16000 at 12% for 2 years, how much more is compound interest than simple interest in Aditya's an investment?",
+    "options": [
+      "250.4",
+      "230.4",
+      "240.4",
+      "220.4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "230.4",
+    "explanation": "For 2 years, CI - SI = P(R/100)^2 = 16000 x (12/100)^2 = 230.4.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff2",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 2,
+        "D": "230.4"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0050",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "For Rs.10000 at 10% for 2 years, how much more is compound interest than simple interest in Manav's a fixed deposit?",
+    "options": [
+      "120",
+      "100",
+      "110",
+      "90"
+    ],
+    "correct_option": "B",
+    "correct_answer": "100",
+    "explanation": "For 2 years, CI - SI = P(R/100)^2 = 10000 x (10/100)^2 = 100.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff2",
+      "variant": 4,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "T": 2,
+        "D": "100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0051",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Dev compares CI and SI on Rs.10000 in a term deposit at 10% for 3 years. What is the difference?",
+    "options": [
+      "334",
+      "322",
+      "310",
+      "298"
+    ],
+    "correct_option": "C",
+    "correct_answer": "310",
+    "explanation": "For 3 years, CI - SI = P(R/100)^2(3 + R/100) = 310.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff3",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "T": 3,
+        "D": "310"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0052",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Nikhil compares CI and SI on Rs.8000 in a savings plan at 5% for 3 years. What is the difference?",
+    "options": [
+      "73",
+      "49",
+      "61",
+      "85"
+    ],
+    "correct_option": "C",
+    "correct_answer": "61",
+    "explanation": "For 3 years, CI - SI = P(R/100)^2(3 + R/100) = 61.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff3",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "R": 5,
+        "T": 3,
+        "D": "61"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0053",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Aditya compares CI and SI on Rs.12000 in an investment at 10% for 3 years. What is the difference?",
+    "options": [
+      "372",
+      "360",
+      "396",
+      "384"
+    ],
+    "correct_option": "A",
+    "correct_answer": "372",
+    "explanation": "For 3 years, CI - SI = P(R/100)^2(3 + R/100) = 372.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff3",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 3,
+        "D": "372"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0054",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Manav compares CI and SI on Rs.16000 in a fixed deposit at 5% for 3 years. What is the difference?",
+    "options": [
+      "122",
+      "134",
+      "146",
+      "110"
+    ],
+    "correct_option": "A",
+    "correct_answer": "122",
+    "explanation": "For 3 years, CI - SI = P(R/100)^2(3 + R/100) = 122.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff3",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "R": 5,
+        "T": 3,
+        "D": "122"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0055",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "Aman compares CI and SI on Rs.20000 in a compound scheme at 10% for 3 years. What is the difference?",
+    "options": [
+      "620",
+      "632",
+      "608",
+      "644"
+    ],
+    "correct_option": "A",
+    "correct_answer": "620",
+    "explanation": "For 3 years, CI - SI = P(R/100)^2(3 + R/100) = 620.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_si_ci_diff3",
+      "variant": 4,
+      "inputs": {
+        "P": 20000,
+        "R": 10,
+        "T": 3,
+        "D": "620"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0056",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The population of a town is 8000 and grows at 10% per year compounded annually. What will it be after two years?",
+    "options": [
+      "9695",
+      "9665",
+      "9680",
+      "9710"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9680",
+    "explanation": "Population = 8000(1 + 10/100)^2 = 9680.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_growth",
+      "variant": 0,
+      "inputs": {
+        "P": 8000,
+        "R": 10,
+        "T": 2,
+        "A": "9680"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0057",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The population of a village is 10000 and grows at 10% per year compounded annually. What will it be after two years?",
+    "options": [
+      "12130",
+      "12085",
+      "12115",
+      "12100"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12100",
+    "explanation": "Population = 10000(1 + 10/100)^2 = 12100.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_growth",
+      "variant": 1,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "T": 2,
+        "A": "12100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0058",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The population of a colony is 5000 and grows at 5% per year compounded annually. What will it be after two years?",
+    "options": [
+      "5512.5",
+      "5542.5",
+      "5527.5",
+      "5497.5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5512.5",
+    "explanation": "Population = 5000(1 + 5/100)^2 = 5512.5.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_growth",
+      "variant": 2,
+      "inputs": {
+        "P": 5000,
+        "R": 5,
+        "T": 2,
+        "A": "5512.5"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0059",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The population of a city is 5000 and grows at 10% per year compounded annually. What will it be after two years?",
+    "options": [
+      "6050",
+      "6065",
+      "6035",
+      "6080"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6050",
+    "explanation": "Population = 5000(1 + 10/100)^2 = 6050.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_growth",
+      "variant": 3,
+      "inputs": {
+        "P": 5000,
+        "R": 10,
+        "T": 2,
+        "A": "6050"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0060",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The population of a campus is 4000 and grows at 5% per year compounded annually. What will it be after two years?",
+    "options": [
+      "4395",
+      "4425",
+      "4410",
+      "4440"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4410",
+    "explanation": "Population = 4000(1 + 5/100)^2 = 4410.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_growth",
+      "variant": 4,
+      "inputs": {
+        "P": 4000,
+        "R": 5,
+        "T": 2,
+        "A": "4410"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0061",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The value of a machine is Rs.25000. It depreciates at 10% per year. What is its value after two years?",
+    "options": [
+      "20235",
+      "20280",
+      "20265",
+      "20250"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20250",
+    "explanation": "Value = 25000(1 - 10/100)^2 = 20250.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_depreciation",
+      "variant": 0,
+      "inputs": {
+        "P": 25000,
+        "R": 10,
+        "T": 2,
+        "A": "20250"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0062",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The value of a laptop is Rs.30000. It depreciates at 20% per year. What is its value after two years?",
+    "options": [
+      "19185",
+      "19230",
+      "19215",
+      "19200"
+    ],
+    "correct_option": "D",
+    "correct_answer": "19200",
+    "explanation": "Value = 30000(1 - 20/100)^2 = 19200.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_depreciation",
+      "variant": 1,
+      "inputs": {
+        "P": 30000,
+        "R": 20,
+        "T": 2,
+        "A": "19200"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0063",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The value of a vehicle is Rs.25000. It depreciates at 20% per year. What is its value after two years?",
+    "options": [
+      "16030",
+      "16000",
+      "16015",
+      "15985"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16000",
+    "explanation": "Value = 25000(1 - 20/100)^2 = 16000.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_depreciation",
+      "variant": 2,
+      "inputs": {
+        "P": 25000,
+        "R": 20,
+        "T": 2,
+        "A": "16000"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0064",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The value of a device is Rs.25000. It depreciates at 10% per year. What is its value after two years?",
+    "options": [
+      "20280",
+      "20250",
+      "20265",
+      "20235"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20250",
+    "explanation": "Value = 25000(1 - 10/100)^2 = 20250.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_depreciation",
+      "variant": 3,
+      "inputs": {
+        "P": 25000,
+        "R": 10,
+        "T": 2,
+        "A": "20250"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0065",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 3,
+    "section": "compound_interest_part_3",
+    "question_text": "The value of an instrument is Rs.25000. It depreciates at 20% per year. What is its value after two years?",
+    "options": [
+      "16000",
+      "15985",
+      "16015",
+      "16030"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16000",
+    "explanation": "Value = 25000(1 - 20/100)^2 = 16000.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_depreciation",
+      "variant": 4,
+      "inputs": {
+        "P": 25000,
+        "R": 20,
+        "T": 2,
+        "A": "16000"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0066",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Riya invests Rs.10000 in a capital scheme at 5% in the first year and 8% in the second year, compounded annually. Find the amount.",
+    "options": [
+      "11341",
+      "11338",
+      "11340",
+      "11339"
+    ],
+    "correct_option": "C",
+    "correct_answer": "11340",
+    "explanation": "Amount = 10000 x (1 + 5/100) x (1 + 8/100) = 11340.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_variable_rates",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "R1": 5,
+        "R2": 8,
+        "A": 11340
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0067",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Sneha invests Rs.8000 in a business deposit at 10% in the first year and 5% in the second year, compounded annually. Find the amount.",
+    "options": [
+      "9241",
+      "9240",
+      "9239",
+      "9238"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9240",
+    "explanation": "Amount = 8000 x (1 + 10/100) x (1 + 5/100) = 9240.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_variable_rates",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "R1": 10,
+        "R2": 5,
+        "A": 9240
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0068",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Tara invests Rs.12000 in a bank deposit at 5% in the first year and 10% in the second year, compounded annually. Find the amount.",
+    "options": [
+      "13861",
+      "13862",
+      "13860",
+      "13859"
+    ],
+    "correct_option": "C",
+    "correct_answer": "13860",
+    "explanation": "Amount = 12000 x (1 + 5/100) x (1 + 10/100) = 13860.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_variable_rates",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R1": 5,
+        "R2": 10,
+        "A": 13860
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0069",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Pooja invests Rs.10000 in a wealth scheme at 5% in the first year and 8% in the second year, compounded annually. Find the amount.",
+    "options": [
+      "11339",
+      "11341",
+      "11340",
+      "11342"
+    ],
+    "correct_option": "C",
+    "correct_answer": "11340",
+    "explanation": "Amount = 10000 x (1 + 5/100) x (1 + 8/100) = 11340.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_variable_rates",
+      "variant": 3,
+      "inputs": {
+        "P": 10000,
+        "R1": 5,
+        "R2": 8,
+        "A": 11340
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0070",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Isha invests Rs.8000 in a recurring deposit at 10% in the first year and 5% in the second year, compounded annually. Find the amount.",
+    "options": [
+      "9242",
+      "9241",
+      "9240",
+      "9239"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9240",
+    "explanation": "Amount = 8000 x (1 + 10/100) x (1 + 5/100) = 9240.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_variable_rates",
+      "variant": 4,
+      "inputs": {
+        "P": 8000,
+        "R1": 10,
+        "R2": 5,
+        "A": 9240
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0071",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Equal sums of Rs.10000 are invested in a savings plan by Nikhil at 12% and 8% for 2 years with annual compounding. Find the ratio of the amounts.",
+    "options": [
+      "11664:12544",
+      "10000:10000",
+      "12644.00:11664",
+      "12544:11664"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12544:11664",
+    "explanation": "Amounts are 12544 and 11664, so the ratio is 12544:11664.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_ratio",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "R1": 12,
+        "R2": 8,
+        "T": 2,
+        "A1": "12544",
+        "A2": "11664"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0072",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Equal sums of Rs.15000 are invested in an investment by Aditya at 12% and 10% for 2 years with annual compounding. Find the ratio of the amounts.",
+    "options": [
+      "18150:18816",
+      "18816:18150",
+      "15000:15000",
+      "18916.00:18150"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18816:18150",
+    "explanation": "Amounts are 18816 and 18150, so the ratio is 18816:18150.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_ratio",
+      "variant": 1,
+      "inputs": {
+        "P": 15000,
+        "R1": 12,
+        "R2": 10,
+        "T": 2,
+        "A1": "18816",
+        "A2": "18150"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0073",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Equal sums of Rs.10000 are invested in a fixed deposit by Manav at 8% and 10% for 2 years with annual compounding. Find the ratio of the amounts.",
+    "options": [
+      "10000:10000",
+      "11764.00:12100",
+      "12100:11664",
+      "11664:12100"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11664:12100",
+    "explanation": "Amounts are 11664 and 12100, so the ratio is 11664:12100.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_ratio",
+      "variant": 2,
+      "inputs": {
+        "P": 10000,
+        "R1": 8,
+        "R2": 10,
+        "T": 2,
+        "A1": "11664",
+        "A2": "12100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0074",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Equal sums of Rs.10000 are invested in a compound scheme by Aman at 8% and 12% for 2 years with annual compounding. Find the ratio of the amounts.",
+    "options": [
+      "11664:12544",
+      "10000:10000",
+      "11764.00:12544",
+      "12544:11664"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11664:12544",
+    "explanation": "Amounts are 11664 and 12544, so the ratio is 11664:12544.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_ratio",
+      "variant": 3,
+      "inputs": {
+        "P": 10000,
+        "R1": 8,
+        "R2": 12,
+        "T": 2,
+        "A1": "11664",
+        "A2": "12544"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0075",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Equal sums of Rs.10000 are invested in a term deposit by Dev at 8% and 12% for 2 years with annual compounding. Find the ratio of the amounts.",
+    "options": [
+      "11664:12544",
+      "12544:11664",
+      "11764.00:12544",
+      "10000:10000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11664:12544",
+    "explanation": "Amounts are 11664 and 12544, so the ratio is 11664:12544.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_amount_ratio",
+      "variant": 4,
+      "inputs": {
+        "P": 10000,
+        "R1": 8,
+        "R2": 12,
+        "T": 2,
+        "A1": "11664",
+        "A2": "12544"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0076",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "How much more interest does Sneha earn from a business deposit on Rs.20000 at 10% compounded half-yearly rather than yearly for one year?",
+    "options": [
+      "40",
+      "50",
+      "60",
+      "70"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50",
+    "explanation": "Half-yearly amount = 22050, yearly amount = 22000; difference = 50.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_annual_diff",
+      "variant": 0,
+      "inputs": {
+        "P": 20000,
+        "R": 10,
+        "T": 1,
+        "D": "50"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0077",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "How much more interest does Tara earn from a bank deposit on Rs.12000 at 10% compounded half-yearly rather than yearly for one year?",
+    "options": [
+      "50",
+      "20",
+      "40",
+      "30"
+    ],
+    "correct_option": "D",
+    "correct_answer": "30",
+    "explanation": "Half-yearly amount = 13230, yearly amount = 13200; difference = 30.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_annual_diff",
+      "variant": 1,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "T": 1,
+        "D": "30"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0078",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "How much more interest does Pooja earn from a wealth scheme on Rs.10000 at 20% compounded half-yearly rather than yearly for one year?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "90"
+    ],
+    "correct_option": "A",
+    "correct_answer": "100",
+    "explanation": "Half-yearly amount = 12100, yearly amount = 12000; difference = 100.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_annual_diff",
+      "variant": 2,
+      "inputs": {
+        "P": 10000,
+        "R": 20,
+        "T": 1,
+        "D": "100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0079",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "How much more interest does Isha earn from a recurring deposit on Rs.16000 at 10% compounded half-yearly rather than yearly for one year?",
+    "options": [
+      "30",
+      "50",
+      "60",
+      "40"
+    ],
+    "correct_option": "D",
+    "correct_answer": "40",
+    "explanation": "Half-yearly amount = 17640, yearly amount = 17600; difference = 40.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_annual_diff",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "R": 10,
+        "T": 1,
+        "D": "40"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0080",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "How much more interest does Riya earn from a capital scheme on Rs.24000 at 10% compounded half-yearly rather than yearly for one year?",
+    "options": [
+      "50",
+      "80",
+      "60",
+      "70"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Half-yearly amount = 26460, yearly amount = 26400; difference = 60.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_annual_diff",
+      "variant": 4,
+      "inputs": {
+        "P": 24000,
+        "R": 10,
+        "T": 1,
+        "D": "60"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0081",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Rs.20000 in an investment at 8% for one year, find the extra interest from quarterly compounding over annual compounding for Aditya.",
+    "options": [
+      "68.64",
+      "38.64",
+      "58.64",
+      "48.64"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48.64",
+    "explanation": "Quarterly amount = 21648.64, annual amount = 21600; extra = 48.64.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_annual_diff",
+      "variant": 0,
+      "inputs": {
+        "P": 20000,
+        "R": 8,
+        "T": 1,
+        "D": "48.64"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0082",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Rs.16000 in a fixed deposit at 12% for one year, find the extra interest from quarterly compounding over annual compounding for Manav.",
+    "options": [
+      "88.14",
+      "108.14",
+      "98.14",
+      "78.14"
+    ],
+    "correct_option": "A",
+    "correct_answer": "88.14",
+    "explanation": "Quarterly amount = 18008.14, annual amount = 17920; extra = 88.14.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_annual_diff",
+      "variant": 1,
+      "inputs": {
+        "P": 16000,
+        "R": 12,
+        "T": 1,
+        "D": "88.14"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0083",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Rs.12000 in a compound scheme at 8% for one year, find the extra interest from quarterly compounding over annual compounding for Aman.",
+    "options": [
+      "19.19",
+      "29.19",
+      "49.19",
+      "39.19"
+    ],
+    "correct_option": "B",
+    "correct_answer": "29.19",
+    "explanation": "Quarterly amount = 12989.19, annual amount = 12960; extra = 29.19.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_annual_diff",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R": 8,
+        "T": 1,
+        "D": "29.19"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0084",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Rs.10000 in a term deposit at 20% for one year, find the extra interest from quarterly compounding over annual compounding for Dev.",
+    "options": [
+      "165.06",
+      "155.06",
+      "145.06",
+      "175.06"
+    ],
+    "correct_option": "B",
+    "correct_answer": "155.06",
+    "explanation": "Quarterly amount = 12155.06, annual amount = 12000; extra = 155.06.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_annual_diff",
+      "variant": 3,
+      "inputs": {
+        "P": 10000,
+        "R": 20,
+        "T": 1,
+        "D": "155.06"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0085",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Rs.24000 in a savings plan at 8% for one year, find the extra interest from quarterly compounding over annual compounding for Nikhil.",
+    "options": [
+      "48.37",
+      "68.37",
+      "58.37",
+      "78.37"
+    ],
+    "correct_option": "C",
+    "correct_answer": "58.37",
+    "explanation": "Quarterly amount = 25978.37, annual amount = 25920; extra = 58.37.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_quarter_annual_diff",
+      "variant": 4,
+      "inputs": {
+        "P": 24000,
+        "R": 8,
+        "T": 1,
+        "D": "58.37"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0086",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Tara earns compound interest on Rs.8000 in a bank deposit at 5/2% per annum for 2 years. Find the amount.",
+    "options": [
+      "8435",
+      "8420",
+      "8405",
+      "8390"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8405",
+    "explanation": "A = 8000(1 + 5/2/100)^2 = 8405.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_fractional_rate",
+      "variant": 0,
+      "inputs": {
+        "P": 8000,
+        "R": "5/2",
+        "T": 2,
+        "A": "8405"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0087",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Pooja earns compound interest on Rs.16000 in a wealth scheme at 15/2% per annum for 2 years. Find the amount.",
+    "options": [
+      "18490",
+      "18475",
+      "18520",
+      "18505"
+    ],
+    "correct_option": "A",
+    "correct_answer": "18490",
+    "explanation": "A = 16000(1 + 15/2/100)^2 = 18490.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_fractional_rate",
+      "variant": 1,
+      "inputs": {
+        "P": 16000,
+        "R": "15/2",
+        "T": 2,
+        "A": "18490"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0088",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Isha earns compound interest on Rs.16000 in a recurring deposit at 5/2% per annum for 2 years. Find the amount.",
+    "options": [
+      "16840",
+      "16810",
+      "16795",
+      "16825"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16810",
+    "explanation": "A = 16000(1 + 5/2/100)^2 = 16810.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_fractional_rate",
+      "variant": 2,
+      "inputs": {
+        "P": 16000,
+        "R": "5/2",
+        "T": 2,
+        "A": "16810"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0089",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Riya earns compound interest on Rs.8000 in a capital scheme at 5/2% per annum for 2 years. Find the amount.",
+    "options": [
+      "8435",
+      "8390",
+      "8405",
+      "8420"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8405",
+    "explanation": "A = 8000(1 + 5/2/100)^2 = 8405.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_fractional_rate",
+      "variant": 3,
+      "inputs": {
+        "P": 8000,
+        "R": "5/2",
+        "T": 2,
+        "A": "8405"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0090",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Sneha earns compound interest on Rs.16000 in a business deposit at 15/2% per annum for 2 years. Find the amount.",
+    "options": [
+      "18475",
+      "18505",
+      "18490",
+      "18520"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18490",
+    "explanation": "A = 16000(1 + 15/2/100)^2 = 18490.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_fractional_rate",
+      "variant": 4,
+      "inputs": {
+        "P": 16000,
+        "R": "15/2",
+        "T": 2,
+        "A": "18490"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0091",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Manav's Rs.10000 in a fixed deposit at 10% compound interest, find the ratio of the interest earned in year 2 to the interest earned in year 1.",
+    "options": [
+      "1100:1000",
+      "1000:1100",
+      "1:1",
+      "10:1"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1100:1000",
+    "explanation": "First-year interest = 1000; second-year interest = 1100; ratio = 1100:1000.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_year_ratio",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "I1": "1000",
+        "I2": "1100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0092",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Aman's Rs.8000 in a compound scheme at 5% compound interest, find the ratio of the interest earned in year 2 to the interest earned in year 1.",
+    "options": [
+      "5:1",
+      "420:400",
+      "1:1",
+      "400:420"
+    ],
+    "correct_option": "B",
+    "correct_answer": "420:400",
+    "explanation": "First-year interest = 400; second-year interest = 420; ratio = 420:400.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_year_ratio",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "R": 5,
+        "I1": "400",
+        "I2": "420"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0093",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Dev's Rs.12000 in a term deposit at 10% compound interest, find the ratio of the interest earned in year 2 to the interest earned in year 1.",
+    "options": [
+      "10:1",
+      "1320:1200",
+      "1:1",
+      "1200:1320"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1320:1200",
+    "explanation": "First-year interest = 1200; second-year interest = 1320; ratio = 1320:1200.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_year_ratio",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R": 10,
+        "I1": "1200",
+        "I2": "1320"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0094",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Nikhil's Rs.16000 in a savings plan at 5% compound interest, find the ratio of the interest earned in year 2 to the interest earned in year 1.",
+    "options": [
+      "5:1",
+      "800:840",
+      "1:1",
+      "840:800"
+    ],
+    "correct_option": "D",
+    "correct_answer": "840:800",
+    "explanation": "First-year interest = 800; second-year interest = 840; ratio = 840:800.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_year_ratio",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "R": 5,
+        "I1": "800",
+        "I2": "840"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0095",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "For Aditya's Rs.18000 in an investment at 10% compound interest, find the ratio of the interest earned in year 2 to the interest earned in year 1.",
+    "options": [
+      "10:1",
+      "1:1",
+      "1980:1800",
+      "1800:1980"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1980:1800",
+    "explanation": "First-year interest = 1800; second-year interest = 1980; ratio = 1980:1800.",
+    "difficulty": "MEDIUM",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 01_Class Notes, pp. 1-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_interest_year_ratio",
+      "variant": 4,
+      "inputs": {
+        "P": 18000,
+        "R": 10,
+        "I1": "1800",
+        "I2": "1980"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0096",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Pooja received Rs.2100 as compound interest from a wealth scheme at 10% for 2 years. What sum was invested?",
+    "options": [
+      "10000",
+      "10002",
+      "10001",
+      "9999"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10000",
+    "explanation": "A = P + CI = 12100; P = A/(1 + R/100)^T = 10000.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal_from_ci",
+      "variant": 0,
+      "inputs": {
+        "CI": 2100,
+        "R": 10,
+        "T": 2,
+        "P": 10000,
+        "A": 12100
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0097",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Isha received Rs.1230 as compound interest from a recurring deposit at 5% for 2 years. What sum was invested?",
+    "options": [
+      "11999",
+      "11998",
+      "12000",
+      "12001"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12000",
+    "explanation": "A = P + CI = 13230; P = A/(1 + R/100)^T = 12000.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal_from_ci",
+      "variant": 1,
+      "inputs": {
+        "CI": 1230,
+        "R": 5,
+        "T": 2,
+        "P": 12000,
+        "A": 13230
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0098",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Riya received Rs.3310 as compound interest from a capital scheme at 10% for 3 years. What sum was invested?",
+    "options": [
+      "10000",
+      "9999",
+      "10002",
+      "10001"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10000",
+    "explanation": "A = P + CI = 13310; P = A/(1 + R/100)^T = 10000.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal_from_ci",
+      "variant": 2,
+      "inputs": {
+        "CI": 3310,
+        "R": 10,
+        "T": 3,
+        "P": 10000,
+        "A": 13310
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0099",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Sneha received Rs.2100 as compound interest from a business deposit at 10% for 2 years. What sum was invested?",
+    "options": [
+      "10001",
+      "9999",
+      "10000",
+      "10002"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10000",
+    "explanation": "A = P + CI = 12100; P = A/(1 + R/100)^T = 10000.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal_from_ci",
+      "variant": 3,
+      "inputs": {
+        "CI": 2100,
+        "R": 10,
+        "T": 2,
+        "P": 10000,
+        "A": 12100
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0100",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Tara received Rs.1230 as compound interest from a bank deposit at 5% for 2 years. What sum was invested?",
+    "options": [
+      "11998",
+      "11999",
+      "12000",
+      "12001"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12000",
+    "explanation": "A = P + CI = 13230; P = A/(1 + R/100)^T = 12000.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 02_Class Notes, pp. 1-18",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_principal_from_ci",
+      "variant": 4,
+      "inputs": {
+        "CI": 1230,
+        "R": 5,
+        "T": 2,
+        "P": 12000,
+        "A": 13230
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0101",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Calculate the amount after 3 years for Rs.10000 in a compound scheme at 10% compounded annually for Aman.",
+    "options": [
+      "13295",
+      "13340",
+      "13310",
+      "13325"
+    ],
+    "correct_option": "C",
+    "correct_answer": "13310",
+    "explanation": "A = 10000(1 + 10/100)^3 = 13310.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_three_year_amount",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "T": 3,
+        "A": "13310"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0102",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Calculate the amount after 3 years for Rs.10000 in a term deposit at 5% compounded annually for Dev.",
+    "options": [
+      "11576.25",
+      "11561.25",
+      "11606.25",
+      "11591.25"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11576.25",
+    "explanation": "A = 10000(1 + 5/100)^3 = 11576.25.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_three_year_amount",
+      "variant": 1,
+      "inputs": {
+        "P": 10000,
+        "R": 5,
+        "T": 3,
+        "A": "11576.25"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0103",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Calculate the amount after 3 years for Rs.12000 in a savings plan at 5% compounded annually for Nikhil.",
+    "options": [
+      "13891.5",
+      "13876.5",
+      "13921.5",
+      "13906.5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "13891.5",
+    "explanation": "A = 12000(1 + 5/100)^3 = 13891.5.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_three_year_amount",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "R": 5,
+        "T": 3,
+        "A": "13891.5"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0104",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Calculate the amount after 3 years for Rs.10000 in an investment at 10% compounded annually for Aditya.",
+    "options": [
+      "13295",
+      "13325",
+      "13310",
+      "13340"
+    ],
+    "correct_option": "C",
+    "correct_answer": "13310",
+    "explanation": "A = 10000(1 + 10/100)^3 = 13310.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_three_year_amount",
+      "variant": 3,
+      "inputs": {
+        "P": 10000,
+        "R": 10,
+        "T": 3,
+        "A": "13310"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0105",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Calculate the amount after 3 years for Rs.10000 in a fixed deposit at 5% compounded annually for Manav.",
+    "options": [
+      "11591.25",
+      "11606.25",
+      "11561.25",
+      "11576.25"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11576.25",
+    "explanation": "A = 10000(1 + 5/100)^3 = 11576.25.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Compound Interest 03_ Class Notes, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_three_year_amount",
+      "variant": 4,
+      "inputs": {
+        "P": 10000,
+        "R": 5,
+        "T": 3,
+        "A": "11576.25"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0106",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Rs.10000 in Dev's a term deposit became Rs.12155.06 in 2 years with 4 half-year periods. What was the annual rate, compounded half-yearly?",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10",
+    "explanation": "The half-yearly rate is 10/2 percent; over 4 periods the amount is 12155.06, so the annual rate is 10%.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_rate",
+      "variant": 0,
+      "inputs": {
+        "P": 10000,
+        "A": "12155.06",
+        "T": 2,
+        "R": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0107",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Rs.8000 in Nikhil's a savings plan became Rs.8830.5 in 2 years with 4 half-year periods. What was the annual rate, compounded half-yearly?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5",
+    "explanation": "The half-yearly rate is 5/2 percent; over 4 periods the amount is 8830.5, so the annual rate is 5%.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_rate",
+      "variant": 1,
+      "inputs": {
+        "P": 8000,
+        "A": "8830.5",
+        "T": 2,
+        "R": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0108",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Rs.12000 in Aditya's an investment became Rs.14586.08 in 2 years with 4 half-year periods. What was the annual rate, compounded half-yearly?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10",
+    "explanation": "The half-yearly rate is 10/2 percent; over 4 periods the amount is 14586.08, so the annual rate is 10%.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_rate",
+      "variant": 2,
+      "inputs": {
+        "P": 12000,
+        "A": "14586.08",
+        "T": 2,
+        "R": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0109",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Rs.16000 in Manav's a fixed deposit became Rs.17305.6 in 1 years with 2 half-year periods. What was the annual rate, compounded half-yearly?",
+    "options": [
+      "9",
+      "7",
+      "10",
+      "8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8",
+    "explanation": "The half-yearly rate is 8/2 percent; over 2 periods the amount is 17305.6, so the annual rate is 8%.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_rate",
+      "variant": 3,
+      "inputs": {
+        "P": 16000,
+        "A": "17305.6",
+        "T": 1,
+        "R": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0110",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Rs.20000 in Aman's a compound scheme became Rs.22472 in 1 years with 2 half-year periods. What was the annual rate, compounded half-yearly?",
+    "options": [
+      "12",
+      "14",
+      "13",
+      "11"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "The half-yearly rate is 12/2 percent; over 2 periods the amount is 22472, so the annual rate is 12%.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 1, pp. 1-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_half_rate",
+      "variant": 4,
+      "inputs": {
+        "P": 20000,
+        "A": "22472",
+        "T": 1,
+        "R": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0111",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Riya compares two deposits: A has Rs.10000 at 10% for 1 year(s), B has Rs.10000 at 12% for 1 years, both compounded yearly. Which gives the larger amount?",
+    "options": [
+      "Cannot be determined",
+      "Scheme A",
+      "Both are equal",
+      "Scheme B"
+    ],
+    "correct_option": "D",
+    "correct_answer": "Scheme B",
+    "explanation": "A gives 11000 and B gives 11200; hence Scheme B.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_compare",
+      "variant": 0,
+      "inputs": {
+        "P1": 10000,
+        "R1": 10,
+        "T1": 1,
+        "P2": 10000,
+        "R2": 12,
+        "T2": 1,
+        "A1": "11000",
+        "A2": "11200"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0112",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Sneha compares two deposits: A has Rs.8000 at 5% for 2 year(s), B has Rs.9000 at 10% for 2 years, both compounded yearly. Which gives the larger amount?",
+    "options": [
+      "Scheme B",
+      "Cannot be determined",
+      "Scheme A",
+      "Both are equal"
+    ],
+    "correct_option": "A",
+    "correct_answer": "Scheme B",
+    "explanation": "A gives 8820 and B gives 10890; hence Scheme B.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_compare",
+      "variant": 1,
+      "inputs": {
+        "P1": 8000,
+        "R1": 5,
+        "T1": 2,
+        "P2": 9000,
+        "R2": 10,
+        "T2": 2,
+        "A1": "8820",
+        "A2": "10890"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0113",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Tara compares two deposits: A has Rs.10000 at 20% for 1 year(s), B has Rs.11000 at 10% for 1 years, both compounded yearly. Which gives the larger amount?",
+    "options": [
+      "Scheme B",
+      "Scheme A",
+      "Both are equal",
+      "Cannot be determined"
+    ],
+    "correct_option": "A",
+    "correct_answer": "Scheme B",
+    "explanation": "A gives 12000 and B gives 12100; hence Scheme B.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_compare",
+      "variant": 2,
+      "inputs": {
+        "P1": 10000,
+        "R1": 20,
+        "T1": 1,
+        "P2": 11000,
+        "R2": 10,
+        "T2": 1,
+        "A1": "12000",
+        "A2": "12100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0114",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Pooja compares two deposits: A has Rs.12000 at 5% for 2 year(s), B has Rs.10000 at 12% for 2 years, both compounded yearly. Which gives the larger amount?",
+    "options": [
+      "Cannot be determined",
+      "Scheme A",
+      "Scheme B",
+      "Both are equal"
+    ],
+    "correct_option": "B",
+    "correct_answer": "Scheme A",
+    "explanation": "A gives 13230 and B gives 12544; hence Scheme A.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_compare",
+      "variant": 3,
+      "inputs": {
+        "P1": 12000,
+        "R1": 5,
+        "T1": 2,
+        "P2": 10000,
+        "R2": 12,
+        "T2": 2,
+        "A1": "13230",
+        "A2": "12544"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0115",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Isha compares two deposits: A has Rs.15000 at 10% for 1 year(s), B has Rs.14000 at 15% for 1 years, both compounded yearly. Which gives the larger amount?",
+    "options": [
+      "Scheme A",
+      "Scheme B",
+      "Both are equal",
+      "Cannot be determined"
+    ],
+    "correct_option": "A",
+    "correct_answer": "Scheme A",
+    "explanation": "A gives 16500 and B gives 16100; hence Scheme A.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Simple Interest and Compound Interest Set 2, pp. 1-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_compare",
+      "variant": 4,
+      "inputs": {
+        "P1": 15000,
+        "R1": 10,
+        "T1": 1,
+        "P2": 14000,
+        "R2": 15,
+        "T2": 1,
+        "A1": "16500",
+        "A2": "16100"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0116",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Nikhil compares Rs.10000 in a savings plan at 10% with Rs.8000 at 15% for 2 years, both compounded yearly. What is the difference between the two compound interests?",
+    "options": [
+      "479",
+      "480",
+      "481",
+      "478"
+    ],
+    "correct_option": "B",
+    "correct_answer": "480",
+    "explanation": "Interests are 2100 and 2580; the difference is 480.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_two_scheme_diff",
+      "variant": 0,
+      "inputs": {
+        "P1": 10000,
+        "R1": 10,
+        "P2": 8000,
+        "R2": 15,
+        "T": 2,
+        "CI1": 2100,
+        "CI2": 2580
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0117",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Aditya compares Rs.12000 in an investment at 5% with Rs.10000 at 8% for 2 years, both compounded yearly. What is the difference between the two compound interests?",
+    "options": [
+      "434",
+      "435",
+      "433",
+      "432"
+    ],
+    "correct_option": "A",
+    "correct_answer": "434",
+    "explanation": "Interests are 1230 and 1664; the difference is 434.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_two_scheme_diff",
+      "variant": 1,
+      "inputs": {
+        "P1": 12000,
+        "R1": 5,
+        "P2": 10000,
+        "R2": 8,
+        "T": 2,
+        "CI1": 1230,
+        "CI2": 1664
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0118",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Manav compares Rs.8000 in a fixed deposit at 10% with Rs.12000 at 5% for 2 years, both compounded yearly. What is the difference between the two compound interests?",
+    "options": [
+      "448",
+      "451",
+      "450",
+      "449"
+    ],
+    "correct_option": "C",
+    "correct_answer": "450",
+    "explanation": "Interests are 1680 and 1230; the difference is 450.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_two_scheme_diff",
+      "variant": 2,
+      "inputs": {
+        "P1": 8000,
+        "R1": 10,
+        "P2": 12000,
+        "R2": 5,
+        "T": 2,
+        "CI1": 1680,
+        "CI2": 1230
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0119",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Aman compares Rs.15000 in a compound scheme at 8% with Rs.10000 at 10% for 2 years, both compounded yearly. What is the difference between the two compound interests?",
+    "options": [
+      "398",
+      "395",
+      "397",
+      "396"
+    ],
+    "correct_option": "D",
+    "correct_answer": "396",
+    "explanation": "Interests are 2496 and 2100; the difference is 396.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_two_scheme_diff",
+      "variant": 3,
+      "inputs": {
+        "P1": 15000,
+        "R1": 8,
+        "P2": 10000,
+        "R2": 10,
+        "T": 2,
+        "CI1": 2496,
+        "CI2": 2100
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "compound_interest-0120",
+    "chapter": "Compound Interest",
+    "chapter_key": "compound_interest",
+    "part": 4,
+    "section": "compound_interest_part_4",
+    "question_text": "Dev compares Rs.20000 in a term deposit at 5% with Rs.16000 at 10% for 2 years, both compounded yearly. What is the difference between the two compound interests?",
+    "options": [
+      "1310",
+      "1308",
+      "1309",
+      "1311"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1310",
+    "explanation": "Interests are 2050 and 3360; the difference is 1310.",
+    "difficulty": "HARD",
+    "source_name": "Compound Interest class notes and mains topic-wise sets (local PDFs)",
+    "source_url": "",
+    "source_page": "Mains Topic wise Application Based DI Simple Interest And Compound, pp. 1-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set3_questions.py",
+    "verification_data": {
+      "family": "ci_two_scheme_diff",
+      "variant": 4,
+      "inputs": {
+        "P1": 20000,
+        "R1": 5,
+        "P2": 16000,
+        "R2": 10,
+        "T": 2,
+        "CI1": 2050,
+        "CI2": 3360
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

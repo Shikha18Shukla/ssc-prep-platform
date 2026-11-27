@@ -19,20 +19,16 @@ from sqlalchemy.pool import NullPool
 
 EXPECTED_DATABASE = "neondb"
 EXPECTED_ROLE = "neondb_owner"
-EXPECTED_HEAD = "0009_generic_beta_invites"
-CONFIRMATION = "APPLY 0001-0009 TO ssc-prep-beta/neondb"
+EXPECTED_HEAD = "0012_auth_replacement"
+CONFIRMATION = "APPLY 0001-0012 TO ssc-prep-beta/neondb"
 REQUIRED_TABLES = {
     "users", "exams", "subjects", "subcategories", "chapters", "questions",
     "question_options", "test_attempts", "test_questions", "user_answers",
-    "user_chapter_rotations", "user_question_history", "beta_capacity",
-    "beta_invitations", "rate_limit_windows",
+    "user_chapter_rotations", "user_question_history", "rate_limit_windows",
+    "auth_sessions", "oauth_identities", "oauth_states", "oauth_exchange_codes",
+    "password_reset_tokens",
 }
 REQUIRED_CONSTRAINTS = {
-    "beta_capacity_pkey",
-    "ck_beta_capacity_singleton",
-    "ck_beta_capacity_max_200",
-    "beta_invitations_pkey",
-    "uq_beta_invitation_token_hash",
     "rate_limit_windows_pkey",
     "uq_subject_exam_slug",
     "uq_subcategory_subject_slug",
@@ -48,10 +44,17 @@ REQUIRED_CONSTRAINTS = {
 }
 REQUIRED_INDEXES = {
     "ix_users_email",
+    "ix_users_email_normalized",
     "ix_exams_slug",
     "uq_chapter_subject_slug_without_subcategory",
+    "ix_auth_sessions_user_id",
+    "ix_oauth_identity_provider_email",
+    "uq_oauth_identity_provider_subject",
+    "uq_oauth_identity_user_provider",
+    "ix_oauth_exchange_codes_user_id",
+    "uq_password_reset_one_live_per_user",
 }
-COUNT_TABLES = ("users", "beta_invitations", "exams", "subjects", "chapters", "questions")
+COUNT_TABLES = ("users", "exams", "subjects", "chapters", "questions", "auth_sessions")
 
 
 class BetaDatabaseError(Exception):
@@ -263,10 +266,6 @@ def inspect_beta_database(url: URL) -> None:
                     "SELECT column_name FROM information_schema.columns "
                     "WHERE table_schema = current_schema() AND table_name = 'users'"
                 )).scalars().all())
-                capacity_rows = connection.execute(text(
-                    "SELECT id, max_accounts FROM beta_capacity ORDER BY id"
-                )).all()
-
                 counts = {}
                 for table in COUNT_TABLES:
                     if table in tables:
@@ -275,13 +274,6 @@ def inspect_beta_database(url: URL) -> None:
                         ).scalar_one()
                     else:
                         counts[table] = None
-                if "beta_invitations" in tables:
-                    counts["pending_unexpired_invitations"] = connection.execute(text(
-                        "SELECT count(*) FROM beta_invitations "
-                        "WHERE redeemed_at IS NULL AND expires_at > now()"
-                    )).scalar_one()
-                else:
-                    counts["pending_unexpired_invitations"] = None
     except BetaDatabaseError:
         raise
     except SQLAlchemyError as exc:
@@ -307,12 +299,9 @@ def inspect_beta_database(url: URL) -> None:
     if missing_indexes:
         print("Missing indexes: " + ", ".join(missing_indexes))
     print(f"users.is_admin column: {'present' if 'is_admin' in user_columns else 'MISSING'}")
-    capacity = [value for row_id, value in capacity_rows if row_id == 1]
-    print(f"Account capacity row (id=1): {capacity[0] if capacity else 'MISSING'} (expected 200)")
     print("Row counts (no identifiers or personal data):")
     for table in COUNT_TABLES:
         print(f"  {table}: {counts[table] if counts[table] is not None else 'MISSING TABLE'}")
-    print(f"  pending_unexpired_invitations: {counts['pending_unexpired_invitations'] if counts['pending_unexpired_invitations'] is not None else 'MISSING TABLE'}")
     print("Inspection completed in a read-only transaction; no data was changed.")
 
 

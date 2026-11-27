@@ -21,6 +21,7 @@ export interface ActiveTest {
   started_at: string;
   deadline_at: string;
   status: "IN_PROGRESS" | "COMPLETED" | "AUTO_SUBMITTED";
+  section?: string | null;
   questions: ActiveQuestion[];
 }
 export interface TestSummary {

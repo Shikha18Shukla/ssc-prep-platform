@@ -6,12 +6,15 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 import { User } from "@/types";
 import { ApiError } from "@/services/api";
 import {
+  confirmPasswordReset as apiConfirmPasswordReset,
+  exchangeGoogleCode,
   getCachedUser,
   getCurrentUser,
   getToken,
   login as apiLogin,
   logout as apiLogout,
   register as apiRegister,
+  startGoogleSignIn,
   LoginPayload,
   RegisterPayload,
 } from "@/services/auth";
@@ -23,7 +26,14 @@ export interface AuthContextType {
   isLoading: boolean;
   login: (payload: LoginPayload) => Promise<User>;
   register: (payload: RegisterPayload) => Promise<User>;
-  logout: () => void;
+  logout: () => Promise<void>;
+  startGoogleSignIn: () => Promise<string>;
+  completeGoogleSignIn: (code: string) => Promise<User>;
+  completePasswordReset: (
+    token: string,
+    newPassword: string,
+    confirmPassword: string,
+  ) => Promise<User>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -37,7 +47,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 
   useEffect(() => {
     const handleExpiredSession = () => {
-      apiLogout();
+      void apiLogout();
       setUser(null);
       setToken(null);
     };
@@ -58,10 +68,10 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
         setUser(currentUser);
         setToken(activeToken);
       } catch (error) {
-        // Preserve an otherwise valid session through Render/Neon cold starts or
-        // short network outages. Clear it only when the server rejects the token.
+        // Preserve an otherwise valid session through cold starts or short
+        // network outages. Clear it only when the server rejects the token.
         if (error instanceof ApiError && (error.status === 401 || error.status === 403)) {
-          apiLogout();
+          await apiLogout();
           setUser(null);
           setToken(null);
         } else if (!cachedUser) {
@@ -76,26 +86,30 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
     return () => window.removeEventListener("ssc-auth-expired", handleExpiredSession);
   }, []);
 
-  const handleLogin = async (payload: LoginPayload): Promise<User> => {
-    const response = await apiLogin(payload);
+  const applySession = (response: { access_token: string; user: User }): User => {
     setToken(response.access_token);
-    // apiLogin caches the response user for reconnect-safe auth initialization.
     setUser(response.user);
     return response.user;
   };
 
-  const handleRegister = async (payload: RegisterPayload): Promise<User> => {
-    const newUser = await apiRegister(payload);
-    // Automatically log in the user after successful registration
-    await handleLogin({
-      email: payload.email,
-      password: payload.password,
-    });
-    return newUser;
-  };
+  const handleLogin = async (payload: LoginPayload): Promise<User> =>
+    applySession(await apiLogin(payload));
 
-  const handleLogout = (): void => {
-    apiLogout();
+  const handleRegister = async (payload: RegisterPayload): Promise<User> =>
+    applySession(await apiRegister(payload));
+
+  const handleGoogleComplete = async (code: string): Promise<User> =>
+    applySession(await exchangeGoogleCode(code));
+
+  const handlePasswordResetComplete = async (
+    resetToken: string,
+    newPassword: string,
+    confirmPassword: string,
+  ): Promise<User> =>
+    applySession(await apiConfirmPasswordReset(resetToken, newPassword, confirmPassword));
+
+  const handleLogout = async (): Promise<void> => {
+    await apiLogout();
     setUser(null);
     setToken(null);
   };
@@ -110,6 +124,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
         login: handleLogin,
         register: handleRegister,
         logout: handleLogout,
+        startGoogleSignIn,
+        completeGoogleSignIn: handleGoogleComplete,
+        completePasswordReset: handlePasswordResetComplete,
       }}
     >
       {children}

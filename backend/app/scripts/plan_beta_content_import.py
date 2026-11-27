@@ -354,7 +354,7 @@ def _print_report(source: dict[str, Any], target: dict[str, Any]) -> None:
     else:
         print("- Duplicate and ID-conflict totals are not inferred from row counts; exact record comparison remains required.")
     print("- Foreign-key plan: insert SSC exam → approved subjects → required subcategories → 81 chapters → questions → options; preserve source UUIDs when unused.")
-    print("- Excluded tables: users, beta invitations/capacity, attempts, test questions, answers, histories, rate limits, results and all unrelated data.")
+    print("- Excluded tables: users, auth sessions/identities/reset tokens, attempts, test questions, answers, histories, rate limits, results and all unrelated data.")
     print(f"- Source UUIDs can be preserved: {'yes' if empty_target else 'pending target ID comparison'}.")
     print(f"- Dry-run is approval-ready: {'yes' if empty_target else 'no; exact target-content reconciliation remains required'}.")
     print("\nDry-run complete. No import/apply option is available in this command.")

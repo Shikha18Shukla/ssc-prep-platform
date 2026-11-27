@@ -58,6 +58,8 @@ class ActiveTestRead(BaseModel):
     started_at: datetime
     deadline_at: datetime
     status: TestAttemptStatus
+    # Present when all questions in the attempt belong to one section.
+    section: str | None = None
     questions: list[ActiveTestQuestion]
 
 

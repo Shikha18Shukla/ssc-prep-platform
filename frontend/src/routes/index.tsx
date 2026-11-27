@@ -1,7 +1,19 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { RootLayout } from "@/layouts/RootLayout";
 import { ProtectedRoute } from "@/components/common";
-import { HomePage, LoginPage, SignupPage, DashboardPage, SSCPage, BankingPage, TestPage, TestResultPage, AdminInvitationsPage } from "@/pages";
+import {
+  HomePage,
+  LoginPage,
+  SignupPage,
+  ForgotPasswordPage,
+  ResetPasswordPage,
+  GoogleCallbackPage,
+  DashboardPage,
+  SSCPage,
+  BankingPage,
+  TestPage,
+  TestResultPage,
+} from "@/pages";
 
 export function AppRoutes() {
   return (
@@ -11,6 +23,9 @@ export function AppRoutes() {
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignupPage />} />
+        <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+        <Route path="/reset-password" element={<ResetPasswordPage />} />
+        <Route path="/auth/google/complete" element={<GoogleCallbackPage />} />
 
         {/* Protected Routes */}
         <Route element={<ProtectedRoute />}>
@@ -20,7 +35,6 @@ export function AppRoutes() {
           <Route path="/banking" element={<BankingPage />} />
           <Route path="/tests/:testId" element={<TestPage />} />
           <Route path="/tests/:testId/results" element={<TestResultPage />} />
-          <Route path="/admin/invitations" element={<AdminInvitationsPage />} />
         </Route>
 
         {/* Catch-all fallback */}
