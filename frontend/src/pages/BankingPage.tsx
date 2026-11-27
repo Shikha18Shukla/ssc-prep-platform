@@ -51,6 +51,12 @@ const mathsChapterKeys: Record<string, string> = {
   "problems-on-trains": "problems_on_trains",
   "boats-and-streams": "boats_and_streams",
   "mensuration-2d": "mensuration_2d",
+  "mensuration-3d": "mensuration_3d",
+  permutations: "permutations",
+  combinations: "combinations",
+  probability: "probability",
+  "data-interpretation": "data_interpretation",
+  "caselet-data-interpretation": "caselet_data_interpretation",
 };
 const mathsParts = [
   { part: 1, count: 15, minutes: 10.5, title: "Part 1", subtitle: "15 Questions · 10.5 Minutes", level: "Easy" },

@@ -1,0 +1,4067 @@
+[
+  {
+    "id": "permutations-0001",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Aarav has 3 choices for a library shelf slot and Meera has 4 choices for the next slot. Neha applies the fundamental counting principle. How many ordered pairs are possible?",
+    "options": [
+      "12",
+      "24",
+      "7",
+      "13"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "For ordered independent choices, multiply: 3 x 4 = 12.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_count_fcp",
+      "variant": 0,
+      "inputs": {
+        "m": 3,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0002",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Rohan has 4 choices for a display rack slot and Neha has 5 choices for the next slot. Priya applies the fundamental counting principle. How many ordered pairs are possible?",
+    "options": [
+      "20",
+      "40",
+      "21",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "For ordered independent choices, multiply: 4 x 5 = 20.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_count_fcp",
+      "variant": 1,
+      "inputs": {
+        "m": 4,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0003",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Kabir has 5 choices for a classroom row slot and Priya has 6 choices for the next slot. Sneha applies the fundamental counting principle. How many ordered pairs are possible?",
+    "options": [
+      "30",
+      "60",
+      "31",
+      "11"
+    ],
+    "correct_option": "A",
+    "correct_answer": "30",
+    "explanation": "For ordered independent choices, multiply: 5 x 6 = 30.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_count_fcp",
+      "variant": 2,
+      "inputs": {
+        "m": 5,
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0004",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Arjun has 6 choices for a workshop bench slot and Sneha has 7 choices for the next slot. Ananya applies the fundamental counting principle. How many ordered pairs are possible?",
+    "options": [
+      "13",
+      "43",
+      "84",
+      "42"
+    ],
+    "correct_option": "D",
+    "correct_answer": "42",
+    "explanation": "For ordered independent choices, multiply: 6 x 7 = 42.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_count_fcp",
+      "variant": 3,
+      "inputs": {
+        "m": 6,
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0005",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Vikram has 7 choices for a contest stage slot and Ananya has 8 choices for the next slot. Isha applies the fundamental counting principle. How many ordered pairs are possible?",
+    "options": [
+      "57",
+      "112",
+      "15",
+      "56"
+    ],
+    "correct_option": "D",
+    "correct_answer": "56",
+    "explanation": "For ordered independent choices, multiply: 7 x 8 = 56.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_count_fcp",
+      "variant": 4,
+      "inputs": {
+        "m": 7,
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0006",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Meera, Rohan and Kabir arrange 4 distinct books in a line on a library shelf. How many arrangements are possible?",
+    "options": [
+      "24",
+      "6",
+      "16",
+      "12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "Arranging 4 distinct objects in a line gives 4! = 24.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_distinct_arrangements",
+      "variant": 0,
+      "inputs": {
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0007",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Neha, Kabir and Arjun arrange 5 distinct trophies in a line on a display rack. How many arrangements are possible?",
+    "options": [
+      "24",
+      "120",
+      "60",
+      "25"
+    ],
+    "correct_option": "B",
+    "correct_answer": "120",
+    "explanation": "Arranging 5 distinct objects in a line gives 5! = 120.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_distinct_arrangements",
+      "variant": 1,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0008",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Priya, Arjun and Vikram arrange 6 distinct files in a line on a classroom row. How many arrangements are possible?",
+    "options": [
+      "720",
+      "360",
+      "36",
+      "120"
+    ],
+    "correct_option": "A",
+    "correct_answer": "720",
+    "explanation": "Arranging 6 distinct objects in a line gives 6! = 720.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_distinct_arrangements",
+      "variant": 2,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0009",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Sneha, Vikram and Dev arrange 7 distinct tools in a line on a workshop bench. How many arrangements are possible?",
+    "options": [
+      "5040",
+      "720",
+      "2520",
+      "49"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5040",
+    "explanation": "Arranging 7 distinct objects in a line gives 7! = 5040.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_distinct_arrangements",
+      "variant": 3,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0010",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "Ananya, Dev and Nikhil arrange 8 distinct badges in a line on a contest stage. How many arrangements are possible?",
+    "options": [
+      "64",
+      "5040",
+      "40320",
+      "20160"
+    ],
+    "correct_option": "C",
+    "correct_answer": "40320",
+    "explanation": "Arranging 8 distinct objects in a line gives 8! = 40320.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_distinct_arrangements",
+      "variant": 4,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0011",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "How many distinct letter arrangements can Rohan and Neha make from the word LEVEL?",
+    "options": [
+      "30",
+      "120",
+      "60",
+      "15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "30",
+    "explanation": "There are 5 letters with repeated groups. Distinct arrangements = 5! / (4) = 30.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_repeated_letters",
+      "variant": 0,
+      "inputs": {
+        "word": "LEVEL",
+        "n": 5,
+        "denom": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0012",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "How many distinct letter arrangements can Kabir and Priya make from the word SUCCESS?",
+    "options": [
+      "840",
+      "420",
+      "5040",
+      "210"
+    ],
+    "correct_option": "B",
+    "correct_answer": "420",
+    "explanation": "There are 7 letters with repeated groups. Distinct arrangements = 7! / (12) = 420.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_repeated_letters",
+      "variant": 1,
+      "inputs": {
+        "word": "SUCCESS",
+        "n": 7,
+        "denom": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0013",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "How many distinct letter arrangements can Arjun and Sneha make from the word BANANA?",
+    "options": [
+      "60",
+      "30",
+      "720",
+      "120"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60",
+    "explanation": "There are 6 letters with repeated groups. Distinct arrangements = 6! / (12) = 60.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_repeated_letters",
+      "variant": 2,
+      "inputs": {
+        "word": "BANANA",
+        "n": 6,
+        "denom": 12
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0014",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "How many distinct letter arrangements can Vikram and Ananya make from the word BOOKKEEPER?",
+    "options": [
+      "151200",
+      "75600",
+      "302400",
+      "3628800"
+    ],
+    "correct_option": "A",
+    "correct_answer": "151200",
+    "explanation": "There are 10 letters with repeated groups. Distinct arrangements = 10! / (24) = 151200.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_repeated_letters",
+      "variant": 3,
+      "inputs": {
+        "word": "BOOKKEEPER",
+        "n": 10,
+        "denom": 24
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0015",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 1,
+    "section": "permutations_part_1",
+    "question_text": "How many distinct letter arrangements can Dev and Isha make from the word MISSISSIPPI?",
+    "options": [
+      "17325",
+      "34650",
+      "39916800",
+      "69300"
+    ],
+    "correct_option": "B",
+    "correct_answer": "34650",
+    "explanation": "There are 11 letters with repeated groups. Distinct arrangements = 11! / (1152) = 34650.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_repeated_letters",
+      "variant": 4,
+      "inputs": {
+        "word": "MISSISSIPPI",
+        "n": 11,
+        "denom": 1152
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0016",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Neha, Kabir and Priya rearrange every letter of the word PLANK. How many different words can they form?",
+    "options": [
+      "24",
+      "25",
+      "121",
+      "120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120",
+    "explanation": "The word PLANK has 5 distinct letters, so the number of arrangements is 5! = 120.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_all_distinct",
+      "variant": 0,
+      "inputs": {
+        "word": "PLANK",
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0017",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Priya, Arjun and Sneha rearrange every letter of the word QUARTZ. How many different words can they form?",
+    "options": [
+      "36",
+      "720",
+      "721",
+      "120"
+    ],
+    "correct_option": "B",
+    "correct_answer": "720",
+    "explanation": "The word QUARTZ has 6 distinct letters, so the number of arrangements is 6! = 720.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_all_distinct",
+      "variant": 1,
+      "inputs": {
+        "word": "QUARTZ",
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0018",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Sneha, Vikram and Ananya rearrange every letter of the word WINTER. How many different words can they form?",
+    "options": [
+      "720",
+      "120",
+      "721",
+      "36"
+    ],
+    "correct_option": "A",
+    "correct_answer": "720",
+    "explanation": "The word WINTER has 6 distinct letters, so the number of arrangements is 6! = 720.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_all_distinct",
+      "variant": 2,
+      "inputs": {
+        "word": "WINTER",
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0019",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Ananya, Dev and Isha rearrange every letter of the word GOLDEN. How many different words can they form?",
+    "options": [
+      "721",
+      "36",
+      "720",
+      "120"
+    ],
+    "correct_option": "C",
+    "correct_answer": "720",
+    "explanation": "The word GOLDEN has 6 distinct letters, so the number of arrangements is 6! = 720.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_all_distinct",
+      "variant": 3,
+      "inputs": {
+        "word": "GOLDEN",
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0020",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Isha, Nikhil and Riya rearrange every letter of the word STREAM. How many different words can they form?",
+    "options": [
+      "36",
+      "720",
+      "120",
+      "721"
+    ],
+    "correct_option": "B",
+    "correct_answer": "720",
+    "explanation": "The word STREAM has 6 distinct letters, so the number of arrangements is 6! = 720.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_all_distinct",
+      "variant": 4,
+      "inputs": {
+        "word": "STREAM",
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0021",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "How many distinct arrangements of the letters of BALLOON are possible? Kabir and Priya are checking the repeated letters carefully.",
+    "options": [
+      "1260",
+      "5040",
+      "180",
+      "630"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1260",
+    "explanation": "There are 7 letters; the repeat factor is 4. Distinct arrangements = 7! / 4 = 1260.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_repeated",
+      "variant": 0,
+      "inputs": {
+        "word": "BALLOON",
+        "n": 7,
+        "denom": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0022",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "How many distinct arrangements of the letters of CHEMIST are possible? Arjun and Sneha are checking the repeated letters carefully.",
+    "options": [
+      "5040",
+      "720",
+      "5041",
+      "2520"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5040",
+    "explanation": "There are 7 letters; the repeat factor is 1. Distinct arrangements = 7! / 1 = 5040.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_repeated",
+      "variant": 1,
+      "inputs": {
+        "word": "CHEMIST",
+        "n": 7,
+        "denom": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0023",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "How many distinct arrangements of the letters of DIAMOND are possible? Vikram and Ananya are checking the repeated letters carefully.",
+    "options": [
+      "5040",
+      "1260",
+      "2520",
+      "360"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2520",
+    "explanation": "There are 7 letters; the repeat factor is 2. Distinct arrangements = 7! / 2 = 2520.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_repeated",
+      "variant": 2,
+      "inputs": {
+        "word": "DIAMOND",
+        "n": 7,
+        "denom": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0024",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "How many distinct arrangements of the letters of ELEPHANT are possible? Dev and Isha are checking the repeated letters carefully.",
+    "options": [
+      "40320",
+      "20160",
+      "10080",
+      "2520"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20160",
+    "explanation": "There are 8 letters; the repeat factor is 2. Distinct arrangements = 8! / 2 = 20160.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_repeated",
+      "variant": 3,
+      "inputs": {
+        "word": "ELEPHANT",
+        "n": 8,
+        "denom": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0025",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "How many distinct arrangements of the letters of FELLOWSHIP are possible? Nikhil and Riya are checking the repeated letters carefully.",
+    "options": [
+      "3628800",
+      "181440",
+      "1814400",
+      "907200"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1814400",
+    "explanation": "There are 10 letters; the repeat factor is 2. Distinct arrangements = 10! / 2 = 1814400.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_word_repeated",
+      "variant": 4,
+      "inputs": {
+        "word": "FELLOWSHIP",
+        "n": 10,
+        "denom": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0026",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Priya, Arjun and Sneha plus 3 others are seated in a straight row. Priya and Arjun must sit together. How many seating arrangements are possible?",
+    "options": [
+      "48",
+      "24",
+      "120",
+      "240"
+    ],
+    "correct_option": "A",
+    "correct_answer": "48",
+    "explanation": "Treat the pair as one block: 4! arrangements of the block and others, times 2 internal orders = 48.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_together_pair",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0027",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Sneha, Vikram and Ananya plus 4 others are seated in a straight row. Sneha and Vikram must sit together. How many seating arrangements are possible?",
+    "options": [
+      "240",
+      "120",
+      "1440",
+      "720"
+    ],
+    "correct_option": "A",
+    "correct_answer": "240",
+    "explanation": "Treat the pair as one block: 5! arrangements of the block and others, times 2 internal orders = 240.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_together_pair",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0028",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Ananya, Dev and Isha plus 5 others are seated in a straight row. Ananya and Dev must sit together. How many seating arrangements are possible?",
+    "options": [
+      "5040",
+      "10080",
+      "720",
+      "1440"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1440",
+    "explanation": "Treat the pair as one block: 6! arrangements of the block and others, times 2 internal orders = 1440.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_together_pair",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0029",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Isha, Nikhil and Riya plus 6 others are seated in a straight row. Isha and Nikhil must sit together. How many seating arrangements are possible?",
+    "options": [
+      "5040",
+      "80640",
+      "10080",
+      "40320"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10080",
+    "explanation": "Treat the pair as one block: 7! arrangements of the block and others, times 2 internal orders = 10080.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_together_pair",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0030",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Riya, Aditya and Kavya plus 7 others are seated in a straight row. Riya and Aditya must sit together. How many seating arrangements are possible?",
+    "options": [
+      "80640",
+      "362880",
+      "725760",
+      "40320"
+    ],
+    "correct_option": "A",
+    "correct_answer": "80640",
+    "explanation": "Treat the pair as one block: 8! arrangements of the block and others, times 2 internal orders = 80640.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_together_pair",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0031",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Arjun, Sneha and Vikram plus 2 others stand in a row. Arjun and Sneha must not stand together. How many arrangements are possible?",
+    "options": [
+      "120",
+      "96",
+      "48",
+      "72"
+    ],
+    "correct_option": "D",
+    "correct_answer": "72",
+    "explanation": "Total arrangements 5! minus arrangements with the pair together 2 x 4! gives 72.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_not_together",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0032",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Vikram, Ananya and Dev plus 3 others stand in a row. Vikram and Ananya must not stand together. How many arrangements are possible?",
+    "options": [
+      "480",
+      "240",
+      "720",
+      "600"
+    ],
+    "correct_option": "A",
+    "correct_answer": "480",
+    "explanation": "Total arrangements 6! minus arrangements with the pair together 2 x 5! gives 480.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_not_together",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0033",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Dev, Isha and Nikhil plus 4 others stand in a row. Dev and Isha must not stand together. How many arrangements are possible?",
+    "options": [
+      "4320",
+      "1440",
+      "3600",
+      "5040"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3600",
+    "explanation": "Total arrangements 7! minus arrangements with the pair together 2 x 6! gives 3600.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_not_together",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0034",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Nikhil, Riya and Aditya plus 5 others stand in a row. Nikhil and Riya must not stand together. How many arrangements are possible?",
+    "options": [
+      "10080",
+      "40320",
+      "30240",
+      "35280"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30240",
+    "explanation": "Total arrangements 8! minus arrangements with the pair together 2 x 7! gives 30240.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_not_together",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0035",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 2,
+    "section": "permutations_part_2",
+    "question_text": "Aditya, Kavya and Sahil plus 6 others stand in a row. Aditya and Kavya must not stand together. How many arrangements are possible?",
+    "options": [
+      "282240",
+      "322560",
+      "362880",
+      "80640"
+    ],
+    "correct_option": "A",
+    "correct_answer": "282240",
+    "explanation": "Total arrangements 9! minus arrangements with the pair together 2 x 8! gives 282240.",
+    "difficulty": "EASY",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_not_together",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0036",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "6 people including Sneha, Vikram and Ananya line up for a photograph. Sneha and Vikram must occupy the two ends. How many line-ups are possible?",
+    "options": [
+      "240",
+      "48",
+      "720",
+      "24"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48",
+    "explanation": "The two ends can be filled by Sneha and Vikram in 2 ways; the remaining 4 people can be arranged in 4! ways, giving 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_ends_restriction",
+      "variant": 0,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0037",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "7 people including Ananya, Dev and Isha line up for a photograph. Ananya and Dev must occupy the two ends. How many line-ups are possible?",
+    "options": [
+      "5040",
+      "240",
+      "1440",
+      "120"
+    ],
+    "correct_option": "B",
+    "correct_answer": "240",
+    "explanation": "The two ends can be filled by Ananya and Dev in 2 ways; the remaining 5 people can be arranged in 5! ways, giving 240.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_ends_restriction",
+      "variant": 1,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0038",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "8 people including Isha, Nikhil and Riya line up for a photograph. Isha and Nikhil must occupy the two ends. How many line-ups are possible?",
+    "options": [
+      "1440",
+      "40320",
+      "720",
+      "10080"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1440",
+    "explanation": "The two ends can be filled by Isha and Nikhil in 2 ways; the remaining 6 people can be arranged in 6! ways, giving 1440.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_ends_restriction",
+      "variant": 2,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0039",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "9 people including Riya, Aditya and Kavya line up for a photograph. Riya and Aditya must occupy the two ends. How many line-ups are possible?",
+    "options": [
+      "5040",
+      "80640",
+      "10080",
+      "362880"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10080",
+    "explanation": "The two ends can be filled by Riya and Aditya in 2 ways; the remaining 7 people can be arranged in 7! ways, giving 10080.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_ends_restriction",
+      "variant": 3,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0040",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "10 people including Kavya, Sahil and Tara line up for a photograph. Kavya and Sahil must occupy the two ends. How many line-ups are possible?",
+    "options": [
+      "80640",
+      "3628800",
+      "40320",
+      "725760"
+    ],
+    "correct_option": "A",
+    "correct_answer": "80640",
+    "explanation": "The two ends can be filled by Kavya and Sahil in 2 ways; the remaining 8 people can be arranged in 8! ways, giving 80640.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_ends_restriction",
+      "variant": 4,
+      "inputs": {
+        "n": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0041",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Vikram, Ananya, Dev and 2 others are arranged in a row. Vikram must be first and Ananya must be last. How many arrangements are possible?",
+    "options": [
+      "7",
+      "12",
+      "6",
+      "120"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Fix the first and last positions. The remaining 3 people can be arranged in 3! = 6 ways.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_fixed_position",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0042",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Dev, Isha, Nikhil and 3 others are arranged in a row. Dev must be first and Isha must be last. How many arrangements are possible?",
+    "options": [
+      "25",
+      "48",
+      "720",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Fix the first and last positions. The remaining 4 people can be arranged in 4! = 24 ways.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_fixed_position",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0043",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Nikhil, Riya, Aditya and 4 others are arranged in a row. Nikhil must be first and Riya must be last. How many arrangements are possible?",
+    "options": [
+      "121",
+      "240",
+      "120",
+      "5040"
+    ],
+    "correct_option": "C",
+    "correct_answer": "120",
+    "explanation": "Fix the first and last positions. The remaining 5 people can be arranged in 5! = 120 ways.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_fixed_position",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0044",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Aditya, Kavya, Sahil and 5 others are arranged in a row. Aditya must be first and Kavya must be last. How many arrangements are possible?",
+    "options": [
+      "40320",
+      "1440",
+      "721",
+      "720"
+    ],
+    "correct_option": "D",
+    "correct_answer": "720",
+    "explanation": "Fix the first and last positions. The remaining 6 people can be arranged in 6! = 720 ways.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_fixed_position",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0045",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Sahil, Tara, Manav and 6 others are arranged in a row. Sahil must be first and Tara must be last. How many arrangements are possible?",
+    "options": [
+      "362880",
+      "10080",
+      "5041",
+      "5040"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5040",
+    "explanation": "Fix the first and last positions. The remaining 7 people can be arranged in 7! = 5040 ways.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_fixed_position",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0046",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Ananya, Dev, Isha and 2 others sit around a circular table. How many distinct seatings are possible?",
+    "options": [
+      "24",
+      "120",
+      "25",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "Circular arrangements of 5 distinct people = (5 - 1)! = 24; rotations are considered identical.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_distinct",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0047",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Isha, Nikhil, Riya and 3 others sit around a circular table. How many distinct seatings are possible?",
+    "options": [
+      "24",
+      "121",
+      "720",
+      "120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120",
+    "explanation": "Circular arrangements of 6 distinct people = (6 - 1)! = 120; rotations are considered identical.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_distinct",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0048",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Riya, Aditya, Kavya and 4 others sit around a circular table. How many distinct seatings are possible?",
+    "options": [
+      "720",
+      "721",
+      "120",
+      "5040"
+    ],
+    "correct_option": "A",
+    "correct_answer": "720",
+    "explanation": "Circular arrangements of 7 distinct people = (7 - 1)! = 720; rotations are considered identical.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_distinct",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0049",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Kavya, Sahil, Tara and 5 others sit around a circular table. How many distinct seatings are possible?",
+    "options": [
+      "720",
+      "40320",
+      "5040",
+      "5041"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5040",
+    "explanation": "Circular arrangements of 8 distinct people = (8 - 1)! = 5040; rotations are considered identical.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_distinct",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0050",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Tara, Manav, Diya and 6 others sit around a circular table. How many distinct seatings are possible?",
+    "options": [
+      "5040",
+      "40321",
+      "362880",
+      "40320"
+    ],
+    "correct_option": "D",
+    "correct_answer": "40320",
+    "explanation": "Circular arrangements of 9 distinct people = (9 - 1)! = 40320; rotations are considered identical.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_distinct",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0051",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Dev, Isha, Nikhil and 3 others sit around a circular table. Dev and Isha must sit together. How many seatings are possible?",
+    "options": [
+      "120",
+      "24",
+      "240",
+      "48"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48",
+    "explanation": "Treat the pair as one block. Around a circle, 5 units give 4! arrangements, and the pair has 2 internal orders: 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_together",
+      "variant": 0,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0052",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Nikhil, Riya, Aditya and 4 others sit around a circular table. Nikhil and Riya must sit together. How many seatings are possible?",
+    "options": [
+      "120",
+      "1440",
+      "720",
+      "240"
+    ],
+    "correct_option": "D",
+    "correct_answer": "240",
+    "explanation": "Treat the pair as one block. Around a circle, 6 units give 5! arrangements, and the pair has 2 internal orders: 240.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_together",
+      "variant": 1,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0053",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Aditya, Kavya, Sahil and 5 others sit around a circular table. Aditya and Kavya must sit together. How many seatings are possible?",
+    "options": [
+      "720",
+      "10080",
+      "1440",
+      "5040"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1440",
+    "explanation": "Treat the pair as one block. Around a circle, 7 units give 6! arrangements, and the pair has 2 internal orders: 1440.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_together",
+      "variant": 2,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0054",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Sahil, Tara, Manav and 6 others sit around a circular table. Sahil and Tara must sit together. How many seatings are possible?",
+    "options": [
+      "5040",
+      "80640",
+      "40320",
+      "10080"
+    ],
+    "correct_option": "D",
+    "correct_answer": "10080",
+    "explanation": "Treat the pair as one block. Around a circle, 8 units give 7! arrangements, and the pair has 2 internal orders: 10080.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_together",
+      "variant": 3,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0055",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Manav, Diya, Kunal and 7 others sit around a circular table. Manav and Diya must sit together. How many seatings are possible?",
+    "options": [
+      "725760",
+      "362880",
+      "40320",
+      "80640"
+    ],
+    "correct_option": "D",
+    "correct_answer": "80640",
+    "explanation": "Treat the pair as one block. Around a circle, 9 units give 8! arrangements, and the pair has 2 internal orders: 80640.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_together",
+      "variant": 4,
+      "inputs": {
+        "n": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0056",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "From 7 distinct books, Isha, Nikhil and Riya choose 3 and arrange them in an order. How many ordered arrangements are possible?",
+    "options": [
+      "105",
+      "35",
+      "42",
+      "210"
+    ],
+    "correct_option": "D",
+    "correct_answer": "210",
+    "explanation": "Ordered selection of 3 from 7 is nPr = 7P3 = 210.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_arrange_selected",
+      "variant": 0,
+      "inputs": {
+        "n": 7,
+        "r": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0057",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "From 8 distinct trophies, Riya, Aditya and Kavya choose 4 and arrange them in an order. How many ordered arrangements are possible?",
+    "options": [
+      "1680",
+      "336",
+      "840",
+      "70"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1680",
+    "explanation": "Ordered selection of 4 from 8 is nPr = 8P4 = 1680.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_arrange_selected",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "r": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0058",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "From 9 distinct files, Kavya, Sahil and Tara choose 4 and arrange them in an order. How many ordered arrangements are possible?",
+    "options": [
+      "1512",
+      "504",
+      "126",
+      "3024"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3024",
+    "explanation": "Ordered selection of 4 from 9 is nPr = 9P4 = 3024.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_arrange_selected",
+      "variant": 2,
+      "inputs": {
+        "n": 9,
+        "r": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0059",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "From 10 distinct tools, Tara, Manav and Diya choose 5 and arrange them in an order. How many ordered arrangements are possible?",
+    "options": [
+      "5040",
+      "252",
+      "30240",
+      "15120"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30240",
+    "explanation": "Ordered selection of 5 from 10 is nPr = 10P5 = 30240.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_arrange_selected",
+      "variant": 3,
+      "inputs": {
+        "n": 10,
+        "r": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0060",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "From 11 distinct badges, Diya, Kunal and Pooja choose 5 and arrange them in an order. How many ordered arrangements are possible?",
+    "options": [
+      "55440",
+      "462",
+      "27720",
+      "7920"
+    ],
+    "correct_option": "A",
+    "correct_answer": "55440",
+    "explanation": "Ordered selection of 5 from 11 is nPr = 11P5 = 55440.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_arrange_selected",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "r": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0061",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Using only the digits 12345, Nikhil, Riya and Aditya form three-digit numbers without repetition. How many numbers can be formed?",
+    "options": [
+      "20",
+      "60",
+      "10",
+      "30"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60",
+    "explanation": "Three positions filled from 5 distinct digits without repetition: 5P3 = 60.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_three_digit_no_repeat",
+      "variant": 0,
+      "inputs": {
+        "d": "12345",
+        "r": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0062",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Using only the digits 23456, Aditya, Kavya and Sahil form three-digit numbers without repetition. How many numbers can be formed?",
+    "options": [
+      "10",
+      "30",
+      "20",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Three positions filled from 5 distinct digits without repetition: 5P3 = 60.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_three_digit_no_repeat",
+      "variant": 1,
+      "inputs": {
+        "d": "23456",
+        "r": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0063",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Using only the digits 34567, Sahil, Tara and Manav form three-digit numbers without repetition. How many numbers can be formed?",
+    "options": [
+      "10",
+      "60",
+      "30",
+      "20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60",
+    "explanation": "Three positions filled from 5 distinct digits without repetition: 5P3 = 60.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_three_digit_no_repeat",
+      "variant": 2,
+      "inputs": {
+        "d": "34567",
+        "r": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0064",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Using only the digits 45678, Manav, Diya and Kunal form three-digit numbers without repetition. How many numbers can be formed?",
+    "options": [
+      "20",
+      "30",
+      "60",
+      "10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Three positions filled from 5 distinct digits without repetition: 5P3 = 60.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_three_digit_no_repeat",
+      "variant": 3,
+      "inputs": {
+        "d": "45678",
+        "r": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0065",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 3,
+    "section": "permutations_part_3",
+    "question_text": "Using only the digits 56789, Kunal, Pooja and Rehan form three-digit numbers without repetition. How many numbers can be formed?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Three positions filled from 5 distinct digits without repetition: 5P3 = 60.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_three_digit_no_repeat",
+      "variant": 4,
+      "inputs": {
+        "d": "56789",
+        "r": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0066",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Riya, Aditya and Kavya form four-digit numbers from the digits 123456 without repetition. How many are even?",
+    "options": [
+      "180",
+      "60",
+      "181",
+      "90"
+    ],
+    "correct_option": "A",
+    "correct_answer": "180",
+    "explanation": "The units place must be even: 3 choices. The other three places use the remaining 5 digits in 5P3 = 60 orders, so 180.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_even_numbers",
+      "variant": 0,
+      "inputs": {
+        "d": "123456",
+        "even": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0067",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Kavya, Sahil and Tara form four-digit numbers from the digits 234567 without repetition. How many are even?",
+    "options": [
+      "181",
+      "90",
+      "60",
+      "180"
+    ],
+    "correct_option": "D",
+    "correct_answer": "180",
+    "explanation": "The units place must be even: 3 choices. The other three places use the remaining 5 digits in 5P3 = 60 orders, so 180.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_even_numbers",
+      "variant": 1,
+      "inputs": {
+        "d": "234567",
+        "even": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0068",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Tara, Manav and Diya form four-digit numbers from the digits 345678 without repetition. How many are even?",
+    "options": [
+      "90",
+      "60",
+      "181",
+      "180"
+    ],
+    "correct_option": "D",
+    "correct_answer": "180",
+    "explanation": "The units place must be even: 3 choices. The other three places use the remaining 5 digits in 5P3 = 60 orders, so 180.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_even_numbers",
+      "variant": 2,
+      "inputs": {
+        "d": "345678",
+        "even": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0069",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Diya, Kunal and Pooja form four-digit numbers from the digits 456789 without repetition. How many are even?",
+    "options": [
+      "90",
+      "60",
+      "181",
+      "180"
+    ],
+    "correct_option": "D",
+    "correct_answer": "180",
+    "explanation": "The units place must be even: 3 choices. The other three places use the remaining 5 digits in 5P3 = 60 orders, so 180.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_even_numbers",
+      "variant": 3,
+      "inputs": {
+        "d": "456789",
+        "even": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0070",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Pooja, Rehan and Sania form four-digit numbers from the digits 123478 without repetition. How many are even?",
+    "options": [
+      "90",
+      "60",
+      "180",
+      "181"
+    ],
+    "correct_option": "C",
+    "correct_answer": "180",
+    "explanation": "The units place must be even: 3 choices. The other three places use the remaining 5 digits in 5P3 = 60 orders, so 180.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_even_numbers",
+      "variant": 4,
+      "inputs": {
+        "d": "123478",
+        "even": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0071",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Using each digit at most once, Aditya, Kavya and Sahil make four-digit numbers from 12345. How many are odd?",
+    "options": [
+      "73",
+      "60",
+      "36",
+      "72"
+    ],
+    "correct_option": "D",
+    "correct_answer": "72",
+    "explanation": "The last digit must be odd: 3 choices. The first three positions can be filled from the remaining 4 digits in 4P3 = 24 ways, giving 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_odd_numbers",
+      "variant": 0,
+      "inputs": {
+        "d": "12345",
+        "odd": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0072",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Using each digit at most once, Sahil, Tara and Manav make four-digit numbers from 23456. How many are odd?",
+    "options": [
+      "24",
+      "49",
+      "48",
+      "60"
+    ],
+    "correct_option": "C",
+    "correct_answer": "48",
+    "explanation": "The last digit must be odd: 2 choices. The first three positions can be filled from the remaining 4 digits in 4P3 = 24 ways, giving 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_odd_numbers",
+      "variant": 1,
+      "inputs": {
+        "d": "23456",
+        "odd": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0073",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Using each digit at most once, Manav, Diya and Kunal make four-digit numbers from 34567. How many are odd?",
+    "options": [
+      "72",
+      "36",
+      "60",
+      "73"
+    ],
+    "correct_option": "A",
+    "correct_answer": "72",
+    "explanation": "The last digit must be odd: 3 choices. The first three positions can be filled from the remaining 4 digits in 4P3 = 24 ways, giving 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_odd_numbers",
+      "variant": 2,
+      "inputs": {
+        "d": "34567",
+        "odd": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0074",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Using each digit at most once, Kunal, Pooja and Rehan make four-digit numbers from 45678. How many are odd?",
+    "options": [
+      "60",
+      "49",
+      "24",
+      "48"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48",
+    "explanation": "The last digit must be odd: 2 choices. The first three positions can be filled from the remaining 4 digits in 4P3 = 24 ways, giving 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_odd_numbers",
+      "variant": 3,
+      "inputs": {
+        "d": "45678",
+        "odd": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0075",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Using each digit at most once, Rehan, Sania and Aarav make four-digit numbers from 56789. How many are odd?",
+    "options": [
+      "36",
+      "72",
+      "73",
+      "60"
+    ],
+    "correct_option": "B",
+    "correct_answer": "72",
+    "explanation": "The last digit must be odd: 3 choices. The first three positions can be filled from the remaining 4 digits in 4P3 = 24 ways, giving 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_odd_numbers",
+      "variant": 4,
+      "inputs": {
+        "d": "56789",
+        "odd": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0076",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Kavya, Sahil and Tara form four-digit numbers from 12345 without repeating a digit. How many are divisible by 5?",
+    "options": [
+      "26",
+      "24",
+      "12",
+      "25"
+    ],
+    "correct_option": "B",
+    "correct_answer": "24",
+    "explanation": "A number divisible by 5 ends in 0 or 5. Here there are 1 such choices, and the remaining three places can be filled in 4P3 = 24 ways: 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_divisible_by_five",
+      "variant": 0,
+      "inputs": {
+        "d": "12345",
+        "fives": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0077",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Tara, Manav and Diya form four-digit numbers from 23456 without repeating a digit. How many are divisible by 5?",
+    "options": [
+      "12",
+      "25",
+      "24",
+      "26"
+    ],
+    "correct_option": "C",
+    "correct_answer": "24",
+    "explanation": "A number divisible by 5 ends in 0 or 5. Here there are 1 such choices, and the remaining three places can be filled in 4P3 = 24 ways: 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_divisible_by_five",
+      "variant": 1,
+      "inputs": {
+        "d": "23456",
+        "fives": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0078",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Diya, Kunal and Pooja form four-digit numbers from 34567 without repeating a digit. How many are divisible by 5?",
+    "options": [
+      "24",
+      "25",
+      "26",
+      "12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "A number divisible by 5 ends in 0 or 5. Here there are 1 such choices, and the remaining three places can be filled in 4P3 = 24 ways: 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_divisible_by_five",
+      "variant": 2,
+      "inputs": {
+        "d": "34567",
+        "fives": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0079",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Pooja, Rehan and Sania form four-digit numbers from 45678 without repeating a digit. How many are divisible by 5?",
+    "options": [
+      "24",
+      "12",
+      "25",
+      "26"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "A number divisible by 5 ends in 0 or 5. Here there are 1 such choices, and the remaining three places can be filled in 4P3 = 24 ways: 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_divisible_by_five",
+      "variant": 3,
+      "inputs": {
+        "d": "45678",
+        "fives": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0080",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Sania, Aarav and Meera form four-digit numbers from 56789 without repeating a digit. How many are divisible by 5?",
+    "options": [
+      "24",
+      "12",
+      "25",
+      "26"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "A number divisible by 5 ends in 0 or 5. Here there are 1 such choices, and the remaining three places can be filled in 4P3 = 24 ways: 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_divisible_by_five",
+      "variant": 4,
+      "inputs": {
+        "d": "56789",
+        "fives": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0081",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many arrangements of the letters of QUEUE keep all vowels together? Sahil and Tara are checking the vowel block.",
+    "options": [
+      "12",
+      "6",
+      "120",
+      "2"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "Treat the 4 vowels as one block. There are 2 objects to arrange and 4! internal vowel orders, adjusted for repeats, giving 12.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_together",
+      "variant": 0,
+      "inputs": {
+        "word": "QUEUE",
+        "v": 4,
+        "c": 1,
+        "denom": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0082",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many arrangements of the letters of GROUP keep all vowels together? Manav and Diya are checking the vowel block.",
+    "options": [
+      "120",
+      "24",
+      "48",
+      "49"
+    ],
+    "correct_option": "C",
+    "correct_answer": "48",
+    "explanation": "Treat the 2 vowels as one block. There are 4 objects to arrange and 2! internal vowel orders, adjusted for repeats, giving 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_together",
+      "variant": 1,
+      "inputs": {
+        "word": "GROUP",
+        "v": 2,
+        "c": 3,
+        "denom": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0083",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many arrangements of the letters of AUDIO keep all vowels together? Kunal and Pooja are checking the vowel block.",
+    "options": [
+      "120",
+      "48",
+      "24",
+      "2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48",
+    "explanation": "Treat the 4 vowels as one block. There are 2 objects to arrange and 4! internal vowel orders, adjusted for repeats, giving 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_together",
+      "variant": 2,
+      "inputs": {
+        "word": "AUDIO",
+        "v": 4,
+        "c": 1,
+        "denom": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0084",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many arrangements of the letters of OILER keep all vowels together? Rehan and Sania are checking the vowel block.",
+    "options": [
+      "36",
+      "120",
+      "6",
+      "18"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36",
+    "explanation": "Treat the 3 vowels as one block. There are 3 objects to arrange and 3! internal vowel orders, adjusted for repeats, giving 36.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_together",
+      "variant": 3,
+      "inputs": {
+        "word": "OILER",
+        "v": 3,
+        "c": 2,
+        "denom": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0085",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many arrangements of the letters of HOUSE keep all vowels together? Aarav and Meera are checking the vowel block.",
+    "options": [
+      "18",
+      "36",
+      "6",
+      "120"
+    ],
+    "correct_option": "B",
+    "correct_answer": "36",
+    "explanation": "Treat the 3 vowels as one block. There are 3 objects to arrange and 3! internal vowel orders, adjusted for repeats, giving 36.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_together",
+      "variant": 4,
+      "inputs": {
+        "word": "HOUSE",
+        "v": 3,
+        "c": 2,
+        "denom": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0086",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Tara, Manav and Diya rearrange the distinct letters of PLANE. How many arrangements have no two vowels adjacent?",
+    "options": [
+      "96",
+      "48",
+      "120",
+      "72"
+    ],
+    "correct_option": "D",
+    "correct_answer": "72",
+    "explanation": "Total arrangements are 5! = 120. Arrangements with vowels together are 48. The difference is 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_not_together",
+      "variant": 0,
+      "inputs": {
+        "word": "PLANE",
+        "n": 5,
+        "together": 48
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0087",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Diya, Kunal and Pooja rearrange the distinct letters of QUICK. How many arrangements have no two vowels adjacent?",
+    "options": [
+      "48",
+      "72",
+      "96",
+      "120"
+    ],
+    "correct_option": "B",
+    "correct_answer": "72",
+    "explanation": "Total arrangements are 5! = 120. Arrangements with vowels together are 48. The difference is 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_not_together",
+      "variant": 1,
+      "inputs": {
+        "word": "QUICK",
+        "n": 5,
+        "together": 48
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0088",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Pooja, Rehan and Sania rearrange the distinct letters of STORM. How many arrangements have no two vowels adjacent?",
+    "options": [
+      "121",
+      "122",
+      "0",
+      "120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120",
+    "explanation": "Total arrangements are 5! = 120. Arrangements with vowels together are 0. The difference is 120.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_not_together",
+      "variant": 2,
+      "inputs": {
+        "word": "STORM",
+        "n": 5,
+        "together": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0089",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Sania, Aarav and Meera rearrange the distinct letters of BREAD. How many arrangements have no two vowels adjacent?",
+    "options": [
+      "96",
+      "120",
+      "72",
+      "48"
+    ],
+    "correct_option": "C",
+    "correct_answer": "72",
+    "explanation": "Total arrangements are 5! = 120. Arrangements with vowels together are 48. The difference is 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_not_together",
+      "variant": 3,
+      "inputs": {
+        "word": "BREAD",
+        "n": 5,
+        "together": 48
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0090",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Meera, Rohan and Neha rearrange the distinct letters of CLOUD. How many arrangements have no two vowels adjacent?",
+    "options": [
+      "120",
+      "48",
+      "72",
+      "96"
+    ],
+    "correct_option": "C",
+    "correct_answer": "72",
+    "explanation": "Total arrangements are 5! = 120. Arrangements with vowels together are 48. The difference is 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_vowels_not_together",
+      "variant": 4,
+      "inputs": {
+        "word": "CLOUD",
+        "n": 5,
+        "together": 48
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0091",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many distinct arrangements of the letters of CANOPY keep all consonants together? Manav and Diya are counting the consonant block.",
+    "options": [
+      "144",
+      "720",
+      "6",
+      "72"
+    ],
+    "correct_option": "A",
+    "correct_answer": "144",
+    "explanation": "Treat the 4 consonants as one block, giving 3 objects and 4! internal orders, divided by the repeat factors 1 and 1: 144.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_consonants_together",
+      "variant": 0,
+      "inputs": {
+        "word": "CANOPY",
+        "c": 4,
+        "v": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0092",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many distinct arrangements of the letters of MEADOW keep all consonants together? Kunal and Pooja are counting the consonant block.",
+    "options": [
+      "72",
+      "24",
+      "720",
+      "144"
+    ],
+    "correct_option": "D",
+    "correct_answer": "144",
+    "explanation": "Treat the 3 consonants as one block, giving 4 objects and 3! internal orders, divided by the repeat factors 1 and 1: 144.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_consonants_together",
+      "variant": 1,
+      "inputs": {
+        "word": "MEADOW",
+        "c": 3,
+        "v": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0093",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many distinct arrangements of the letters of SILENT keep all consonants together? Rehan and Sania are counting the consonant block.",
+    "options": [
+      "144",
+      "6",
+      "72",
+      "720"
+    ],
+    "correct_option": "A",
+    "correct_answer": "144",
+    "explanation": "Treat the 4 consonants as one block, giving 3 objects and 4! internal orders, divided by the repeat factors 1 and 1: 144.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_consonants_together",
+      "variant": 2,
+      "inputs": {
+        "word": "SILENT",
+        "c": 4,
+        "v": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0094",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many distinct arrangements of the letters of FLOWER keep all consonants together? Aarav and Meera are counting the consonant block.",
+    "options": [
+      "144",
+      "72",
+      "720",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "144",
+    "explanation": "Treat the 4 consonants as one block, giving 3 objects and 4! internal orders, divided by the repeat factors 1 and 1: 144.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_consonants_together",
+      "variant": 3,
+      "inputs": {
+        "word": "FLOWER",
+        "c": 4,
+        "v": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0095",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "How many distinct arrangements of the letters of VIOLIN keep all consonants together? Rohan and Neha are counting the consonant block.",
+    "options": [
+      "720",
+      "24",
+      "72",
+      "36"
+    ],
+    "correct_option": "C",
+    "correct_answer": "72",
+    "explanation": "Treat the 3 consonants as one block, giving 4 objects and 3! internal orders, divided by the repeat factors 1 and 2: 72.",
+    "difficulty": "MEDIUM",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_consonants_together",
+      "variant": 4,
+      "inputs": {
+        "word": "VIOLIN",
+        "c": 3,
+        "v": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0096",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Diya, Kunal, Kunal and 4 others stand in a row. In how many ways can they stand so that Diya and Kunal are not adjacent?",
+    "options": [
+      "4320",
+      "5040",
+      "1440",
+      "3600"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3600",
+    "explanation": "Subtract arrangements with the pair adjacent (2 x 6!) from all 7! arrangements: 3600.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_pair_never_adjacent",
+      "variant": 0,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0097",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Pooja, Rehan, Rehan and 5 others stand in a row. In how many ways can they stand so that Pooja and Rehan are not adjacent?",
+    "options": [
+      "40320",
+      "30240",
+      "35280",
+      "10080"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30240",
+    "explanation": "Subtract arrangements with the pair adjacent (2 x 7!) from all 8! arrangements: 30240.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_pair_never_adjacent",
+      "variant": 1,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0098",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Sania, Aarav, Aarav and 6 others stand in a row. In how many ways can they stand so that Sania and Aarav are not adjacent?",
+    "options": [
+      "282240",
+      "362880",
+      "322560",
+      "80640"
+    ],
+    "correct_option": "A",
+    "correct_answer": "282240",
+    "explanation": "Subtract arrangements with the pair adjacent (2 x 8!) from all 9! arrangements: 282240.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_pair_never_adjacent",
+      "variant": 2,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0099",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Meera, Rohan, Rohan and 7 others stand in a row. In how many ways can they stand so that Meera and Rohan are not adjacent?",
+    "options": [
+      "2903040",
+      "725760",
+      "3265920",
+      "3628800"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2903040",
+    "explanation": "Subtract arrangements with the pair adjacent (2 x 9!) from all 10! arrangements: 2903040.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_pair_never_adjacent",
+      "variant": 3,
+      "inputs": {
+        "n": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0100",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Neha, Kabir, Kabir and 8 others stand in a row. In how many ways can they stand so that Neha and Kabir are not adjacent?",
+    "options": [
+      "32659200",
+      "39916800",
+      "36288000",
+      "7257600"
+    ],
+    "correct_option": "A",
+    "correct_answer": "32659200",
+    "explanation": "Subtract arrangements with the pair adjacent (2 x 10!) from all 11! arrangements: 32659200.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_pair_never_adjacent",
+      "variant": 4,
+      "inputs": {
+        "n": 11
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0101",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Diya, Kunal, Pooja and 3 others sit around a circular table. Diya and Kunal must not sit together. How many seatings are possible?",
+    "options": [
+      "120",
+      "48",
+      "72",
+      "96"
+    ],
+    "correct_option": "C",
+    "correct_answer": "72",
+    "explanation": "Total circular seatings are (6 - 1)! = 120. Treating the pair as a block gives 2 x (6 - 2)! = 48 forbidden seatings, so the answer is 72.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_not_together",
+      "variant": 0,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0102",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Pooja, Rehan, Sania and 4 others sit around a circular table. Pooja and Rehan must not sit together. How many seatings are possible?",
+    "options": [
+      "240",
+      "720",
+      "600",
+      "480"
+    ],
+    "correct_option": "D",
+    "correct_answer": "480",
+    "explanation": "Total circular seatings are (7 - 1)! = 720. Treating the pair as a block gives 2 x (7 - 2)! = 240 forbidden seatings, so the answer is 480.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_not_together",
+      "variant": 1,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0103",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Sania, Aarav, Meera and 5 others sit around a circular table. Sania and Aarav must not sit together. How many seatings are possible?",
+    "options": [
+      "5040",
+      "3600",
+      "1440",
+      "4320"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3600",
+    "explanation": "Total circular seatings are (8 - 1)! = 5040. Treating the pair as a block gives 2 x (8 - 2)! = 1440 forbidden seatings, so the answer is 3600.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_not_together",
+      "variant": 2,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0104",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Meera, Rohan, Neha and 6 others sit around a circular table. Meera and Rohan must not sit together. How many seatings are possible?",
+    "options": [
+      "35280",
+      "40320",
+      "30240",
+      "10080"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30240",
+    "explanation": "Total circular seatings are (9 - 1)! = 40320. Treating the pair as a block gives 2 x (9 - 2)! = 10080 forbidden seatings, so the answer is 30240.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_not_together",
+      "variant": 3,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0105",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Neha, Kabir, Priya and 7 others sit around a circular table. Neha and Kabir must not sit together. How many seatings are possible?",
+    "options": [
+      "80640",
+      "282240",
+      "322560",
+      "362880"
+    ],
+    "correct_option": "B",
+    "correct_answer": "282240",
+    "explanation": "Total circular seatings are (10 - 1)! = 362880. Treating the pair as a block gives 2 x (10 - 2)! = 80640 forbidden seatings, so the answer is 282240.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_circular_pair_not_together",
+      "variant": 4,
+      "inputs": {
+        "n": 10
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0106",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Kunal, Pooja and Pooja list all alphabetical arrangements of the distinct letters of BIRD. What is the dictionary rank of BIRD?",
+    "options": [
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4",
+    "explanation": "Counting arrangements that begin with a smaller available letter at each position gives dictionary rank 4.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_rank_word",
+      "variant": 0,
+      "inputs": {
+        "word": "BIRD",
+        "rank": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0107",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Rehan, Sania and Sania list all alphabetical arrangements of the distinct letters of CARD. What is the dictionary rank of CARD?",
+    "options": [
+      "7",
+      "9",
+      "8",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8",
+    "explanation": "Counting arrangements that begin with a smaller available letter at each position gives dictionary rank 8.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_rank_word",
+      "variant": 1,
+      "inputs": {
+        "word": "CARD",
+        "rank": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0108",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Aarav, Meera and Meera list all alphabetical arrangements of the distinct letters of DARK. What is the dictionary rank of DARK?",
+    "options": [
+      "8",
+      "9",
+      "4",
+      "7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8",
+    "explanation": "Counting arrangements that begin with a smaller available letter at each position gives dictionary rank 8.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_rank_word",
+      "variant": 2,
+      "inputs": {
+        "word": "DARK",
+        "rank": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0109",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Rohan, Neha and Neha list all alphabetical arrangements of the distinct letters of EARTH. What is the dictionary rank of EARTH?",
+    "options": [
+      "27",
+      "14",
+      "28",
+      "29"
+    ],
+    "correct_option": "C",
+    "correct_answer": "28",
+    "explanation": "Counting arrangements that begin with a smaller available letter at each position gives dictionary rank 28.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_rank_word",
+      "variant": 3,
+      "inputs": {
+        "word": "EARTH",
+        "rank": 28
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0110",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Kabir, Priya and Priya list all alphabetical arrangements of the distinct letters of FAITH. What is the dictionary rank of FAITH?",
+    "options": [
+      "28",
+      "27",
+      "14",
+      "29"
+    ],
+    "correct_option": "A",
+    "correct_answer": "28",
+    "explanation": "Counting arrangements that begin with a smaller available letter at each position gives dictionary rank 28.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_rank_word",
+      "variant": 4,
+      "inputs": {
+        "word": "FAITH",
+        "rank": 28
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0111",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "A group has 8 members including Pooja, Rehan and Rehan. Pooja selects a committee of 4 and then chooses one of them as chair. How many committee-and-chair outcomes are possible?",
+    "options": [
+      "280",
+      "70",
+      "210",
+      "1680"
+    ],
+    "correct_option": "A",
+    "correct_answer": "280",
+    "explanation": "Choose the committee in 70 ways and its chair in 4 ways: 280.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_committee_chair",
+      "variant": 0,
+      "inputs": {
+        "n": 8,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0112",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "A group has 9 members including Sania, Aarav and Aarav. Sania selects a committee of 5 and then chooses one of them as chair. How many committee-and-chair outcomes are possible?",
+    "options": [
+      "630",
+      "126",
+      "504",
+      "15120"
+    ],
+    "correct_option": "A",
+    "correct_answer": "630",
+    "explanation": "Choose the committee in 126 ways and its chair in 5 ways: 630.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_committee_chair",
+      "variant": 1,
+      "inputs": {
+        "n": 9,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0113",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "A group has 10 members including Meera, Rohan and Rohan. Meera selects a committee of 5 and then chooses one of them as chair. How many committee-and-chair outcomes are possible?",
+    "options": [
+      "1260",
+      "30240",
+      "1008",
+      "252"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1260",
+    "explanation": "Choose the committee in 252 ways and its chair in 5 ways: 1260.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_committee_chair",
+      "variant": 2,
+      "inputs": {
+        "n": 10,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0114",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "A group has 11 members including Neha, Kabir and Kabir. Neha selects a committee of 6 and then chooses one of them as chair. How many committee-and-chair outcomes are possible?",
+    "options": [
+      "2772",
+      "462",
+      "332640",
+      "2310"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2772",
+    "explanation": "Choose the committee in 462 ways and its chair in 6 ways: 2772.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_committee_chair",
+      "variant": 3,
+      "inputs": {
+        "n": 11,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0115",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "A group has 12 members including Priya, Arjun and Arjun. Priya selects a committee of 6 and then chooses one of them as chair. How many committee-and-chair outcomes are possible?",
+    "options": [
+      "924",
+      "4620",
+      "5544",
+      "665280"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5544",
+    "explanation": "Choose the committee in 924 ways and its chair in 6 ways: 5544.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_committee_chair",
+      "variant": 4,
+      "inputs": {
+        "n": 12,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0116",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Rehan designs a code with 4 lowercase letters followed by 6 digits. Repetition is allowed. Sania asks Sania how many codes are possible. Find the count.",
+    "options": [
+      "164",
+      "456976000000",
+      "17576000000",
+      "242855782416"
+    ],
+    "correct_option": "B",
+    "correct_answer": "456976000000",
+    "explanation": "Each letter position has 26 choices and each digit position has 10 choices. Total codes = 26^4 x 10^6 = 456976000000.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_password_pattern",
+      "variant": 0,
+      "inputs": {
+        "L": 4,
+        "D": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0117",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Aarav designs a code with 5 lowercase letters followed by 6 digits. Repetition is allowed. Meera asks Meera how many codes are possible. Find the count.",
+    "options": [
+      "456976000000",
+      "190",
+      "6314250342816",
+      "11881376000000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11881376000000",
+    "explanation": "Each letter position has 26 choices and each digit position has 10 choices. Total codes = 26^5 x 10^6 = 11881376000000.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_password_pattern",
+      "variant": 1,
+      "inputs": {
+        "L": 5,
+        "D": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0118",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Rohan designs a code with 4 lowercase letters followed by 8 digits. Repetition is allowed. Neha asks Neha how many codes are possible. Find the count.",
+    "options": [
+      "45697600000000",
+      "1757600000000",
+      "19671318375696",
+      "184"
+    ],
+    "correct_option": "A",
+    "correct_answer": "45697600000000",
+    "explanation": "Each letter position has 26 choices and each digit position has 10 choices. Total codes = 26^4 x 10^8 = 45697600000000.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_password_pattern",
+      "variant": 2,
+      "inputs": {
+        "L": 4,
+        "D": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0119",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Kabir designs a code with 5 lowercase letters followed by 8 digits. Repetition is allowed. Priya asks Priya how many codes are possible. Find the count.",
+    "options": [
+      "45697600000000",
+      "511454277768096",
+      "210",
+      "1188137600000000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1188137600000000",
+    "explanation": "Each letter position has 26 choices and each digit position has 10 choices. Total codes = 26^5 x 10^8 = 1188137600000000.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_password_pattern",
+      "variant": 3,
+      "inputs": {
+        "L": 5,
+        "D": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "permutations-0120",
+    "chapter": "Permutations",
+    "chapter_key": "permutations",
+    "part": 4,
+    "section": "permutations_part_4",
+    "question_text": "Arjun designs a code with 6 lowercase letters followed by 6 digits. Repetition is allowed. Sneha asks Sneha how many codes are possible. Find the count.",
+    "options": [
+      "11881376000000",
+      "308915776000000",
+      "216",
+      "164170508913216"
+    ],
+    "correct_option": "B",
+    "correct_answer": "308915776000000",
+    "explanation": "Each letter position has 26 choices and each digit position has 10 choices. Total codes = 26^6 x 10^6 = 308915776000000.",
+    "difficulty": "HARD",
+    "source_name": "Permutations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Permuations 01  Class Notes.pdf, pp. 5-15",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "p_password_pattern",
+      "variant": 4,
+      "inputs": {
+        "L": 6,
+        "D": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

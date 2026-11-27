@@ -1,0 +1,4147 @@
+[
+  {
+    "id": "combinations-0001",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "From 7 candidates, Aarav, Meera and Neha choose 3 for a committee. How many selections are possible?",
+    "options": [
+      "36",
+      "35",
+      "210",
+      "21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "35",
+    "explanation": "Order does not matter, so use nCr: C(7, 3) = 35.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_basic",
+      "variant": 0,
+      "inputs": {
+        "n": 7,
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0002",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "From 8 candidates, Rohan, Neha and Priya choose 4 for a project team. How many selections are possible?",
+    "options": [
+      "56",
+      "32",
+      "70",
+      "1680"
+    ],
+    "correct_option": "C",
+    "correct_answer": "70",
+    "explanation": "Order does not matter, so use nCr: C(8, 4) = 70.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_basic",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0003",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "From 9 candidates, Kabir, Priya and Sneha choose 4 for a selection panel. How many selections are possible?",
+    "options": [
+      "36",
+      "3024",
+      "84",
+      "126"
+    ],
+    "correct_option": "D",
+    "correct_answer": "126",
+    "explanation": "Order does not matter, so use nCr: C(9, 4) = 126.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_basic",
+      "variant": 2,
+      "inputs": {
+        "n": 9,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0004",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "From 10 candidates, Arjun, Sneha and Ananya choose 5 for a sports squad. How many selections are possible?",
+    "options": [
+      "210",
+      "30240",
+      "50",
+      "252"
+    ],
+    "correct_option": "D",
+    "correct_answer": "252",
+    "explanation": "Order does not matter, so use nCr: C(10, 5) = 252.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_basic",
+      "variant": 3,
+      "inputs": {
+        "n": 10,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0005",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "From 11 candidates, Vikram, Ananya and Isha choose 5 for a review board. How many selections are possible?",
+    "options": [
+      "330",
+      "55",
+      "462",
+      "55440"
+    ],
+    "correct_option": "C",
+    "correct_answer": "462",
+    "explanation": "Order does not matter, so use nCr: C(11, 5) = 462.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_basic",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0006",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A committee is formed from 5 men and 4 women. Meera, Rohan and Kabir require exactly 2 men and 2 women. How many committees are possible?",
+    "options": [
+      "60",
+      "6",
+      "126",
+      "10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60",
+    "explanation": "Choose men and women independently: C(5, 2) x C(4, 2) = 60.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_groups",
+      "variant": 0,
+      "inputs": {
+        "a": 5,
+        "b": 4,
+        "r": 2,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0007",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A project team is formed from 6 men and 5 women. Neha, Kabir and Arjun require exactly 3 men and 2 women. How many committees are possible?",
+    "options": [
+      "200",
+      "20",
+      "10",
+      "462"
+    ],
+    "correct_option": "A",
+    "correct_answer": "200",
+    "explanation": "Choose men and women independently: C(6, 3) x C(5, 2) = 200.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_groups",
+      "variant": 1,
+      "inputs": {
+        "a": 6,
+        "b": 5,
+        "r": 3,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0008",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A selection panel is formed from 7 men and 6 women. Priya, Arjun and Vikram require exactly 3 men and 3 women. How many committees are possible?",
+    "options": [
+      "35",
+      "1716",
+      "20",
+      "700"
+    ],
+    "correct_option": "D",
+    "correct_answer": "700",
+    "explanation": "Choose men and women independently: C(7, 3) x C(6, 3) = 700.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_groups",
+      "variant": 2,
+      "inputs": {
+        "a": 7,
+        "b": 6,
+        "r": 3,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0009",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A sports squad is formed from 8 men and 7 women. Sneha, Vikram and Dev require exactly 4 men and 3 women. How many committees are possible?",
+    "options": [
+      "2450",
+      "70",
+      "35",
+      "6435"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2450",
+    "explanation": "Choose men and women independently: C(8, 4) x C(7, 3) = 2450.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_groups",
+      "variant": 3,
+      "inputs": {
+        "a": 8,
+        "b": 7,
+        "r": 4,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0010",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A review board is formed from 9 men and 8 women. Ananya, Dev and Nikhil require exactly 4 men and 4 women. How many committees are possible?",
+    "options": [
+      "70",
+      "8820",
+      "24310",
+      "126"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8820",
+    "explanation": "Choose men and women independently: C(9, 4) x C(8, 4) = 8820.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_groups",
+      "variant": 4,
+      "inputs": {
+        "a": 9,
+        "b": 8,
+        "r": 4,
+        "s": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0011",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A committee of 2 people is chosen from 5 managers and 4 engineers. Rohan, Neha and Priya require at least 1 managers. How many committees are possible?",
+    "options": [
+      "30",
+      "5",
+      "4",
+      "36"
+    ],
+    "correct_option": "A",
+    "correct_answer": "30",
+    "explanation": "Sum the valid cases for 1 or more managers from the first group: 30.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_least_one",
+      "variant": 0,
+      "inputs": {
+        "a": 5,
+        "b": 4,
+        "n": 2,
+        "m": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0012",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A project team of 3 people is chosen from 6 managers and 5 engineers. Kabir, Priya and Sneha require at least 1 managers. How many committees are possible?",
+    "options": [
+      "155",
+      "10",
+      "165",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "155",
+    "explanation": "Sum the valid cases for 1 or more managers from the first group: 155.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_least_one",
+      "variant": 1,
+      "inputs": {
+        "a": 6,
+        "b": 5,
+        "n": 3,
+        "m": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0013",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A selection panel of 3 people is chosen from 7 managers and 5 engineers. Arjun, Sneha and Ananya require at least 2 managers. How many committees are possible?",
+    "options": [
+      "5",
+      "21",
+      "220",
+      "140"
+    ],
+    "correct_option": "D",
+    "correct_answer": "140",
+    "explanation": "Sum the valid cases for 2 or more managers from the first group: 140.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_least_one",
+      "variant": 2,
+      "inputs": {
+        "a": 7,
+        "b": 5,
+        "n": 3,
+        "m": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0014",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A sports squad of 4 people is chosen from 8 managers and 6 engineers. Vikram, Ananya and Isha require at least 2 managers. How many committees are possible?",
+    "options": [
+      "1001",
+      "28",
+      "15",
+      "826"
+    ],
+    "correct_option": "D",
+    "correct_answer": "826",
+    "explanation": "Sum the valid cases for 2 or more managers from the first group: 826.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_least_one",
+      "variant": 3,
+      "inputs": {
+        "a": 8,
+        "b": 6,
+        "n": 4,
+        "m": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0015",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 1,
+    "section": "combinations_part_1",
+    "question_text": "A review board of 4 people is chosen from 9 managers and 7 engineers. Dev, Isha and Riya require at least 3 managers. How many committees are possible?",
+    "options": [
+      "1820",
+      "84",
+      "7",
+      "714"
+    ],
+    "correct_option": "D",
+    "correct_answer": "714",
+    "explanation": "Sum the valid cases for 3 or more managers from the first group: 714.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_least_one",
+      "variant": 4,
+      "inputs": {
+        "a": 9,
+        "b": 7,
+        "n": 4,
+        "m": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0016",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Neha, Kabir and Arjun choose a committee of 3 from 4 special members and 6 other members, with at most one special member. How many selections are possible?",
+    "options": [
+      "81",
+      "80",
+      "120",
+      "20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "80",
+    "explanation": "Case 1 chooses no special member; case 2 chooses exactly one. Total = 80.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_one",
+      "variant": 0,
+      "inputs": {
+        "s": 4,
+        "o": 6,
+        "n": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0017",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Priya, Arjun and Vikram choose a project team of 4 from 5 special members and 7 other members, with at most one special member. How many selections are possible?",
+    "options": [
+      "35",
+      "210",
+      "495",
+      "350"
+    ],
+    "correct_option": "B",
+    "correct_answer": "210",
+    "explanation": "Case 1 chooses no special member; case 2 chooses exactly one. Total = 210.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_one",
+      "variant": 1,
+      "inputs": {
+        "s": 5,
+        "o": 7,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0018",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Sneha, Vikram and Dev choose a selection panel of 4 from 6 special members and 8 other members, with at most one special member. How many selections are possible?",
+    "options": [
+      "1001",
+      "406",
+      "70",
+      "672"
+    ],
+    "correct_option": "B",
+    "correct_answer": "406",
+    "explanation": "Case 1 chooses no special member; case 2 chooses exactly one. Total = 406.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_one",
+      "variant": 2,
+      "inputs": {
+        "s": 6,
+        "o": 8,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0019",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Ananya, Dev and Nikhil choose a sports squad of 5 from 7 special members and 9 other members, with at most one special member. How many selections are possible?",
+    "options": [
+      "1764",
+      "4368",
+      "1008",
+      "126"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1008",
+    "explanation": "Case 1 chooses no special member; case 2 chooses exactly one. Total = 1008.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_one",
+      "variant": 3,
+      "inputs": {
+        "s": 7,
+        "o": 9,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0020",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Isha, Nikhil and Aditya choose a review board of 5 from 8 special members and 10 other members, with at most one special member. How many selections are possible?",
+    "options": [
+      "8568",
+      "1932",
+      "3360",
+      "252"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1932",
+    "explanation": "Case 1 chooses no special member; case 2 chooses exactly one. Total = 1932.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_one",
+      "variant": 4,
+      "inputs": {
+        "s": 8,
+        "o": 10,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0021",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Kabir must be on a committee of 4 chosen from 9 people. Priya and Sneha fix that condition. How many committees are possible?",
+    "options": [
+      "126",
+      "56",
+      "70",
+      "35"
+    ],
+    "correct_option": "B",
+    "correct_answer": "56",
+    "explanation": "Include Kabir first, then choose the remaining 3 from 8: C(8, 3) = 56.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_included",
+      "variant": 0,
+      "inputs": {
+        "n": 9,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0022",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Arjun must be on a project team of 5 chosen from 10 people. Sneha and Ananya fix that condition. How many committees are possible?",
+    "options": [
+      "127",
+      "252",
+      "126",
+      "70"
+    ],
+    "correct_option": "C",
+    "correct_answer": "126",
+    "explanation": "Include Arjun first, then choose the remaining 4 from 9: C(9, 4) = 126.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_included",
+      "variant": 1,
+      "inputs": {
+        "n": 10,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0023",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Vikram must be on a selection panel of 5 chosen from 11 people. Ananya and Isha fix that condition. How many committees are possible?",
+    "options": [
+      "126",
+      "462",
+      "210",
+      "252"
+    ],
+    "correct_option": "C",
+    "correct_answer": "210",
+    "explanation": "Include Vikram first, then choose the remaining 4 from 10: C(10, 4) = 210.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_included",
+      "variant": 2,
+      "inputs": {
+        "n": 11,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0024",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Dev must be on a sports squad of 6 chosen from 12 people. Isha and Riya fix that condition. How many committees are possible?",
+    "options": [
+      "252",
+      "463",
+      "462",
+      "924"
+    ],
+    "correct_option": "C",
+    "correct_answer": "462",
+    "explanation": "Include Dev first, then choose the remaining 5 from 11: C(11, 5) = 462.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_included",
+      "variant": 3,
+      "inputs": {
+        "n": 12,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0025",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Nikhil must be on a review board of 6 chosen from 13 people. Riya and Kavya fix that condition. How many committees are possible?",
+    "options": [
+      "792",
+      "924",
+      "462",
+      "1716"
+    ],
+    "correct_option": "A",
+    "correct_answer": "792",
+    "explanation": "Include Nikhil first, then choose the remaining 5 from 12: C(12, 5) = 792.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_included",
+      "variant": 4,
+      "inputs": {
+        "n": 13,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0026",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Priya is not eligible for a committee of 4 chosen from 9 people. Arjun and Vikram apply that restriction. How many committees are possible?",
+    "options": [
+      "56",
+      "35",
+      "126",
+      "70"
+    ],
+    "correct_option": "D",
+    "correct_answer": "70",
+    "explanation": "Remove Priya from consideration, then choose 4 from 8: C(8, 4) = 70.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_excluded",
+      "variant": 0,
+      "inputs": {
+        "n": 9,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0027",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Sneha is not eligible for a project team of 5 chosen from 10 people. Vikram and Dev apply that restriction. How many committees are possible?",
+    "options": [
+      "252",
+      "56",
+      "127",
+      "126"
+    ],
+    "correct_option": "D",
+    "correct_answer": "126",
+    "explanation": "Remove Sneha from consideration, then choose 5 from 9: C(9, 5) = 126.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_excluded",
+      "variant": 1,
+      "inputs": {
+        "n": 10,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0028",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Ananya is not eligible for a selection panel of 5 chosen from 11 people. Dev and Nikhil apply that restriction. How many committees are possible?",
+    "options": [
+      "126",
+      "462",
+      "210",
+      "252"
+    ],
+    "correct_option": "D",
+    "correct_answer": "252",
+    "explanation": "Remove Ananya from consideration, then choose 5 from 10: C(10, 5) = 252.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_excluded",
+      "variant": 2,
+      "inputs": {
+        "n": 11,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0029",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Isha is not eligible for a sports squad of 6 chosen from 12 people. Nikhil and Aditya apply that restriction. How many committees are possible?",
+    "options": [
+      "210",
+      "462",
+      "924",
+      "463"
+    ],
+    "correct_option": "B",
+    "correct_answer": "462",
+    "explanation": "Remove Isha from consideration, then choose 6 from 11: C(11, 6) = 462.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_excluded",
+      "variant": 3,
+      "inputs": {
+        "n": 12,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0030",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "Riya is not eligible for a review board of 6 chosen from 13 people. Aditya and Sahil apply that restriction. How many committees are possible?",
+    "options": [
+      "924",
+      "1716",
+      "462",
+      "792"
+    ],
+    "correct_option": "A",
+    "correct_answer": "924",
+    "explanation": "Remove Riya from consideration, then choose 6 from 12: C(12, 6) = 924.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_particular_excluded",
+      "variant": 4,
+      "inputs": {
+        "n": 13,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0031",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "A committee of 4 is chosen from 10 people. Arjun must be included and Sneha must be excluded. Ananya confirms the conditions. How many committees are possible?",
+    "options": [
+      "84",
+      "56",
+      "28",
+      "126"
+    ],
+    "correct_option": "B",
+    "correct_answer": "56",
+    "explanation": "Include Arjun and remove Sneha, leaving 8 people from whom 3 are chosen: 56.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_include_exclude",
+      "variant": 0,
+      "inputs": {
+        "n": 10,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0032",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "A project team of 5 is chosen from 11 people. Vikram must be included and Ananya must be excluded. Isha confirms the conditions. How many committees are possible?",
+    "options": [
+      "210",
+      "126",
+      "252",
+      "84"
+    ],
+    "correct_option": "B",
+    "correct_answer": "126",
+    "explanation": "Include Vikram and remove Ananya, leaving 9 people from whom 4 are chosen: 126.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_include_exclude",
+      "variant": 1,
+      "inputs": {
+        "n": 11,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0033",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "A selection panel of 5 is chosen from 12 people. Dev must be included and Isha must be excluded. Riya confirms the conditions. How many committees are possible?",
+    "options": [
+      "120",
+      "462",
+      "330",
+      "210"
+    ],
+    "correct_option": "D",
+    "correct_answer": "210",
+    "explanation": "Include Dev and remove Isha, leaving 10 people from whom 4 are chosen: 210.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_include_exclude",
+      "variant": 2,
+      "inputs": {
+        "n": 12,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0034",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "A sports squad of 6 is chosen from 13 people. Nikhil must be included and Riya must be excluded. Kavya confirms the conditions. How many committees are possible?",
+    "options": [
+      "462",
+      "330",
+      "924",
+      "792"
+    ],
+    "correct_option": "A",
+    "correct_answer": "462",
+    "explanation": "Include Nikhil and remove Riya, leaving 11 people from whom 5 are chosen: 462.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_include_exclude",
+      "variant": 3,
+      "inputs": {
+        "n": 13,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0035",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 2,
+    "section": "combinations_part_2",
+    "question_text": "A review board of 6 is chosen from 14 people. Aditya must be included and Kavya must be excluded. Tara confirms the conditions. How many committees are possible?",
+    "options": [
+      "792",
+      "1716",
+      "495",
+      "1287"
+    ],
+    "correct_option": "A",
+    "correct_answer": "792",
+    "explanation": "Include Aditya and remove Kavya, leaving 12 people from whom 5 are chosen: 792.",
+    "difficulty": "EASY",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_include_exclude",
+      "variant": 4,
+      "inputs": {
+        "n": 14,
+        "k": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0036",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A committee draws 3 from a group of 4 and 2 from a group of 5. Sneha, Vikram and Dev count the possible teams. How many are there?",
+    "options": [
+      "10",
+      "4",
+      "126",
+      "40"
+    ],
+    "correct_option": "D",
+    "correct_answer": "40",
+    "explanation": "The two groups are chosen independently: C(4, 3) x C(5, 2) = 40.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_team_from_groups",
+      "variant": 0,
+      "inputs": {
+        "a": 4,
+        "b": 5,
+        "r": 3,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0037",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A project team draws 3 from a group of 5 and 3 from a group of 6. Ananya, Dev and Nikhil count the possible teams. How many are there?",
+    "options": [
+      "200",
+      "20",
+      "10",
+      "462"
+    ],
+    "correct_option": "A",
+    "correct_answer": "200",
+    "explanation": "The two groups are chosen independently: C(5, 3) x C(6, 3) = 200.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_team_from_groups",
+      "variant": 1,
+      "inputs": {
+        "a": 5,
+        "b": 6,
+        "r": 3,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0038",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A selection panel draws 4 from a group of 6 and 3 from a group of 7. Isha, Nikhil and Aditya count the possible teams. How many are there?",
+    "options": [
+      "15",
+      "525",
+      "35",
+      "1716"
+    ],
+    "correct_option": "B",
+    "correct_answer": "525",
+    "explanation": "The two groups are chosen independently: C(6, 4) x C(7, 3) = 525.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_team_from_groups",
+      "variant": 2,
+      "inputs": {
+        "a": 6,
+        "b": 7,
+        "r": 4,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0039",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A sports squad draws 4 from a group of 7 and 4 from a group of 8. Riya, Aditya and Sahil count the possible teams. How many are there?",
+    "options": [
+      "35",
+      "70",
+      "6435",
+      "2450"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2450",
+    "explanation": "The two groups are chosen independently: C(7, 4) x C(8, 4) = 2450.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_team_from_groups",
+      "variant": 3,
+      "inputs": {
+        "a": 7,
+        "b": 8,
+        "r": 4,
+        "s": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0040",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A review board draws 5 from a group of 8 and 4 from a group of 9. Kavya, Sahil and Manav count the possible teams. How many are there?",
+    "options": [
+      "7056",
+      "24310",
+      "56",
+      "126"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7056",
+    "explanation": "The two groups are chosen independently: C(8, 5) x C(9, 4) = 7056.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_team_from_groups",
+      "variant": 4,
+      "inputs": {
+        "a": 8,
+        "b": 9,
+        "r": 5,
+        "s": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0041",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "From 4 red cards and 2 black cards, Vikram, Ananya and Isha choose 3 cards with at least two red cards. How many selections are possible?",
+    "options": [
+      "16",
+      "2",
+      "20",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "Add cases with 2 or more red cards: 16.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_cards",
+      "variant": 0,
+      "inputs": {
+        "r": 4,
+        "b": 2,
+        "n": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0042",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "From 5 red cards and 2 black cards, Dev, Isha and Riya choose 4 cards with at least two red cards. How many selections are possible?",
+    "options": [
+      "36",
+      "1",
+      "35",
+      "10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35",
+    "explanation": "Add cases with 2 or more red cards: 35.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_cards",
+      "variant": 1,
+      "inputs": {
+        "r": 5,
+        "b": 2,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0043",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "From 5 red cards and 3 black cards, Nikhil, Riya and Kavya choose 3 cards with at least two red cards. How many selections are possible?",
+    "options": [
+      "56",
+      "40",
+      "10",
+      "3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "40",
+    "explanation": "Add cases with 2 or more red cards: 40.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_cards",
+      "variant": 2,
+      "inputs": {
+        "r": 5,
+        "b": 3,
+        "n": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0044",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "From 6 red cards and 2 black cards, Aditya, Kavya and Tara choose 5 cards with at least two red cards. How many selections are possible?",
+    "options": [
+      "0",
+      "56",
+      "15",
+      "57"
+    ],
+    "correct_option": "B",
+    "correct_answer": "56",
+    "explanation": "Add cases with 2 or more red cards: 56.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_cards",
+      "variant": 3,
+      "inputs": {
+        "r": 6,
+        "b": 2,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0045",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "From 6 red cards and 3 black cards, Sahil, Tara and Diya choose 4 cards with at least two red cards. How many selections are possible?",
+    "options": [
+      "126",
+      "3",
+      "120",
+      "15"
+    ],
+    "correct_option": "C",
+    "correct_answer": "120",
+    "explanation": "Add cases with 2 or more red cards: 120.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_cards",
+      "variant": 4,
+      "inputs": {
+        "r": 6,
+        "b": 3,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0046",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Ananya knows that P(6, 3) = C(6, 3) x k!. Dev asks Nikhil for the value of k!. Find it.",
+    "options": [
+      "3",
+      "720",
+      "6",
+      "2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Here k = 3, so k! = 6.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_relation_pr_comb",
+      "variant": 0,
+      "inputs": {
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0047",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Isha knows that P(7, 3) = C(7, 3) x k!. Nikhil asks Aditya for the value of k!. Find it.",
+    "options": [
+      "6",
+      "2",
+      "5040",
+      "4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "Here k = 3, so k! = 6.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_relation_pr_comb",
+      "variant": 1,
+      "inputs": {
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0048",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Riya knows that P(8, 4) = C(8, 4) x k!. Aditya asks Sahil for the value of k!. Find it.",
+    "options": [
+      "40320",
+      "6",
+      "24",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "24",
+    "explanation": "Here k = 4, so k! = 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_relation_pr_comb",
+      "variant": 2,
+      "inputs": {
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0049",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Kavya knows that P(9, 4) = C(9, 4) x k!. Sahil asks Manav for the value of k!. Find it.",
+    "options": [
+      "5",
+      "6",
+      "362880",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Here k = 4, so k! = 24.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_relation_pr_comb",
+      "variant": 3,
+      "inputs": {
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0050",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Tara knows that P(10, 5) = C(10, 5) x k!. Manav asks Kunal for the value of k!. Find it.",
+    "options": [
+      "5",
+      "24",
+      "120",
+      "3628800"
+    ],
+    "correct_option": "C",
+    "correct_answer": "120",
+    "explanation": "Here k = 5, so k! = 120.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_relation_pr_comb",
+      "variant": 4,
+      "inputs": {
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0051",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Dev, Isha and Riya choose 3 of 7 committee members and then assign them to 3 distinct slots. How many outcomes are possible?",
+    "options": [
+      "210",
+      "21",
+      "5040",
+      "35"
+    ],
+    "correct_option": "A",
+    "correct_answer": "210",
+    "explanation": "Choose the group in C(7, 3) ways and assign slots in 3! ways: 210.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_select_then_arrange",
+      "variant": 0,
+      "inputs": {
+        "n": 7,
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0052",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Nikhil, Riya and Kavya choose 4 of 8 project team members and then assign them to 4 distinct slots. How many outcomes are possible?",
+    "options": [
+      "32",
+      "40320",
+      "1680",
+      "70"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1680",
+    "explanation": "Choose the group in C(8, 4) ways and assign slots in 4! ways: 1680.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_select_then_arrange",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0053",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Aditya, Kavya and Tara choose 4 of 9 selection panel members and then assign them to 4 distinct slots. How many outcomes are possible?",
+    "options": [
+      "362880",
+      "36",
+      "126",
+      "3024"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3024",
+    "explanation": "Choose the group in C(9, 4) ways and assign slots in 4! ways: 3024.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_select_then_arrange",
+      "variant": 2,
+      "inputs": {
+        "n": 9,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0054",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Sahil, Tara and Diya choose 5 of 10 sports squad members and then assign them to 5 distinct slots. How many outcomes are possible?",
+    "options": [
+      "50",
+      "3628800",
+      "252",
+      "30240"
+    ],
+    "correct_option": "D",
+    "correct_answer": "30240",
+    "explanation": "Choose the group in C(10, 5) ways and assign slots in 5! ways: 30240.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_select_then_arrange",
+      "variant": 3,
+      "inputs": {
+        "n": 10,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0055",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "Manav, Diya and Pooja choose 5 of 11 review board members and then assign them to 5 distinct slots. How many outcomes are possible?",
+    "options": [
+      "39916800",
+      "462",
+      "55",
+      "55440"
+    ],
+    "correct_option": "D",
+    "correct_answer": "55440",
+    "explanation": "Choose the group in C(11, 5) ways and assign slots in 5! ways: 55440.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_select_then_arrange",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0056",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A committee of 3 people is chosen from 8 candidates and each gets a different role. Isha, Nikhil and Aditya count the outcomes. Find the count.",
+    "options": [
+      "112",
+      "24",
+      "336",
+      "56"
+    ],
+    "correct_option": "C",
+    "correct_answer": "336",
+    "explanation": "Select 3 people, then permute the 3 roles: C(8, 3) x 3! = 336.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_assign_roles",
+      "variant": 0,
+      "inputs": {
+        "n": 8,
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0057",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A project team of 3 people is chosen from 9 candidates and each gets a different role. Riya, Aditya and Sahil count the outcomes. Find the count.",
+    "options": [
+      "168",
+      "84",
+      "504",
+      "27"
+    ],
+    "correct_option": "C",
+    "correct_answer": "504",
+    "explanation": "Select 3 people, then permute the 3 roles: C(9, 3) x 3! = 504.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_assign_roles",
+      "variant": 1,
+      "inputs": {
+        "n": 9,
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0058",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A selection panel of 4 people is chosen from 10 candidates and each gets a different role. Kavya, Sahil and Manav count the outcomes. Find the count.",
+    "options": [
+      "5040",
+      "40",
+      "1260",
+      "210"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5040",
+    "explanation": "Select 4 people, then permute the 4 roles: C(10, 4) x 4! = 5040.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_assign_roles",
+      "variant": 2,
+      "inputs": {
+        "n": 10,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0059",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A sports squad of 4 people is chosen from 11 candidates and each gets a different role. Tara, Manav and Kunal count the outcomes. Find the count.",
+    "options": [
+      "7920",
+      "330",
+      "44",
+      "1980"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7920",
+    "explanation": "Select 4 people, then permute the 4 roles: C(11, 4) x 4! = 7920.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_assign_roles",
+      "variant": 3,
+      "inputs": {
+        "n": 11,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0060",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A review board of 5 people is chosen from 12 candidates and each gets a different role. Diya, Kunal and Rehan count the outcomes. Find the count.",
+    "options": [
+      "19008",
+      "95040",
+      "60",
+      "792"
+    ],
+    "correct_option": "B",
+    "correct_answer": "95040",
+    "explanation": "Select 5 people, then permute the 5 roles: C(12, 5) x 5! = 95040.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_assign_roles",
+      "variant": 4,
+      "inputs": {
+        "n": 12,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0061",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A committee of 4 is chosen from 10 people, but 3 people decline to serve. Riya, Aditya and Sahil count valid committees. How many are possible?",
+    "options": [
+      "210",
+      "105",
+      "35",
+      "36"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35",
+    "explanation": "Only 7 people are available, so C(7, 4) = 35.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_complement",
+      "variant": 0,
+      "inputs": {
+        "n": 10,
+        "k": 4,
+        "b": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0062",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A project team of 5 is chosen from 11 people, but 4 people decline to serve. Kavya, Sahil and Manav count valid committees. How many are possible?",
+    "options": [
+      "35",
+      "140",
+      "21",
+      "462"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21",
+    "explanation": "Only 7 people are available, so C(7, 5) = 21.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_complement",
+      "variant": 1,
+      "inputs": {
+        "n": 11,
+        "k": 5,
+        "b": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0063",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A selection panel of 5 is chosen from 12 people, but 4 people decline to serve. Tara, Manav and Kunal count valid committees. How many are possible?",
+    "options": [
+      "792",
+      "280",
+      "56",
+      "70"
+    ],
+    "correct_option": "C",
+    "correct_answer": "56",
+    "explanation": "Only 8 people are available, so C(8, 5) = 56.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_complement",
+      "variant": 2,
+      "inputs": {
+        "n": 12,
+        "k": 5,
+        "b": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0064",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A sports squad of 6 is chosen from 13 people, but 5 people decline to serve. Diya, Kunal and Rehan count valid committees. How many are possible?",
+    "options": [
+      "28",
+      "280",
+      "56",
+      "1716"
+    ],
+    "correct_option": "A",
+    "correct_answer": "28",
+    "explanation": "Only 8 people are available, so C(8, 6) = 28.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_complement",
+      "variant": 3,
+      "inputs": {
+        "n": 13,
+        "k": 6,
+        "b": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0065",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 3,
+    "section": "combinations_part_3",
+    "question_text": "A review board of 6 is chosen from 14 people, but 5 people decline to serve. Pooja, Rehan and Aarav count valid committees. How many are possible?",
+    "options": [
+      "630",
+      "3003",
+      "84",
+      "126"
+    ],
+    "correct_option": "C",
+    "correct_answer": "84",
+    "explanation": "Only 9 people are available, so C(9, 6) = 84.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_complement",
+      "variant": 4,
+      "inputs": {
+        "n": 14,
+        "k": 6,
+        "b": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0066",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A test paper has 6 easy and 5 hard questions. Nikhil, Riya and Kavya must select 3 easy and 2 hard questions. How many papers can be formed?",
+    "options": [
+      "200",
+      "462",
+      "20",
+      "10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "200",
+    "explanation": "Select easy and hard questions separately: C(6, 3) x C(5, 2) = 200.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_question_selection",
+      "variant": 0,
+      "inputs": {
+        "a": 6,
+        "b": 5,
+        "r": 3,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0067",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A test paper has 7 easy and 6 hard questions. Aditya, Kavya and Tara must select 4 easy and 2 hard questions. How many papers can be formed?",
+    "options": [
+      "1716",
+      "35",
+      "15",
+      "525"
+    ],
+    "correct_option": "D",
+    "correct_answer": "525",
+    "explanation": "Select easy and hard questions separately: C(7, 4) x C(6, 2) = 525.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_question_selection",
+      "variant": 1,
+      "inputs": {
+        "a": 7,
+        "b": 6,
+        "r": 4,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0068",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A test paper has 8 easy and 6 hard questions. Sahil, Tara and Diya must select 4 easy and 3 hard questions. How many papers can be formed?",
+    "options": [
+      "20",
+      "70",
+      "3432",
+      "1400"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1400",
+    "explanation": "Select easy and hard questions separately: C(8, 4) x C(6, 3) = 1400.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_question_selection",
+      "variant": 2,
+      "inputs": {
+        "a": 8,
+        "b": 6,
+        "r": 4,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0069",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A test paper has 9 easy and 7 hard questions. Manav, Diya and Pooja must select 5 easy and 3 hard questions. How many papers can be formed?",
+    "options": [
+      "12870",
+      "35",
+      "4410",
+      "126"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4410",
+    "explanation": "Select easy and hard questions separately: C(9, 5) x C(7, 3) = 4410.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_question_selection",
+      "variant": 3,
+      "inputs": {
+        "a": 9,
+        "b": 7,
+        "r": 5,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0070",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A test paper has 10 easy and 8 hard questions. Kunal, Pooja and Sania must select 5 easy and 4 hard questions. How many papers can be formed?",
+    "options": [
+      "17640",
+      "48620",
+      "252",
+      "70"
+    ],
+    "correct_option": "A",
+    "correct_answer": "17640",
+    "explanation": "Select easy and hard questions separately: C(10, 5) x C(8, 4) = 17640.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_question_selection",
+      "variant": 4,
+      "inputs": {
+        "a": 10,
+        "b": 8,
+        "r": 5,
+        "s": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0071",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Riya, Aditya, Sahil and 2 others meet at a committee. If every pair exchanges one handshake, how many handshakes occur?",
+    "options": [
+      "11",
+      "20",
+      "5",
+      "10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "10",
+    "explanation": "Each handshake is a pair, so C(5, 2) = 10.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_handshake",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0072",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Kavya, Sahil, Manav and 3 others meet at a project team. If every pair exchanges one handshake, how many handshakes occur?",
+    "options": [
+      "15",
+      "7",
+      "12",
+      "30"
+    ],
+    "correct_option": "A",
+    "correct_answer": "15",
+    "explanation": "Each handshake is a pair, so C(6, 2) = 15.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_handshake",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0073",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Tara, Manav, Kunal and 4 others meet at a selection panel. If every pair exchanges one handshake, how many handshakes occur?",
+    "options": [
+      "14",
+      "10",
+      "42",
+      "21"
+    ],
+    "correct_option": "D",
+    "correct_answer": "21",
+    "explanation": "Each handshake is a pair, so C(7, 2) = 21.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_handshake",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0074",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Diya, Kunal, Rehan and 5 others meet at a sports squad. If every pair exchanges one handshake, how many handshakes occur?",
+    "options": [
+      "14",
+      "28",
+      "56",
+      "16"
+    ],
+    "correct_option": "B",
+    "correct_answer": "28",
+    "explanation": "Each handshake is a pair, so C(8, 2) = 28.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_handshake",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0075",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Pooja, Rehan, Aarav and 6 others meet at a review board. If every pair exchanges one handshake, how many handshakes occur?",
+    "options": [
+      "36",
+      "18",
+      "37",
+      "72"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36",
+    "explanation": "Each handshake is a pair, so C(9, 2) = 36.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_handshake",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0076",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Aditya, Kavya and Tara draw a polygon with 5 sides. How many diagonals does it have?",
+    "options": [
+      "15",
+      "5",
+      "6",
+      "10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5",
+    "explanation": "All vertex pairs give C(5, 2) segments; subtract the 5 sides to get 5 diagonals.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_polygon",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0077",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Sahil, Tara and Diya draw a polygon with 6 sides. How many diagonals does it have?",
+    "options": [
+      "24",
+      "15",
+      "9",
+      "10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9",
+    "explanation": "All vertex pairs give C(6, 2) segments; subtract the 6 sides to get 9 diagonals.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_polygon",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0078",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Manav, Diya and Pooja draw a polygon with 7 sides. How many diagonals does it have?",
+    "options": [
+      "14",
+      "15",
+      "35",
+      "21"
+    ],
+    "correct_option": "A",
+    "correct_answer": "14",
+    "explanation": "All vertex pairs give C(7, 2) segments; subtract the 7 sides to get 14 diagonals.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_polygon",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0079",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Kunal, Pooja and Sania draw a polygon with 8 sides. How many diagonals does it have?",
+    "options": [
+      "21",
+      "20",
+      "48",
+      "28"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20",
+    "explanation": "All vertex pairs give C(8, 2) segments; subtract the 8 sides to get 20 diagonals.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_polygon",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0080",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Rehan, Sania and Meera draw a polygon with 9 sides. How many diagonals does it have?",
+    "options": [
+      "27",
+      "63",
+      "36",
+      "28"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27",
+    "explanation": "All vertex pairs give C(9, 2) segments; subtract the 9 sides to get 27 diagonals.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_diag_polygon",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0081",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A committee of 3 is chosen from 4 senior and 6 junior members, with at most 1 seniors. Kavya, Sahil and Manav count the committees. How many are possible?",
+    "options": [
+      "120",
+      "20",
+      "80",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "80",
+    "explanation": "Sum cases with 0 through 1 seniors: 80.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_from_group",
+      "variant": 0,
+      "inputs": {
+        "a": 4,
+        "b": 6,
+        "n": 3,
+        "m": 1
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0082",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A project team of 4 is chosen from 5 senior and 7 junior members, with at most 2 seniors. Tara, Manav and Kunal count the committees. How many are possible?",
+    "options": [
+      "10",
+      "35",
+      "495",
+      "420"
+    ],
+    "correct_option": "D",
+    "correct_answer": "420",
+    "explanation": "Sum cases with 0 through 2 seniors: 420.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_from_group",
+      "variant": 1,
+      "inputs": {
+        "a": 5,
+        "b": 7,
+        "n": 4,
+        "m": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0083",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A selection panel of 4 is chosen from 6 senior and 8 junior members, with at most 2 seniors. Diya, Kunal and Rehan count the committees. How many are possible?",
+    "options": [
+      "826",
+      "15",
+      "70",
+      "1001"
+    ],
+    "correct_option": "A",
+    "correct_answer": "826",
+    "explanation": "Sum cases with 0 through 2 seniors: 826.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_from_group",
+      "variant": 2,
+      "inputs": {
+        "a": 6,
+        "b": 8,
+        "n": 4,
+        "m": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0084",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A sports squad of 5 is chosen from 7 senior and 9 junior members, with at most 3 seniors. Pooja, Rehan and Aarav count the committees. How many are possible?",
+    "options": [
+      "126",
+      "35",
+      "4032",
+      "4368"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4032",
+    "explanation": "Sum cases with 0 through 3 seniors: 4032.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_from_group",
+      "variant": 3,
+      "inputs": {
+        "a": 7,
+        "b": 9,
+        "n": 5,
+        "m": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0085",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A review board of 5 is chosen from 8 senior and 10 junior members, with at most 3 seniors. Sania, Aarav and Rohan count the committees. How many are possible?",
+    "options": [
+      "7812",
+      "8568",
+      "56",
+      "252"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7812",
+    "explanation": "Sum cases with 0 through 3 seniors: 7812.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_at_most_from_group",
+      "variant": 4,
+      "inputs": {
+        "a": 8,
+        "b": 10,
+        "n": 5,
+        "m": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0086",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A committee of 3 is chosen from 4 traders, 5 accountants and 6 engineers. Sahil, Tara and Diya allow any mix. How many committees are possible?",
+    "options": [
+      "165",
+      "455",
+      "84",
+      "456"
+    ],
+    "correct_option": "B",
+    "correct_answer": "455",
+    "explanation": "All committee members come from 15 distinct people, so the answer is C(15, 3) = 455.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_step_sum",
+      "variant": 0,
+      "inputs": {
+        "a": 4,
+        "b": 5,
+        "c": 6,
+        "n": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0087",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A project team of 4 is chosen from 5 traders, 6 accountants and 7 engineers. Manav, Diya and Pooja allow any mix. How many committees are possible?",
+    "options": [
+      "330",
+      "3060",
+      "3061",
+      "715"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3060",
+    "explanation": "All committee members come from 18 distinct people, so the answer is C(18, 4) = 3060.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_step_sum",
+      "variant": 1,
+      "inputs": {
+        "a": 5,
+        "b": 6,
+        "c": 7,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0088",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A selection panel of 4 is chosen from 6 traders, 7 accountants and 8 engineers. Kunal, Pooja and Sania allow any mix. How many committees are possible?",
+    "options": [
+      "5985",
+      "5986",
+      "715",
+      "1365"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5985",
+    "explanation": "All committee members come from 21 distinct people, so the answer is C(21, 4) = 5985.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_step_sum",
+      "variant": 2,
+      "inputs": {
+        "a": 6,
+        "b": 7,
+        "c": 8,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0089",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A sports squad of 5 is chosen from 7 traders, 8 accountants and 9 engineers. Rehan, Sania and Meera allow any mix. How many committees are possible?",
+    "options": [
+      "42505",
+      "3003",
+      "42504",
+      "6188"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42504",
+    "explanation": "All committee members come from 24 distinct people, so the answer is C(24, 5) = 42504.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_step_sum",
+      "variant": 3,
+      "inputs": {
+        "a": 7,
+        "b": 8,
+        "c": 9,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0090",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A review board of 5 is chosen from 8 traders, 9 accountants and 10 engineers. Aarav, Meera and Neha allow any mix. How many committees are possible?",
+    "options": [
+      "6188",
+      "80730",
+      "11628",
+      "80731"
+    ],
+    "correct_option": "B",
+    "correct_answer": "80730",
+    "explanation": "All committee members come from 27 distinct people, so the answer is C(27, 5) = 80730.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_step_sum",
+      "variant": 4,
+      "inputs": {
+        "a": 8,
+        "b": 9,
+        "c": 10,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0091",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "From 5 special members and 7 other members, Tara, Manav and Kunal choose a committee of 3 with exactly two special members. How many committees are possible?",
+    "options": [
+      "70",
+      "7",
+      "10",
+      "220"
+    ],
+    "correct_option": "A",
+    "correct_answer": "70",
+    "explanation": "Choose the two special members and the remaining 1 others: 70.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_two_special",
+      "variant": 0,
+      "inputs": {
+        "s": 5,
+        "o": 7,
+        "n": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0092",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "From 6 special members and 8 other members, Diya, Kunal and Rehan choose a project team of 4 with exactly two special members. How many committees are possible?",
+    "options": [
+      "1001",
+      "420",
+      "15",
+      "28"
+    ],
+    "correct_option": "B",
+    "correct_answer": "420",
+    "explanation": "Choose the two special members and the remaining 2 others: 420.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_two_special",
+      "variant": 1,
+      "inputs": {
+        "s": 6,
+        "o": 8,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0093",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "From 7 special members and 9 other members, Pooja, Rehan and Aarav choose a selection panel of 4 with exactly two special members. How many committees are possible?",
+    "options": [
+      "21",
+      "36",
+      "756",
+      "1820"
+    ],
+    "correct_option": "C",
+    "correct_answer": "756",
+    "explanation": "Choose the two special members and the remaining 2 others: 756.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_two_special",
+      "variant": 2,
+      "inputs": {
+        "s": 7,
+        "o": 9,
+        "n": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0094",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "From 8 special members and 10 other members, Sania, Aarav and Rohan choose a sports squad of 5 with exactly two special members. How many committees are possible?",
+    "options": [
+      "8568",
+      "3360",
+      "120",
+      "28"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3360",
+    "explanation": "Choose the two special members and the remaining 3 others: 3360.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_two_special",
+      "variant": 3,
+      "inputs": {
+        "s": 8,
+        "o": 10,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0095",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "From 9 special members and 11 other members, Meera, Rohan and Kabir choose a review board of 5 with exactly two special members. How many committees are possible?",
+    "options": [
+      "165",
+      "5940",
+      "36",
+      "15504"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5940",
+    "explanation": "Choose the two special members and the remaining 3 others: 5940.",
+    "difficulty": "MEDIUM",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_exactly_two_special",
+      "variant": 4,
+      "inputs": {
+        "s": 9,
+        "o": 11,
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0096",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "There are 5 seats in a row. Manav, Diya and Pooja choose two seats that are not adjacent. How many choices are possible?",
+    "options": [
+      "10",
+      "4",
+      "6",
+      "5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Total pairs C(5, 2) minus the 4 adjacent pairs gives C(4, 2) = 6.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_no_adjacent_seats",
+      "variant": 0,
+      "inputs": {
+        "n": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0097",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "There are 6 seats in a row. Kunal, Pooja and Sania choose two seats that are not adjacent. How many choices are possible?",
+    "options": [
+      "15",
+      "5",
+      "10",
+      "9"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10",
+    "explanation": "Total pairs C(6, 2) minus the 5 adjacent pairs gives C(5, 2) = 10.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_no_adjacent_seats",
+      "variant": 1,
+      "inputs": {
+        "n": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0098",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "There are 7 seats in a row. Rehan, Sania and Meera choose two seats that are not adjacent. How many choices are possible?",
+    "options": [
+      "6",
+      "21",
+      "14",
+      "15"
+    ],
+    "correct_option": "D",
+    "correct_answer": "15",
+    "explanation": "Total pairs C(7, 2) minus the 6 adjacent pairs gives C(6, 2) = 15.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_no_adjacent_seats",
+      "variant": 2,
+      "inputs": {
+        "n": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0099",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "There are 8 seats in a row. Aarav, Meera and Neha choose two seats that are not adjacent. How many choices are possible?",
+    "options": [
+      "20",
+      "7",
+      "21",
+      "28"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21",
+    "explanation": "Total pairs C(8, 2) minus the 7 adjacent pairs gives C(7, 2) = 21.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_no_adjacent_seats",
+      "variant": 3,
+      "inputs": {
+        "n": 8
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0100",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "There are 9 seats in a row. Rohan, Neha and Priya choose two seats that are not adjacent. How many choices are possible?",
+    "options": [
+      "27",
+      "36",
+      "8",
+      "28"
+    ],
+    "correct_option": "D",
+    "correct_answer": "28",
+    "explanation": "Total pairs C(9, 2) minus the 8 adjacent pairs gives C(8, 2) = 28.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_no_adjacent_seats",
+      "variant": 4,
+      "inputs": {
+        "n": 9
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0101",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Diya has 7 identical tokens to split into 3 non-empty bundles for Kunal, Rehan and the others. How many splits are possible?",
+    "options": [
+      "20",
+      "36",
+      "35",
+      "15"
+    ],
+    "correct_option": "D",
+    "correct_answer": "15",
+    "explanation": "Stars and bars gives C(n - 1, groups - 1) = C(6, 2) = 15.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_distribute_identical",
+      "variant": 0,
+      "inputs": {
+        "n": 7,
+        "g": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0102",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Pooja has 8 identical tokens to split into 3 non-empty bundles for Rehan, Aarav and the others. How many splits are possible?",
+    "options": [
+      "45",
+      "56",
+      "35",
+      "21"
+    ],
+    "correct_option": "D",
+    "correct_answer": "21",
+    "explanation": "Stars and bars gives C(n - 1, groups - 1) = C(7, 2) = 21.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_distribute_identical",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "g": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0103",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Sania has 9 identical tokens to split into 4 non-empty bundles for Aarav, Rohan and the others. How many splits are possible?",
+    "options": [
+      "56",
+      "220",
+      "70",
+      "126"
+    ],
+    "correct_option": "A",
+    "correct_answer": "56",
+    "explanation": "Stars and bars gives C(n - 1, groups - 1) = C(8, 3) = 56.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_distribute_identical",
+      "variant": 2,
+      "inputs": {
+        "n": 9,
+        "g": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0104",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Meera has 10 identical tokens to split into 4 non-empty bundles for Rohan, Kabir and the others. How many splits are possible?",
+    "options": [
+      "286",
+      "210",
+      "84",
+      "126"
+    ],
+    "correct_option": "C",
+    "correct_answer": "84",
+    "explanation": "Stars and bars gives C(n - 1, groups - 1) = C(9, 3) = 84.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_distribute_identical",
+      "variant": 3,
+      "inputs": {
+        "n": 10,
+        "g": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0105",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Neha has 11 identical tokens to split into 5 non-empty bundles for Kabir, Arjun and the others. How many splits are possible?",
+    "options": [
+      "462",
+      "210",
+      "252",
+      "1365"
+    ],
+    "correct_option": "B",
+    "correct_answer": "210",
+    "explanation": "Stars and bars gives C(n - 1, groups - 1) = C(10, 4) = 210.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_distribute_identical",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "g": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0106",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Kunal, Pooja, Sania and the others split 6 people into 3 unnamed pairs for a committee. How many pairings are possible?",
+    "options": [
+      "720",
+      "15",
+      "3375",
+      "1515"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15",
+    "explanation": "Divide 6! by 2 for each internal pair order and by 3! for the unnamed pairs: 15.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_pair_grouping",
+      "variant": 0,
+      "inputs": {
+        "p": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0107",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Rehan, Sania, Meera and the others split 8 people into 4 unnamed pairs for a project team. How many pairings are possible?",
+    "options": [
+      "105105",
+      "105",
+      "614656",
+      "40320"
+    ],
+    "correct_option": "B",
+    "correct_answer": "105",
+    "explanation": "Divide 8! by 2 for each internal pair order and by 4! for the unnamed pairs: 105.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_pair_grouping",
+      "variant": 1,
+      "inputs": {
+        "p": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0108",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Aarav, Meera, Neha and the others split 10 people into 5 unnamed pairs for a selection panel. How many pairings are possible?",
+    "options": [
+      "184528125",
+      "945",
+      "3628800",
+      "945945"
+    ],
+    "correct_option": "B",
+    "correct_answer": "945",
+    "explanation": "Divide 10! by 2 for each internal pair order and by 5! for the unnamed pairs: 945.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_pair_grouping",
+      "variant": 2,
+      "inputs": {
+        "p": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0109",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Rohan, Neha, Priya and the others split 12 people into 6 unnamed pairs for a sports squad. How many pairings are possible?",
+    "options": [
+      "1039510395",
+      "82653950016",
+      "10395",
+      "479001600"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10395",
+    "explanation": "Divide 12! by 2 for each internal pair order and by 6! for the unnamed pairs: 10395.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_pair_grouping",
+      "variant": 3,
+      "inputs": {
+        "p": 6
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0110",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "Kabir, Priya, Sneha and the others split 14 people into 7 unnamed pairs for a review board. How many pairings are possible?",
+    "options": [
+      "135135135135",
+      "51676101935731",
+      "87178291200",
+      "135135"
+    ],
+    "correct_option": "D",
+    "correct_answer": "135135",
+    "explanation": "Divide 14! by 2 for each internal pair order and by 7! for the unnamed pairs: 135135.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_pair_grouping",
+      "variant": 4,
+      "inputs": {
+        "p": 7
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0111",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A committee may choose 3 from 5 blue files or 2 from those same files plus one red file. Pooja, Rehan and Aarav count the selections. How many are possible?",
+    "options": [
+      "20",
+      "10",
+      "22",
+      "21"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Add the two disjoint cases: C(5, 3) + C(5, 2) = 20.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_letter_selection",
+      "variant": 0,
+      "inputs": {
+        "n": 5,
+        "k": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0112",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A project team may choose 4 from 6 blue files or 3 from those same files plus one red file. Sania, Aarav and Rohan count the selections. How many are possible?",
+    "options": [
+      "15",
+      "36",
+      "35",
+      "20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35",
+    "explanation": "Add the two disjoint cases: C(6, 4) + C(6, 3) = 35.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_letter_selection",
+      "variant": 1,
+      "inputs": {
+        "n": 6,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0113",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A selection panel may choose 4 from 7 blue files or 3 from those same files plus one red file. Meera, Rohan and Kabir count the selections. How many are possible?",
+    "options": [
+      "35",
+      "70",
+      "71",
+      "72"
+    ],
+    "correct_option": "B",
+    "correct_answer": "70",
+    "explanation": "Add the two disjoint cases: C(7, 4) + C(7, 3) = 70.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_letter_selection",
+      "variant": 2,
+      "inputs": {
+        "n": 7,
+        "k": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0114",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A sports squad may choose 5 from 8 blue files or 4 from those same files plus one red file. Neha, Kabir and Arjun count the selections. How many are possible?",
+    "options": [
+      "56",
+      "126",
+      "70",
+      "127"
+    ],
+    "correct_option": "B",
+    "correct_answer": "126",
+    "explanation": "Add the two disjoint cases: C(8, 5) + C(8, 4) = 126.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_letter_selection",
+      "variant": 3,
+      "inputs": {
+        "n": 8,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0115",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A review board may choose 5 from 9 blue files or 4 from those same files plus one red file. Priya, Arjun and Vikram count the selections. How many are possible?",
+    "options": [
+      "126",
+      "252",
+      "253",
+      "254"
+    ],
+    "correct_option": "B",
+    "correct_answer": "252",
+    "explanation": "Add the two disjoint cases: C(9, 5) + C(9, 4) = 252.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_letter_selection",
+      "variant": 4,
+      "inputs": {
+        "n": 9,
+        "k": 5
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0116",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A committee needs 2 members from one pool of 4 and 2 from another of 4. Rehan, Sania and Meera count all possible teams. How many are there?",
+    "options": [
+      "36",
+      "70",
+      "12",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36",
+    "explanation": "Choose from each pool independently: C(4, 2) x C(4, 2) = 36.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_committee",
+      "variant": 0,
+      "inputs": {
+        "a": 4,
+        "b": 4,
+        "r": 2,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0117",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A project team needs 2 members from one pool of 5 and 3 from another of 5. Aarav, Meera and Neha count all possible teams. How many are there?",
+    "options": [
+      "10",
+      "252",
+      "20",
+      "100"
+    ],
+    "correct_option": "D",
+    "correct_answer": "100",
+    "explanation": "Choose from each pool independently: C(5, 2) x C(5, 3) = 100.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_committee",
+      "variant": 1,
+      "inputs": {
+        "a": 5,
+        "b": 5,
+        "r": 2,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0118",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A selection panel needs 3 members from one pool of 6 and 2 from another of 5. Rohan, Neha and Priya count all possible teams. How many are there?",
+    "options": [
+      "200",
+      "462",
+      "201",
+      "20"
+    ],
+    "correct_option": "A",
+    "correct_answer": "200",
+    "explanation": "Choose from each pool independently: C(6, 3) x C(5, 2) = 200.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_committee",
+      "variant": 2,
+      "inputs": {
+        "a": 6,
+        "b": 5,
+        "r": 3,
+        "s": 2
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0119",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A sports squad needs 3 members from one pool of 6 and 3 from another of 6. Kabir, Priya and Sneha count all possible teams. How many are there?",
+    "options": [
+      "400",
+      "20",
+      "40",
+      "924"
+    ],
+    "correct_option": "A",
+    "correct_answer": "400",
+    "explanation": "Choose from each pool independently: C(6, 3) x C(6, 3) = 400.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 3-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_committee",
+      "variant": 3,
+      "inputs": {
+        "a": 6,
+        "b": 6,
+        "r": 3,
+        "s": 3
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "combinations-0120",
+    "chapter": "Combinations",
+    "chapter_key": "combinations",
+    "part": 4,
+    "section": "combinations_part_4",
+    "question_text": "A review board needs 3 members from one pool of 7 and 4 from another of 6. Arjun, Sneha and Ananya count all possible teams. How many are there?",
+    "options": [
+      "525",
+      "35",
+      "30",
+      "1716"
+    ],
+    "correct_option": "A",
+    "correct_answer": "525",
+    "explanation": "Choose from each pool independently: C(7, 3) x C(6, 4) = 525.",
+    "difficulty": "HARD",
+    "source_name": "Combinations class notes (local PDFs)",
+    "source_url": "",
+    "source_page": "Combinations 01  Class Notes.pdf, pp. 5-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set5_questions.py",
+    "verification_data": {
+      "family": "c_multi_committee",
+      "variant": 4,
+      "inputs": {
+        "a": 7,
+        "b": 6,
+        "r": 3,
+        "s": 4
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]
