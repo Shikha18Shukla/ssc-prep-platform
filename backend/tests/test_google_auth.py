@@ -9,12 +9,15 @@ single-use callback exchange.
 from datetime import datetime, timedelta, timezone
 from urllib.parse import parse_qs, urlsplit
 import base64
+import hashlib
+import logging
 
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 import pytest
 from fastapi.testclient import TestClient
 from jose import jwt
+from jose.utils import base64url_encode
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
@@ -26,7 +29,13 @@ from app.services import google_auth_service as google_service
 
 REDIRECT_URI = "http://testserver/api/auth/google/callback"
 CLIENT_ID = "client-id.apps.googleusercontent.com"
+ACCESS_TOKEN = "ya29.realistic-google-access-token-for-tests"
 PROVIDER_CONTEXT: dict[str, str] = {"nonce": "test-nonce"}
+
+
+def _at_hash(access_token: str) -> str:
+    digest = hashlib.sha256(access_token.encode("utf-8")).digest()
+    return base64url_encode(digest[: len(digest) // 2]).decode("ascii")
 
 
 class StubResponse:
@@ -94,6 +103,7 @@ def google_identity():
             "iat": int(now.timestamp()),
             "exp": int((now + timedelta(minutes=5)).timestamp()),
             "nonce": PROVIDER_CONTEXT["nonce"],
+            "at_hash": _at_hash(ACCESS_TOKEN),
         }
         claims.update(overrides)
         return jwt.encode(claims, pem, algorithm="RS256", headers={"kid": kid})
@@ -116,7 +126,7 @@ def _stub_provider(monkeypatch, jwk: dict, id_token, captured: dict | None = Non
         if captured is not None:
             captured.update(data)
         token = id_token() if callable(id_token) else id_token
-        return StubResponse({"id_token": token})
+        return StubResponse({"id_token": token, "access_token": ACCESS_TOKEN})
 
     monkeypatch.setattr(google_service.httpx, "get", fake_get)
     monkeypatch.setattr(google_service.httpx, "post", fake_post)
@@ -180,9 +190,45 @@ def test_id_token_verification_accepts_signed_claims(monkeypatch, google_config,
     jwk, make_token = google_identity
     _stub_provider(monkeypatch, jwk, make_token())
     token = make_token()
-    claims = google_service.verify_google_id_token(token, sha256_hex("test-nonce"))
+    claims = google_service.verify_google_id_token(
+        token, sha256_hex("test-nonce"), ACCESS_TOKEN
+    )
     assert claims["sub"] == "google-stable-subject-1"
     assert claims["email"] == "google.student@example.com"
+
+
+def test_google_at_hash_is_validated_with_access_token(
+    caplog, monkeypatch, google_config, google_identity
+):
+    jwk, make_token = google_identity
+    token = make_token()
+    _stub_provider(monkeypatch, jwk, token)
+
+    claims = google_service.verify_google_id_token(
+        token, sha256_hex("test-nonce"), ACCESS_TOKEN
+    )
+    assert claims["at_hash"] == _at_hash(ACCESS_TOKEN)
+
+    # The original failure: a Google token with at_hash but no access token.
+    caplog.clear()
+    with caplog.at_level(logging.WARNING, logger="ssc_prep.google_oauth"):
+        with pytest.raises(google_service.GoogleAuthError):
+            google_service.verify_google_id_token(token, sha256_hex("test-nonce"))
+    assert "exception=JWTClaimsError" in caplog.text
+    assert "No access_token provided to compare against at_hash claim" in caplog.text
+    assert ACCESS_TOKEN not in caplog.text
+
+    # A mismatched at_hash must still be rejected when the access token is passed.
+    caplog.clear()
+    wrong_hash = make_token(at_hash=_at_hash("different-access-token"))
+    with caplog.at_level(logging.WARNING, logger="ssc_prep.google_oauth"):
+        with pytest.raises(google_service.GoogleAuthError):
+            google_service.verify_google_id_token(
+                wrong_hash, sha256_hex("test-nonce"), ACCESS_TOKEN
+            )
+    assert "exception=JWTClaimsError" in caplog.text
+    assert "at_hash claim does not match access_token" in caplog.text
+    assert ACCESS_TOKEN not in caplog.text
 
 
 def test_id_token_verification_rejects_bad_nonce_email_issuer_and_audience(
@@ -204,7 +250,7 @@ def test_id_token_verification_rejects_bad_nonce_email_issuer_and_audience(
     for token, nonce_hash, expected_detail in cases:
         _stub_provider(monkeypatch, jwk, token)
         with pytest.raises(google_service.GoogleAuthError) as exc:
-            google_service.verify_google_id_token(token, nonce_hash)
+            google_service.verify_google_id_token(token, nonce_hash, ACCESS_TOKEN)
         if expected_detail:
             assert expected_detail in exc.value.detail
 
@@ -415,3 +461,61 @@ def test_callback_without_matching_cookie_is_rejected(
     assert callback.status_code == 303
     assert "error=google_signin_failed" in callback.headers["location"]
     assert "code=" not in callback.headers["location"]
+
+
+# ---------------------------------------------------------------------------
+# Safe diagnostics
+# ---------------------------------------------------------------------------
+
+def test_token_endpoint_error_logs_sanitized_provider_error(
+    caplog, monkeypatch, google_config
+):
+    opaque = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345"
+    description = f"Bad code {opaque} client_secret={settings.GOOGLE_CLIENT_SECRET}"
+    response = StubResponse({
+        "error": "invalid_grant",
+        "error_description": description,
+    })
+    response.status_code = 400
+    monkeypatch.setattr(
+        google_service.httpx, "post", lambda url, data, timeout: response
+    )
+
+    with caplog.at_level(logging.WARNING, logger="ssc_prep.google_oauth"):
+        with pytest.raises(google_service.GoogleAuthError):
+            google_service.exchange_authorization_code(
+                "dummy-code", "dummy-verifier", REDIRECT_URI
+            )
+
+    log = caplog.text
+    assert "status=400" in log
+    assert "google_error=invalid_grant" in log
+    assert "id_token_present=False" in log
+    assert opaque not in log
+    assert settings.GOOGLE_CLIENT_SECRET not in log
+    assert "dummy-code" not in log
+    assert "dummy-verifier" not in log
+
+
+def test_callback_failure_logs_stage_without_sensitive_values(
+    caplog, db_session, monkeypatch, google_config, google_identity
+):
+    jwk, make_token = google_identity
+    # The generated authorization request has a fresh nonce; the stubbed ID
+    # token keeps the fixture nonce, so verification must reject it.
+    _stub_provider(monkeypatch, jwk, make_token())
+    authorization_url, browser_key = google_service.build_authorization_url(db_session)
+    state = _start_params(authorization_url)["state"]
+
+    with caplog.at_level(logging.WARNING, logger="ssc_prep.google_oauth"):
+        with pytest.raises(google_service.GoogleAuthError):
+            google_service.complete_google_callback(
+                db_session, "provider-code", state, browser_key
+            )
+
+    log = caplog.text
+    assert "stage=id_token_verification" in log
+    assert "exception=GoogleAuthError" in log
+    assert "provider-code" not in log
+    assert state not in log
+    assert browser_key not in log

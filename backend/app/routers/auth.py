@@ -1,6 +1,7 @@
 """Authentication API router."""
 
 from datetime import datetime, timezone
+import logging
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from fastapi import APIRouter, Depends, HTTPException, Request, Response, status
@@ -44,6 +45,7 @@ from app.services.google_auth_service import (
     exchange_google_code,
 )
 
+logger = logging.getLogger("ssc_prep.auth")
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
 
@@ -279,9 +281,13 @@ def google_callback(
         exchange_code = complete_google_callback(
             db, code, state, http_request.cookies.get(GOOGLE_COOKIE_NAME)
         )
-    except Exception:
-        # Google follows this redirect in the browser; never leave the user on
-        # a raw JSON error (including a rate-limit response or a 500).
+    except Exception as exc:
+        if isinstance(exc, GoogleAuthError):
+            logger.warning("Google OAuth callback failed: %s", exc.detail)
+        else:
+            logger.exception(
+                "Unexpected Google OAuth callback error: %s", type(exc).__name__
+            )
         _clear_oauth_cookie(redirect)
         return redirect
 

@@ -7,6 +7,8 @@ callback has verified Google's signed ID token.
 """
 
 from datetime import datetime, timedelta, timezone
+import logging
+import re
 import threading
 import time
 from typing import Any
@@ -35,6 +37,52 @@ GOOGLE_JWKS_URL = "https://www.googleapis.com/oauth2/v3/certs"
 GOOGLE_ISSUERS = frozenset({"accounts.google.com", "https://accounts.google.com"})
 GOOGLE_COOKIE_NAME = "ssc_google_oauth"
 GOOGLE_SCOPES = "openid email profile"
+
+logger = logging.getLogger("ssc_prep.google_oauth")
+_OPAQUE_VALUE_RE = re.compile(r"[A-Za-z0-9_-]{32,}")
+_CONTROL_CHAR_RE = re.compile(r"[\x00-\x1f\x7f]")
+_SENSITIVE_ASSIGNMENT_RE = re.compile(
+    r"(?i)\b(client_secret|code|id_token|access_token|refresh_token|"
+    r"state|nonce|code_verifier|redirect_uri|assertion)\s*=\s*[^\s,;]+"
+)
+
+
+def _sanitize_provider_error(value: object, limit: int = 200) -> str | None:
+    """Reduce a provider error to a short, non-sensitive log value."""
+    if not isinstance(value, str):
+        return None
+    cleaned = _CONTROL_CHAR_RE.sub(" ", value)
+    cleaned = _SENSITIVE_ASSIGNMENT_RE.sub(
+        lambda match: f"{match.group(1)}=[REDACTED]", cleaned
+    )
+    cleaned = _OPAQUE_VALUE_RE.sub("[REDACTED]", cleaned)
+    cleaned = " ".join(cleaned.split())
+    return cleaned[:limit] or None
+
+
+def _log_token_response(response: Any, *, id_token_present: bool) -> None:
+    """Log only safe metadata from Google's token endpoint."""
+    payload = None
+    try:
+        payload = response.json()
+    except Exception:
+        pass
+    error_code = None
+    error_description = None
+    if isinstance(payload, dict):
+        error_code = _sanitize_provider_error(payload.get("error"), limit=80)
+        error_description = _sanitize_provider_error(
+            payload.get("error_description"), limit=200
+        )
+    logger.warning(
+        "Google token endpoint status=%s google_error=%s "
+        "google_error_description=%s id_token_present=%s",
+        response.status_code,
+        error_code or "-",
+        error_description or "-",
+        id_token_present,
+    )
+
 
 _jwks_cache: tuple[float, list[dict[str, Any]]] | None = None
 _jwks_lock = threading.Lock()
@@ -143,15 +191,24 @@ def fetch_google_jwks() -> list[dict[str, Any]]:
             response.raise_for_status()
             keys = response.json().get("keys")
         except Exception as exc:
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            logger.warning(
+                "Google JWKS fetch failed exception=%s status=%s",
+                type(exc).__name__,
+                status if status is not None else "-",
+            )
             raise GoogleAuthError("Google sign-in is temporarily unavailable", 503) from None
         if not isinstance(keys, list) or not keys:
+            logger.warning("Google JWKS response contained no usable keys")
             raise GoogleAuthError("Google sign-in is temporarily unavailable", 503)
         _jwks_cache = (time.monotonic(), keys)
         return keys
 
 
-def exchange_authorization_code(code: str, code_verifier: str, redirect_uri: str) -> str:
-    """Exchange a one-time authorization code for Google's signed ID token."""
+def exchange_authorization_code(
+    code: str, code_verifier: str, redirect_uri: str
+) -> tuple[str, str | None]:
+    """Return the ID token and access token; the latter is used only for at_hash."""
     client_id, client_secret, configured_redirect = _google_config()
     if redirect_uri != configured_redirect:
         raise GoogleAuthError("Invalid Google sign-in redirect")
@@ -168,37 +225,71 @@ def exchange_authorization_code(code: str, code_verifier: str, redirect_uri: str
             },
             timeout=10,
         )
-        if response.status_code >= 400:
-            raise GoogleAuthError()
-        id_token = response.json().get("id_token")
-    except GoogleAuthError:
-        raise
     except Exception as exc:
+        logger.warning("Google token request failed before response exception=%s", type(exc).__name__)
         raise GoogleAuthError() from None
-    if not isinstance(id_token, str) or not id_token:
+
+    try:
+        payload = response.json()
+    except Exception:
+        payload = None
+    id_token = payload.get("id_token") if isinstance(payload, dict) else None
+    id_token_present = isinstance(id_token, str) and bool(id_token)
+    _log_token_response(response, id_token_present=id_token_present)
+
+    if response.status_code >= 400:
         raise GoogleAuthError()
-    return id_token
+    if not id_token_present:
+        raise GoogleAuthError()
+
+    access_token = payload.get("access_token") if isinstance(payload, dict) else None
+    if not isinstance(access_token, str) or not access_token:
+        access_token = None
+    return id_token, access_token
 
 
-def verify_google_id_token(id_token: str, expected_nonce_hash: str) -> dict[str, Any]:
-    """Verify Google signature, issuer, audience, expiry, nonce, and email state."""
+def verify_google_id_token(
+    id_token: str,
+    expected_nonce_hash: str,
+    access_token: str | None = None,
+) -> dict[str, Any]:
+    """Verify Google signature and claims; access_token is used only for at_hash."""
     client_id, _, _ = _google_config()
+
+    def reject(
+        stage: str,
+        detail: str = "Google sign-in could not be completed",
+        status_code: int = 401,
+        exc: Exception | None = None,
+    ) -> None:
+        if exc is None:
+            logger.warning("Google ID token rejected at stage=%s", stage)
+        else:
+            reason = _sanitize_provider_error(str(exc), limit=200) or "-"
+            logger.warning(
+                "Google ID token rejected at stage=%s exception=%s reason=%s",
+                stage,
+                type(exc).__name__,
+                reason,
+            )
+        raise GoogleAuthError(detail, status_code)
+
     try:
         header = jwt.get_unverified_header(id_token)
         unverified = jwt.get_unverified_claims(id_token)
     except JWTError as exc:
-        raise GoogleAuthError() from None
+        reject("token_parse", exc=exc)
 
     issuer = unverified.get("iss")
     if issuer not in GOOGLE_ISSUERS:
-        raise GoogleAuthError()
+        reject("issuer")
     key_id = header.get("kid")
     signing_key = next(
         (key for key in fetch_google_jwks() if key.get("kid") == key_id),
         None,
     )
     if signing_key is None:
-        raise GoogleAuthError()
+        reject("jwks_kid")
 
     try:
         claims = jwt.decode(
@@ -207,10 +298,11 @@ def verify_google_id_token(id_token: str, expected_nonce_hash: str) -> dict[str,
             algorithms=["RS256"],
             audience=client_id,
             issuer=issuer,
+            access_token=access_token,
             options={"require": ["sub", "email", "email_verified", "exp", "iat", "iss", "aud"]},
         )
     except JWTError as exc:
-        raise GoogleAuthError() from None
+        reject("signature_or_claims", exc=exc)
 
     audience = claims.get("aud")
     authorized_party = claims.get("azp")
@@ -221,19 +313,19 @@ def verify_google_id_token(id_token: str, expected_nonce_hash: str) -> dict[str,
     else:
         audience_matches = False
     if not audience_matches:
-        raise GoogleAuthError()
+        reject("audience")
     if authorized_party is not None and authorized_party != client_id:
-        raise GoogleAuthError()
+        reject("authorized_party")
     if isinstance(audience, list) and authorized_party is None:
-        raise GoogleAuthError()
+        reject("authorized_party")
 
     nonce = claims.get("nonce")
     if not isinstance(nonce, str) or not tokens_equal(sha256_hex(nonce), expected_nonce_hash):
-        raise GoogleAuthError()
+        reject("nonce")
     if claims.get("email_verified") is not True:
-        raise GoogleAuthError("A verified Google email address is required", 403)
+        reject("email_verified", "A verified Google email address is required", 403)
     if not isinstance(claims.get("sub"), str) or not claims["sub"]:
-        raise GoogleAuthError()
+        reject("subject")
     return claims
 
 
@@ -342,20 +434,53 @@ def complete_google_callback(
 ) -> str:
     """Validate OAuth callback inputs and return an opaque exchange code."""
     if not code or not state or not browser_key:
+        logger.warning("Google OAuth callback rejected at stage=input_validation")
         raise GoogleAuthError("Invalid Google sign-in callback")
-    record = _consume_state(db, state, browser_key)
-    id_token = exchange_authorization_code(code, record.code_verifier, record.redirect_uri)
-    claims = verify_google_id_token(id_token, record.nonce_hash)
-    user = link_or_create_user(db, claims)
+
+    def log_failure(stage: str, exc: Exception) -> None:
+        logger.warning(
+            "Google OAuth callback failed at stage=%s exception=%s detail=%s",
+            stage,
+            type(exc).__name__,
+            getattr(exc, "detail", "-"),
+        )
+
+    try:
+        record = _consume_state(db, state, browser_key)
+    except Exception as exc:
+        log_failure("state", exc)
+        raise
+    try:
+        id_token, access_token = exchange_authorization_code(
+            code, record.code_verifier, record.redirect_uri
+        )
+    except Exception as exc:
+        log_failure("token_exchange", exc)
+        raise
+    try:
+        claims = verify_google_id_token(id_token, record.nonce_hash, access_token)
+    except Exception as exc:
+        log_failure("id_token_verification", exc)
+        raise
+    try:
+        user = link_or_create_user(db, claims)
+    except Exception as exc:
+        log_failure("user_link", exc)
+        raise
 
     plaintext = secure_url_token(32)
-    db.add(OAuthExchangeCode(
-        code_hash=sha256_hex(plaintext),
-        user_id=user.id,
-        browser_key_hash=sha256_hex(browser_key),
-        expires_at=_now() + timedelta(seconds=settings.GOOGLE_EXCHANGE_TTL_SECONDS),
-    ))
-    db.commit()
+    try:
+        db.add(OAuthExchangeCode(
+            code_hash=sha256_hex(plaintext),
+            user_id=user.id,
+            browser_key_hash=sha256_hex(browser_key),
+            expires_at=_now() + timedelta(seconds=settings.GOOGLE_EXCHANGE_TTL_SECONDS),
+        ))
+        db.commit()
+    except Exception as exc:
+        db.rollback()
+        log_failure("exchange_code", exc)
+        raise
     return plaintext
 
 
