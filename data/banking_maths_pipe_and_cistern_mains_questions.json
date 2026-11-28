@@ -1,0 +1,4363 @@
+[
+  {
+    "id": "pipe_and_cistern_mains-0001",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A alone=12 h; B alone=18 h. A runs alone for one-third of its solo filling time; then B joins and both run until the tank is full. Find the total elapsed hours.",
+    "options": [
+      "88/5",
+      "36/5",
+      "16",
+      "44/5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "44/5",
+    "explanation": "A alone fills 1/3 of the tank in 4 h. The remaining 2/3 at combined rate (a+b)/(ab) takes 24/5 h, so the total is 44/5 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_inlets",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0002",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A alone=10 h; B alone=15 h. A runs alone for one-third of its solo filling time; then B joins and both run until the tank is full. Find the total elapsed hours.",
+    "options": [
+      "6",
+      "44/3",
+      "22/3",
+      "40/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "22/3",
+    "explanation": "A alone fills 1/3 of the tank in 10/3 h. The remaining 2/3 at combined rate (a+b)/(ab) takes 4 h, so the total is 22/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_inlets",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0003",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A alone=8 h; B alone=12 h. A runs alone for one-third of its solo filling time; then B joins and both run until the tank is full. Find the total elapsed hours.",
+    "options": [
+      "88/15",
+      "176/15",
+      "32/3",
+      "24/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "88/15",
+    "explanation": "A alone fills 1/3 of the tank in 8/3 h. The remaining 2/3 at combined rate (a+b)/(ab) takes 16/5 h, so the total is 88/15 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_inlets",
+      "variant": 2,
+      "inputs": {
+        "a": 8,
+        "b": 12,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0004",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A alone=6 h; B alone=9 h. A runs alone for one-third of its solo filling time; then B joins and both run until the tank is full. Find the total elapsed hours.",
+    "options": [
+      "44/5",
+      "22/5",
+      "8",
+      "18/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "22/5",
+    "explanation": "A alone fills 1/3 of the tank in 2 h. The remaining 2/3 at combined rate (a+b)/(ab) takes 12/5 h, so the total is 22/5 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_inlets",
+      "variant": 3,
+      "inputs": {
+        "a": 6,
+        "b": 9,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0005",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A alone=20 h; B alone=30 h. A runs alone for one-third of its solo filling time; then B joins and both run until the tank is full. Find the total elapsed hours.",
+    "options": [
+      "12",
+      "44/3",
+      "88/3",
+      "80/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "44/3",
+    "explanation": "A alone fills 1/3 of the tank in 20/3 h. The remaining 2/3 at combined rate (a+b)/(ab) takes 8 h, so the total is 44/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_inlets",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 30,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0006",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: inlet=12 h; outlet=18 h; initial=1/3 full. An inlet and an outlet are opened together on a tank that is one-third full. Find the hours until the tank is full.",
+    "options": [
+      "36",
+      "36/5",
+      "24",
+      "48"
+    ],
+    "correct_option": "C",
+    "correct_answer": "24",
+    "explanation": "Net hourly rate is 1/12 - 1/18 = 1/36. Only 2/3 of the tank is needed, so time = (2/3)/net rate = 24 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_inlet_outlet",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0007",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: inlet=10 h; outlet=15 h; initial=1/3 full. An inlet and an outlet are opened together on a tank that is one-third full. Find the hours until the tank is full.",
+    "options": [
+      "40",
+      "30",
+      "20",
+      "6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Net hourly rate is 1/10 - 1/15 = 1/30. Only 2/3 of the tank is needed, so time = (2/3)/net rate = 20 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_inlet_outlet",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0008",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: inlet=8 h; outlet=14 h; initial=1/3 full. An inlet and an outlet are opened together on a tank that is one-third full. Find the hours until the tank is full.",
+    "options": [
+      "56/3",
+      "56/11",
+      "112/9",
+      "224/9"
+    ],
+    "correct_option": "C",
+    "correct_answer": "112/9",
+    "explanation": "Net hourly rate is 1/8 - 1/14 = 3/56. Only 2/3 of the tank is needed, so time = (2/3)/net rate = 112/9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_inlet_outlet",
+      "variant": 2,
+      "inputs": {
+        "a": 8,
+        "b": 14,
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0009",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: inlet=9 h; outlet=15 h; initial=1/3 full. An inlet and an outlet are opened together on a tank that is one-third full. Find the hours until the tank is full.",
+    "options": [
+      "45/2",
+      "15",
+      "30",
+      "45/8"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15",
+    "explanation": "Net hourly rate is 1/9 - 1/15 = 2/45. Only 2/3 of the tank is needed, so time = (2/3)/net rate = 15 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_inlet_outlet",
+      "variant": 3,
+      "inputs": {
+        "a": 9,
+        "b": 15,
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0010",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: inlet=14 h; outlet=35 h; initial=1/3 full. An inlet and an outlet are opened together on a tank that is one-third full. Find the hours until the tank is full.",
+    "options": [
+      "140/9",
+      "70/3",
+      "10",
+      "280/9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "140/9",
+    "explanation": "Net hourly rate is 1/14 - 1/35 = 3/70. Only 2/3 of the tank is needed, so time = (2/3)/net rate = 140/9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_inlet_outlet",
+      "variant": 4,
+      "inputs": {
+        "a": 14,
+        "b": 35,
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0011",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A=12 h; B=18 h; switch after=4 h. A and B are opened alternately for one hour each, A first. After the stated hours A is closed and B alone continues. Find the total hours to fill.",
+    "options": [
+      "19",
+      "14",
+      "34",
+      "17"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17",
+    "explanation": "In 4 alternating hours the tank gains 5/18; B alone then supplies the balance, giving a total of 17 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternating_pipes",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "hours": 4,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0012",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A=10 h; B=15 h; switch after=3 h. A and B are opened alternately for one hour each, A first. After the stated hours A is closed and B alone continues. Find the total hours to fill.",
+    "options": [
+      "31/2",
+      "14",
+      "23/2",
+      "28"
+    ],
+    "correct_option": "B",
+    "correct_answer": "14",
+    "explanation": "In 3 alternating hours the tank gains 4/15; B alone then supplies the balance, giving a total of 14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternating_pipes",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0013",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A=8 h; B=12 h; switch after=5 h. A and B are opened alternately for one hour each, A first. After the stated hours A is closed and B alone continues. Find the total hours to fill.",
+    "options": [
+      "23/2",
+      "15",
+      "21/2",
+      "21"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21/2",
+    "explanation": "In 5 alternating hours the tank gains 13/24; B alone then supplies the balance, giving a total of 21/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternating_pipes",
+      "variant": 2,
+      "inputs": {
+        "a": 8,
+        "b": 12,
+        "hours": 5,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0014",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A=9 h; B=15 h; switch after=2 h. A and B are opened alternately for one hour each, A first. After the stated hours A is closed and B alone continues. Find the total hours to fill.",
+    "options": [
+      "86/3",
+      "43/3",
+      "14",
+      "10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "43/3",
+    "explanation": "In 2 alternating hours the tank gains 8/45; B alone then supplies the balance, giving a total of 43/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternating_pipes",
+      "variant": 3,
+      "inputs": {
+        "a": 9,
+        "b": 15,
+        "hours": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0015",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 1,
+    "section": "pipe_and_cistern_mains_part_1",
+    "question_text": "Data: A=20 h; B=30 h; switch after=6 h. A and B are opened alternately for one hour each, A first. After the stated hours A is closed and B alone continues. Find the total hours to fill.",
+    "options": [
+      "23",
+      "57/2",
+      "31",
+      "57"
+    ],
+    "correct_option": "B",
+    "correct_answer": "57/2",
+    "explanation": "In 6 alternating hours the tank gains 1/4; B alone then supplies the balance, giving a total of 57/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternating_pipes",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 30,
+        "hours": 6,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0016",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=12 h; leak=24 h. An inlet fills an empty tank; when the tank is half full a leak starts, which alone would empty a full tank in the leak time. Find the total hours to fill.",
+    "options": [
+      "24",
+      "19",
+      "36",
+      "18"
+    ],
+    "correct_option": "D",
+    "correct_answer": "18",
+    "explanation": "The first half takes 6 h. Thereafter net rate is 1/12 - 1/24, so the second half takes 12 h; total 18 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leakage",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "leak": 24,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0017",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=10 h; leak=15 h. An inlet fills an empty tank; when the tank is half full a leak starts, which alone would empty a full tank in the leak time. Find the total hours to fill.",
+    "options": [
+      "25/2",
+      "40",
+      "20",
+      "30"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "The first half takes 5 h. Thereafter net rate is 1/10 - 1/15, so the second half takes 15 h; total 20 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leakage",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "leak": 15,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0018",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=8 h; leak=12 h. An inlet fills an empty tank; when the tank is half full a leak starts, which alone would empty a full tank in the leak time. Find the total hours to fill.",
+    "options": [
+      "16",
+      "24",
+      "32",
+      "10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "The first half takes 4 h. Thereafter net rate is 1/8 - 1/12, so the second half takes 12 h; total 16 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leakage",
+      "variant": 2,
+      "inputs": {
+        "inlet": 8,
+        "leak": 12,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0019",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=9 h; leak=18 h. An inlet fills an empty tank; when the tank is half full a leak starts, which alone would empty a full tank in the leak time. Find the total hours to fill.",
+    "options": [
+      "27/2",
+      "29/2",
+      "18",
+      "27"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27/2",
+    "explanation": "The first half takes 9/2 h. Thereafter net rate is 1/9 - 1/18, so the second half takes 9 h; total 27/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leakage",
+      "variant": 3,
+      "inputs": {
+        "inlet": 9,
+        "leak": 18,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0020",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=14 h; leak=21 h. An inlet fills an empty tank; when the tank is half full a leak starts, which alone would empty a full tank in the leak time. Find the total hours to fill.",
+    "options": [
+      "35/2",
+      "56",
+      "42",
+      "28"
+    ],
+    "correct_option": "D",
+    "correct_answer": "28",
+    "explanation": "The first half takes 7 h. Thereafter net rate is 1/14 - 1/21, so the second half takes 21 h; total 28 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leakage",
+      "variant": 4,
+      "inputs": {
+        "inlet": 14,
+        "leak": 21,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0021",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=12 h; outlet=8 h; initial=1/2 full. Both pipes run together until the tank holds half of its initial content; then the outlet is closed and the inlet alone fills the tank. Find the total hours.",
+    "options": [
+      "15",
+      "12",
+      "6",
+      "30"
+    ],
+    "correct_option": "A",
+    "correct_answer": "15",
+    "explanation": "Starting at 1/2, half of that amount is removed at net rate 1/8 - 1/12; then the inlet alone fills the remaining 3/4. Total = 15 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_partial_fill",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "outlet": 8,
+        "frac": "1/2",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0022",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=10 h; outlet=6 h; initial=2/3 full. Both pipes run together until the tank holds half of its initial content; then the outlet is closed and the inlet alone fills the tank. Find the total hours.",
+    "options": [
+      "70/3",
+      "10",
+      "20/3",
+      "35/3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "35/3",
+    "explanation": "Starting at 2/3, half of that amount is removed at net rate 1/6 - 1/10; then the inlet alone fills the remaining 2/3. Total = 35/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_partial_fill",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "outlet": 6,
+        "frac": "2/3",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0023",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=15 h; outlet=10 h; initial=3/5 full. Both pipes run together until the tank holds half of its initial content; then the outlet is closed and the inlet alone fills the tank. Find the total hours.",
+    "options": [
+      "39",
+      "39/2",
+      "9",
+      "18"
+    ],
+    "correct_option": "B",
+    "correct_answer": "39/2",
+    "explanation": "Starting at 3/5, half of that amount is removed at net rate 1/10 - 1/15; then the inlet alone fills the remaining 7/10. Total = 39/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_partial_fill",
+      "variant": 2,
+      "inputs": {
+        "inlet": 15,
+        "outlet": 10,
+        "frac": "3/5",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0024",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=18 h; outlet=12 h; initial=1/3 full. Both pipes run together until the tank holds half of its initial content; then the outlet is closed and the inlet alone fills the tank. Find the total hours.",
+    "options": [
+      "42",
+      "12",
+      "6",
+      "21"
+    ],
+    "correct_option": "D",
+    "correct_answer": "21",
+    "explanation": "Starting at 1/3, half of that amount is removed at net rate 1/12 - 1/18; then the inlet alone fills the remaining 5/6. Total = 21 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_partial_fill",
+      "variant": 3,
+      "inputs": {
+        "inlet": 18,
+        "outlet": 12,
+        "frac": "1/3",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0025",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: inlet=9 h; outlet=6 h; initial=3/4 full. Both pipes run together until the tank holds half of its initial content; then the outlet is closed and the inlet alone fills the tank. Find the total hours.",
+    "options": [
+      "99/4",
+      "27/4",
+      "99/8",
+      "27/2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "99/8",
+    "explanation": "Starting at 3/4, half of that amount is removed at net rate 1/6 - 1/9; then the inlet alone fills the remaining 5/8. Total = 99/8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_partial_fill",
+      "variant": 4,
+      "inputs": {
+        "inlet": 9,
+        "outlet": 6,
+        "frac": "3/4",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0026",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: A=18 h; B=12 h; C=9 h; A alone=3 h; A+B=2 h. A works alone, then B joins, then C joins and all three finish. Find the total hours to fill.",
+    "options": [
+      "4",
+      "65/9",
+      "5",
+      "130/9"
+    ],
+    "correct_option": "B",
+    "correct_answer": "65/9",
+    "explanation": "After A alone for 3 h and A+B for 2 h, the balance is filled at rate 1/18+1/12+1/9; the elapsed total is 65/9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_three_sequence",
+      "variant": 0,
+      "inputs": {
+        "a": 18,
+        "b": 12,
+        "c": 9,
+        "after_a": 3,
+        "after_b": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0027",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: A=24 h; B=16 h; C=12 h; A alone=4 h; A+B=3 h. A works alone, then B joins, then C joins and all three finish. Find the total hours to fill.",
+    "options": [
+      "176/9",
+      "16/3",
+      "7",
+      "88/9"
+    ],
+    "correct_option": "D",
+    "correct_answer": "88/9",
+    "explanation": "After A alone for 4 h and A+B for 3 h, the balance is filled at rate 1/24+1/16+1/12; the elapsed total is 88/9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_three_sequence",
+      "variant": 1,
+      "inputs": {
+        "a": 24,
+        "b": 16,
+        "c": 12,
+        "after_a": 4,
+        "after_b": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0028",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: A=20 h; B=15 h; C=10 h; A alone=2 h; A+B=3 h. A works alone, then B joins, then C joins and all three finish. Find the total hours to fill.",
+    "options": [
+      "196/13",
+      "98/13",
+      "60/13",
+      "5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "98/13",
+    "explanation": "After A alone for 2 h and A+B for 3 h, the balance is filled at rate 1/20+1/15+1/10; the elapsed total is 98/13 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_three_sequence",
+      "variant": 2,
+      "inputs": {
+        "a": 20,
+        "b": 15,
+        "c": 10,
+        "after_a": 2,
+        "after_b": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0029",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: A=30 h; B=20 h; C=15 h; A alone=5 h; A+B=4 h. A works alone, then B joins, then C joins and all three finish. Find the total hours to fill.",
+    "options": [
+      "9",
+      "20/3",
+      "37/3",
+      "74/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "37/3",
+    "explanation": "After A alone for 5 h and A+B for 4 h, the balance is filled at rate 1/30+1/20+1/15; the elapsed total is 37/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_three_sequence",
+      "variant": 3,
+      "inputs": {
+        "a": 30,
+        "b": 20,
+        "c": 15,
+        "after_a": 5,
+        "after_b": 4,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0030",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: A=12 h; B=8 h; C=6 h; A alone=1 h; A+B=2 h. A works alone, then B joins, then C joins and all three finish. Find the total hours to fill.",
+    "options": [
+      "8/3",
+      "26/3",
+      "13/3",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "13/3",
+    "explanation": "After A alone for 1 h and A+B for 2 h, the balance is filled at rate 1/12+1/8+1/6; the elapsed total is 13/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_three_sequence",
+      "variant": 4,
+      "inputs": {
+        "a": 12,
+        "b": 8,
+        "c": 6,
+        "after_a": 1,
+        "after_b": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0031",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: capacity=120 L; solo fill=12 h; already=20 L. A pipe fills a 120-litre tank in 12 hours. The tank already holds 20 litres; at half capacity the flow is raised by 20 litres/hour. Find the total hours to fill.",
+    "options": [
+      "10",
+      "12",
+      "6",
+      "7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Original flow is 10 L/h. Reaching half capacity takes 4 h; the last half at the raised flow takes 2 h. Total 6 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_change",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "base": 120,
+        "extra": 20,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0032",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: capacity=120 L; solo fill=12 h; already=40 L. A pipe fills a 120-litre tank in 12 hours. The tank already holds 40 litres; at half capacity the flow is raised by 40 litres/hour. Find the total hours to fill.",
+    "options": [
+      "6",
+      "32/5",
+      "16/5",
+      "8"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16/5",
+    "explanation": "Original flow is 10 L/h. Reaching half capacity takes 2 h; the last half at the raised flow takes 6/5 h. Total 16/5 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_change",
+      "variant": 1,
+      "inputs": {
+        "inlet": 12,
+        "base": 120,
+        "extra": 40,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0033",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: capacity=180 L; solo fill=18 h; already=30 L. A pipe fills a 180-litre tank in 18 hours. The tank already holds 30 litres; at half capacity the flow is raised by 30 litres/hour. Find the total hours to fill.",
+    "options": [
+      "33/4",
+      "9",
+      "33/2",
+      "15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "33/4",
+    "explanation": "Original flow is 10 L/h. Reaching half capacity takes 6 h; the last half at the raised flow takes 9/4 h. Total 33/4 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_change",
+      "variant": 2,
+      "inputs": {
+        "inlet": 18,
+        "base": 180,
+        "extra": 30,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0034",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: capacity=150 L; solo fill=15 h; already=50 L. A pipe fills a 150-litre tank in 15 hours. The tank already holds 50 litres; at half capacity the flow is raised by 50 litres/hour. Find the total hours to fill.",
+    "options": [
+      "10",
+      "15/4",
+      "15/2",
+      "19/4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15/4",
+    "explanation": "Original flow is 10 L/h. Reaching half capacity takes 5/2 h; the last half at the raised flow takes 5/4 h. Total 15/4 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_change",
+      "variant": 3,
+      "inputs": {
+        "inlet": 15,
+        "base": 150,
+        "extra": 50,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0035",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 2,
+    "section": "pipe_and_cistern_mains_part_2",
+    "question_text": "Data: capacity=100 L; solo fill=10 h; already=25 L. A pipe fills a 100-litre tank in 10 hours. The tank already holds 25 litres; at half capacity the flow is raised by 25 litres/hour. Find the total hours to fill.",
+    "options": [
+      "15/2",
+      "5",
+      "55/7",
+      "55/14"
+    ],
+    "correct_option": "D",
+    "correct_answer": "55/14",
+    "explanation": "Original flow is 10 L/h. Reaching half capacity takes 5/2 h; the last half at the raised flow takes 10/7 h. Total 55/14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_change",
+      "variant": 4,
+      "inputs": {
+        "inlet": 10,
+        "base": 100,
+        "extra": 25,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0036",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: full fill=12 h; flow=15 L/h; drop=25%; full-flow run=3 h. An inlet at full efficiency fills the tank in the full-fill time; after the full-flow run its efficiency falls by the stated percent. Find the total hours to fill.",
+    "options": [
+      "16",
+      "12",
+      "15",
+      "30"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15",
+    "explanation": "Full-flow work leaves 3/4 of the tank. With efficiency cut by 25%, a full tank would take 16 h, so the balance takes its proportional share; total 15 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_efficiency_drop",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "rate": 15,
+        "drop": 25,
+        "after": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0037",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: full fill=10 h; flow=18 L/h; drop=20%; full-flow run=2 h. An inlet at full efficiency fills the tank in the full-fill time; after the full-flow run its efficiency falls by the stated percent. Find the total hours to fill.",
+    "options": [
+      "12",
+      "10",
+      "24",
+      "25/2"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "Full-flow work leaves 4/5 of the tank. With efficiency cut by 20%, a full tank would take 25/2 h, so the balance takes its proportional share; total 12 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_efficiency_drop",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "rate": 18,
+        "drop": 20,
+        "after": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0038",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: full fill=15 h; flow=12 L/h; drop=40%; full-flow run=5 h. An inlet at full efficiency fills the tank in the full-fill time; after the full-flow run its efficiency falls by the stated percent. Find the total hours to fill.",
+    "options": [
+      "65/3",
+      "130/3",
+      "25",
+      "15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "65/3",
+    "explanation": "Full-flow work leaves 2/3 of the tank. With efficiency cut by 40%, a full tank would take 25 h, so the balance takes its proportional share; total 65/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_efficiency_drop",
+      "variant": 2,
+      "inputs": {
+        "inlet": 15,
+        "rate": 12,
+        "drop": 40,
+        "after": 5,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0039",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: full fill=8 h; flow=20 L/h; drop=25%; full-flow run=2 h. An inlet at full efficiency fills the tank in the full-fill time; after the full-flow run its efficiency falls by the stated percent. Find the total hours to fill.",
+    "options": [
+      "10",
+      "20",
+      "8",
+      "32/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10",
+    "explanation": "Full-flow work leaves 3/4 of the tank. With efficiency cut by 25%, a full tank would take 32/3 h, so the balance takes its proportional share; total 10 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_efficiency_drop",
+      "variant": 3,
+      "inputs": {
+        "inlet": 8,
+        "rate": 20,
+        "drop": 25,
+        "after": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0040",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: full fill=18 h; flow=10 L/h; drop=10%; full-flow run=6 h. An inlet at full efficiency fills the tank in the full-fill time; after the full-flow run its efficiency falls by the stated percent. Find the total hours to fill.",
+    "options": [
+      "18",
+      "20",
+      "116/3",
+      "58/3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "58/3",
+    "explanation": "Full-flow work leaves 2/3 of the tank. With efficiency cut by 10%, a full tank would take 20 h, so the balance takes its proportional share; total 58/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_efficiency_drop",
+      "variant": 4,
+      "inputs": {
+        "inlet": 18,
+        "rate": 10,
+        "drop": 10,
+        "after": 6,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0041",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: capacity=120 L; solo fill=12 h; waste=4 L/h. An inlet fills the tank in the solo-fill time; once the tank is one-third full a waste tap drains litres per hour. Find the total hours to fill.",
+    "options": [
+      "20",
+      "52/3",
+      "104/3",
+      "12"
+    ],
+    "correct_option": "B",
+    "correct_answer": "52/3",
+    "explanation": "The first third takes 4 h. Inlet flow is 10 L/h, so after waste begins the net is 6 L/h; total 52/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tank_waste",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "waste": 4,
+        "capacity": 120,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0042",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: capacity=180 L; solo fill=15 h; waste=3 L/h. An inlet fills the tank in the solo-fill time; once the tank is one-third full a waste tap drains litres per hour. Find the total hours to fill.",
+    "options": [
+      "110/3",
+      "55/3",
+      "15",
+      "20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "55/3",
+    "explanation": "The first third takes 5 h. Inlet flow is 12 L/h, so after waste begins the net is 9 L/h; total 55/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tank_waste",
+      "variant": 1,
+      "inputs": {
+        "inlet": 15,
+        "waste": 3,
+        "capacity": 180,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0043",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: capacity=240 L; solo fill=20 h; waste=2 L/h. An inlet fills the tank in the solo-fill time; once the tank is one-third full a waste tap drains litres per hour. Find the total hours to fill.",
+    "options": [
+      "68/3",
+      "136/3",
+      "20",
+      "24"
+    ],
+    "correct_option": "A",
+    "correct_answer": "68/3",
+    "explanation": "The first third takes 20/3 h. Inlet flow is 12 L/h, so after waste begins the net is 10 L/h; total 68/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tank_waste",
+      "variant": 2,
+      "inputs": {
+        "inlet": 20,
+        "waste": 2,
+        "capacity": 240,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0044",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: capacity=100 L; solo fill=10 h; waste=2 L/h. An inlet fills the tank in the solo-fill time; once the tank is one-third full a waste tap drains litres per hour. Find the total hours to fill.",
+    "options": [
+      "25/2",
+      "70/3",
+      "35/3",
+      "10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35/3",
+    "explanation": "The first third takes 10/3 h. Inlet flow is 10 L/h, so after waste begins the net is 8 L/h; total 35/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tank_waste",
+      "variant": 3,
+      "inputs": {
+        "inlet": 10,
+        "waste": 2,
+        "capacity": 100,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0045",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: capacity=150 L; solo fill=10 h; waste=5 L/h. An inlet fills the tank in the solo-fill time; once the tank is one-third full a waste tap drains litres per hour. Find the total hours to fill.",
+    "options": [
+      "10",
+      "80/3",
+      "40/3",
+      "15"
+    ],
+    "correct_option": "C",
+    "correct_answer": "40/3",
+    "explanation": "The first third takes 10/3 h. Inlet flow is 15 L/h, so after waste begins the net is 10 L/h; total 40/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tank_waste",
+      "variant": 4,
+      "inputs": {
+        "inlet": 10,
+        "waste": 5,
+        "capacity": 150,
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0046",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: solo fill=12 h; on=2 h; cycle=3 h. The inlet runs for the on duration and stays closed for the rest of each cycle, starting with an on period on an empty tank. Find the elapsed hours until it is full.",
+    "options": [
+      "12",
+      "17",
+      "6",
+      "34"
+    ],
+    "correct_option": "B",
+    "correct_answer": "17",
+    "explanation": "Each cycle contributes 1/6 of the tank over 3 elapsed hours. Tracking the on-hours exactly gives 17 elapsed hours.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_intermittent",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "run": 2,
+        "cycle": 3,
+        "ask": "elapsed"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0047",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: solo fill=10 h; on=2 h; cycle=5 h. The inlet runs for the on duration and stays closed for the rest of each cycle, starting with an on period on an empty tank. Find the elapsed hours until it is full.",
+    "options": [
+      "44",
+      "22",
+      "10",
+      "23"
+    ],
+    "correct_option": "B",
+    "correct_answer": "22",
+    "explanation": "Each cycle contributes 1/5 of the tank over 5 elapsed hours. Tracking the on-hours exactly gives 22 elapsed hours.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_intermittent",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "run": 2,
+        "cycle": 5,
+        "ask": "elapsed"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0048",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: solo fill=9 h; on=2 h; cycle=4 h. The inlet runs for the on duration and stays closed for the rest of each cycle, starting with an on period on an empty tank. Find the elapsed hours until it is full.",
+    "options": [
+      "8",
+      "34",
+      "9",
+      "17"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17",
+    "explanation": "Each cycle contributes 2/9 of the tank over 4 elapsed hours. Tracking the on-hours exactly gives 17 elapsed hours.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_intermittent",
+      "variant": 2,
+      "inputs": {
+        "inlet": 9,
+        "run": 2,
+        "cycle": 4,
+        "ask": "elapsed"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0049",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: solo fill=15 h; on=2 h; cycle=3 h. The inlet runs for the on duration and stays closed for the rest of each cycle, starting with an on period on an empty tank. Find the elapsed hours until it is full.",
+    "options": [
+      "15",
+      "6",
+      "22",
+      "44"
+    ],
+    "correct_option": "C",
+    "correct_answer": "22",
+    "explanation": "Each cycle contributes 2/15 of the tank over 3 elapsed hours. Tracking the on-hours exactly gives 22 elapsed hours.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_intermittent",
+      "variant": 3,
+      "inputs": {
+        "inlet": 15,
+        "run": 2,
+        "cycle": 3,
+        "ask": "elapsed"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0050",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: solo fill=8 h; on=3 h; cycle=5 h. The inlet runs for the on duration and stays closed for the rest of each cycle, starting with an on period on an empty tank. Find the elapsed hours until it is full.",
+    "options": [
+      "12",
+      "24",
+      "15",
+      "8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12",
+    "explanation": "Each cycle contributes 3/8 of the tank over 5 elapsed hours. Tracking the on-hours exactly gives 12 elapsed hours.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_intermittent",
+      "variant": 4,
+      "inputs": {
+        "inlet": 8,
+        "run": 3,
+        "cycle": 5,
+        "ask": "elapsed"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0051",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: A solo=8 h; B solo=12 h; A initial=1/4 full; B initial=1/2 full; question=catch_up. Both inlets are opened. Find the hours until the two tanks are equally full.",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "12"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6",
+    "explanation": "A gains at 1/8 per hour and B at 1/12 per hour from initial levels 1/4 and 1/2. The required comparison gives 6 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_tanks",
+      "variant": 0,
+      "inputs": {
+        "a": 8,
+        "b": 12,
+        "t1": "1/4",
+        "t2": "1/2",
+        "ask": "catch_up"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0052",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: A solo=10 h; B solo=15 h; A initial=1/5 full; B initial=2/5 full; question=both_full. Both inlets are opened. Find the hours until both tanks are full.",
+    "options": [
+      "10",
+      "9",
+      "8",
+      "18"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "A gains at 1/10 per hour and B at 1/15 per hour from initial levels 1/5 and 2/5. The required comparison gives 9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_tanks",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "t1": "1/5",
+        "t2": "2/5",
+        "ask": "both_full"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0053",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: A solo=6 h; B solo=9 h; A initial=1/6 full; B initial=1/3 full; question=catch_up. Both inlets are opened. Find the hours until the two tanks are equally full.",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3",
+    "explanation": "A gains at 1/6 per hour and B at 1/9 per hour from initial levels 1/6 and 1/3. The required comparison gives 3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_tanks",
+      "variant": 2,
+      "inputs": {
+        "a": 6,
+        "b": 9,
+        "t1": "1/6",
+        "t2": "1/3",
+        "ask": "catch_up"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0054",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: A solo=12 h; B solo=18 h; A initial=1/3 full; B initial=5/6 full; question=both_full. Both inlets are opened. Find the hours until both tanks are full.",
+    "options": [
+      "16",
+      "3",
+      "9",
+      "8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8",
+    "explanation": "A gains at 1/12 per hour and B at 1/18 per hour from initial levels 1/3 and 5/6. The required comparison gives 8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_tanks",
+      "variant": 3,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "t1": "1/3",
+        "t2": "5/6",
+        "ask": "both_full"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0055",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: A solo=9 h; B solo=12 h; A initial=1/9 full; B initial=1/3 full; question=catch_up. Both inlets are opened. Find the hours until the two tanks are equally full.",
+    "options": [
+      "16",
+      "9",
+      "8",
+      "10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8",
+    "explanation": "A gains at 1/9 per hour and B at 1/12 per hour from initial levels 1/9 and 1/3. The required comparison gives 8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_two_tanks",
+      "variant": 4,
+      "inputs": {
+        "a": 9,
+        "b": 12,
+        "t1": "1/9",
+        "t2": "1/3",
+        "ask": "catch_up"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0056",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=12 h; outlet time=3/2 x inlet; initial=1/3 full. A tank is one-third full. The inlet and outlet are opened together; find the hours until the tank is full.",
+    "options": [
+      "24",
+      "12",
+      "48",
+      "18"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24",
+    "explanation": "Outlet alone takes 18 h. Net fill rate is 1/12 - 1/18; filling the missing 2/3 takes 24 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_time_ratio",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "outlet_ratio": "3/2",
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0057",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=10 h; outlet time=5/4 x inlet; initial=1/3 full. A tank is one-third full. The inlet and outlet are opened together; find the hours until the tank is full.",
+    "options": [
+      "25/3",
+      "200/3",
+      "25/2",
+      "100/3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "100/3",
+    "explanation": "Outlet alone takes 25/2 h. Net fill rate is 1/10 - 1/25/2; filling the missing 2/3 takes 100/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_time_ratio",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "outlet_ratio": "5/4",
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0058",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=8 h; outlet time=2 x inlet; initial=1/3 full. A tank is one-third full. The inlet and outlet are opened together; find the hours until the tank is full.",
+    "options": [
+      "16",
+      "32/3",
+      "64/3",
+      "35/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "32/3",
+    "explanation": "Outlet alone takes 16 h. Net fill rate is 1/8 - 1/16; filling the missing 2/3 takes 32/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_time_ratio",
+      "variant": 2,
+      "inputs": {
+        "inlet": 8,
+        "outlet_ratio": "2",
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0059",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=15 h; outlet time=5/3 x inlet; initial=1/3 full. A tank is one-third full. The inlet and outlet are opened together; find the hours until the tank is full.",
+    "options": [
+      "50/3",
+      "25",
+      "26",
+      "50"
+    ],
+    "correct_option": "B",
+    "correct_answer": "25",
+    "explanation": "Outlet alone takes 25 h. Net fill rate is 1/15 - 1/25; filling the missing 2/3 takes 25 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_time_ratio",
+      "variant": 3,
+      "inputs": {
+        "inlet": 15,
+        "outlet_ratio": "5/3",
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0060",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=9 h; outlet time=4/3 x inlet; initial=1/3 full. A tank is one-third full. The inlet and outlet are opened together; find the hours until the tank is full.",
+    "options": [
+      "12",
+      "48",
+      "8",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Outlet alone takes 12 h. Net fill rate is 1/9 - 1/12; filling the missing 2/3 takes 24 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_time_ratio",
+      "variant": 4,
+      "inputs": {
+        "inlet": 9,
+        "outlet_ratio": "4/3",
+        "ask": "fill"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0061",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=12 h; outlet=18 h; inlet first=6 h; outlet next=3 h. Starting empty, the inlet runs for the first stated hours, the outlet alone runs for the next stated hours, and then the inlet alone finishes. Find the total hours.",
+    "options": [
+      "17",
+      "34",
+      "9",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "17",
+    "explanation": "After filling 1/2 and draining 1/6, the remaining 2/3 is filled by the inlet; total 17 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_fill_empty_cycle",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "outlet": 18,
+        "fill_hours": 6,
+        "empty_hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0062",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=10 h; outlet=15 h; inlet first=4 h; outlet next=3 h. Starting empty, the inlet runs for the first stated hours, the outlet alone runs for the next stated hours, and then the inlet alone finishes. Find the total hours.",
+    "options": [
+      "30",
+      "6",
+      "15",
+      "7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15",
+    "explanation": "After filling 2/5 and draining 1/5, the remaining 4/5 is filled by the inlet; total 15 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_fill_empty_cycle",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "outlet": 15,
+        "fill_hours": 4,
+        "empty_hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0063",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=8 h; outlet=12 h; inlet first=3 h; outlet next=2 h. Starting empty, the inlet runs for the first stated hours, the outlet alone runs for the next stated hours, and then the inlet alone finishes. Find the total hours.",
+    "options": [
+      "5",
+      "34/3",
+      "68/3",
+      "37/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "34/3",
+    "explanation": "After filling 3/8 and draining 1/6, the remaining 19/24 is filled by the inlet; total 34/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_fill_empty_cycle",
+      "variant": 2,
+      "inputs": {
+        "inlet": 8,
+        "outlet": 12,
+        "fill_hours": 3,
+        "empty_hours": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0064",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=9 h; outlet=6 h; inlet first=4 h; outlet next=2 h. Starting empty, the inlet runs for the first stated hours, the outlet alone runs for the next stated hours, and then the inlet alone finishes. Find the total hours.",
+    "options": [
+      "14",
+      "28",
+      "6",
+      "5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "14",
+    "explanation": "After filling 4/9 and draining 1/3, the remaining 8/9 is filled by the inlet; total 14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_fill_empty_cycle",
+      "variant": 3,
+      "inputs": {
+        "inlet": 9,
+        "outlet": 6,
+        "fill_hours": 4,
+        "empty_hours": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0065",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 3,
+    "section": "pipe_and_cistern_mains_part_3",
+    "question_text": "Data: inlet=15 h; outlet=10 h; inlet first=8 h; outlet next=3 h. Starting empty, the inlet runs for the first stated hours, the outlet alone runs for the next stated hours, and then the inlet alone finishes. Find the total hours.",
+    "options": [
+      "11",
+      "45/2",
+      "7",
+      "45"
+    ],
+    "correct_option": "B",
+    "correct_answer": "45/2",
+    "explanation": "After filling 8/15 and draining 3/10, the remaining 23/30 is filled by the inlet; total 45/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_fill_empty_cycle",
+      "variant": 4,
+      "inputs": {
+        "inlet": 15,
+        "outlet": 10,
+        "fill_hours": 8,
+        "empty_hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0066",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: solo fill=30 h; inlets=4; gap=1 h. One inlet is opened at the start and one more at the end of every hour until all are open. Find the elapsed hours until an empty tank is full.",
+    "options": [
+      "15/2",
+      "9",
+      "18",
+      "4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "During the first 4 hours the tank gains 1+2+...+4 = 10 pipe-hours, i.e. 1/3 of the tank. All n pipes then finish it; total 9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_parallel_inlets",
+      "variant": 0,
+      "inputs": {
+        "a": 30,
+        "n": 4,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0067",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: solo fill=42 h; inlets=5; gap=1 h. One inlet is opened at the start and one more at the end of every hour until all are open. Find the elapsed hours until an empty tank is full.",
+    "options": [
+      "5",
+      "52/5",
+      "42/5",
+      "104/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "52/5",
+    "explanation": "During the first 5 hours the tank gains 1+2+...+5 = 15 pipe-hours, i.e. 5/14 of the tank. All n pipes then finish it; total 52/5 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_parallel_inlets",
+      "variant": 1,
+      "inputs": {
+        "a": 42,
+        "n": 5,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0068",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: solo fill=24 h; inlets=3; gap=1 h. One inlet is opened at the start and one more at the end of every hour until all are open. Find the elapsed hours until an empty tank is full.",
+    "options": [
+      "8",
+      "9",
+      "3",
+      "18"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "During the first 3 hours the tank gains 1+2+...+3 = 6 pipe-hours, i.e. 1/4 of the tank. All n pipes then finish it; total 9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_parallel_inlets",
+      "variant": 2,
+      "inputs": {
+        "a": 24,
+        "n": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0069",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: solo fill=40 h; inlets=6; gap=1 h. One inlet is opened at the start and one more at the end of every hour until all are open. Find the elapsed hours until an empty tank is full.",
+    "options": [
+      "55/3",
+      "55/6",
+      "20/3",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "55/6",
+    "explanation": "During the first 6 hours the tank gains 1+2+...+6 = 21 pipe-hours, i.e. 21/40 of the tank. All n pipes then finish it; total 55/6 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_parallel_inlets",
+      "variant": 3,
+      "inputs": {
+        "a": 40,
+        "n": 6,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0070",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: solo fill=56 h; inlets=7; gap=1 h. One inlet is opened at the start and one more at the end of every hour until all are open. Find the elapsed hours until an empty tank is full.",
+    "options": [
+      "22",
+      "8",
+      "11",
+      "7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "11",
+    "explanation": "During the first 7 hours the tank gains 1+2+...+7 = 28 pipe-hours, i.e. 1/2 of the tank. All n pipes then finish it; total 11 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_parallel_inlets",
+      "variant": 4,
+      "inputs": {
+        "a": 56,
+        "n": 7,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0071",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet=12 h; leak=1/3 of inflow. An inlet starts filling an empty tank. When the tank is half full a leak develops that loses the stated fraction of the inlet flow. Find the total hours to fill.",
+    "options": [
+      "8",
+      "15",
+      "30",
+      "12"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15",
+    "explanation": "Half full takes 6 h. The leak leaves a fraction 2/3 of the inflow effective, so the other half takes 9 h; total 15 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leak_fraction",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "leak_frac": "1/3",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0072",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet=10 h; leak=1/4 of inflow. An inlet starts filling an empty tank. When the tank is half full a leak develops that loses the stated fraction of the inlet flow. Find the total hours to fill.",
+    "options": [
+      "70/3",
+      "10",
+      "35/3",
+      "25/4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35/3",
+    "explanation": "Half full takes 5 h. The leak leaves a fraction 3/4 of the inflow effective, so the other half takes 20/3 h; total 35/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leak_fraction",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "leak_frac": "1/4",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0073",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet=8 h; leak=2/5 of inflow. An inlet starts filling an empty tank. When the tank is half full a leak develops that loses the stated fraction of the inlet flow. Find the total hours to fill.",
+    "options": [
+      "64/3",
+      "32/3",
+      "28/5",
+      "8"
+    ],
+    "correct_option": "B",
+    "correct_answer": "32/3",
+    "explanation": "Half full takes 4 h. The leak leaves a fraction 3/5 of the inflow effective, so the other half takes 20/3 h; total 32/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leak_fraction",
+      "variant": 2,
+      "inputs": {
+        "inlet": 8,
+        "leak_frac": "2/5",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0074",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet=15 h; leak=1/5 of inflow. An inlet starts filling an empty tank. When the tank is half full a leak develops that loses the stated fraction of the inlet flow. Find the total hours to fill.",
+    "options": [
+      "135/4",
+      "15",
+      "135/8",
+      "9"
+    ],
+    "correct_option": "C",
+    "correct_answer": "135/8",
+    "explanation": "Half full takes 15/2 h. The leak leaves a fraction 4/5 of the inflow effective, so the other half takes 75/8 h; total 135/8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leak_fraction",
+      "variant": 3,
+      "inputs": {
+        "inlet": 15,
+        "leak_frac": "1/5",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0075",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet=18 h; leak=3/10 of inflow. An inlet starts filling an empty tank. When the tank is half full a leak develops that loses the stated fraction of the inlet flow. Find the total hours to fill.",
+    "options": [
+      "306/7",
+      "18",
+      "153/7",
+      "117/10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "153/7",
+    "explanation": "Half full takes 9 h. The leak leaves a fraction 7/10 of the inflow effective, so the other half takes 90/7 h; total 153/7 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_leak_fraction",
+      "variant": 4,
+      "inputs": {
+        "inlet": 18,
+        "leak_frac": "3/10",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0076",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: unit tap=24 h; areas=1,2; durations=4,3 h. Taps whose flow rates are proportional to their areas are opened one at a time for the listed durations; then a unit-area tap alone finishes the tank. Find those extra hours.",
+    "options": [
+      "28",
+      "14",
+      "12",
+      "10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "14",
+    "explanation": "Pipe-hours delivered are 10 against a unit-tap requirement of 24 pipe-hours, so the finishing tap needs 14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tap_sizes",
+      "variant": 0,
+      "inputs": {
+        "base": 24,
+        "areas": [
+          1,
+          2
+        ],
+        "times": [
+          4,
+          3
+        ],
+        "ask": "finish_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0077",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: unit tap=30 h; areas=1,2,3; durations=3,2,1 h. Taps whose flow rates are proportional to their areas are opened one at a time for the listed durations; then a unit-area tap alone finishes the tank. Find those extra hours.",
+    "options": [
+      "10",
+      "20",
+      "40",
+      "15"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20",
+    "explanation": "Pipe-hours delivered are 10 against a unit-tap requirement of 30 pipe-hours, so the finishing tap needs 20 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tap_sizes",
+      "variant": 1,
+      "inputs": {
+        "base": 30,
+        "areas": [
+          1,
+          2,
+          3
+        ],
+        "times": [
+          3,
+          2,
+          1
+        ],
+        "ask": "finish_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0078",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: unit tap=20 h; areas=2,3; durations=2,2 h. Taps whose flow rates are proportional to their areas are opened one at a time for the listed durations; then a unit-area tap alone finishes the tank. Find those extra hours.",
+    "options": [
+      "20",
+      "10",
+      "12",
+      "11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10",
+    "explanation": "Pipe-hours delivered are 10 against a unit-tap requirement of 20 pipe-hours, so the finishing tap needs 10 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tap_sizes",
+      "variant": 2,
+      "inputs": {
+        "base": 20,
+        "areas": [
+          2,
+          3
+        ],
+        "times": [
+          2,
+          2
+        ],
+        "ask": "finish_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0079",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: unit tap=36 h; areas=1,1,2; durations=6,4,3 h. Taps whose flow rates are proportional to their areas are opened one at a time for the listed durations; then a unit-area tap alone finishes the tank. Find those extra hours.",
+    "options": [
+      "40",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "Pipe-hours delivered are 16 against a unit-tap requirement of 36 pipe-hours, so the finishing tap needs 20 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tap_sizes",
+      "variant": 3,
+      "inputs": {
+        "base": 36,
+        "areas": [
+          1,
+          1,
+          2
+        ],
+        "times": [
+          6,
+          4,
+          3
+        ],
+        "ask": "finish_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0080",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: unit tap=48 h; areas=3,1,2; durations=4,5,3 h. Taps whose flow rates are proportional to their areas are opened one at a time for the listed durations; then a unit-area tap alone finishes the tank. Find those extra hours.",
+    "options": [
+      "25",
+      "50",
+      "24",
+      "23"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25",
+    "explanation": "Pipe-hours delivered are 23 against a unit-tap requirement of 48 pipe-hours, so the finishing tap needs 25 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_tap_sizes",
+      "variant": 4,
+      "inputs": {
+        "base": 48,
+        "areas": [
+          3,
+          1,
+          2
+        ],
+        "times": [
+          4,
+          5,
+          3
+        ],
+        "ask": "finish_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0081",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=12 h; B=18 h; B delay=3 h. A starts on an empty tank at once; B starts after the stated delay. Find the hours from A's start until the tank is full.",
+    "options": [
+      "36/5",
+      "8.4",
+      "16.8",
+      "30"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8.4",
+    "explanation": "A alone fills 1/4 in 3 h. The balance is then filled at 1/12+1/18, making the total 8.4 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_start_delay",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "delay": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0082",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=10 h; B=15 h; B delay=2 h. A starts on an empty tank at once; B starts after the stated delay. Find the hours from A's start until the tank is full.",
+    "options": [
+      "13.6",
+      "25",
+      "6",
+      "6.8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6.8",
+    "explanation": "A alone fills 1/5 in 2 h. The balance is then filled at 1/10+1/15, making the total 6.8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_start_delay",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "delay": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0083",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=8 h; B=12 h; B delay=1 h. A starts on an empty tank at once; B starts after the stated delay. Find the hours from A's start until the tank is full.",
+    "options": [
+      "20",
+      "10.4",
+      "5.2",
+      "24/5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5.2",
+    "explanation": "A alone fills 1/8 in 1 h. The balance is then filled at 1/8+1/12, making the total 5.2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_start_delay",
+      "variant": 2,
+      "inputs": {
+        "a": 8,
+        "b": 12,
+        "delay": 1,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0084",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=9 h; B=6 h; B delay=2 h. A starts on an empty tank at once; B starts after the stated delay. Find the hours from A's start until the tank is full.",
+    "options": [
+      "15",
+      "18/5",
+      "9.6",
+      "4.8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4.8",
+    "explanation": "A alone fills 2/9 in 2 h. The balance is then filled at 1/9+1/6, making the total 4.8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_start_delay",
+      "variant": 3,
+      "inputs": {
+        "a": 9,
+        "b": 6,
+        "delay": 2,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0085",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=15 h; B=10 h; B delay=5 h. A starts on an empty tank at once; B starts after the stated delay. Find the hours from A's start until the tank is full.",
+    "options": [
+      "18",
+      "6",
+      "25",
+      "9"
+    ],
+    "correct_option": "D",
+    "correct_answer": "9",
+    "explanation": "A alone fills 1/3 in 5 h. The balance is then filled at 1/15+1/10, making the total 9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_start_delay",
+      "variant": 4,
+      "inputs": {
+        "a": 15,
+        "b": 10,
+        "delay": 5,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0086",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=120 L; inlet=12 h; outlet=18 h; initial=30 L. Both pipes are opened on a tank holding the stated initial litres. Find the hours until the tank overflows.",
+    "options": [
+      "27",
+      "13.5",
+      "54",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27",
+    "explanation": "Inlet flow is 10 L/h and outlet flow is 20/3 L/h. The net fills the missing 90 L in 27 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_overflow",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "outlet": 18,
+        "capacity": 120,
+        "start": 30,
+        "ask": "overflow"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0087",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=180 L; inlet=15 h; outlet=20 h; initial=45 L. Both pipes are opened on a tank holding the stated initial litres. Find the hours until the tank overflows.",
+    "options": [
+      "90",
+      "15",
+      "45",
+      "11.25"
+    ],
+    "correct_option": "C",
+    "correct_answer": "45",
+    "explanation": "Inlet flow is 12 L/h and outlet flow is 9 L/h. The net fills the missing 135 L in 45 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_overflow",
+      "variant": 1,
+      "inputs": {
+        "inlet": 15,
+        "outlet": 20,
+        "capacity": 180,
+        "start": 45,
+        "ask": "overflow"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0088",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=240 L; inlet=16 h; outlet=24 h; initial=60 L. Both pipes are opened on a tank holding the stated initial litres. Find the hours until the tank overflows.",
+    "options": [
+      "72",
+      "36",
+      "12",
+      "18"
+    ],
+    "correct_option": "B",
+    "correct_answer": "36",
+    "explanation": "Inlet flow is 15 L/h and outlet flow is 10 L/h. The net fills the missing 180 L in 36 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_overflow",
+      "variant": 2,
+      "inputs": {
+        "inlet": 16,
+        "outlet": 24,
+        "capacity": 240,
+        "start": 60,
+        "ask": "overflow"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0089",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=100 L; inlet=10 h; outlet=15 h; initial=20 L. Both pipes are opened on a tank holding the stated initial litres. Find the hours until the tank overflows.",
+    "options": [
+      "8",
+      "24",
+      "12",
+      "48"
+    ],
+    "correct_option": "B",
+    "correct_answer": "24",
+    "explanation": "Inlet flow is 10 L/h and outlet flow is 20/3 L/h. The net fills the missing 80 L in 24 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_overflow",
+      "variant": 3,
+      "inputs": {
+        "inlet": 10,
+        "outlet": 15,
+        "capacity": 100,
+        "start": 20,
+        "ask": "overflow"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0090",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=150 L; inlet=12 h; outlet=20 h; initial=30 L. Both pipes are opened on a tank holding the stated initial litres. Find the hours until the tank overflows.",
+    "options": [
+      "9.6",
+      "24",
+      "48",
+      "16"
+    ],
+    "correct_option": "B",
+    "correct_answer": "24",
+    "explanation": "Inlet flow is 25/2 L/h and outlet flow is 15/2 L/h. The net fills the missing 120 L in 24 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_overflow",
+      "variant": 4,
+      "inputs": {
+        "inlet": 12,
+        "outlet": 20,
+        "capacity": 150,
+        "start": 30,
+        "ask": "overflow"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0091",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=120 L; solo fill=12 h; meter rate=₹3/L; surcharge=1.5x after one-third of fill time. Find the total metering cost of filling the tank.",
+    "options": [
+      "₹540",
+      "₹360",
+      "₹720",
+      "₹480"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹480",
+    "explanation": "The first 40 L is charged at ₹3/L and the remaining 80 L at 1.5 times that rate; total cost ₹480.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_metered_fill",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "capacity": 120,
+        "rate_per_litre": 3,
+        "ask": "cost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0092",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=180 L; solo fill=15 h; meter rate=₹4/L; surcharge=1.5x after one-third of fill time. Find the total metering cost of filling the tank.",
+    "options": [
+      "₹960",
+      "₹1440",
+      "₹1080",
+      "₹720"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹960",
+    "explanation": "The first 60 L is charged at ₹4/L and the remaining 120 L at 1.5 times that rate; total cost ₹960.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_metered_fill",
+      "variant": 1,
+      "inputs": {
+        "inlet": 15,
+        "capacity": 180,
+        "rate_per_litre": 4,
+        "ask": "cost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0093",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=150 L; solo fill=10 h; meter rate=₹2/L; surcharge=1.5x after one-third of fill time. Find the total metering cost of filling the tank.",
+    "options": [
+      "₹450",
+      "₹400",
+      "₹300",
+      "₹600"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹400",
+    "explanation": "The first 50 L is charged at ₹2/L and the remaining 100 L at 1.5 times that rate; total cost ₹400.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_metered_fill",
+      "variant": 2,
+      "inputs": {
+        "inlet": 10,
+        "capacity": 150,
+        "rate_per_litre": 2,
+        "ask": "cost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0094",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=240 L; solo fill=20 h; meter rate=₹5/L; surcharge=1.5x after one-third of fill time. Find the total metering cost of filling the tank.",
+    "options": [
+      "₹1200",
+      "₹1600",
+      "₹1800",
+      "₹2400"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹1600",
+    "explanation": "The first 80 L is charged at ₹5/L and the remaining 160 L at 1.5 times that rate; total cost ₹1600.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_metered_fill",
+      "variant": 3,
+      "inputs": {
+        "inlet": 20,
+        "capacity": 240,
+        "rate_per_litre": 5,
+        "ask": "cost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0095",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: capacity=90 L; solo fill=9 h; meter rate=₹7/L; surcharge=1.5x after one-third of fill time. Find the total metering cost of filling the tank.",
+    "options": [
+      "₹1260",
+      "₹630",
+      "₹840",
+      "₹945"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹840",
+    "explanation": "The first 30 L is charged at ₹7/L and the remaining 60 L at 1.5 times that rate; total cost ₹840.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_metered_fill",
+      "variant": 4,
+      "inputs": {
+        "inlet": 9,
+        "capacity": 90,
+        "rate_per_litre": 7,
+        "ask": "cost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0096",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet alone=12 h; inlet with outlet=18 h. An inlet fills a tank in the inlet-alone time; with an outlet also open the tank fills in the slower observed time. Find the hours for the outlet alone to empty a full tank.",
+    "options": [
+      "6",
+      "30",
+      "36",
+      "72"
+    ],
+    "correct_option": "C",
+    "correct_answer": "36",
+    "explanation": "The outlet rate is 1/12 - 1/18 = 1/36; its emptying time is the reciprocal, 36 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_reverse_outlet",
+      "variant": 0,
+      "inputs": {
+        "inlet": 12,
+        "net": 18,
+        "ask": "outlet_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0097",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet alone=10 h; inlet with outlet=15 h. An inlet fills a tank in the inlet-alone time; with an outlet also open the tank fills in the slower observed time. Find the hours for the outlet alone to empty a full tank.",
+    "options": [
+      "5",
+      "60",
+      "30",
+      "25"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30",
+    "explanation": "The outlet rate is 1/10 - 1/15 = 1/30; its emptying time is the reciprocal, 30 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_reverse_outlet",
+      "variant": 1,
+      "inputs": {
+        "inlet": 10,
+        "net": 15,
+        "ask": "outlet_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0098",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet alone=8 h; inlet with outlet=12 h. An inlet fills a tank in the inlet-alone time; with an outlet also open the tank fills in the slower observed time. Find the hours for the outlet alone to empty a full tank.",
+    "options": [
+      "4",
+      "20",
+      "24",
+      "48"
+    ],
+    "correct_option": "C",
+    "correct_answer": "24",
+    "explanation": "The outlet rate is 1/8 - 1/12 = 1/24; its emptying time is the reciprocal, 24 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_reverse_outlet",
+      "variant": 2,
+      "inputs": {
+        "inlet": 8,
+        "net": 12,
+        "ask": "outlet_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0099",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet alone=9 h; inlet with outlet=15 h. An inlet fills a tank in the inlet-alone time; with an outlet also open the tank fills in the slower observed time. Find the hours for the outlet alone to empty a full tank.",
+    "options": [
+      "45",
+      "24",
+      "6",
+      "45/2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "45/2",
+    "explanation": "The outlet rate is 1/9 - 1/15 = 2/45; its emptying time is the reciprocal, 45/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_reverse_outlet",
+      "variant": 3,
+      "inputs": {
+        "inlet": 9,
+        "net": 15,
+        "ask": "outlet_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0100",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: inlet alone=14 h; inlet with outlet=21 h. An inlet fills a tank in the inlet-alone time; with an outlet also open the tank fills in the slower observed time. Find the hours for the outlet alone to empty a full tank.",
+    "options": [
+      "42",
+      "7",
+      "35",
+      "84"
+    ],
+    "correct_option": "A",
+    "correct_answer": "42",
+    "explanation": "The outlet rate is 1/14 - 1/21 = 1/42; its emptying time is the reciprocal, 42 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_reverse_outlet",
+      "variant": 4,
+      "inputs": {
+        "inlet": 14,
+        "net": 21,
+        "ask": "outlet_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0101",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=18 h; B=12 h; C=9 h; switch after=3 h. A, B and C take one-hour turns in that order. After the stated hours C is closed and A,B alternate one-hour turns with A taking the next turn. Find total hours to fill.",
+    "options": [
+      "3",
+      "13",
+      "14",
+      "28"
+    ],
+    "correct_option": "C",
+    "correct_answer": "14",
+    "explanation": "The first 3 hours contribute one-hour shares of A,B,C; afterwards the balance is handled by alternating A and B. Exact hour-slot accounting gives 14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternate_three",
+      "variant": 0,
+      "inputs": {
+        "a": 18,
+        "b": 12,
+        "c": 9,
+        "hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0102",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=24 h; B=16 h; C=12 h; switch after=3 h. A, B and C take one-hour turns in that order. After the stated hours C is closed and A,B alternate one-hour turns with A taking the next turn. Find total hours to fill.",
+    "options": [
+      "3",
+      "52/3",
+      "56/3",
+      "112/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "56/3",
+    "explanation": "The first 3 hours contribute one-hour shares of A,B,C; afterwards the balance is handled by alternating A and B. Exact hour-slot accounting gives 56/3 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternate_three",
+      "variant": 1,
+      "inputs": {
+        "a": 24,
+        "b": 16,
+        "c": 12,
+        "hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0103",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=20 h; B=15 h; C=10 h; switch after=6 h. A, B and C take one-hour turns in that order. After the stated hours C is closed and A,B alternate one-hour turns with A taking the next turn. Find total hours to fill.",
+    "options": [
+      "6",
+      "15",
+      "63/4",
+      "63/2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "63/4",
+    "explanation": "The first 6 hours contribute one-hour shares of A,B,C; afterwards the balance is handled by alternating A and B. Exact hour-slot accounting gives 63/4 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternate_three",
+      "variant": 2,
+      "inputs": {
+        "a": 20,
+        "b": 15,
+        "c": 10,
+        "hours": 6,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0104",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=12 h; B=8 h; C=6 h; switch after=3 h. A, B and C take one-hour turns in that order. After the stated hours C is closed and A,B alternate one-hour turns with A taking the next turn. Find total hours to fill.",
+    "options": [
+      "9",
+      "3",
+      "26/3",
+      "18"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9",
+    "explanation": "The first 3 hours contribute one-hour shares of A,B,C; afterwards the balance is handled by alternating A and B. Exact hour-slot accounting gives 9 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternate_three",
+      "variant": 3,
+      "inputs": {
+        "a": 12,
+        "b": 8,
+        "c": 6,
+        "hours": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0105",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: A=30 h; B=20 h; C=15 h; switch after=6 h. A, B and C take one-hour turns in that order. After the stated hours C is closed and A,B alternate one-hour turns with A taking the next turn. Find total hours to fill.",
+    "options": [
+      "23",
+      "6",
+      "65/3",
+      "46"
+    ],
+    "correct_option": "A",
+    "correct_answer": "23",
+    "explanation": "The first 6 hours contribute one-hour shares of A,B,C; afterwards the balance is handled by alternating A and B. Exact hour-slot accounting gives 23 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 2-4",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_alternate_three",
+      "variant": 4,
+      "inputs": {
+        "a": 30,
+        "b": 20,
+        "c": 15,
+        "hours": 6,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0106",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: pump=12 h; old leak=24 h; change after=4 h; new leak=18 h. A pump and a leak run together; at the change time the old leak is replaced by the new leak. Find total hours to fill the tank.",
+    "options": [
+      "40",
+      "24",
+      "68",
+      "34"
+    ],
+    "correct_option": "D",
+    "correct_answer": "34",
+    "explanation": "For the first 4 h net rate is 1/12 - 1/24; afterwards it is 1/12 - 1/18. The exact remaining fill gives 34 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_pump_leak",
+      "variant": 0,
+      "inputs": {
+        "pump": 12,
+        "leak": 24,
+        "change_after": 4,
+        "new_leak": 18,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0107",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: pump=10 h; old leak=20 h; change after=3 h; new leak=15 h. A pump and a leak run together; at the change time the old leak is replaced by the new leak. Find total hours to fill the tank.",
+    "options": [
+      "33",
+      "57",
+      "20",
+      "57/2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "57/2",
+    "explanation": "For the first 3 h net rate is 1/10 - 1/20; afterwards it is 1/10 - 1/15. The exact remaining fill gives 57/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_pump_leak",
+      "variant": 1,
+      "inputs": {
+        "pump": 10,
+        "leak": 20,
+        "change_after": 3,
+        "new_leak": 15,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0108",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: pump=15 h; old leak=30 h; change after=5 h; new leak=20 h. A pump and a leak run together; at the change time the old leak is replaced by the new leak. Find total hours to fill the tank.",
+    "options": [
+      "30",
+      "55",
+      "110",
+      "65"
+    ],
+    "correct_option": "B",
+    "correct_answer": "55",
+    "explanation": "For the first 5 h net rate is 1/15 - 1/30; afterwards it is 1/15 - 1/20. The exact remaining fill gives 55 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_pump_leak",
+      "variant": 2,
+      "inputs": {
+        "pump": 15,
+        "leak": 30,
+        "change_after": 5,
+        "new_leak": 20,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0109",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: pump=8 h; old leak=16 h; change after=2 h; new leak=12 h. A pump and a leak run together; at the change time the old leak is replaced by the new leak. Find total hours to fill the tank.",
+    "options": [
+      "23",
+      "26",
+      "46",
+      "16"
+    ],
+    "correct_option": "A",
+    "correct_answer": "23",
+    "explanation": "For the first 2 h net rate is 1/8 - 1/16; afterwards it is 1/8 - 1/12. The exact remaining fill gives 23 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_pump_leak",
+      "variant": 3,
+      "inputs": {
+        "pump": 8,
+        "leak": 16,
+        "change_after": 2,
+        "new_leak": 12,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0110",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: pump=18 h; old leak=36 h; change after=6 h; new leak=27 h. A pump and a leak run together; at the change time the old leak is replaced by the new leak. Find total hours to fill the tank.",
+    "options": [
+      "60",
+      "51",
+      "36",
+      "102"
+    ],
+    "correct_option": "B",
+    "correct_answer": "51",
+    "explanation": "For the first 6 h net rate is 1/18 - 1/36; afterwards it is 1/18 - 1/27. The exact remaining fill gives 51 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 5-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_pump_leak",
+      "variant": 4,
+      "inputs": {
+        "pump": 18,
+        "leak": 36,
+        "change_after": 6,
+        "new_leak": 27,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0111",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: drain=12 h; refill=10 h; stop at=1/4 full. A full tank is drained until only the stated fraction remains; the drain is closed and the refill pipe runs until the tank is three-fourths full. Find total elapsed hours.",
+    "options": [
+      "15/2",
+      "28",
+      "14",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "14",
+    "explanation": "Draining from full to 1/4 takes 9 h; refilling from 1/4 to 3/4 takes 5 h; total 14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_drain_refill",
+      "variant": 0,
+      "inputs": {
+        "drain": 12,
+        "refill": 10,
+        "frac": "1/4",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0112",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: drain=10 h; refill=15 h; stop at=1/3 full. A full tank is drained until only the stated fraction remains; the drain is closed and the refill pipe runs until the tank is three-fourths full. Find total elapsed hours.",
+    "options": [
+      "10",
+      "10/3",
+      "155/6",
+      "155/12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "155/12",
+    "explanation": "Draining from full to 1/3 takes 20/3 h; refilling from 1/3 to 3/4 takes 25/4 h; total 155/12 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_drain_refill",
+      "variant": 1,
+      "inputs": {
+        "drain": 10,
+        "refill": 15,
+        "frac": "1/3",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0113",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: drain=8 h; refill=12 h; stop at=1/2 full. A full tank is drained until only the stated fraction remains; the drain is closed and the refill pipe runs until the tank is three-fourths full. Find total elapsed hours.",
+    "options": [
+      "6",
+      "7",
+      "4",
+      "14"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7",
+    "explanation": "Draining from full to 1/2 takes 4 h; refilling from 1/2 to 3/4 takes 3 h; total 7 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_drain_refill",
+      "variant": 2,
+      "inputs": {
+        "drain": 8,
+        "refill": 12,
+        "frac": "1/2",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0114",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: drain=9 h; refill=18 h; stop at=1/6 full. A full tank is drained until only the stated fraction remains; the drain is closed and the refill pipe runs until the tank is three-fourths full. Find total elapsed hours.",
+    "options": [
+      "15",
+      "18",
+      "36",
+      "3/2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18",
+    "explanation": "Draining from full to 1/6 takes 15/2 h; refilling from 1/6 to 3/4 takes 21/2 h; total 18 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_drain_refill",
+      "variant": 3,
+      "inputs": {
+        "drain": 9,
+        "refill": 18,
+        "frac": "1/6",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0115",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: drain=15 h; refill=20 h; stop at=2/5 full. A full tank is drained until only the stated fraction remains; the drain is closed and the refill pipe runs until the tank is three-fourths full. Find total elapsed hours.",
+    "options": [
+      "12",
+      "6",
+      "32",
+      "16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16",
+    "explanation": "Draining from full to 2/5 takes 9 h; refilling from 2/5 to 3/4 takes 7 h; total 16 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_drain_refill",
+      "variant": 4,
+      "inputs": {
+        "drain": 15,
+        "refill": 20,
+        "frac": "2/5",
+        "ask": "time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0116",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: rate ratio A:B=2:3; A alone=15 h. Both pipes fill the tank together until it is half full; then A is closed and B alone finishes. Find the total hours.",
+    "options": [
+      "16",
+      "10",
+      "15/2",
+      "8"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8",
+    "explanation": "A's rate is 1/15; B's rate is 3/2 of A's. The first half takes 3 h and B's half takes 5 h; total 8 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_ratio",
+      "variant": 0,
+      "inputs": {
+        "ratio_a": 2,
+        "ratio_b": 3,
+        "time_a": 15,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0117",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: rate ratio A:B=3:2; A alone=12 h. Both pipes fill the tank together until it is half full; then A is closed and B alone finishes. Find the total hours.",
+    "options": [
+      "6",
+      "126/5",
+      "18",
+      "63/5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "63/5",
+    "explanation": "A's rate is 1/12; B's rate is 2/3 of A's. The first half takes 18/5 h and B's half takes 9 h; total 63/5 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_ratio",
+      "variant": 1,
+      "inputs": {
+        "ratio_a": 3,
+        "ratio_b": 2,
+        "time_a": 12,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0118",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: rate ratio A:B=1:2; A alone=18 h. Both pipes fill the tank together until it is half full; then A is closed and B alone finishes. Find the total hours.",
+    "options": [
+      "15",
+      "9",
+      "17/2",
+      "15/2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "15/2",
+    "explanation": "A's rate is 1/18; B's rate is 2/1 of A's. The first half takes 3 h and B's half takes 9/2 h; total 15/2 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_ratio",
+      "variant": 2,
+      "inputs": {
+        "ratio_a": 1,
+        "ratio_b": 2,
+        "time_a": 18,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0119",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: rate ratio A:B=3:4; A alone=20 h. Both pipes fill the tank together until it is half full; then A is closed and B alone finishes. Find the total hours.",
+    "options": [
+      "165/7",
+      "10",
+      "165/14",
+      "15"
+    ],
+    "correct_option": "C",
+    "correct_answer": "165/14",
+    "explanation": "A's rate is 1/20; B's rate is 4/3 of A's. The first half takes 30/7 h and B's half takes 15/2 h; total 165/14 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_ratio",
+      "variant": 3,
+      "inputs": {
+        "ratio_a": 3,
+        "ratio_b": 4,
+        "time_a": 20,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_mains-0120",
+    "chapter": "Pipe and Cistern (Mains)",
+    "chapter_key": "pipe_and_cistern_mains",
+    "part": 4,
+    "section": "pipe_and_cistern_mains_part_4",
+    "question_text": "Data: rate ratio A:B=2:5; A alone=21 h. Both pipes fill the tank together until it is half full; then A is closed and B alone finishes. Find the total hours.",
+    "options": [
+      "36/5",
+      "21/2",
+      "72/5",
+      "42/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36/5",
+    "explanation": "A's rate is 1/21; B's rate is 5/2 of A's. The first half takes 3 h and B's half takes 21/5 h; total 36/5 h.",
+    "difficulty": "HARD",
+    "source_name": "Pipe and Cistern Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Mains 01 _Class Notes.pdf, pp. 13-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "pcm_capacity_ratio",
+      "variant": 4,
+      "inputs": {
+        "ratio_a": 2,
+        "ratio_b": 5,
+        "time_a": 21,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

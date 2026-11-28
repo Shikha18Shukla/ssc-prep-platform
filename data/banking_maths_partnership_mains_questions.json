@@ -1,0 +1,4712 @@
+[
+  {
+    "id": "partnership_mains-0001",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A starts with Rs 120000 and B with Rs 90000. A adds Rs 30000 at the start of month 7, while B withdraws Rs 20000 at the start of month 5. The year's profit is Rs 254000. Find A's share.",
+    "options": [
+      "₹1016000/7",
+      "₹157000",
+      "₹167000",
+      "₹162000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹162000",
+    "explanation": "A's time-weighted capital = 120000*12 + 30000*6 = 1620000; B's = 90000*12 - 20000*8 = 920000. A's share = 254000*1620000/(1620000+920000) = Rs 162000; ignoring the timing changes would wrongly give Rs 1016000/7.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_timeline_add_withdraw",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "add": 30000,
+        "am": 7,
+        "wd": 20000,
+        "wm": 5,
+        "P": 254000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0002",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A starts with Rs 150000 and B with Rs 120000. A adds Rs 30000 at the start of month 4, while B withdraws Rs 20000 at the start of month 9. The year's profit is Rs 343000. Find A's share.",
+    "options": [
+      "₹1715000/9",
+      "₹202000",
+      "₹207000",
+      "₹212000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹207000",
+    "explanation": "A's time-weighted capital = 150000*12 + 30000*9 = 2070000; B's = 120000*12 - 20000*4 = 1360000. A's share = 343000*2070000/(2070000+1360000) = Rs 207000; ignoring the timing changes would wrongly give Rs 1715000/9.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_timeline_add_withdraw",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "add": 30000,
+        "am": 4,
+        "wd": 20000,
+        "wm": 9,
+        "P": 343000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0003",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A starts with Rs 180000 and B with Rs 150000. A adds Rs 60000 at the start of month 10, while B withdraws Rs 30000 at the start of month 3. The year's profit is Rs 384000. Find A's share.",
+    "options": [
+      "₹239000",
+      "₹2304000/11",
+      "₹234000",
+      "₹229000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹234000",
+    "explanation": "A's time-weighted capital = 180000*12 + 60000*3 = 2340000; B's = 150000*12 - 30000*10 = 1500000. A's share = 384000*2340000/(2340000+1500000) = Rs 234000; ignoring the timing changes would wrongly give Rs 2304000/11.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_timeline_add_withdraw",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "add": 60000,
+        "am": 10,
+        "wd": 30000,
+        "wm": 3,
+        "P": 384000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0004",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A starts with Rs 200000 and B with Rs 160000. A adds Rs 40000 at the start of month 6, while B withdraws Rs 40000 at the start of month 8. The year's profit is Rs 440000. Find A's share.",
+    "options": [
+      "₹273000",
+      "₹268000",
+      "₹263000",
+      "₹2200000/9"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹268000",
+    "explanation": "A's time-weighted capital = 200000*12 + 40000*7 = 2680000; B's = 160000*12 - 40000*5 = 1720000. A's share = 440000*2680000/(2680000+1720000) = Rs 268000; ignoring the timing changes would wrongly give Rs 2200000/9.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_timeline_add_withdraw",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "add": 40000,
+        "am": 6,
+        "wd": 40000,
+        "wm": 8,
+        "P": 440000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0005",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A starts with Rs 240000 and B with Rs 200000. A adds Rs 60000 at the start of month 8, while B withdraws Rs 50000 at the start of month 4. The year's profit is Rs 513000. Find A's share.",
+    "options": [
+      "₹318000",
+      "₹3078000/11",
+      "₹313000",
+      "₹323000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹318000",
+    "explanation": "A's time-weighted capital = 240000*12 + 60000*5 = 3180000; B's = 200000*12 - 50000*9 = 1950000. A's share = 513000*3180000/(3180000+1950000) = Rs 318000; ignoring the timing changes would wrongly give Rs 3078000/11.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_timeline_add_withdraw",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 200000,
+        "add": 60000,
+        "am": 8,
+        "wd": 50000,
+        "wm": 4,
+        "P": 513000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0006",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A invests Rs 120000 for the year but withdraws Rs 30000 at the start of month 6. B joins with Rs 90000 at the start of month 4. Profit is Rs 204000. Find the absolute difference between their profit shares.",
+    "options": [
+      "₹52000",
+      "₹42000",
+      "₹81000",
+      "₹123000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹42000",
+    "explanation": "A's time-weighted capital = 120000*12 - 30000*7 = 1230000; B's = 90000*9 = 810000. Shares are Rs 123000 and Rs 81000 after division in 1230000:810000, so the difference is Rs 42000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_late_join_withdraw_diff",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "jm": 4,
+        "wd": 30000,
+        "wm": 6,
+        "P": 204000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0007",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A invests Rs 150000 for the year but withdraws Rs 20000 at the start of month 8. B joins with Rs 120000 at the start of month 3. Profit is Rs 290000. Find the absolute difference between their profit shares.",
+    "options": [
+      "₹50000",
+      "₹170000",
+      "₹60000",
+      "₹120000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹50000",
+    "explanation": "A's time-weighted capital = 150000*12 - 20000*5 = 1700000; B's = 120000*10 = 1200000. Shares are Rs 170000 and Rs 120000 after division in 1700000:1200000, so the difference is Rs 50000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_late_join_withdraw_diff",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "jm": 3,
+        "wd": 20000,
+        "wm": 8,
+        "P": 290000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0008",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A invests Rs 180000 for the year but withdraws Rs 60000 at the start of month 10. B joins with Rs 150000 at the start of month 5. Profit is Rs 318000. Find the absolute difference between their profit shares.",
+    "options": [
+      "₹120000",
+      "₹198000",
+      "₹88000",
+      "₹78000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹78000",
+    "explanation": "A's time-weighted capital = 180000*12 - 60000*3 = 1980000; B's = 150000*8 = 1200000. Shares are Rs 198000 and Rs 120000 after division in 1980000:1200000, so the difference is Rs 78000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_late_join_withdraw_diff",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "jm": 5,
+        "wd": 60000,
+        "wm": 10,
+        "P": 318000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0009",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A invests Rs 200000 for the year but withdraws Rs 40000 at the start of month 7. B joins with Rs 160000 at the start of month 2. Profit is Rs 392000. Find the absolute difference between their profit shares.",
+    "options": [
+      "₹176000",
+      "₹216000",
+      "₹50000",
+      "₹40000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹40000",
+    "explanation": "A's time-weighted capital = 200000*12 - 40000*6 = 2160000; B's = 160000*11 = 1760000. Shares are Rs 216000 and Rs 176000 after division in 2160000:1760000, so the difference is Rs 40000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_late_join_withdraw_diff",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "jm": 2,
+        "wd": 40000,
+        "wm": 7,
+        "P": 392000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0010",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A invests Rs 240000 for the year but withdraws Rs 60000 at the start of month 9. B joins with Rs 180000 at the start of month 6. Profit is Rs 390000. Find the absolute difference between their profit shares.",
+    "options": [
+      "₹138000",
+      "₹148000",
+      "₹126000",
+      "₹264000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹138000",
+    "explanation": "A's time-weighted capital = 240000*12 - 60000*4 = 2640000; B's = 180000*7 = 1260000. Shares are Rs 264000 and Rs 126000 after division in 2640000:1260000, so the difference is Rs 138000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_late_join_withdraw_diff",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "jm": 6,
+        "wd": 60000,
+        "wm": 9,
+        "P": 390000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0011",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A and B invest Rs 180000 and Rs 120000. A works for the firm and is paid monthly (8000 per month for 12 months / 0% of profit / 0% of profit above Rs 0) before the balance profit of Rs 300000 is split in capital ratio. Find B's share.",
+    "options": [
+      "₹77600",
+      "₹120000",
+      "₹85600",
+      "₹81600"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹81600",
+    "explanation": "Working partner's remuneration is separated first: Rs 96000 (monthly). Balance = 300000 - 96000 = Rs 204000; B's share = 204000*120000/(180000+120000) = Rs 81600.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_working_salary_commission",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P": 300000,
+        "basis": "monthly",
+        "sal": 8000,
+        "months": 12,
+        "rate": 0,
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0012",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A and B invest Rs 200000 and Rs 120000. A works for the firm and is paid profit pct (0 per month for 0 months / 15% of profit / 15% of profit above Rs 0) before the balance profit of Rs 320000 is split in capital ratio. Find B's share.",
+    "options": [
+      "₹102000",
+      "₹120000",
+      "₹98000",
+      "₹106000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹102000",
+    "explanation": "Working partner's remuneration is separated first: Rs 48000 (profit_pct). Balance = 320000 - 48000 = Rs 272000; B's share = 272000*120000/(200000+120000) = Rs 102000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_working_salary_commission",
+      "variant": 1,
+      "inputs": {
+        "cA": 200000,
+        "cB": 120000,
+        "P": 320000,
+        "basis": "profit_pct",
+        "sal": 0,
+        "months": 0,
+        "rate": 15,
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0013",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A and B invest Rs 240000 and Rs 160000. A works for the firm and is paid excess pct (0 per month for 0 months / 25% of profit / 25% of profit above Rs 200000) before the balance profit of Rs 360000 is split in capital ratio. Find B's share.",
+    "options": [
+      "₹132000",
+      "₹128000",
+      "₹144000",
+      "₹124000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹128000",
+    "explanation": "Working partner's remuneration is separated first: Rs 40000 (excess_pct). Balance = 360000 - 40000 = Rs 320000; B's share = 320000*160000/(240000+160000) = Rs 128000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_working_salary_commission",
+      "variant": 2,
+      "inputs": {
+        "cA": 240000,
+        "cB": 160000,
+        "P": 360000,
+        "basis": "excess_pct",
+        "sal": 0,
+        "months": 0,
+        "rate": 25,
+        "threshold": 200000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0014",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A and B invest Rs 300000 and Rs 100000. A works for the firm and is paid monthly (12000 per month for 9 months / 0% of profit / 0% of profit above Rs 0) before the balance profit of Rs 480000 is split in capital ratio. Find B's share.",
+    "options": [
+      "₹93000",
+      "₹89000",
+      "₹120000",
+      "₹97000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹93000",
+    "explanation": "Working partner's remuneration is separated first: Rs 108000 (monthly). Balance = 480000 - 108000 = Rs 372000; B's share = 372000*100000/(300000+100000) = Rs 93000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_working_salary_commission",
+      "variant": 3,
+      "inputs": {
+        "cA": 300000,
+        "cB": 100000,
+        "P": 480000,
+        "basis": "monthly",
+        "sal": 12000,
+        "months": 9,
+        "rate": 0,
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0015",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 1,
+    "section": "partnership_mains_part_1",
+    "question_text": "A and B invest Rs 270000 and Rs 180000. A works for the firm and is paid excess pct (0 per month for 0 months / 20% of profit / 20% of profit above Rs 250000) before the balance profit of Rs 500000 is split in capital ratio. Find B's share.",
+    "options": [
+      "₹200000",
+      "₹184000",
+      "₹176000",
+      "₹180000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹180000",
+    "explanation": "Working partner's remuneration is separated first: Rs 50000 (excess_pct). Balance = 500000 - 50000 = Rs 450000; B's share = 450000*180000/(270000+180000) = Rs 180000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_working_salary_commission",
+      "variant": 4,
+      "inputs": {
+        "cA": 270000,
+        "cB": 180000,
+        "P": 500000,
+        "basis": "excess_pct",
+        "sal": 0,
+        "months": 0,
+        "rate": 20,
+        "threshold": 250000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0016",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share profits in the ratio 3:2:1 out of Rs 360000. A is guaranteed at least Rs 200000. Any shortfall is borne by B alone. Find B's final share.",
+    "options": [
+      "₹120000",
+      "₹95000",
+      "₹105000",
+      "₹100000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹100000",
+    "explanation": "Raw shares: A = 360000*3/6 = Rs 180000, B = Rs 120000. Guarantee shortfall = 200000 - 180000 = Rs 20000, borne by B_only; B's burden = Rs 20000. B's final share = Rs 100000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guaranteed_min_deficiency",
+      "variant": 0,
+      "inputs": {
+        "a": 3,
+        "b": 2,
+        "c": 1,
+        "P": 360000,
+        "guar": 200000,
+        "bearer": "B_only"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0017",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share profits in the ratio 4:3:1 out of Rs 400000. A is guaranteed at least Rs 250000. Any shortfall is borne by B and C in their profit ratio. Find B's final share.",
+    "options": [
+      "₹150000",
+      "₹112500",
+      "₹107500",
+      "₹117500"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹112500",
+    "explanation": "Raw shares: A = 400000*4/8 = Rs 200000, B = Rs 150000. Guarantee shortfall = 250000 - 200000 = Rs 50000, borne by BC_ratio; B's burden = Rs 37500. B's final share = Rs 112500.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guaranteed_min_deficiency",
+      "variant": 1,
+      "inputs": {
+        "a": 4,
+        "b": 3,
+        "c": 1,
+        "P": 400000,
+        "guar": 250000,
+        "bearer": "BC_ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0018",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share profits in the ratio 5:3:2 out of Rs 500000. A is guaranteed at least Rs 260000. Any shortfall is borne by B alone. Find B's final share.",
+    "options": [
+      "₹135000",
+      "₹150000",
+      "₹145000",
+      "₹140000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹140000",
+    "explanation": "Raw shares: A = 500000*5/10 = Rs 250000, B = Rs 150000. Guarantee shortfall = 260000 - 250000 = Rs 10000, borne by B_only; B's burden = Rs 10000. B's final share = Rs 140000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guaranteed_min_deficiency",
+      "variant": 2,
+      "inputs": {
+        "a": 5,
+        "b": 3,
+        "c": 2,
+        "P": 500000,
+        "guar": 260000,
+        "bearer": "B_only"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0019",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share profits in the ratio 2:3:1 out of Rs 300000. A is guaranteed at least Rs 120000. Any shortfall is borne by B and C in their profit ratio. Find B's final share.",
+    "options": [
+      "₹135000",
+      "₹130000",
+      "₹150000",
+      "₹140000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹135000",
+    "explanation": "Raw shares: A = 300000*2/6 = Rs 100000, B = Rs 150000. Guarantee shortfall = 120000 - 100000 = Rs 20000, borne by BC_ratio; B's burden = Rs 15000. B's final share = Rs 135000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guaranteed_min_deficiency",
+      "variant": 3,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "P": 300000,
+        "guar": 120000,
+        "bearer": "BC_ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0020",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share profits in the ratio 3:4:1 out of Rs 540000. A is guaranteed at least Rs 240000. Any shortfall is borne by B alone. Find B's final share.",
+    "options": [
+      "₹270000",
+      "₹232500",
+      "₹227500",
+      "₹237500"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹232500",
+    "explanation": "Raw shares: A = 540000*3/8 = Rs 202500, B = Rs 270000. Guarantee shortfall = 240000 - 202500 = Rs 37500, borne by B_only; B's burden = Rs 37500. B's final share = Rs 232500.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guaranteed_min_deficiency",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "c": 1,
+        "P": 540000,
+        "guar": 240000,
+        "bearer": "B_only"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0021",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A and B share in 3:2. A new partner is admitted for 20% of the profits, and the old partners then share the balance in 3:2. With total profit Rs 300000, find A's final share.",
+    "options": [
+      "₹144000",
+      "₹138000",
+      "₹150000",
+      "₹180000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹144000",
+    "explanation": "New partner's slice is 20% of 300000 = Rs 60000; balance = Rs 240000. A's share = 240000*3/(3+2) = Rs 144000; the pre-admission ratio 3:2 applies only to the balance.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_admission_new_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 3,
+        "b": 2,
+        "new_share": 20,
+        "na": 3,
+        "nb": 2,
+        "P": 300000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0022",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A and B share in 3:2. A new partner is admitted for 25% of the profits, and the old partners then share the balance in 1:1. With total profit Rs 360000, find A's final share.",
+    "options": [
+      "₹135000",
+      "₹129000",
+      "₹216000",
+      "₹141000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹135000",
+    "explanation": "New partner's slice is 25% of 360000 = Rs 90000; balance = Rs 270000. A's share = 270000*1/(1+1) = Rs 135000; the pre-admission ratio 3:2 applies only to the balance.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_admission_new_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 2,
+        "new_share": 25,
+        "na": 1,
+        "nb": 1,
+        "P": 360000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0023",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A and B share in 4:3. A new partner is admitted for 10% of the profits, and the old partners then share the balance in 4:3. With total profit Rs 420000, find A's final share.",
+    "options": [
+      "₹216000",
+      "₹240000",
+      "₹222000",
+      "₹210000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹216000",
+    "explanation": "New partner's slice is 10% of 420000 = Rs 42000; balance = Rs 378000. A's share = 378000*4/(4+3) = Rs 216000; the pre-admission ratio 4:3 applies only to the balance.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_admission_new_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 3,
+        "new_share": 10,
+        "na": 4,
+        "nb": 3,
+        "P": 420000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0024",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A and B share in 5:3. A new partner is admitted for 30% of the profits, and the old partners then share the balance in 2:1. With total profit Rs 480000, find A's final share.",
+    "options": [
+      "₹300000",
+      "₹218000",
+      "₹224000",
+      "₹230000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹224000",
+    "explanation": "New partner's slice is 30% of 480000 = Rs 144000; balance = Rs 336000. A's share = 336000*2/(2+1) = Rs 224000; the pre-admission ratio 5:3 applies only to the balance.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_admission_new_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 3,
+        "new_share": 30,
+        "na": 2,
+        "nb": 1,
+        "P": 480000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0025",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A and B share in 2:1. A new partner is admitted for 15% of the profits, and the old partners then share the balance in 3:2. With total profit Rs 520000, find A's final share.",
+    "options": [
+      "₹259200",
+      "₹265200",
+      "₹271200",
+      "₹1040000/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹265200",
+    "explanation": "New partner's slice is 15% of 520000 = Rs 78000; balance = Rs 442000. A's share = 442000*3/(3+2) = Rs 265200; the pre-admission ratio 2:1 applies only to the balance.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_admission_new_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 2,
+        "b": 1,
+        "new_share": 15,
+        "na": 3,
+        "nb": 2,
+        "P": 520000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0026",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share in 3:2:1. Partner B retires and that share is assigned to the continuing partners in 2:1 (A first). Find A's share of profit Rs 360000 after retirement.",
+    "options": [
+      "₹120000",
+      "₹180000",
+      "₹260000",
+      "₹265000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹260000",
+    "explanation": "A's own share = 360000*3/6 = Rs 180000. Retiring partner's share = Rs 120000; A receives 2/(2+1) of it = Rs 80000. Final A share = Rs 260000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_retirement_split_share",
+      "variant": 0,
+      "inputs": {
+        "a": 3,
+        "b": 2,
+        "c": 1,
+        "retire": "B",
+        "to_a": 2,
+        "to_other": 1,
+        "P": 360000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0027",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share in 4:3:1. Partner C retires and that share is assigned to the continuing partners in 1:0 (A first). Find A's share of profit Rs 480000 after retirement.",
+    "options": [
+      "₹300000",
+      "₹60000",
+      "₹240000",
+      "₹305000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹300000",
+    "explanation": "A's own share = 480000*4/8 = Rs 240000. Retiring partner's share = Rs 60000; A receives 1/(1+0) of it = Rs 60000. Final A share = Rs 300000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_retirement_split_share",
+      "variant": 1,
+      "inputs": {
+        "a": 4,
+        "b": 3,
+        "c": 1,
+        "retire": "C",
+        "to_a": 1,
+        "to_other": 0,
+        "P": 480000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0028",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share in 5:3:2. Partner B retires and that share is assigned to the continuing partners in 1:1 (A first). Find A's share of profit Rs 500000 after retirement.",
+    "options": [
+      "₹330000",
+      "₹325000",
+      "₹150000",
+      "₹250000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹325000",
+    "explanation": "A's own share = 500000*5/10 = Rs 250000. Retiring partner's share = Rs 150000; A receives 1/(1+1) of it = Rs 75000. Final A share = Rs 325000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_retirement_split_share",
+      "variant": 2,
+      "inputs": {
+        "a": 5,
+        "b": 3,
+        "c": 2,
+        "retire": "B",
+        "to_a": 1,
+        "to_other": 1,
+        "P": 500000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0029",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share in 2:3:1. Partner C retires and that share is assigned to the continuing partners in 3:2 (A first). Find A's share of profit Rs 420000 after retirement.",
+    "options": [
+      "₹140000",
+      "₹70000",
+      "₹182000",
+      "₹187000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹182000",
+    "explanation": "A's own share = 420000*2/6 = Rs 140000. Retiring partner's share = Rs 70000; A receives 3/(3+2) of it = Rs 42000. Final A share = Rs 182000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_retirement_split_share",
+      "variant": 3,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "c": 1,
+        "retire": "C",
+        "to_a": 3,
+        "to_other": 2,
+        "P": 420000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0030",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A, B and C share in 3:4:1. Partner B retires and that share is assigned to the continuing partners in 3:1 (A first). Find A's share of profit Rs 480000 after retirement.",
+    "options": [
+      "₹240000",
+      "₹180000",
+      "₹365000",
+      "₹360000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹360000",
+    "explanation": "A's own share = 480000*3/8 = Rs 180000. Retiring partner's share = Rs 240000; A receives 3/(3+1) of it = Rs 180000. Final A share = Rs 360000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_retirement_split_share",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "c": 1,
+        "retire": "B",
+        "to_a": 3,
+        "to_other": 1,
+        "P": 480000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0031",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A invests Rs 120000 for 2/3 of a year and B invests Rs 120000 for 3/4 of a year. Interest on capital is allowed at 10% p.a. and the remaining profit of Rs 187000 is shared in time-weighted capital ratio. Find B's total receipt.",
+    "options": [
+      "₹99000",
+      "₹90000",
+      "₹104000",
+      "₹9000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹99000",
+    "explanation": "Time-weighted capitals are 80000 and 90000. Interest is separated first: A Rs 8000, B Rs 9000; balance = Rs 170000. B's profit share = Rs 90000; total receipt = Rs 99000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_fractional_time_interest",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 120000,
+        "an": 2,
+        "ad": 3,
+        "bn": 3,
+        "bd": 4,
+        "rate": 10,
+        "P": 187000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0032",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A invests Rs 150000 for 3/4 of a year and B invests Rs 120000 for 2/3 of a year. Interest on capital is allowed at 8% p.a. and the remaining profit of Rs 207900 is shared in time-weighted capital ratio. Find B's total receipt.",
+    "options": [
+      "₹80000",
+      "₹86400",
+      "₹91400",
+      "₹6400"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹86400",
+    "explanation": "Time-weighted capitals are 112500 and 80000. Interest is separated first: A Rs 9000, B Rs 6400; balance = Rs 192500. B's profit share = Rs 80000; total receipt = Rs 86400.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_fractional_time_interest",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "an": 3,
+        "ad": 4,
+        "bn": 2,
+        "bd": 3,
+        "rate": 8,
+        "P": 207900
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0033",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A invests Rs 180000 for 1/2 of a year and B invests Rs 150000 for 5/6 of a year. Interest on capital is allowed at 12% p.a. and the remaining profit of Rs 240800 is shared in time-weighted capital ratio. Find B's total receipt.",
+    "options": [
+      "₹15000",
+      "₹125000",
+      "₹140000",
+      "₹145000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹140000",
+    "explanation": "Time-weighted capitals are 90000 and 125000. Interest is separated first: A Rs 10800, B Rs 15000; balance = Rs 215000. B's profit share = Rs 125000; total receipt = Rs 140000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_fractional_time_interest",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "an": 1,
+        "ad": 2,
+        "bn": 5,
+        "bd": 6,
+        "rate": 12,
+        "P": 240800
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0034",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A invests Rs 200000 for 3/5 of a year and B invests Rs 160000 for 4/5 of a year. Interest on capital is allowed at 10% p.a. and the remaining profit of Rs 272800 is shared in time-weighted capital ratio. Find B's total receipt.",
+    "options": [
+      "₹145800",
+      "₹12800",
+      "₹128000",
+      "₹140800"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹140800",
+    "explanation": "Time-weighted capitals are 120000 and 128000. Interest is separated first: A Rs 12000, B Rs 12800; balance = Rs 248000. B's profit share = Rs 128000; total receipt = Rs 140800.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_fractional_time_interest",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "an": 3,
+        "ad": 5,
+        "bn": 4,
+        "bd": 5,
+        "rate": 10,
+        "P": 272800
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0035",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 2,
+    "section": "partnership_mains_part_2",
+    "question_text": "A invests Rs 240000 for 2/3 of a year and B invests Rs 180000 for 1/2 of a year. Interest on capital is allowed at 15% p.a. and the remaining profit of Rs 287500 is shared in time-weighted capital ratio. Find B's total receipt.",
+    "options": [
+      "₹103500",
+      "₹108500",
+      "₹13500",
+      "₹90000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹103500",
+    "explanation": "Time-weighted capitals are 160000 and 90000. Interest is separated first: A Rs 24000, B Rs 13500; balance = Rs 250000. B's profit share = Rs 90000; total receipt = Rs 103500.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_fractional_time_interest",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "an": 2,
+        "ad": 3,
+        "bn": 1,
+        "bd": 2,
+        "rate": 15,
+        "P": 287500
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0036",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B have capitals Rs 180000 and Rs 120000. The firm takes a loan of Rs 100000 from B at 12% interest; tax of 10% and cess of 2% on that tax are deducted from the interest. Profit before this adjustment is Rs 310776. Find A's final receipt.",
+    "options": [
+      "₹180001",
+      "₹185000",
+      "₹10776",
+      "₹180000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹180000",
+    "explanation": "Gross interest = Rs 12000; tax = Rs 1200 and cess = Rs 24 are deducted, leaving net interest Rs 10776 (paid to B). Balance for capital division = Rs 300000; A's capital share = Rs 180000 and total = Rs 180000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_loan_interest_tax_cess",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "loan": 100000,
+        "lender": "B",
+        "rate": 12,
+        "tax": 10,
+        "cess": 2,
+        "P": 310776
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0037",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B have capitals Rs 150000 and Rs 100000. The firm takes a loan of Rs 80000 from A at 10% interest; tax of 20% and cess of 3% on that tax are deducted from the interest. Profit before this adjustment is Rs 263352. Find A's final receipt.",
+    "options": [
+      "₹160552",
+      "₹165552",
+      "₹154200",
+      "₹6352"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹160552",
+    "explanation": "Gross interest = Rs 8000; tax = Rs 1600 and cess = Rs 48 are deducted, leaving net interest Rs 6352 (paid to A). Balance for capital division = Rs 257000; A's capital share = Rs 154200 and total = Rs 160552.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_loan_interest_tax_cess",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 100000,
+        "loan": 80000,
+        "lender": "A",
+        "rate": 10,
+        "tax": 20,
+        "cess": 3,
+        "P": 263352
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0038",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B have capitals Rs 200000 and Rs 150000. The firm takes a loan of Rs 120000 from B at 15% interest; tax of 10% and cess of 1% on that tax are deducted from the interest. Profit before this adjustment is Rs 296182. Find A's final receipt.",
+    "options": [
+      "₹160000",
+      "₹160001",
+      "₹16182",
+      "₹165000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹160000",
+    "explanation": "Gross interest = Rs 18000; tax = Rs 1800 and cess = Rs 18 are deducted, leaving net interest Rs 16182 (paid to B). Balance for capital division = Rs 280000; A's capital share = Rs 160000 and total = Rs 160000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_loan_interest_tax_cess",
+      "variant": 2,
+      "inputs": {
+        "cA": 200000,
+        "cB": 150000,
+        "loan": 120000,
+        "lender": "B",
+        "rate": 15,
+        "tax": 10,
+        "cess": 1,
+        "P": 296182
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0039",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B have capitals Rs 240000 and Rs 180000. The firm takes a loan of Rs 90000 from A at 8% interest; tax of 15% and cess of 5% on that tax are deducted from the interest. Profit before this adjustment is Rs 356066. Find A's final receipt.",
+    "options": [
+      "₹200000",
+      "₹6066",
+      "₹211066",
+      "₹206066"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹206066",
+    "explanation": "Gross interest = Rs 7200; tax = Rs 1080 and cess = Rs 54 are deducted, leaving net interest Rs 6066 (paid to A). Balance for capital division = Rs 350000; A's capital share = Rs 200000 and total = Rs 206066.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_loan_interest_tax_cess",
+      "variant": 3,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "loan": 90000,
+        "lender": "A",
+        "rate": 8,
+        "tax": 15,
+        "cess": 5,
+        "P": 356066
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0040",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B have capitals Rs 160000 and Rs 120000. The firm takes a loan of Rs 150000 from B at 10% interest; tax of 5% and cess of 4% on that tax are deducted from the interest. Profit before this adjustment is Rs 294220. Find A's final receipt.",
+    "options": [
+      "₹14220",
+      "₹160001",
+      "₹160000",
+      "₹165000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹160000",
+    "explanation": "Gross interest = Rs 15000; tax = Rs 750 and cess = Rs 30 are deducted, leaving net interest Rs 14220 (paid to B). Balance for capital division = Rs 280000; A's capital share = Rs 160000 and total = Rs 160000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_loan_interest_tax_cess",
+      "variant": 4,
+      "inputs": {
+        "cA": 160000,
+        "cB": 120000,
+        "loan": 150000,
+        "lender": "B",
+        "rate": 10,
+        "tax": 5,
+        "cess": 4,
+        "P": 294220
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0041",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B invest Rs 180000 and Rs 120000 and earn Rs 150000, split in 3:2. Each reinvests his share for 2 years: A at 10% and B at 12% p.a. on a simple interest basis. Find the difference between their maturity amounts.",
+    "options": [
+      "₹60000",
+      "₹90000",
+      "₹33600",
+      "₹34600"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹33600",
+    "explanation": "First profit split: A Rs 90000, B Rs 60000. Growth factors are 6/5 and 31/25 (simple); maturities are Rs 108000 and Rs 74400, so the gap is Rs 33600.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reinvest_different_rates",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P1": 150000,
+        "ra": 3,
+        "rb": 2,
+        "rateA": 10,
+        "rateB": 12,
+        "years": 2,
+        "basis": "simple"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0042",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B invest Rs 180000 and Rs 120000 and earn Rs 150000, split in 3:2. Each reinvests his share for 2 years: A at 8% and B at 10% p.a. on a compound interest basis. Find the difference between their maturity amounts.",
+    "options": [
+      "₹32376",
+      "₹60000",
+      "₹90000",
+      "₹33376"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹32376",
+    "explanation": "First profit split: A Rs 90000, B Rs 60000. Growth factors are 729/625 and 121/100 (compound); maturities are Rs 104976 and Rs 72600, so the gap is Rs 32376.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reinvest_different_rates",
+      "variant": 1,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P1": 150000,
+        "ra": 3,
+        "rb": 2,
+        "rateA": 8,
+        "rateB": 10,
+        "years": 2,
+        "basis": "compound"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0043",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B invest Rs 180000 and Rs 120000 and earn Rs 150000, split in 3:2. Each reinvests his share for 3 years: A at 12% and B at 9% p.a. on a simple interest basis. Find the difference between their maturity amounts.",
+    "options": [
+      "₹60000",
+      "₹90000",
+      "₹47200",
+      "₹46200"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹46200",
+    "explanation": "First profit split: A Rs 90000, B Rs 60000. Growth factors are 34/25 and 127/100 (simple); maturities are Rs 122400 and Rs 76200, so the gap is Rs 46200.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reinvest_different_rates",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P1": 150000,
+        "ra": 3,
+        "rb": 2,
+        "rateA": 12,
+        "rateB": 9,
+        "years": 3,
+        "basis": "simple"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0044",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B invest Rs 180000 and Rs 120000 and earn Rs 150000, split in 3:2. Each reinvests his share for 2 years: A at 10% and B at 5% p.a. on a compound interest basis. Find the difference between their maturity amounts.",
+    "options": [
+      "₹42750",
+      "₹90000",
+      "₹43750",
+      "₹60000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹42750",
+    "explanation": "First profit split: A Rs 90000, B Rs 60000. Growth factors are 121/100 and 441/400 (compound); maturities are Rs 108900 and Rs 66150, so the gap is Rs 42750.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reinvest_different_rates",
+      "variant": 3,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P1": 150000,
+        "ra": 3,
+        "rb": 2,
+        "rateA": 10,
+        "rateB": 5,
+        "years": 2,
+        "basis": "compound"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0045",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A and B invest Rs 180000 and Rs 120000 and earn Rs 150000, split in 3:2. Each reinvests his share for 4 years: A at 15% and B at 8% p.a. on a simple interest basis. Find the difference between their maturity amounts.",
+    "options": [
+      "₹90000",
+      "₹60000",
+      "₹65800",
+      "₹64800"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹64800",
+    "explanation": "First profit split: A Rs 90000, B Rs 60000. Growth factors are 8/5 and 33/25 (simple); maturities are Rs 144000 and Rs 79200, so the gap is Rs 64800.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reinvest_different_rates",
+      "variant": 4,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P1": 150000,
+        "ra": 3,
+        "rb": 2,
+        "rateA": 15,
+        "rateB": 8,
+        "years": 4,
+        "basis": "simple"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0046",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A profit of Rs 300000 is shared between A and B in 3:2, but A first gets a bonus of 20% (of profit above Rs 200000) because the target Rs 200000 is crossed. Find B's share.",
+    "options": [
+      "₹112000",
+      "₹115000",
+      "₹20000",
+      "₹120000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹112000",
+    "explanation": "Target condition holds. Bonus is computed separately: Rs 20000 (excess_pct); balance = Rs 280000. B receives 2/(3+2) of the balance = Rs 112000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_target_bonus",
+      "variant": 0,
+      "inputs": {
+        "P": 300000,
+        "target": 200000,
+        "a": 3,
+        "b": 2,
+        "bonus": 20,
+        "basis": "excess_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0047",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A profit of Rs 360000 is shared between A and B in 5:4, but A first gets a bonus of 10% (of total profit) because the target Rs 250000 is crossed. Find B's share.",
+    "options": [
+      "₹144000",
+      "₹36000",
+      "₹160000",
+      "₹147000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹144000",
+    "explanation": "Target condition holds. Bonus is computed separately: Rs 36000 (total_pct); balance = Rs 324000. B receives 4/(5+4) of the balance = Rs 144000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_target_bonus",
+      "variant": 1,
+      "inputs": {
+        "P": 360000,
+        "target": 250000,
+        "a": 5,
+        "b": 4,
+        "bonus": 10,
+        "basis": "total_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0048",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A profit of Rs 420000 is shared between A and B in 3:1, but A first gets a bonus of 50% (of profit above Rs 400000) because the target Rs 400000 is crossed. Find B's share.",
+    "options": [
+      "₹105500",
+      "₹105000",
+      "₹102500",
+      "₹10000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹102500",
+    "explanation": "Target condition holds. Bonus is computed separately: Rs 10000 (excess_pct); balance = Rs 410000. B receives 1/(3+1) of the balance = Rs 102500.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_target_bonus",
+      "variant": 2,
+      "inputs": {
+        "P": 420000,
+        "target": 400000,
+        "a": 3,
+        "b": 1,
+        "bonus": 50,
+        "basis": "excess_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0049",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A profit of Rs 480000 is shared between A and B in 4:1, but A first gets a bonus of 25% (flat Rs) because the target Rs 300000 is crossed. Find B's share.",
+    "options": [
+      "₹96000",
+      "₹25",
+      "₹95995",
+      "₹98995"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹95995",
+    "explanation": "Target condition holds. Bonus is computed separately: Rs 25 (flat); balance = Rs 479975. B receives 1/(4+1) of the balance = Rs 95995.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_target_bonus",
+      "variant": 3,
+      "inputs": {
+        "P": 480000,
+        "target": 300000,
+        "a": 4,
+        "b": 1,
+        "bonus": 25,
+        "basis": "flat"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0050",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A profit of Rs 540000 is shared between A and B in 4:2, but A first gets a bonus of 15% (of total profit) because the target Rs 450000 is crossed. Find B's share.",
+    "options": [
+      "₹156000",
+      "₹81000",
+      "₹153000",
+      "₹180000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹153000",
+    "explanation": "Target condition holds. Bonus is computed separately: Rs 81000 (total_pct); balance = Rs 459000. B receives 2/(4+2) of the balance = Rs 153000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_target_bonus",
+      "variant": 4,
+      "inputs": {
+        "P": 540000,
+        "target": 450000,
+        "a": 4,
+        "b": 2,
+        "bonus": 15,
+        "basis": "total_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0051",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 180000; B joins with Rs 120000 in month 4; C joins with Rs 90000 in month 7. A withdraws Rs 30000 in month 9. Profit is Rs 366000. Find C's share.",
+    "options": [
+      "₹122000",
+      "₹54000",
+      "₹823500/13",
+      "₹58000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹54000",
+    "explanation": "Time-weighted capitals: A = 180000*12 - 30000*4 = 2040000, B = 120000*9 = 1080000, C = 90000*6 = 540000. Total = 3660000; C's share = 366000*540000/3660000 = Rs 54000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_overlapping",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "cC": 90000,
+        "jb": 4,
+        "jc": 7,
+        "wa_month": 9,
+        "wd": 30000,
+        "P": 366000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0052",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 180000; B joins with Rs 120000 in month 3; C joins with Rs 90000 in month 5. A withdraws Rs 60000 in month 10. Profit is Rs 390000. Find C's share.",
+    "options": [
+      "₹4680000/53",
+      "₹76000",
+      "₹72000",
+      "₹130000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹72000",
+    "explanation": "Time-weighted capitals: A = 180000*12 - 60000*3 = 1980000, B = 120000*10 = 1200000, C = 90000*8 = 720000. Total = 3900000; C's share = 390000*720000/3900000 = Rs 72000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_overlapping",
+      "variant": 1,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "cC": 90000,
+        "jb": 3,
+        "jc": 5,
+        "wa_month": 10,
+        "wd": 60000,
+        "P": 390000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0053",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 240000; B joins with Rs 180000 in month 5; C joins with Rs 120000 in month 8. A withdraws Rs 40000 in month 6. Profit is Rs 464000. Find C's share.",
+    "options": [
+      "₹464000/3",
+      "₹64000",
+      "₹6960000/101",
+      "₹60000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹60000",
+    "explanation": "Time-weighted capitals: A = 240000*12 - 40000*7 = 2600000, B = 180000*8 = 1440000, C = 120000*5 = 600000. Total = 4640000; C's share = 464000*600000/4640000 = Rs 60000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_overlapping",
+      "variant": 2,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "cC": 120000,
+        "jb": 5,
+        "jc": 8,
+        "wa_month": 6,
+        "wd": 40000,
+        "P": 464000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0054",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 200000; B joins with Rs 150000 in month 2; C joins with Rs 100000 in month 6. A withdraws Rs 50000 in month 8. Profit is Rs 450000. Find C's share.",
+    "options": [
+      "₹74000",
+      "₹150000",
+      "₹70000",
+      "₹1575000/19"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹70000",
+    "explanation": "Time-weighted capitals: A = 200000*12 - 50000*5 = 2150000, B = 150000*11 = 1650000, C = 100000*7 = 700000. Total = 4500000; C's share = 450000*700000/4500000 = Rs 70000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_overlapping",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 150000,
+        "cC": 100000,
+        "jb": 2,
+        "jc": 6,
+        "wa_month": 8,
+        "wd": 50000,
+        "P": 450000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0055",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 300000; B joins with Rs 200000 in month 4; C joins with Rs 150000 in month 9. A withdraws Rs 60000 in month 7. Profit is Rs 564000. Find C's share.",
+    "options": [
+      "₹64000",
+      "₹470000/7",
+      "₹188000",
+      "₹60000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹60000",
+    "explanation": "Time-weighted capitals: A = 300000*12 - 60000*6 = 3240000, B = 200000*9 = 1800000, C = 150000*4 = 600000. Total = 5640000; C's share = 564000*600000/5640000 = Rs 60000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_overlapping",
+      "variant": 4,
+      "inputs": {
+        "cA": 300000,
+        "cB": 200000,
+        "cC": 150000,
+        "jb": 4,
+        "jc": 9,
+        "wa_month": 7,
+        "wd": 60000,
+        "P": 564000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0056",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 120000 and adds Rs 30000 in month 7; B joins with Rs 90000 in month 4. A's profit share is Rs 162000. Find the total profit for the year.",
+    "options": [
+      "₹324000",
+      "₹252000",
+      "₹253000",
+      "₹243000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹243000",
+    "explanation": "Time-weighted capitals are 1620000 for A and 810000 for B, so weights are 1620000:810000. Since A's share is Rs 162000, total profit = 162000*(1620000+810000)/1620000 = Rs 243000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_share",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "jm": 4,
+        "add": 30000,
+        "am": 7,
+        "given": "A",
+        "S": 162000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0057",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 150000 and adds Rs 20000 in month 5; B joins with Rs 120000 in month 3. B's profit share is Rs 120000. Find the total profit for the year.",
+    "options": [
+      "₹316000",
+      "₹240000",
+      "₹326000",
+      "₹316001"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹316000",
+    "explanation": "Time-weighted capitals are 1960000 for A and 1200000 for B, so weights are 1960000:1200000. Since B's share is Rs 120000, total profit = 120000*(1960000+1200000)/1200000 = Rs 316000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_share",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "jm": 3,
+        "add": 20000,
+        "am": 5,
+        "given": "B",
+        "S": 120000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0058",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 180000 and adds Rs 60000 in month 10; B joins with Rs 150000 in month 6. A's profit share is Rs 234000. Find the total profit for the year.",
+    "options": [
+      "₹468000",
+      "₹384000",
+      "₹339000",
+      "₹349000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹339000",
+    "explanation": "Time-weighted capitals are 2340000 for A and 1050000 for B, so weights are 2340000:1050000. Since A's share is Rs 234000, total profit = 234000*(2340000+1050000)/2340000 = Rs 339000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_share",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "jm": 6,
+        "add": 60000,
+        "am": 10,
+        "given": "A",
+        "S": 234000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0059",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 200000 and adds Rs 40000 in month 8; B joins with Rs 160000 in month 5. B's profit share is Rs 128000. Find the total profit for the year.",
+    "options": [
+      "₹288000",
+      "₹256000",
+      "₹398000",
+      "₹388000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹388000",
+    "explanation": "Time-weighted capitals are 2600000 for A and 1280000 for B, so weights are 2600000:1280000. Since B's share is Rs 128000, total profit = 128000*(2600000+1280000)/1280000 = Rs 388000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_share",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "jm": 5,
+        "add": 40000,
+        "am": 8,
+        "given": "B",
+        "S": 128000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0060",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A starts with Rs 240000 and adds Rs 60000 in month 6; B joins with Rs 180000 in month 2. A's profit share is Rs 324000. Find the total profit for the year.",
+    "options": [
+      "₹648000",
+      "₹504000",
+      "₹518400",
+      "₹528400"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹518400",
+    "explanation": "Time-weighted capitals are 3300000 for A and 1980000 for B, so weights are 3300000:1980000. Since A's share is Rs 324000, total profit = 324000*(3300000+1980000)/3300000 = Rs 518400.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_share",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "jm": 2,
+        "add": 60000,
+        "am": 6,
+        "given": "A",
+        "S": 324000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0061",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A invests x for 12 months; B invests Rs 30000 more than x and stays in the business for 9 months. Total profit is Rs 279000 and B's share is Rs 135000. Find x, A's capital.",
+    "options": [
+      "₹130000",
+      "₹90000",
+      "₹120000",
+      "₹135000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹120000",
+    "explanation": "Let A's capital be x, so B's is x+30000 and weights are 12x and 9(x+30000). Solving Rs 135000 = 279000 * (B's weight)/(total weight) gives x = Rs 120000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_unknown_capital",
+      "variant": 0,
+      "inputs": {
+        "d": 30000,
+        "months": 9,
+        "P": 279000,
+        "given": "B",
+        "S": 135000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0062",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A invests x for 12 months; B invests Rs 40000 more than x and stays in the business for 7 months. Total profit is Rs 313000 and B's share is Rs 133000. Find x, A's capital.",
+    "options": [
+      "₹110000",
+      "₹160000",
+      "₹133000",
+      "₹150000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹150000",
+    "explanation": "Let A's capital be x, so B's is x+40000 and weights are 12x and 7(x+40000). Solving Rs 133000 = 313000 * (B's weight)/(total weight) gives x = Rs 150000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_unknown_capital",
+      "variant": 1,
+      "inputs": {
+        "d": 40000,
+        "months": 7,
+        "P": 313000,
+        "given": "B",
+        "S": 133000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0063",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A invests x for 12 months; B invests Rs 60000 more than x and stays in the business for 11 months. Total profit is Rs 480000 and A's share is Rs 216000. Find x, A's capital.",
+    "options": [
+      "₹190000",
+      "₹180000",
+      "₹216000",
+      "₹120000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹180000",
+    "explanation": "Let A's capital be x, so B's is x+60000 and weights are 12x and 11(x+60000). Solving Rs 216000 = 480000 * (B's weight)/(total weight) gives x = Rs 180000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_unknown_capital",
+      "variant": 2,
+      "inputs": {
+        "d": 60000,
+        "months": 11,
+        "P": 480000,
+        "given": "A",
+        "S": 216000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0064",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A invests x for 12 months; B invests Rs 30000 less than x and stays in the business for 10 months. Total profit is Rs 410000 and B's share is Rs 170000. Find x, A's capital.",
+    "options": [
+      "₹210000",
+      "₹230000",
+      "₹170000",
+      "₹200000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹200000",
+    "explanation": "Let A's capital be x, so B's is x-30000 and weights are 12x and 10(x-30000). Solving Rs 170000 = 410000 * (B's weight)/(total weight) gives x = Rs 200000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_unknown_capital",
+      "variant": 3,
+      "inputs": {
+        "d": -30000,
+        "months": 10,
+        "P": 410000,
+        "given": "B",
+        "S": 170000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0065",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 3,
+    "section": "partnership_mains_part_3",
+    "question_text": "A invests x for 12 months; B invests Rs 50000 more than x and stays in the business for 5 months. Total profit is Rs 433000 and B's share is Rs 145000. Find x, A's capital.",
+    "options": [
+      "₹250000",
+      "₹145000",
+      "₹240000",
+      "₹190000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹240000",
+    "explanation": "Let A's capital be x, so B's is x+50000 and weights are 12x and 5(x+50000). Solving Rs 145000 = 433000 * (B's weight)/(total weight) gives x = Rs 240000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_unknown_capital",
+      "variant": 4,
+      "inputs": {
+        "d": 50000,
+        "months": 5,
+        "P": 433000,
+        "given": "B",
+        "S": 145000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0066",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 120000 for the full 12 months. B invests Rs 180000 later. For equal shares, after how many months from the start must B join?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "4",
+    "explanation": "Using time-weighted capitals, A's weight is 120000*12 = 1440000. For equal shares, B's weight must be 1440000 of the comparable base, so 180000*(12 - x) is set accordingly; solving gives x = 4 months.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_equal_share_join_month",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 180000,
+        "mode": "equal"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0067",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 200000 for the full 12 months. B invests Rs 120000 later. For A's share twice B's, after how many months from the start must B join?",
+    "options": [
+      "3",
+      "2",
+      "1",
+      "10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "Using time-weighted capitals, A's weight is 200000*12 = 2400000. For A's share twice B's, B's weight must be 1200000 of the comparable base, so 120000*(12 - x) is set accordingly; solving gives x = 2 months.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_equal_share_join_month",
+      "variant": 1,
+      "inputs": {
+        "cA": 200000,
+        "cB": 120000,
+        "mode": "A_twice"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0068",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 100000 for the full 12 months. B invests Rs 240000 later. For B's share twice A's, after how many months from the start must B join?",
+    "options": [
+      "3",
+      "2",
+      "10",
+      "1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "Using time-weighted capitals, A's weight is 100000*12 = 1200000. For B's share twice A's, B's weight must be 1200000*2 of the comparable base, so 240000*(12 - x) is set accordingly; solving gives x = 2 months.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_equal_share_join_month",
+      "variant": 2,
+      "inputs": {
+        "cA": 100000,
+        "cB": 240000,
+        "mode": "B_twice"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0069",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 160000 for the full 12 months. B invests Rs 240000 later. For equal shares, after how many months from the start must B join?",
+    "options": [
+      "8",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4",
+    "explanation": "Using time-weighted capitals, A's weight is 160000*12 = 1920000. For equal shares, B's weight must be 1920000 of the comparable base, so 240000*(12 - x) is set accordingly; solving gives x = 4 months.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_equal_share_join_month",
+      "variant": 3,
+      "inputs": {
+        "cA": 160000,
+        "cB": 240000,
+        "mode": "equal"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0070",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 for the full 12 months. B invests Rs 120000 later. For A's share twice B's, after how many months from the start must B join?",
+    "options": [
+      "9",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3",
+    "explanation": "Using time-weighted capitals, A's weight is 180000*12 = 2160000. For A's share twice B's, B's weight must be 1080000 of the comparable base, so 120000*(12 - x) is set accordingly; solving gives x = 3 months.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_equal_share_join_month",
+      "variant": 4,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "mode": "A_twice"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0071",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 120000 for 12/12 year and B Rs 90000 for 9/12 year. Interest at 10% p.a. is credited first; the balance of profit Rs 150000 is split in the weighted capital ratio. Find the ratio of A's total receipt to B's total receipt.",
+    "options": [
+      "18:9",
+      "17:9",
+      "16:9",
+      "4:3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16:9",
+    "explanation": "Time-weighted capitals are 120000 and 67500. Interest: A Rs 12000, B Rs 6750; balance = Rs 131250. Profit shares are Rs 84000 and Rs 47250; adding interest gives the ratio 16:9.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_interest_capital_final_ratio",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "an": 12,
+        "ad": 12,
+        "bn": 9,
+        "bd": 12,
+        "rate": 10,
+        "P": 150000,
+        "basis": "weighted"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0072",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 150000 for 12/12 year and B Rs 90000 for 6/12 year. Interest at 8% p.a. is credited first; the balance of profit Rs 139200 is split in the capital capital ratio. Find the ratio of A's total receipt to B's total receipt.",
+    "options": [
+      "10:3",
+      "5:3",
+      "595:333",
+      "596:333"
+    ],
+    "correct_option": "C",
+    "correct_answer": "595:333",
+    "explanation": "Time-weighted capitals are 150000 and 45000. Interest: A Rs 12000, B Rs 3600; balance = Rs 123600. Profit shares are Rs 77250 and Rs 46350; adding interest gives the ratio 595:333.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_interest_capital_final_ratio",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 90000,
+        "an": 12,
+        "ad": 12,
+        "bn": 6,
+        "bd": 12,
+        "rate": 8,
+        "P": 139200,
+        "basis": "capital"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0073",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 for 10/12 year and B Rs 120000 for 8/12 year. Interest at 12% p.a. is credited first; the balance of profit Rs 257600 is split in the weighted capital ratio. Find the ratio of A's total receipt to B's total receipt.",
+    "options": [
+      "17:8",
+      "3:2",
+      "15:8",
+      "16:8"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15:8",
+    "explanation": "Time-weighted capitals are 150000 and 80000. Interest: A Rs 18000, B Rs 9600; balance = Rs 230000. Profit shares are Rs 150000 and Rs 80000; adding interest gives the ratio 15:8.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_interest_capital_final_ratio",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "an": 10,
+        "ad": 12,
+        "bn": 8,
+        "bd": 12,
+        "rate": 12,
+        "P": 257600,
+        "basis": "weighted"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0074",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 150000 for 12/12 year and B Rs 100000 for 6/12 year. Interest at 10% p.a. is credited first; the balance of profit Rs 200000 is split in the capital capital ratio. Find the ratio of A's total receipt to B's total receipt.",
+    "options": [
+      "123:77",
+      "124:77",
+      "3:2",
+      "3:1"
+    ],
+    "correct_option": "A",
+    "correct_answer": "123:77",
+    "explanation": "Time-weighted capitals are 150000 and 50000. Interest: A Rs 15000, B Rs 5000; balance = Rs 180000. Profit shares are Rs 108000 and Rs 72000; adding interest gives the ratio 123:77.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_interest_capital_final_ratio",
+      "variant": 3,
+      "inputs": {
+        "cA": 150000,
+        "cB": 100000,
+        "an": 12,
+        "ad": 12,
+        "bn": 6,
+        "bd": 12,
+        "rate": 10,
+        "P": 200000,
+        "basis": "capital"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0075",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 200000 for 9/12 year and B Rs 150000 for 12/12 year. Interest at 8% p.a. is credited first; the balance of profit Rs 260000 is split in the weighted capital ratio. Find the ratio of A's total receipt to B's total receipt.",
+    "options": [
+      "4:3",
+      "2:1",
+      "1:1",
+      "3:1"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1:1",
+    "explanation": "Time-weighted capitals are 150000 and 150000. Interest: A Rs 12000, B Rs 12000; balance = Rs 236000. Profit shares are Rs 118000 and Rs 118000; adding interest gives the ratio 1:1.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_interest_capital_final_ratio",
+      "variant": 4,
+      "inputs": {
+        "cA": 200000,
+        "cB": 150000,
+        "an": 9,
+        "ad": 12,
+        "bn": 12,
+        "bd": 12,
+        "rate": 8,
+        "P": 260000,
+        "basis": "weighted"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0076",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals of A, B, C are Rs 120000, Rs 90000, Rs 60000 invested for 12, 9 and 6 months. A is the manager and receives 10% commission on total profit before the balance of Rs 261000 is divided by time-weighted capitals. Find A's total receipt.",
+    "options": [
+      "₹155700",
+      "₹129600",
+      "₹144000",
+      "₹26100"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹155700",
+    "explanation": "Weights are 1440000:810000:360000. Commission is separated first: Rs 26100; balance = Rs 234900. A's share of balance = Rs 129600; total receipt = Rs 155700.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_manager_commission_three",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "cC": 60000,
+        "mA": 12,
+        "mB": 9,
+        "mC": 6,
+        "P": 261000,
+        "manager": "A",
+        "rate": 10,
+        "basis": "gross",
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0077",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals of A, B, C are Rs 120000, Rs 90000, Rs 60000 invested for 12, 9 and 6 months. C is the manager and receives 20% commission on profit above Rs 200000 before the balance of Rs 276250 is divided by time-weighted capitals. Find C's total receipt.",
+    "options": [
+      "₹51250",
+      "₹1105000/29",
+      "₹36000",
+      "₹15250"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹51250",
+    "explanation": "Weights are 1440000:810000:360000. Commission is separated first: Rs 15250; balance = Rs 261000. C's share of balance = Rs 36000; total receipt = Rs 51250.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_manager_commission_three",
+      "variant": 1,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "cC": 60000,
+        "mA": 12,
+        "mB": 9,
+        "mC": 6,
+        "P": 276250,
+        "manager": "C",
+        "rate": 20,
+        "basis": "excess",
+        "threshold": 200000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0078",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals of A, B, C are Rs 150000, Rs 120000, Rs 90000 invested for 12, 10 and 5 months. B is the manager and receives 12% commission on total profit before the balance of Rs 414000 is divided by time-weighted capitals. Find B's total receipt.",
+    "options": [
+      "₹49680",
+      "₹144000",
+      "₹126720",
+      "₹176400"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹176400",
+    "explanation": "Weights are 1800000:1200000:450000. Commission is separated first: Rs 49680; balance = Rs 364320. B's share of balance = Rs 126720; total receipt = Rs 176400.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_manager_commission_three",
+      "variant": 2,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "cC": 90000,
+        "mA": 12,
+        "mB": 10,
+        "mC": 5,
+        "P": 414000,
+        "manager": "B",
+        "rate": 12,
+        "basis": "gross",
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0079",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals of A, B, C are Rs 180000, Rs 150000, Rs 120000 invested for 12, 8 and 4 months. A is the manager and receives 20% commission on profit above Rs 250000 before the balance of Rs 417500 is divided by time-weighted capitals. Find A's total receipt.",
+    "options": [
+      "₹249500",
+      "₹33500",
+      "₹939375/4",
+      "₹216000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹249500",
+    "explanation": "Weights are 2160000:1200000:480000. Commission is separated first: Rs 33500; balance = Rs 384000. A's share of balance = Rs 216000; total receipt = Rs 249500.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_manager_commission_three",
+      "variant": 3,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "cC": 120000,
+        "mA": 12,
+        "mB": 8,
+        "mC": 4,
+        "P": 417500,
+        "manager": "A",
+        "rate": 20,
+        "basis": "excess",
+        "threshold": 250000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0080",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals of A, B, C are Rs 200000, Rs 160000, Rs 100000 invested for 12, 9 and 5 months. C is the manager and receives 20% commission on profit above Rs 340000 before the balance of Rs 457500 is divided by time-weighted capitals. Find C's total receipt.",
+    "options": [
+      "₹50000",
+      "₹11437500/217",
+      "₹23500",
+      "₹73500"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹73500",
+    "explanation": "Weights are 2400000:1440000:500000. Commission is separated first: Rs 23500; balance = Rs 434000. C's share of balance = Rs 50000; total receipt = Rs 73500.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_manager_commission_three",
+      "variant": 4,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "cC": 100000,
+        "mA": 12,
+        "mB": 9,
+        "mC": 5,
+        "P": 457500,
+        "manager": "C",
+        "rate": 20,
+        "basis": "excess",
+        "threshold": 340000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0081",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A and B begin the year sharing in 3:2. From the start of month 5 they amend the ratio to 1:1 for the rest of the year. Find A's share of the annual profit Rs 360000.",
+    "options": [
+      "₹200000",
+      "₹180000",
+      "₹195000",
+      "₹216000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹195000",
+    "explanation": "The year is split into two periods: 5 months at 3:2 and 7 months at 1:1. A's weighted fraction = (3 + 7/2)/12; share = Rs 195000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_successive_ratio_amendment",
+      "variant": 0,
+      "inputs": {
+        "oa": 3,
+        "ob": 2,
+        "na": 1,
+        "nb": 1,
+        "change_month": 5,
+        "P": 360000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0082",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A and B begin the year sharing in 4:3. From the start of month 7 they amend the ratio to 2:1 for the rest of the year. Find A's share of the annual profit Rs 378000.",
+    "options": [
+      "₹231000",
+      "₹252000",
+      "₹216000",
+      "₹236000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹231000",
+    "explanation": "The year is split into two periods: 7 months at 4:3 and 5 months at 2:1. A's weighted fraction = (4 + 10/3)/12; share = Rs 231000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_successive_ratio_amendment",
+      "variant": 1,
+      "inputs": {
+        "oa": 4,
+        "ob": 3,
+        "na": 2,
+        "nb": 1,
+        "change_month": 7,
+        "P": 378000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0083",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A and B begin the year sharing in 5:3. From the start of month 6 they amend the ratio to 1:1 for the rest of the year. Find A's share of the annual profit Rs 480000.",
+    "options": [
+      "₹300000",
+      "₹270000",
+      "₹240000",
+      "₹275000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹270000",
+    "explanation": "The year is split into two periods: 6 months at 5:3 and 6 months at 1:1. A's weighted fraction = (15/4 + 3)/12; share = Rs 270000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_successive_ratio_amendment",
+      "variant": 2,
+      "inputs": {
+        "oa": 5,
+        "ob": 3,
+        "na": 1,
+        "nb": 1,
+        "change_month": 6,
+        "P": 480000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0084",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A and B begin the year sharing in 2:1. From the start of month 3 they amend the ratio to 3:2 for the rest of the year. Find A's share of the annual profit Rs 300000.",
+    "options": [
+      "₹200000",
+      "₹190000",
+      "₹180000",
+      "₹185000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹185000",
+    "explanation": "The year is split into two periods: 3 months at 2:1 and 9 months at 3:2. A's weighted fraction = (2 + 27/5)/12; share = Rs 185000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_successive_ratio_amendment",
+      "variant": 3,
+      "inputs": {
+        "oa": 2,
+        "ob": 1,
+        "na": 3,
+        "nb": 2,
+        "change_month": 3,
+        "P": 300000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0085",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A and B begin the year sharing in 3:1. From the start of month 8 they amend the ratio to 2:3 for the rest of the year. Find A's share of the annual profit Rs 600000.",
+    "options": [
+      "₹240000",
+      "₹385000",
+      "₹380000",
+      "₹450000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹380000",
+    "explanation": "The year is split into two periods: 8 months at 3:1 and 4 months at 2:3. A's weighted fraction = (6 + 8/5)/12; share = Rs 380000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_successive_ratio_amendment",
+      "variant": 4,
+      "inputs": {
+        "oa": 3,
+        "ob": 1,
+        "na": 2,
+        "nb": 3,
+        "change_month": 8,
+        "P": 600000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0086",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 all year; B invests Rs 120000 but withdraws 1/1 of his capital at the start of month 5, when C joins with Rs 90000. Find C's share of profit Rs 336000.",
+    "options": [
+      "₹72000",
+      "₹76000",
+      "₹1008000/13",
+      "₹112000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹72000",
+    "explanation": "Time-weighted capitals: A = 2160000; B = 120000*4 + 0*8 = 480000; C = 90000*8 = 720000. C's share = 336000*720000/(3360000) = Rs 72000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_partner_replacement",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "cC": 90000,
+        "month": 5,
+        "fn": 1,
+        "fd": 1,
+        "P": 336000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0087",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 all year; B invests Rs 120000 but withdraws 1/2 of his capital at the start of month 4, when C joins with Rs 90000. Find C's share of profit Rs 387000.",
+    "options": [
+      "₹1161000/13",
+      "₹85000",
+      "₹129000",
+      "₹81000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹81000",
+    "explanation": "Time-weighted capitals: A = 2160000; B = 120000*3 + 60000*9 = 900000; C = 90000*9 = 810000. C's share = 387000*810000/(3870000) = Rs 81000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_partner_replacement",
+      "variant": 1,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "cC": 90000,
+        "month": 4,
+        "fn": 1,
+        "fd": 2,
+        "P": 387000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0088",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 all year; B invests Rs 120000 but withdraws 3/4 of his capital at the start of month 7, when C joins with Rs 90000. Find C's share of profit Rs 360000.",
+    "options": [
+      "₹1080000/13",
+      "₹54000",
+      "₹58000",
+      "₹120000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹54000",
+    "explanation": "Time-weighted capitals: A = 2160000; B = 120000*6 + 30000*6 = 900000; C = 90000*6 = 540000. C's share = 360000*540000/(3600000) = Rs 54000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_partner_replacement",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "cC": 90000,
+        "month": 7,
+        "fn": 3,
+        "fd": 4,
+        "P": 360000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0089",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 240000 all year; B invests Rs 180000 but withdraws 1/3 of his capital at the start of month 6, when C joins with Rs 120000. Find C's share of profit Rs 546000.",
+    "options": [
+      "₹364000/3",
+      "₹88000",
+      "₹84000",
+      "₹182000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹84000",
+    "explanation": "Time-weighted capitals: A = 2880000; B = 180000*5 + 120000*7 = 1740000; C = 120000*7 = 840000. C's share = 546000*840000/(5460000) = Rs 84000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_partner_replacement",
+      "variant": 3,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "cC": 120000,
+        "month": 6,
+        "fn": 1,
+        "fd": 3,
+        "P": 546000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0090",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 200000 all year; B invests Rs 150000 but withdraws 1/2 of his capital at the start of month 9, when C joins with Rs 100000. Find C's share of profit Rs 430000.",
+    "options": [
+      "₹44000",
+      "₹40000",
+      "₹860000/9",
+      "₹430000/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹40000",
+    "explanation": "Time-weighted capitals: A = 2400000; B = 150000*8 + 75000*4 = 1500000; C = 100000*4 = 400000. C's share = 430000*400000/(4300000) = Rs 40000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_partner_replacement",
+      "variant": 4,
+      "inputs": {
+        "cA": 200000,
+        "cB": 150000,
+        "cC": 100000,
+        "month": 9,
+        "fn": 1,
+        "fd": 2,
+        "P": 430000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0091",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capital ratio of working partner A to B is 180000:120000. A gets a salary of Rs 24000 plus 10% commission on profit after salary. From profit Rs 300000, find B's share.",
+    "options": [
+      "₹27600",
+      "₹103360",
+      "₹110400",
+      "₹99360"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹99360",
+    "explanation": "Salary Rs 24000 is kept apart and commission on the stated basis is Rs 27600; balance = 300000 - 24000 - 27600 = Rs 248400. B's share = 248400*120000/(180000+120000) = Rs 99360.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_salary_commission_net",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "P": 300000,
+        "salary": 24000,
+        "rate": 10,
+        "basis": "after_salary",
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0092",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capital ratio of working partner A to B is 270000:90000. A gets a salary of Rs 30000 plus 8% commission on profit before salary. From profit Rs 350000, find B's share.",
+    "options": [
+      "₹77000",
+      "₹28000",
+      "₹80000",
+      "₹73000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹73000",
+    "explanation": "Salary Rs 30000 is kept apart and commission on the stated basis is Rs 28000; balance = 350000 - 30000 - 28000 = Rs 292000. B's share = 292000*90000/(270000+90000) = Rs 73000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_salary_commission_net",
+      "variant": 1,
+      "inputs": {
+        "cA": 270000,
+        "cB": 90000,
+        "P": 350000,
+        "salary": 30000,
+        "rate": 8,
+        "basis": "before_salary",
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0093",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capital ratio of working partner A to B is 250000:100000. A gets a salary of Rs 20000 plus 20% commission on profit above Rs 250000. From profit Rs 400000, find B's share.",
+    "options": [
+      "₹760000/7",
+      "₹100000",
+      "₹30000",
+      "₹104000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹100000",
+    "explanation": "Salary Rs 20000 is kept apart and commission on the stated basis is Rs 30000; balance = 400000 - 20000 - 30000 = Rs 350000. B's share = 350000*100000/(250000+100000) = Rs 100000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_salary_commission_net",
+      "variant": 2,
+      "inputs": {
+        "cA": 250000,
+        "cB": 100000,
+        "P": 400000,
+        "salary": 20000,
+        "rate": 20,
+        "basis": "excess",
+        "threshold": 250000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0094",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capital ratio of working partner A to B is 240000:160000. A gets a salary of Rs 36000 plus 12% commission on profit after salary. From profit Rs 420000, find B's share.",
+    "options": [
+      "₹139168",
+      "₹135168",
+      "₹153600",
+      "₹46080"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹135168",
+    "explanation": "Salary Rs 36000 is kept apart and commission on the stated basis is Rs 46080; balance = 420000 - 36000 - 46080 = Rs 337920. B's share = 337920*160000/(240000+160000) = Rs 135168.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_salary_commission_net",
+      "variant": 3,
+      "inputs": {
+        "cA": 240000,
+        "cB": 160000,
+        "P": 420000,
+        "salary": 36000,
+        "rate": 12,
+        "basis": "after_salary",
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0095",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capital ratio of working partner A to B is 240000:180000. A gets a salary of Rs 40000 plus 15% commission on profit before salary. From profit Rs 500000, find B's share.",
+    "options": [
+      "₹165000",
+      "₹75000",
+      "₹169000",
+      "₹1380000/7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹165000",
+    "explanation": "Salary Rs 40000 is kept apart and commission on the stated basis is Rs 75000; balance = 500000 - 40000 - 75000 = Rs 385000. B's share = 385000*180000/(240000+180000) = Rs 165000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_salary_commission_net",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "P": 500000,
+        "salary": 40000,
+        "rate": 15,
+        "basis": "before_salary",
+        "threshold": 0
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0096",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 120000 but withdraws Rs 20000 in month 8; B joins with Rs 100000 in month 3 and C with Rs 80000 in month 6. Profit is Rs 290000. Find the difference between the largest and smallest profit shares.",
+    "options": [
+      "₹134000",
+      "₹56000",
+      "₹78000",
+      "₹83000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹78000",
+    "explanation": "Time-weighted capitals are 1340000, 1000000 and 560000. The three shares are Rs 134000, Rs 100000 and Rs 56000; their spread is Rs 78000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_share_spread",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 100000,
+        "cC": 80000,
+        "jB": 3,
+        "jC": 6,
+        "wd_month": 8,
+        "wd": 20000,
+        "P": 290000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0097",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 120000 but withdraws Rs 40000 in month 10; B joins with Rs 100000 in month 5 and C with Rs 80000 in month 8. Profit is Rs 252000. Find the difference between the largest and smallest profit shares.",
+    "options": [
+      "₹132000",
+      "₹92000",
+      "₹97000",
+      "₹40000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹92000",
+    "explanation": "Time-weighted capitals are 1320000, 800000 and 400000. The three shares are Rs 132000, Rs 80000 and Rs 40000; their spread is Rs 92000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_share_spread",
+      "variant": 1,
+      "inputs": {
+        "cA": 120000,
+        "cB": 100000,
+        "cC": 80000,
+        "jB": 5,
+        "jC": 8,
+        "wd_month": 10,
+        "wd": 40000,
+        "P": 252000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0098",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 but withdraws Rs 30000 in month 9; B joins with Rs 150000 in month 4 and C with Rs 90000 in month 7. Profit is Rs 393000. Find the difference between the largest and smallest profit shares.",
+    "options": [
+      "₹150000",
+      "₹54000",
+      "₹204000",
+      "₹155000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹150000",
+    "explanation": "Time-weighted capitals are 2040000, 1350000 and 540000. The three shares are Rs 204000, Rs 135000 and Rs 54000; their spread is Rs 150000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_share_spread",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "cC": 90000,
+        "jB": 4,
+        "jC": 7,
+        "wd_month": 9,
+        "wd": 30000,
+        "P": 393000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0099",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 200000 but withdraws Rs 50000 in month 6; B joins with Rs 160000 in month 2 and C with Rs 120000 in month 5. Profit is Rs 477000. Find the difference between the largest and smallest profit shares.",
+    "options": [
+      "₹205000",
+      "₹114000",
+      "₹109000",
+      "₹96000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹109000",
+    "explanation": "Time-weighted capitals are 2050000, 1760000 and 960000. The three shares are Rs 205000, Rs 176000 and Rs 96000; their spread is Rs 109000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_share_spread",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "cC": 120000,
+        "jB": 2,
+        "jC": 5,
+        "wd_month": 6,
+        "wd": 50000,
+        "P": 477000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0100",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 240000 but withdraws Rs 60000 in month 11; B joins with Rs 180000 in month 6 and C with Rs 120000 in month 9. Profit is Rs 450000. Find the difference between the largest and smallest profit shares.",
+    "options": [
+      "₹48000",
+      "₹228000",
+      "₹233000",
+      "₹276000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹228000",
+    "explanation": "Time-weighted capitals are 2760000, 1260000 and 480000. The three shares are Rs 276000, Rs 126000 and Rs 48000; their spread is Rs 228000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_three_share_spread",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "cC": 120000,
+        "jB": 6,
+        "jC": 9,
+        "wd_month": 11,
+        "wd": 60000,
+        "P": 450000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0101",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A (Rs 120000, full year), B (Rs 90000, from month 4) and C (Rs 60000, from month 7) share Rs 261000 by time-weighted capital. A is guaranteed Rs 170000; any shortfall is borne by B and C in their time-weighted ratio. Find B's final share.",
+    "options": [
+      "₹144000",
+      "₹63000",
+      "₹81000",
+      "₹68000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹63000",
+    "explanation": "Weights are 1440000:810000:360000. Raw shares A Rs 144000, B Rs 81000; guarantee shortfall = Rs 26000, borne ratio, so B's burden is Rs 18000. B's final share = Rs 63000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guarantee_time_weighted",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "cC": 60000,
+        "jB": 4,
+        "jC": 7,
+        "P": 261000,
+        "guar": 170000,
+        "bearer": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0102",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A (Rs 150000, full year), B (Rs 120000, from month 3) and C (Rs 90000, from month 6) share Rs 363000 by time-weighted capital. A is guaranteed Rs 200000; any shortfall is borne equally by B and C. Find B's final share.",
+    "options": [
+      "₹120000",
+      "₹180000",
+      "₹110000",
+      "₹115000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹110000",
+    "explanation": "Weights are 1800000:1200000:630000. Raw shares A Rs 180000, B Rs 120000; guarantee shortfall = Rs 20000, borne equal, so B's burden is Rs 10000. B's final share = Rs 110000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guarantee_time_weighted",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "cC": 90000,
+        "jB": 3,
+        "jC": 6,
+        "P": 363000,
+        "guar": 200000,
+        "bearer": "equal"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0103",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A (Rs 180000, full year), B (Rs 150000, from month 5) and C (Rs 90000, from month 8) share Rs 381000 by time-weighted capital. A is guaranteed Rs 249000; any shortfall is borne by B and C in their time-weighted ratio. Find B's final share.",
+    "options": [
+      "₹120000",
+      "₹101000",
+      "₹216000",
+      "₹96000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹96000",
+    "explanation": "Weights are 2160000:1200000:450000. Raw shares A Rs 216000, B Rs 120000; guarantee shortfall = Rs 33000, borne ratio, so B's burden is Rs 24000. B's final share = Rs 96000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guarantee_time_weighted",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "cC": 90000,
+        "jB": 5,
+        "jC": 8,
+        "P": 381000,
+        "guar": 249000,
+        "bearer": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0104",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A (Rs 200000, full year), B (Rs 160000, from month 2) and C (Rs 120000, from month 6) share Rs 500000 by time-weighted capital. A is guaranteed Rs 280000; any shortfall is borne equally by B and C. Find B's final share.",
+    "options": [
+      "₹240000",
+      "₹176000",
+      "₹161000",
+      "₹156000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹156000",
+    "explanation": "Weights are 2400000:1760000:840000. Raw shares A Rs 240000, B Rs 176000; guarantee shortfall = Rs 40000, borne equal, so B's burden is Rs 20000. B's final share = Rs 156000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guarantee_time_weighted",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "cC": 120000,
+        "jB": 2,
+        "jC": 6,
+        "P": 500000,
+        "guar": 280000,
+        "bearer": "equal"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0105",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A (Rs 240000, full year), B (Rs 180000, from month 4) and C (Rs 120000, from month 9) share Rs 498000 by time-weighted capital. A is guaranteed Rs 323000; any shortfall is borne by B and C in their time-weighted ratio. Find B's final share.",
+    "options": [
+      "₹140000",
+      "₹288000",
+      "₹135000",
+      "₹162000"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹135000",
+    "explanation": "Weights are 2880000:1620000:480000. Raw shares A Rs 288000, B Rs 162000; guarantee shortfall = Rs 35000, borne ratio, so B's burden is Rs 27000. B's final share = Rs 135000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_guarantee_time_weighted",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "cC": 120000,
+        "jB": 4,
+        "jC": 9,
+        "P": 498000,
+        "guar": 323000,
+        "bearer": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0106",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 for 12 months and B invests Rs 120000 from month 4. Profit is Rs 300000; tax of 10% with a 2% cess on the tax is deducted from total profit before division. Find A's net receipt.",
+    "options": [
+      "₹184600",
+      "₹30000",
+      "₹200000",
+      "₹179600"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹179600",
+    "explanation": "Weights are 2160000:1080000. Tax Rs 30000 and cess Rs 600 are handled separately (gross_profit); A's net receipt after the capital split and deductions is Rs 179600.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_tax_cess_profit_split",
+      "variant": 0,
+      "inputs": {
+        "cA": 180000,
+        "cB": 120000,
+        "jB": 4,
+        "P": 300000,
+        "tax": 10,
+        "cess": 2,
+        "basis": "gross_profit"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0107",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 150000 for 12 months and B invests Rs 100000 from month 4. Profit is Rs 360000; tax of 12% with a 5% cess on the tax is deducted from each partner share. Find A's net receipt.",
+    "options": [
+      "₹28800",
+      "₹209760",
+      "₹214760",
+      "₹240000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹209760",
+    "explanation": "Weights are 1800000:900000. Tax Rs 28800 and cess Rs 1440 are handled separately (partner_share); A's net receipt after the capital split and deductions is Rs 209760.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_tax_cess_profit_split",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 100000,
+        "jB": 4,
+        "P": 360000,
+        "tax": 12,
+        "cess": 5,
+        "basis": "partner_share"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0108",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 240000 for 12 months and B invests Rs 180000 from month 6. Profit is Rs 517500; tax of 8% with a 1% cess on the tax is deducted from total profit before division. Find A's net receipt.",
+    "options": [
+      "₹330912",
+      "₹41400",
+      "₹360000",
+      "₹335912"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹330912",
+    "explanation": "Weights are 2880000:1260000. Tax Rs 41400 and cess Rs 414 are handled separately (gross_profit); A's net receipt after the capital split and deductions is Rs 330912.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_tax_cess_profit_split",
+      "variant": 2,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "jB": 6,
+        "P": 517500,
+        "tax": 8,
+        "cess": 1,
+        "basis": "gross_profit"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0109",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 200000 for 12 months and B invests Rs 120000 from month 5. Profit is Rs 336000; tax of 15% with a 2% cess on the tax is deducted from each partner share. Find A's net receipt.",
+    "options": [
+      "₹36000",
+      "₹203280",
+      "₹208280",
+      "₹240000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹203280",
+    "explanation": "Weights are 2400000:960000. Tax Rs 36000 and cess Rs 720 are handled separately (partner_share); A's net receipt after the capital split and deductions is Rs 203280.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_tax_cess_profit_split",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 120000,
+        "jB": 5,
+        "P": 336000,
+        "tax": 15,
+        "cess": 2,
+        "basis": "partner_share"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0110",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 300000 for 12 months and B invests Rs 200000 from month 3. Profit is Rs 560000; tax of 10% with a 4% cess on the tax is deducted from total profit before division. Find A's net receipt.",
+    "options": [
+      "₹327560",
+      "₹322560",
+      "₹56000",
+      "₹360000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹322560",
+    "explanation": "Weights are 3600000:2000000. Tax Rs 56000 and cess Rs 2240 are handled separately (gross_profit); A's net receipt after the capital split and deductions is Rs 322560.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_tax_cess_profit_split",
+      "variant": 4,
+      "inputs": {
+        "cA": 300000,
+        "cB": 200000,
+        "jB": 3,
+        "P": 560000,
+        "tax": 10,
+        "cess": 4,
+        "basis": "gross_profit"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0111",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 120000 and withdraws Rs 30000 in month 8; B joins with Rs 90000 in month 4. The gap between their profit shares is Rs 48000. Find the total profit.",
+    "options": [
+      "₹210000",
+      "₹220000",
+      "₹168000",
+      "₹192000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹210000",
+    "explanation": "Time-weighted capitals are 1290000 for A and 810000 for B. The share gap corresponds to weight gap 480000 out of 2100000; hence total profit = 48000*(1290000+810000)/480000 = Rs 210000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_difference",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "jB": 4,
+        "wd": 30000,
+        "wm": 8,
+        "S": 48000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0112",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 150000 and withdraws Rs 20000 in month 9; B joins with Rs 120000 in month 3. The gap between their profit shares is Rs 52000. Find the total profit.",
+    "options": [
+      "₹292000",
+      "₹302000",
+      "₹202000",
+      "₹208000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹292000",
+    "explanation": "Time-weighted capitals are 1720000 for A and 1200000 for B. The share gap corresponds to weight gap 520000 out of 2920000; hence total profit = 52000*(1720000+1200000)/520000 = Rs 292000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_difference",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "jB": 3,
+        "wd": 20000,
+        "wm": 9,
+        "S": 52000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0113",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 180000 and withdraws Rs 60000 in month 10; B joins with Rs 150000 in month 5. The gap between their profit shares is Rs 78000. Find the total profit.",
+    "options": [
+      "₹312000",
+      "₹258000",
+      "₹328000",
+      "₹318000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹318000",
+    "explanation": "Time-weighted capitals are 1980000 for A and 1200000 for B. The share gap corresponds to weight gap 780000 out of 3180000; hence total profit = 78000*(1980000+1200000)/780000 = Rs 318000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_difference",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "jB": 5,
+        "wd": 60000,
+        "wm": 10,
+        "S": 78000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0114",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 200000 and withdraws Rs 40000 in month 7; B joins with Rs 160000 in month 2. The gap between their profit shares is Rs 40000. Find the total profit.",
+    "options": [
+      "₹392000",
+      "₹160000",
+      "₹240000",
+      "₹402000"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹392000",
+    "explanation": "Time-weighted capitals are 2160000 for A and 1760000 for B. The share gap corresponds to weight gap 400000 out of 3920000; hence total profit = 40000*(2160000+1760000)/400000 = Rs 392000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_difference",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "jB": 2,
+        "wd": 40000,
+        "wm": 7,
+        "S": 40000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0115",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "A invests Rs 240000 and withdraws Rs 60000 in month 11; B joins with Rs 180000 in month 6. The gap between their profit shares is Rs 150000. Find the total profit.",
+    "options": [
+      "₹412000",
+      "₹390000",
+      "₹600000",
+      "₹402000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹402000",
+    "explanation": "Time-weighted capitals are 2760000 for A and 1260000 for B. The share gap corresponds to weight gap 1500000 out of 4020000; hence total profit = 150000*(2760000+1260000)/1500000 = Rs 402000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 9-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_reverse_total_difference",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "jB": 6,
+        "wd": 60000,
+        "wm": 11,
+        "S": 150000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0116",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals are Rs 120000, Rs 90000 (from month 4) and Rs 60000 (from month 7). A gets a salary of Rs 30000 and a 10% bonus on profit above Rs 201000. C is guaranteed Rs 45000, with any shortfall borne by A and B in their time-weighted ratio. From profit Rs 301000, find B's final share.",
+    "options": [
+      "₹2709000/29",
+      "₹77760",
+      "₹82760",
+      "₹81000"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹77760",
+    "explanation": "Weights are 1440000:810000:360000. Salary Rs 30000 and bonus Rs 10000 are removed first, leaving Rs 261000. Raw shares B Rs 81000, C Rs 36000; C's guarantee shortfall Rs 9000 puts Rs 3240 of burden on B, so B ends with Rs 77760.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_capstone_guarantee_bonus",
+      "variant": 0,
+      "inputs": {
+        "cA": 120000,
+        "cB": 90000,
+        "cC": 60000,
+        "jB": 4,
+        "jC": 7,
+        "salary": 30000,
+        "rate": 10,
+        "basis": "excess",
+        "target": 201000,
+        "guar": 45000,
+        "P": 301000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0117",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals are Rs 150000, Rs 120000 (from month 3) and Rs 90000 (from month 6). A gets a salary of Rs 40000 and a 25% bonus on profit after salary. C is guaranteed Rs 80000, with any shortfall borne by A and B in their time-weighted ratio. From profit Rs 524000, find B's final share.",
+    "options": [
+      "₹118200",
+      "₹120000",
+      "₹20960000/121",
+      "₹113200"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹113200",
+    "explanation": "Weights are 1800000:1200000:630000. Salary Rs 40000 and bonus Rs 121000 are removed first, leaving Rs 363000. Raw shares B Rs 120000, C Rs 63000; C's guarantee shortfall Rs 17000 puts Rs 6800 of burden on B, so B ends with Rs 113200.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_capstone_guarantee_bonus",
+      "variant": 1,
+      "inputs": {
+        "cA": 150000,
+        "cB": 120000,
+        "cC": 90000,
+        "jB": 3,
+        "jC": 6,
+        "salary": 40000,
+        "rate": 25,
+        "basis": "net",
+        "target": 0,
+        "guar": 80000,
+        "P": 524000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0118",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals are Rs 180000, Rs 150000 (from month 5) and Rs 90000 (from month 8). A gets a salary of Rs 50000 and a 20% bonus on profit above Rs 300000. C is guaranteed Rs 73000, with any shortfall borne by A and B in their time-weighted ratio. From profit Rs 463750, find B's final share.",
+    "options": [
+      "₹120000",
+      "₹115000",
+      "₹110000",
+      "₹18550000/127"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹110000",
+    "explanation": "Weights are 2160000:1200000:450000. Salary Rs 50000 and bonus Rs 32750 are removed first, leaving Rs 381000. Raw shares B Rs 120000, C Rs 45000; C's guarantee shortfall Rs 28000 puts Rs 10000 of burden on B, so B ends with Rs 110000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_capstone_guarantee_bonus",
+      "variant": 2,
+      "inputs": {
+        "cA": 180000,
+        "cB": 150000,
+        "cC": 90000,
+        "jB": 5,
+        "jC": 8,
+        "salary": 50000,
+        "rate": 20,
+        "basis": "excess",
+        "target": 300000,
+        "guar": 73000,
+        "P": 463750
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0119",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals are Rs 200000, Rs 160000 (from month 2) and Rs 120000 (from month 6). A gets a salary of Rs 60000 and a 20% bonus on profit after salary. C is guaranteed Rs 110000, with any shortfall borne by A and B in their time-weighted ratio. From profit Rs 685000, find B's final share.",
+    "options": [
+      "₹241120",
+      "₹176000",
+      "₹170000",
+      "₹165000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹165000",
+    "explanation": "Weights are 2400000:1760000:840000. Salary Rs 60000 and bonus Rs 125000 are removed first, leaving Rs 500000. Raw shares B Rs 176000, C Rs 84000; C's guarantee shortfall Rs 26000 puts Rs 11000 of burden on B, so B ends with Rs 165000.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_capstone_guarantee_bonus",
+      "variant": 3,
+      "inputs": {
+        "cA": 200000,
+        "cB": 160000,
+        "cC": 120000,
+        "jB": 2,
+        "jC": 6,
+        "salary": 60000,
+        "rate": 20,
+        "basis": "net",
+        "target": 0,
+        "guar": 110000,
+        "P": 685000
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "partnership_mains-0120",
+    "chapter": "Partnership (Mains)",
+    "chapter_key": "partnership_mains",
+    "part": 4,
+    "section": "partnership_mains_part_4",
+    "question_text": "Capitals are Rs 240000, Rs 180000 (from month 4) and Rs 120000 (from month 9). A gets a salary of Rs 70000 and a 20% bonus on profit above Rs 350000. C is guaranteed Rs 65000, with any shortfall borne by A and B in their time-weighted ratio. From profit Rs 622500, find B's final share.",
+    "options": [
+      "₹155880",
+      "₹162000",
+      "₹160880",
+      "₹202500"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹155880",
+    "explanation": "Weights are 2880000:1620000:480000. Salary Rs 70000 and bonus Rs 54500 are removed first, leaving Rs 498000. Raw shares B Rs 162000, C Rs 48000; C's guarantee shortfall Rs 17000 puts Rs 6120 of burden on B, so B ends with Rs 155880.",
+    "difficulty": "HARD",
+    "source_name": "Partnership Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "cc2c97f4-4d95-4e6e-964f-d9318068eb13.pdf, pp. 4-13",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "pm_capstone_guarantee_bonus",
+      "variant": 4,
+      "inputs": {
+        "cA": 240000,
+        "cB": 180000,
+        "cC": 120000,
+        "jB": 4,
+        "jC": 9,
+        "salary": 70000,
+        "rate": 20,
+        "basis": "excess",
+        "target": 350000,
+        "guar": 65000,
+        "P": 622500
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

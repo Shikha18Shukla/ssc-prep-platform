@@ -1,0 +1,4457 @@
+[
+  {
+    "id": "probability_data_interpretation-0001",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=1; boys=18; girls=12. A student is chosen at random. Find the probability that the student is a girl.",
+    "options": [
+      "9/20",
+      "2/5",
+      "7/20",
+      "4/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2/5",
+    "explanation": "P(girl) = girls/(boys+girls) = 2/5.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_class_table",
+      "variant": 0,
+      "inputs": {
+        "boys": 18,
+        "girls": 12,
+        "q": 1,
+        "expr": "F(girls,boys+girls)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0002",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=2; boys=19; girls=13. A student is chosen at random. Find the probability that the student is a girl.",
+    "options": [
+      "13/32",
+      "73/160",
+      "13/16",
+      "57/160"
+    ],
+    "correct_option": "A",
+    "correct_answer": "13/32",
+    "explanation": "P(girl) = girls/(boys+girls) = 13/32.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_class_table",
+      "variant": 1,
+      "inputs": {
+        "boys": 19,
+        "girls": 13,
+        "q": 2,
+        "expr": "F(girls,boys+girls)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0003",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=3; boys=20; girls=14. A student is chosen at random. Find the probability that the student is a girl.",
+    "options": [
+      "14/17",
+      "7/17",
+      "123/340",
+      "157/340"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/17",
+    "explanation": "P(girl) = girls/(boys+girls) = 7/17.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_class_table",
+      "variant": 2,
+      "inputs": {
+        "boys": 20,
+        "girls": 14,
+        "q": 3,
+        "expr": "F(girls,boys+girls)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0004",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=4; boys=21; girls=15. A student is chosen at random. Find the probability that the student is a girl.",
+    "options": [
+      "11/30",
+      "5/12",
+      "5/6",
+      "7/15"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/12",
+    "explanation": "P(girl) = girls/(boys+girls) = 5/12.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_class_table",
+      "variant": 3,
+      "inputs": {
+        "boys": 21,
+        "girls": 15,
+        "q": 4,
+        "expr": "F(girls,boys+girls)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0005",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=5; boys=22; girls=16. A student is chosen at random. Find the probability that the student is a girl.",
+    "options": [
+      "141/380",
+      "16/19",
+      "179/380",
+      "8/19"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8/19",
+    "explanation": "P(girl) = girls/(boys+girls) = 8/19.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_class_table",
+      "variant": 4,
+      "inputs": {
+        "boys": 22,
+        "girls": 16,
+        "q": 5,
+        "expr": "F(girls,boys+girls)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0006",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=1; throws=120; sixes=20. Find the empirical probability of getting a six.",
+    "options": [
+      "7/60",
+      "13/60",
+      "1/3",
+      "1/6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/6",
+    "explanation": "Empirical probability = sixes/throws = 1/6.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_dice_frequency",
+      "variant": 0,
+      "inputs": {
+        "total": 120,
+        "sixes": 20,
+        "q": 1,
+        "expr": "F(sixes,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0007",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=2; throws=121; sixes=21. Find the empirical probability of getting a six.",
+    "options": [
+      "21/121",
+      "42/121",
+      "541/2420",
+      "299/2420"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21/121",
+    "explanation": "Empirical probability = sixes/throws = 21/121.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_dice_frequency",
+      "variant": 1,
+      "inputs": {
+        "total": 121,
+        "sixes": 21,
+        "q": 2,
+        "expr": "F(sixes,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0008",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=3; throws=122; sixes=22. Find the empirical probability of getting a six.",
+    "options": [
+      "11/61",
+      "22/61",
+      "281/1220",
+      "159/1220"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11/61",
+    "explanation": "Empirical probability = sixes/throws = 11/61.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_dice_frequency",
+      "variant": 2,
+      "inputs": {
+        "total": 122,
+        "sixes": 22,
+        "q": 3,
+        "expr": "F(sixes,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0009",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=4; throws=123; sixes=23. Find the empirical probability of getting a six.",
+    "options": [
+      "583/2460",
+      "23/123",
+      "46/123",
+      "337/2460"
+    ],
+    "correct_option": "B",
+    "correct_answer": "23/123",
+    "explanation": "Empirical probability = sixes/throws = 23/123.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_dice_frequency",
+      "variant": 3,
+      "inputs": {
+        "total": 123,
+        "sixes": 23,
+        "q": 4,
+        "expr": "F(sixes,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0010",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=5; throws=124; sixes=24. Find the empirical probability of getting a six.",
+    "options": [
+      "6/31",
+      "89/620",
+      "12/31",
+      "151/620"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6/31",
+    "explanation": "Empirical probability = sixes/throws = 6/31.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_dice_frequency",
+      "variant": 4,
+      "inputs": {
+        "total": 124,
+        "sixes": 24,
+        "q": 5,
+        "expr": "F(sixes,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0011",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=1; red cards=24; black cards=24. Find the probability of drawing a red card.",
+    "options": [
+      "1/2",
+      "11/20",
+      "1",
+      "9/20"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/2",
+    "explanation": "P(red) = red/(red+black) = 1/2.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_card_draw",
+      "variant": 0,
+      "inputs": {
+        "red": 24,
+        "black": 24,
+        "q": 1,
+        "expr": "F(red,red+black)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0012",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=2; red cards=25; black cards=25. Find the probability of drawing a red card.",
+    "options": [
+      "9/20",
+      "1",
+      "1/2",
+      "11/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/2",
+    "explanation": "P(red) = red/(red+black) = 1/2.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_card_draw",
+      "variant": 1,
+      "inputs": {
+        "red": 25,
+        "black": 25,
+        "q": 2,
+        "expr": "F(red,red+black)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0013",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=3; red cards=26; black cards=26. Find the probability of drawing a red card.",
+    "options": [
+      "11/20",
+      "1",
+      "1/2",
+      "9/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/2",
+    "explanation": "P(red) = red/(red+black) = 1/2.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_card_draw",
+      "variant": 2,
+      "inputs": {
+        "red": 26,
+        "black": 26,
+        "q": 3,
+        "expr": "F(red,red+black)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0014",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=4; red cards=27; black cards=27. Find the probability of drawing a red card.",
+    "options": [
+      "9/20",
+      "1/2",
+      "1",
+      "11/20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/2",
+    "explanation": "P(red) = red/(red+black) = 1/2.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_card_draw",
+      "variant": 3,
+      "inputs": {
+        "red": 27,
+        "black": 27,
+        "q": 4,
+        "expr": "F(red,red+black)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0015",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 1,
+    "section": "probability_data_interpretation_part_1",
+    "question_text": "Data: Case=5; red cards=28; black cards=28. Find the probability of drawing a red card.",
+    "options": [
+      "9/20",
+      "1/2",
+      "1",
+      "11/20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/2",
+    "explanation": "P(red) = red/(red+black) = 1/2.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_card_draw",
+      "variant": 4,
+      "inputs": {
+        "red": 28,
+        "black": 28,
+        "q": 5,
+        "expr": "F(red,red+black)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0016",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=1; red=6; blue=4; green=2. Find the probability of drawing a red ball.",
+    "options": [
+      "11/20",
+      "1",
+      "1/2",
+      "9/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/2",
+    "explanation": "Red balls divided by total balls gives 1/2.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_bag_composition",
+      "variant": 0,
+      "inputs": {
+        "r": 6,
+        "b": 4,
+        "g": 2,
+        "q": 1,
+        "expr": "F(r,r+b+g)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0017",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=2; red=7; blue=5; green=3. Find the probability of drawing a red ball.",
+    "options": [
+      "14/15",
+      "31/60",
+      "5/12",
+      "7/15"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7/15",
+    "explanation": "Red balls divided by total balls gives 7/15.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_bag_composition",
+      "variant": 1,
+      "inputs": {
+        "r": 7,
+        "b": 5,
+        "g": 3,
+        "q": 2,
+        "expr": "F(r,r+b+g)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0018",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=3; red=8; blue=6; green=4. Find the probability of drawing a red ball.",
+    "options": [
+      "89/180",
+      "4/9",
+      "71/180",
+      "8/9"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4/9",
+    "explanation": "Red balls divided by total balls gives 4/9.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_bag_composition",
+      "variant": 2,
+      "inputs": {
+        "r": 8,
+        "b": 6,
+        "g": 4,
+        "q": 3,
+        "expr": "F(r,r+b+g)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0019",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=4; red=9; blue=7; green=5. Find the probability of drawing a red ball.",
+    "options": [
+      "67/140",
+      "53/140",
+      "3/7",
+      "6/7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/7",
+    "explanation": "Red balls divided by total balls gives 3/7.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_bag_composition",
+      "variant": 3,
+      "inputs": {
+        "r": 9,
+        "b": 7,
+        "g": 5,
+        "q": 4,
+        "expr": "F(r,r+b+g)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0020",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=5; red=10; blue=8; green=6. Find the probability of drawing a red ball.",
+    "options": [
+      "5/12",
+      "11/30",
+      "7/15",
+      "5/6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/12",
+    "explanation": "Red balls divided by total balls gives 5/12.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_bag_composition",
+      "variant": 4,
+      "inputs": {
+        "r": 10,
+        "b": 8,
+        "g": 6,
+        "q": 5,
+        "expr": "F(r,r+b+g)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0021",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=1; good units=90; defective units=10. Find the probability that a randomly chosen unit is defective.",
+    "options": [
+      "1/5",
+      "1/20",
+      "1/10",
+      "3/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/10",
+    "explanation": "P(defective) = bad/(good+bad) = 1/10.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_defective_batch",
+      "variant": 0,
+      "inputs": {
+        "good": 90,
+        "bad": 10,
+        "q": 1,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0022",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=2; good units=91; defective units=11. Find the probability that a randomly chosen unit is defective.",
+    "options": [
+      "161/1020",
+      "11/51",
+      "11/102",
+      "59/1020"
+    ],
+    "correct_option": "C",
+    "correct_answer": "11/102",
+    "explanation": "P(defective) = bad/(good+bad) = 11/102.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_defective_batch",
+      "variant": 1,
+      "inputs": {
+        "good": 91,
+        "bad": 11,
+        "q": 2,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0023",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=3; good units=92; defective units=12. Find the probability that a randomly chosen unit is defective.",
+    "options": [
+      "3/26",
+      "3/13",
+      "17/260",
+      "43/260"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/26",
+    "explanation": "P(defective) = bad/(good+bad) = 3/26.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_defective_batch",
+      "variant": 2,
+      "inputs": {
+        "good": 92,
+        "bad": 12,
+        "q": 3,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0024",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=4; good units=93; defective units=13. Find the probability that a randomly chosen unit is defective.",
+    "options": [
+      "13/106",
+      "77/1060",
+      "183/1060",
+      "13/53"
+    ],
+    "correct_option": "A",
+    "correct_answer": "13/106",
+    "explanation": "P(defective) = bad/(good+bad) = 13/106.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_defective_batch",
+      "variant": 3,
+      "inputs": {
+        "good": 93,
+        "bad": 13,
+        "q": 4,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0025",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=5; good units=94; defective units=14. Find the probability that a randomly chosen unit is defective.",
+    "options": [
+      "97/540",
+      "7/54",
+      "43/540",
+      "7/27"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/54",
+    "explanation": "P(defective) = bad/(good+bad) = 7/54.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_defective_batch",
+      "variant": 4,
+      "inputs": {
+        "good": 94,
+        "bad": 14,
+        "q": 5,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0026",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=1; yes responses=60; no responses=40. Find the probability of a randomly chosen respondent answering yes.",
+    "options": [
+      "3/5",
+      "13/20",
+      "11/20",
+      "6/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/5",
+    "explanation": "P(yes) = yes/(yes+no) = 3/5.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_survey_table",
+      "variant": 0,
+      "inputs": {
+        "yes": 60,
+        "no": 40,
+        "q": 1,
+        "expr": "F(yes,yes+no)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0027",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=2; yes responses=61; no responses=41. Find the probability of a randomly chosen respondent answering yes.",
+    "options": [
+      "661/1020",
+      "559/1020",
+      "61/102",
+      "61/51"
+    ],
+    "correct_option": "C",
+    "correct_answer": "61/102",
+    "explanation": "P(yes) = yes/(yes+no) = 61/102.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_survey_table",
+      "variant": 1,
+      "inputs": {
+        "yes": 61,
+        "no": 41,
+        "q": 2,
+        "expr": "F(yes,yes+no)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0028",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=3; yes responses=62; no responses=42. Find the probability of a randomly chosen respondent answering yes.",
+    "options": [
+      "31/52",
+      "71/130",
+      "42/65",
+      "31/26"
+    ],
+    "correct_option": "A",
+    "correct_answer": "31/52",
+    "explanation": "P(yes) = yes/(yes+no) = 31/52.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_survey_table",
+      "variant": 2,
+      "inputs": {
+        "yes": 62,
+        "no": 42,
+        "q": 3,
+        "expr": "F(yes,yes+no)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0029",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=4; yes responses=63; no responses=43. Find the probability of a randomly chosen respondent answering yes.",
+    "options": [
+      "63/53",
+      "577/1060",
+      "63/106",
+      "683/1060"
+    ],
+    "correct_option": "C",
+    "correct_answer": "63/106",
+    "explanation": "P(yes) = yes/(yes+no) = 63/106.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_survey_table",
+      "variant": 3,
+      "inputs": {
+        "yes": 63,
+        "no": 43,
+        "q": 4,
+        "expr": "F(yes,yes+no)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0030",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=5; yes responses=64; no responses=44. Find the probability of a randomly chosen respondent answering yes.",
+    "options": [
+      "347/540",
+      "16/27",
+      "293/540",
+      "32/27"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16/27",
+    "explanation": "P(yes) = yes/(yes+no) = 16/27.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_survey_table",
+      "variant": 4,
+      "inputs": {
+        "yes": 64,
+        "no": 44,
+        "q": 5,
+        "expr": "F(yes,yes+no)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0031",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=1; trials=100; successful trials=25. Find the empirical probability of at least one success in a single trial.",
+    "options": [
+      "1/2",
+      "1/4",
+      "1/5",
+      "3/10"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/4",
+    "explanation": "Relative frequency gives 1/4.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_at_least_table",
+      "variant": 0,
+      "inputs": {
+        "n": 100,
+        "success": 25,
+        "q": 1,
+        "expr": "F(success,n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0032",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=2; trials=101; successful trials=26. Find the empirical probability of at least one success in a single trial.",
+    "options": [
+      "26/101",
+      "621/2020",
+      "52/101",
+      "419/2020"
+    ],
+    "correct_option": "A",
+    "correct_answer": "26/101",
+    "explanation": "Relative frequency gives 26/101.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_at_least_table",
+      "variant": 1,
+      "inputs": {
+        "n": 101,
+        "success": 26,
+        "q": 2,
+        "expr": "F(success,n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0033",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=3; trials=102; successful trials=27. Find the empirical probability of at least one success in a single trial.",
+    "options": [
+      "107/340",
+      "73/340",
+      "9/34",
+      "9/17"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9/34",
+    "explanation": "Relative frequency gives 9/34.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_at_least_table",
+      "variant": 2,
+      "inputs": {
+        "n": 102,
+        "success": 27,
+        "q": 3,
+        "expr": "F(success,n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0034",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=4; trials=103; successful trials=28. Find the empirical probability of at least one success in a single trial.",
+    "options": [
+      "56/103",
+      "457/2060",
+      "663/2060",
+      "28/103"
+    ],
+    "correct_option": "D",
+    "correct_answer": "28/103",
+    "explanation": "Relative frequency gives 28/103.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_at_least_table",
+      "variant": 3,
+      "inputs": {
+        "n": 103,
+        "success": 28,
+        "q": 4,
+        "expr": "F(success,n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0035",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 2,
+    "section": "probability_data_interpretation_part_2",
+    "question_text": "Data: Case=5; trials=104; successful trials=29. Find the empirical probability of at least one success in a single trial.",
+    "options": [
+      "171/520",
+      "29/104",
+      "119/520",
+      "29/52"
+    ],
+    "correct_option": "B",
+    "correct_answer": "29/104",
+    "explanation": "Relative frequency gives 29/104.",
+    "difficulty": "EASY",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_at_least_table",
+      "variant": 4,
+      "inputs": {
+        "n": 104,
+        "success": 29,
+        "q": 5,
+        "expr": "F(success,n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0036",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=1; favourable with condition=30; condition cases=60. Find the conditional probability.",
+    "options": [
+      "11/20",
+      "1/2",
+      "9/20",
+      "1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/2",
+    "explanation": "Divide favourable conditioned cases by all conditioned cases: 1/2.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_conditional_table",
+      "variant": 0,
+      "inputs": {
+        "both": 30,
+        "second": 60,
+        "q": 1,
+        "expr": "F(both,second)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0037",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=2; favourable with condition=31; condition cases=61. Find the conditional probability.",
+    "options": [
+      "681/1220",
+      "31/61",
+      "559/1220",
+      "62/61"
+    ],
+    "correct_option": "B",
+    "correct_answer": "31/61",
+    "explanation": "Divide favourable conditioned cases by all conditioned cases: 31/61.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_conditional_table",
+      "variant": 1,
+      "inputs": {
+        "both": 31,
+        "second": 61,
+        "q": 2,
+        "expr": "F(both,second)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0038",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=3; favourable with condition=32; condition cases=62. Find the conditional probability.",
+    "options": [
+      "351/620",
+      "32/31",
+      "289/620",
+      "16/31"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16/31",
+    "explanation": "Divide favourable conditioned cases by all conditioned cases: 16/31.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_conditional_table",
+      "variant": 2,
+      "inputs": {
+        "both": 32,
+        "second": 62,
+        "q": 3,
+        "expr": "F(both,second)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0039",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=4; favourable with condition=33; condition cases=63. Find the conditional probability.",
+    "options": [
+      "11/21",
+      "241/420",
+      "22/21",
+      "199/420"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11/21",
+    "explanation": "Divide favourable conditioned cases by all conditioned cases: 11/21.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_conditional_table",
+      "variant": 3,
+      "inputs": {
+        "both": 33,
+        "second": 63,
+        "q": 4,
+        "expr": "F(both,second)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0040",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=5; favourable with condition=34; condition cases=64. Find the conditional probability.",
+    "options": [
+      "93/160",
+      "17/32",
+      "17/16",
+      "77/160"
+    ],
+    "correct_option": "B",
+    "correct_answer": "17/32",
+    "explanation": "Divide favourable conditioned cases by all conditioned cases: 17/32.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_conditional_table",
+      "variant": 4,
+      "inputs": {
+        "both": 34,
+        "second": 64,
+        "q": 5,
+        "expr": "F(both,second)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0041",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=1; favourable cases=30; total cases=100. Find the probability of the complementary event.",
+    "options": [
+      "7/10",
+      "13/20",
+      "7/5",
+      "3/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7/10",
+    "explanation": "Complement count is total-favour, giving 7/10.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_complement_table",
+      "variant": 0,
+      "inputs": {
+        "favour": 30,
+        "total": 100,
+        "q": 1,
+        "expr": "F(total-favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0042",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=2; favourable cases=31; total cases=101. Find the probability of the complementary event.",
+    "options": [
+      "70/101",
+      "1501/2020",
+      "140/101",
+      "1299/2020"
+    ],
+    "correct_option": "A",
+    "correct_answer": "70/101",
+    "explanation": "Complement count is total-favour, giving 70/101.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_complement_table",
+      "variant": 1,
+      "inputs": {
+        "favour": 31,
+        "total": 101,
+        "q": 2,
+        "expr": "F(total-favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0043",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=3; favourable cases=32; total cases=102. Find the probability of the complementary event.",
+    "options": [
+      "751/1020",
+      "649/1020",
+      "35/51",
+      "70/51"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35/51",
+    "explanation": "Complement count is total-favour, giving 35/51.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_complement_table",
+      "variant": 2,
+      "inputs": {
+        "favour": 32,
+        "total": 102,
+        "q": 3,
+        "expr": "F(total-favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0044",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=4; favourable cases=33; total cases=103. Find the probability of the complementary event.",
+    "options": [
+      "1297/2060",
+      "1503/2060",
+      "140/103",
+      "70/103"
+    ],
+    "correct_option": "D",
+    "correct_answer": "70/103",
+    "explanation": "Complement count is total-favour, giving 70/103.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_complement_table",
+      "variant": 3,
+      "inputs": {
+        "favour": 33,
+        "total": 103,
+        "q": 4,
+        "expr": "F(total-favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0045",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=5; favourable cases=34; total cases=104. Find the probability of the complementary event.",
+    "options": [
+      "35/26",
+      "47/65",
+      "81/130",
+      "35/52"
+    ],
+    "correct_option": "D",
+    "correct_answer": "35/52",
+    "explanation": "Complement count is total-favour, giving 35/52.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_complement_table",
+      "variant": 4,
+      "inputs": {
+        "favour": 34,
+        "total": 104,
+        "q": 5,
+        "expr": "F(total-favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0046",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=1; observations=100; probability=1/5. Find the expected number of successes.",
+    "options": [
+      "21",
+      "19",
+      "20",
+      "40"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Expected count = observations × probability = 20.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_expected_count",
+      "variant": 0,
+      "inputs": {
+        "n": 100,
+        "p": "1/5",
+        "case": 1,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0047",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=2; observations=200; probability=1/4. Find the expected number of successes.",
+    "options": [
+      "51",
+      "50",
+      "49",
+      "100"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50",
+    "explanation": "Expected count = observations × probability = 50.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_expected_count",
+      "variant": 1,
+      "inputs": {
+        "n": 200,
+        "p": "1/4",
+        "case": 2,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0048",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=3; observations=150; probability=1/3. Find the expected number of successes.",
+    "options": [
+      "50",
+      "51",
+      "49",
+      "100"
+    ],
+    "correct_option": "A",
+    "correct_answer": "50",
+    "explanation": "Expected count = observations × probability = 50.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_expected_count",
+      "variant": 2,
+      "inputs": {
+        "n": 150,
+        "p": "1/3",
+        "case": 3,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0049",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=4; observations=80; probability=1/2. Find the expected number of successes.",
+    "options": [
+      "80",
+      "41",
+      "40",
+      "39"
+    ],
+    "correct_option": "C",
+    "correct_answer": "40",
+    "explanation": "Expected count = observations × probability = 40.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_expected_count",
+      "variant": 3,
+      "inputs": {
+        "n": 80,
+        "p": "1/2",
+        "case": 4,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0050",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=5; observations=120; probability=2/5. Find the expected number of successes.",
+    "options": [
+      "47",
+      "96",
+      "48",
+      "49"
+    ],
+    "correct_option": "C",
+    "correct_answer": "48",
+    "explanation": "Expected count = observations × probability = 48.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_expected_count",
+      "variant": 4,
+      "inputs": {
+        "n": 120,
+        "p": "2/5",
+        "case": 5,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0051",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=1; good items=8; bad items=4. Two items are drawn without replacement. Find the probability that both are good.",
+    "options": [
+      "28/33",
+      "247/660",
+      "14/33",
+      "313/660"
+    ],
+    "correct_option": "C",
+    "correct_answer": "14/33",
+    "explanation": "C(good,2)/C(good+bad,2) = 14/33.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_draw_table",
+      "variant": 0,
+      "inputs": {
+        "good": 8,
+        "bad": 4,
+        "q": 1,
+        "expr": "F(C(good,2),C(good+bad,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0052",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=2; good items=9; bad items=5. Two items are drawn without replacement. Find the probability that both are good.",
+    "options": [
+      "629/1820",
+      "811/1820",
+      "72/91",
+      "36/91"
+    ],
+    "correct_option": "D",
+    "correct_answer": "36/91",
+    "explanation": "C(good,2)/C(good+bad,2) = 36/91.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_draw_table",
+      "variant": 1,
+      "inputs": {
+        "good": 9,
+        "bad": 5,
+        "q": 2,
+        "expr": "F(C(good,2),C(good+bad,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0053",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=3; good items=10; bad items=6. Two items are drawn without replacement. Find the probability that both are good.",
+    "options": [
+      "3/8",
+      "13/40",
+      "17/40",
+      "3/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/8",
+    "explanation": "C(good,2)/C(good+bad,2) = 3/8.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_draw_table",
+      "variant": 2,
+      "inputs": {
+        "good": 10,
+        "bad": 6,
+        "q": 3,
+        "expr": "F(C(good,2),C(good+bad,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0054",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=4; good items=11; bad items=7. Two items are drawn without replacement. Find the probability that both are good.",
+    "options": [
+      "110/153",
+      "55/153",
+      "947/3060",
+      "1253/3060"
+    ],
+    "correct_option": "B",
+    "correct_answer": "55/153",
+    "explanation": "C(good,2)/C(good+bad,2) = 55/153.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_draw_table",
+      "variant": 3,
+      "inputs": {
+        "good": 11,
+        "bad": 7,
+        "q": 4,
+        "expr": "F(C(good,2),C(good+bad,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0055",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=5; good items=12; bad items=8. Two items are drawn without replacement. Find the probability that both are good.",
+    "options": [
+      "66/95",
+      "33/95",
+      "113/380",
+      "151/380"
+    ],
+    "correct_option": "B",
+    "correct_answer": "33/95",
+    "explanation": "C(good,2)/C(good+bad,2) = 33/95.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_draw_table",
+      "variant": 4,
+      "inputs": {
+        "good": 12,
+        "bad": 8,
+        "q": 5,
+        "expr": "F(C(good,2),C(good+bad,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0056",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=1; favourable weight=3; unfavourable weight=5. Find the probability corresponding to the stated ratio.",
+    "options": [
+      "13/40",
+      "17/40",
+      "3/8",
+      "3/4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/8",
+    "explanation": "Probability = a/(a+b) = 3/8.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_ratio_prob",
+      "variant": 0,
+      "inputs": {
+        "a": 3,
+        "b": 5,
+        "q": 1,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0057",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=2; favourable weight=4; unfavourable weight=6. Find the probability corresponding to the stated ratio.",
+    "options": [
+      "7/20",
+      "4/5",
+      "2/5",
+      "9/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/5",
+    "explanation": "Probability = a/(a+b) = 2/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_ratio_prob",
+      "variant": 1,
+      "inputs": {
+        "a": 4,
+        "b": 6,
+        "q": 2,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0058",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=3; favourable weight=5; unfavourable weight=7. Find the probability corresponding to the stated ratio.",
+    "options": [
+      "5/12",
+      "5/6",
+      "11/30",
+      "7/15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/12",
+    "explanation": "Probability = a/(a+b) = 5/12.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_ratio_prob",
+      "variant": 2,
+      "inputs": {
+        "a": 5,
+        "b": 7,
+        "q": 3,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0059",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=4; favourable weight=6; unfavourable weight=8. Find the probability corresponding to the stated ratio.",
+    "options": [
+      "3/7",
+      "67/140",
+      "53/140",
+      "6/7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/7",
+    "explanation": "Probability = a/(a+b) = 3/7.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_ratio_prob",
+      "variant": 3,
+      "inputs": {
+        "a": 6,
+        "b": 8,
+        "q": 4,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0060",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=5; favourable weight=7; unfavourable weight=9. Find the probability corresponding to the stated ratio.",
+    "options": [
+      "39/80",
+      "7/8",
+      "7/16",
+      "31/80"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7/16",
+    "explanation": "Probability = a/(a+b) = 7/16.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_ratio_prob",
+      "variant": 4,
+      "inputs": {
+        "a": 7,
+        "b": 9,
+        "q": 5,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0061",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=1; good outcomes=18; bad outcomes=6. Find the probability of a bad outcome.",
+    "options": [
+      "1/2",
+      "1/5",
+      "3/10",
+      "1/4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/4",
+    "explanation": "Bad outcomes over all outcomes gives 1/4.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_good_bad",
+      "variant": 0,
+      "inputs": {
+        "good": 18,
+        "bad": 6,
+        "q": 1,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0062",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=2; good outcomes=19; bad outcomes=7. Find the probability of a bad outcome.",
+    "options": [
+      "57/260",
+      "7/26",
+      "83/260",
+      "7/13"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/26",
+    "explanation": "Bad outcomes over all outcomes gives 7/26.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_good_bad",
+      "variant": 1,
+      "inputs": {
+        "good": 19,
+        "bad": 7,
+        "q": 2,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0063",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=3; good outcomes=20; bad outcomes=8. Find the probability of a bad outcome.",
+    "options": [
+      "4/7",
+      "33/140",
+      "2/7",
+      "47/140"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/7",
+    "explanation": "Bad outcomes over all outcomes gives 2/7.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_good_bad",
+      "variant": 2,
+      "inputs": {
+        "good": 20,
+        "bad": 8,
+        "q": 3,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0064",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=4; good outcomes=21; bad outcomes=9. Find the probability of a bad outcome.",
+    "options": [
+      "3/10",
+      "3/5",
+      "7/20",
+      "1/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/10",
+    "explanation": "Bad outcomes over all outcomes gives 3/10.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_good_bad",
+      "variant": 3,
+      "inputs": {
+        "good": 21,
+        "bad": 9,
+        "q": 4,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0065",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 3,
+    "section": "probability_data_interpretation_part_3",
+    "question_text": "Data: Case=5; good outcomes=22; bad outcomes=10. Find the probability of a bad outcome.",
+    "options": [
+      "21/80",
+      "5/16",
+      "29/80",
+      "5/8"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/16",
+    "explanation": "Bad outcomes over all outcomes gives 5/16.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_good_bad",
+      "variant": 4,
+      "inputs": {
+        "good": 22,
+        "bad": 10,
+        "q": 5,
+        "expr": "F(bad,good+bad)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0066",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; men=10; women=8. A team member is chosen at random. Find the probability that the member is a woman.",
+    "options": [
+      "8/9",
+      "4/9",
+      "71/180",
+      "89/180"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4/9",
+    "explanation": "P(woman) = women/(men+women) = 4/9.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_team_table",
+      "variant": 0,
+      "inputs": {
+        "men": 10,
+        "women": 8,
+        "q": 1,
+        "expr": "F(women,men+women)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0067",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; men=11; women=9. A team member is chosen at random. Find the probability that the member is a woman.",
+    "options": [
+      "9/20",
+      "2/5",
+      "1/2",
+      "9/10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9/20",
+    "explanation": "P(woman) = women/(men+women) = 9/20.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_team_table",
+      "variant": 1,
+      "inputs": {
+        "men": 11,
+        "women": 9,
+        "q": 2,
+        "expr": "F(women,men+women)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0068",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; men=12; women=10. A team member is chosen at random. Find the probability that the member is a woman.",
+    "options": [
+      "5/11",
+      "10/11",
+      "111/220",
+      "89/220"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/11",
+    "explanation": "P(woman) = women/(men+women) = 5/11.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_team_table",
+      "variant": 2,
+      "inputs": {
+        "men": 12,
+        "women": 10,
+        "q": 3,
+        "expr": "F(women,men+women)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0069",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; men=13; women=11. A team member is chosen at random. Find the probability that the member is a woman.",
+    "options": [
+      "61/120",
+      "11/24",
+      "49/120",
+      "11/12"
+    ],
+    "correct_option": "B",
+    "correct_answer": "11/24",
+    "explanation": "P(woman) = women/(men+women) = 11/24.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_team_table",
+      "variant": 3,
+      "inputs": {
+        "men": 13,
+        "women": 11,
+        "q": 4,
+        "expr": "F(women,men+women)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0070",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; men=14; women=12. A team member is chosen at random. Find the probability that the member is a woman.",
+    "options": [
+      "133/260",
+      "107/260",
+      "6/13",
+      "12/13"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6/13",
+    "explanation": "P(woman) = women/(men+women) = 6/13.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_team_table",
+      "variant": 4,
+      "inputs": {
+        "men": 14,
+        "women": 12,
+        "q": 5,
+        "expr": "F(women,men+women)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0071",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; favourable outcomes=45; total outcomes=180. Find the probability of a favourable outcome.",
+    "options": [
+      "3/10",
+      "1/4",
+      "1/5",
+      "1/2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/4",
+    "explanation": "Favourable divided by total = 1/4.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_favourable_count",
+      "variant": 0,
+      "inputs": {
+        "favour": 45,
+        "total": 180,
+        "q": 1,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0072",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; favourable outcomes=46; total outcomes=181. Find the probability of a favourable outcome.",
+    "options": [
+      "46/181",
+      "92/181",
+      "1101/3620",
+      "739/3620"
+    ],
+    "correct_option": "A",
+    "correct_answer": "46/181",
+    "explanation": "Favourable divided by total = 46/181.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_favourable_count",
+      "variant": 1,
+      "inputs": {
+        "favour": 46,
+        "total": 181,
+        "q": 2,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0073",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; favourable outcomes=47; total outcomes=182. Find the probability of a favourable outcome.",
+    "options": [
+      "379/1820",
+      "47/91",
+      "561/1820",
+      "47/182"
+    ],
+    "correct_option": "D",
+    "correct_answer": "47/182",
+    "explanation": "Favourable divided by total = 47/182.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_favourable_count",
+      "variant": 2,
+      "inputs": {
+        "favour": 47,
+        "total": 182,
+        "q": 3,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0074",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; favourable outcomes=48; total outcomes=183. Find the probability of a favourable outcome.",
+    "options": [
+      "16/61",
+      "32/61",
+      "381/1220",
+      "259/1220"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16/61",
+    "explanation": "Favourable divided by total = 16/61.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_favourable_count",
+      "variant": 3,
+      "inputs": {
+        "favour": 48,
+        "total": 183,
+        "q": 4,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0075",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; favourable outcomes=49; total outcomes=184. Find the probability of a favourable outcome.",
+    "options": [
+      "199/920",
+      "49/92",
+      "291/920",
+      "49/184"
+    ],
+    "correct_option": "D",
+    "correct_answer": "49/184",
+    "explanation": "Favourable divided by total = 49/184.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_favourable_count",
+      "variant": 4,
+      "inputs": {
+        "favour": 49,
+        "total": 184,
+        "q": 5,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0076",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; bag1 size=10; bag1 red=6; bag2 size=10; bag2 red=4. The bags are emptied into one box. Find the probability of drawing a red ball.",
+    "options": [
+      "1",
+      "1/2",
+      "9/20",
+      "11/20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/2",
+    "explanation": "Total red balls divided by total balls gives 1/2.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_bags",
+      "variant": 0,
+      "inputs": {
+        "bag1": 10,
+        "bag2": 10,
+        "red1": 6,
+        "red2": 4,
+        "q": 1,
+        "expr": "F(red1+red2,bag1+bag2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0077",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; bag1 size=12; bag1 red=7; bag2 size=8; bag2 red=3. The bags are emptied into one box. Find the probability of drawing a red ball.",
+    "options": [
+      "1/2",
+      "11/20",
+      "1",
+      "9/20"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/2",
+    "explanation": "Total red balls divided by total balls gives 1/2.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_bags",
+      "variant": 1,
+      "inputs": {
+        "bag1": 12,
+        "bag2": 8,
+        "red1": 7,
+        "red2": 3,
+        "q": 2,
+        "expr": "F(red1+red2,bag1+bag2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0078",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; bag1 size=15; bag1 red=9; bag2 size=15; bag2 red=6. The bags are emptied into one box. Find the probability of drawing a red ball.",
+    "options": [
+      "11/20",
+      "1",
+      "1/2",
+      "9/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/2",
+    "explanation": "Total red balls divided by total balls gives 1/2.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_bags",
+      "variant": 2,
+      "inputs": {
+        "bag1": 15,
+        "bag2": 15,
+        "red1": 9,
+        "red2": 6,
+        "q": 3,
+        "expr": "F(red1+red2,bag1+bag2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0079",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; bag1 size=20; bag1 red=12; bag2 size=10; bag2 red=4. The bags are emptied into one box. Find the probability of drawing a red ball.",
+    "options": [
+      "7/12",
+      "8/15",
+      "16/15",
+      "29/60"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8/15",
+    "explanation": "Total red balls divided by total balls gives 8/15.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_bags",
+      "variant": 3,
+      "inputs": {
+        "bag1": 20,
+        "bag2": 10,
+        "red1": 12,
+        "red2": 4,
+        "q": 4,
+        "expr": "F(red1+red2,bag1+bag2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0080",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; bag1 size=18; bag1 red=10; bag2 size=12; bag2 red=5. The bags are emptied into one box. Find the probability of drawing a red ball.",
+    "options": [
+      "9/20",
+      "1/2",
+      "11/20",
+      "1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/2",
+    "explanation": "Total red balls divided by total balls gives 1/2.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_bags",
+      "variant": 4,
+      "inputs": {
+        "bag1": 18,
+        "bag2": 12,
+        "red1": 10,
+        "red2": 5,
+        "q": 5,
+        "expr": "F(red1+red2,bag1+bag2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0081",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; blue balls=14; yellow balls=6. Find the probability of drawing a blue ball.",
+    "options": [
+      "13/20",
+      "7/5",
+      "3/4",
+      "7/10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7/10",
+    "explanation": "Blue balls over total balls = 7/10.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_colour_table",
+      "variant": 0,
+      "inputs": {
+        "blue": 14,
+        "yellow": 6,
+        "q": 1,
+        "expr": "F(blue,blue+yellow)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0082",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; blue balls=15; yellow balls=7. Find the probability of drawing a blue ball.",
+    "options": [
+      "15/11",
+      "161/220",
+      "15/22",
+      "139/220"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15/22",
+    "explanation": "Blue balls over total balls = 15/22.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_colour_table",
+      "variant": 1,
+      "inputs": {
+        "blue": 15,
+        "yellow": 7,
+        "q": 2,
+        "expr": "F(blue,blue+yellow)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0083",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; blue balls=16; yellow balls=8. Find the probability of drawing a blue ball.",
+    "options": [
+      "37/60",
+      "4/3",
+      "2/3",
+      "43/60"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/3",
+    "explanation": "Blue balls over total balls = 2/3.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_colour_table",
+      "variant": 2,
+      "inputs": {
+        "blue": 16,
+        "yellow": 8,
+        "q": 3,
+        "expr": "F(blue,blue+yellow)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0084",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; blue balls=17; yellow balls=9. Find the probability of drawing a blue ball.",
+    "options": [
+      "183/260",
+      "17/26",
+      "17/13",
+      "157/260"
+    ],
+    "correct_option": "B",
+    "correct_answer": "17/26",
+    "explanation": "Blue balls over total balls = 17/26.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_colour_table",
+      "variant": 3,
+      "inputs": {
+        "blue": 17,
+        "yellow": 9,
+        "q": 4,
+        "expr": "F(blue,blue+yellow)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0085",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; blue balls=18; yellow balls=10. Find the probability of drawing a blue ball.",
+    "options": [
+      "9/7",
+      "9/14",
+      "97/140",
+      "83/140"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9/14",
+    "explanation": "Blue balls over total balls = 9/14.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_colour_table",
+      "variant": 4,
+      "inputs": {
+        "blue": 18,
+        "yellow": 10,
+        "q": 5,
+        "expr": "F(blue,blue+yellow)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0086",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; passed=80; failed=20. Find the probability that a randomly chosen candidate failed.",
+    "options": [
+      "2/5",
+      "1/5",
+      "1/4",
+      "3/20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/5",
+    "explanation": "Failed candidates divided by all candidates gives 1/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pass_fail",
+      "variant": 0,
+      "inputs": {
+        "passed": 80,
+        "failed": 20,
+        "q": 1,
+        "expr": "F(failed,passed+failed)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0087",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; passed=81; failed=21. Find the probability that a randomly chosen candidate failed.",
+    "options": [
+      "87/340",
+      "7/17",
+      "7/34",
+      "53/340"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7/34",
+    "explanation": "Failed candidates divided by all candidates gives 7/34.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pass_fail",
+      "variant": 1,
+      "inputs": {
+        "passed": 81,
+        "failed": 21,
+        "q": 2,
+        "expr": "F(failed,passed+failed)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0088",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; passed=82; failed=22. Find the probability that a randomly chosen candidate failed.",
+    "options": [
+      "11/26",
+      "11/52",
+      "21/130",
+      "17/65"
+    ],
+    "correct_option": "B",
+    "correct_answer": "11/52",
+    "explanation": "Failed candidates divided by all candidates gives 11/52.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pass_fail",
+      "variant": 2,
+      "inputs": {
+        "passed": 82,
+        "failed": 22,
+        "q": 3,
+        "expr": "F(failed,passed+failed)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0089",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; passed=83; failed=23. Find the probability that a randomly chosen candidate failed.",
+    "options": [
+      "23/106",
+      "23/53",
+      "177/1060",
+      "283/1060"
+    ],
+    "correct_option": "A",
+    "correct_answer": "23/106",
+    "explanation": "Failed candidates divided by all candidates gives 23/106.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pass_fail",
+      "variant": 3,
+      "inputs": {
+        "passed": 83,
+        "failed": 23,
+        "q": 4,
+        "expr": "F(failed,passed+failed)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0090",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; passed=84; failed=24. Find the probability that a randomly chosen candidate failed.",
+    "options": [
+      "4/9",
+      "31/180",
+      "2/9",
+      "49/180"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/9",
+    "explanation": "Failed candidates divided by all candidates gives 2/9.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pass_fail",
+      "variant": 4,
+      "inputs": {
+        "passed": 84,
+        "failed": 24,
+        "q": 5,
+        "expr": "F(failed,passed+failed)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0091",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; wins=12; losses=18. Find the probability that the player wins the next game based on relative frequency.",
+    "options": [
+      "4/5",
+      "7/20",
+      "2/5",
+      "9/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/5",
+    "explanation": "Empirical win probability is win/(win+lose) = 2/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_game_table",
+      "variant": 0,
+      "inputs": {
+        "win": 12,
+        "lose": 18,
+        "q": 1,
+        "expr": "F(win,win+lose)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0092",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; wins=13; losses=19. Find the probability that the player wins the next game based on relative frequency.",
+    "options": [
+      "57/160",
+      "13/32",
+      "73/160",
+      "13/16"
+    ],
+    "correct_option": "B",
+    "correct_answer": "13/32",
+    "explanation": "Empirical win probability is win/(win+lose) = 13/32.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_game_table",
+      "variant": 1,
+      "inputs": {
+        "win": 13,
+        "lose": 19,
+        "q": 2,
+        "expr": "F(win,win+lose)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0093",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; wins=14; losses=20. Find the probability that the player wins the next game based on relative frequency.",
+    "options": [
+      "123/340",
+      "7/17",
+      "157/340",
+      "14/17"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/17",
+    "explanation": "Empirical win probability is win/(win+lose) = 7/17.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_game_table",
+      "variant": 2,
+      "inputs": {
+        "win": 14,
+        "lose": 20,
+        "q": 3,
+        "expr": "F(win,win+lose)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0094",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; wins=15; losses=21. Find the probability that the player wins the next game based on relative frequency.",
+    "options": [
+      "7/15",
+      "5/6",
+      "11/30",
+      "5/12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5/12",
+    "explanation": "Empirical win probability is win/(win+lose) = 5/12.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_game_table",
+      "variant": 3,
+      "inputs": {
+        "win": 15,
+        "lose": 21,
+        "q": 4,
+        "expr": "F(win,win+lose)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0095",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; wins=16; losses=22. Find the probability that the player wins the next game based on relative frequency.",
+    "options": [
+      "8/19",
+      "179/380",
+      "16/19",
+      "141/380"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8/19",
+    "explanation": "Empirical win probability is win/(win+lose) = 8/19.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_game_table",
+      "variant": 4,
+      "inputs": {
+        "win": 16,
+        "lose": 22,
+        "q": 5,
+        "expr": "F(win,win+lose)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0096",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; favourable cases=15; sample space=60. Find the probability of the event.",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/10",
+      "1/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/4",
+    "explanation": "Probability = favourable/sample space = 1/4.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_sample_space",
+      "variant": 0,
+      "inputs": {
+        "favour": 15,
+        "total": 60,
+        "q": 1,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0097",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; favourable cases=16; sample space=61. Find the probability of the event.",
+    "options": [
+      "16/61",
+      "259/1220",
+      "381/1220",
+      "32/61"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16/61",
+    "explanation": "Probability = favourable/sample space = 16/61.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_sample_space",
+      "variant": 1,
+      "inputs": {
+        "favour": 16,
+        "total": 61,
+        "q": 2,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0098",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; favourable cases=17; sample space=62. Find the probability of the event.",
+    "options": [
+      "201/620",
+      "17/31",
+      "139/620",
+      "17/62"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17/62",
+    "explanation": "Probability = favourable/sample space = 17/62.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_sample_space",
+      "variant": 2,
+      "inputs": {
+        "favour": 17,
+        "total": 62,
+        "q": 3,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0099",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; favourable cases=18; sample space=63. Find the probability of the event.",
+    "options": [
+      "47/140",
+      "2/7",
+      "33/140",
+      "4/7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2/7",
+    "explanation": "Probability = favourable/sample space = 2/7.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_sample_space",
+      "variant": 3,
+      "inputs": {
+        "favour": 18,
+        "total": 63,
+        "q": 4,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0100",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; favourable cases=19; sample space=64. Find the probability of the event.",
+    "options": [
+      "19/32",
+      "79/320",
+      "19/64",
+      "111/320"
+    ],
+    "correct_option": "C",
+    "correct_answer": "19/64",
+    "explanation": "Probability = favourable/sample space = 19/64.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_sample_space",
+      "variant": 4,
+      "inputs": {
+        "favour": 19,
+        "total": 64,
+        "q": 5,
+        "expr": "F(favour,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0101",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; correct marks=18; attempted questions=30. Find the fraction of attempted questions answered correctly.",
+    "options": [
+      "6/5",
+      "13/20",
+      "3/5",
+      "11/20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/5",
+    "explanation": "Correct attempts over total attempts gives 3/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_mark_table",
+      "variant": 0,
+      "inputs": {
+        "scored": 18,
+        "attempted": 30,
+        "q": 1,
+        "expr": "F(scored,attempted)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0102",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; correct marks=19; attempted questions=31. Find the fraction of attempted questions answered correctly.",
+    "options": [
+      "349/620",
+      "411/620",
+      "38/31",
+      "19/31"
+    ],
+    "correct_option": "D",
+    "correct_answer": "19/31",
+    "explanation": "Correct attempts over total attempts gives 19/31.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_mark_table",
+      "variant": 1,
+      "inputs": {
+        "scored": 19,
+        "attempted": 31,
+        "q": 2,
+        "expr": "F(scored,attempted)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0103",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; correct marks=20; attempted questions=32. Find the fraction of attempted questions answered correctly.",
+    "options": [
+      "5/8",
+      "27/40",
+      "23/40",
+      "5/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/8",
+    "explanation": "Correct attempts over total attempts gives 5/8.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_mark_table",
+      "variant": 2,
+      "inputs": {
+        "scored": 20,
+        "attempted": 32,
+        "q": 3,
+        "expr": "F(scored,attempted)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0104",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; correct marks=21; attempted questions=33. Find the fraction of attempted questions answered correctly.",
+    "options": [
+      "129/220",
+      "7/11",
+      "151/220",
+      "14/11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/11",
+    "explanation": "Correct attempts over total attempts gives 7/11.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_mark_table",
+      "variant": 3,
+      "inputs": {
+        "scored": 21,
+        "attempted": 33,
+        "q": 4,
+        "expr": "F(scored,attempted)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0105",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; correct marks=22; attempted questions=34. Find the fraction of attempted questions answered correctly.",
+    "options": [
+      "203/340",
+      "22/17",
+      "11/17",
+      "237/340"
+    ],
+    "correct_option": "C",
+    "correct_answer": "11/17",
+    "explanation": "Correct attempts over total attempts gives 11/17.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_mark_table",
+      "variant": 4,
+      "inputs": {
+        "scored": 22,
+        "attempted": 34,
+        "q": 5,
+        "expr": "F(scored,attempted)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0106",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; target tickets=8; total tickets=40. One ticket is drawn. Find the probability that it is a target ticket.",
+    "options": [
+      "1/5",
+      "2/5",
+      "3/20",
+      "1/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/5",
+    "explanation": "Target tickets over total tickets = 1/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_draw_table",
+      "variant": 0,
+      "inputs": {
+        "target": 8,
+        "total": 40,
+        "q": 1,
+        "expr": "F(target,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0107",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; target tickets=9; total tickets=41. One ticket is drawn. Find the probability that it is a target ticket.",
+    "options": [
+      "221/820",
+      "18/41",
+      "9/41",
+      "139/820"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9/41",
+    "explanation": "Target tickets over total tickets = 9/41.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_draw_table",
+      "variant": 1,
+      "inputs": {
+        "target": 9,
+        "total": 41,
+        "q": 2,
+        "expr": "F(target,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0108",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; target tickets=10; total tickets=42. One ticket is drawn. Find the probability that it is a target ticket.",
+    "options": [
+      "5/21",
+      "10/21",
+      "121/420",
+      "79/420"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/21",
+    "explanation": "Target tickets over total tickets = 5/21.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_draw_table",
+      "variant": 2,
+      "inputs": {
+        "target": 10,
+        "total": 42,
+        "q": 3,
+        "expr": "F(target,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0109",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; target tickets=11; total tickets=43. One ticket is drawn. Find the probability that it is a target ticket.",
+    "options": [
+      "263/860",
+      "22/43",
+      "177/860",
+      "11/43"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11/43",
+    "explanation": "Target tickets over total tickets = 11/43.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_draw_table",
+      "variant": 3,
+      "inputs": {
+        "target": 11,
+        "total": 43,
+        "q": 4,
+        "expr": "F(target,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0110",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; target tickets=12; total tickets=44. One ticket is drawn. Find the probability that it is a target ticket.",
+    "options": [
+      "49/220",
+      "6/11",
+      "71/220",
+      "3/11"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3/11",
+    "explanation": "Target tickets over total tickets = 3/11.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_draw_table",
+      "variant": 4,
+      "inputs": {
+        "target": 12,
+        "total": 44,
+        "q": 5,
+        "expr": "F(target,total)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0111",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; selected candidates=24; applicants=120. Find the selection probability for a randomly chosen applicant.",
+    "options": [
+      "1/4",
+      "2/5",
+      "3/20",
+      "1/5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/5",
+    "explanation": "Selected over applicants gives 1/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_selection_table",
+      "variant": 0,
+      "inputs": {
+        "selected": 24,
+        "applied": 120,
+        "q": 1,
+        "expr": "F(selected,applied)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0112",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; selected candidates=25; applicants=121. Find the selection probability for a randomly chosen applicant.",
+    "options": [
+      "25/121",
+      "50/121",
+      "379/2420",
+      "621/2420"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25/121",
+    "explanation": "Selected over applicants gives 25/121.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_selection_table",
+      "variant": 1,
+      "inputs": {
+        "selected": 25,
+        "applied": 121,
+        "q": 2,
+        "expr": "F(selected,applied)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0113",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; selected candidates=26; applicants=122. Find the selection probability for a randomly chosen applicant.",
+    "options": [
+      "321/1220",
+      "13/61",
+      "26/61",
+      "199/1220"
+    ],
+    "correct_option": "B",
+    "correct_answer": "13/61",
+    "explanation": "Selected over applicants gives 13/61.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_selection_table",
+      "variant": 2,
+      "inputs": {
+        "selected": 26,
+        "applied": 122,
+        "q": 3,
+        "expr": "F(selected,applied)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0114",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; selected candidates=27; applicants=123. Find the selection probability for a randomly chosen applicant.",
+    "options": [
+      "221/820",
+      "18/41",
+      "9/41",
+      "139/820"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9/41",
+    "explanation": "Selected over applicants gives 9/41.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_selection_table",
+      "variant": 3,
+      "inputs": {
+        "selected": 27,
+        "applied": 123,
+        "q": 4,
+        "expr": "F(selected,applied)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0115",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; selected candidates=28; applicants=124. Find the selection probability for a randomly chosen applicant.",
+    "options": [
+      "7/31",
+      "171/620",
+      "14/31",
+      "109/620"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7/31",
+    "explanation": "Selected over applicants gives 7/31.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_selection_table",
+      "variant": 4,
+      "inputs": {
+        "selected": 28,
+        "applied": 124,
+        "q": 5,
+        "expr": "F(selected,applied)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0116",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=1; successful trials=36; total trials=90. Find the experimental probability of success.",
+    "options": [
+      "2/5",
+      "9/20",
+      "4/5",
+      "7/20"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2/5",
+    "explanation": "Successful trials divided by all trials = 2/5.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_success_table",
+      "variant": 0,
+      "inputs": {
+        "success": 36,
+        "trials": 90,
+        "q": 1,
+        "expr": "F(success,trials)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0117",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=2; successful trials=37; total trials=91. Find the experimental probability of success.",
+    "options": [
+      "831/1820",
+      "74/91",
+      "37/91",
+      "649/1820"
+    ],
+    "correct_option": "C",
+    "correct_answer": "37/91",
+    "explanation": "Successful trials divided by all trials = 37/91.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_success_table",
+      "variant": 1,
+      "inputs": {
+        "success": 37,
+        "trials": 91,
+        "q": 2,
+        "expr": "F(success,trials)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0118",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=3; successful trials=38; total trials=92. Find the experimental probability of success.",
+    "options": [
+      "167/460",
+      "213/460",
+      "19/23",
+      "19/46"
+    ],
+    "correct_option": "D",
+    "correct_answer": "19/46",
+    "explanation": "Successful trials divided by all trials = 19/46.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_success_table",
+      "variant": 2,
+      "inputs": {
+        "success": 38,
+        "trials": 92,
+        "q": 3,
+        "expr": "F(success,trials)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0119",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=4; successful trials=39; total trials=93. Find the experimental probability of success.",
+    "options": [
+      "13/31",
+      "26/31",
+      "291/620",
+      "229/620"
+    ],
+    "correct_option": "A",
+    "correct_answer": "13/31",
+    "explanation": "Successful trials divided by all trials = 13/31.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_success_table",
+      "variant": 3,
+      "inputs": {
+        "success": 39,
+        "trials": 93,
+        "q": 4,
+        "expr": "F(success,trials)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_data_interpretation-0120",
+    "chapter": "Probability – Data Interpretation",
+    "chapter_key": "probability_data_interpretation",
+    "part": 4,
+    "section": "probability_data_interpretation_part_4",
+    "question_text": "Data: Case=5; successful trials=40; total trials=94. Find the experimental probability of success.",
+    "options": [
+      "447/940",
+      "40/47",
+      "353/940",
+      "20/47"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20/47",
+    "explanation": "Successful trials divided by all trials = 20/47.",
+    "difficulty": "MEDIUM",
+    "source_name": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf",
+    "source_url": "",
+    "source_page": "f9d83e47-9397-4b2e-99aa-92595ea4647c.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_success_table",
+      "variant": 4,
+      "inputs": {
+        "success": 40,
+        "trials": 94,
+        "q": 5,
+        "expr": "F(success,trials)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

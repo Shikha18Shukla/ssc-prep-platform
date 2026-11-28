@@ -1,0 +1,4947 @@
+[
+  {
+    "id": "ages_mains-0001",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "The present ages of Aarav, Meera and Rohan are in the ratio 2:3:5. 4 years ago, the ratio of Aarav's age to Meera's age became 4:7. If 2 times Aarav's present age, plus 1 times Meera's present age, plus 1 times Rohan's present age is 75, find Rohan's present age.",
+    "options": [
+      "33",
+      "30",
+      "27",
+      "60"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30",
+    "explanation": "Let present ages be 2t, 3t, 5t. The shifted pair gives t=6. The weighted condition checks as 2*12+1*18+1*30=72, and with the extra +3 it becomes 75. Present ages are [12, 18, 30]; required value is 30.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_shift_pair",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "c": 5,
+        "u": 6,
+        "shift": -4,
+        "pi": 0,
+        "pj": 1,
+        "w": [
+          2,
+          1,
+          1
+        ],
+        "extra": 3,
+        "coefs": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0002",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "The present ages of Neha, Kabir and Priya are in the ratio 3:4:7. 6 years from now, the ratio of Neha's age to Priya's age became 21:41. If 1 times Neha's present age, plus 2 times Kabir's present age, plus 1 times Priya's present age is 88, find the sum of the three present ages.",
+    "options": [
+      "73",
+      "140",
+      "70",
+      "67"
+    ],
+    "correct_option": "C",
+    "correct_answer": "70",
+    "explanation": "Let present ages be 3t, 4t, 7t. The shifted pair gives t=5. The weighted condition checks as 1*15+2*20+1*35=90, and with the extra -2 it becomes 88. Present ages are [15, 20, 35]; required value is 70.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_shift_pair",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "c": 7,
+        "u": 5,
+        "shift": 6,
+        "pi": 0,
+        "pj": 2,
+        "w": [
+          1,
+          2,
+          1
+        ],
+        "extra": -2,
+        "coefs": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0003",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "The present ages of Arjun, Sneha and Vikram are in the ratio 4:5:9. 5 years ago, the ratio of Sneha's age to Vikram's age became 15:31. If 1 times Arjun's present age, plus 1 times Sneha's present age, plus 2 times Vikram's present age is 112, find Arjun's present age.",
+    "options": [
+      "19",
+      "13",
+      "16",
+      "32"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16",
+    "explanation": "Let present ages be 4t, 5t, 9t. The shifted pair gives t=4. The weighted condition checks as 1*16+1*20+2*36=108, and with the extra +4 it becomes 112. Present ages are [16, 20, 36]; required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_shift_pair",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 5,
+        "c": 9,
+        "u": 4,
+        "shift": -5,
+        "pi": 1,
+        "pj": 2,
+        "w": [
+          1,
+          1,
+          2
+        ],
+        "extra": 4,
+        "coefs": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0004",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "The present ages of Ananya, Dev and Isha are in the ratio 5:7:11. 8 years from now, the ratio of Ananya's age to Dev's age became 23:29. If 3 times Ananya's present age, plus 1 times Dev's present age, plus 1 times Isha's present age is 94, find by how many years the second person is younger than the third.",
+    "options": [
+      "-12",
+      "-24",
+      "-9",
+      "-15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "-12",
+    "explanation": "Let present ages be 5t, 7t, 11t. The shifted pair gives t=3. The weighted condition checks as 3*15+1*21+1*33=99, and with the extra -5 it becomes 94. Present ages are [15, 21, 33]; required value is -12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_shift_pair",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 7,
+        "c": 11,
+        "u": 3,
+        "shift": 8,
+        "pi": 0,
+        "pj": 1,
+        "w": [
+          3,
+          1,
+          1
+        ],
+        "extra": -5,
+        "coefs": [
+          0,
+          1,
+          -1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0005",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "The present ages of Nikhil, Riya and Aditya are in the ratio 3:8:13. 3 years ago, the ratio of Nikhil's age to Aditya's age became 3:23. If 1 times Nikhil's present age, plus 1 times Riya's present age, plus 3 times Aditya's present age is 106, find Riya's present age.",
+    "options": [
+      "16",
+      "32",
+      "13",
+      "19"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "Let present ages be 3t, 8t, 13t. The shifted pair gives t=2. The weighted condition checks as 1*6+1*16+3*26=100, and with the extra +6 it becomes 106. Present ages are [6, 16, 26]; required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_shift_pair",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 8,
+        "c": 13,
+        "u": 2,
+        "shift": -3,
+        "pi": 0,
+        "pj": 2,
+        "w": [
+          1,
+          1,
+          3
+        ],
+        "extra": 6,
+        "coefs": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0006",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "Meera's present age is 1/2 of the sum of Rohan's and Neha's present ages. 4 years ago, Rohan and Neha were in the ratio 2:3. The excess of Meera's age over Rohan's age is 2/3 of the gap between Neha and Rohan, minus 1 year. Find Meera's present age.",
+    "options": [
+      "38",
+      "19",
+      "16",
+      "22"
+    ],
+    "correct_option": "B",
+    "correct_answer": "19",
+    "explanation": "Let Rohan=2t+4, Neha=3t+4. Condition 1 gives Meera=19 at t=6. Condition 2 checks: (19-16)=3 and 2/3*(22-16)+-1=3. Ages are 19, 16, 22; required value 19.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_sum_diff",
+      "variant": 0,
+      "inputs": {
+        "p": 2,
+        "q": 3,
+        "u": 6,
+        "shift": 4,
+        "fn1": 1,
+        "fd1": 2,
+        "fn2": 2,
+        "fd2": 3,
+        "delta": "-1",
+        "coefs": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0007",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "Kabir's present age is 1/2 of the sum of Priya's and Arjun's present ages. 3 years from now, Priya and Arjun were in the ratio 3:5. The excess of Kabir's age over Priya's age is 1/3 of the gap between Arjun and Priya, plus 5/3 years. Find the sum of the three present ages.",
+    "options": [
+      "48",
+      "51",
+      "54",
+      "102"
+    ],
+    "correct_option": "B",
+    "correct_answer": "51",
+    "explanation": "Let Priya=3t-3, Arjun=5t-3. Condition 1 gives Kabir=17 at t=5. Condition 2 checks: (17-12)=5 and 1/3*(22-12)+5/3=5. Ages are 17, 12, 22; required value 51.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_sum_diff",
+      "variant": 1,
+      "inputs": {
+        "p": 3,
+        "q": 5,
+        "u": 5,
+        "shift": -3,
+        "fn1": 1,
+        "fd1": 2,
+        "fn2": 1,
+        "fd2": 3,
+        "delta": "5/3",
+        "coefs": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0008",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "Sneha's present age is 2/3 of the sum of Vikram's and Ananya's present ages. 2 years ago, Vikram and Ananya were in the ratio 4:7. The excess of Sneha's age over Vikram's age is 1/2 of the gap between Ananya and Vikram, plus 8 years. Find Vikram's present age.",
+    "options": [
+      "21",
+      "36",
+      "18",
+      "15"
+    ],
+    "correct_option": "C",
+    "correct_answer": "18",
+    "explanation": "Let Vikram=4t+2, Ananya=7t+2. Condition 1 gives Sneha=32 at t=4. Condition 2 checks: (32-18)=14 and 1/2*(30-18)+8=14. Ages are 32, 18, 30; required value 18.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_sum_diff",
+      "variant": 2,
+      "inputs": {
+        "p": 4,
+        "q": 7,
+        "u": 4,
+        "shift": 2,
+        "fn1": 2,
+        "fd1": 3,
+        "fn2": 1,
+        "fd2": 2,
+        "delta": "8",
+        "coefs": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0009",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "Dev's present age is 1/3 of the sum of Isha's and Nikhil's present ages. 5 years ago, Isha and Nikhil were in the ratio 5:8. The excess of Dev's age over Isha's age is 3/4 of the gap between Nikhil and Isha, minus 125/12 years. Find Nikhil's present age.",
+    "options": [
+      "26",
+      "29",
+      "32",
+      "58"
+    ],
+    "correct_option": "B",
+    "correct_answer": "29",
+    "explanation": "Let Isha=5t+5, Nikhil=8t+5. Condition 1 gives Dev=49/3 at t=3. Condition 2 checks: (49/3-20)=-11/3 and 3/4*(29-20)+-125/12=-11/3. Ages are 49/3, 20, 29; required value 29.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_sum_diff",
+      "variant": 3,
+      "inputs": {
+        "p": 5,
+        "q": 8,
+        "u": 3,
+        "shift": 5,
+        "fn1": 1,
+        "fd1": 3,
+        "fn2": 3,
+        "fd2": 4,
+        "delta": "-125/12",
+        "coefs": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0010",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "Riya's present age is 2/5 of the sum of Aditya's and Kavya's present ages. 2 years from now, Aditya and Kavya were in the ratio 3:4. The excess of Riya's age over Aditya's age is 1/2 of the gap between Kavya and Aditya, minus 9/2 years. Find the sum of the three present ages.",
+    "options": [
+      "63",
+      "126",
+      "60",
+      "66"
+    ],
+    "correct_option": "A",
+    "correct_answer": "63",
+    "explanation": "Let Aditya=3t-2, Kavya=4t-2. Condition 1 gives Riya=18 at t=7. Condition 2 checks: (18-19)=-1 and 1/2*(26-19)+-9/2=-1. Ages are 18, 19, 26; required value 63.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_sum_diff",
+      "variant": 4,
+      "inputs": {
+        "p": 3,
+        "q": 4,
+        "u": 7,
+        "shift": -2,
+        "fn1": 2,
+        "fd1": 5,
+        "fn2": 1,
+        "fd2": 2,
+        "delta": "-9/2",
+        "coefs": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0011",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "A team of 8 members has average present age 32. After 3 years, 1 member aged 40 now leave and Rohan aged 25 joins. Find the average age of the team immediately after this change.",
+    "options": [
+      "131/4",
+      "123/4",
+      "139/4",
+      "131/2"
+    ],
+    "correct_option": "A",
+    "correct_answer": "131/4",
+    "explanation": "Present total=8*32=256. After 3 years total becomes 256+8*3=280. Leaving members take 1*(40+3)=43; joiner adds 25. New total=262, count=8, average=131/4.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_replacement_average",
+      "variant": 0,
+      "inputs": {
+        "n": 8,
+        "avg": 32,
+        "k": 3,
+        "leave_age": 40,
+        "join_age": 25,
+        "extra_leave": 1,
+        "ask": "new_avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0012",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "A group of 10 people has average present age 28. After 2 years, 2 members whose present ages average 36 leave. A new member Arjun joins then, and the group's average becomes 27. Find Arjun's age at joining.",
+    "options": [
+      "38",
+      "19",
+      "21",
+      "17"
+    ],
+    "correct_option": "B",
+    "correct_answer": "19",
+    "explanation": "After 2 years original total=300. Departing total=2*(36+2)=76. Remaining+joiner count=9, target total=27*9=243. Joiner age=19.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_replacement_average",
+      "variant": 1,
+      "inputs": {
+        "n": 10,
+        "avg": 28,
+        "k": 2,
+        "leave_age": 36,
+        "target": 27,
+        "extra_leave": 2,
+        "ask": "join_age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0013",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "In a batch of 12 trainees, average present age is 35. After 4 years, 1 trainee(s) leave and one trainee aged 29 joins. The average then becomes 36. Find the present average age of the trainee(s) who left.",
+    "options": [
+      "59",
+      "63",
+      "61",
+      "122"
+    ],
+    "correct_option": "C",
+    "correct_answer": "61",
+    "explanation": "Final total=36*12=432; before joiner=403. Original after 4 years=468. Leaving group at that time=65=65, so present average leaving age=61.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_replacement_average",
+      "variant": 2,
+      "inputs": {
+        "n": 12,
+        "avg": 35,
+        "k": 4,
+        "join_age": 29,
+        "target": 36,
+        "extra_leave": 1,
+        "ask": "leave_age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0014",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "A committee of 9 members has average present age 30. After 5 years, 1 member aged 45 now leaves and Riya aged 27 joins. If the resulting average is 292/9, find the present total age of the committee.",
+    "options": [
+      "268",
+      "270",
+      "272",
+      "540"
+    ],
+    "correct_option": "B",
+    "correct_answer": "270",
+    "explanation": "Average 30 over 9 members means present total=9*30=270. Forward check: after 5 years total 315, minus leaver 50, plus joiner 27 gives 292 over 9.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_replacement_average",
+      "variant": 3,
+      "inputs": {
+        "n": 9,
+        "avg": 30,
+        "k": 5,
+        "leave_age": 45,
+        "join_age": 27,
+        "extra_leave": 1,
+        "ask": "total_now"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0015",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 1,
+    "section": "ages_mains_part_1",
+    "question_text": "A group of 11 people has average present age 26. After 3 years, 2 members whose present ages average 38 leave. A new member Kavya joins then, and the group's average becomes 24. Find Kavya's age at joining.",
+    "options": [
+      "6",
+      "1",
+      "5",
+      "3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3",
+    "explanation": "After 3 years original total=319. Departing total=2*(38+3)=82. Remaining+joiner count=10, target total=24*10=240. Joiner age=3.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_replacement_average",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "avg": 26,
+        "k": 3,
+        "leave_age": 38,
+        "target": 24,
+        "extra_leave": 2,
+        "ask": "join_age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0016",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "A family of 5 members has average present age 30. After 3 years, a child is born in the family. After another 2 years, a second child is born. Assuming no one else joins or leaves, find the average age of the family at the end of 5 years.",
+    "options": [
+      "191/7",
+      "177/7",
+      "354/7",
+      "163/7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "177/7",
+    "explanation": "After 5 years each original member ages by 5: 5*(30+5)=175. First child born after 3 years is now 2; second newborn is 0. Total=175+2+0=177, count=7, average=177/7. Required value=177/7.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_new_birth_average",
+      "variant": 0,
+      "inputs": {
+        "n": 5,
+        "avg0": 30,
+        "k1": 3,
+        "k2": 2,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0017",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "A family of 6 members has average present age 28. After 4 years, a child is born in the family. After another 3 years, a second child is born. Assuming no one else joins or leaves, find the total age of the family at the end of 7 years.",
+    "options": [
+      "211",
+      "213",
+      "215",
+      "426"
+    ],
+    "correct_option": "B",
+    "correct_answer": "213",
+    "explanation": "After 7 years each original member ages by 7: 6*(28+7)=210. First child born after 4 years is now 3; second newborn is 0. Total=210+3+0=213, count=8, average=213/8. Required value=213.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_new_birth_average",
+      "variant": 1,
+      "inputs": {
+        "n": 6,
+        "avg0": 28,
+        "k1": 4,
+        "k2": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0018",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "A family of 4 members has average present age 35. After 5 years, a child is born in the family. After another 2 years, a second child is born. Assuming no one else joins or leaves, find the age of Ananya's first child at the end of 7 years.",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "After 7 years each original member ages by 7: 4*(35+7)=168. First child born after 5 years is now 2; second newborn is 0. Total=168+2+0=170, count=6, average=85/3. Required value=2.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_new_birth_average",
+      "variant": 2,
+      "inputs": {
+        "n": 4,
+        "avg0": 35,
+        "k1": 5,
+        "k2": 2,
+        "ask": "child_age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0019",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "A family of 7 members has average present age 26. After 2 years, a child is born in the family. After another 4 years, a second child is born. Assuming no one else joins or leaves, find the average age of the family at the end of 6 years.",
+    "options": [
+      "76/3",
+      "82/3",
+      "152/3",
+      "70/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "76/3",
+    "explanation": "After 6 years each original member ages by 6: 7*(26+6)=224. First child born after 2 years is now 4; second newborn is 0. Total=224+4+0=228, count=9, average=76/3. Required value=76/3.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_new_birth_average",
+      "variant": 3,
+      "inputs": {
+        "n": 7,
+        "avg0": 26,
+        "k1": 2,
+        "k2": 4,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0020",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "A family of 5 members has average present age 32. After 6 years, a child is born in the family. After another 1 year, a second child is born. Assuming no one else joins or leaves, find the total age of the family at the end of 7 years.",
+    "options": [
+      "198",
+      "194",
+      "392",
+      "196"
+    ],
+    "correct_option": "D",
+    "correct_answer": "196",
+    "explanation": "After 7 years each original member ages by 7: 5*(32+7)=195. First child born after 6 years is now 1; second newborn is 0. Total=195+1+0=196, count=7, average=28. Required value=196.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_new_birth_average",
+      "variant": 4,
+      "inputs": {
+        "n": 5,
+        "avg0": 32,
+        "k1": 6,
+        "k2": 1,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0021",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "The present ages of Kabir and Priya are in the ratio 2:3. The sum of the reciprocals of their present ages is 5/36, and the product of their present ages is 216. After 5 years, their ages will be in the ratio 17:23. Find Priya's present age.",
+    "options": [
+      "18",
+      "15",
+      "21",
+      "36"
+    ],
+    "correct_option": "A",
+    "correct_answer": "18",
+    "explanation": "Let ages be 2t,3t. Reciprocal gives ( 2+3)/(6t)=5/36 => t=6. Product check: 12*18=216. Future ratio (12+5):(18+5)=17:23. Ages 12,18; required value 18.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_product",
+      "variant": 0,
+      "inputs": {
+        "p": 2,
+        "q": 3,
+        "u": 6,
+        "k": 5,
+        "coefs": [
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0022",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "The present ages of Sneha and Vikram are in the ratio 3:5. The sum of the reciprocals of their present ages is 2/15, and the product of their present ages is 240. After 6 years, their ages will be in the ratio 9:13. Find Sneha's present age.",
+    "options": [
+      "15",
+      "24",
+      "9",
+      "12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12",
+    "explanation": "Let ages be 3t,5t. Reciprocal gives ( 3+5)/(15t)=2/15 => t=4. Product check: 12*20=240. Future ratio (12+6):(20+6)=9:13. Ages 12,20; required value 12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_product",
+      "variant": 1,
+      "inputs": {
+        "p": 3,
+        "q": 5,
+        "u": 4,
+        "k": 6,
+        "coefs": [
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0023",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "The present ages of Dev and Isha are in the ratio 4:7. The sum of the reciprocals of their present ages is 11/84, and the product of their present ages is 252. After 4 years, their ages will be in the ratio 16:25. Find the sum of their present ages.",
+    "options": [
+      "36",
+      "66",
+      "33",
+      "30"
+    ],
+    "correct_option": "C",
+    "correct_answer": "33",
+    "explanation": "Let ages be 4t,7t. Reciprocal gives ( 4+7)/(28t)=11/84 => t=3. Product check: 12*21=252. Future ratio (12+4):(21+4)=16:25. Ages 12,21; required value 33.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_product",
+      "variant": 2,
+      "inputs": {
+        "p": 4,
+        "q": 7,
+        "u": 3,
+        "k": 4,
+        "coefs": [
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0024",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "The present ages of Riya and Aditya are in the ratio 5:8. The sum of the reciprocals of their present ages is 13/80, and the product of their present ages is 160. After 7 years, their ages will be in the ratio 17:23. Find the difference of their present ages.",
+    "options": [
+      "3",
+      "9",
+      "12",
+      "6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6",
+    "explanation": "Let ages be 5t,8t. Reciprocal gives ( 5+8)/(40t)=13/80 => t=2. Product check: 10*16=160. Future ratio (10+7):(16+7)=17:23. Ages 10,16; required value 6.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_product",
+      "variant": 3,
+      "inputs": {
+        "p": 5,
+        "q": 8,
+        "u": 2,
+        "k": 7,
+        "coefs": [
+          -1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0025",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "The present ages of Sahil and Tara are in the ratio 3:4. The sum of the reciprocals of their present ages is 7/60, and the product of their present ages is 300. After 8 years, their ages will be in the ratio 23:28. Find Tara's present age.",
+    "options": [
+      "40",
+      "23",
+      "17",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "Let ages be 3t,4t. Reciprocal gives ( 3+4)/(12t)=7/60 => t=5. Product check: 15*20=300. Future ratio (15+8):(20+8)=23:28. Ages 15,20; required value 20.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_product",
+      "variant": 4,
+      "inputs": {
+        "p": 3,
+        "q": 4,
+        "u": 5,
+        "k": 8,
+        "coefs": [
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0026",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "Priya and Arjun joined a service when their ages were in the ratio 2:3. Their present ages are in the ratio 5:6. Priya has 1 more years of service than Arjun. The sum of their ages at joining was 25, and the sum of their present ages is 44. Find Priya's present age.",
+    "options": [
+      "17",
+      "40",
+      "23",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "Joining ages 2u,3u with sum 25 gives u=5; present ages 5t,6t with sum 44 gives t=4. Service gap (20-10)-(24-15)=1. Required value 20.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_admission_service",
+      "variant": 0,
+      "inputs": {
+        "p": 2,
+        "q": 3,
+        "u": 5,
+        "r": 5,
+        "s": 6,
+        "t": 4,
+        "coefs": [
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0027",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "Vikram and Ananya joined a service when their ages were in the ratio 3:4. Their present ages are in the ratio 4:5. Ananya has 1 more years of service than Vikram. The sum of their ages at joining was 28, and the sum of their present ages is 45. Find Ananya's age at joining.",
+    "options": [
+      "32",
+      "13",
+      "19",
+      "16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16",
+    "explanation": "Joining ages 3u,4u with sum 28 gives u=4; present ages 4t,5t with sum 45 gives t=5. Service gap (20-12)-(25-16)=-1. Required value 16.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_admission_service",
+      "variant": 1,
+      "inputs": {
+        "p": 3,
+        "q": 4,
+        "u": 4,
+        "r": 4,
+        "s": 5,
+        "t": 5,
+        "coefs": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0028",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "Isha and Nikhil joined a service when their ages were in the ratio 1:2. Their present ages are in the ratio 3:4. Isha has 1 more years of service than Nikhil. The sum of their ages at joining was 21, and the sum of their present ages is 42. Find the sum of their present ages.",
+    "options": [
+      "84",
+      "45",
+      "39",
+      "42"
+    ],
+    "correct_option": "D",
+    "correct_answer": "42",
+    "explanation": "Joining ages 1u,2u with sum 21 gives u=7; present ages 3t,4t with sum 42 gives t=6. Service gap (18-7)-(24-14)=1. Required value 42.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_admission_service",
+      "variant": 2,
+      "inputs": {
+        "p": 1,
+        "q": 2,
+        "u": 7,
+        "r": 3,
+        "s": 4,
+        "t": 6,
+        "coefs": [
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0029",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "Aditya and Kavya joined a service when their ages were in the ratio 2:5. Their present ages are in the ratio 4:7. Kavya has 6 more years of service than Aditya. The sum of their ages at joining was 21, and the sum of their present ages is 55. Find Aditya's age at joining.",
+    "options": [
+      "12",
+      "9",
+      "6",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Joining ages 2u,5u with sum 21 gives u=3; present ages 4t,7t with sum 55 gives t=5. Service gap (20-6)-(35-15)=-6. Required value 6.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_admission_service",
+      "variant": 3,
+      "inputs": {
+        "p": 2,
+        "q": 5,
+        "u": 3,
+        "r": 4,
+        "s": 7,
+        "t": 5,
+        "coefs": [
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0030",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "Tara and Manav joined a service when their ages were in the ratio 3:5. Their present ages are in the ratio 6:8. Manav has 2 more years of service than Tara. The sum of their ages at joining was 32, and the sum of their present ages is 70. Find the difference of their present ages.",
+    "options": [
+      "-7",
+      "-20",
+      "-10",
+      "-13"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-10",
+    "explanation": "Joining ages 3u,5u with sum 32 gives u=4; present ages 6t,8t with sum 70 gives t=5. Service gap (30-12)-(40-20)=-2. Required value -10.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_admission_service",
+      "variant": 4,
+      "inputs": {
+        "p": 3,
+        "q": 5,
+        "u": 4,
+        "r": 6,
+        "s": 8,
+        "t": 5,
+        "coefs": [
+          1,
+          -1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0031",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "4 years ago, the ages of Arjun and Sneha were in the ratio 2:3. After 6 years from now, their ages will be in the ratio 13:17. The sum of their present ages is 48. Find Arjun's present age.",
+    "options": [
+      "40",
+      "23",
+      "20",
+      "17"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Let ages 4 years ago be 2u,3u with u=8, so present ages are 20,28. Check future: (20+6):(28+6)=13:17. Present sum 20+28=48. Required value 20.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_unequal_gaps_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "u": 8,
+        "k": 4,
+        "m": 6,
+        "coefs": [
+          1,
+          0
+        ],
+        "ask": "first"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0032",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "6 years ago, the ages of Ananya and Dev were in the ratio 3:5. After 9 years from now, their ages will be in the ratio 18:25. The sum of their present ages is 68. Find the sum of their present ages.",
+    "options": [
+      "65",
+      "71",
+      "136",
+      "68"
+    ],
+    "correct_option": "D",
+    "correct_answer": "68",
+    "explanation": "Let ages 6 years ago be 3u,5u with u=7, so present ages are 27,41. Check future: (27+9):(41+9)=18:25. Present sum 27+41=68. Required value 68.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_unequal_gaps_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 5,
+        "u": 7,
+        "k": 6,
+        "m": 9,
+        "coefs": [
+          1,
+          1
+        ],
+        "ask": "sum"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0033",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "5 years ago, the ages of Nikhil and Riya were in the ratio 4:7. After 10 years from now, their ages will be in the ratio 13:19. The sum of their present ages is 76. Find how many years Riya is older than Nikhil.",
+    "options": [
+      "36",
+      "21",
+      "15",
+      "18"
+    ],
+    "correct_option": "D",
+    "correct_answer": "18",
+    "explanation": "Let ages 5 years ago be 4u,7u with u=6, so present ages are 29,47. Check future: (29+10):(47+10)=13:19. Present sum 29+47=76. Required value 18.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_unequal_gaps_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 7,
+        "u": 6,
+        "k": 5,
+        "m": 10,
+        "coefs": [
+          -1,
+          1
+        ],
+        "ask": "gap"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0034",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "4 years ago, the ages of Kavya and Sahil were in the ratio 5:9. After 8 years from now, their ages will be in the ratio 37:57. The sum of their present ages is 78. Find Sahil's present age.",
+    "options": [
+      "52",
+      "49",
+      "98",
+      "46"
+    ],
+    "correct_option": "B",
+    "correct_answer": "49",
+    "explanation": "Let ages 4 years ago be 5u,9u with u=5, so present ages are 29,49. Check future: (29+8):(49+8)=37:57. Present sum 29+49=78. Required value 49.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_unequal_gaps_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 9,
+        "u": 5,
+        "k": 4,
+        "m": 8,
+        "coefs": [
+          0,
+          1
+        ],
+        "ask": "second"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0035",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 2,
+    "section": "ages_mains_part_2",
+    "question_text": "5 years ago, the ages of Manav and Diya were in the ratio 3:4. After 7 years from now, their ages will be in the ratio 13:16. The sum of their present ages is 73. Find the sum of their ages after 7 years.",
+    "options": [
+      "90",
+      "87",
+      "174",
+      "84"
+    ],
+    "correct_option": "B",
+    "correct_answer": "87",
+    "explanation": "Let ages 5 years ago be 3u,4u with u=9, so present ages are 32,41. Check future: (32+7):(41+7)=13:16. Present sum 32+41=73. Required value 87.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_unequal_gaps_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "u": 9,
+        "k": 5,
+        "m": 7,
+        "coefs": [
+          1,
+          1
+        ],
+        "ask": "future_sum"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0036",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Sneha's present age is 3 times Ananya's age plus 4, and Vikram's present age is 2 times Ananya's age plus 6. 5 years from now, the ratio of Sneha's age to Vikram's age will be 11:9. 10 years from now, that ratio will be 19:16. Find Ananya's present age.",
+    "options": [
+      "8",
+      "11",
+      "5",
+      "16"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8",
+    "explanation": "Let child=x. Father=3x+4, Mother=2x+6. Shift +5 gives (33):(27)=11:9; shift +10 gives (38):(32)=19:16. Solving gives x=8, father=28, mother=22; required value 8.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_hidden_multiple_family",
+      "variant": 0,
+      "inputs": {
+        "m1": 3,
+        "a1": 4,
+        "m2": 2,
+        "a2": 6,
+        "x": 8,
+        "s1": 5,
+        "s2": 10,
+        "coefs": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0037",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Dev's present age is 4 times Nikhil's age minus 2, and Isha's present age is 3 times Nikhil's age plus 1. 4 years from now, the ratio of Dev's age to Isha's age will be 15:13. 9 years from now, that ratio will be 35:31. Find Dev's present age.",
+    "options": [
+      "52",
+      "26",
+      "29",
+      "23"
+    ],
+    "correct_option": "B",
+    "correct_answer": "26",
+    "explanation": "Let child=x. Father=4x-2, Mother=3x+1. Shift +4 gives (30):(26)=15:13; shift +9 gives (35):(31)=35:31. Solving gives x=7, father=26, mother=22; required value 26.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_hidden_multiple_family",
+      "variant": 1,
+      "inputs": {
+        "m1": 4,
+        "a1": -2,
+        "m2": 3,
+        "a2": 1,
+        "x": 7,
+        "s1": 4,
+        "s2": 9,
+        "coefs": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0038",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Riya's present age is 5 times Kavya's age plus 3, and Aditya's present age is 2 times Kavya's age plus 10. 3 years ago, the ratio of Riya's age to Aditya's age was 30:19. 7 years from now, that ratio will be 40:29. Find Aditya's present age.",
+    "options": [
+      "44",
+      "25",
+      "22",
+      "19"
+    ],
+    "correct_option": "C",
+    "correct_answer": "22",
+    "explanation": "Let child=x. Father=5x+3, Mother=2x+10. Shift -3 gives (30):(19)=30:19; shift +7 gives (40):(29)=40:29. Solving gives x=6, father=33, mother=22; required value 22.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_hidden_multiple_family",
+      "variant": 2,
+      "inputs": {
+        "m1": 5,
+        "a1": 3,
+        "m2": 2,
+        "a2": 10,
+        "x": 6,
+        "s1": -3,
+        "s2": 7,
+        "coefs": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0039",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Sahil's present age is 2 times Manav's age plus 6, and Tara's present age is 4 times Manav's age minus 4. 6 years from now, the ratio of Sahil's age to Tara's age will be 15:19. 12 years from now, that ratio will be 9:11. Find the sum of the parents' present ages.",
+    "options": [
+      "56",
+      "53",
+      "112",
+      "59"
+    ],
+    "correct_option": "A",
+    "correct_answer": "56",
+    "explanation": "Let child=x. Father=2x+6, Mother=4x-4. Shift +6 gives (30):(38)=15:19; shift +12 gives (36):(44)=9:11. Solving gives x=9, father=24, mother=32; required value 56.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_hidden_multiple_family",
+      "variant": 3,
+      "inputs": {
+        "m1": 2,
+        "a1": 6,
+        "m2": 4,
+        "a2": -4,
+        "x": 9,
+        "s1": 6,
+        "s2": 12,
+        "coefs": [
+          0,
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0040",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Diya's present age is 6 times Pooja's age minus 5, and Kunal's present age is 3 times Pooja's age plus 8. 5 years from now, the ratio of Diya's age to Kunal's age will be 15:14. 11 years from now, that ratio will be 18:17. Find how many years Diya is older than Kunal.",
+    "options": [
+      "5",
+      "4",
+      "-1",
+      "2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2",
+    "explanation": "Let child=x. Father=6x-5, Mother=3x+8. Shift +5 gives (30):(28)=15:14; shift +11 gives (36):(34)=18:17. Solving gives x=5, father=25, mother=23; required value 2.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_hidden_multiple_family",
+      "variant": 4,
+      "inputs": {
+        "m1": 6,
+        "a1": -5,
+        "m2": 3,
+        "a2": 8,
+        "x": 5,
+        "s1": 5,
+        "s2": 11,
+        "coefs": [
+          0,
+          1,
+          -1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0041",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "A group of 10 people has average age 40. Then 2 people whose average age is 32 leave, and 1 new person whose average age is 25 join. Find the average age of the group 3 years after the change.",
+    "options": [
+      "406/9",
+      "776/9",
+      "388/9",
+      "370/9"
+    ],
+    "correct_option": "C",
+    "correct_answer": "388/9",
+    "explanation": "Initial total=10*40=400. After exit/entry: 400-2*32+1*25=361, count=9. After 3 years add 9*3=27: total=388, average=388/9. Required value 388/9.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_group_avg_exit_entry",
+      "variant": 0,
+      "inputs": {
+        "n": 10,
+        "avg": 40,
+        "leave_n": 2,
+        "leave_avg": 32,
+        "join_n": 1,
+        "join_avg": 25,
+        "k": 3,
+        "ask": "avg_after_k"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0042",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "A group of 12 people has average age 35. Then 3 people whose average age is 28 leave, and 2 new people whose average age is 40 join. Find the total age of the group 2 years after the change.",
+    "options": [
+      "436",
+      "438",
+      "876",
+      "440"
+    ],
+    "correct_option": "B",
+    "correct_answer": "438",
+    "explanation": "Initial total=12*35=420. After exit/entry: 420-3*28+2*40=416, count=11. After 2 years add 11*2=22: total=438, average=438/11. Required value 438.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_group_avg_exit_entry",
+      "variant": 1,
+      "inputs": {
+        "n": 12,
+        "avg": 35,
+        "leave_n": 3,
+        "leave_avg": 28,
+        "join_n": 2,
+        "join_avg": 40,
+        "k": 2,
+        "ask": "total_after_k"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0043",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "A group of 9 people has average age 44. Then 1 person whose average age is 38 leave, and 2 new people whose average age is 50 join. Find the number of people in the group after the change.",
+    "options": [
+      "10",
+      "8",
+      "20",
+      "12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10",
+    "explanation": "Initial total=9*44=396. After exit/entry: 396-1*38+2*50=458, count=10. After 4 years add 10*4=40: total=498, average=249/5. Required value 10.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_group_avg_exit_entry",
+      "variant": 2,
+      "inputs": {
+        "n": 9,
+        "avg": 44,
+        "leave_n": 1,
+        "leave_avg": 38,
+        "join_n": 2,
+        "join_avg": 50,
+        "k": 4,
+        "ask": "count_after"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0044",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "A group of 15 people has average age 30. Then 4 people whose average age is 24 leave, and 3 new people whose average age is 36 join. Find the average age of the group 2 years after the change.",
+    "options": [
+      "37",
+      "70",
+      "33",
+      "35"
+    ],
+    "correct_option": "D",
+    "correct_answer": "35",
+    "explanation": "Initial total=15*30=450. After exit/entry: 450-4*24+3*36=462, count=14. After 2 years add 14*2=28: total=490, average=35. Required value 35.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_group_avg_exit_entry",
+      "variant": 3,
+      "inputs": {
+        "n": 15,
+        "avg": 30,
+        "leave_n": 4,
+        "leave_avg": 24,
+        "join_n": 3,
+        "join_avg": 36,
+        "k": 2,
+        "ask": "avg_after_k"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0045",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "A group of 8 people has average age 27. Then 2 people whose average age is 20 leave, and 1 new person whose average age is 35 join. Find the total age of the group 5 years after the change.",
+    "options": [
+      "248",
+      "492",
+      "246",
+      "244"
+    ],
+    "correct_option": "C",
+    "correct_answer": "246",
+    "explanation": "Initial total=8*27=216. After exit/entry: 216-2*20+1*35=211, count=7. After 5 years add 7*5=35: total=246, average=246/7. Required value 246.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_group_avg_exit_entry",
+      "variant": 4,
+      "inputs": {
+        "n": 8,
+        "avg": 27,
+        "leave_n": 2,
+        "leave_avg": 20,
+        "join_n": 1,
+        "join_avg": 35,
+        "k": 5,
+        "ask": "total_after_k"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0046",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "The present ages of Ananya and Dev are in the ratio 3:4. 4 years ago, their ages were in the ratio 7:10. Isha is presently 5 years older than Ananya. After 6 years, the ratio of Ananya's age to Isha's age will be 24:29. Find Isha's present age.",
+    "options": [
+      "23",
+      "20",
+      "46",
+      "26"
+    ],
+    "correct_option": "A",
+    "correct_answer": "23",
+    "explanation": "From present ratio and 4-years-ago ratio, 3u:4u with u=6 gives A=18, B=24. Isha=23 from relation to A. Future A:C check (24):(29)=24:29. Required value 23.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_different_pair",
+      "variant": 0,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "u": 6,
+        "k": 4,
+        "m": 6,
+        "e": 5,
+        "base": "A",
+        "coefs": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0047",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "The present ages of Nikhil and Riya are in the ratio 2:5. 3 years ago, their ages were in the ratio 7:22. Aditya is presently 4 years younger than Riya. After 5 years, the ratio of Nikhil's age to Aditya's age will be 15:26. Find Nikhil's present age.",
+    "options": [
+      "7",
+      "13",
+      "10",
+      "20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10",
+    "explanation": "From present ratio and 3-years-ago ratio, 2u:5u with u=5 gives A=10, B=25. Aditya=21 from relation to B. Future A:C check (15):(26)=15:26. Required value 10.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_different_pair",
+      "variant": 1,
+      "inputs": {
+        "a": 2,
+        "b": 5,
+        "u": 5,
+        "k": 3,
+        "m": 5,
+        "e": -4,
+        "base": "B",
+        "coefs": [
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0048",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "The present ages of Kavya and Sahil are in the ratio 4:7. 5 years ago, their ages were in the ratio 11:23. Tara is presently 6 years older than Kavya. After 8 years, the ratio of Kavya's age to Tara's age will be 4:5. Find the sum of the three present ages.",
+    "options": [
+      "132",
+      "63",
+      "69",
+      "66"
+    ],
+    "correct_option": "D",
+    "correct_answer": "66",
+    "explanation": "From present ratio and 5-years-ago ratio, 4u:7u with u=4 gives A=16, B=28. Tara=22 from relation to A. Future A:C check (24):(30)=4:5. Required value 66.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_different_pair",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 7,
+        "u": 4,
+        "k": 5,
+        "m": 8,
+        "e": 6,
+        "base": "A",
+        "coefs": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0049",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "The present ages of Manav and Diya are in the ratio 5:8. 6 years ago, their ages were in the ratio 1:2. Kunal is presently 3 years younger than Diya. After 4 years, the ratio of Manav's age to Kunal's age will be 19:25. Find by how many years Diya is older than Kunal.",
+    "options": [
+      "3",
+      "6",
+      "4",
+      "0"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3",
+    "explanation": "From present ratio and 6-years-ago ratio, 5u:8u with u=3 gives A=15, B=24. Kunal=21 from relation to B. Future A:C check (19):(25)=19:25. Required value 3.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_different_pair",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 8,
+        "u": 3,
+        "k": 6,
+        "m": 4,
+        "e": -3,
+        "base": "B",
+        "coefs": [
+          0,
+          1,
+          -1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0050",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "The present ages of Pooja and Rehan are in the ratio 3:5. 2 years ago, their ages were in the ratio 19:33. Sania is presently 7 years older than Pooja. After 9 years, the ratio of Pooja's age to Sania's age will be 30:37. Find Rehan's present age.",
+    "options": [
+      "32",
+      "70",
+      "35",
+      "38"
+    ],
+    "correct_option": "C",
+    "correct_answer": "35",
+    "explanation": "From present ratio and 2-years-ago ratio, 3u:5u with u=7 gives A=21, B=35. Sania=28 from relation to A. Future A:C check (30):(37)=30:37. Required value 35.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_different_pair",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 5,
+        "u": 7,
+        "k": 2,
+        "m": 9,
+        "e": 7,
+        "base": "A",
+        "coefs": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0051",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Dev's present age is 60% of Isha's present age. 5 years ago, the ratio of their ages was 1:2. After 8 years, the ratio of their ages will be 23:33. Find Isha's present age.",
+    "options": [
+      "50",
+      "22",
+      "25",
+      "28"
+    ],
+    "correct_option": "C",
+    "correct_answer": "25",
+    "explanation": "From percentage, let base be 25 giving ages 15,25. Past check (10):(20)=1:2; future check (23):(33)=23:33. Required value 25.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_ages",
+      "variant": 0,
+      "inputs": {
+        "p": 60,
+        "u": 25,
+        "k1": 5,
+        "k2": 8,
+        "anchor": "A_of_B",
+        "coefs": [
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0052",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Riya's present age is 40% of Aditya's present age. 6 years ago, the ratio of their ages was 1:4. After 4 years, the ratio of their ages will be 8:17. Find Riya's present age.",
+    "options": [
+      "15",
+      "12",
+      "9",
+      "24"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12",
+    "explanation": "From percentage, let base be 30 giving ages 12,30. Past check (6):(24)=1:4; future check (16):(34)=8:17. Required value 12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_ages",
+      "variant": 1,
+      "inputs": {
+        "p": 40,
+        "u": 30,
+        "k1": 6,
+        "k2": 4,
+        "anchor": "A_of_B",
+        "coefs": [
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0053",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Tara's present age is 50% of Sahil's present age. 6 years ago, the ratio of their ages was 5:2. After 9 years, the ratio of their ages will be 5:3. Find the sum of their present ages.",
+    "options": [
+      "54",
+      "57",
+      "51",
+      "108"
+    ],
+    "correct_option": "A",
+    "correct_answer": "54",
+    "explanation": "From percentage, let base be 36 giving ages 36,18. Past check (30):(12)=5:2; future check (45):(27)=5:3. Required value 54.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_ages",
+      "variant": 2,
+      "inputs": {
+        "p": 50,
+        "u": 36,
+        "k1": 6,
+        "k2": 9,
+        "anchor": "B_of_A",
+        "coefs": [
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0054",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Kunal's present age is 25% of Diya's present age. 5 years ago, the ratio of their ages was 7:1. After 10 years, the ratio of their ages will be 5:2. Find the difference of their present ages.",
+    "options": [
+      "27",
+      "30",
+      "33",
+      "60"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30",
+    "explanation": "From percentage, let base be 40 giving ages 40,10. Past check (35):(5)=7:1; future check (50):(20)=5:2. Required value 30.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_ages",
+      "variant": 3,
+      "inputs": {
+        "p": 25,
+        "u": 40,
+        "k1": 5,
+        "k2": 10,
+        "anchor": "B_of_A",
+        "coefs": [
+          1,
+          -1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0055",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "Rehan's present age is 75% of Sania's present age. 4 years ago, the ratio of their ages was 17:24. After 7 years, the ratio of their ages will be 4:5. Find Rehan's present age.",
+    "options": [
+      "18",
+      "21",
+      "42",
+      "24"
+    ],
+    "correct_option": "B",
+    "correct_answer": "21",
+    "explanation": "From percentage, let base be 28 giving ages 21,28. Past check (17):(24)=17:24; future check (28):(35)=4:5. Required value 21.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_ages",
+      "variant": 4,
+      "inputs": {
+        "p": 75,
+        "u": 28,
+        "k1": 4,
+        "k2": 7,
+        "anchor": "A_of_B",
+        "coefs": [
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0056",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "2 times Isha's age 3 years ago plus 3 times Nikhil's age 4 years ago is 43. Also, 5 times Isha's present age minus 4 times Nikhil's age 2 years from now is 41. Find Isha's present age.",
+    "options": [
+      "17",
+      "34",
+      "20",
+      "14"
+    ],
+    "correct_option": "A",
+    "correct_answer": "17",
+    "explanation": "Let present ages be x,y. Eq1: 2x+3y=61. Eq2: 5x+-4y=49. Solving gives x=17, y=9. Required value 17.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_simultaneous_linear",
+      "variant": 0,
+      "inputs": {
+        "c1": 2,
+        "d1": 3,
+        "c2": 5,
+        "d2": -4,
+        "rhs1": 61,
+        "rhs2": 49,
+        "coefs": [
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0057",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "3 times Aditya's age 2 years ago plus 2 times Kavya's age 3 years ago is 79. Also, 4 times Aditya's present age minus 5 times Kavya's age 1 year from now is 32. Find Kavya's present age.",
+    "options": [
+      "14",
+      "22",
+      "8",
+      "11"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11",
+    "explanation": "Let present ages be x,y. Eq1: 3x+2y=91. Eq2: 4x+-5y=37. Solving gives x=23, y=11. Required value 11.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_simultaneous_linear",
+      "variant": 1,
+      "inputs": {
+        "c1": 3,
+        "d1": 2,
+        "c2": 4,
+        "d2": -5,
+        "rhs1": 91,
+        "rhs2": 37,
+        "coefs": [
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0058",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "5 times Tara's age 1 year ago plus 2 times Manav's age 2 years ago is 101. Also, 3 times Tara's present age minus 1 times Manav's present age is 22. Find the sum of their present ages.",
+    "options": [
+      "34",
+      "68",
+      "37",
+      "31"
+    ],
+    "correct_option": "A",
+    "correct_answer": "34",
+    "explanation": "Let present ages be x,y. Eq1: 5x+2y=110. Eq2: 3x+-1y=22. Solving gives x=14, y=20. Required value 34.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_simultaneous_linear",
+      "variant": 2,
+      "inputs": {
+        "c1": 5,
+        "d1": 2,
+        "c2": 3,
+        "d2": -1,
+        "rhs1": 110,
+        "rhs2": 22,
+        "coefs": [
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0059",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "4 times Kunal's age 4 years ago plus 3 times Pooja's age 1 year ago is 144. Also, 7 times Kunal's present age minus 2 times Pooja's age 3 years from now is 185. Find the difference of their present ages.",
+    "options": [
+      "15",
+      "18",
+      "36",
+      "21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18",
+    "explanation": "Let present ages be x,y. Eq1: 4x+3y=163. Eq2: 7x+-2y=191. Solving gives x=31, y=13. Required value 18.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_simultaneous_linear",
+      "variant": 3,
+      "inputs": {
+        "c1": 4,
+        "d1": 3,
+        "c2": 7,
+        "d2": -2,
+        "rhs1": 163,
+        "rhs2": 191,
+        "coefs": [
+          1,
+          -1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0060",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "2 times Sania's age 2 years ago plus 5 times Aarav's age 3 years ago is 154. Also, 6 times Sania's present age minus 1 times Aarav's age 1 year from now is 86. Find Sania's present age.",
+    "options": [
+      "16",
+      "19",
+      "38",
+      "22"
+    ],
+    "correct_option": "B",
+    "correct_answer": "19",
+    "explanation": "Let present ages be x,y. Eq1: 2x+5y=173. Eq2: 6x+-1y=87. Solving gives x=19, y=27. Required value 19.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_simultaneous_linear",
+      "variant": 4,
+      "inputs": {
+        "c1": 2,
+        "d1": 5,
+        "c2": 6,
+        "d2": -1,
+        "rhs1": 173,
+        "rhs2": 87,
+        "coefs": [
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0061",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "4 years ago, the ages of Nikhil and Riya were in the ratio 2:3. At present, Aditya is 5 years older than Riya. After 7 years, the ratio of Nikhil's age to Aditya's age will be 23:34. The sum of their present ages is 65. Find Nikhil's present age.",
+    "options": [
+      "13",
+      "32",
+      "16",
+      "19"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16",
+    "explanation": "Past ages 2u,3u with u=6 give present A=16, B=22; C=B+5=27. Future A:C (23):(34)=23:34. Sum 65. Required value 16.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_time_chain",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "u": 6,
+        "k": 4,
+        "gap": 5,
+        "m": 7,
+        "ask": "A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0062",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "3 years ago, the ages of Kavya and Sahil were in the ratio 3:5. At present, Tara is 4 years younger than Sahil. After 6 years, the ratio of Kavya's age to Tara's age will be 4:5. The sum of their present ages is 70. Find Tara's present age.",
+    "options": [
+      "27",
+      "48",
+      "21",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Past ages 3u,5u with u=5 give present A=18, B=28; C=B-4=24. Future A:C (24):(30)=4:5. Sum 70. Required value 24.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_time_chain",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 5,
+        "u": 5,
+        "k": 3,
+        "gap": -4,
+        "m": 6,
+        "ask": "C"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0063",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "5 years ago, the ages of Manav and Diya were in the ratio 4:7. At present, Kunal is 9 years older than Diya. After 8 years, the ratio of Manav's age to Kunal's age will be 29:50. The sum of their present ages is 96. Find the sum of the three present ages.",
+    "options": [
+      "192",
+      "99",
+      "93",
+      "96"
+    ],
+    "correct_option": "D",
+    "correct_answer": "96",
+    "explanation": "Past ages 4u,7u with u=4 give present A=21, B=33; C=B+9=42. Future A:C (29):(50)=29:50. Sum 96. Required value 96.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_time_chain",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 7,
+        "u": 4,
+        "k": 5,
+        "gap": 9,
+        "m": 8,
+        "ask": "sum"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0064",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "6 years ago, the ages of Pooja and Rehan were in the ratio 5:8. At present, Sania is 6 years younger than Rehan. After 4 years, the ratio of Pooja's age to Sania's age will be 25:28. The sum of their present ages is 75. Find by how many years Rehan is older than Sania.",
+    "options": [
+      "9",
+      "12",
+      "6",
+      "3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Past ages 5u,8u with u=3 give present A=21, B=30; C=B-6=24. Future A:C (25):(28)=25:28. Sum 75. Required value 6.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_time_chain",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 8,
+        "u": 3,
+        "k": 6,
+        "gap": -6,
+        "m": 4,
+        "ask": "gapBC"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0065",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 3,
+    "section": "ages_mains_part_3",
+    "question_text": "2 years ago, the ages of Aarav and Meera were in the ratio 3:4. At present, Rohan is 7 years older than Meera. After 9 years, the ratio of Aarav's age to Rohan's age will be 7:10. The sum of their present ages is 101. Find Rohan's age after 9 years.",
+    "options": [
+      "47",
+      "50",
+      "53",
+      "100"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50",
+    "explanation": "Past ages 3u,4u with u=8 give present A=26, B=34; C=B+7=41. Future A:C (35):(50)=7:10. Sum 101. Required value 50.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_three_time_chain",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "u": 8,
+        "k": 2,
+        "gap": 7,
+        "m": 9,
+        "ask": "future_C"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0066",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 7 people has average present age 32. The average age of the 2 oldest members is 45, and the average age of the 2 youngest members is 20. If the whole group ages by 3 years, find the total present age of the remaining 3 member(s).",
+    "options": [
+      "96",
+      "92",
+      "94",
+      "188"
+    ],
+    "correct_option": "C",
+    "correct_answer": "94",
+    "explanation": "Total=7*32=224. Oldest subtotal=2*45=90, youngest subtotal=2*20=40. Remaining 3 members total 94. After 3 years whole total 245, remaining total 103. Required value 94.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_average_subset",
+      "variant": 0,
+      "inputs": {
+        "n": 7,
+        "avg": 32,
+        "t": 2,
+        "old": 45,
+        "s": 2,
+        "young": 20,
+        "k": 3,
+        "rem_count": 3,
+        "ask": "middle"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0067",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 9 people has average present age 34. The average age of the 3 oldest members is 46, and the average age of the 2 youngest members is 22. If the whole group ages by 4 years, find the total age of the remaining 4 member(s) after 4 years.",
+    "options": [
+      "280",
+      "138",
+      "140",
+      "142"
+    ],
+    "correct_option": "C",
+    "correct_answer": "140",
+    "explanation": "Total=9*34=306. Oldest subtotal=3*46=138, youngest subtotal=2*22=44. Remaining 4 members total 124. After 4 years whole total 342, remaining total 140. Required value 140.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_average_subset",
+      "variant": 1,
+      "inputs": {
+        "n": 9,
+        "avg": 34,
+        "t": 3,
+        "old": 46,
+        "s": 2,
+        "young": 22,
+        "k": 4,
+        "rem_count": 4,
+        "ask": "middle_future"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0068",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 8 people has average present age 36. The average age of the 2 oldest members is 50, and the average age of the 3 youngest members is 24. If the whole group ages by 0 years, find the combined present age of the oldest and youngest selected members.",
+    "options": [
+      "170",
+      "174",
+      "344",
+      "172"
+    ],
+    "correct_option": "D",
+    "correct_answer": "172",
+    "explanation": "Total=8*36=288. Oldest subtotal=2*50=100, youngest subtotal=3*24=72. Remaining 3 members total 116. After 0 years whole total 288, remaining total 116. Required value 172.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_average_subset",
+      "variant": 2,
+      "inputs": {
+        "n": 8,
+        "avg": 36,
+        "t": 2,
+        "old": 50,
+        "s": 3,
+        "young": 24,
+        "k": 0,
+        "rem_count": 3,
+        "ask": "extremes_total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0069",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 10 people has average present age 29. The average age of the 3 oldest members is 40, and the average age of the 2 youngest members is 18. If the whole group ages by 0 years, find the average present age of the remaining 5 member(s).",
+    "options": [
+      "144/5",
+      "134/5",
+      "268/5",
+      "124/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "134/5",
+    "explanation": "Total=10*29=290. Oldest subtotal=3*40=120, youngest subtotal=2*18=36. Remaining 5 members total 134. After 0 years whole total 290, remaining total 134. Required value 134/5.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_average_subset",
+      "variant": 3,
+      "inputs": {
+        "n": 10,
+        "avg": 29,
+        "t": 3,
+        "old": 40,
+        "s": 2,
+        "young": 18,
+        "k": 0,
+        "rem_count": 5,
+        "ask": "avg_remaining"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0070",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 11 people has average present age 31. The average age of the 3 oldest members is 44, and the average age of the 4 youngest members is 21. If the whole group ages by 2 years, find the total age of the whole group after 2 years.",
+    "options": [
+      "363",
+      "361",
+      "726",
+      "365"
+    ],
+    "correct_option": "A",
+    "correct_answer": "363",
+    "explanation": "Total=11*31=341. Oldest subtotal=3*44=132, youngest subtotal=4*21=84. Remaining 4 members total 125. After 2 years whole total 363, remaining total 133. Required value 363.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_average_subset",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "avg": 31,
+        "t": 3,
+        "old": 44,
+        "s": 4,
+        "young": 21,
+        "k": 2,
+        "rem_count": 4,
+        "ask": "total_future"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0071",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Aditya and Kavya are in the ratio 2:5 and their sum is 49. The ratio of their ages after some years becomes 1:2. If Kavya is currently 35 years old, find the number of years from now when the ratio becomes 1:2.",
+    "options": [
+      "9",
+      "14",
+      "5",
+      "7"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7",
+    "explanation": "Present ages are 14 and 35. Solving (14+k)/(35+k)=1/2 gives k=7. Required value 7.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_ratio_change_find_time",
+      "variant": 0,
+      "inputs": {
+        "p": 2,
+        "q": 5,
+        "total": 49,
+        "r": 1,
+        "s": 2,
+        "direction": "future",
+        "ask": "years"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0072",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Tara and Manav are in the ratio 2:5 and their sum is 49. The ratio of their ages some years ago becomes 1:4. If Manav is currently 35 years old, find the number of years ago when the ratio becomes 1:4.",
+    "options": [
+      "7",
+      "14",
+      "5",
+      "9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7",
+    "explanation": "Present ages are 14 and 35. Solving (14-k)/(35-k)=1/4 gives k=7. Required value 7.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_ratio_change_find_time",
+      "variant": 1,
+      "inputs": {
+        "p": 2,
+        "q": 5,
+        "total": 49,
+        "r": 1,
+        "s": 4,
+        "direction": "past",
+        "ask": "years"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0073",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Kunal and Pooja are in the ratio 3:7 and their sum is 60. The ratio of their ages after some years becomes 1:2. If Pooja is currently 42 years old, find Kunal's age at that time.",
+    "options": [
+      "26",
+      "48",
+      "22",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Present ages are 18 and 42. Solving (18+k)/(42+k)=1/2 gives k=6. Required value 24.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_ratio_change_find_time",
+      "variant": 2,
+      "inputs": {
+        "p": 3,
+        "q": 7,
+        "total": 60,
+        "r": 1,
+        "s": 2,
+        "direction": "future",
+        "ask": "age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0074",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Sania and Aarav are in the ratio 5:4 and their sum is 72. The ratio of their ages after some years becomes 6:5. If Aarav is currently 32 years old, find the sum of their ages at that time.",
+    "options": [
+      "88",
+      "176",
+      "86",
+      "90"
+    ],
+    "correct_option": "A",
+    "correct_answer": "88",
+    "explanation": "Present ages are 40 and 32. Solving (40+k)/(32+k)=6/5 gives k=8. Required value 88.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_ratio_change_find_time",
+      "variant": 3,
+      "inputs": {
+        "p": 5,
+        "q": 4,
+        "total": 72,
+        "r": 6,
+        "s": 5,
+        "direction": "future",
+        "ask": "sum_after"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0075",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Rohan and Neha are in the ratio 3:5 and their sum is 64. The ratio of their ages some years ago becomes 1:2. If Neha is currently 40 years old, find Rohan's age at that earlier time.",
+    "options": [
+      "18",
+      "32",
+      "14",
+      "16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16",
+    "explanation": "Present ages are 24 and 40. Solving (24-k)/(40-k)=1/2 gives k=8. Required value 16.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_ratio_change_find_time",
+      "variant": 4,
+      "inputs": {
+        "p": 3,
+        "q": 5,
+        "total": 64,
+        "r": 1,
+        "s": 2,
+        "direction": "past",
+        "ask": "age_at_reference"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0076",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "After 5 years, the ratio of Kavya's age to Sahil's age will be 2:3. After 7 years, the ratio of Kavya's age to Tara's age will be 2:3. Presently, Tara is 13 years older than Kavya. If Kavya's present age is 19, find Sahil's present age.",
+    "options": [
+      "62",
+      "28",
+      "31",
+      "34"
+    ],
+    "correct_option": "C",
+    "correct_answer": "31",
+    "explanation": "Using A=19 in future ratio 1 gives B=31. Using AC future ratio gives C=32. Gap C-base=13 matches. Required value 31.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_two_future_conditions",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "m": 5,
+        "c2": 2,
+        "d2": 3,
+        "n": 7,
+        "mode": "AC",
+        "u": 19,
+        "coefs": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0077",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "After 4 years, the ratio of Manav's age to Diya's age will be 3:4. After 6 years, the ratio of Diya's age to Kunal's age will be 2:3. Presently, Kunal is 15 years older than Diya. If Manav's present age is 17, find Kunal's present age.",
+    "options": [
+      "36",
+      "39",
+      "42",
+      "78"
+    ],
+    "correct_option": "B",
+    "correct_answer": "39",
+    "explanation": "Using A=17 in future ratio 1 gives B=24. Using BC future ratio gives C=39. Gap C-base=15 matches. Required value 39.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_two_future_conditions",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "m": 4,
+        "c2": 2,
+        "d2": 3,
+        "n": 6,
+        "mode": "BC",
+        "u": 17,
+        "coefs": [
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0078",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "After 6 years, the ratio of Pooja's age to Rehan's age will be 4:5. After 8 years, the ratio of Pooja's age to Sania's age will be 3:5. Presently, Sania is 20 years older than Pooja. If Pooja's present age is 22, find the sum of the three present ages.",
+    "options": [
+      "96",
+      "186",
+      "93",
+      "90"
+    ],
+    "correct_option": "C",
+    "correct_answer": "93",
+    "explanation": "Using A=22 in future ratio 1 gives B=29. Using AC future ratio gives C=42. Gap C-base=20 matches. Required value 93.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_two_future_conditions",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 5,
+        "m": 6,
+        "c2": 3,
+        "d2": 5,
+        "n": 8,
+        "mode": "AC",
+        "u": 22,
+        "coefs": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0079",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "After 3 years, the ratio of Aarav's age to Meera's age will be 2:5. After 5 years, the ratio of Meera's age to Rohan's age will be 4:5. Presently, Rohan is 13 years older than Meera. If Aarav's present age is 17, find Meera's present age.",
+    "options": [
+      "47",
+      "94",
+      "44",
+      "50"
+    ],
+    "correct_option": "A",
+    "correct_answer": "47",
+    "explanation": "Using A=17 in future ratio 1 gives B=47. Using BC future ratio gives C=60. Gap C-base=13 matches. Required value 47.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_two_future_conditions",
+      "variant": 3,
+      "inputs": {
+        "a": 2,
+        "b": 5,
+        "m": 3,
+        "c2": 4,
+        "d2": 5,
+        "n": 5,
+        "mode": "BC",
+        "u": 17,
+        "coefs": [
+          0,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0080",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "After 5 years, the ratio of Neha's age to Kabir's age will be 5:6. After 7 years, the ratio of Neha's age to Priya's age will be 2:3. Presently, Priya is 16 years older than Neha. If Neha's present age is 25, find by how many years Priya is older than Kabir.",
+    "options": [
+      "10",
+      "20",
+      "13",
+      "7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10",
+    "explanation": "Using A=25 in future ratio 1 gives B=31. Using AC future ratio gives C=41. Gap C-base=16 matches. Required value 10.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_two_future_conditions",
+      "variant": 4,
+      "inputs": {
+        "a": 5,
+        "b": 6,
+        "m": 5,
+        "c2": 2,
+        "d2": 3,
+        "n": 7,
+        "mode": "AC",
+        "u": 25,
+        "coefs": [
+          0,
+          -1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0081",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Sahil is 12 years older than Tara, and their present ages are in the ratio 5:3. Tara joined service 4 years after Sahil. The sum of their ages at the time of joining was 12. Find the number of years Sahil has served.",
+    "options": [
+      "23",
+      "20",
+      "17",
+      "40"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20",
+    "explanation": "From age gap and ratio, A=30, B=18. If Sahil joined at 10, Tara joined at 2; sum 12 matches. Service years are 20 and 16. Required value 20.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_joining_service_two",
+      "variant": 0,
+      "inputs": {
+        "gap": 12,
+        "p": 5,
+        "q": 3,
+        "lag": 4,
+        "x": 10,
+        "coefs": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0082",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Diya is 9 years older than Kunal, and their present ages are in the ratio 4:3. Kunal joined service 6 years after Diya. The sum of their ages at the time of joining was 27. Find Kunal's age at joining.",
+    "options": [
+      "9",
+      "12",
+      "24",
+      "15"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12",
+    "explanation": "From age gap and ratio, A=36, B=27. If Diya joined at 15, Kunal joined at 12; sum 27 matches. Service years are 21 and 15. Required value 12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_joining_service_two",
+      "variant": 1,
+      "inputs": {
+        "gap": 9,
+        "p": 4,
+        "q": 3,
+        "lag": 6,
+        "x": 15,
+        "coefs": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0083",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Rehan is 10 years older than Sania, and their present ages are in the ratio 3:2. Sania joined service 3 years after Rehan. The sum of their ages at the time of joining was 17. Find the sum of their years of service.",
+    "options": [
+      "30",
+      "36",
+      "33",
+      "66"
+    ],
+    "correct_option": "C",
+    "correct_answer": "33",
+    "explanation": "From age gap and ratio, A=30, B=20. If Rehan joined at 12, Sania joined at 5; sum 17 matches. Service years are 18 and 15. Required value 33.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_joining_service_two",
+      "variant": 2,
+      "inputs": {
+        "gap": 10,
+        "p": 3,
+        "q": 2,
+        "lag": 3,
+        "x": 12,
+        "coefs": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0084",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Meera is 15 years older than Rohan, and their present ages are in the ratio 7:4. Rohan joined service 5 years after Meera. The sum of their ages at the time of joining was 14. Find Meera's present age.",
+    "options": [
+      "70",
+      "35",
+      "32",
+      "38"
+    ],
+    "correct_option": "B",
+    "correct_answer": "35",
+    "explanation": "From age gap and ratio, A=35, B=20. If Meera joined at 12, Rohan joined at 2; sum 14 matches. Service years are 23 and 18. Required value 35.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_joining_service_two",
+      "variant": 3,
+      "inputs": {
+        "gap": 15,
+        "p": 7,
+        "q": 4,
+        "lag": 5,
+        "x": 12,
+        "coefs": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0085",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Kabir is 8 years older than Priya, and their present ages are in the ratio 5:3. Priya joined service 2 years after Kabir. The sum of their ages at the time of joining was 8. Find Kabir's age at joining.",
+    "options": [
+      "10",
+      "14",
+      "7",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7",
+    "explanation": "From age gap and ratio, A=20, B=12. If Kabir joined at 7, Priya joined at 1; sum 8 matches. Service years are 13 and 11. Required value 7.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_joining_service_two",
+      "variant": 4,
+      "inputs": {
+        "gap": 8,
+        "p": 5,
+        "q": 3,
+        "lag": 2,
+        "x": 7,
+        "coefs": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0086",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Tara's age is 1/2 of the sum of manav's and diya's ages, and Manav's age is 1/3 of the sum of Tara's and Diya's ages. The sum of the three ages is 60. After 5 years, the ratio of Tara's age to Manav's age will be 5:4. Find Tara's age.",
+    "options": [
+      "17",
+      "40",
+      "20",
+      "23"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Translate both fraction conditions and total=60 to get A=20, B=15, C=25. Future check (25):(20)=5:4. Required value 20.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_two_conditions",
+      "variant": 0,
+      "inputs": {
+        "k": 2,
+        "m": 3,
+        "t": 5,
+        "mode": "sum",
+        "ask": "A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0087",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Kunal's age is 1/3 of the sum of pooja's and rehan's ages, and Pooja's age is 1/2 of the sum of Kunal's and Rehan's ages. The sum of the three ages is 72. After 5 years, the ratio of Kunal's age to Pooja's age will be 23:29. Find Pooja's age.",
+    "options": [
+      "27",
+      "21",
+      "24",
+      "48"
+    ],
+    "correct_option": "C",
+    "correct_answer": "24",
+    "explanation": "Translate both fraction conditions and total=72 to get A=18, B=24, C=30. Future check (23):(29)=23:29. Required value 24.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_two_conditions",
+      "variant": 1,
+      "inputs": {
+        "k": 3,
+        "m": 2,
+        "t": 6,
+        "mode": "sum",
+        "ask": "B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0088",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Sania's age is 1/4 of the excess of meera's age over aarav's age, and Aarav's age is 1/3 of the excess of Meera's age over Sania's age. The sum of the three ages is 64. After 5 years, the ratio of Sania's age to Aarav's age will be 13:17. Find Meera's age.",
+    "options": [
+      "44",
+      "88",
+      "41",
+      "47"
+    ],
+    "correct_option": "A",
+    "correct_answer": "44",
+    "explanation": "Translate both fraction conditions and total=64 to get A=8, B=12, C=44. Future check (13):(17)=13:17. Required value 44.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_two_conditions",
+      "variant": 2,
+      "inputs": {
+        "k": 4,
+        "m": 3,
+        "t": 4,
+        "mode": "diff",
+        "ask": "C"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0089",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Rohan's age is 1/2 of the excess of kabir's age over neha's age, and Neha's age is 1/5 of the excess of Kabir's age over Rohan's age. The sum of the three ages is 42. After 5 years, the ratio of Rohan's age to Neha's age will be 17:8. Find the total of the three ages.",
+    "options": [
+      "45",
+      "84",
+      "42",
+      "39"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42",
+    "explanation": "Translate both fraction conditions and total=42 to get A=12, B=3, C=27. Future check (17):(8)=17:8. Required value 42.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_two_conditions",
+      "variant": 3,
+      "inputs": {
+        "k": 2,
+        "m": 5,
+        "t": 3,
+        "mode": "diff",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0090",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "Priya's age is 1/3 of the sum of arjun's and sneha's ages, and Arjun's age is 1/4 of the sum of Priya's and Sneha's ages. The sum of the three ages is 100. After 5 years, the ratio of Priya's age to Arjun's age will be 6:5. Find the ratio Priya:Arjun.",
+    "options": [
+      "6:4",
+      "4:5",
+      "5:5",
+      "5:4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5:4",
+    "explanation": "Translate both fraction conditions and total=100 to get A=25, B=20, C=55. Future check (30):(25)=6:5. Required value 5:4.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_fraction_two_conditions",
+      "variant": 4,
+      "inputs": {
+        "k": 3,
+        "m": 4,
+        "t": 5,
+        "mode": "sum",
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0091",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 10 people has average present age 30. After 2 years, 2 members whose average age is 25 leave. As a result, the average age becomes 135/4. Find the number of members who left/joined.",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "0"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "After 2 years original total=10*(30+2)=320. Event gives total 270 over 8 members, average 135/4. Required value 2.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_change_average",
+      "variant": 0,
+      "inputs": {
+        "n": 10,
+        "avg": 30,
+        "k": 2,
+        "t": 2,
+        "x_avg": 25,
+        "mode": "leave",
+        "ask": "count"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0092",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 8 people has average present age 34. After 3 years, 2 new members whose average age is 40 join. As a result, the average age becomes 188/5. Find the total age after the change.",
+    "options": [
+      "752",
+      "374",
+      "378",
+      "376"
+    ],
+    "correct_option": "D",
+    "correct_answer": "376",
+    "explanation": "After 3 years original total=8*(34+3)=296. Event gives total 376 over 10 members, average 188/5. Required value 376.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_change_average",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "avg": 34,
+        "k": 3,
+        "t": 2,
+        "x_avg": 40,
+        "mode": "join",
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0093",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 12 people has average present age 28. After 1 year, 3 members whose average age is 22 leave. As a result, the average age becomes 94/3. Find the new average age.",
+    "options": [
+      "94/3",
+      "100/3",
+      "88/3",
+      "188/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "94/3",
+    "explanation": "After 1 years original total=12*(28+1)=348. Event gives total 282 over 9 members, average 94/3. Required value 94/3.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_change_average",
+      "variant": 2,
+      "inputs": {
+        "n": 12,
+        "avg": 28,
+        "k": 1,
+        "t": 3,
+        "x_avg": 22,
+        "mode": "leave",
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0094",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 9 people has average present age 31. After 4 years, 3 new members whose average age is 47 join. As a result, the average age becomes 38. Find the number of members after the change.",
+    "options": [
+      "10",
+      "12",
+      "24",
+      "14"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12",
+    "explanation": "After 4 years original total=9*(31+4)=315. Event gives total 456 over 12 members, average 38. Required value 12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_change_average",
+      "variant": 3,
+      "inputs": {
+        "n": 9,
+        "avg": 31,
+        "k": 4,
+        "t": 3,
+        "x_avg": 47,
+        "mode": "join",
+        "ask": "remaining"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0095",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A group of 15 people has average present age 26. After 2 years, 4 members whose average age is 31 leave. As a result, the average age becomes 296/11. Find the number of members who left/joined.",
+    "options": [
+      "8",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4",
+    "explanation": "After 2 years original total=15*(26+2)=420. Event gives total 296 over 11 members, average 296/11. Required value 4.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_percentage_change_average",
+      "variant": 4,
+      "inputs": {
+        "n": 15,
+        "avg": 26,
+        "k": 2,
+        "t": 4,
+        "x_avg": 31,
+        "mode": "leave",
+        "ask": "count"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0096",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The sum of the present ages of Diya and Kunal is 52, and the difference of their ages is 14. The product of their present ages is 627. Find Kunal's present age.",
+    "options": [
+      "35",
+      "66",
+      "33",
+      "31"
+    ],
+    "correct_option": "C",
+    "correct_answer": "33",
+    "explanation": "From sum/diff: elder=( 52+14)/2=33, younger=( 52-14)/2=19. Product check 33*19=627. After 6 years ages 39,25. Required value 33.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_sum_diff",
+      "variant": 0,
+      "inputs": {
+        "s": 52,
+        "d": 14,
+        "k": 6,
+        "ask": "elder"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0097",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The sum of the present ages of Rehan and Sania is 60, and the difference of their ages is 8. The product of their present ages is 884. Find Rehan's present age.",
+    "options": [
+      "28",
+      "52",
+      "26",
+      "24"
+    ],
+    "correct_option": "C",
+    "correct_answer": "26",
+    "explanation": "From sum/diff: elder=( 60+8)/2=34, younger=( 60-8)/2=26. Product check 34*26=884. After 5 years ages 39,31. Required value 26.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_sum_diff",
+      "variant": 1,
+      "inputs": {
+        "s": 60,
+        "d": 8,
+        "k": 5,
+        "ask": "younger"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0098",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The sum of the present ages of Meera and Rohan is 48, and the difference of their ages is 12. The product of their present ages is 540. After 4 years, find the sum of their ages after 4 years.",
+    "options": [
+      "54",
+      "112",
+      "58",
+      "56"
+    ],
+    "correct_option": "D",
+    "correct_answer": "56",
+    "explanation": "From sum/diff: elder=( 48+12)/2=30, younger=( 48-12)/2=18. Product check 30*18=540. After 4 years ages 34,22. Required value 56.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_sum_diff",
+      "variant": 2,
+      "inputs": {
+        "s": 48,
+        "d": 12,
+        "k": 4,
+        "ask": "sum_after"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0099",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The sum of the present ages of Kabir and Priya is 70, and the difference of their ages is 10. The product of their present ages is 1200. Find the product of their present ages.",
+    "options": [
+      "1196",
+      "1200",
+      "2400",
+      "1204"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1200",
+    "explanation": "From sum/diff: elder=( 70+10)/2=40, younger=( 70-10)/2=30. Product check 40*30=1200. After 3 years ages 43,33. Required value 1200.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_sum_diff",
+      "variant": 3,
+      "inputs": {
+        "s": 70,
+        "d": 10,
+        "k": 3,
+        "ask": "product"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0100",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The sum of the present ages of Sneha and Vikram is 44, and the difference of their ages is 6. The product of their present ages is 475. After 8 years, find the ratio of their ages after 8 years.",
+    "options": [
+      "12:9",
+      "9:11",
+      "11:10",
+      "11:9"
+    ],
+    "correct_option": "D",
+    "correct_answer": "11:9",
+    "explanation": "From sum/diff: elder=( 44+6)/2=25, younger=( 44-6)/2=19. Product check 25*19=475. After 8 years ages 33,27. Required value 11:9.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_reciprocal_sum_diff",
+      "variant": 4,
+      "inputs": {
+        "s": 44,
+        "d": 6,
+        "k": 8,
+        "ask": "ratio_future"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0101",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "4 years ago, the ages of Kunal and Pooja were in the ratio 2:1. After 3 years from now, the elder candidate will be 25 years old. The minimum eligibility age for an exam is 25 years. Find how many more years Pooja must wait to become eligible.",
+    "options": [
+      "14",
+      "12",
+      "10",
+      "24"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12",
+    "explanation": "Past ages 18,9 give present ages 22,13. Elder is 22; after 3 years 25 matches. Younger is 13, so wait for limit 25 is 12. Required value 12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_exam_eligibility",
+      "variant": 0,
+      "inputs": {
+        "p": 2,
+        "q": 1,
+        "u": 9,
+        "k": 4,
+        "limit": 25,
+        "extra_years": 3,
+        "ask": "years"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0102",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "3 years ago, the ages of Sania and Aarav were in the ratio 3:2. After 2 years from now, the elder candidate will be 26 years old. The minimum eligibility age for an exam is 30 years. Find how many more years Aarav must wait to become eligible.",
+    "options": [
+      "11",
+      "15",
+      "13",
+      "26"
+    ],
+    "correct_option": "C",
+    "correct_answer": "13",
+    "explanation": "Past ages 21,14 give present ages 24,17. Elder is 24; after 2 years 26 matches. Younger is 17, so wait for limit 30 is 13. Required value 13.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_exam_eligibility",
+      "variant": 1,
+      "inputs": {
+        "p": 3,
+        "q": 2,
+        "u": 7,
+        "k": 3,
+        "limit": 30,
+        "extra_years": 2,
+        "ask": "years"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0103",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "5 years ago, the ages of Rohan and Neha were in the ratio 4:3. After 4 years from now, the elder candidate will be 33 years old. The minimum eligibility age for an exam is 27 years. Find the present age of the younger candidate.",
+    "options": [
+      "23",
+      "25",
+      "46",
+      "21"
+    ],
+    "correct_option": "A",
+    "correct_answer": "23",
+    "explanation": "Past ages 24,18 give present ages 29,23. Elder is 29; after 4 years 33 matches. Younger is 23, so wait for limit 27 is 4. Required value 23.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_exam_eligibility",
+      "variant": 2,
+      "inputs": {
+        "p": 4,
+        "q": 3,
+        "u": 6,
+        "k": 5,
+        "limit": 27,
+        "extra_years": 4,
+        "ask": "age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0104",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "4 years ago, the ages of Priya and Arjun were in the ratio 5:3. After 1 year from now, the elder candidate will be 30 years old. The minimum eligibility age for an exam is 28 years. Find the present age of the younger candidate.",
+    "options": [
+      "38",
+      "19",
+      "17",
+      "21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "19",
+    "explanation": "Past ages 25,15 give present ages 29,19. Elder is 29; after 1 years 30 matches. Younger is 19, so wait for limit 28 is 9. Required value 19.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_exam_eligibility",
+      "variant": 3,
+      "inputs": {
+        "p": 5,
+        "q": 3,
+        "u": 5,
+        "k": 4,
+        "limit": 28,
+        "extra_years": 1,
+        "ask": "age"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0105",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "6 years ago, the ages of Vikram and Ananya were in the ratio 3:1. After 2 years from now, the elder candidate will be 32 years old. The minimum eligibility age for an exam is 21 years. Find how many more years Ananya must wait to become eligible.",
+    "options": [
+      "14",
+      "7",
+      "5",
+      "9"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7",
+    "explanation": "Past ages 24,8 give present ages 30,14. Elder is 30; after 2 years 32 matches. Younger is 14, so wait for limit 21 is 7. Required value 7.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_exam_eligibility",
+      "variant": 4,
+      "inputs": {
+        "p": 3,
+        "q": 1,
+        "u": 8,
+        "k": 6,
+        "limit": 21,
+        "extra_years": 2,
+        "ask": "years"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0106",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Pooja and Rehan are in the ratio 2:3, and the present ages of Rehan and Sania are in the ratio 3:5. The sum of Pooja's and Sania's present ages is 42. After 4 years, the ratio of Pooja's age to Sania's age will be 8:17. Find Rehan's present age.",
+    "options": [
+      "36",
+      "18",
+      "15",
+      "21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18",
+    "explanation": "Let A=2t,B=3t, then C=5/3*3t=30. A+C=42 gives t=6. Ages 12,18,30. Future A:C (16):(34)=8:17. Required value 18.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_time_triple_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "c": 3,
+        "d": 5,
+        "t": 6,
+        "k": 4,
+        "ask": "B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0107",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Aarav and Meera are in the ratio 3:4, and the present ages of Meera and Rohan are in the ratio 2:3. The sum of Aarav's and Rohan's present ages is 45. After 5 years, the ratio of Aarav's age to Rohan's age will be 4:7. Find Rohan's present age.",
+    "options": [
+      "60",
+      "33",
+      "30",
+      "27"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30",
+    "explanation": "Let A=3t,B=4t, then C=3/2*4t=30. A+C=45 gives t=5. Ages 15,20,30. Future A:C (20):(35)=4:7. Required value 30.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_time_triple_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "c": 2,
+        "d": 3,
+        "t": 5,
+        "k": 5,
+        "ask": "C"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0108",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Neha and Kabir are in the ratio 4:5, and the present ages of Kabir and Priya are in the ratio 5:6. The sum of Neha's and Priya's present ages is 30. After 3 years, the ratio of Neha's age to Priya's age will be 5:7. Find the sum of their present ages.",
+    "options": [
+      "42",
+      "45",
+      "90",
+      "48"
+    ],
+    "correct_option": "B",
+    "correct_answer": "45",
+    "explanation": "Let A=4t,B=5t, then C=6/5*5t=18. A+C=30 gives t=3. Ages 12,15,18. Future A:C (15):(21)=5:7. Required value 45.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_time_triple_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 5,
+        "c": 5,
+        "d": 6,
+        "t": 3,
+        "k": 3,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0109",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Arjun and Sneha are in the ratio 5:7, and the present ages of Sneha and Vikram are in the ratio 4:5. The sum of Arjun's and Vikram's present ages is 55. After 6 years, the ratio of Arjun's age to Vikram's age will be 26:41. Find Arjun's present age.",
+    "options": [
+      "17",
+      "23",
+      "20",
+      "40"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Let A=5t,B=7t, then C=5/4*7t=35. A+C=55 gives t=4. Ages 20,28,35. Future A:C (26):(41)=26:41. Required value 20.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_time_triple_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 7,
+        "c": 4,
+        "d": 5,
+        "t": 4,
+        "k": 6,
+        "ask": "A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0110",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "The present ages of Ananya and Dev are in the ratio 3:5, and the present ages of Dev and Isha are in the ratio 2:3. The sum of Ananya's and Isha's present ages is 63. After 2 years, the ratio of Ananya's age to Isha's age will be 20:47. Find the sum of their ages after 2 years.",
+    "options": [
+      "99",
+      "198",
+      "96",
+      "102"
+    ],
+    "correct_option": "A",
+    "correct_answer": "99",
+    "explanation": "Let A=3t,B=5t, then C=3/2*5t=45. A+C=63 gives t=6. Ages 18,30,45. Future A:C (20):(47)=20:47. Required value 99.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 6-7",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_time_triple_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 3,
+        "b": 5,
+        "c": 2,
+        "d": 3,
+        "t": 6,
+        "k": 2,
+        "ask": "future_total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0111",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A family of 6 members has average present age 28. After 3 years, 1 child is born during this period, and one member who is 40 years old now leaves at the end of 3 years. Find the average age of the family after 3 years.",
+    "options": [
+      "143/3",
+      "143/6",
+      "131/6",
+      "155/6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "143/6",
+    "explanation": "Original after 3 years: 6*(28+3)=186. Leaving member at that time: 43. Newborns contribute 0. Total=143, count=6, average=143/6. Required value 143/6.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_family_average",
+      "variant": 0,
+      "inputs": {
+        "n": 6,
+        "avg": 28,
+        "k": 3,
+        "born": 1,
+        "leave_age": 40,
+        "leaving": 1,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0112",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A family of 8 members has average present age 30. After 2 years, and one member who is 36 years old now leaves at the end of 2 years. Find the total age of the family after 2 years.",
+    "options": [
+      "220",
+      "216",
+      "436",
+      "218"
+    ],
+    "correct_option": "D",
+    "correct_answer": "218",
+    "explanation": "Original after 2 years: 8*(30+2)=256. Leaving member at that time: 38. Newborns contribute 0. Total=218, count=7, average=218/7. Required value 218.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_family_average",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "avg": 30,
+        "k": 2,
+        "born": 0,
+        "leave_age": 36,
+        "leaving": 1,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0113",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A family of 5 members has average present age 34. After 4 years, 2 children are born during this period, and one member who is 45 years old now leaves at the end of 4 years. Find the number of family members after 4 years.",
+    "options": [
+      "6",
+      "4",
+      "8",
+      "12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "Original after 4 years: 5*(34+4)=190. Leaving member at that time: 49. Newborns contribute 0. Total=141, count=6, average=47/2. Required value 6.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_family_average",
+      "variant": 2,
+      "inputs": {
+        "n": 5,
+        "avg": 34,
+        "k": 4,
+        "born": 2,
+        "leave_age": 45,
+        "leaving": 1,
+        "ask": "count"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0114",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A family of 9 members has average present age 26. After 5 years, 1 child is born during this period, and one member who is 38 years old now leaves at the end of 5 years. Find the average age of the family after 5 years.",
+    "options": [
+      "236/9",
+      "472/9",
+      "254/9",
+      "218/9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "236/9",
+    "explanation": "Original after 5 years: 9*(26+5)=279. Leaving member at that time: 43. Newborns contribute 0. Total=236, count=9, average=236/9. Required value 236/9.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_family_average",
+      "variant": 3,
+      "inputs": {
+        "n": 9,
+        "avg": 26,
+        "k": 5,
+        "born": 1,
+        "leave_age": 38,
+        "leaving": 1,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0115",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "A family of 7 members has average present age 32. After 3 years, 1 child is born during this period, and one member who is 37 years old now leaves at the end of 3 years. Find the total age of the family after 3 years.",
+    "options": [
+      "203",
+      "205",
+      "207",
+      "410"
+    ],
+    "correct_option": "B",
+    "correct_answer": "205",
+    "explanation": "Original after 3 years: 7*(32+3)=245. Leaving member at that time: 40. Newborns contribute 0. Total=205, count=7, average=205/7. Required value 205.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 8-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_future_family_average",
+      "variant": 4,
+      "inputs": {
+        "n": 7,
+        "avg": 32,
+        "k": 3,
+        "born": 1,
+        "leave_age": 37,
+        "leaving": 1,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0116",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "5 years ago, the ages of Sania and Aarav were in the ratio 2:3. At that time, 3 times Sania's age plus 4 times Aarav's age was 126. After 6 years from now, their ages will be in the ratio 25:32. Find Sania's present age.",
+    "options": [
+      "38",
+      "16",
+      "19",
+      "22"
+    ],
+    "correct_option": "C",
+    "correct_answer": "19",
+    "explanation": "Past ages 2u,3u. Weighted condition 3*2u+4*3u=126 gives u=7. Present ages 19,26. Future (25):(32)=25:32. Required value 19.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_linear_combo_ratio",
+      "variant": 0,
+      "inputs": {
+        "p": 2,
+        "q": 3,
+        "u": 7,
+        "ca": 3,
+        "cb": 4,
+        "k": 5,
+        "m": 6,
+        "coefs": [
+          1,
+          0
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0117",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "4 years ago, the ages of Rohan and Neha were in the ratio 4:5. At that time, 2 times Rohan's age plus 3 times Neha's age was 138. After 8 years from now, their ages will be in the ratio 6:7. Find Neha's present age.",
+    "options": [
+      "37",
+      "34",
+      "68",
+      "31"
+    ],
+    "correct_option": "B",
+    "correct_answer": "34",
+    "explanation": "Past ages 4u,5u. Weighted condition 2*4u+3*5u=138 gives u=6. Present ages 28,34. Future (36):(42)=6:7. Required value 34.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_linear_combo_ratio",
+      "variant": 1,
+      "inputs": {
+        "p": 4,
+        "q": 5,
+        "u": 6,
+        "ca": 2,
+        "cb": 3,
+        "k": 4,
+        "m": 8,
+        "coefs": [
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0118",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "6 years ago, the ages of Priya and Arjun were in the ratio 3:7. At that time, 5 times Priya's age plus 2 times Arjun's age was 145. After 4 years from now, their ages will be in the ratio 5:9. Find the sum of their present ages.",
+    "options": [
+      "65",
+      "59",
+      "124",
+      "62"
+    ],
+    "correct_option": "D",
+    "correct_answer": "62",
+    "explanation": "Past ages 3u,7u. Weighted condition 5*3u+2*7u=145 gives u=5. Present ages 21,41. Future (25):(45)=5:9. Required value 62.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_linear_combo_ratio",
+      "variant": 2,
+      "inputs": {
+        "p": 3,
+        "q": 7,
+        "u": 5,
+        "ca": 5,
+        "cb": 2,
+        "k": 6,
+        "m": 4,
+        "coefs": [
+          1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0119",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "3 years ago, the ages of Vikram and Ananya were in the ratio 5:8. At that time, 4 times Vikram's age plus 3 times Ananya's age was 176. After 7 years from now, their ages will be in the ratio 5:7. Find the difference of their present ages.",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "24"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12",
+    "explanation": "Past ages 5u,8u. Weighted condition 4*5u+3*8u=176 gives u=4. Present ages 23,35. Future (30):(42)=5:7. Required value 12.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_linear_combo_ratio",
+      "variant": 3,
+      "inputs": {
+        "p": 5,
+        "q": 8,
+        "u": 4,
+        "ca": 4,
+        "cb": 3,
+        "k": 3,
+        "m": 7,
+        "coefs": [
+          -1,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "ages_mains-0120",
+    "chapter": "Ages (Mains)",
+    "chapter_key": "ages_mains",
+    "part": 4,
+    "section": "ages_mains_part_4",
+    "question_text": "7 years ago, the ages of Isha and Nikhil were in the ratio 2:5. At that time, 1 times Isha's age plus 2 times Nikhil's age was 96. After 5 years from now, their ages will be in the ratio 7:13. Find the present age of the elder person.",
+    "options": [
+      "50",
+      "94",
+      "44",
+      "47"
+    ],
+    "correct_option": "D",
+    "correct_answer": "47",
+    "explanation": "Past ages 2u,5u. Weighted condition 1*2u+2*5u=96 gives u=8. Present ages 23,47. Future (28):(52)=7:13. Required value 47.",
+    "difficulty": "HARD",
+    "source_name": "Ages Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "97c1911e-319b-4bc6-8383-48a92c70a378.pdf, pp. 4-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "am_linear_combo_ratio",
+      "variant": 4,
+      "inputs": {
+        "p": 2,
+        "q": 5,
+        "u": 8,
+        "ca": 1,
+        "cb": 2,
+        "k": 7,
+        "m": 5,
+        "coefs": [
+          0,
+          1
+        ]
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

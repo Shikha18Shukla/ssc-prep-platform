@@ -1,0 +1,4397 @@
+[
+  {
+    "id": "mixture_alligation_data_interpretation-0001",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: vessel A milk=40 L; vessel A water=20 L; vessel B milk=50 L; vessel B water=30 L. Find the combined volume of both vessels.",
+    "options": [
+      "135",
+      "145",
+      "140",
+      "280"
+    ],
+    "correct_option": "C",
+    "correct_answer": "140",
+    "explanation": "Milk = 40 + 50 = 90 L; water = 20 + 30 = 50 L; requested value = 140 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_vessel_totals",
+      "variant": 0,
+      "inputs": {
+        "x": 40,
+        "y": 20,
+        "p": 50,
+        "qty": 30,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0002",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: vessel A milk=40 L; vessel A water=20 L; vessel B milk=50 L; vessel B water=30 L. Find the total quantity of milk.",
+    "options": [
+      "180",
+      "85",
+      "95",
+      "90"
+    ],
+    "correct_option": "D",
+    "correct_answer": "90",
+    "explanation": "Milk = 40 + 50 = 90 L; water = 20 + 30 = 50 L; requested value = 90 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_vessel_totals",
+      "variant": 1,
+      "inputs": {
+        "x": 40,
+        "y": 20,
+        "p": 50,
+        "qty": 30,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0003",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: vessel A milk=40 L; vessel A water=20 L; vessel B milk=50 L; vessel B water=30 L. Find the total quantity of water.",
+    "options": [
+      "55",
+      "100",
+      "45",
+      "50"
+    ],
+    "correct_option": "D",
+    "correct_answer": "50",
+    "explanation": "Milk = 40 + 50 = 90 L; water = 20 + 30 = 50 L; requested value = 50 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_vessel_totals",
+      "variant": 2,
+      "inputs": {
+        "x": 40,
+        "y": 20,
+        "p": 50,
+        "qty": 30,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0004",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: vessel A milk=60 L; vessel A water=25 L; vessel B milk=45 L; vessel B water=35 L. Find the difference between total milk and total water.",
+    "options": [
+      "45",
+      "40",
+      "50",
+      "90"
+    ],
+    "correct_option": "A",
+    "correct_answer": "45",
+    "explanation": "Milk = 60 + 45 = 105 L; water = 25 + 35 = 60 L; requested value = 45 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_vessel_totals",
+      "variant": 3,
+      "inputs": {
+        "x": 60,
+        "y": 25,
+        "p": 45,
+        "qty": 35,
+        "ask": "diff"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0005",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: vessel A milk=80 L; vessel A water=40 L; vessel B milk=60 L; vessel B water=20 L. Find the combined volume of both vessels.",
+    "options": [
+      "400",
+      "200",
+      "195",
+      "205"
+    ],
+    "correct_option": "B",
+    "correct_answer": "200",
+    "explanation": "Milk = 80 + 60 = 140 L; water = 40 + 20 = 60 L; requested value = 200 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_vessel_totals",
+      "variant": 4,
+      "inputs": {
+        "x": 80,
+        "y": 40,
+        "p": 60,
+        "qty": 20,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0006",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: A milk=50 L; A water=30 L; B milk=70 L; B water=20 L. Find the difference between total milk and total water.",
+    "options": [
+      "65",
+      "70",
+      "75",
+      "140"
+    ],
+    "correct_option": "B",
+    "correct_answer": "70",
+    "explanation": "Requested difference or sum computed from 50, 30, 70 and 20 gives 70 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_component_difference",
+      "variant": 0,
+      "inputs": {
+        "x": 50,
+        "y": 30,
+        "p": 70,
+        "qty": 20,
+        "ask": "milk_water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0007",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: A milk=50 L; A water=30 L; B milk=70 L; B water=20 L. Find the difference between milk quantities in the two vessels.",
+    "options": [
+      "20",
+      "25",
+      "40",
+      "15"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Requested difference or sum computed from 50, 30, 70 and 20 gives 20 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_component_difference",
+      "variant": 1,
+      "inputs": {
+        "x": 50,
+        "y": 30,
+        "p": 70,
+        "qty": 20,
+        "ask": "between_milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0008",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: A milk=50 L; A water=30 L; B milk=70 L; B water=20 L. Find the difference between water quantities in the two vessels.",
+    "options": [
+      "15",
+      "5",
+      "20",
+      "10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "10",
+    "explanation": "Requested difference or sum computed from 50, 30, 70 and 20 gives 10 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_component_difference",
+      "variant": 2,
+      "inputs": {
+        "x": 50,
+        "y": 30,
+        "p": 70,
+        "qty": 20,
+        "ask": "between_water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0009",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: A milk=80 L; A water=40 L; B milk=60 L; B water=50 L. Find the sum of milk in both vessels.",
+    "options": [
+      "280",
+      "140",
+      "135",
+      "145"
+    ],
+    "correct_option": "B",
+    "correct_answer": "140",
+    "explanation": "Requested difference or sum computed from 80, 40, 60 and 50 gives 140 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_component_difference",
+      "variant": 3,
+      "inputs": {
+        "x": 80,
+        "y": 40,
+        "p": 60,
+        "qty": 50,
+        "ask": "total_milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0010",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: A milk=80 L; A water=40 L; B milk=60 L; B water=50 L. Find the sum of water in both vessels.",
+    "options": [
+      "180",
+      "95",
+      "90",
+      "85"
+    ],
+    "correct_option": "C",
+    "correct_answer": "90",
+    "explanation": "Requested difference or sum computed from 80, 40, 60 and 50 gives 90 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_component_difference",
+      "variant": 4,
+      "inputs": {
+        "x": 80,
+        "y": 40,
+        "p": 60,
+        "qty": 50,
+        "ask": "total_water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0011",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: mixture volume=200 L; milk percent=60%; water percent=40%. Find the milk quantity.",
+    "options": [
+      "240",
+      "125",
+      "115",
+      "120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120",
+    "explanation": "Milk = 200x60/100 = 120 L; water = 200x40/100 = 80 L; requested value = 120 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_percentage_split",
+      "variant": 0,
+      "inputs": {
+        "T": 200,
+        "m": 60,
+        "w": 40,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0012",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: mixture volume=200 L; milk percent=60%; water percent=40%. Find the water quantity.",
+    "options": [
+      "160",
+      "85",
+      "75",
+      "80"
+    ],
+    "correct_option": "D",
+    "correct_answer": "80",
+    "explanation": "Milk = 200x60/100 = 120 L; water = 200x40/100 = 80 L; requested value = 80 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_percentage_split",
+      "variant": 1,
+      "inputs": {
+        "T": 200,
+        "m": 60,
+        "w": 40,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0013",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: mixture volume=200 L; milk percent=60%; water percent=40%. Find the difference between milk and water quantities.",
+    "options": [
+      "35",
+      "80",
+      "40",
+      "45"
+    ],
+    "correct_option": "C",
+    "correct_answer": "40",
+    "explanation": "Milk = 200x60/100 = 120 L; water = 200x40/100 = 80 L; requested value = 40 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_percentage_split",
+      "variant": 2,
+      "inputs": {
+        "T": 200,
+        "m": 60,
+        "w": 40,
+        "ask": "diff"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0014",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: mixture volume=300 L; milk percent=45%; water percent=55%. Find the milk quantity.",
+    "options": [
+      "270",
+      "135",
+      "140",
+      "130"
+    ],
+    "correct_option": "B",
+    "correct_answer": "135",
+    "explanation": "Milk = 300x45/100 = 135 L; water = 300x55/100 = 165 L; requested value = 135 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_percentage_split",
+      "variant": 3,
+      "inputs": {
+        "T": 300,
+        "m": 45,
+        "w": 55,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0015",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 1,
+    "section": "mixture_alligation_data_interpretation_part_1",
+    "question_text": "Data: mixture volume=250 L; milk percent=70%; water percent=30%. Find the water quantity.",
+    "options": [
+      "80",
+      "75",
+      "70",
+      "150"
+    ],
+    "correct_option": "B",
+    "correct_answer": "75",
+    "explanation": "Milk = 250x70/100 = 175 L; water = 250x30/100 = 75 L; requested value = 75 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_percentage_split",
+      "variant": 4,
+      "inputs": {
+        "T": 250,
+        "m": 70,
+        "w": 30,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0016",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: milk=60 L; water=40 L. Find the milk percentage.",
+    "options": [
+      "30%",
+      "60%",
+      "65%",
+      "55%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60%",
+    "explanation": "Total = 60 + 40 = 100 L; requested share = 60/100 x 100 = 60%.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_milk_percent",
+      "variant": 0,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0017",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: milk=60 L; water=40 L. Find the water percentage.",
+    "options": [
+      "45%",
+      "20%",
+      "40%",
+      "35%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "40%",
+    "explanation": "Total = 60 + 40 = 100 L; requested share = 40/100 x 100 = 40%.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_milk_percent",
+      "variant": 1,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0018",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: milk=90 L; water=30 L. Find the milk percentage.",
+    "options": [
+      "70%",
+      "75%",
+      "37.5%",
+      "80%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "75%",
+    "explanation": "Total = 90 + 30 = 120 L; requested share = 90/120 x 100 = 75%.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_milk_percent",
+      "variant": 2,
+      "inputs": {
+        "x": 90,
+        "y": 30,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0019",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: milk=75 L; water=25 L. Find the water percentage.",
+    "options": [
+      "25%",
+      "12.5%",
+      "20%",
+      "30%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25%",
+    "explanation": "Total = 75 + 25 = 100 L; requested share = 25/100 x 100 = 25%.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_milk_percent",
+      "variant": 3,
+      "inputs": {
+        "x": 75,
+        "y": 25,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0020",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: milk=120 L; water=80 L. Find the milk percentage.",
+    "options": [
+      "65%",
+      "30%",
+      "55%",
+      "60%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60%",
+    "explanation": "Total = 120 + 80 = 200 L; requested share = 120/200 x 100 = 60%.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_milk_percent",
+      "variant": 4,
+      "inputs": {
+        "x": 120,
+        "y": 80,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0021",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: shop A price=₹20/L; shop A quantity=10 L; shop B price=₹25/L; shop B quantity=8 L. Find the difference between the two purchase costs.",
+    "options": [
+      "-50",
+      "50",
+      "0",
+      "₹0"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹0",
+    "explanation": "Shop A cost = 200, shop B cost = 200; requested value = ₹0.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_shop_cost_diff",
+      "variant": 0,
+      "inputs": {
+        "a": 20,
+        "b": 25,
+        "x": 10,
+        "y": 8,
+        "ask": "diff"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0022",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: shop A price=₹20/L; shop A quantity=10 L; shop B price=₹25/L; shop B quantity=8 L. Find the purchase cost at shop A.",
+    "options": [
+      "250",
+      "400",
+      "₹200",
+      "150"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹200",
+    "explanation": "Shop A cost = 200, shop B cost = 200; requested value = ₹200.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_shop_cost_diff",
+      "variant": 1,
+      "inputs": {
+        "a": 20,
+        "b": 25,
+        "x": 10,
+        "y": 8,
+        "ask": "A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0023",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: shop A price=₹20/L; shop A quantity=10 L; shop B price=₹25/L; shop B quantity=8 L. Find the purchase cost at shop B.",
+    "options": [
+      "250",
+      "400",
+      "150",
+      "₹200"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹200",
+    "explanation": "Shop A cost = 200, shop B cost = 200; requested value = ₹200.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_shop_cost_diff",
+      "variant": 2,
+      "inputs": {
+        "a": 20,
+        "b": 25,
+        "x": 10,
+        "y": 8,
+        "ask": "B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0024",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: shop A price=₹30/L; shop A quantity=12 L; shop B price=₹24/L; shop B quantity=15 L. Find the total purchase cost.",
+    "options": [
+      "770",
+      "₹720",
+      "670",
+      "1440"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹720",
+    "explanation": "Shop A cost = 360, shop B cost = 360; requested value = ₹720.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_shop_cost_diff",
+      "variant": 3,
+      "inputs": {
+        "a": 30,
+        "b": 24,
+        "x": 12,
+        "y": 15,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0025",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: shop A price=₹18/L; shop A quantity=20 L; shop B price=₹22/L; shop B quantity=15 L. Find the ratio of shop A cost to shop B cost.",
+    "options": [
+      "12:12",
+      "11:12",
+      "13:11",
+      "12:11"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12:11",
+    "explanation": "Shop A cost = 360, shop B cost = 330; requested value = 12:11.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_shop_cost_diff",
+      "variant": 4,
+      "inputs": {
+        "a": 18,
+        "b": 22,
+        "x": 20,
+        "y": 15,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0026",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: solution A strength=10%; solution B strength=30%; target strength=20%; mixture needed=100 L. Find the mixing ratio of solution A to solution B.",
+    "options": [
+      "1:2",
+      "0:1",
+      "1:1",
+      "2:1"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1:1",
+    "explanation": "Alligation ratio = (30 - 20):(20 - 10) = 1:1; for 100 L, A = 50 L and B = 50 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_alligation",
+      "variant": 0,
+      "inputs": {
+        "c1": 10,
+        "c2": 30,
+        "t": 20,
+        "T": 100,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0027",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: solution A strength=10%; solution B strength=30%; target strength=20%; mixture needed=100 L. Find the litres of solution A needed.",
+    "options": [
+      "45",
+      "55",
+      "100",
+      "50"
+    ],
+    "correct_option": "D",
+    "correct_answer": "50",
+    "explanation": "Alligation ratio = (30 - 20):(20 - 10) = 1:1; for 100 L, A = 50 L and B = 50 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_alligation",
+      "variant": 1,
+      "inputs": {
+        "c1": 10,
+        "c2": 30,
+        "t": 20,
+        "T": 100,
+        "ask": "weak"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0028",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: solution A strength=10%; solution B strength=30%; target strength=20%; mixture needed=100 L. Find the litres of solution B needed.",
+    "options": [
+      "55",
+      "100",
+      "45",
+      "50"
+    ],
+    "correct_option": "D",
+    "correct_answer": "50",
+    "explanation": "Alligation ratio = (30 - 20):(20 - 10) = 1:1; for 100 L, A = 50 L and B = 50 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_alligation",
+      "variant": 2,
+      "inputs": {
+        "c1": 10,
+        "c2": 30,
+        "t": 20,
+        "T": 100,
+        "ask": "strong"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0029",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: solution A strength=20%; solution B strength=50%; target strength=35%; mixture needed=120 L. Find the litres of solution A needed.",
+    "options": [
+      "55",
+      "120",
+      "65",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Alligation ratio = (50 - 35):(35 - 20) = 1:1; for 120 L, A = 60 L and B = 60 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_alligation",
+      "variant": 3,
+      "inputs": {
+        "c1": 20,
+        "c2": 50,
+        "t": 35,
+        "T": 120,
+        "ask": "weak"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0030",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: solution A strength=15%; solution B strength=40%; target strength=25%; mixture needed=150 L. Find the litres of solution B needed.",
+    "options": [
+      "65",
+      "55",
+      "60",
+      "120"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Alligation ratio = (40 - 25):(25 - 15) = 3:2; for 150 L, A = 90 L and B = 60 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_alligation",
+      "variant": 4,
+      "inputs": {
+        "c1": 15,
+        "c2": 40,
+        "t": 25,
+        "T": 150,
+        "ask": "strong"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0031",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: vessel A milk=30 L; vessel A total=80 L; vessel B milk=40 L; vessel B water=20 L. Find the missing water quantity in vessel A.",
+    "options": [
+      "100",
+      "50",
+      "55",
+      "45"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50",
+    "explanation": "Water in A = 80 - 30 = 50 L; total in B = 40 + 20 = 60 L; requested value = 50 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_water",
+      "variant": 0,
+      "inputs": {
+        "x": 30,
+        "T": 80,
+        "y": 40,
+        "z": 20,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0032",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: vessel A milk=30 L; vessel A total=80 L; vessel B milk=40 L; vessel B water=20 L. Find the total volume in vessel A.",
+    "options": [
+      "75",
+      "85",
+      "160",
+      "80"
+    ],
+    "correct_option": "D",
+    "correct_answer": "80",
+    "explanation": "Water in A = 80 - 30 = 50 L; total in B = 40 + 20 = 60 L; requested value = 80 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_water",
+      "variant": 1,
+      "inputs": {
+        "x": 30,
+        "T": 80,
+        "y": 40,
+        "z": 20,
+        "ask": "total_A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0033",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: vessel A milk=45 L; vessel A total=120 L; vessel B milk=35 L; vessel B water=25 L. Find the missing water quantity in vessel A.",
+    "options": [
+      "75",
+      "70",
+      "150",
+      "80"
+    ],
+    "correct_option": "A",
+    "correct_answer": "75",
+    "explanation": "Water in A = 120 - 45 = 75 L; total in B = 35 + 25 = 60 L; requested value = 75 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_water",
+      "variant": 2,
+      "inputs": {
+        "x": 45,
+        "T": 120,
+        "y": 35,
+        "z": 25,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0034",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: vessel A milk=50 L; vessel A total=125 L; vessel B milk=40 L; vessel B water=10 L. Find the missing water quantity in vessel A.",
+    "options": [
+      "75",
+      "70",
+      "150",
+      "80"
+    ],
+    "correct_option": "A",
+    "correct_answer": "75",
+    "explanation": "Water in A = 125 - 50 = 75 L; total in B = 40 + 10 = 50 L; requested value = 75 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_water",
+      "variant": 3,
+      "inputs": {
+        "x": 50,
+        "T": 125,
+        "y": 40,
+        "z": 10,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0035",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 2,
+    "section": "mixture_alligation_data_interpretation_part_2",
+    "question_text": "Data: vessel A milk=60 L; vessel A total=150 L; vessel B milk=50 L; vessel B water=30 L. Find the total volume in vessel B.",
+    "options": [
+      "80",
+      "85",
+      "160",
+      "75"
+    ],
+    "correct_option": "A",
+    "correct_answer": "80",
+    "explanation": "Water in A = 150 - 60 = 90 L; total in B = 50 + 30 = 80 L; requested value = 80 L.",
+    "difficulty": "EASY",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_water",
+      "variant": 4,
+      "inputs": {
+        "x": 60,
+        "T": 150,
+        "y": 50,
+        "z": 30,
+        "ask": "total_B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0036",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: mixture A volume=40 L; mixture A strength=20%; mixture B volume=60 L; mixture B strength=40%. Find the combined concentration.",
+    "options": [
+      "32%",
+      "37%",
+      "16%",
+      "27%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "32%",
+    "explanation": "Solute = 32 L in 100 L; concentration = 32%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_weighted_average",
+      "variant": 0,
+      "inputs": {
+        "V1": 40,
+        "c1": 20,
+        "V2": 60,
+        "c2": 40,
+        "ask": "combined"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0037",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: mixture A volume=40 L; mixture A strength=20%; mixture B volume=60 L; mixture B strength=40%. Find the total solute quantity.",
+    "options": [
+      "37",
+      "27",
+      "32",
+      "64"
+    ],
+    "correct_option": "C",
+    "correct_answer": "32",
+    "explanation": "Solute = 32 L in 100 L; concentration = 32%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_weighted_average",
+      "variant": 1,
+      "inputs": {
+        "V1": 40,
+        "c1": 20,
+        "V2": 60,
+        "c2": 40,
+        "ask": "solute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0038",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: mixture A volume=50 L; mixture A strength=30%; mixture B volume=50 L; mixture B strength=50%. Find the combined concentration.",
+    "options": [
+      "20%",
+      "40%",
+      "35%",
+      "45%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "40%",
+    "explanation": "Solute = 40 L in 100 L; concentration = 40%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_weighted_average",
+      "variant": 2,
+      "inputs": {
+        "V1": 50,
+        "c1": 30,
+        "V2": 50,
+        "c2": 50,
+        "ask": "combined"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0039",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: mixture A volume=80 L; mixture A strength=25%; mixture B volume=40 L; mixture B strength=55%. Find the total solute quantity.",
+    "options": [
+      "47",
+      "84",
+      "42",
+      "37"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42",
+    "explanation": "Solute = 42 L in 120 L; concentration = 35%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_weighted_average",
+      "variant": 3,
+      "inputs": {
+        "V1": 80,
+        "c1": 25,
+        "V2": 40,
+        "c2": 55,
+        "ask": "solute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0040",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: mixture A volume=100 L; mixture A strength=15%; mixture B volume=60 L; mixture B strength=35%. Find the combined concentration.",
+    "options": [
+      "17.5%",
+      "11.25%",
+      "27.5%",
+      "22.5%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "22.5%",
+    "explanation": "Solute = 36 L in 160 L; concentration = 45/2%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_weighted_average",
+      "variant": 4,
+      "inputs": {
+        "V1": 100,
+        "c1": 15,
+        "V2": 60,
+        "c2": 35,
+        "ask": "combined"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0041",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: vessel A milk:water=2:1; vessel A volume=60 L; vessel B milk:water=1:1; vessel B volume=40 L. Find the combined milk:water ratio.",
+    "options": [
+      "2:3",
+      "4:2",
+      "3:2",
+      "3:3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3:2",
+    "explanation": "Milk = 40 + 20 = 60 L; water = 20 + 20 = 40 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_combined_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 1,
+        "V": 60,
+        "c": 1,
+        "d": 1,
+        "W": 40,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0042",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: vessel A milk:water=2:1; vessel A volume=60 L; vessel B milk:water=1:1; vessel B volume=40 L. Find the total milk after mixing.",
+    "options": [
+      "55",
+      "120",
+      "60",
+      "65"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Milk = 40 + 20 = 60 L; water = 20 + 20 = 40 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_combined_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 2,
+        "b": 1,
+        "V": 60,
+        "c": 1,
+        "d": 1,
+        "W": 40,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0043",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: vessel A milk:water=2:1; vessel A volume=60 L; vessel B milk:water=1:1; vessel B volume=40 L. Find the total water after mixing.",
+    "options": [
+      "40",
+      "35",
+      "80",
+      "45"
+    ],
+    "correct_option": "A",
+    "correct_answer": "40",
+    "explanation": "Milk = 40 + 20 = 60 L; water = 20 + 20 = 40 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_combined_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 2,
+        "b": 1,
+        "V": 60,
+        "c": 1,
+        "d": 1,
+        "W": 40,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0044",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: vessel A milk:water=3:2; vessel A volume=100 L; vessel B milk:water=1:3; vessel B volume=80 L. Find the combined milk:water ratio.",
+    "options": [
+      "4:6",
+      "5:4",
+      "5:5",
+      "4:5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4:5",
+    "explanation": "Milk = 60 + 20 = 80 L; water = 40 + 60 = 100 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_combined_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 3,
+        "b": 2,
+        "V": 100,
+        "c": 1,
+        "d": 3,
+        "W": 80,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0045",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: vessel A milk:water=1:1; vessel A volume=120 L; vessel B milk:water=3:1; vessel B volume=90 L. Find the total milk after mixing.",
+    "options": [
+      "245/2",
+      "265/2",
+      "255",
+      "255/2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "255/2",
+    "explanation": "Milk = 60 + 135/2 = 255/2 L; water = 60 + 45/2 = 165/2 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_combined_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 1,
+        "b": 1,
+        "V": 120,
+        "c": 3,
+        "d": 1,
+        "W": 90,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0046",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: solution volume=100 L; solute strength=20%; water evaporated=20 L. Find the new solute percentage.",
+    "options": [
+      "25%",
+      "30%",
+      "12.5%",
+      "20%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25%",
+    "explanation": "Solute = 100x20/100 = 20 L; volume after evaporation = 100 - 20 = 80 L; strength = 25%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_evaporation",
+      "variant": 0,
+      "inputs": {
+        "V": 100,
+        "c": 20,
+        "e": 20,
+        "ask": "new_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0047",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: solution volume=100 L; solute strength=20%; water evaporated=20 L. Find the solute quantity.",
+    "options": [
+      "20",
+      "25",
+      "15",
+      "40"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Solute = 100x20/100 = 20 L; volume after evaporation = 100 - 20 = 80 L; strength = 25%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_evaporation",
+      "variant": 1,
+      "inputs": {
+        "V": 100,
+        "c": 20,
+        "e": 20,
+        "ask": "solute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0048",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: solution volume=150 L; solute strength=30%; water evaporated=30 L. Find the water quantity left.",
+    "options": [
+      "150",
+      "75",
+      "80",
+      "70"
+    ],
+    "correct_option": "B",
+    "correct_answer": "75",
+    "explanation": "Solute = 150x30/100 = 45 L; volume after evaporation = 150 - 30 = 120 L; strength = 37.5%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_evaporation",
+      "variant": 2,
+      "inputs": {
+        "V": 150,
+        "c": 30,
+        "e": 30,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0049",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: solution volume=200 L; solute strength=25%; water evaporated=40 L. Find the new solute percentage.",
+    "options": [
+      "36.25%",
+      "26.25%",
+      "31.25%",
+      "15.62%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "31.25%",
+    "explanation": "Solute = 200x25/100 = 50 L; volume after evaporation = 200 - 40 = 160 L; strength = 31.25%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_evaporation",
+      "variant": 3,
+      "inputs": {
+        "V": 200,
+        "c": 25,
+        "e": 40,
+        "ask": "new_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0050",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: solution volume=180 L; solute strength=15%; water evaporated=45 L. Find the water quantity left.",
+    "options": [
+      "216",
+      "113",
+      "103",
+      "108"
+    ],
+    "correct_option": "D",
+    "correct_answer": "108",
+    "explanation": "Solute = 180x15/100 = 27 L; volume after evaporation = 180 - 45 = 135 L; strength = 20%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_evaporation",
+      "variant": 4,
+      "inputs": {
+        "V": 180,
+        "c": 15,
+        "e": 45,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0051",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: jar volume=100 L; initial milk strength=40%; liquid replaced with water=20 L. Find the milk left after replacement.",
+    "options": [
+      "27",
+      "64",
+      "37",
+      "32"
+    ],
+    "correct_option": "D",
+    "correct_answer": "32",
+    "explanation": "Milk left = 40x(100 - 20)/100 = 32 L; water = 68 L; milk strength = 32%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_replacement",
+      "variant": 0,
+      "inputs": {
+        "V": 100,
+        "c": 40,
+        "x": 20,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0052",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: jar volume=100 L; initial milk strength=40%; liquid replaced with water=20 L. Find the water after replacement.",
+    "options": [
+      "73",
+      "68",
+      "63",
+      "136"
+    ],
+    "correct_option": "B",
+    "correct_answer": "68",
+    "explanation": "Milk left = 40x(100 - 20)/100 = 32 L; water = 68 L; milk strength = 32%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_replacement",
+      "variant": 1,
+      "inputs": {
+        "V": 100,
+        "c": 40,
+        "x": 20,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0053",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: jar volume=100 L; initial milk strength=40%; liquid replaced with water=20 L. Find the milk percentage after replacement.",
+    "options": [
+      "27%",
+      "32%",
+      "37%",
+      "16%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "32%",
+    "explanation": "Milk left = 40x(100 - 20)/100 = 32 L; water = 68 L; milk strength = 32%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_replacement",
+      "variant": 2,
+      "inputs": {
+        "V": 100,
+        "c": 40,
+        "x": 20,
+        "ask": "pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0054",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: jar volume=150 L; initial milk strength=30%; liquid replaced with water=30 L. Find the milk left after replacement.",
+    "options": [
+      "41",
+      "31",
+      "36",
+      "72"
+    ],
+    "correct_option": "C",
+    "correct_answer": "36",
+    "explanation": "Milk left = 30x(150 - 30)/100 = 36 L; water = 114 L; milk strength = 24%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_replacement",
+      "variant": 3,
+      "inputs": {
+        "V": 150,
+        "c": 30,
+        "x": 30,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0055",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: jar volume=200 L; initial milk strength=25%; liquid replaced with water=40 L. Find the water after replacement.",
+    "options": [
+      "155",
+      "160",
+      "320",
+      "165"
+    ],
+    "correct_option": "B",
+    "correct_answer": "160",
+    "explanation": "Milk left = 25x(200 - 40)/100 = 40 L; water = 160 L; milk strength = 20%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_replacement",
+      "variant": 4,
+      "inputs": {
+        "V": 200,
+        "c": 25,
+        "x": 40,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0056",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: initial milk=60 L; initial water=40 L; milk added=20 L; water added=10 L. Find the new milk:water ratio.",
+    "options": [
+      "9:5",
+      "5:8",
+      "8:6",
+      "8:5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8:5",
+    "explanation": "After addition, milk = 60 + 20 = 80 L and water = 40 + 10 = 50 L, so the ratio is 8:5.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_addition_ratio",
+      "variant": 0,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "m": 20,
+        "w": 10,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0057",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: initial milk=60 L; initial water=40 L; milk added=20 L; water added=10 L. Find the milk quantity after addition.",
+    "options": [
+      "75",
+      "80",
+      "85",
+      "160"
+    ],
+    "correct_option": "B",
+    "correct_answer": "80",
+    "explanation": "After addition, milk = 60 + 20 = 80 L and water = 40 + 10 = 50 L, so the ratio is 8:5.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_addition_ratio",
+      "variant": 1,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "m": 20,
+        "w": 10,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0058",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: initial milk=60 L; initial water=40 L; milk added=20 L; water added=10 L. Find the milk percentage after addition.",
+    "options": [
+      "56.54%",
+      "30.77%",
+      "66.54%",
+      "61.54%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "61.54%",
+    "explanation": "After addition, milk = 60 + 20 = 80 L and water = 40 + 10 = 50 L, so the ratio is 8:5.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_addition_ratio",
+      "variant": 2,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "m": 20,
+        "w": 10,
+        "ask": "pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0059",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: initial milk=80 L; initial water=40 L; milk added=20 L; water added=30 L. Find the new milk:water ratio.",
+    "options": [
+      "10:7",
+      "10:8",
+      "11:7",
+      "7:10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10:7",
+    "explanation": "After addition, milk = 80 + 20 = 100 L and water = 40 + 30 = 70 L, so the ratio is 10:7.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_addition_ratio",
+      "variant": 3,
+      "inputs": {
+        "x": 80,
+        "y": 40,
+        "m": 20,
+        "w": 30,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0060",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: initial milk=90 L; initial water=60 L; milk added=30 L; water added=20 L. Find the milk quantity after addition.",
+    "options": [
+      "115",
+      "120",
+      "240",
+      "125"
+    ],
+    "correct_option": "B",
+    "correct_answer": "120",
+    "explanation": "After addition, milk = 90 + 30 = 120 L and water = 60 + 20 = 80 L, so the ratio is 3:2.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_addition_ratio",
+      "variant": 4,
+      "inputs": {
+        "x": 90,
+        "y": 60,
+        "m": 30,
+        "w": 20,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0061",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: variety A price=₹40/kg; variety A quantity=10 kg; variety B price=₹60/kg; variety B quantity=20 kg. Find the average cost per kilogram.",
+    "options": [
+      "₹160/3",
+      "190/3",
+      "320/3",
+      "130/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹160/3",
+    "explanation": "Cost of A = ₹400; cost of B = ₹1200; total = ₹1600 for 30 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_average_cost",
+      "variant": 0,
+      "inputs": {
+        "a": 40,
+        "x": 10,
+        "b": 60,
+        "y": 20,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0062",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: variety A price=₹40/kg; variety A quantity=10 kg; variety B price=₹60/kg; variety B quantity=20 kg. Find the cost of variety A.",
+    "options": [
+      "410",
+      "390",
+      "₹400",
+      "800"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹400",
+    "explanation": "Cost of A = ₹400; cost of B = ₹1200; total = ₹1600 for 30 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_average_cost",
+      "variant": 1,
+      "inputs": {
+        "a": 40,
+        "x": 10,
+        "b": 60,
+        "y": 20,
+        "ask": "costA"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0063",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: variety A price=₹40/kg; variety A quantity=10 kg; variety B price=₹60/kg; variety B quantity=20 kg. Find the cost of variety B.",
+    "options": [
+      "2400",
+      "₹1200",
+      "1210",
+      "1190"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹1200",
+    "explanation": "Cost of A = ₹400; cost of B = ₹1200; total = ₹1600 for 30 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_average_cost",
+      "variant": 2,
+      "inputs": {
+        "a": 40,
+        "x": 10,
+        "b": 60,
+        "y": 20,
+        "ask": "costB"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0064",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: variety A price=₹50/kg; variety A quantity=12 kg; variety B price=₹70/kg; variety B quantity=18 kg. Find the total cost of both varieties.",
+    "options": [
+      "1850",
+      "1870",
+      "₹1860",
+      "3720"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹1860",
+    "explanation": "Cost of A = ₹600; cost of B = ₹1260; total = ₹1860 for 30 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_average_cost",
+      "variant": 3,
+      "inputs": {
+        "a": 50,
+        "x": 12,
+        "b": 70,
+        "y": 18,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0065",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 3,
+    "section": "mixture_alligation_data_interpretation_part_3",
+    "question_text": "Data: variety A price=₹30/kg; variety A quantity=20 kg; variety B price=₹45/kg; variety B quantity=15 kg. Find the average cost per kilogram.",
+    "options": [
+      "325/7",
+      "₹255/7",
+      "510/7",
+      "185/7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹255/7",
+    "explanation": "Cost of A = ₹600; cost of B = ₹675; total = ₹1275 for 35 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_average_cost",
+      "variant": 4,
+      "inputs": {
+        "a": 30,
+        "x": 20,
+        "b": 45,
+        "y": 15,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0066",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: cost per kg=₹50; selling price per kg=₹65; quantity sold=20 kg. Find the total profit.",
+    "options": [
+      "600",
+      "₹300",
+      "250",
+      "350"
+    ],
+    "correct_option": "B",
+    "correct_answer": "₹300",
+    "explanation": "Cost = ₹1000; revenue = ₹1300; profit = ₹300.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_profit",
+      "variant": 0,
+      "inputs": {
+        "c": 50,
+        "s": 65,
+        "qty": 20,
+        "ask": "profit"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0067",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: cost per kg=₹50; selling price per kg=₹65; quantity sold=20 kg. Find the total selling price.",
+    "options": [
+      "2600",
+      "1250",
+      "₹1300",
+      "1350"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹1300",
+    "explanation": "Cost = ₹1000; revenue = ₹1300; profit = ₹300.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_profit",
+      "variant": 1,
+      "inputs": {
+        "c": 50,
+        "s": 65,
+        "qty": 20,
+        "ask": "revenue"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0068",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: cost per kg=₹50; selling price per kg=₹65; quantity sold=20 kg. Find the total cost.",
+    "options": [
+      "950",
+      "2000",
+      "₹1000",
+      "1050"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹1000",
+    "explanation": "Cost = ₹1000; revenue = ₹1300; profit = ₹300.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_profit",
+      "variant": 2,
+      "inputs": {
+        "c": 50,
+        "s": 65,
+        "qty": 20,
+        "ask": "cost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0069",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: cost per kg=₹60; selling price per kg=₹54; quantity sold=30 kg. Find the profit or loss percentage.",
+    "options": [
+      "-15%",
+      "-10%",
+      "-9%",
+      "-5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "-10%",
+    "explanation": "Cost = ₹1800; revenue = ₹1620; profit = ₹-180.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_profit",
+      "variant": 3,
+      "inputs": {
+        "c": 60,
+        "s": 54,
+        "qty": 30,
+        "ask": "pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0070",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: cost per kg=₹80; selling price per kg=₹100; quantity sold=25 kg. Find the total profit.",
+    "options": [
+      "1000",
+      "450",
+      "550",
+      "₹500"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹500",
+    "explanation": "Cost = ₹2000; revenue = ₹2500; profit = ₹500.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_simple_profit",
+      "variant": 4,
+      "inputs": {
+        "c": 80,
+        "s": 100,
+        "qty": 25,
+        "ask": "profit"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0071",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: pie total=300 L; milk sector=50%; water sector=30%. Find the quantity of the remaining component.",
+    "options": [
+      "120",
+      "55",
+      "65",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Milk = 150 L, water = 90 L, remainder = 300x(20)/100 = 60 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_pie_other",
+      "variant": 0,
+      "inputs": {
+        "T": 300,
+        "m": 50,
+        "w": 30,
+        "ask": "other"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0072",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: pie total=300 L; milk sector=50%; water sector=30%. Find the milk quantity.",
+    "options": [
+      "145",
+      "155",
+      "300",
+      "150"
+    ],
+    "correct_option": "D",
+    "correct_answer": "150",
+    "explanation": "Milk = 150 L, water = 90 L, remainder = 300x(20)/100 = 60 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_pie_other",
+      "variant": 1,
+      "inputs": {
+        "T": 300,
+        "m": 50,
+        "w": 30,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0073",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: pie total=300 L; milk sector=50%; water sector=30%. Find the difference between milk and water quantities.",
+    "options": [
+      "55",
+      "65",
+      "120",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Milk = 150 L, water = 90 L, remainder = 300x(20)/100 = 60 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_pie_other",
+      "variant": 2,
+      "inputs": {
+        "T": 300,
+        "m": 50,
+        "w": 30,
+        "ask": "diff"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0074",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: pie total=400 L; milk sector=40%; water sector=45%. Find the quantity of the remaining component.",
+    "options": [
+      "65",
+      "55",
+      "60",
+      "120"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Milk = 160 L, water = 180 L, remainder = 400x(15)/100 = 60 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_pie_other",
+      "variant": 3,
+      "inputs": {
+        "T": 400,
+        "m": 40,
+        "w": 45,
+        "ask": "other"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0075",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: pie total=240 L; milk sector=60%; water sector=25%. Find the water quantity.",
+    "options": [
+      "65",
+      "120",
+      "55",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Milk = 144 L, water = 60 L, remainder = 240x(15)/100 = 36 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_pie_other",
+      "variant": 4,
+      "inputs": {
+        "T": 240,
+        "m": 60,
+        "w": 25,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0076",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: container 1 strength=20%; container 2 strength=30%; container 3 strength=40%; container 4 strength=50%. Find the average strength of the four containers.",
+    "options": [
+      "35%",
+      "40%",
+      "30%",
+      "17.5%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "35%",
+    "explanation": "Strengths are 20%, 30%, 40% and 50%; average = (20 + 30 + 40 + 50)/4 = 35%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_avg_percent",
+      "variant": 0,
+      "inputs": {
+        "p1": 20,
+        "p2": 30,
+        "p3": 40,
+        "p4": 50,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0077",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: container 1 strength=20%; container 2 strength=30%; container 3 strength=40%; container 4 strength=50%. Find the highest strength among the containers.",
+    "options": [
+      "45%",
+      "25%",
+      "50%",
+      "55%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "50%",
+    "explanation": "Strengths are 20%, 30%, 40% and 50%; average = (20 + 30 + 40 + 50)/4 = 35%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_avg_percent",
+      "variant": 1,
+      "inputs": {
+        "p1": 20,
+        "p2": 30,
+        "p3": 40,
+        "p4": 50,
+        "ask": "max"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0078",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: container 1 strength=20%; container 2 strength=30%; container 3 strength=40%; container 4 strength=50%. Find the range of the strengths.",
+    "options": [
+      "60",
+      "25",
+      "30",
+      "35"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30",
+    "explanation": "Strengths are 20%, 30%, 40% and 50%; average = (20 + 30 + 40 + 50)/4 = 35%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_avg_percent",
+      "variant": 2,
+      "inputs": {
+        "p1": 20,
+        "p2": 30,
+        "p3": 40,
+        "p4": 50,
+        "ask": "range"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0079",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: container 1 strength=15%; container 2 strength=25%; container 3 strength=35%; container 4 strength=45%. Find the average strength of the four containers.",
+    "options": [
+      "30%",
+      "35%",
+      "25%",
+      "15%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "30%",
+    "explanation": "Strengths are 15%, 25%, 35% and 45%; average = (15 + 25 + 35 + 45)/4 = 30%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_avg_percent",
+      "variant": 3,
+      "inputs": {
+        "p1": 15,
+        "p2": 25,
+        "p3": 35,
+        "p4": 45,
+        "ask": "avg"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0080",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: container 1 strength=10%; container 2 strength=20%; container 3 strength=30%; container 4 strength=60%. Find the range of the strengths.",
+    "options": [
+      "100",
+      "50",
+      "45",
+      "55"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50",
+    "explanation": "Strengths are 10%, 20%, 30% and 60%; average = (10 + 20 + 30 + 60)/4 = 30%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_avg_percent",
+      "variant": 4,
+      "inputs": {
+        "p1": 10,
+        "p2": 20,
+        "p3": 30,
+        "p4": 60,
+        "ask": "range"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0081",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: milk present=60 L; water present=40 L; target milk percentage=50%. Find the water to be added.",
+    "options": [
+      "20",
+      "15",
+      "25",
+      "40"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Let x L water be added: 60/(60 + 40 + x) = 50/100, so x = 100x60/50 - 100 = 20 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_water_needed",
+      "variant": 0,
+      "inputs": {
+        "m": 60,
+        "w": 40,
+        "t": 50,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0082",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: milk present=60 L; water present=40 L; target milk percentage=50%. Find the final mixture volume.",
+    "options": [
+      "125",
+      "240",
+      "115",
+      "120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120",
+    "explanation": "Let x L water be added: 60/(60 + 40 + x) = 50/100, so x = 100x60/50 - 100 = 20 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_water_needed",
+      "variant": 1,
+      "inputs": {
+        "m": 60,
+        "w": 40,
+        "t": 50,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0083",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: milk present=80 L; water present=40 L; target milk percentage=60%. Find the water to be added.",
+    "options": [
+      "80/3",
+      "40/3",
+      "55/3",
+      "25/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "40/3",
+    "explanation": "Let x L water be added: 80/(80 + 40 + x) = 60/100, so x = 100x80/60 - 120 = 40/3 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_water_needed",
+      "variant": 2,
+      "inputs": {
+        "m": 80,
+        "w": 40,
+        "t": 60,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0084",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: milk present=90 L; water present=30 L; target milk percentage=60%. Find the final mixture volume.",
+    "options": [
+      "155",
+      "300",
+      "145",
+      "150"
+    ],
+    "correct_option": "D",
+    "correct_answer": "150",
+    "explanation": "Let x L water be added: 90/(90 + 30 + x) = 60/100, so x = 100x90/60 - 120 = 30 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_water_needed",
+      "variant": 3,
+      "inputs": {
+        "m": 90,
+        "w": 30,
+        "t": 60,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0085",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: milk present=120 L; water present=80 L; target milk percentage=60%. Find the water to be added.",
+    "options": [
+      "0",
+      "-5",
+      "1",
+      "5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "0",
+    "explanation": "Let x L water be added: 120/(120 + 80 + x) = 60/100, so x = 100x120/60 - 200 = 0 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_water_needed",
+      "variant": 4,
+      "inputs": {
+        "m": 120,
+        "w": 80,
+        "t": 60,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0086",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: solution volume=100 L; current strength=20%; target strength=30%. Find the pure solute to be added.",
+    "options": [
+      "200/7",
+      "114/7",
+      "100/7",
+      "86/7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "100/7",
+    "explanation": "Initial solute = 20 kg; if x kg solute is added, (20 + x)/(100 + x) = 30/100, so x = 100/7 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_solute_needed",
+      "variant": 0,
+      "inputs": {
+        "V": 100,
+        "c": 20,
+        "t": 30,
+        "ask": "solute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0087",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: solution volume=100 L; current strength=20%; target strength=30%. Find the final solute quantity.",
+    "options": [
+      "480/7",
+      "254/7",
+      "240/7",
+      "226/7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "240/7",
+    "explanation": "Initial solute = 20 kg; if x kg solute is added, (20 + x)/(100 + x) = 30/100, so x = 100/7 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_solute_needed",
+      "variant": 1,
+      "inputs": {
+        "V": 100,
+        "c": 20,
+        "t": 30,
+        "ask": "final"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0088",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: solution volume=150 L; current strength=25%; target strength=40%. Find the pure solute to be added.",
+    "options": [
+      "75/2",
+      "71/2",
+      "79/2",
+      "75"
+    ],
+    "correct_option": "A",
+    "correct_answer": "75/2",
+    "explanation": "Initial solute = 75/2 kg; if x kg solute is added, (75/2 + x)/(150 + x) = 40/100, so x = 75/2 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_solute_needed",
+      "variant": 2,
+      "inputs": {
+        "V": 150,
+        "c": 25,
+        "t": 40,
+        "ask": "solute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0089",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: solution volume=200 L; current strength=10%; target strength=20%. Find the final solute quantity.",
+    "options": [
+      "45",
+      "47",
+      "90",
+      "43"
+    ],
+    "correct_option": "A",
+    "correct_answer": "45",
+    "explanation": "Initial solute = 20 kg; if x kg solute is added, (20 + x)/(200 + x) = 20/100, so x = 25 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_solute_needed",
+      "variant": 3,
+      "inputs": {
+        "V": 200,
+        "c": 10,
+        "t": 20,
+        "ask": "final"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0090",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: solution volume=180 L; current strength=15%; target strength=25%. Find the pure solute to be added.",
+    "options": [
+      "22",
+      "26",
+      "48",
+      "24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24",
+    "explanation": "Initial solute = 27 kg; if x kg solute is added, (27 + x)/(180 + x) = 25/100, so x = 24 kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_solute_needed",
+      "variant": 4,
+      "inputs": {
+        "V": 180,
+        "c": 15,
+        "t": 25,
+        "ask": "solute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0091",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: shop A price=₹60 for 3 L; shop B price=₹80 for 4 L. Find the ratio of per-litre prices of shop A and shop B.",
+    "options": [
+      "0:1",
+      "1:1",
+      "1:2",
+      "2:1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1:1",
+    "explanation": "Per-litre prices are ₹20 and ₹20; their ratio is 1:1.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_price_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 60,
+        "x": 3,
+        "b": 80,
+        "y": 4,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0092",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: shop A price=₹60 for 3 L; shop B price=₹80 for 4 L. Find the per-litre price at shop A.",
+    "options": [
+      "15",
+      "40",
+      "25",
+      "₹20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹20",
+    "explanation": "Per-litre prices are ₹20 and ₹20; their ratio is 1:1.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_price_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 60,
+        "x": 3,
+        "b": 80,
+        "y": 4,
+        "ask": "A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0093",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: shop A price=₹60 for 3 L; shop B price=₹80 for 4 L. Find the per-litre price at shop B.",
+    "options": [
+      "40",
+      "15",
+      "25",
+      "₹20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹20",
+    "explanation": "Per-litre prices are ₹20 and ₹20; their ratio is 1:1.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_price_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 60,
+        "x": 3,
+        "b": 80,
+        "y": 4,
+        "ask": "B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0094",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: shop A price=₹90 for 6 L; shop B price=₹120 for 8 L. Find the ratio of per-litre prices of shop A and shop B.",
+    "options": [
+      "1:2",
+      "1:1",
+      "0:1",
+      "2:1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1:1",
+    "explanation": "Per-litre prices are ₹15 and ₹15; their ratio is 1:1.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_price_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 90,
+        "x": 6,
+        "b": 120,
+        "y": 8,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0095",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: shop A price=₹40 for 5 L; shop B price=₹75 for 6 L. Find the per-litre price at shop B.",
+    "options": [
+      "35/2",
+      "15/2",
+      "₹25/2",
+      "25"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹25/2",
+    "explanation": "Per-litre prices are ₹8 and ₹25/2; their ratio is 16:25.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_price_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 40,
+        "x": 5,
+        "b": 75,
+        "y": 6,
+        "ask": "B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0096",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: vessel A milk=60 L; vessel A water=40 L; vessel B milk=80 L; vessel B water=20 L; portion of A mixed=one-half. Find the milk:water ratio after mixing.",
+    "options": [
+      "11:4",
+      "12:4",
+      "4:11",
+      "11:5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11:4",
+    "explanation": "Half of A gives 30 L milk and 20 L water; adding all of B gives milk = 110 L and water = 40 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_caselet_half",
+      "variant": 0,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "p": 80,
+        "qty": 20,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0097",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: vessel A milk=60 L; vessel A water=40 L; vessel B milk=80 L; vessel B water=20 L; portion of A mixed=one-half. Find the milk mixed.",
+    "options": [
+      "115",
+      "220",
+      "110",
+      "105"
+    ],
+    "correct_option": "C",
+    "correct_answer": "110",
+    "explanation": "Half of A gives 30 L milk and 20 L water; adding all of B gives milk = 110 L and water = 40 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_caselet_half",
+      "variant": 1,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "p": 80,
+        "qty": 20,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0098",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: vessel A milk=60 L; vessel A water=40 L; vessel B milk=80 L; vessel B water=20 L; portion of A mixed=one-half. Find the water mixed.",
+    "options": [
+      "80",
+      "40",
+      "45",
+      "35"
+    ],
+    "correct_option": "B",
+    "correct_answer": "40",
+    "explanation": "Half of A gives 30 L milk and 20 L water; adding all of B gives milk = 110 L and water = 40 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_caselet_half",
+      "variant": 2,
+      "inputs": {
+        "x": 60,
+        "y": 40,
+        "p": 80,
+        "qty": 20,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0099",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: vessel A milk=100 L; vessel A water=60 L; vessel B milk=40 L; vessel B water=40 L; portion of A mixed=one-half. Find the milk:water ratio after mixing.",
+    "options": [
+      "9:8",
+      "10:7",
+      "7:9",
+      "9:7"
+    ],
+    "correct_option": "D",
+    "correct_answer": "9:7",
+    "explanation": "Half of A gives 50 L milk and 30 L water; adding all of B gives milk = 90 L and water = 70 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_caselet_half",
+      "variant": 3,
+      "inputs": {
+        "x": 100,
+        "y": 60,
+        "p": 40,
+        "qty": 40,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0100",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: vessel A milk=120 L; vessel A water=40 L; vessel B milk=60 L; vessel B water=30 L; portion of A mixed=one-half. Find the milk mixed.",
+    "options": [
+      "120",
+      "240",
+      "125",
+      "115"
+    ],
+    "correct_option": "A",
+    "correct_answer": "120",
+    "explanation": "Half of A gives 60 L milk and 20 L water; adding all of B gives milk = 120 L and water = 50 L.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_caselet_half",
+      "variant": 4,
+      "inputs": {
+        "x": 120,
+        "y": 40,
+        "p": 60,
+        "qty": 30,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0101",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: marked price=₹100; discount=10%; quantity=20 units. Find the total selling price.",
+    "options": [
+      "1750",
+      "3600",
+      "1850",
+      "₹1800"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹1800",
+    "explanation": "Selling price per unit = 100x(90)/100 = ₹90; for 20 units the total is ₹1800.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_discount_total",
+      "variant": 0,
+      "inputs": {
+        "m": 100,
+        "d": 10,
+        "qty": 20,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0102",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: marked price=₹100; discount=10%; quantity=20 units. Find the total discount.",
+    "options": [
+      "400",
+      "250",
+      "₹200",
+      "150"
+    ],
+    "correct_option": "C",
+    "correct_answer": "₹200",
+    "explanation": "Selling price per unit = 100x(90)/100 = ₹90; for 20 units the total is ₹1800.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_discount_total",
+      "variant": 1,
+      "inputs": {
+        "m": 100,
+        "d": 10,
+        "qty": 20,
+        "ask": "discount"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0103",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: marked price=₹100; discount=10%; quantity=20 units. Find the selling price per unit.",
+    "options": [
+      "40",
+      "180",
+      "140",
+      "₹90"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹90",
+    "explanation": "Selling price per unit = 100x(90)/100 = ₹90; for 20 units the total is ₹1800.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_discount_total",
+      "variant": 2,
+      "inputs": {
+        "m": 100,
+        "d": 10,
+        "qty": 20,
+        "ask": "each"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0104",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: marked price=₹150; discount=20%; quantity=12 units. Find the total selling price.",
+    "options": [
+      "1490",
+      "2880",
+      "1390",
+      "₹1440"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹1440",
+    "explanation": "Selling price per unit = 150x(80)/100 = ₹120; for 12 units the total is ₹1440.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_discount_total",
+      "variant": 3,
+      "inputs": {
+        "m": 150,
+        "d": 20,
+        "qty": 12,
+        "ask": "total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0105",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: marked price=₹200; discount=25%; quantity=10 units. Find the total discount.",
+    "options": [
+      "550",
+      "450",
+      "1000",
+      "₹500"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹500",
+    "explanation": "Selling price per unit = 200x(75)/100 = ₹150; for 10 units the total is ₹1500.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_discount_total",
+      "variant": 4,
+      "inputs": {
+        "m": 200,
+        "d": 25,
+        "qty": 10,
+        "ask": "discount"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0106",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: alloy A mass=100 kg; alloy A copper=40%; alloy B mass=80 kg; alloy B copper=60%. Find the total copper mass.",
+    "options": [
+      "93",
+      "88",
+      "176",
+      "83"
+    ],
+    "correct_option": "B",
+    "correct_answer": "88",
+    "explanation": "Copper = 88 kg and zinc = 92 kg, giving ratio 22:23.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_alloy_copper_mass",
+      "variant": 0,
+      "inputs": {
+        "x": 100,
+        "a": 40,
+        "y": 80,
+        "b": 60,
+        "ask": "copper"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0107",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: alloy A mass=100 kg; alloy A copper=40%; alloy B mass=80 kg; alloy B copper=60%. Find the total zinc mass.",
+    "options": [
+      "184",
+      "92",
+      "87",
+      "97"
+    ],
+    "correct_option": "B",
+    "correct_answer": "92",
+    "explanation": "Copper = 88 kg and zinc = 92 kg, giving ratio 22:23.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_alloy_copper_mass",
+      "variant": 1,
+      "inputs": {
+        "x": 100,
+        "a": 40,
+        "y": 80,
+        "b": 60,
+        "ask": "zinc"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0108",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: alloy A mass=100 kg; alloy A copper=40%; alloy B mass=80 kg; alloy B copper=60%. Find the copper:zinc ratio in the mixed alloy.",
+    "options": [
+      "23:23",
+      "22:24",
+      "22:23",
+      "23:22"
+    ],
+    "correct_option": "C",
+    "correct_answer": "22:23",
+    "explanation": "Copper = 88 kg and zinc = 92 kg, giving ratio 22:23.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_alloy_copper_mass",
+      "variant": 2,
+      "inputs": {
+        "x": 100,
+        "a": 40,
+        "y": 80,
+        "b": 60,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0109",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: alloy A mass=120 kg; alloy A copper=25%; alloy B mass=90 kg; alloy B copper=50%. Find the total copper mass.",
+    "options": [
+      "75",
+      "80",
+      "70",
+      "150"
+    ],
+    "correct_option": "A",
+    "correct_answer": "75",
+    "explanation": "Copper = 75 kg and zinc = 135 kg, giving ratio 5:9.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_alloy_copper_mass",
+      "variant": 3,
+      "inputs": {
+        "x": 120,
+        "a": 25,
+        "y": 90,
+        "b": 50,
+        "ask": "copper"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0110",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: alloy A mass=150 kg; alloy A copper=30%; alloy B mass=100 kg; alloy B copper=45%. Find the copper:zinc ratio in the mixed alloy.",
+    "options": [
+      "10:16",
+      "9:17",
+      "16:9",
+      "9:16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "9:16",
+    "explanation": "Copper = 90 kg and zinc = 160 kg, giving ratio 9:16.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 9-10",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_alloy_copper_mass",
+      "variant": 4,
+      "inputs": {
+        "x": 150,
+        "a": 30,
+        "y": 100,
+        "b": 45,
+        "ask": "ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0111",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: jar volume=100 L; initial milk strength=40%; liquid replaced each time=20 L; number of replacements=2. Find the final milk percentage.",
+    "options": [
+      "25.6%",
+      "30.6%",
+      "20.6%",
+      "12.8%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25.6%",
+    "explanation": "Each replacement multiplies milk by (100 - 20)/100; final milk = 40x(100 - 20)^2/100^2 = 128/5 L, i.e. 25.6%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_double_replacement",
+      "variant": 0,
+      "inputs": {
+        "V": 100,
+        "c": 40,
+        "x": 20,
+        "ask": "pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0112",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: jar volume=100 L; initial milk strength=40%; liquid replaced each time=20 L; number of replacements=2. Find the milk left after both replacements.",
+    "options": [
+      "103/5",
+      "128/5",
+      "153/5",
+      "256/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "128/5",
+    "explanation": "Each replacement multiplies milk by (100 - 20)/100; final milk = 40x(100 - 20)^2/100^2 = 128/5 L, i.e. 25.6%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_double_replacement",
+      "variant": 1,
+      "inputs": {
+        "V": 100,
+        "c": 40,
+        "x": 20,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0113",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: jar volume=100 L; initial milk strength=40%; liquid replaced each time=20 L; number of replacements=2. Find the water after both replacements.",
+    "options": [
+      "372/5",
+      "347/5",
+      "744/5",
+      "397/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "372/5",
+    "explanation": "Each replacement multiplies milk by (100 - 20)/100; final milk = 40x(100 - 20)^2/100^2 = 128/5 L, i.e. 25.6%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_double_replacement",
+      "variant": 2,
+      "inputs": {
+        "V": 100,
+        "c": 40,
+        "x": 20,
+        "ask": "water"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0114",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: jar volume=120 L; initial milk strength=50%; liquid replaced each time=30 L; number of replacements=2. Find the final milk percentage.",
+    "options": [
+      "23.12%",
+      "14.06%",
+      "28.12%",
+      "33.12%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "28.12%",
+    "explanation": "Each replacement multiplies milk by (120 - 30)/120; final milk = 50x(120 - 30)^2/120^2 = 225/8 L, i.e. 28.12%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_double_replacement",
+      "variant": 3,
+      "inputs": {
+        "V": 120,
+        "c": 50,
+        "x": 30,
+        "ask": "pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0115",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: jar volume=150 L; initial milk strength=30%; liquid replaced each time=25 L; number of replacements=2. Find the milk left after both replacements.",
+    "options": [
+      "125/3",
+      "95/6",
+      "125/6",
+      "155/6"
+    ],
+    "correct_option": "C",
+    "correct_answer": "125/6",
+    "explanation": "Each replacement multiplies milk by (150 - 25)/150; final milk = 30x(150 - 25)^2/150^2 = 125/6 L, i.e. 20.83%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 11-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_double_replacement",
+      "variant": 4,
+      "inputs": {
+        "V": 150,
+        "c": 30,
+        "x": 25,
+        "ask": "milk"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0116",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: total mixture=100 kg; total cost=₹4800; variety A quantity=40 kg; variety A price=₹40/kg. Find the price per kilogram of variety B.",
+    "options": [
+      "₹160/3",
+      "320/3",
+      "145/3",
+      "175/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹160/3",
+    "explanation": "Variety B quantity = 100 - 40 = 60 kg; its cost = ₹3200, so price = ₹160/3 per kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_price",
+      "variant": 0,
+      "inputs": {
+        "T": 100,
+        "C": 4800,
+        "x": 40,
+        "a": 40,
+        "ask": "priceB"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0117",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: total mixture=100 kg; total cost=₹4800; variety A quantity=40 kg; variety A price=₹40/kg. Find the quantity of variety B.",
+    "options": [
+      "120",
+      "50",
+      "70",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Variety B quantity = 100 - 40 = 60 kg; its cost = ₹3200, so price = ₹160/3 per kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_price",
+      "variant": 1,
+      "inputs": {
+        "T": 100,
+        "C": 4800,
+        "x": 40,
+        "a": 40,
+        "ask": "qtyB"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0118",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: total mixture=100 kg; total cost=₹4800; variety A quantity=40 kg; variety A price=₹40/kg. Find the cost of variety A.",
+    "options": [
+      "₹1600",
+      "1595",
+      "3200",
+      "1605"
+    ],
+    "correct_option": "A",
+    "correct_answer": "₹1600",
+    "explanation": "Variety B quantity = 100 - 40 = 60 kg; its cost = ₹3200, so price = ₹160/3 per kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_price",
+      "variant": 2,
+      "inputs": {
+        "T": 100,
+        "C": 4800,
+        "x": 40,
+        "a": 40,
+        "ask": "costA"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0119",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: total mixture=150 kg; total cost=₹9000; variety A quantity=60 kg; variety A price=₹50/kg. Find the price per kilogram of variety B.",
+    "options": [
+      "185/3",
+      "400/3",
+      "215/3",
+      "₹200/3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "₹200/3",
+    "explanation": "Variety B quantity = 150 - 60 = 90 kg; its cost = ₹6000, so price = ₹200/3 per kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_price",
+      "variant": 3,
+      "inputs": {
+        "T": 150,
+        "C": 9000,
+        "x": 60,
+        "a": 50,
+        "ask": "priceB"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "mixture_alligation_data_interpretation-0120",
+    "chapter": "Mixture and Alligation – Data Interpretation",
+    "chapter_key": "mixture_alligation_data_interpretation",
+    "part": 4,
+    "section": "mixture_alligation_data_interpretation_part_4",
+    "question_text": "Data: total mixture=200 kg; total cost=₹14000; variety A quantity=80 kg; variety A price=₹60/kg. Find the quantity of variety B.",
+    "options": [
+      "110",
+      "120",
+      "130",
+      "240"
+    ],
+    "correct_option": "B",
+    "correct_answer": "120",
+    "explanation": "Variety B quantity = 200 - 80 = 120 kg; its cost = ₹9200, so price = ₹230/3 per kg.",
+    "difficulty": "MEDIUM",
+    "source_name": "Mixture and Alligation Data Interpretation class notes (local PDF)",
+    "source_url": "",
+    "source_page": "66052d90-202e-454e-96d2-3f7291856dba.pdf, pp. 4-12",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set7_questions.py",
+    "verification_data": {
+      "family": "mad_missing_price",
+      "variant": 4,
+      "inputs": {
+        "T": 200,
+        "C": 14000,
+        "x": 80,
+        "a": 60,
+        "ask": "qtyB"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

@@ -1,0 +1,4377 @@
+[
+  {
+    "id": "time_speed_and_distance_mains-0001",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A train 180 m long is approaching a platform 270 m long, running throughout at a constant 54 km/h. Counting from the instant the engine reaches the near end of the platform until the guard clears the far end, how many seconds does the complete crossing take?",
+    "options": [
+      "60",
+      "30",
+      "27",
+      "33"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30",
+    "explanation": "Using the stated values in exact arithmetic, 15 m/s is the speed; the relevant length combination is handled with that conversion. Therefore the required value is 30.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_train_platform",
+      "variant": 0,
+      "inputs": {
+        "length": 180,
+        "platform": 270,
+        "speed_kmph": 54,
+        "ask": "total_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0002",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A train 240 m long is approaching a platform 360 m long, running throughout at a constant 72 km/h. How many more seconds does the train need to clear the platform than it needs to pass a single pole at the same speed?",
+    "options": [
+      "21",
+      "18",
+      "36",
+      "15"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18",
+    "explanation": "Using the stated values in exact arithmetic, 20 m/s is the speed; the relevant length combination is handled with that conversion. Therefore the required value is 18.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_train_platform",
+      "variant": 1,
+      "inputs": {
+        "length": 240,
+        "platform": 360,
+        "speed_kmph": 72,
+        "ask": "extra_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0003",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A train 150 m long is approaching a platform 250 m long, running throughout at a constant 45 km/h. Find, in lowest terms, the ratio of the time taken to clear the platform to the time taken to pass a single pole.",
+    "options": [
+      "8:3",
+      "8:4",
+      "3:8",
+      "9:3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8:3",
+    "explanation": "Using the stated values in exact arithmetic, 25/2 m/s is the speed; the relevant length combination is handled with that conversion. Therefore the required value is 8:3.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_train_platform",
+      "variant": 2,
+      "inputs": {
+        "length": 150,
+        "platform": 250,
+        "speed_kmph": 45,
+        "ask": "time_ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0004",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A train 200 m long is approaching a platform 300 m long, running throughout at a constant 60 km/h. From the instant the engine enters the platform until the train has gone one further train-length after fully clearing it, how many metres has the engine travelled?",
+    "options": [
+      "1400",
+      "700",
+      "697",
+      "703"
+    ],
+    "correct_option": "B",
+    "correct_answer": "700",
+    "explanation": "Using the stated values in exact arithmetic, 50/3 m/s is the speed; the relevant length combination is handled with that conversion. Therefore the required value is 700.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_train_platform",
+      "variant": 3,
+      "inputs": {
+        "length": 200,
+        "platform": 300,
+        "speed_kmph": 60,
+        "ask": "distance_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0005",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A train 160 m long is approaching a platform 200 m long, running throughout at a constant 48 km/h. Counting from the instant the engine reaches the near end of the platform until the guard clears the far end, how many seconds does the complete crossing take?",
+    "options": [
+      "27",
+      "30",
+      "24",
+      "54"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27",
+    "explanation": "Using the stated values in exact arithmetic, 40/3 m/s is the speed; the relevant length combination is handled with that conversion. Therefore the required value is 27.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_train_platform",
+      "variant": 4,
+      "inputs": {
+        "length": 160,
+        "platform": 200,
+        "speed_kmph": 48,
+        "ask": "total_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0006",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "Two trains of length 180 m and 270 m run on parallel tracks towards each other at 54 km/h and 36 km/h respectively. How many seconds pass from the moment their engines meet until their guards have completely cleared one another?",
+    "options": [
+      "21",
+      "36",
+      "15",
+      "18"
+    ],
+    "correct_option": "D",
+    "correct_answer": "18",
+    "explanation": "Using the stated values in exact arithmetic, relative speeds are 25 m/s towards and 5 m/s apart. Therefore the required value is 18.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_opposite_trains",
+      "variant": 0,
+      "inputs": {
+        "l1": 180,
+        "l2": 270,
+        "s1": 54,
+        "s2": 36,
+        "ask": "cross_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0007",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "Two trains of length 200 m and 250 m run on parallel tracks towards each other at 72 km/h and 48 km/h respectively. Had the faster train instead overtaken the slower one from behind at the same two speeds, how many additional seconds would the complete crossing have taken compared with the opposite-direction case?",
+    "options": [
+      "57",
+      "54",
+      "108",
+      "51"
+    ],
+    "correct_option": "B",
+    "correct_answer": "54",
+    "explanation": "Using the stated values in exact arithmetic, relative speeds are 100/3 m/s towards and 20/3 m/s apart. Therefore the required value is 54.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_opposite_trains",
+      "variant": 1,
+      "inputs": {
+        "l1": 200,
+        "l2": 250,
+        "s1": 72,
+        "s2": 48,
+        "ask": "extra_seconds_vs_same"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0008",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "Two trains of length 120 m and 280 m run on parallel tracks towards each other at 54 km/h and 36 km/h respectively. How many seconds pass from the moment their engines meet until their guards have completely cleared one another?",
+    "options": [
+      "16",
+      "19",
+      "13",
+      "32"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "Using the stated values in exact arithmetic, relative speeds are 25 m/s towards and 5 m/s apart. Therefore the required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_opposite_trains",
+      "variant": 2,
+      "inputs": {
+        "l1": 120,
+        "l2": 280,
+        "s1": 54,
+        "s2": 36,
+        "ask": "cross_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0009",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "Two trains of length 300 m and 600 m run on parallel tracks towards each other at 60 km/h and 30 km/h respectively. In the opposite-direction crossing, how many metres does the 60 km/h train travel between the engines meeting and the guards clearing each other?",
+    "options": [
+      "603",
+      "597",
+      "600",
+      "1200"
+    ],
+    "correct_option": "C",
+    "correct_answer": "600",
+    "explanation": "Using the stated values in exact arithmetic, relative speeds are 25 m/s towards and 25/3 m/s apart. Therefore the required value is 600.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_opposite_trains",
+      "variant": 3,
+      "inputs": {
+        "l1": 300,
+        "l2": 600,
+        "s1": 60,
+        "s2": 30,
+        "ask": "distance_l1_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0010",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "Two trains of length 120 m and 180 m run on parallel tracks towards each other at 72 km/h and 36 km/h respectively. Had the faster train instead overtaken the slower one from behind at the same two speeds, how many additional seconds would the complete crossing have taken compared with the opposite-direction case?",
+    "options": [
+      "23",
+      "20",
+      "17",
+      "40"
+    ],
+    "correct_option": "B",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, relative speeds are 30 m/s towards and 10 m/s apart. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_opposite_trains",
+      "variant": 4,
+      "inputs": {
+        "l1": 120,
+        "l2": 180,
+        "s1": 72,
+        "s2": 36,
+        "ask": "extra_seconds_vs_same"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0011",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A 150 m train travelling at 72 km/h is behind a 210 m train travelling in the same direction at 36 km/h on a parallel track, with engines initially alongside each other. How many seconds elapse until the faster train has completely overtaken the slower one (its guard level with the slower engine)?",
+    "options": [
+      "72",
+      "39",
+      "33",
+      "36"
+    ],
+    "correct_option": "D",
+    "correct_answer": "36",
+    "explanation": "Using the stated values in exact arithmetic, the closing speed behind is 10 m/s while the approach speed would be 30 m/s. Therefore the required value is 36.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_same_direction",
+      "variant": 0,
+      "inputs": {
+        "l1": 150,
+        "l2": 210,
+        "s1": 72,
+        "s2": 36,
+        "ask": "overtake_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0012",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A 180 m train travelling at 90 km/h is behind a 220 m train travelling in the same direction at 54 km/h on a parallel track, with engines initially alongside each other. How many seconds elapse until the faster train has completely overtaken the slower one (its guard level with the slower engine)?",
+    "options": [
+      "40",
+      "43",
+      "80",
+      "37"
+    ],
+    "correct_option": "A",
+    "correct_answer": "40",
+    "explanation": "Using the stated values in exact arithmetic, the closing speed behind is 10 m/s while the approach speed would be 40 m/s. Therefore the required value is 40.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_same_direction",
+      "variant": 1,
+      "inputs": {
+        "l1": 180,
+        "l2": 220,
+        "s1": 90,
+        "s2": 54,
+        "ask": "overtake_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0013",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A 120 m train travelling at 72 km/h is behind a 180 m train travelling in the same direction at 36 km/h on a parallel track, with engines initially alongside each other. How many more seconds does this complete overtaking take than a complete crossing would take if the two trains travelled towards each other at the same two speeds?",
+    "options": [
+      "20",
+      "17",
+      "40",
+      "23"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, the closing speed behind is 10 m/s while the approach speed would be 30 m/s. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_same_direction",
+      "variant": 2,
+      "inputs": {
+        "l1": 120,
+        "l2": 180,
+        "s1": 72,
+        "s2": 36,
+        "ask": "extra_seconds_vs_opposite"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0014",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A 200 m train travelling at 108 km/h is behind a 250 m train travelling in the same direction at 72 km/h on a parallel track, with engines initially alongside each other. How many metres does the faster train cover from the engines coming level until the overtaking is complete?",
+    "options": [
+      "1350",
+      "1353",
+      "2700",
+      "1347"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1350",
+    "explanation": "Using the stated values in exact arithmetic, the closing speed behind is 10 m/s while the approach speed would be 50 m/s. Therefore the required value is 1350.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_same_direction",
+      "variant": 3,
+      "inputs": {
+        "l1": 200,
+        "l2": 250,
+        "s1": 108,
+        "s2": 72,
+        "ask": "faster_distance_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0015",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 1,
+    "section": "time_speed_and_distance_mains_part_1",
+    "question_text": "A 150 m train travelling at 72 km/h is behind a 300 m train travelling in the same direction at 45 km/h on a parallel track, with engines initially alongside each other. How many seconds elapse until the faster train has completely overtaken the slower one (its guard level with the slower engine)?",
+    "options": [
+      "63",
+      "120",
+      "57",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, the closing speed behind is 15/2 m/s while the approach speed would be 65/2 m/s. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_same_direction",
+      "variant": 4,
+      "inputs": {
+        "l1": 150,
+        "l2": 300,
+        "s1": 72,
+        "s2": 45,
+        "ask": "overtake_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0016",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A boat's speed in still water is 18 km/h and the stream runs at 6 km/h. Two points A and B are 24 km apart along the stream. How many hours does the return journey A to B and back to A take?",
+    "options": [
+      "0",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3",
+    "explanation": "Using the stated values in exact arithmetic, upstream 12 km/h and downstream 24 km/h over 24 km each way. Therefore the required value is 3.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_boat_updown",
+      "variant": 0,
+      "inputs": {
+        "boat": 18,
+        "stream": 6,
+        "one_way": 24,
+        "ask": "round_trip_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0017",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A boat's speed in still water is 16 km/h and the stream runs at 4 km/h. Two points A and B are 24 km apart along the stream. Find the average speed for the whole return journey, in km/h.",
+    "options": [
+      "30",
+      "15",
+      "18",
+      "12"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15",
+    "explanation": "Using the stated values in exact arithmetic, upstream 12 km/h and downstream 20 km/h over 24 km each way. Therefore the required value is 15.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_boat_updown",
+      "variant": 1,
+      "inputs": {
+        "boat": 16,
+        "stream": 4,
+        "one_way": 24,
+        "ask": "avg_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0018",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A boat's speed in still water is 10 km/h and the stream runs at 2 km/h. Two points A and B are 24 km apart along the stream. How many minutes longer is the upstream leg than the downstream leg?",
+    "options": [
+      "63",
+      "57",
+      "120",
+      "60"
+    ],
+    "correct_option": "D",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, upstream 8 km/h and downstream 12 km/h over 24 km each way. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_boat_updown",
+      "variant": 2,
+      "inputs": {
+        "boat": 10,
+        "stream": 2,
+        "one_way": 24,
+        "ask": "extra_minutes"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0019",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A boat's speed in still water is 14 km/h and the stream runs at 7 km/h. Two points A and B are 28 km apart along the stream. By what percentage is the downstream speed greater than the upstream speed?",
+    "options": [
+      "100%",
+      "205%",
+      "195%",
+      "200%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "200%",
+    "explanation": "Using the stated values in exact arithmetic, upstream 7 km/h and downstream 21 km/h over 28 km each way. Therefore the required value is 200%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_boat_updown",
+      "variant": 3,
+      "inputs": {
+        "boat": 14,
+        "stream": 7,
+        "one_way": 28,
+        "ask": "down_pct_faster"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0020",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A boat's speed in still water is 20 km/h and the stream runs at 4 km/h. Two points A and B are 48 km apart along the stream. How many hours does the return journey A to B and back to A take?",
+    "options": [
+      "8",
+      "10",
+      "5",
+      "2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5",
+    "explanation": "Using the stated values in exact arithmetic, upstream 16 km/h and downstream 24 km/h over 48 km each way. Therefore the required value is 5.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_boat_updown",
+      "variant": 4,
+      "inputs": {
+        "boat": 20,
+        "stream": 4,
+        "one_way": 48,
+        "ask": "round_trip_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0021",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A journey covers 120 km. The first part is covered at 40 km/h and the remaining part at 60 km/h. If the two parts are equal halves of the distance, find the average speed for the whole journey in km/h.",
+    "options": [
+      "96",
+      "48",
+      "51",
+      "45"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48",
+    "explanation": "Using the stated values in exact arithmetic, time on each segment is found separately from distance divided by that segment's speed before combining the times. Therefore the required value is 48.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_average_halves",
+      "variant": 0,
+      "inputs": {
+        "s1": 40,
+        "s2": 60,
+        "distance": 120,
+        "ask": "avg_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0022",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A journey covers 120 km. The first part is covered at 30 km/h and the remaining part at 60 km/h. If the two parts are equal halves of the distance, find the total journey time in hours.",
+    "options": [
+      "3",
+      "4",
+      "0",
+      "6"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3",
+    "explanation": "Using the stated values in exact arithmetic, time on each segment is found separately from distance divided by that segment's speed before combining the times. Therefore the required value is 3.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_average_halves",
+      "variant": 1,
+      "inputs": {
+        "s1": 30,
+        "s2": 60,
+        "distance": 120,
+        "ask": "total_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0023",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A journey covers 240 km. The first part is covered at 60 km/h and the remaining part at 40 km/h. If the journey is split into equal halves, how many more minutes is spent on the slower half than on the faster half?",
+    "options": [
+      "60",
+      "57",
+      "120",
+      "63"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, time on each segment is found separately from distance divided by that segment's speed before combining the times. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_average_halves",
+      "variant": 2,
+      "inputs": {
+        "s1": 60,
+        "s2": 40,
+        "distance": 240,
+        "ask": "time_diff_minutes"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0024",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A journey covers 150 km. The first part is covered at 50 km/h and the remaining part at 75 km/h. With equal halves, what percentage of the total travel time is spent on the first part?",
+    "options": [
+      "30%",
+      "65%",
+      "60%",
+      "55%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60%",
+    "explanation": "Using the stated values in exact arithmetic, time on each segment is found separately from distance divided by that segment's speed before combining the times. Therefore the required value is 60%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_average_halves",
+      "variant": 3,
+      "inputs": {
+        "s1": 50,
+        "s2": 75,
+        "distance": 150,
+        "ask": "first_time_pct"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0025",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A journey covers 180 km. The first part is covered at 30 km/h and the remaining part at 60 km/h. Suppose instead the first third of the distance is covered at 30 km/h and the remaining two-thirds at 60 km/h. Find the average speed for the journey in km/h.",
+    "options": [
+      "48",
+      "42",
+      "45",
+      "90"
+    ],
+    "correct_option": "C",
+    "correct_answer": "45",
+    "explanation": "Using the stated values in exact arithmetic, time on each segment is found separately from distance divided by that segment's speed before combining the times. Therefore the required value is 45.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_average_halves",
+      "variant": 4,
+      "inputs": {
+        "s1": 30,
+        "s2": 60,
+        "distance": 180,
+        "ask": "thirds_avg_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0026",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A vehicle starts at 30 km/h. At the end of every one-hour interval it increases its speed by 5 km/h and holds the new speed for the next hour, for a total of 6 hours. How many kilometres does it cover in all?",
+    "options": [
+      "258",
+      "252",
+      "255",
+      "510"
+    ],
+    "correct_option": "C",
+    "correct_answer": "255",
+    "explanation": "Using the stated values in exact arithmetic, the hourly distances form an arithmetic progression starting at 30 with step 5 over 6 hours. Therefore the required value is 255.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_increase",
+      "variant": 0,
+      "inputs": {
+        "base": 30,
+        "gain": 5,
+        "n": 6,
+        "ask": "total_distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0027",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A vehicle starts at 20 km/h. At the end of every one-hour interval it increases its speed by 4 km/h and holds the new speed for the next hour, for a total of 5 hours. How many kilometres does it cover in the final hour?",
+    "options": [
+      "39",
+      "72",
+      "33",
+      "36"
+    ],
+    "correct_option": "D",
+    "correct_answer": "36",
+    "explanation": "Using the stated values in exact arithmetic, the hourly distances form an arithmetic progression starting at 20 with step 4 over 5 hours. Therefore the required value is 36.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_increase",
+      "variant": 1,
+      "inputs": {
+        "base": 20,
+        "gain": 4,
+        "n": 5,
+        "ask": "last_hour_distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0028",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A vehicle starts at 40 km/h. At the end of every one-hour interval it increases its speed by 8 km/h and holds the new speed for the next hour, for a total of 5 hours. What is its average speed over the whole period, in km/h?",
+    "options": [
+      "53",
+      "59",
+      "56",
+      "112"
+    ],
+    "correct_option": "C",
+    "correct_answer": "56",
+    "explanation": "Using the stated values in exact arithmetic, the hourly distances form an arithmetic progression starting at 40 with step 8 over 5 hours. Therefore the required value is 56.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_increase",
+      "variant": 2,
+      "inputs": {
+        "base": 40,
+        "gain": 8,
+        "n": 5,
+        "ask": "avg_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0029",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A vehicle starts at 25 km/h. At the end of every one-hour interval it increases its speed by 5 km/h and holds the new speed for the next hour, for a total of 5 hours. By what percentage is the speed in the final hour greater than the starting speed?",
+    "options": [
+      "40%",
+      "80%",
+      "85%",
+      "75%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "80%",
+    "explanation": "Using the stated values in exact arithmetic, the hourly distances form an arithmetic progression starting at 25 with step 5 over 5 hours. Therefore the required value is 80%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_increase",
+      "variant": 3,
+      "inputs": {
+        "base": 25,
+        "gain": 5,
+        "n": 5,
+        "ask": "pct_increase"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0030",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "A vehicle starts at 36 km/h. At the end of every one-hour interval it increases its speed by 6 km/h and holds the new speed for the next hour, for a total of 7 hours. How many kilometres does it cover in all?",
+    "options": [
+      "381",
+      "375",
+      "378",
+      "756"
+    ],
+    "correct_option": "C",
+    "correct_answer": "378",
+    "explanation": "Using the stated values in exact arithmetic, the hourly distances form an arithmetic progression starting at 36 with step 6 over 7 hours. Therefore the required value is 378.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_increase",
+      "variant": 4,
+      "inputs": {
+        "base": 36,
+        "gain": 6,
+        "n": 7,
+        "ask": "total_distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0031",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "Two towns P and Q are 180 km apart. A starts from P towards Q at 40 km/h while B starts from Q towards P at 50 km/h, at the same instant. How far from P do they meet, in kilometres?",
+    "options": [
+      "160",
+      "77",
+      "83",
+      "80"
+    ],
+    "correct_option": "D",
+    "correct_answer": "80",
+    "explanation": "Using the stated values in exact arithmetic, meeting time is 180/(40+50) hours, then each traveller's share follows from that time. Therefore the required value is 80.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_meeting_point",
+      "variant": 0,
+      "inputs": {
+        "distance": 180,
+        "s1": 40,
+        "s2": 50,
+        "ask": "from_A_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0032",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "Two towns P and Q are 240 km apart. A starts from P towards Q at 60 km/h while B starts from Q towards P at 40 km/h, at the same instant. How many kilometres more has the faster traveller covered than the slower traveller by the meeting instant?",
+    "options": [
+      "48",
+      "51",
+      "45",
+      "96"
+    ],
+    "correct_option": "A",
+    "correct_answer": "48",
+    "explanation": "Using the stated values in exact arithmetic, meeting time is 240/(60+40) hours, then each traveller's share follows from that time. Therefore the required value is 48.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_meeting_point",
+      "variant": 1,
+      "inputs": {
+        "distance": 240,
+        "s1": 60,
+        "s2": 40,
+        "ask": "extra_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0033",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "Two towns P and Q are 120 km apart. A starts from P towards Q at 30 km/h while B starts from Q towards P at 90 km/h, at the same instant. How many minutes after starting do they meet?",
+    "options": [
+      "60",
+      "57",
+      "120",
+      "63"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, meeting time is 120/(30+90) hours, then each traveller's share follows from that time. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_meeting_point",
+      "variant": 2,
+      "inputs": {
+        "distance": 120,
+        "s1": 30,
+        "s2": 90,
+        "ask": "minutes_to_meet"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0034",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "Two towns P and Q are 200 km apart. A starts from P towards Q at 45 km/h while B starts from Q towards P at 55 km/h, at the same instant. What percentage of the total distance has A covered at the meeting point?",
+    "options": [
+      "40%",
+      "50%",
+      "22.5%",
+      "45%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "45%",
+    "explanation": "Using the stated values in exact arithmetic, meeting time is 200/(45+55) hours, then each traveller's share follows from that time. Therefore the required value is 45%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_meeting_point",
+      "variant": 3,
+      "inputs": {
+        "distance": 200,
+        "s1": 45,
+        "s2": 55,
+        "ask": "pct_A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0035",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 2,
+    "section": "time_speed_and_distance_mains_part_2",
+    "question_text": "Two towns P and Q are 360 km apart. A starts from P towards Q at 50 km/h while B starts from Q towards P at 40 km/h, at the same instant. How far from Q do they meet, in kilometres?",
+    "options": [
+      "160",
+      "163",
+      "320",
+      "157"
+    ],
+    "correct_option": "A",
+    "correct_answer": "160",
+    "explanation": "Using the stated values in exact arithmetic, meeting time is 360/(50+40) hours, then each traveller's share follows from that time. Therefore the required value is 160.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_meeting_point",
+      "variant": 4,
+      "inputs": {
+        "distance": 360,
+        "s1": 50,
+        "s2": 40,
+        "ask": "from_B_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0036",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A is already 120 km ahead of B. A continues at 40 km/h. B waits 1 hour(s) and then starts from the same origin in pursuit at 60 km/h. How many hours after B starts does B catch A?",
+    "options": [
+      "1",
+      "7",
+      "8",
+      "4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4",
+    "explanation": "Using the stated values in exact arithmetic, the gap at the later start is 80 km, closed at 20 km/h. Therefore the required value is 4.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_delayed_start",
+      "variant": 0,
+      "inputs": {
+        "gap": 120,
+        "v1": 40,
+        "v2": 60,
+        "delay": 1,
+        "ask": "catch_hours_after_second"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0037",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A is already 200 km ahead of B. A continues at 30 km/h. B waits 2 hour(s) and then starts from the same origin in pursuit at 50 km/h. How many hours after A originally started does the catch occur?",
+    "options": [
+      "12",
+      "9",
+      "18",
+      "6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9",
+    "explanation": "Using the stated values in exact arithmetic, the gap at the later start is 140 km, closed at 20 km/h. Therefore the required value is 9.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_delayed_start",
+      "variant": 1,
+      "inputs": {
+        "gap": 200,
+        "v1": 30,
+        "v2": 50,
+        "delay": 2,
+        "ask": "catch_hours_after_first"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0038",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A is already 150 km ahead of B. A continues at 30 km/h. B waits 1 hour(s) and then starts from the same origin in pursuit at 60 km/h. How many kilometres does B travel from its own starting point before catching A?",
+    "options": [
+      "237",
+      "240",
+      "480",
+      "243"
+    ],
+    "correct_option": "B",
+    "correct_answer": "240",
+    "explanation": "Using the stated values in exact arithmetic, the gap at the later start is 120 km, closed at 30 km/h. Therefore the required value is 240.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_delayed_start",
+      "variant": 2,
+      "inputs": {
+        "gap": 150,
+        "v1": 30,
+        "v2": 60,
+        "delay": 1,
+        "ask": "distance_from_start_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0039",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A is already 100 km ahead of B. A continues at 24 km/h. B waits 1 hour(s) and then starts from the same origin in pursuit at 36 km/h. How many minutes after B starts is A caught?",
+    "options": [
+      "380",
+      "383",
+      "377",
+      "760"
+    ],
+    "correct_option": "A",
+    "correct_answer": "380",
+    "explanation": "Using the stated values in exact arithmetic, the gap at the later start is 76 km, closed at 12 km/h. Therefore the required value is 380.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_delayed_start",
+      "variant": 3,
+      "inputs": {
+        "gap": 100,
+        "v1": 24,
+        "v2": 36,
+        "delay": 1,
+        "ask": "catch_minutes_after_second"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0040",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A is already 180 km ahead of B. A continues at 45 km/h. B waits 2 hour(s) and then starts from the same origin in pursuit at 75 km/h. At the instant B starts, how many kilometres separate the two?",
+    "options": [
+      "90",
+      "180",
+      "87",
+      "93"
+    ],
+    "correct_option": "A",
+    "correct_answer": "90",
+    "explanation": "Using the stated values in exact arithmetic, the gap at the later start is 90 km, closed at 30 km/h. Therefore the required value is 90.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_delayed_start",
+      "variant": 4,
+      "inputs": {
+        "gap": 180,
+        "v1": 45,
+        "v2": 75,
+        "delay": 2,
+        "ask": "gap_at_second_start_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0041",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A vehicle runs at 60 km/h for 45 minutes and then halts for 15 minutes, repeating this cycle until it has covered 45 km. The distance is an exact number of running segments. Counting every halt after a completed running segment, how many hours does the whole journey take?",
+    "options": [
+      "-2",
+      "2",
+      "1",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1",
+    "explanation": "Using the stated values in exact arithmetic, one 45-minute run covers 45 km before the 15-minute halt. Therefore the required value is 1.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stoppage",
+      "variant": 0,
+      "inputs": {
+        "speed": 60,
+        "run": 45,
+        "halt": 15,
+        "distance": 45,
+        "ask": "total_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0042",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A vehicle runs at 45 km/h for 40 minutes and then halts for 20 minutes, repeating this cycle until it has covered 30 km. The distance is an exact number of running segments. How many minutes does it spend halted in total?",
+    "options": [
+      "23",
+      "40",
+      "17",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, one 40-minute run covers 30 km before the 20-minute halt. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stoppage",
+      "variant": 1,
+      "inputs": {
+        "speed": 45,
+        "run": 40,
+        "halt": 20,
+        "distance": 30,
+        "ask": "halt_minutes_total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0043",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A vehicle runs at 72 km/h for 50 minutes and then halts for 10 minutes, repeating this cycle until it has covered 90 km. The distance is an exact number of running segments. Find its effective average speed in km/h over a full cycle.",
+    "options": [
+      "120",
+      "60",
+      "57",
+      "63"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, one 50-minute run covers 60 km before the 10-minute halt. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stoppage",
+      "variant": 2,
+      "inputs": {
+        "speed": 72,
+        "run": 50,
+        "halt": 10,
+        "distance": 90,
+        "ask": "effective_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0044",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A vehicle runs at 50 km/h for 36 minutes and then halts for 24 minutes, repeating this cycle until it has covered 60 km. The distance is an exact number of running segments. What percentage of a full cycle is spent halted?",
+    "options": [
+      "20%",
+      "35%",
+      "45%",
+      "40%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "40%",
+    "explanation": "Using the stated values in exact arithmetic, one 36-minute run covers 30 km before the 24-minute halt. Therefore the required value is 40%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stoppage",
+      "variant": 3,
+      "inputs": {
+        "speed": 50,
+        "run": 36,
+        "halt": 24,
+        "distance": 60,
+        "ask": "halt_pct_of_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0045",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "A vehicle runs at 30 km/h for 40 minutes and then halts for 20 minutes, repeating this cycle until it has covered 60 km. The distance is an exact number of running segments. Counting every halt after a completed running segment, how many hours does the whole journey take?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "0"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3",
+    "explanation": "Using the stated values in exact arithmetic, one 40-minute run covers 20 km before the 20-minute halt. Therefore the required value is 3.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stoppage",
+      "variant": 4,
+      "inputs": {
+        "speed": 30,
+        "run": 40,
+        "halt": 20,
+        "distance": 60,
+        "ask": "total_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0046",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two vehicles cover the same distance at speeds in the ratio 2:3 (the second is faster). The slower vehicle takes 2 hour(s) more than the faster one. How many hours does the slower vehicle take?",
+    "options": [
+      "9",
+      "6",
+      "12",
+      "3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6",
+    "explanation": "Using the stated values in exact arithmetic, times invert the speed ratio to 3:2 and the time gap is 2 hour(s). Therefore the required value is 6.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_ratio_time",
+      "variant": 0,
+      "inputs": {
+        "r1": 2,
+        "r2": 3,
+        "time_diff": 2,
+        "ask": "slow_time_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0047",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two vehicles cover the same distance at speeds in the ratio 3:5 (the second is faster). The slower vehicle takes 4 hour(s) more than the faster one. What is the sum of their travel times, in hours?",
+    "options": [
+      "19",
+      "32",
+      "13",
+      "16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16",
+    "explanation": "Using the stated values in exact arithmetic, times invert the speed ratio to 5:3 and the time gap is 4 hour(s). Therefore the required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_ratio_time",
+      "variant": 1,
+      "inputs": {
+        "r1": 3,
+        "r2": 5,
+        "time_diff": 4,
+        "ask": "sum_time_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0048",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two vehicles cover the same distance at speeds in the ratio 4:5 (the second is faster). The slower vehicle takes 1 hour(s) more than the faster one. How many hours does the faster vehicle take?",
+    "options": [
+      "8",
+      "4",
+      "1",
+      "7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4",
+    "explanation": "Using the stated values in exact arithmetic, times invert the speed ratio to 5:4 and the time gap is 1 hour(s). Therefore the required value is 4.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_ratio_time",
+      "variant": 2,
+      "inputs": {
+        "r1": 4,
+        "r2": 5,
+        "time_diff": 1,
+        "ask": "fast_time_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0049",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two vehicles cover the same distance at speeds in the ratio 4:7 (the second is faster). The slower vehicle takes 3 hour(s) more than the faster one. By what percentage is the slower vehicle's time greater than the faster vehicle's time?",
+    "options": [
+      "37.5%",
+      "75%",
+      "70%",
+      "80%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "75%",
+    "explanation": "Using the stated values in exact arithmetic, times invert the speed ratio to 7:4 and the time gap is 3 hour(s). Therefore the required value is 75%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_ratio_time",
+      "variant": 3,
+      "inputs": {
+        "r1": 4,
+        "r2": 7,
+        "time_diff": 3,
+        "ask": "slow_pct_more"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0050",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two vehicles cover the same distance at speeds in the ratio 5:8 (the second is faster). The slower vehicle takes 6 hour(s) more than the faster one. How many hours does the slower vehicle take?",
+    "options": [
+      "16",
+      "13",
+      "32",
+      "19"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "Using the stated values in exact arithmetic, times invert the speed ratio to 8:5 and the time gap is 6 hour(s). Therefore the required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_ratio_time",
+      "variant": 4,
+      "inputs": {
+        "r1": 5,
+        "r2": 8,
+        "time_diff": 6,
+        "ask": "slow_time_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0051",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "On a circular track of circumference 600 m, two runners start together from the same point and run in opposite directions at 30 km/h and 18 km/h. How many seconds elapse before they first meet?",
+    "options": [
+      "42",
+      "45",
+      "90",
+      "48"
+    ],
+    "correct_option": "B",
+    "correct_answer": "45",
+    "explanation": "Using the stated values in exact arithmetic, opposite-direction relative speed is 40/3 m/s over one lap of 600 m. Therefore the required value is 45.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_meet",
+      "variant": 0,
+      "inputs": {
+        "circumference": 600,
+        "s1": 30,
+        "s2": 18,
+        "ask": "first_meet_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0052",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "On a circular track of circumference 900 m, two runners start together from the same point and run in opposite directions at 36 km/h and 24 km/h. How many metres has the first runner covered when they meet for the first time?",
+    "options": [
+      "1080",
+      "543",
+      "540",
+      "537"
+    ],
+    "correct_option": "C",
+    "correct_answer": "540",
+    "explanation": "Using the stated values in exact arithmetic, opposite-direction relative speed is 50/3 m/s over one lap of 900 m. Therefore the required value is 540.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_meet",
+      "variant": 1,
+      "inputs": {
+        "circumference": 900,
+        "s1": 36,
+        "s2": 24,
+        "ask": "distance_s1_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0053",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "On a circular track of circumference 1200 m, two runners start together from the same point and run in opposite directions at 45 km/h and 27 km/h. What percentage of the combined distance covered up to the first meeting is covered by the second runner?",
+    "options": [
+      "37.5%",
+      "42.5%",
+      "32.5%",
+      "18.75%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "37.5%",
+    "explanation": "Using the stated values in exact arithmetic, opposite-direction relative speed is 20 m/s over one lap of 1200 m. Therefore the required value is 37.5%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_meet",
+      "variant": 2,
+      "inputs": {
+        "circumference": 1200,
+        "s1": 45,
+        "s2": 27,
+        "ask": "pct_s2"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0054",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "On a circular track of circumference 400 m, two runners start together from the same point and run in opposite directions at 54 km/h and 36 km/h. How many seconds elapse before they first meet?",
+    "options": [
+      "16",
+      "19",
+      "32",
+      "13"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "Using the stated values in exact arithmetic, opposite-direction relative speed is 25 m/s over one lap of 400 m. Therefore the required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_meet",
+      "variant": 3,
+      "inputs": {
+        "circumference": 400,
+        "s1": 54,
+        "s2": 36,
+        "ask": "first_meet_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0055",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "On a circular track of circumference 900 m, two runners start together from the same point and run in opposite directions at 48 km/h and 42 km/h. How many metres has the first runner covered when they meet for the first time?",
+    "options": [
+      "480",
+      "483",
+      "960",
+      "477"
+    ],
+    "correct_option": "A",
+    "correct_answer": "480",
+    "explanation": "Using the stated values in exact arithmetic, opposite-direction relative speed is 25 m/s over one lap of 900 m. Therefore the required value is 480.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_meet",
+      "variant": 4,
+      "inputs": {
+        "circumference": 900,
+        "s1": 48,
+        "s2": 42,
+        "ask": "distance_s1_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0056",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two trains are 180 m and 270 m long and run at 54 km/h and 36 km/h respectively on parallel tracks in opposite directions. How many seconds do they take to cross each other completely?",
+    "options": [
+      "36",
+      "15",
+      "21",
+      "18"
+    ],
+    "correct_option": "D",
+    "correct_answer": "18",
+    "explanation": "Using the stated values in exact arithmetic, each pole time is length divided by that train's own speed in m/s; the mutual crossing uses the sum of the two speeds. Therefore the required value is 18.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_cross_each_other",
+      "variant": 0,
+      "inputs": {
+        "l1": 180,
+        "l2": 270,
+        "s1": 54,
+        "s2": 36,
+        "ask": "cross_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0057",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two trains are 120 m and 180 m long and run at 54 km/h and 36 km/h respectively on parallel tracks in opposite directions. Find the sum of the times, in seconds, that each train takes to pass a single pole at its own speed.",
+    "options": [
+      "29",
+      "52",
+      "26",
+      "23"
+    ],
+    "correct_option": "C",
+    "correct_answer": "26",
+    "explanation": "Using the stated values in exact arithmetic, each pole time is length divided by that train's own speed in m/s; the mutual crossing uses the sum of the two speeds. Therefore the required value is 26.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_cross_each_other",
+      "variant": 1,
+      "inputs": {
+        "l1": 120,
+        "l2": 180,
+        "s1": 54,
+        "s2": 36,
+        "ask": "pole_times_sum_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0058",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two trains are 150 m and 200 m long and run at 45 km/h and 36 km/h respectively on parallel tracks in opposite directions. Find, in lowest terms, the ratio of the time the first train takes to pass a pole to the time the second train takes to pass a pole.",
+    "options": [
+      "4:5",
+      "3:5",
+      "3:6",
+      "5:3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3:5",
+    "explanation": "Using the stated values in exact arithmetic, each pole time is length divided by that train's own speed in m/s; the mutual crossing uses the sum of the two speeds. Therefore the required value is 3:5.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_cross_each_other",
+      "variant": 2,
+      "inputs": {
+        "l1": 150,
+        "l2": 200,
+        "s1": 45,
+        "s2": 36,
+        "ask": "pole_time_ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0059",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two trains are 300 m and 180 m long and run at 72 km/h and 54 km/h respectively on parallel tracks in opposite directions. How many seconds differ between the times the two trains take to pass a pole at their own speeds?",
+    "options": [
+      "6",
+      "0",
+      "4",
+      "3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3",
+    "explanation": "Using the stated values in exact arithmetic, each pole time is length divided by that train's own speed in m/s; the mutual crossing uses the sum of the two speeds. Therefore the required value is 3.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_cross_each_other",
+      "variant": 3,
+      "inputs": {
+        "l1": 300,
+        "l2": 180,
+        "s1": 72,
+        "s2": 54,
+        "ask": "pole_times_diff_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0060",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Two trains are 160 m and 240 m long and run at 60 km/h and 30 km/h respectively on parallel tracks in opposite directions. How many seconds do they take to cross each other completely?",
+    "options": [
+      "16",
+      "13",
+      "19",
+      "32"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16",
+    "explanation": "Using the stated values in exact arithmetic, each pole time is length divided by that train's own speed in m/s; the mutual crossing uses the sum of the two speeds. Therefore the required value is 16.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_cross_each_other",
+      "variant": 4,
+      "inputs": {
+        "l1": 160,
+        "l2": 240,
+        "s1": 60,
+        "s2": 30,
+        "ask": "cross_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0061",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Buses run in a stream at a uniform spacing and at 60 km/h. A walker moving in the same direction at 10 km/h is passed by a bus every 12 minutes. At what interval, in minutes, would a person standing still be passed by successive buses?",
+    "options": [
+      "7",
+      "13",
+      "10",
+      "20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10",
+    "explanation": "Using the stated values in exact arithmetic, the spacing fixed by the passing interval is 10 km. Therefore the required value is 10.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_bus_walker",
+      "variant": 0,
+      "inputs": {
+        "bus_speed": 60,
+        "walker_speed": 10,
+        "interval": 12,
+        "ask": "stationary_interval_min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0062",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Buses run in a stream at a uniform spacing and at 50 km/h. A walker moving in the same direction at 10 km/h is passed by a bus every 18 minutes. At what interval, in minutes, would buses pass a person walking in the opposite direction at the same speed?",
+    "options": [
+      "9",
+      "24",
+      "15",
+      "12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12",
+    "explanation": "Using the stated values in exact arithmetic, the spacing fixed by the passing interval is 12 km. Therefore the required value is 12.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_bus_walker",
+      "variant": 1,
+      "inputs": {
+        "bus_speed": 50,
+        "walker_speed": 10,
+        "interval": 18,
+        "ask": "opposite_interval_min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0063",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Buses run in a stream at a uniform spacing and at 45 km/h. A walker moving in the same direction at 9 km/h is passed by a bus every 20 minutes. What is the distance between consecutive buses, in kilometres?",
+    "options": [
+      "9",
+      "24",
+      "15",
+      "12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12",
+    "explanation": "Using the stated values in exact arithmetic, the spacing fixed by the passing interval is 12 km. Therefore the required value is 12.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_bus_walker",
+      "variant": 2,
+      "inputs": {
+        "bus_speed": 45,
+        "walker_speed": 9,
+        "interval": 20,
+        "ask": "bus_spacing_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0064",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Buses run in a stream at a uniform spacing and at 60 km/h. A walker moving in the same direction at 12 km/h is passed by a bus every 15 minutes. By what percentage is the observed passing interval shorter than it would be for a stationary observer?",
+    "options": [
+      "10%",
+      "15%",
+      "25%",
+      "20%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20%",
+    "explanation": "Using the stated values in exact arithmetic, the spacing fixed by the passing interval is 12 km. Therefore the required value is 20%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_bus_walker",
+      "variant": 3,
+      "inputs": {
+        "bus_speed": 60,
+        "walker_speed": 12,
+        "interval": 15,
+        "ask": "pct_reduction"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0065",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 3,
+    "section": "time_speed_and_distance_mains_part_3",
+    "question_text": "Buses run in a stream at a uniform spacing and at 60 km/h. A walker moving in the same direction at 15 km/h is passed by a bus every 20 minutes. At what interval, in minutes, would a person standing still be passed by successive buses?",
+    "options": [
+      "18",
+      "15",
+      "12",
+      "30"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15",
+    "explanation": "Using the stated values in exact arithmetic, the spacing fixed by the passing interval is 15 km. Therefore the required value is 15.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_bus_walker",
+      "variant": 4,
+      "inputs": {
+        "bus_speed": 60,
+        "walker_speed": 15,
+        "interval": 20,
+        "ask": "stationary_interval_min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0066",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A boat takes 3 hours to travel a certain distance upstream and 2 hours for the same distance downstream. The stream runs at 4 km/h. Find the boat's speed in still water, in km/h.",
+    "options": [
+      "40",
+      "17",
+      "23",
+      "20"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, equal distances give (boat - stream) times up-time equals (boat + stream) times down-time, which fixes the still-water speed. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stream_ratio",
+      "variant": 0,
+      "inputs": {
+        "up_time": 3,
+        "down_time": 2,
+        "stream": 4,
+        "ask": "boat_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0067",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A boat takes 4 hours to travel a certain distance upstream and 3 hours for the same distance downstream. The stream runs at 3 km/h. Find the one-way distance, in kilometres.",
+    "options": [
+      "72",
+      "69",
+      "75",
+      "144"
+    ],
+    "correct_option": "A",
+    "correct_answer": "72",
+    "explanation": "Using the stated values in exact arithmetic, equal distances give (boat - stream) times up-time equals (boat + stream) times down-time, which fixes the still-water speed. Therefore the required value is 72.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stream_ratio",
+      "variant": 1,
+      "inputs": {
+        "up_time": 4,
+        "down_time": 3,
+        "stream": 3,
+        "ask": "distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0068",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A boat takes 5 hours to travel a certain distance upstream and 3 hours for the same distance downstream. The stream runs at 6 km/h. Find the downstream speed, in km/h.",
+    "options": [
+      "33",
+      "27",
+      "30",
+      "60"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30",
+    "explanation": "Using the stated values in exact arithmetic, equal distances give (boat - stream) times up-time equals (boat + stream) times down-time, which fixes the still-water speed. Therefore the required value is 30.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stream_ratio",
+      "variant": 2,
+      "inputs": {
+        "up_time": 5,
+        "down_time": 3,
+        "stream": 6,
+        "ask": "down_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0069",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A boat takes 3 hours to travel a certain distance upstream and 2 hours for the same distance downstream. The stream runs at 10 km/h. By what percentage is the upstream travel time greater than the downstream travel time?",
+    "options": [
+      "55%",
+      "50%",
+      "45%",
+      "25%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "50%",
+    "explanation": "Using the stated values in exact arithmetic, equal distances give (boat - stream) times up-time equals (boat + stream) times down-time, which fixes the still-water speed. Therefore the required value is 50%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stream_ratio",
+      "variant": 3,
+      "inputs": {
+        "up_time": 3,
+        "down_time": 2,
+        "stream": 10,
+        "ask": "pct_up_slower"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0070",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A boat takes 6 hours to travel a certain distance upstream and 4 hours for the same distance downstream. The stream runs at 5 km/h. Find the upstream speed, in km/h.",
+    "options": [
+      "40",
+      "17",
+      "20",
+      "23"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, equal distances give (boat - stream) times up-time equals (boat + stream) times down-time, which fixes the still-water speed. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_stream_ratio",
+      "variant": 4,
+      "inputs": {
+        "up_time": 6,
+        "down_time": 4,
+        "stream": 5,
+        "ask": "up_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0071",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A traveller covers 80 km at 40 km/h, rests for 30 minutes, then covers 60 km at 60 km/h. Find the total elapsed time, in hours.",
+    "options": [
+      "7/2",
+      "1/2",
+      "13/2",
+      "7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7/2",
+    "explanation": "Using the stated values in exact arithmetic, leg times are 2 h and 1 h with a 1/2 h rest between them. Therefore the required value is 7/2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_change_stop",
+      "variant": 0,
+      "inputs": {
+        "d1": 80,
+        "s1": 40,
+        "stop_min": 30,
+        "d2": 60,
+        "s2": 60,
+        "ask": "total_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0072",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A traveller covers 120 km at 60 km/h, rests for 20 minutes, then covers 90 km at 45 km/h. Find the total time actually spent moving, in hours.",
+    "options": [
+      "4",
+      "7",
+      "8",
+      "1"
+    ],
+    "correct_option": "A",
+    "correct_answer": "4",
+    "explanation": "Using the stated values in exact arithmetic, leg times are 2 h and 2 h with a 1/3 h rest between them. Therefore the required value is 4.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_change_stop",
+      "variant": 1,
+      "inputs": {
+        "d1": 120,
+        "s1": 60,
+        "stop_min": 20,
+        "d2": 90,
+        "s2": 45,
+        "ask": "moving_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0073",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A traveller covers 80 km at 40 km/h, rests for 60 minutes, then covers 160 km at 80 km/h. Find the average speed for the entire journey including the rest, in km/h.",
+    "options": [
+      "48",
+      "51",
+      "96",
+      "45"
+    ],
+    "correct_option": "A",
+    "correct_answer": "48",
+    "explanation": "Using the stated values in exact arithmetic, leg times are 2 h and 2 h with a 1 h rest between them. Therefore the required value is 48.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_change_stop",
+      "variant": 2,
+      "inputs": {
+        "d1": 80,
+        "s1": 40,
+        "stop_min": 60,
+        "d2": 160,
+        "s2": 80,
+        "ask": "avg_speed_whole_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0074",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A traveller covers 60 km at 60 km/h, rests for 30 minutes, then covers 60 km at 60 km/h. What percentage of the total elapsed time is the rest?",
+    "options": [
+      "20%",
+      "15%",
+      "25%",
+      "10%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20%",
+    "explanation": "Using the stated values in exact arithmetic, leg times are 1 h and 1 h with a 1/2 h rest between them. Therefore the required value is 20%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_change_stop",
+      "variant": 3,
+      "inputs": {
+        "d1": 60,
+        "s1": 60,
+        "stop_min": 30,
+        "d2": 60,
+        "s2": 60,
+        "ask": "stop_pct_of_total"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0075",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A traveller covers 60 km at 60 km/h, rests for 60 minutes, then covers 120 km at 60 km/h. What percentage of the total elapsed time is spent on the second leg?",
+    "options": [
+      "55%",
+      "45%",
+      "25%",
+      "50%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "50%",
+    "explanation": "Using the stated values in exact arithmetic, leg times are 1 h and 2 h with a 1 h rest between them. Therefore the required value is 50%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_speed_change_stop",
+      "variant": 4,
+      "inputs": {
+        "d1": 60,
+        "s1": 60,
+        "stop_min": 60,
+        "d2": 120,
+        "s2": 60,
+        "ask": "second_leg_pct_of_time"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0076",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "For a fixed journey, travelling at 30 km/h arrives 1 hour(s) late, while travelling at 50 km/h arrives 1 hour(s) early. Find the length of the journey, in kilometres.",
+    "options": [
+      "153",
+      "150",
+      "147",
+      "300"
+    ],
+    "correct_option": "B",
+    "correct_answer": "150",
+    "explanation": "Using the stated values in exact arithmetic, the two travel times differ by twice the stated early/late gap; their ratio is the inverse ratio of the two speeds. Therefore the required value is 150.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_early_late",
+      "variant": 0,
+      "inputs": {
+        "slow": 30,
+        "fast": 50,
+        "diff": 1,
+        "ask": "distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0077",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "For a fixed journey, travelling at 40 km/h arrives 2 hour(s) late, while travelling at 60 km/h arrives 2 hour(s) early. Find the scheduled travel time, in hours.",
+    "options": [
+      "20",
+      "10",
+      "13",
+      "7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10",
+    "explanation": "Using the stated values in exact arithmetic, the two travel times differ by twice the stated early/late gap; their ratio is the inverse ratio of the two speeds. Therefore the required value is 10.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_early_late",
+      "variant": 1,
+      "inputs": {
+        "slow": 40,
+        "fast": 60,
+        "diff": 2,
+        "ask": "scheduled_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0078",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "For a fixed journey, travelling at 20 km/h arrives 1 hour(s) late, while travelling at 30 km/h arrives 1 hour(s) early. How many hours does the slow journey actually take?",
+    "options": [
+      "6",
+      "9",
+      "3",
+      "12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "Using the stated values in exact arithmetic, the two travel times differ by twice the stated early/late gap; their ratio is the inverse ratio of the two speeds. Therefore the required value is 6.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_early_late",
+      "variant": 2,
+      "inputs": {
+        "slow": 20,
+        "fast": 30,
+        "diff": 1,
+        "ask": "slow_travel_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0079",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "For a fixed journey, travelling at 30 km/h arrives 2 hour(s) late, while travelling at 40 km/h arrives 2 hour(s) early. By what percentage is the fast travel time less than the slow travel time?",
+    "options": [
+      "20%",
+      "30%",
+      "25%",
+      "12.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "25%",
+    "explanation": "Using the stated values in exact arithmetic, the two travel times differ by twice the stated early/late gap; their ratio is the inverse ratio of the two speeds. Therefore the required value is 25%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_early_late",
+      "variant": 3,
+      "inputs": {
+        "slow": 30,
+        "fast": 40,
+        "diff": 2,
+        "ask": "pct_time_saved"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0080",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "For a fixed journey, travelling at 25 km/h arrives 1 hour(s) late, while travelling at 50 km/h arrives 1 hour(s) early. How many hours does the fast journey actually take?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "-1"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2",
+    "explanation": "Using the stated values in exact arithmetic, the two travel times differ by twice the stated early/late gap; their ratio is the inverse ratio of the two speeds. Therefore the required value is 2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_early_late",
+      "variant": 4,
+      "inputs": {
+        "slow": 25,
+        "fast": 50,
+        "diff": 1,
+        "ask": "fast_travel_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0081",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Vehicle A leaves point P and travels at 40 km/h. 1 hour(s) later, vehicle B leaves point Q, which is 20 km behind P, and travels in the same direction at 60 km/h. How many hours after B starts does B catch A?",
+    "options": [
+      "0",
+      "6",
+      "3",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3",
+    "explanation": "Using the stated values in exact arithmetic, the lead alone contributes 40 km, added to the 20 km station gap. Therefore the required value is 3.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_vehicle_gap",
+      "variant": 0,
+      "inputs": {
+        "lead": 1,
+        "v1": 40,
+        "v2": 60,
+        "start_gap": 20,
+        "ask": "catch_hours_after_B"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0082",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Vehicle A leaves point P and travels at 30 km/h. 2 hour(s) later, vehicle B leaves point Q, which is 40 km behind P, and travels in the same direction at 50 km/h. How many kilometres does B travel before catching A?",
+    "options": [
+      "500",
+      "253",
+      "250",
+      "247"
+    ],
+    "correct_option": "C",
+    "correct_answer": "250",
+    "explanation": "Using the stated values in exact arithmetic, the lead alone contributes 60 km, added to the 40 km station gap. Therefore the required value is 250.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_vehicle_gap",
+      "variant": 1,
+      "inputs": {
+        "lead": 2,
+        "v1": 30,
+        "v2": 50,
+        "start_gap": 40,
+        "ask": "distance_B_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0083",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Vehicle A leaves point P and travels at 45 km/h. 1 hour(s) later, vehicle B leaves point Q, which is 30 km behind P, and travels in the same direction at 75 km/h. How many hours after A started does the catch occur?",
+    "options": [
+      "7",
+      "13/2",
+      "1/2",
+      "7/2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7/2",
+    "explanation": "Using the stated values in exact arithmetic, the lead alone contributes 45 km, added to the 30 km station gap. Therefore the required value is 7/2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_vehicle_gap",
+      "variant": 2,
+      "inputs": {
+        "lead": 1,
+        "v1": 45,
+        "v2": 75,
+        "start_gap": 30,
+        "ask": "catch_hours_after_A"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0084",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Vehicle A leaves point P and travels at 20 km/h. 3 hour(s) later, vehicle B leaves point Q, which is 10 km behind P, and travels in the same direction at 30 km/h. At the moment B starts, how many kilometres ahead is A?",
+    "options": [
+      "73",
+      "67",
+      "70",
+      "140"
+    ],
+    "correct_option": "C",
+    "correct_answer": "70",
+    "explanation": "Using the stated values in exact arithmetic, the lead alone contributes 60 km, added to the 10 km station gap. Therefore the required value is 70.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_vehicle_gap",
+      "variant": 3,
+      "inputs": {
+        "lead": 3,
+        "v1": 20,
+        "v2": 30,
+        "start_gap": 10,
+        "ask": "gap_at_B_start_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0085",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Vehicle A leaves point P and travels at 25 km/h. 1 hour(s) later, vehicle B leaves point Q, which is 15 km behind P, and travels in the same direction at 40 km/h. By what percentage of A's speed does B close the gap each hour?",
+    "options": [
+      "65%",
+      "30%",
+      "60%",
+      "55%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60%",
+    "explanation": "Using the stated values in exact arithmetic, the lead alone contributes 25 km, added to the 15 km station gap. Therefore the required value is 60%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_vehicle_gap",
+      "variant": 4,
+      "inputs": {
+        "lead": 1,
+        "v1": 25,
+        "v2": 40,
+        "start_gap": 15,
+        "ask": "pct_gap_closed_per_hour"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0086",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A train 180 m long passes through a tunnel 420 m long at a steady 54 km/h. How many seconds pass from the engine entering the tunnel until the guard leaves it?",
+    "options": [
+      "37",
+      "80",
+      "43",
+      "40"
+    ],
+    "correct_option": "D",
+    "correct_answer": "40",
+    "explanation": "Using the stated values in exact arithmetic, the speed is 15 m/s; crossing uses the sum of train and tunnel lengths, being fully inside uses their difference. Therefore the required value is 40.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_tunnel",
+      "variant": 0,
+      "inputs": {
+        "length": 180,
+        "tunnel": 420,
+        "speed_kmph": 54,
+        "ask": "cross_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0087",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A train 150 m long passes through a tunnel 400 m long at a steady 45 km/h. How many seconds is the whole train completely inside the tunnel?",
+    "options": [
+      "23",
+      "17",
+      "20",
+      "40"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, the speed is 25/2 m/s; crossing uses the sum of train and tunnel lengths, being fully inside uses their difference. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_tunnel",
+      "variant": 1,
+      "inputs": {
+        "length": 150,
+        "tunnel": 400,
+        "speed_kmph": 45,
+        "ask": "inside_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0088",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A train 200 m long passes through a tunnel 300 m long at a steady 72 km/h. Find, in lowest terms, the ratio of the time to pass completely through the tunnel to the time to pass a pole.",
+    "options": [
+      "5:3",
+      "2:5",
+      "6:2",
+      "5:2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5:2",
+    "explanation": "Using the stated values in exact arithmetic, the speed is 20 m/s; crossing uses the sum of train and tunnel lengths, being fully inside uses their difference. Therefore the required value is 5:2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_tunnel",
+      "variant": 2,
+      "inputs": {
+        "length": 200,
+        "tunnel": 300,
+        "speed_kmph": 72,
+        "ask": "tunnel_to_pole_ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0089",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A train 120 m long passes through a tunnel 480 m long at a steady 36 km/h. How many metres does the train cover in one minute?",
+    "options": [
+      "600",
+      "1200",
+      "603",
+      "597"
+    ],
+    "correct_option": "A",
+    "correct_answer": "600",
+    "explanation": "Using the stated values in exact arithmetic, the speed is 10 m/s; crossing uses the sum of train and tunnel lengths, being fully inside uses their difference. Therefore the required value is 600.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_tunnel",
+      "variant": 3,
+      "inputs": {
+        "length": 120,
+        "tunnel": 480,
+        "speed_kmph": 36,
+        "ask": "metres_per_minute"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0090",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A train 240 m long passes through a tunnel 360 m long at a steady 54 km/h. How many seconds is the whole train completely inside the tunnel?",
+    "options": [
+      "8",
+      "16",
+      "5",
+      "11"
+    ],
+    "correct_option": "A",
+    "correct_answer": "8",
+    "explanation": "Using the stated values in exact arithmetic, the speed is 15 m/s; crossing uses the sum of train and tunnel lengths, being fully inside uses their difference. Therefore the required value is 8.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_tunnel",
+      "variant": 4,
+      "inputs": {
+        "length": 240,
+        "tunnel": 360,
+        "speed_kmph": 54,
+        "ask": "inside_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0091",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A moving walkway is 120 m long and itself advances at 1 m/s. 4 walkers are on it, equally spaced from one end to the other, each walking at 1 m/s relative to the walkway. How many seconds does one walking person need to go from one end to the other?",
+    "options": [
+      "120",
+      "60",
+      "57",
+      "63"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, ground speed is 2 m/s, so the traverse takes 60 s. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_walk_scale",
+      "variant": 0,
+      "inputs": {
+        "walkers": 4,
+        "length": 120,
+        "walking_speed": 1,
+        "escalator_speed": 1,
+        "ask": "traverse_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0092",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A moving walkway is 180 m long and itself advances at 1 m/s. 5 walkers are on it, equally spaced from one end to the other, each walking at 2 m/s relative to the walkway. How many seconds does a walker save compared with walking the same length on stationary ground at the same walking speed?",
+    "options": [
+      "27",
+      "60",
+      "33",
+      "30"
+    ],
+    "correct_option": "D",
+    "correct_answer": "30",
+    "explanation": "Using the stated values in exact arithmetic, ground speed is 3 m/s, so the traverse takes 60 s. Therefore the required value is 30.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_walk_scale",
+      "variant": 1,
+      "inputs": {
+        "walkers": 5,
+        "length": 180,
+        "walking_speed": 2,
+        "escalator_speed": 1,
+        "ask": "seconds_saved"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0093",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A moving walkway is 100 m long and itself advances at 1 m/s. 3 walkers are on it, equally spaced from one end to the other, each walking at 2 m/s relative to the walkway. What is the gap between consecutive walkers, in metres?",
+    "options": [
+      "25",
+      "50",
+      "28",
+      "22"
+    ],
+    "correct_option": "A",
+    "correct_answer": "25",
+    "explanation": "Using the stated values in exact arithmetic, ground speed is 3 m/s, so the traverse takes 100/3 s. Therefore the required value is 25.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_walk_scale",
+      "variant": 2,
+      "inputs": {
+        "walkers": 3,
+        "length": 100,
+        "walking_speed": 2,
+        "escalator_speed": 1,
+        "ask": "gap_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0094",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A moving walkway is 200 m long and itself advances at 1 m/s. 6 walkers are on it, equally spaced from one end to the other, each walking at 3 m/s relative to the walkway. What percentage of the time on stationary ground is saved by the motion of the walkway?",
+    "options": [
+      "30%",
+      "25%",
+      "20%",
+      "12.5%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "25%",
+    "explanation": "Using the stated values in exact arithmetic, ground speed is 4 m/s, so the traverse takes 50 s. Therefore the required value is 25%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_walk_scale",
+      "variant": 3,
+      "inputs": {
+        "walkers": 6,
+        "length": 200,
+        "walking_speed": 3,
+        "escalator_speed": 1,
+        "ask": "pct_time_saved"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0095",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A moving walkway is 240 m long and itself advances at 1 m/s. 8 walkers are on it, equally spaced from one end to the other, each walking at 2 m/s relative to the walkway. How many seconds does one walking person need to go from one end to the other?",
+    "options": [
+      "160",
+      "80",
+      "83",
+      "77"
+    ],
+    "correct_option": "B",
+    "correct_answer": "80",
+    "explanation": "Using the stated values in exact arithmetic, ground speed is 3 m/s, so the traverse takes 80 s. Therefore the required value is 80.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_walk_scale",
+      "variant": 4,
+      "inputs": {
+        "walkers": 8,
+        "length": 240,
+        "walking_speed": 2,
+        "escalator_speed": 1,
+        "ask": "traverse_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0096",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "On a circular track of circumference 400 m, two runners start together from the same point and run in the same direction at 36 km/h and 24 km/h, the first being faster. How many seconds elapse before the faster runner first overtakes the slower one?",
+    "options": [
+      "117",
+      "123",
+      "240",
+      "120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120",
+    "explanation": "Using the stated values in exact arithmetic, the relative speed is 10/3 m/s over one lap of 400 m. Therefore the required value is 120.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_same",
+      "variant": 0,
+      "inputs": {
+        "circumference": 400,
+        "s1": 36,
+        "s2": 24,
+        "ask": "first_overtake_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0097",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "On a circular track of circumference 600 m, two runners start together from the same point and run in the same direction at 45 km/h and 30 km/h, the first being faster. How many metres has the faster runner covered at that first overtaking?",
+    "options": [
+      "1797",
+      "3600",
+      "1803",
+      "1800"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1800",
+    "explanation": "Using the stated values in exact arithmetic, the relative speed is 25/6 m/s over one lap of 600 m. Therefore the required value is 1800.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_same",
+      "variant": 1,
+      "inputs": {
+        "circumference": 600,
+        "s1": 45,
+        "s2": 30,
+        "ask": "distance_fast_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0098",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "On a circular track of circumference 900 m, two runners start together from the same point and run in the same direction at 60 km/h and 45 km/h, the first being faster. The distance covered by the faster runner up to the first overtaking is what percentage of one lap?",
+    "options": [
+      "405%",
+      "395%",
+      "400%",
+      "200%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "400%",
+    "explanation": "Using the stated values in exact arithmetic, the relative speed is 25/6 m/s over one lap of 900 m. Therefore the required value is 400%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_same",
+      "variant": 2,
+      "inputs": {
+        "circumference": 900,
+        "s1": 60,
+        "s2": 45,
+        "ask": "pct_track_by_fast"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0099",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "On a circular track of circumference 300 m, two runners start together from the same point and run in the same direction at 54 km/h and 36 km/h, the first being faster. How many seconds elapse before the faster runner first overtakes the slower one?",
+    "options": [
+      "57",
+      "120",
+      "60",
+      "63"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, the relative speed is 5 m/s over one lap of 300 m. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_same",
+      "variant": 3,
+      "inputs": {
+        "circumference": 300,
+        "s1": 54,
+        "s2": 36,
+        "ask": "first_overtake_seconds"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0100",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "On a circular track of circumference 480 m, two runners start together from the same point and run in the same direction at 42 km/h and 30 km/h, the first being faster. Find, in lowest terms, the ratio of the numbers of laps completed per unit time by the two runners.",
+    "options": [
+      "7:5",
+      "7:6",
+      "8:5",
+      "5:7"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7:5",
+    "explanation": "Using the stated values in exact arithmetic, the relative speed is 10/3 m/s over one lap of 480 m. Therefore the required value is 7:5.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_circular_same",
+      "variant": 4,
+      "inputs": {
+        "circumference": 480,
+        "s1": 42,
+        "s2": 30,
+        "ask": "lap_ratio"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0101",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A journey of 240 km is nominally run at 60 km/h. Named stops account for 30 minutes, yet the whole journey takes 5 hours. How many minutes of delay remain unexplained by the named stops?",
+    "options": [
+      "33",
+      "30",
+      "60",
+      "27"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30",
+    "explanation": "Using the stated values in exact arithmetic, pure running time would be 4 h, while named stops take 1/2 h. Therefore the required value is 30.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_journey_stops",
+      "variant": 0,
+      "inputs": {
+        "distance": 240,
+        "speed": 60,
+        "stops_min": 30,
+        "total_hours": 5,
+        "ask": "extra_delay_min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0102",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A journey of 180 km is nominally run at 45 km/h. Named stops account for 20 minutes, yet the whole journey takes 5 hours. Find the effective average speed for the whole elapsed time, in km/h.",
+    "options": [
+      "72",
+      "39",
+      "33",
+      "36"
+    ],
+    "correct_option": "D",
+    "correct_answer": "36",
+    "explanation": "Using the stated values in exact arithmetic, pure running time would be 4 h, while named stops take 1/3 h. Therefore the required value is 36.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_journey_stops",
+      "variant": 1,
+      "inputs": {
+        "distance": 180,
+        "speed": 45,
+        "stops_min": 20,
+        "total_hours": 5,
+        "ask": "effective_speed_kmph"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0103",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A journey of 300 km is nominally run at 60 km/h. Named stops account for 30 minutes, yet the whole journey takes 6 hours. How many hours are actually spent in motion?",
+    "options": [
+      "5/2",
+      "11/2",
+      "11",
+      "17/2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "11/2",
+    "explanation": "Using the stated values in exact arithmetic, pure running time would be 5 h, while named stops take 1/2 h. Therefore the required value is 11/2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_journey_stops",
+      "variant": 2,
+      "inputs": {
+        "distance": 300,
+        "speed": 60,
+        "stops_min": 30,
+        "total_hours": 6,
+        "ask": "moving_time_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0104",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A journey of 120 km is nominally run at 40 km/h. Named stops account for 30 minutes, yet the whole journey takes 4 hours. What percentage of the total elapsed time is taken by the named stops?",
+    "options": [
+      "6.25%",
+      "7.5%",
+      "12.5%",
+      "17.5%"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12.5%",
+    "explanation": "Using the stated values in exact arithmetic, pure running time would be 3 h, while named stops take 1/2 h. Therefore the required value is 12.5%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_journey_stops",
+      "variant": 3,
+      "inputs": {
+        "distance": 120,
+        "speed": 40,
+        "stops_min": 30,
+        "total_hours": 4,
+        "ask": "pct_time_stopped"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0105",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A journey of 200 km is nominally run at 50 km/h. Named stops account for 20 minutes, yet the whole journey takes 5 hours. How many minutes of delay remain unexplained by the named stops?",
+    "options": [
+      "80",
+      "40",
+      "43",
+      "37"
+    ],
+    "correct_option": "B",
+    "correct_answer": "40",
+    "explanation": "Using the stated values in exact arithmetic, pure running time would be 4 h, while named stops take 1/3 h. Therefore the required value is 40.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 3-5",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_journey_stops",
+      "variant": 4,
+      "inputs": {
+        "distance": 200,
+        "speed": 50,
+        "stops_min": 20,
+        "total_hours": 5,
+        "ask": "extra_delay_min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0106",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A body moves at a constant 54 km/h for 20 seconds. How many metres does it cover?",
+    "options": [
+      "303",
+      "300",
+      "600",
+      "297"
+    ],
+    "correct_option": "B",
+    "correct_answer": "300",
+    "explanation": "Using the stated values in exact arithmetic, 54 km/h equals 15 m/s using the 5/18 factor. Therefore the required value is 300.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_kmph_ms",
+      "variant": 0,
+      "inputs": {
+        "speed_kmph": 54,
+        "seconds": 20,
+        "ask": "distance_m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0107",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A body moves at a constant 36 km/h for 100 seconds. How many kilometres does it cover?",
+    "options": [
+      "-2",
+      "1",
+      "4",
+      "2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1",
+    "explanation": "Using the stated values in exact arithmetic, 36 km/h equals 10 m/s using the 5/18 factor. Therefore the required value is 1.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_kmph_ms",
+      "variant": 1,
+      "inputs": {
+        "speed_kmph": 36,
+        "seconds": 100,
+        "ask": "distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0108",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A body moves at a constant 45 km/h for 40 seconds. The distance covered is what percentage of one kilometre?",
+    "options": [
+      "50%",
+      "25%",
+      "55%",
+      "45%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "50%",
+    "explanation": "Using the stated values in exact arithmetic, 45 km/h equals 25/2 m/s using the 5/18 factor. Therefore the required value is 50%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_kmph_ms",
+      "variant": 2,
+      "inputs": {
+        "speed_kmph": 45,
+        "seconds": 40,
+        "ask": "pct_of_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0109",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A body moves at a constant 60 km/h for 45 seconds. How many seconds would it take to cover one kilometre?",
+    "options": [
+      "63",
+      "120",
+      "60",
+      "57"
+    ],
+    "correct_option": "C",
+    "correct_answer": "60",
+    "explanation": "Using the stated values in exact arithmetic, 60 km/h equals 50/3 m/s using the 5/18 factor. Therefore the required value is 60.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_kmph_ms",
+      "variant": 3,
+      "inputs": {
+        "speed_kmph": 60,
+        "seconds": 45,
+        "ask": "seconds_per_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0110",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A body moves at a constant 90 km/h for 12 seconds. How many centimetres does it cover?",
+    "options": [
+      "60000",
+      "30003",
+      "29997",
+      "30000"
+    ],
+    "correct_option": "D",
+    "correct_answer": "30000",
+    "explanation": "Using the stated values in exact arithmetic, 90 km/h equals 25 m/s using the 5/18 factor. Therefore the required value is 30000.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 6-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_kmph_ms",
+      "variant": 4,
+      "inputs": {
+        "speed_kmph": 90,
+        "seconds": 12,
+        "ask": "distance_cm"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0111",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Two points A and B are 24 km apart along a river flowing at 4 km/h. Both boats have a still-water speed of 12 km/h. Boat 1 starts from A towards B while boat 2 starts from B towards A at the same instant. How many hours elapse before the boats meet?",
+    "options": [
+      "-2",
+      "4",
+      "2",
+      "1"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1",
+    "explanation": "Using the stated values in exact arithmetic, downstream is 16 km/h and upstream 8 km/h, so their approach speeds add while the stream cancels. Therefore the required value is 1.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_boats",
+      "variant": 0,
+      "inputs": {
+        "still": 12,
+        "stream": 4,
+        "distance": 24,
+        "ask": "meet_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0112",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Two points A and B are 30 km apart along a river flowing at 5 km/h. Both boats have a still-water speed of 15 km/h. Boat 1 starts from A towards B while boat 2 starts from B towards A at the same instant. How far from A is the meeting point, in kilometres?",
+    "options": [
+      "20",
+      "17",
+      "40",
+      "23"
+    ],
+    "correct_option": "A",
+    "correct_answer": "20",
+    "explanation": "Using the stated values in exact arithmetic, downstream is 20 km/h and upstream 10 km/h, so their approach speeds add while the stream cancels. Therefore the required value is 20.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_boats",
+      "variant": 1,
+      "inputs": {
+        "still": 15,
+        "stream": 5,
+        "distance": 30,
+        "ask": "meet_from_A_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0113",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Two points A and B are 24 km apart along a river flowing at 2 km/h. Both boats have a still-water speed of 10 km/h. Boat 1 starts from A towards B while boat 2 starts from B towards A at the same instant. A single boat going only downstream between A and B takes how many hours less than one going only upstream?",
+    "options": [
+      "2",
+      "4",
+      "1",
+      "-2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1",
+    "explanation": "Using the stated values in exact arithmetic, downstream is 12 km/h and upstream 8 km/h, so their approach speeds add while the stream cancels. Therefore the required value is 1.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_boats",
+      "variant": 2,
+      "inputs": {
+        "still": 10,
+        "stream": 2,
+        "distance": 24,
+        "ask": "time_diff_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0114",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Two points A and B are 28 km apart along a river flowing at 7 km/h. Both boats have a still-water speed of 14 km/h. Boat 1 starts from A towards B while boat 2 starts from B towards A at the same instant. By what percentage is the downstream speed greater than the upstream speed?",
+    "options": [
+      "195%",
+      "205%",
+      "100%",
+      "200%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "200%",
+    "explanation": "Using the stated values in exact arithmetic, downstream is 21 km/h and upstream 7 km/h, so their approach speeds add while the stream cancels. Therefore the required value is 200%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_boats",
+      "variant": 3,
+      "inputs": {
+        "still": 14,
+        "stream": 7,
+        "distance": 28,
+        "ask": "down_pct_faster"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0115",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "Two points A and B are 48 km apart along a river flowing at 6 km/h. Both boats have a still-water speed of 18 km/h. Boat 1 starts from A towards B while boat 2 starts from B towards A at the same instant. How many hours does one boat take to go from A to B and back to A?",
+    "options": [
+      "12",
+      "3",
+      "9",
+      "6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6",
+    "explanation": "Using the stated values in exact arithmetic, downstream is 24 km/h and upstream 12 km/h, so their approach speeds add while the stream cancels. Therefore the required value is 6.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 9-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_two_boats",
+      "variant": 4,
+      "inputs": {
+        "still": 18,
+        "stream": 6,
+        "distance": 48,
+        "ask": "round_trip_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0116",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A thief is 40 km ahead of a policeman and runs at 30 km/h. The policeman initially chases at 40 km/h but, after 1 hour(s), increases his speed by 20 km/h and keeps the new speed. How many hours from the start does the capture take?",
+    "options": [
+      "5",
+      "4",
+      "2",
+      "-1"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2",
+    "explanation": "Using the stated values in exact arithmetic, the first 1 hour(s) close 10 km, then the boosted closing speed is used for the remainder. Therefore the required value is 2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_chase_change",
+      "variant": 0,
+      "inputs": {
+        "gap": 40,
+        "thief": 30,
+        "police": 40,
+        "change_after": 1,
+        "boost": 20,
+        "ask": "total_hours"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0117",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A thief is 60 km ahead of a policeman and runs at 25 km/h. The policeman initially chases at 35 km/h but, after 2 hour(s), increases his speed by 10 km/h and keeps the new speed. How many hours after the speed increase is the thief caught?",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "-1"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2",
+    "explanation": "Using the stated values in exact arithmetic, the first 2 hour(s) close 20 km, then the boosted closing speed is used for the remainder. Therefore the required value is 2.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_chase_change",
+      "variant": 1,
+      "inputs": {
+        "gap": 60,
+        "thief": 25,
+        "police": 35,
+        "change_after": 2,
+        "boost": 10,
+        "ask": "hours_after_boost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0118",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A thief is 50 km ahead of a policeman and runs at 20 km/h. The policeman initially chases at 30 km/h but, after 1 hour(s), increases his speed by 10 km/h and keeps the new speed. How many kilometres does the policeman run before the capture?",
+    "options": [
+      "220",
+      "110",
+      "113",
+      "107"
+    ],
+    "correct_option": "B",
+    "correct_answer": "110",
+    "explanation": "Using the stated values in exact arithmetic, the first 1 hour(s) close 10 km, then the boosted closing speed is used for the remainder. Therefore the required value is 110.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_chase_change",
+      "variant": 2,
+      "inputs": {
+        "gap": 50,
+        "thief": 20,
+        "police": 30,
+        "change_after": 1,
+        "boost": 10,
+        "ask": "police_distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0119",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A thief is 80 km ahead of a policeman and runs at 15 km/h. The policeman initially chases at 25 km/h but, after 2 hour(s), increases his speed by 5 km/h and keeps the new speed. How many kilometres does the thief run before capture?",
+    "options": [
+      "93",
+      "90",
+      "180",
+      "87"
+    ],
+    "correct_option": "B",
+    "correct_answer": "90",
+    "explanation": "Using the stated values in exact arithmetic, the first 2 hour(s) close 20 km, then the boosted closing speed is used for the remainder. Therefore the required value is 90.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_chase_change",
+      "variant": 3,
+      "inputs": {
+        "gap": 80,
+        "thief": 15,
+        "police": 25,
+        "change_after": 2,
+        "boost": 5,
+        "ask": "thief_distance_km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "time_speed_and_distance_mains-0120",
+    "chapter": "Time, Speed and Distance (Mains)",
+    "chapter_key": "time_speed_and_distance_mains",
+    "part": 4,
+    "section": "time_speed_and_distance_mains_part_4",
+    "question_text": "A thief is 20 km ahead of a policeman and runs at 40 km/h. The policeman initially chases at 50 km/h but, after 1 hour(s), increases his speed by 10 km/h and keeps the new speed. By what percentage does the policeman raise his speed?",
+    "options": [
+      "15%",
+      "25%",
+      "10%",
+      "20%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20%",
+    "explanation": "Using the stated values in exact arithmetic, the first 1 hour(s) close 10 km, then the boosted closing speed is used for the remainder. Therefore the required value is 20%.",
+    "difficulty": "HARD",
+    "source_name": "Time, Speed and Distance Mains class notes (local PDF)",
+    "source_url": "",
+    "source_page": "0da2c67a-4985-4a86-9772-b0c4b826b42f.pdf, pp. 12-14",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set8_questions.py",
+    "verification_data": {
+      "family": "tsd_chase_change",
+      "variant": 4,
+      "inputs": {
+        "gap": 20,
+        "thief": 40,
+        "police": 50,
+        "change_after": 1,
+        "boost": 10,
+        "ask": "pct_speed_boost"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

@@ -1,0 +1,4437 @@
+[
+  {
+    "id": "pipe_and_cistern_data_interpretation-0001",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=1; A alone=12 h; B alone=18 h. What percentage of the combined filling work is done by pipe A?",
+    "options": [
+      "55%",
+      "60%",
+      "65%",
+      "30%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60%",
+    "explanation": "A's share is (1/12) / (1/12 + 1/18) of the whole work, which is 60%.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_share",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 1,
+        "expr": "F(1,a)/(F(1,a)+F(1,b))*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0002",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=2; A alone=14 h; B alone=21 h. What percentage of the combined filling work is done by pipe A?",
+    "options": [
+      "55%",
+      "60%",
+      "30%",
+      "65%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60%",
+    "explanation": "A's share is (1/14) / (1/14 + 1/21) of the whole work, which is 60%.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_share",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 2,
+        "expr": "F(1,a)/(F(1,a)+F(1,b))*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0003",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=3; A alone=16 h; B alone=24 h. What percentage of the combined filling work is done by pipe A?",
+    "options": [
+      "30%",
+      "60%",
+      "65%",
+      "55%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60%",
+    "explanation": "A's share is (1/16) / (1/16 + 1/24) of the whole work, which is 60%.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_share",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 3,
+        "expr": "F(1,a)/(F(1,a)+F(1,b))*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0004",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=4; A alone=18 h; B alone=27 h. What percentage of the combined filling work is done by pipe A?",
+    "options": [
+      "30%",
+      "60%",
+      "65%",
+      "55%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60%",
+    "explanation": "A's share is (1/18) / (1/18 + 1/27) of the whole work, which is 60%.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_share",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 4,
+        "expr": "F(1,a)/(F(1,a)+F(1,b))*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0005",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=5; A alone=20 h; B alone=30 h. What percentage of the combined filling work is done by pipe A?",
+    "options": [
+      "60%",
+      "65%",
+      "30%",
+      "55%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60%",
+    "explanation": "A's share is (1/20) / (1/20 + 1/30) of the whole work, which is 60%.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_share",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 30,
+        "q": 5,
+        "expr": "F(1,a)/(F(1,a)+F(1,b))*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0006",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=1; A alone=10 h; B alone=15 h. How many hours do both pipes take together to fill the tank?",
+    "options": [
+      "12 h",
+      "7 h",
+      "6 h",
+      "5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6 h",
+    "explanation": "Combined rate is 1/10 + 1/15, so the time is 6 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_rate_table",
+      "variant": 0,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "q": 1,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0007",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=2; A alone=12 h; B alone=18 h. How many hours do both pipes take together to fill the tank?",
+    "options": [
+      "31/5 h",
+      "36/5 h",
+      "72/5 h",
+      "41/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "36/5 h",
+    "explanation": "Combined rate is 1/12 + 1/18, so the time is 36/5 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_rate_table",
+      "variant": 1,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 2,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0008",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=3; A alone=14 h; B alone=21 h. How many hours do both pipes take together to fill the tank?",
+    "options": [
+      "84/5 h",
+      "47/5 h",
+      "42/5 h",
+      "37/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42/5 h",
+    "explanation": "Combined rate is 1/14 + 1/21, so the time is 42/5 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_rate_table",
+      "variant": 2,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 3,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0009",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=4; A alone=16 h; B alone=24 h. How many hours do both pipes take together to fill the tank?",
+    "options": [
+      "48/5 h",
+      "96/5 h",
+      "43/5 h",
+      "53/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "48/5 h",
+    "explanation": "Combined rate is 1/16 + 1/24, so the time is 48/5 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_rate_table",
+      "variant": 3,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 4,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0010",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=5; A alone=18 h; B alone=27 h. How many hours do both pipes take together to fill the tank?",
+    "options": [
+      "54/5 h",
+      "59/5 h",
+      "108/5 h",
+      "49/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "54/5 h",
+    "explanation": "Combined rate is 1/18 + 1/27, so the time is 54/5 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_rate_table",
+      "variant": 4,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 5,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0011",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=1; inlet A=8 h; inlet B=12 h. Find the fraction of the tank filled in one hour when both inlets are open.",
+    "options": [
+      "24/5",
+      "47/10",
+      "49/10",
+      "48/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24/5",
+    "explanation": "One-hour combined work is 1/8 + 1/12 = 24/5 of the tank.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_pipe_fill",
+      "variant": 0,
+      "inputs": {
+        "a": 8,
+        "b": 12,
+        "q": 1,
+        "expr": "F(1, F(1,a)+F(1,b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0012",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=2; inlet A=10 h; inlet B=15 h. Find the fraction of the tank filled in one hour when both inlets are open.",
+    "options": [
+      "6",
+      "59/10",
+      "12",
+      "61/10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6",
+    "explanation": "One-hour combined work is 1/10 + 1/15 = 6 of the tank.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_pipe_fill",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "q": 2,
+        "expr": "F(1, F(1,a)+F(1,b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0013",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=3; inlet A=12 h; inlet B=18 h. Find the fraction of the tank filled in one hour when both inlets are open.",
+    "options": [
+      "36/5",
+      "71/10",
+      "73/10",
+      "72/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36/5",
+    "explanation": "One-hour combined work is 1/12 + 1/18 = 36/5 of the tank.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_pipe_fill",
+      "variant": 2,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 3,
+        "expr": "F(1, F(1,a)+F(1,b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0014",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=4; inlet A=14 h; inlet B=21 h. Find the fraction of the tank filled in one hour when both inlets are open.",
+    "options": [
+      "84/5",
+      "17/2",
+      "83/10",
+      "42/5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "42/5",
+    "explanation": "One-hour combined work is 1/14 + 1/21 = 42/5 of the tank.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_pipe_fill",
+      "variant": 3,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 4,
+        "expr": "F(1, F(1,a)+F(1,b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0015",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 1,
+    "section": "pipe_and_cistern_data_interpretation_part_1",
+    "question_text": "Data: Case=5; inlet A=16 h; inlet B=24 h. Find the fraction of the tank filled in one hour when both inlets are open.",
+    "options": [
+      "96/5",
+      "97/10",
+      "19/2",
+      "48/5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48/5",
+    "explanation": "One-hour combined work is 1/16 + 1/24 = 48/5 of the tank.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_two_pipe_fill",
+      "variant": 4,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 5,
+        "expr": "F(1, F(1,a)+F(1,b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0016",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=1; inlet=12 h; leak=24 h. With the inlet and leak open together, how long does an empty tank take to fill?",
+    "options": [
+      "48 h",
+      "24 h",
+      "23 h",
+      "25 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "24 h",
+    "explanation": "Net hourly work is 1/12 - 1/24; its reciprocal is 24 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_leak_effect",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 24,
+        "q": 1,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0017",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=2; inlet=14 h; leak=27 h. With the inlet and leak open together, how long does an empty tank take to fill?",
+    "options": [
+      "365/13 h",
+      "378/13 h",
+      "391/13 h",
+      "756/13 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "378/13 h",
+    "explanation": "Net hourly work is 1/14 - 1/27; its reciprocal is 378/13 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_leak_effect",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 27,
+        "q": 2,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0018",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=3; inlet=16 h; leak=30 h. With the inlet and leak open together, how long does an empty tank take to fill?",
+    "options": [
+      "247/7 h",
+      "240/7 h",
+      "480/7 h",
+      "233/7 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "240/7 h",
+    "explanation": "Net hourly work is 1/16 - 1/30; its reciprocal is 240/7 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_leak_effect",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 30,
+        "q": 3,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0019",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=4; inlet=18 h; leak=33 h. With the inlet and leak open together, how long does an empty tank take to fill?",
+    "options": [
+      "198/5 h",
+      "193/5 h",
+      "396/5 h",
+      "203/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "198/5 h",
+    "explanation": "Net hourly work is 1/18 - 1/33; its reciprocal is 198/5 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_leak_effect",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 33,
+        "q": 4,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0020",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=5; inlet=20 h; leak=36 h. With the inlet and leak open together, how long does an empty tank take to fill?",
+    "options": [
+      "45 h",
+      "90 h",
+      "46 h",
+      "44 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "45 h",
+    "explanation": "Net hourly work is 1/20 - 1/36; its reciprocal is 45 h hours.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_leak_effect",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 36,
+        "q": 5,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0021",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=1; small tank=9 L; large tank=15 L. What is the ratio of the large tank's capacity to the small tank's capacity?",
+    "options": [
+      "6:3",
+      "5:4",
+      "5:3",
+      "3:5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5:3",
+    "explanation": "Comparing the stated capacities gives 15:9, written as 5:3.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_capacity_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 9,
+        "b": 15,
+        "q": 1,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0022",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=2; small tank=11 L; large tank=18 L. What is the ratio of the large tank's capacity to the small tank's capacity?",
+    "options": [
+      "18:11",
+      "11:18",
+      "19:11",
+      "18:12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "18:11",
+    "explanation": "Comparing the stated capacities gives 18:11, written as 18:11.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_capacity_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 11,
+        "b": 18,
+        "q": 2,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0023",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=3; small tank=13 L; large tank=21 L. What is the ratio of the large tank's capacity to the small tank's capacity?",
+    "options": [
+      "21:14",
+      "13:21",
+      "22:13",
+      "21:13"
+    ],
+    "correct_option": "D",
+    "correct_answer": "21:13",
+    "explanation": "Comparing the stated capacities gives 21:13, written as 21:13.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_capacity_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 13,
+        "b": 21,
+        "q": 3,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0024",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=4; small tank=15 L; large tank=24 L. What is the ratio of the large tank's capacity to the small tank's capacity?",
+    "options": [
+      "9:5",
+      "8:6",
+      "5:8",
+      "8:5"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8:5",
+    "explanation": "Comparing the stated capacities gives 24:15, written as 8:5.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_capacity_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 15,
+        "b": 24,
+        "q": 4,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0025",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=5; small tank=17 L; large tank=27 L. What is the ratio of the large tank's capacity to the small tank's capacity?",
+    "options": [
+      "27:18",
+      "17:27",
+      "28:17",
+      "27:17"
+    ],
+    "correct_option": "D",
+    "correct_answer": "27:17",
+    "explanation": "Comparing the stated capacities gives 27:17, written as 27:17.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_capacity_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 17,
+        "b": 27,
+        "q": 5,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0026",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=1; pipe A output=20 L/min; pipe B output=15 L/min. How many minutes of A's output equal one minute of B's output?",
+    "options": [
+      "-1/4 min",
+      "3/2 min",
+      "7/4 min",
+      "3/4 min"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3/4 min",
+    "explanation": "Equating output gives time = 15/20 = 3/4 min minutes.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cycle_output",
+      "variant": 0,
+      "inputs": {
+        "a": 20,
+        "b": 15,
+        "q": 1,
+        "expr": "F(b,a)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0027",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=2; pipe A output=22 L/min; pipe B output=18 L/min. How many minutes of A's output equal one minute of B's output?",
+    "options": [
+      "18/11 min",
+      "-2/11 min",
+      "9/11 min",
+      "20/11 min"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9/11 min",
+    "explanation": "Equating output gives time = 18/22 = 9/11 min minutes.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cycle_output",
+      "variant": 1,
+      "inputs": {
+        "a": 22,
+        "b": 18,
+        "q": 2,
+        "expr": "F(b,a)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0028",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=3; pipe A output=24 L/min; pipe B output=21 L/min. How many minutes of A's output equal one minute of B's output?",
+    "options": [
+      "15/8 min",
+      "7/8 min",
+      "-1/8 min",
+      "7/4 min"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/8 min",
+    "explanation": "Equating output gives time = 21/24 = 7/8 min minutes.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cycle_output",
+      "variant": 2,
+      "inputs": {
+        "a": 24,
+        "b": 21,
+        "q": 3,
+        "expr": "F(b,a)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0029",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=4; pipe A output=26 L/min; pipe B output=24 L/min. How many minutes of A's output equal one minute of B's output?",
+    "options": [
+      "-1/13 min",
+      "12/13 min",
+      "24/13 min",
+      "25/13 min"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12/13 min",
+    "explanation": "Equating output gives time = 24/26 = 12/13 min minutes.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cycle_output",
+      "variant": 3,
+      "inputs": {
+        "a": 26,
+        "b": 24,
+        "q": 4,
+        "expr": "F(b,a)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0030",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=5; pipe A output=28 L/min; pipe B output=27 L/min. How many minutes of A's output equal one minute of B's output?",
+    "options": [
+      "55/28 min",
+      "27/14 min",
+      "27/28 min",
+      "-1/28 min"
+    ],
+    "correct_option": "C",
+    "correct_answer": "27/28 min",
+    "explanation": "Equating output gives time = 27/28 = 27/28 min minutes.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cycle_output",
+      "variant": 4,
+      "inputs": {
+        "a": 28,
+        "b": 27,
+        "q": 5,
+        "expr": "F(b,a)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0031",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=1; tank capacity=12 L; cost per litre=₹36.0. Find the total cost of filling the tank at the stated rate.",
+    "options": [
+      "8640/13",
+      "3670/13",
+      "4970/13",
+      "4320/13"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4320/13",
+    "explanation": "Cost is 12 × ₹360/10 = ₹4320/13.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cost_fill",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 360,
+        "q": 1,
+        "expr": "F(b,F(1,a)+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0032",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=2; tank capacity=14 L; cost per litre=₹36.3. Find the total cost of filling the tank at the stated rate.",
+    "options": [
+      "1944/5",
+      "1694/5",
+      "1444/5",
+      "3388/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1694/5",
+    "explanation": "Cost is 14 × ₹363/10 = ₹1694/5.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cost_fill",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 363,
+        "q": 2,
+        "expr": "F(b,F(1,a)+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0033",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=3; tank capacity=16 L; cost per litre=₹36.6. Find the total cost of filling the tank at the stated rate.",
+    "options": [
+      "6706/17",
+      "5006/17",
+      "11712/17",
+      "5856/17"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5856/17",
+    "explanation": "Cost is 16 × ₹366/10 = ₹5856/17.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cost_fill",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 366,
+        "q": 3,
+        "expr": "F(b,F(1,a)+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0034",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=4; tank capacity=18 L; cost per litre=₹36.9. Find the total cost of filling the tank at the stated rate.",
+    "options": [
+      "13284/19",
+      "7592/19",
+      "6642/19",
+      "5692/19"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6642/19",
+    "explanation": "Cost is 18 × ₹369/10 = ₹6642/19.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cost_fill",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 369,
+        "q": 4,
+        "expr": "F(b,F(1,a)+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0035",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 2,
+    "section": "pipe_and_cistern_data_interpretation_part_2",
+    "question_text": "Data: Case=5; tank capacity=20 L; cost per litre=₹37.2. Find the total cost of filling the tank at the stated rate.",
+    "options": [
+      "2830/7",
+      "2480/7",
+      "4960/7",
+      "2130/7"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2480/7",
+    "explanation": "Cost is 20 × ₹372/10 = ₹2480/7.",
+    "difficulty": "EASY",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_cost_fill",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 372,
+        "q": 5,
+        "expr": "F(b,F(1,a)+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0036",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=1; water supplied=100 L; water wasted=8 L. What percentage of the supplied water is wasted?",
+    "options": [
+      "4%",
+      "3%",
+      "13%",
+      "8%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8%",
+    "explanation": "Wasted percentage is 8/100 × 100 = 8%%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_waste_loss",
+      "variant": 0,
+      "inputs": {
+        "a": 100,
+        "b": 8,
+        "q": 1,
+        "expr": "F(b,a)*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0037",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=2; water supplied=102 L; water wasted=11 L. What percentage of the supplied water is wasted?",
+    "options": [
+      "5.78%",
+      "5.39%",
+      "15.78%",
+      "550/51%"
+    ],
+    "correct_option": "D",
+    "correct_answer": "550/51%",
+    "explanation": "Wasted percentage is 11/102 × 100 = 550/51%%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_waste_loss",
+      "variant": 1,
+      "inputs": {
+        "a": 102,
+        "b": 11,
+        "q": 2,
+        "expr": "F(b,a)*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0038",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=3; water supplied=104 L; water wasted=14 L. What percentage of the supplied water is wasted?",
+    "options": [
+      "6.73%",
+      "175/13%",
+      "8.46%",
+      "18.46%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "175/13%",
+    "explanation": "Wasted percentage is 14/104 × 100 = 175/13%%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_waste_loss",
+      "variant": 2,
+      "inputs": {
+        "a": 104,
+        "b": 14,
+        "q": 3,
+        "expr": "F(b,a)*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0039",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=4; water supplied=106 L; water wasted=17 L. What percentage of the supplied water is wasted?",
+    "options": [
+      "850/53%",
+      "8.02%",
+      "11.04%",
+      "21.04%"
+    ],
+    "correct_option": "A",
+    "correct_answer": "850/53%",
+    "explanation": "Wasted percentage is 17/106 × 100 = 850/53%%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_waste_loss",
+      "variant": 3,
+      "inputs": {
+        "a": 106,
+        "b": 17,
+        "q": 4,
+        "expr": "F(b,a)*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0040",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=5; water supplied=108 L; water wasted=20 L. What percentage of the supplied water is wasted?",
+    "options": [
+      "9.26%",
+      "500/27%",
+      "23.52%",
+      "13.52%"
+    ],
+    "correct_option": "B",
+    "correct_answer": "500/27%",
+    "explanation": "Wasted percentage is 20/108 × 100 = 500/27%%.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_waste_loss",
+      "variant": 4,
+      "inputs": {
+        "a": 108,
+        "b": 20,
+        "q": 5,
+        "expr": "F(b,a)*100",
+        "unit": "%"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0041",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=1; A fills=12 h; B fills=18 h. A and B work alternately for one hour each. How many hours do they need for half the tank?",
+    "options": [
+      "77/5 h",
+      "67/5 h",
+      "144/5 h",
+      "72/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "72/5 h",
+    "explanation": "In two hours they fill 1/12 + 1/18; half the tank therefore takes 72/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_alternate_hours",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 1,
+        "expr": "F(1,F(1,a)+F(1,b))*2",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0042",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=2; A fills=14 h; B fills=21 h. A and B work alternately for one hour each. How many hours do they need for half the tank?",
+    "options": [
+      "168/5 h",
+      "79/5 h",
+      "89/5 h",
+      "84/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "84/5 h",
+    "explanation": "In two hours they fill 1/14 + 1/21; half the tank therefore takes 84/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_alternate_hours",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 2,
+        "expr": "F(1,F(1,a)+F(1,b))*2",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0043",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=3; A fills=16 h; B fills=24 h. A and B work alternately for one hour each. How many hours do they need for half the tank?",
+    "options": [
+      "192/5 h",
+      "91/5 h",
+      "96/5 h",
+      "101/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "96/5 h",
+    "explanation": "In two hours they fill 1/16 + 1/24; half the tank therefore takes 96/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_alternate_hours",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 3,
+        "expr": "F(1,F(1,a)+F(1,b))*2",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0044",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=4; A fills=18 h; B fills=27 h. A and B work alternately for one hour each. How many hours do they need for half the tank?",
+    "options": [
+      "108/5 h",
+      "216/5 h",
+      "103/5 h",
+      "113/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "108/5 h",
+    "explanation": "In two hours they fill 1/18 + 1/27; half the tank therefore takes 108/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_alternate_hours",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 4,
+        "expr": "F(1,F(1,a)+F(1,b))*2",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0045",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=5; A fills=20 h; B fills=30 h. A and B work alternately for one hour each. How many hours do they need for half the tank?",
+    "options": [
+      "23 h",
+      "24 h",
+      "48 h",
+      "25 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "24 h",
+    "explanation": "In two hours they fill 1/20 + 1/30; half the tank therefore takes 24 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_alternate_hours",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 30,
+        "q": 5,
+        "expr": "F(1,F(1,a)+F(1,b))*2",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0046",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=1; full tank filling time=16 h. How long does the inlet take to raise the tank from one-quarter to full?",
+    "options": [
+      "24 h",
+      "11 h",
+      "13 h",
+      "12 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12 h",
+    "explanation": "Three-quarters of 16 hours is needed, giving 12 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_partial_level",
+      "variant": 0,
+      "inputs": {
+        "a": 16,
+        "q": 1,
+        "expr": "F(3,4)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0047",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=2; full tank filling time=19 h. How long does the inlet take to raise the tank from one-quarter to full?",
+    "options": [
+      "61/4 h",
+      "57/2 h",
+      "53/4 h",
+      "57/4 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "57/4 h",
+    "explanation": "Three-quarters of 19 hours is needed, giving 57/4 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_partial_level",
+      "variant": 1,
+      "inputs": {
+        "a": 19,
+        "q": 2,
+        "expr": "F(3,4)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0048",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=3; full tank filling time=22 h. How long does the inlet take to raise the tank from one-quarter to full?",
+    "options": [
+      "33 h",
+      "35/2 h",
+      "33/2 h",
+      "31/2 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "33/2 h",
+    "explanation": "Three-quarters of 22 hours is needed, giving 33/2 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_partial_level",
+      "variant": 2,
+      "inputs": {
+        "a": 22,
+        "q": 3,
+        "expr": "F(3,4)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0049",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=4; full tank filling time=25 h. How long does the inlet take to raise the tank from one-quarter to full?",
+    "options": [
+      "79/4 h",
+      "75/2 h",
+      "71/4 h",
+      "75/4 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "75/4 h",
+    "explanation": "Three-quarters of 25 hours is needed, giving 75/4 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_partial_level",
+      "variant": 3,
+      "inputs": {
+        "a": 25,
+        "q": 4,
+        "expr": "F(3,4)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0050",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=5; full tank filling time=28 h. How long does the inlet take to raise the tank from one-quarter to full?",
+    "options": [
+      "21 h",
+      "22 h",
+      "42 h",
+      "20 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "21 h",
+    "explanation": "Three-quarters of 28 hours is needed, giving 21 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_partial_level",
+      "variant": 4,
+      "inputs": {
+        "a": 28,
+        "q": 5,
+        "expr": "F(3,4)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0051",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=1; inlet A=14 h; inlet B=21 h. Find the time for both inlets to fill the tank together.",
+    "options": [
+      "37/5 h",
+      "84/5 h",
+      "42/5 h",
+      "47/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42/5 h",
+    "explanation": "The reciprocal of 1/14 + 1/21 is 42/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_combined_time",
+      "variant": 0,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 1,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0052",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=2; inlet A=16 h; inlet B=24 h. Find the time for both inlets to fill the tank together.",
+    "options": [
+      "53/5 h",
+      "48/5 h",
+      "43/5 h",
+      "96/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48/5 h",
+    "explanation": "The reciprocal of 1/16 + 1/24 is 48/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_combined_time",
+      "variant": 1,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 2,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0053",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=3; inlet A=18 h; inlet B=27 h. Find the time for both inlets to fill the tank together.",
+    "options": [
+      "49/5 h",
+      "54/5 h",
+      "59/5 h",
+      "108/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "54/5 h",
+    "explanation": "The reciprocal of 1/18 + 1/27 is 54/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_combined_time",
+      "variant": 2,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 3,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0054",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=4; inlet A=20 h; inlet B=30 h. Find the time for both inlets to fill the tank together.",
+    "options": [
+      "13 h",
+      "24 h",
+      "12 h",
+      "11 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12 h",
+    "explanation": "The reciprocal of 1/20 + 1/30 is 12 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_combined_time",
+      "variant": 3,
+      "inputs": {
+        "a": 20,
+        "b": 30,
+        "q": 4,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0055",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=5; inlet A=22 h; inlet B=33 h. Find the time for both inlets to fill the tank together.",
+    "options": [
+      "61/5 h",
+      "71/5 h",
+      "66/5 h",
+      "132/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "66/5 h",
+    "explanation": "The reciprocal of 1/22 + 1/33 is 66/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_combined_time",
+      "variant": 4,
+      "inputs": {
+        "a": 22,
+        "b": 33,
+        "q": 5,
+        "expr": "F(a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0056",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=1; normal filling time=12 h; efficiency drop=25%. After the stated efficiency drop, how many hours does the inlet take?",
+    "options": [
+      "15 h",
+      "16 h",
+      "32 h",
+      "17 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16 h",
+    "explanation": "Reduced efficiency is (100 - 25)% of normal, so time = 16 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_efficiency",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 25,
+        "q": 1,
+        "expr": "F(a*100,100-b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0057",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=2; normal filling time=14 h; efficiency drop=28%. After the stated efficiency drop, how many hours does the inlet take?",
+    "options": [
+      "166/9 h",
+      "175/9 h",
+      "350/9 h",
+      "184/9 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "175/9 h",
+    "explanation": "Reduced efficiency is (100 - 28)% of normal, so time = 175/9 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_efficiency",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 28,
+        "q": 2,
+        "expr": "F(a*100,100-b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0058",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=3; normal filling time=16 h; efficiency drop=31%. After the stated efficiency drop, how many hours does the inlet take?",
+    "options": [
+      "1600/69 h",
+      "1531/69 h",
+      "1669/69 h",
+      "3200/69 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1600/69 h",
+    "explanation": "Reduced efficiency is (100 - 31)% of normal, so time = 1600/69 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_efficiency",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 31,
+        "q": 3,
+        "expr": "F(a*100,100-b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0059",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=4; normal filling time=18 h; efficiency drop=34%. After the stated efficiency drop, how many hours does the inlet take?",
+    "options": [
+      "600/11 h",
+      "311/11 h",
+      "300/11 h",
+      "289/11 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "300/11 h",
+    "explanation": "Reduced efficiency is (100 - 34)% of normal, so time = 300/11 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_efficiency",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 34,
+        "q": 4,
+        "expr": "F(a*100,100-b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0060",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=5; normal filling time=20 h; efficiency drop=37%. After the stated efficiency drop, how many hours does the inlet take?",
+    "options": [
+      "1937/63 h",
+      "2000/63 h",
+      "4000/63 h",
+      "2063/63 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2000/63 h",
+    "explanation": "Reduced efficiency is (100 - 37)% of normal, so time = 2000/63 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_efficiency",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 37,
+        "q": 5,
+        "expr": "F(a*100,100-b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0061",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=1; length=8 m; width=5 m; height=3 m. Find the tank capacity in kilolitres (1 m³ = 1000 L).",
+    "options": [
+      "6/25 kL",
+      "28/25 kL",
+      "-22/25 kL",
+      "3/25 kL"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3/25 kL",
+    "explanation": "Volume is 8 × 5 × 3 m³ = 3/25 kL kilolitres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_tank_dimensions",
+      "variant": 0,
+      "inputs": {
+        "l": 8,
+        "w": 5,
+        "h": 3,
+        "q": 1,
+        "expr": "F(l*w*h,1000)",
+        "unit": " kL"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0062",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=2; length=9 m; width=6 m; height=3 m. Find the tank capacity in kilolitres (1 m³ = 1000 L).",
+    "options": [
+      "-419/500 kL",
+      "581/500 kL",
+      "81/250 kL",
+      "81/500 kL"
+    ],
+    "correct_option": "D",
+    "correct_answer": "81/500 kL",
+    "explanation": "Volume is 9 × 6 × 3 m³ = 81/500 kL kilolitres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_tank_dimensions",
+      "variant": 1,
+      "inputs": {
+        "l": 9,
+        "w": 6,
+        "h": 3,
+        "q": 2,
+        "expr": "F(l*w*h,1000)",
+        "unit": " kL"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0063",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=3; length=10 m; width=7 m; height=3 m. Find the tank capacity in kilolitres (1 m³ = 1000 L).",
+    "options": [
+      "-79/100 kL",
+      "21/50 kL",
+      "21/100 kL",
+      "121/100 kL"
+    ],
+    "correct_option": "C",
+    "correct_answer": "21/100 kL",
+    "explanation": "Volume is 10 × 7 × 3 m³ = 21/100 kL kilolitres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_tank_dimensions",
+      "variant": 2,
+      "inputs": {
+        "l": 10,
+        "w": 7,
+        "h": 3,
+        "q": 3,
+        "expr": "F(l*w*h,1000)",
+        "unit": " kL"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0064",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=4; length=11 m; width=8 m; height=3 m. Find the tank capacity in kilolitres (1 m³ = 1000 L).",
+    "options": [
+      "-92/125 kL",
+      "33/125 kL",
+      "66/125 kL",
+      "158/125 kL"
+    ],
+    "correct_option": "B",
+    "correct_answer": "33/125 kL",
+    "explanation": "Volume is 11 × 8 × 3 m³ = 33/125 kL kilolitres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_tank_dimensions",
+      "variant": 3,
+      "inputs": {
+        "l": 11,
+        "w": 8,
+        "h": 3,
+        "q": 4,
+        "expr": "F(l*w*h,1000)",
+        "unit": " kL"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0065",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 3,
+    "section": "pipe_and_cistern_data_interpretation_part_3",
+    "question_text": "Data: Case=5; length=12 m; width=9 m; height=3 m. Find the tank capacity in kilolitres (1 m³ = 1000 L).",
+    "options": [
+      "331/250 kL",
+      "81/125 kL",
+      "81/250 kL",
+      "-169/250 kL"
+    ],
+    "correct_option": "C",
+    "correct_answer": "81/250 kL",
+    "explanation": "Volume is 12 × 9 × 3 m³ = 81/250 kL kilolitres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_tank_dimensions",
+      "variant": 4,
+      "inputs": {
+        "l": 12,
+        "w": 9,
+        "h": 3,
+        "q": 5,
+        "expr": "F(l*w*h,1000)",
+        "unit": " kL"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0066",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; one tank fill time=12 h; identical tanks=3. One inlet fills each tank at the same rate. How long for all tanks if worked one after another?",
+    "options": [
+      "8 h",
+      "5 h",
+      "3 h",
+      "4 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4 h",
+    "explanation": "Sequential work is 3 × 12 hours = 4 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_multiple_tanks",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "n": 3,
+        "q": 1,
+        "expr": "F(a,n)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0067",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; one tank fill time=14 h; identical tanks=6. One inlet fills each tank at the same rate. How long for all tanks if worked one after another?",
+    "options": [
+      "10/3 h",
+      "14/3 h",
+      "7/3 h",
+      "4/3 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7/3 h",
+    "explanation": "Sequential work is 6 × 14 hours = 7/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_multiple_tanks",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "n": 6,
+        "q": 2,
+        "expr": "F(a,n)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0068",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; one tank fill time=16 h; identical tanks=9. One inlet fills each tank at the same rate. How long for all tanks if worked one after another?",
+    "options": [
+      "16/9 h",
+      "25/9 h",
+      "32/9 h",
+      "7/9 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16/9 h",
+    "explanation": "Sequential work is 9 × 16 hours = 16/9 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_multiple_tanks",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "n": 9,
+        "q": 3,
+        "expr": "F(a,n)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0069",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; one tank fill time=18 h; identical tanks=12. One inlet fills each tank at the same rate. How long for all tanks if worked one after another?",
+    "options": [
+      "3/2 h",
+      "3 h",
+      "1/2 h",
+      "5/2 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/2 h",
+    "explanation": "Sequential work is 12 × 18 hours = 3/2 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_multiple_tanks",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "n": 12,
+        "q": 4,
+        "expr": "F(a,n)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0070",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; one tank fill time=20 h; identical tanks=15. One inlet fills each tank at the same rate. How long for all tanks if worked one after another?",
+    "options": [
+      "8/3 h",
+      "4/3 h",
+      "7/3 h",
+      "1/3 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4/3 h",
+    "explanation": "Sequential work is 15 × 20 hours = 4/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_multiple_tanks",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "n": 15,
+        "q": 5,
+        "expr": "F(a,n)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0071",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; inlet=10 h; outlet=15 h. Starting empty, how long until the tank is full with both pipes open?",
+    "options": [
+      "60 h",
+      "30 h",
+      "29 h",
+      "31 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30 h",
+    "explanation": "Net rate is 1/10 - 1/15, so the fill time is 30 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_inlet_outlet",
+      "variant": 0,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "q": 1,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0072",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; inlet=12 h; outlet=18 h. Starting empty, how long until the tank is full with both pipes open?",
+    "options": [
+      "37 h",
+      "72 h",
+      "36 h",
+      "35 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "36 h",
+    "explanation": "Net rate is 1/12 - 1/18, so the fill time is 36 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_inlet_outlet",
+      "variant": 1,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 2,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0073",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; inlet=14 h; outlet=21 h. Starting empty, how long until the tank is full with both pipes open?",
+    "options": [
+      "41 h",
+      "43 h",
+      "42 h",
+      "84 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "42 h",
+    "explanation": "Net rate is 1/14 - 1/21, so the fill time is 42 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_inlet_outlet",
+      "variant": 2,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 3,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0074",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; inlet=16 h; outlet=24 h. Starting empty, how long until the tank is full with both pipes open?",
+    "options": [
+      "47 h",
+      "96 h",
+      "48 h",
+      "49 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "48 h",
+    "explanation": "Net rate is 1/16 - 1/24, so the fill time is 48 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_inlet_outlet",
+      "variant": 3,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 4,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0075",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; inlet=18 h; outlet=27 h. Starting empty, how long until the tank is full with both pipes open?",
+    "options": [
+      "54 h",
+      "53 h",
+      "108 h",
+      "55 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "54 h",
+    "explanation": "Net rate is 1/18 - 1/27, so the fill time is 54 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_inlet_outlet",
+      "variant": 4,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 5,
+        "expr": "F(a*b,b-a)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0076",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; inlet alone=12 h; open hours per 3-hour cycle=2. The inlet follows the stated cycle. How many elapsed hours are needed to fill the tank?",
+    "options": [
+      "18 h",
+      "17 h",
+      "36 h",
+      "19 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "18 h",
+    "explanation": "Each 3-hour cycle adds 2/12 of the tank; the required elapsed time is 18 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_intermittent",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "r": 2,
+        "q": 1,
+        "expr": "F(a*3,r)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0077",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; inlet alone=14 h; open hours per 3-hour cycle=5. The inlet follows the stated cycle. How many elapsed hours are needed to fill the tank?",
+    "options": [
+      "84/5 h",
+      "47/5 h",
+      "37/5 h",
+      "42/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "42/5 h",
+    "explanation": "Each 3-hour cycle adds 5/14 of the tank; the required elapsed time is 42/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_intermittent",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "r": 5,
+        "q": 2,
+        "expr": "F(a*3,r)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0078",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; inlet alone=16 h; open hours per 3-hour cycle=8. The inlet follows the stated cycle. How many elapsed hours are needed to fill the tank?",
+    "options": [
+      "12 h",
+      "6 h",
+      "7 h",
+      "5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6 h",
+    "explanation": "Each 3-hour cycle adds 8/16 of the tank; the required elapsed time is 6 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_intermittent",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "r": 8,
+        "q": 3,
+        "expr": "F(a*3,r)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0079",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; inlet alone=18 h; open hours per 3-hour cycle=11. The inlet follows the stated cycle. How many elapsed hours are needed to fill the tank?",
+    "options": [
+      "43/11 h",
+      "54/11 h",
+      "108/11 h",
+      "65/11 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "54/11 h",
+    "explanation": "Each 3-hour cycle adds 11/18 of the tank; the required elapsed time is 54/11 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_intermittent",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "r": 11,
+        "q": 4,
+        "expr": "F(a*3,r)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0080",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; inlet alone=20 h; open hours per 3-hour cycle=14. The inlet follows the stated cycle. How many elapsed hours are needed to fill the tank?",
+    "options": [
+      "60/7 h",
+      "30/7 h",
+      "23/7 h",
+      "37/7 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "30/7 h",
+    "explanation": "Each 3-hour cycle adds 14/20 of the tank; the required elapsed time is 30/7 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_intermittent",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "r": 14,
+        "q": 5,
+        "expr": "F(a*3,r)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0081",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; old fill time=12 h; flow increase=25%. After the stated flow increase, how long does filling take?",
+    "options": [
+      "53/5 h",
+      "43/5 h",
+      "96/5 h",
+      "48/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48/5 h",
+    "explanation": "New rate is (100 + 25)% of old, so time is 48/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_increase",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 25,
+        "q": 1,
+        "expr": "F(a*100,100+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0082",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; old fill time=14 h; flow increase=28%. After the stated flow increase, how long does filling take?",
+    "options": [
+      "175/16 h",
+      "159/16 h",
+      "191/16 h",
+      "175/8 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "175/16 h",
+    "explanation": "New rate is (100 + 28)% of old, so time is 175/16 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_increase",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 28,
+        "q": 2,
+        "expr": "F(a*100,100+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0083",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; old fill time=16 h; flow increase=31%. After the stated flow increase, how long does filling take?",
+    "options": [
+      "1731/131 h",
+      "1469/131 h",
+      "3200/131 h",
+      "1600/131 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1600/131 h",
+    "explanation": "New rate is (100 + 31)% of old, so time is 1600/131 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_increase",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 31,
+        "q": 3,
+        "expr": "F(a*100,100+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0084",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; old fill time=18 h; flow increase=34%. After the stated flow increase, how long does filling take?",
+    "options": [
+      "1800/67 h",
+      "900/67 h",
+      "967/67 h",
+      "833/67 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "900/67 h",
+    "explanation": "New rate is (100 + 34)% of old, so time is 900/67 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_increase",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 34,
+        "q": 4,
+        "expr": "F(a*100,100+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0085",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; old fill time=20 h; flow increase=37%. After the stated flow increase, how long does filling take?",
+    "options": [
+      "2137/137 h",
+      "1863/137 h",
+      "2000/137 h",
+      "4000/137 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2000/137 h",
+    "explanation": "New rate is (100 + 37)% of old, so time is 2000/137 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_flow_increase",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 37,
+        "q": 5,
+        "expr": "F(a*100,100+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0086",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; full tank time=20 h. How long to fill the tank from one-third full to full?",
+    "options": [
+      "37/3 h",
+      "80/3 h",
+      "43/3 h",
+      "40/3 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "40/3 h",
+    "explanation": "Two-thirds of 20 hours is needed, giving 40/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fill_levels",
+      "variant": 0,
+      "inputs": {
+        "a": 20,
+        "q": 1,
+        "expr": "F(2,3)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0087",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; full tank time=23 h. How long to fill the tank from one-third full to full?",
+    "options": [
+      "92/3 h",
+      "46/3 h",
+      "43/3 h",
+      "49/3 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "46/3 h",
+    "explanation": "Two-thirds of 23 hours is needed, giving 46/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fill_levels",
+      "variant": 1,
+      "inputs": {
+        "a": 23,
+        "q": 2,
+        "expr": "F(2,3)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0088",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; full tank time=26 h. How long to fill the tank from one-third full to full?",
+    "options": [
+      "104/3 h",
+      "49/3 h",
+      "55/3 h",
+      "52/3 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "52/3 h",
+    "explanation": "Two-thirds of 26 hours is needed, giving 52/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fill_levels",
+      "variant": 2,
+      "inputs": {
+        "a": 26,
+        "q": 3,
+        "expr": "F(2,3)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0089",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; full tank time=29 h. How long to fill the tank from one-third full to full?",
+    "options": [
+      "58/3 h",
+      "61/3 h",
+      "116/3 h",
+      "55/3 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "58/3 h",
+    "explanation": "Two-thirds of 29 hours is needed, giving 58/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fill_levels",
+      "variant": 3,
+      "inputs": {
+        "a": 29,
+        "q": 4,
+        "expr": "F(2,3)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0090",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; full tank time=32 h. How long to fill the tank from one-third full to full?",
+    "options": [
+      "67/3 h",
+      "61/3 h",
+      "64/3 h",
+      "128/3 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "64/3 h",
+    "explanation": "Two-thirds of 32 hours is needed, giving 64/3 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fill_levels",
+      "variant": 4,
+      "inputs": {
+        "a": 32,
+        "q": 5,
+        "expr": "F(2,3)*a",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0091",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; fill time=15 h; tank capacity=240 L. Find the pump's hourly discharge in litres.",
+    "options": [
+      "17 L/h",
+      "32 L/h",
+      "16 L/h",
+      "15 L/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "16 L/h",
+    "explanation": "Hourly discharge is 240/15 = 16 L/h litres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pump_rate",
+      "variant": 0,
+      "inputs": {
+        "a": 15,
+        "b": 240,
+        "q": 1,
+        "expr": "F(b,a)",
+        "unit": " L/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0092",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; fill time=17 h; tank capacity=243 L. Find the pump's hourly discharge in litres.",
+    "options": [
+      "226/17 L/h",
+      "243/17 L/h",
+      "486/17 L/h",
+      "260/17 L/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "243/17 L/h",
+    "explanation": "Hourly discharge is 243/17 = 243/17 L/h litres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pump_rate",
+      "variant": 1,
+      "inputs": {
+        "a": 17,
+        "b": 243,
+        "q": 2,
+        "expr": "F(b,a)",
+        "unit": " L/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0093",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; fill time=19 h; tank capacity=246 L. Find the pump's hourly discharge in litres.",
+    "options": [
+      "227/19 L/h",
+      "265/19 L/h",
+      "246/19 L/h",
+      "492/19 L/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "246/19 L/h",
+    "explanation": "Hourly discharge is 246/19 = 246/19 L/h litres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pump_rate",
+      "variant": 2,
+      "inputs": {
+        "a": 19,
+        "b": 246,
+        "q": 3,
+        "expr": "F(b,a)",
+        "unit": " L/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0094",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; fill time=21 h; tank capacity=249 L. Find the pump's hourly discharge in litres.",
+    "options": [
+      "90/7 L/h",
+      "166/7 L/h",
+      "76/7 L/h",
+      "83/7 L/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "83/7 L/h",
+    "explanation": "Hourly discharge is 249/21 = 83/7 L/h litres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pump_rate",
+      "variant": 3,
+      "inputs": {
+        "a": 21,
+        "b": 249,
+        "q": 4,
+        "expr": "F(b,a)",
+        "unit": " L/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0095",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; fill time=23 h; tank capacity=252 L. Find the pump's hourly discharge in litres.",
+    "options": [
+      "275/23 L/h",
+      "252/23 L/h",
+      "504/23 L/h",
+      "229/23 L/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "252/23 L/h",
+    "explanation": "Hourly discharge is 252/23 = 252/23 L/h litres.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_pump_rate",
+      "variant": 4,
+      "inputs": {
+        "a": 23,
+        "b": 252,
+        "q": 5,
+        "expr": "F(b,a)",
+        "unit": " L/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0096",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; A alone=10 h; B alone=15 h. What is the ratio of B's filling time to A's filling time?",
+    "options": [
+      "3:3",
+      "3:2",
+      "4:2",
+      "2:3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3:2",
+    "explanation": "The time ratio is 15:10, i.e. 3:2.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_time_ratio",
+      "variant": 0,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "q": 1,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0097",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; A alone=12 h; B alone=18 h. What is the ratio of B's filling time to A's filling time?",
+    "options": [
+      "3:2",
+      "2:3",
+      "4:2",
+      "3:3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3:2",
+    "explanation": "The time ratio is 18:12, i.e. 3:2.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_time_ratio",
+      "variant": 1,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 2,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0098",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; A alone=14 h; B alone=21 h. What is the ratio of B's filling time to A's filling time?",
+    "options": [
+      "3:3",
+      "3:2",
+      "2:3",
+      "4:2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3:2",
+    "explanation": "The time ratio is 21:14, i.e. 3:2.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_time_ratio",
+      "variant": 2,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 3,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0099",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; A alone=16 h; B alone=24 h. What is the ratio of B's filling time to A's filling time?",
+    "options": [
+      "4:2",
+      "3:2",
+      "3:3",
+      "2:3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3:2",
+    "explanation": "The time ratio is 24:16, i.e. 3:2.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_time_ratio",
+      "variant": 3,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 4,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0100",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; A alone=18 h; B alone=27 h. What is the ratio of B's filling time to A's filling time?",
+    "options": [
+      "4:2",
+      "2:3",
+      "3:3",
+      "3:2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3:2",
+    "explanation": "The time ratio is 27:18, i.e. 3:2.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_time_ratio",
+      "variant": 4,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 5,
+        "expr": "ratio(b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0101",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; litres needed=125; rate=8 L/min. How many seconds are required to deliver the stated volume?",
+    "options": [
+      "1875/2 s",
+      "1875 s",
+      "1873/2 s",
+      "1877/2 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1875/2 s",
+    "explanation": "Minutes = 125/8, so seconds = 1875/2 s.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_metered_fill",
+      "variant": 0,
+      "inputs": {
+        "a": 8,
+        "b": 125,
+        "q": 1,
+        "expr": "F(b,a)*60",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0102",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; litres needed=128; rate=10 L/min. How many seconds are required to deliver the stated volume?",
+    "options": [
+      "767 s",
+      "769 s",
+      "1536 s",
+      "768 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "768 s",
+    "explanation": "Minutes = 128/10, so seconds = 768 s.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_metered_fill",
+      "variant": 1,
+      "inputs": {
+        "a": 10,
+        "b": 128,
+        "q": 2,
+        "expr": "F(b,a)*60",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0103",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; litres needed=131; rate=12 L/min. How many seconds are required to deliver the stated volume?",
+    "options": [
+      "655 s",
+      "1310 s",
+      "656 s",
+      "654 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "655 s",
+    "explanation": "Minutes = 131/12, so seconds = 655 s.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_metered_fill",
+      "variant": 2,
+      "inputs": {
+        "a": 12,
+        "b": 131,
+        "q": 3,
+        "expr": "F(b,a)*60",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0104",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; litres needed=134; rate=14 L/min. How many seconds are required to deliver the stated volume?",
+    "options": [
+      "4027/7 s",
+      "4020/7 s",
+      "4013/7 s",
+      "8040/7 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4020/7 s",
+    "explanation": "Minutes = 134/14, so seconds = 4020/7 s.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_metered_fill",
+      "variant": 3,
+      "inputs": {
+        "a": 14,
+        "b": 134,
+        "q": 4,
+        "expr": "F(b,a)*60",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0105",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; litres needed=137; rate=16 L/min. How many seconds are required to deliver the stated volume?",
+    "options": [
+      "2055/2 s",
+      "2055/4 s",
+      "2051/4 s",
+      "2059/4 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2055/4 s",
+    "explanation": "Minutes = 137/16, so seconds = 2055/4 s.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_metered_fill",
+      "variant": 4,
+      "inputs": {
+        "a": 16,
+        "b": 137,
+        "q": 5,
+        "expr": "F(b,a)*60",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0106",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; first pipe=10 h; second pipe=15 h. If each pipe works alone for an equal number of hours, what is the average effective filling time per pipe?",
+    "options": [
+      "12 h",
+      "24 h",
+      "13 h",
+      "11 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12 h",
+    "explanation": "The harmonic relation of 10 and 15 gives 12 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_average_rate",
+      "variant": 0,
+      "inputs": {
+        "a": 10,
+        "b": 15,
+        "q": 1,
+        "expr": "F(2*a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0107",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; first pipe=12 h; second pipe=18 h. If each pipe works alone for an equal number of hours, what is the average effective filling time per pipe?",
+    "options": [
+      "144/5 h",
+      "72/5 h",
+      "67/5 h",
+      "77/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "72/5 h",
+    "explanation": "The harmonic relation of 12 and 18 gives 72/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_average_rate",
+      "variant": 1,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 2,
+        "expr": "F(2*a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0108",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; first pipe=14 h; second pipe=21 h. If each pipe works alone for an equal number of hours, what is the average effective filling time per pipe?",
+    "options": [
+      "84/5 h",
+      "79/5 h",
+      "168/5 h",
+      "89/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "84/5 h",
+    "explanation": "The harmonic relation of 14 and 21 gives 84/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_average_rate",
+      "variant": 2,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 3,
+        "expr": "F(2*a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0109",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; first pipe=16 h; second pipe=24 h. If each pipe works alone for an equal number of hours, what is the average effective filling time per pipe?",
+    "options": [
+      "101/5 h",
+      "91/5 h",
+      "96/5 h",
+      "192/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "96/5 h",
+    "explanation": "The harmonic relation of 16 and 24 gives 96/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_average_rate",
+      "variant": 3,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 4,
+        "expr": "F(2*a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0110",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; first pipe=18 h; second pipe=27 h. If each pipe works alone for an equal number of hours, what is the average effective filling time per pipe?",
+    "options": [
+      "103/5 h",
+      "113/5 h",
+      "216/5 h",
+      "108/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "108/5 h",
+    "explanation": "The harmonic relation of 18 and 27 gives 108/5 h hours.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_average_rate",
+      "variant": 4,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 5,
+        "expr": "F(2*a*b,a+b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0111",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; inlet=18 h; elapsed=6 h. What fraction of the tank is full after the stated elapsed time?",
+    "options": [
+      "7/12",
+      "2/3",
+      "4/3",
+      "3/4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2/3",
+    "explanation": "Filling for 6 of 18 hours gives 2/3 of the tank.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fraction_full",
+      "variant": 0,
+      "inputs": {
+        "a": 18,
+        "b": 6,
+        "q": 1,
+        "expr": "F(a-b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0112",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; inlet=20 h; elapsed=9 h. What fraction of the tank is full after the stated elapsed time?",
+    "options": [
+      "11/20",
+      "7/15",
+      "19/30",
+      "11/10"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11/20",
+    "explanation": "Filling for 9 of 20 hours gives 11/20 of the tank.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fraction_full",
+      "variant": 1,
+      "inputs": {
+        "a": 20,
+        "b": 9,
+        "q": 2,
+        "expr": "F(a-b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0113",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; inlet=22 h; elapsed=12 h. What fraction of the tank is full after the stated elapsed time?",
+    "options": [
+      "71/132",
+      "5/11",
+      "49/132",
+      "10/11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/11",
+    "explanation": "Filling for 12 of 22 hours gives 5/11 of the tank.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fraction_full",
+      "variant": 2,
+      "inputs": {
+        "a": 22,
+        "b": 12,
+        "q": 3,
+        "expr": "F(a-b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0114",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; inlet=24 h; elapsed=15 h. What fraction of the tank is full after the stated elapsed time?",
+    "options": [
+      "3/4",
+      "3/8",
+      "7/24",
+      "11/24"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3/8",
+    "explanation": "Filling for 15 of 24 hours gives 3/8 of the tank.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fraction_full",
+      "variant": 3,
+      "inputs": {
+        "a": 24,
+        "b": 15,
+        "q": 4,
+        "expr": "F(a-b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0115",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; inlet=26 h; elapsed=18 h. What fraction of the tank is full after the stated elapsed time?",
+    "options": [
+      "8/13",
+      "4/13",
+      "61/156",
+      "35/156"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4/13",
+    "explanation": "Filling for 18 of 26 hours gives 4/13 of the tank.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_fraction_full",
+      "variant": 4,
+      "inputs": {
+        "a": 26,
+        "b": 18,
+        "q": 5,
+        "expr": "F(a-b,a)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0116",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=1; A alone=12 h; B alone=18 h. A works alone for one-third of its solo time, then both work. Find the extra time beyond A's solo start.",
+    "options": [
+      "19/5 h",
+      "29/5 h",
+      "48/5 h",
+      "24/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24/5 h",
+    "explanation": "The joint phase lasts 24/5 h hours after A's initial work.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_joint_delay",
+      "variant": 0,
+      "inputs": {
+        "a": 12,
+        "b": 18,
+        "q": 1,
+        "expr": "F(2*a*b,3*(a+b))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0117",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=2; A alone=14 h; B alone=21 h. A works alone for one-third of its solo time, then both work. Find the extra time beyond A's solo start.",
+    "options": [
+      "56/5 h",
+      "23/5 h",
+      "28/5 h",
+      "33/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "28/5 h",
+    "explanation": "The joint phase lasts 28/5 h hours after A's initial work.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_joint_delay",
+      "variant": 1,
+      "inputs": {
+        "a": 14,
+        "b": 21,
+        "q": 2,
+        "expr": "F(2*a*b,3*(a+b))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0118",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=3; A alone=16 h; B alone=24 h. A works alone for one-third of its solo time, then both work. Find the extra time beyond A's solo start.",
+    "options": [
+      "27/5 h",
+      "64/5 h",
+      "32/5 h",
+      "37/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "32/5 h",
+    "explanation": "The joint phase lasts 32/5 h hours after A's initial work.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_joint_delay",
+      "variant": 2,
+      "inputs": {
+        "a": 16,
+        "b": 24,
+        "q": 3,
+        "expr": "F(2*a*b,3*(a+b))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0119",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=4; A alone=18 h; B alone=27 h. A works alone for one-third of its solo time, then both work. Find the extra time beyond A's solo start.",
+    "options": [
+      "36/5 h",
+      "41/5 h",
+      "72/5 h",
+      "31/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "36/5 h",
+    "explanation": "The joint phase lasts 36/5 h hours after A's initial work.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_joint_delay",
+      "variant": 3,
+      "inputs": {
+        "a": 18,
+        "b": 27,
+        "q": 4,
+        "expr": "F(2*a*b,3*(a+b))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "pipe_and_cistern_data_interpretation-0120",
+    "chapter": "Pipe and Cistern – Data Interpretation",
+    "chapter_key": "pipe_and_cistern_data_interpretation",
+    "part": 4,
+    "section": "pipe_and_cistern_data_interpretation_part_4",
+    "question_text": "Data: Case=5; A alone=20 h; B alone=30 h. A works alone for one-third of its solo time, then both work. Find the extra time beyond A's solo start.",
+    "options": [
+      "16 h",
+      "8 h",
+      "9 h",
+      "7 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8 h",
+    "explanation": "The joint phase lasts 8 h hours after A's initial work.",
+    "difficulty": "MEDIUM",
+    "source_name": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf",
+    "source_url": "",
+    "source_page": "Pipe and Cistern Data Interpretation 01  Class Notes.pdf, pp. 4-16",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pdi_joint_delay",
+      "variant": 4,
+      "inputs": {
+        "a": 20,
+        "b": 30,
+        "q": 5,
+        "expr": "F(2*a*b,3*(a+b))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

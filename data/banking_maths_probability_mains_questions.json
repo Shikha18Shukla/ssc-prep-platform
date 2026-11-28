@@ -1,0 +1,4447 @@
+[
+  {
+    "id": "probability_mains-0001",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 1: A deck has 48 cards including 3 aces. Two cards are drawn without replacement. Find the probability that both are aces.",
+    "options": [
+      "377/376",
+      "1/188",
+      "1/376",
+      "-375/376"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/376",
+    "explanation": "Favourable pairs are C(3,2) of C(48,2), giving 1/376.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_two_cards",
+      "variant": 0,
+      "inputs": {
+        "aces": 3,
+        "total": 48,
+        "q": 1,
+        "expr": "F(C(aces,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0002",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 2: A deck has 52 cards including 4 aces. Two cards are drawn without replacement. Find the probability that both are aces.",
+    "options": [
+      "222/221",
+      "2/221",
+      "-220/221",
+      "1/221"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/221",
+    "explanation": "Favourable pairs are C(4,2) of C(52,2), giving 1/221.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_two_cards",
+      "variant": 1,
+      "inputs": {
+        "aces": 4,
+        "total": 52,
+        "q": 2,
+        "expr": "F(C(aces,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0003",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 3: A deck has 56 cards including 5 aces. Two cards are drawn without replacement. Find the probability that both are aces.",
+    "options": [
+      "1/154",
+      "-153/154",
+      "1/77",
+      "155/154"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/154",
+    "explanation": "Favourable pairs are C(5,2) of C(56,2), giving 1/154.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_two_cards",
+      "variant": 2,
+      "inputs": {
+        "aces": 5,
+        "total": 56,
+        "q": 3,
+        "expr": "F(C(aces,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0004",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 4: A deck has 60 cards including 6 aces. Two cards are drawn without replacement. Find the probability that both are aces.",
+    "options": [
+      "1/59",
+      "1/118",
+      "-117/118",
+      "119/118"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/118",
+    "explanation": "Favourable pairs are C(6,2) of C(60,2), giving 1/118.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_two_cards",
+      "variant": 3,
+      "inputs": {
+        "aces": 6,
+        "total": 60,
+        "q": 4,
+        "expr": "F(C(aces,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0005",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 5: A deck has 64 cards including 7 aces. Two cards are drawn without replacement. Find the probability that both are aces.",
+    "options": [
+      "1/48",
+      "-95/96",
+      "1/96",
+      "97/96"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/96",
+    "explanation": "Favourable pairs are C(7,2) of C(64,2), giving 1/96.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_two_cards",
+      "variant": 4,
+      "inputs": {
+        "aces": 7,
+        "total": 64,
+        "q": 5,
+        "expr": "F(C(aces,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0006",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 1: A bag has 24 red and 26 other balls. Two are drawn without replacement. Find the probability that both are red.",
+    "options": [
+      "552/1225",
+      "1501/1225",
+      "-949/1225",
+      "276/1225"
+    ],
+    "correct_option": "D",
+    "correct_answer": "276/1225",
+    "explanation": "The probability is C(24,2)/C(50,2) = 276/1225.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_without_replacement",
+      "variant": 0,
+      "inputs": {
+        "red": 24,
+        "total": 50,
+        "q": 1,
+        "expr": "F(C(red,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0007",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 2: A bag has 26 red and 26 other balls. Two are drawn without replacement. Find the probability that both are red.",
+    "options": [
+      "127/102",
+      "25/102",
+      "25/51",
+      "-77/102"
+    ],
+    "correct_option": "B",
+    "correct_answer": "25/102",
+    "explanation": "The probability is C(26,2)/C(52,2) = 25/102.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_without_replacement",
+      "variant": 1,
+      "inputs": {
+        "red": 26,
+        "total": 52,
+        "q": 2,
+        "expr": "F(C(red,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0008",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 3: A bag has 28 red and 26 other balls. Two are drawn without replacement. Find the probability that both are red.",
+    "options": [
+      "-39/53",
+      "14/53",
+      "28/53",
+      "67/53"
+    ],
+    "correct_option": "B",
+    "correct_answer": "14/53",
+    "explanation": "The probability is C(28,2)/C(54,2) = 14/53.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_without_replacement",
+      "variant": 2,
+      "inputs": {
+        "red": 28,
+        "total": 54,
+        "q": 3,
+        "expr": "F(C(red,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0009",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 4: A bag has 30 red and 26 other balls. Two are drawn without replacement. Find the probability that both are red.",
+    "options": [
+      "87/308",
+      "395/308",
+      "-221/308",
+      "87/154"
+    ],
+    "correct_option": "A",
+    "correct_answer": "87/308",
+    "explanation": "The probability is C(30,2)/C(56,2) = 87/308.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_without_replacement",
+      "variant": 3,
+      "inputs": {
+        "red": 30,
+        "total": 56,
+        "q": 4,
+        "expr": "F(C(red,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0010",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 5: A bag has 32 red and 26 other balls. Two are drawn without replacement. Find the probability that both are red.",
+    "options": [
+      "2149/1653",
+      "-1157/1653",
+      "992/1653",
+      "496/1653"
+    ],
+    "correct_option": "D",
+    "correct_answer": "496/1653",
+    "explanation": "The probability is C(32,2)/C(58,2) = 496/1653.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_without_replacement",
+      "variant": 4,
+      "inputs": {
+        "red": 32,
+        "total": 58,
+        "q": 5,
+        "expr": "F(C(red,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0011",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 1: A die-like device has 6 equally likely faces, 1 of which are marked. It is used twice with replacement. Find the probability that a marked face appears at least once.",
+    "options": [
+      "11/36",
+      "11/18",
+      "47/36",
+      "-25/36"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11/36",
+    "explanation": "Complement gives 1 - (6-1)²/6² = 11/36.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_with_replacement",
+      "variant": 0,
+      "inputs": {
+        "favour": 1,
+        "total": 6,
+        "q": 1,
+        "expr": "F(total**2-(total-favour)**2,total**2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0012",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 2: A die-like device has 7 equally likely faces, 2 of which are marked. It is used twice with replacement. Find the probability that a marked face appears at least once.",
+    "options": [
+      "-25/49",
+      "73/49",
+      "48/49",
+      "24/49"
+    ],
+    "correct_option": "D",
+    "correct_answer": "24/49",
+    "explanation": "Complement gives 1 - (7-2)²/7² = 24/49.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_with_replacement",
+      "variant": 1,
+      "inputs": {
+        "favour": 2,
+        "total": 7,
+        "q": 2,
+        "expr": "F(total**2-(total-favour)**2,total**2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0013",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 3: A die-like device has 8 equally likely faces, 3 of which are marked. It is used twice with replacement. Find the probability that a marked face appears at least once.",
+    "options": [
+      "-25/64",
+      "39/64",
+      "103/64",
+      "39/32"
+    ],
+    "correct_option": "B",
+    "correct_answer": "39/64",
+    "explanation": "Complement gives 1 - (8-3)²/8² = 39/64.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_with_replacement",
+      "variant": 2,
+      "inputs": {
+        "favour": 3,
+        "total": 8,
+        "q": 3,
+        "expr": "F(total**2-(total-favour)**2,total**2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0014",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 4: A die-like device has 9 equally likely faces, 4 of which are marked. It is used twice with replacement. Find the probability that a marked face appears at least once.",
+    "options": [
+      "56/81",
+      "-25/81",
+      "137/81",
+      "112/81"
+    ],
+    "correct_option": "A",
+    "correct_answer": "56/81",
+    "explanation": "Complement gives 1 - (9-4)²/9² = 56/81.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_with_replacement",
+      "variant": 3,
+      "inputs": {
+        "favour": 4,
+        "total": 9,
+        "q": 4,
+        "expr": "F(total**2-(total-favour)**2,total**2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0015",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 1,
+    "section": "probability_mains_part_1",
+    "question_text": "Case 5: A die-like device has 10 equally likely faces, 5 of which are marked. It is used twice with replacement. Find the probability that a marked face appears at least once.",
+    "options": [
+      "3/4",
+      "7/4",
+      "3/2",
+      "-1/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/4",
+    "explanation": "Complement gives 1 - (10-5)²/10² = 3/4.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_with_replacement",
+      "variant": 4,
+      "inputs": {
+        "favour": 5,
+        "total": 10,
+        "q": 5,
+        "expr": "F(total**2-(total-favour)**2,total**2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0016",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 1: Two fair dice are rolled. Find the probability that the sum is 8.",
+    "options": [
+      "-31/36",
+      "41/36",
+      "5/36",
+      "5/18"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5/36",
+    "explanation": "There are 6-|7-8| ordered pairs with sum 8 out of 36, so the probability is 5/36.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_sum",
+      "variant": 0,
+      "inputs": {
+        "target": 8,
+        "q": 1,
+        "expr": "F(6-abs(7-target),36)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0017",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 2: Two fair dice are rolled. Find the probability that the sum is 10.",
+    "options": [
+      "13/12",
+      "1/6",
+      "-11/12",
+      "1/12"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/12",
+    "explanation": "There are 6-|7-10| ordered pairs with sum 10 out of 36, so the probability is 1/12.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_sum",
+      "variant": 1,
+      "inputs": {
+        "target": 10,
+        "q": 2,
+        "expr": "F(6-abs(7-target),36)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0018",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 3: Two fair dice are rolled. Find the probability that the sum is 12.",
+    "options": [
+      "-35/36",
+      "1/36",
+      "1/18",
+      "37/36"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/36",
+    "explanation": "There are 6-|7-12| ordered pairs with sum 12 out of 36, so the probability is 1/36.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_sum",
+      "variant": 2,
+      "inputs": {
+        "target": 12,
+        "q": 3,
+        "expr": "F(6-abs(7-target),36)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0019",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 4: Two fair dice are rolled. Find the probability that the sum is 14.",
+    "options": [
+      "-1/36",
+      "35/36",
+      "-37/36",
+      "-1/18"
+    ],
+    "correct_option": "A",
+    "correct_answer": "-1/36",
+    "explanation": "There are 6-|7-14| ordered pairs with sum 14 out of 36, so the probability is -1/36.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_sum",
+      "variant": 3,
+      "inputs": {
+        "target": 14,
+        "q": 4,
+        "expr": "F(6-abs(7-target),36)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0020",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 5: Two fair dice are rolled. Find the probability that the sum is 16.",
+    "options": [
+      "-1/12",
+      "11/12",
+      "-1/6",
+      "-13/12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "-1/12",
+    "explanation": "There are 6-|7-16| ordered pairs with sum 16 out of 36, so the probability is -1/12.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_sum",
+      "variant": 4,
+      "inputs": {
+        "target": 16,
+        "q": 5,
+        "expr": "F(6-abs(7-target),36)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0021",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 1: Two fair dice are rolled. Given that the sum is even, find the probability that both dice show the same number.",
+    "options": [
+      "2/3",
+      "-2/3",
+      "1/3",
+      "4/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/3",
+    "explanation": "Six doubles among 18 even-sum outcomes give 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_condition",
+      "variant": 0,
+      "inputs": {
+        "q": 1,
+        "expr": "F(1,3)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0022",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 2: Two fair dice are rolled. Given that the sum is even, find the probability that both dice show the same number.",
+    "options": [
+      "1/3",
+      "-2/3",
+      "2/3",
+      "4/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/3",
+    "explanation": "Six doubles among 18 even-sum outcomes give 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_condition",
+      "variant": 1,
+      "inputs": {
+        "q": 2,
+        "expr": "F(1,3)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0023",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 3: Two fair dice are rolled. Given that the sum is even, find the probability that both dice show the same number.",
+    "options": [
+      "-2/3",
+      "4/3",
+      "2/3",
+      "1/3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/3",
+    "explanation": "Six doubles among 18 even-sum outcomes give 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_condition",
+      "variant": 2,
+      "inputs": {
+        "q": 3,
+        "expr": "F(1,3)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0024",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 4: Two fair dice are rolled. Given that the sum is even, find the probability that both dice show the same number.",
+    "options": [
+      "4/3",
+      "1/3",
+      "-2/3",
+      "2/3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/3",
+    "explanation": "Six doubles among 18 even-sum outcomes give 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_condition",
+      "variant": 3,
+      "inputs": {
+        "q": 4,
+        "expr": "F(1,3)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0025",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 5: Two fair dice are rolled. Given that the sum is even, find the probability that both dice show the same number.",
+    "options": [
+      "1/3",
+      "4/3",
+      "2/3",
+      "-2/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/3",
+    "explanation": "Six doubles among 18 even-sum outcomes give 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_condition",
+      "variant": 4,
+      "inputs": {
+        "q": 5,
+        "expr": "F(1,3)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0026",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 1: A fair coin is tossed 3 times. Find the probability of at least one head.",
+    "options": [
+      "-1/8",
+      "7/8",
+      "7/4",
+      "15/8"
+    ],
+    "correct_option": "B",
+    "correct_answer": "7/8",
+    "explanation": "Complement of all tails gives (2^3-1)/2^3 = 7/8.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_at_least_one",
+      "variant": 0,
+      "inputs": {
+        "n": 3,
+        "q": 1,
+        "expr": "F(2**n-1,2**n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0027",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 2: A fair coin is tossed 5 times. Find the probability of at least one head.",
+    "options": [
+      "31/32",
+      "31/16",
+      "-1/32",
+      "63/32"
+    ],
+    "correct_option": "A",
+    "correct_answer": "31/32",
+    "explanation": "Complement of all tails gives (2^5-1)/2^5 = 31/32.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_at_least_one",
+      "variant": 1,
+      "inputs": {
+        "n": 5,
+        "q": 2,
+        "expr": "F(2**n-1,2**n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0028",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 3: A fair coin is tossed 7 times. Find the probability of at least one head.",
+    "options": [
+      "127/64",
+      "-1/128",
+      "127/128",
+      "255/128"
+    ],
+    "correct_option": "C",
+    "correct_answer": "127/128",
+    "explanation": "Complement of all tails gives (2^7-1)/2^7 = 127/128.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_at_least_one",
+      "variant": 2,
+      "inputs": {
+        "n": 7,
+        "q": 3,
+        "expr": "F(2**n-1,2**n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0029",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 4: A fair coin is tossed 9 times. Find the probability of at least one head.",
+    "options": [
+      "1023/512",
+      "511/512",
+      "511/256",
+      "-1/512"
+    ],
+    "correct_option": "B",
+    "correct_answer": "511/512",
+    "explanation": "Complement of all tails gives (2^9-1)/2^9 = 511/512.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_at_least_one",
+      "variant": 3,
+      "inputs": {
+        "n": 9,
+        "q": 4,
+        "expr": "F(2**n-1,2**n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0030",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 5: A fair coin is tossed 11 times. Find the probability of at least one head.",
+    "options": [
+      "-1/2048",
+      "4095/2048",
+      "2047/1024",
+      "2047/2048"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2047/2048",
+    "explanation": "Complement of all tails gives (2^11-1)/2^11 = 2047/2048.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_at_least_one",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "q": 5,
+        "expr": "F(2**n-1,2**n)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0031",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 1: A batch contains 20 items, 2 defective. If 3 items are inspected without replacement, find the probability that none is defective.",
+    "options": [
+      "163/95",
+      "-27/95",
+      "136/95",
+      "68/95"
+    ],
+    "correct_option": "D",
+    "correct_answer": "68/95",
+    "explanation": "Choose all 3 from the 20-2 good items: 68/95.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_complement",
+      "variant": 0,
+      "inputs": {
+        "N": 20,
+        "d": 2,
+        "n": 3,
+        "q": 1,
+        "expr": "F(C(N-d,n),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0032",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 2: A batch contains 24 items, 3 defective. If 4 items are inspected without replacement, find the probability that none is defective.",
+    "options": [
+      "285/253",
+      "-221/506",
+      "285/506",
+      "791/506"
+    ],
+    "correct_option": "C",
+    "correct_answer": "285/506",
+    "explanation": "Choose all 4 from the 24-3 good items: 285/506.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_complement",
+      "variant": 1,
+      "inputs": {
+        "N": 24,
+        "d": 3,
+        "n": 4,
+        "q": 2,
+        "expr": "F(C(N-d,n),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0033",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 3: A batch contains 28 items, 4 defective. If 5 items are inspected without replacement, find the probability that none is defective.",
+    "options": [
+      "-332/585",
+      "506/585",
+      "838/585",
+      "253/585"
+    ],
+    "correct_option": "D",
+    "correct_answer": "253/585",
+    "explanation": "Choose all 5 from the 28-4 good items: 253/585.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_complement",
+      "variant": 2,
+      "inputs": {
+        "N": 28,
+        "d": 4,
+        "n": 5,
+        "q": 3,
+        "expr": "F(C(N-d,n),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0034",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 4: A batch contains 32 items, 5 defective. If 6 items are inspected without replacement, find the probability that none is defective.",
+    "options": [
+      "16445/50344",
+      "66789/50344",
+      "-33899/50344",
+      "16445/25172"
+    ],
+    "correct_option": "A",
+    "correct_answer": "16445/50344",
+    "explanation": "Choose all 6 from the 32-5 good items: 16445/50344.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_complement",
+      "variant": 3,
+      "inputs": {
+        "N": 32,
+        "d": 5,
+        "n": 6,
+        "q": 4,
+        "expr": "F(C(N-d,n),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0035",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 2,
+    "section": "probability_mains_part_2",
+    "question_text": "Case 5: A batch contains 36 items, 6 defective. If 7 items are inspected without replacement, find the probability that none is defective.",
+    "options": [
+      "5655/23188",
+      "28843/23188",
+      "5655/11594",
+      "-17533/23188"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5655/23188",
+    "explanation": "Choose all 7 from the 36-6 good items: 5655/23188.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_complement",
+      "variant": 4,
+      "inputs": {
+        "N": 36,
+        "d": 6,
+        "n": 7,
+        "q": 5,
+        "expr": "F(C(N-d,n),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0036",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 1: Within a restricted sample space of 8 equally likely cases, 3 satisfy the required condition. Find the conditional probability.",
+    "options": [
+      "3/8",
+      "-5/8",
+      "11/8",
+      "3/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/8",
+    "explanation": "Conditioning on the restricted space gives 3/8 = 3/8.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_conditional",
+      "variant": 0,
+      "inputs": {
+        "a": 3,
+        "b": 8,
+        "q": 1,
+        "expr": "F(a,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0037",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 2: Within a restricted sample space of 9 equally likely cases, 4 satisfy the required condition. Find the conditional probability.",
+    "options": [
+      "4/9",
+      "-5/9",
+      "8/9",
+      "13/9"
+    ],
+    "correct_option": "A",
+    "correct_answer": "4/9",
+    "explanation": "Conditioning on the restricted space gives 4/9 = 4/9.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_conditional",
+      "variant": 1,
+      "inputs": {
+        "a": 4,
+        "b": 9,
+        "q": 2,
+        "expr": "F(a,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0038",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 3: Within a restricted sample space of 10 equally likely cases, 5 satisfy the required condition. Find the conditional probability.",
+    "options": [
+      "1",
+      "1/2",
+      "-1/2",
+      "3/2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/2",
+    "explanation": "Conditioning on the restricted space gives 5/10 = 1/2.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_conditional",
+      "variant": 2,
+      "inputs": {
+        "a": 5,
+        "b": 10,
+        "q": 3,
+        "expr": "F(a,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0039",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 4: Within a restricted sample space of 11 equally likely cases, 6 satisfy the required condition. Find the conditional probability.",
+    "options": [
+      "-5/11",
+      "6/11",
+      "17/11",
+      "12/11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6/11",
+    "explanation": "Conditioning on the restricted space gives 6/11 = 6/11.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_conditional",
+      "variant": 3,
+      "inputs": {
+        "a": 6,
+        "b": 11,
+        "q": 4,
+        "expr": "F(a,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0040",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 5: Within a restricted sample space of 12 equally likely cases, 7 satisfy the required condition. Find the conditional probability.",
+    "options": [
+      "7/12",
+      "19/12",
+      "7/6",
+      "-5/12"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7/12",
+    "explanation": "Conditioning on the restricted space gives 7/12 = 7/12.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_conditional",
+      "variant": 4,
+      "inputs": {
+        "a": 7,
+        "b": 12,
+        "q": 5,
+        "expr": "F(a,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0041",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 1: Two boxes are chosen with equal chance. A red ball is 4 times as likely from box 1 and 8 times as likely from box 2. Given a red ball, find the probability it came from box 1.",
+    "options": [
+      "2/3",
+      "4/3",
+      "1/3",
+      "-2/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/3",
+    "explanation": "Equal priors give p1/(p1+p2) = 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_bayes_box",
+      "variant": 0,
+      "inputs": {
+        "p1": 4,
+        "p2": 8,
+        "q": 1,
+        "expr": "F(p1,p1+p2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0042",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 2: Two boxes are chosen with equal chance. A red ball is 5 times as likely from box 1 and 9 times as likely from box 2. Given a red ball, find the probability it came from box 1.",
+    "options": [
+      "-9/14",
+      "19/14",
+      "5/7",
+      "5/14"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5/14",
+    "explanation": "Equal priors give p1/(p1+p2) = 5/14.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_bayes_box",
+      "variant": 1,
+      "inputs": {
+        "p1": 5,
+        "p2": 9,
+        "q": 2,
+        "expr": "F(p1,p1+p2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0043",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 3: Two boxes are chosen with equal chance. A red ball is 6 times as likely from box 1 and 10 times as likely from box 2. Given a red ball, find the probability it came from box 1.",
+    "options": [
+      "-5/8",
+      "3/8",
+      "11/8",
+      "3/4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3/8",
+    "explanation": "Equal priors give p1/(p1+p2) = 3/8.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_bayes_box",
+      "variant": 2,
+      "inputs": {
+        "p1": 6,
+        "p2": 10,
+        "q": 3,
+        "expr": "F(p1,p1+p2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0044",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 4: Two boxes are chosen with equal chance. A red ball is 7 times as likely from box 1 and 11 times as likely from box 2. Given a red ball, find the probability it came from box 1.",
+    "options": [
+      "-11/18",
+      "7/9",
+      "7/18",
+      "25/18"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7/18",
+    "explanation": "Equal priors give p1/(p1+p2) = 7/18.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_bayes_box",
+      "variant": 3,
+      "inputs": {
+        "p1": 7,
+        "p2": 11,
+        "q": 4,
+        "expr": "F(p1,p1+p2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0045",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 5: Two boxes are chosen with equal chance. A red ball is 8 times as likely from box 1 and 12 times as likely from box 2. Given a red ball, find the probability it came from box 1.",
+    "options": [
+      "2/5",
+      "7/5",
+      "4/5",
+      "-3/5"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2/5",
+    "explanation": "Equal priors give p1/(p1+p2) = 2/5.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_bayes_box",
+      "variant": 4,
+      "inputs": {
+        "p1": 8,
+        "p2": 12,
+        "q": 5,
+        "expr": "F(p1,p1+p2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0046",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 1: A word has 8 letters with 2 alike of one kind and 2 alike of another. Find the number of distinct arrangements.",
+    "options": [
+      "10080",
+      "10079",
+      "20160",
+      "10081"
+    ],
+    "correct_option": "A",
+    "correct_answer": "10080",
+    "explanation": "Divide n! by the repeated-factorials to get 10080.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_permutation_word",
+      "variant": 0,
+      "inputs": {
+        "n": 8,
+        "a": 2,
+        "b": 2,
+        "q": 1,
+        "expr": "F(fact(n),fact(a)*fact(b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0047",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 2: A word has 9 letters with 3 alike of one kind and 2 alike of another. Find the number of distinct arrangements.",
+    "options": [
+      "30240",
+      "30241",
+      "30239",
+      "60480"
+    ],
+    "correct_option": "A",
+    "correct_answer": "30240",
+    "explanation": "Divide n! by the repeated-factorials to get 30240.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_permutation_word",
+      "variant": 1,
+      "inputs": {
+        "n": 9,
+        "a": 3,
+        "b": 2,
+        "q": 2,
+        "expr": "F(fact(n),fact(a)*fact(b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0048",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 3: A word has 10 letters with 4 alike of one kind and 2 alike of another. Find the number of distinct arrangements.",
+    "options": [
+      "151200",
+      "75599",
+      "75600",
+      "75601"
+    ],
+    "correct_option": "C",
+    "correct_answer": "75600",
+    "explanation": "Divide n! by the repeated-factorials to get 75600.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_permutation_word",
+      "variant": 2,
+      "inputs": {
+        "n": 10,
+        "a": 4,
+        "b": 2,
+        "q": 3,
+        "expr": "F(fact(n),fact(a)*fact(b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0049",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 4: A word has 11 letters with 5 alike of one kind and 2 alike of another. Find the number of distinct arrangements.",
+    "options": [
+      "166320",
+      "166319",
+      "332640",
+      "166321"
+    ],
+    "correct_option": "A",
+    "correct_answer": "166320",
+    "explanation": "Divide n! by the repeated-factorials to get 166320.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_permutation_word",
+      "variant": 3,
+      "inputs": {
+        "n": 11,
+        "a": 5,
+        "b": 2,
+        "q": 4,
+        "expr": "F(fact(n),fact(a)*fact(b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0050",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 5: A word has 12 letters with 6 alike of one kind and 2 alike of another. Find the number of distinct arrangements.",
+    "options": [
+      "332641",
+      "332640",
+      "332639",
+      "665280"
+    ],
+    "correct_option": "B",
+    "correct_answer": "332640",
+    "explanation": "Divide n! by the repeated-factorials to get 332640.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_permutation_word",
+      "variant": 4,
+      "inputs": {
+        "n": 12,
+        "a": 6,
+        "b": 2,
+        "q": 5,
+        "expr": "F(fact(n),fact(a)*fact(b))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0051",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 1: From 12 people, 4 belong to a special group. A committee of 3 is chosen at random. Find the probability that at least one special-group member is included.",
+    "options": [
+      "41/55",
+      "-14/55",
+      "82/55",
+      "96/55"
+    ],
+    "correct_option": "A",
+    "correct_answer": "41/55",
+    "explanation": "Complement of choosing none from the special group gives 41/55.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_combination_group",
+      "variant": 0,
+      "inputs": {
+        "n": 12,
+        "a": 4,
+        "k": 3,
+        "q": 1,
+        "expr": "F(C(n,k)-C(n-a,k),C(n,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0052",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 2: From 13 people, 5 belong to a special group. A committee of 3 is chosen at random. Find the probability that at least one special-group member is included.",
+    "options": [
+      "-28/143",
+      "230/143",
+      "258/143",
+      "115/143"
+    ],
+    "correct_option": "D",
+    "correct_answer": "115/143",
+    "explanation": "Complement of choosing none from the special group gives 115/143.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_combination_group",
+      "variant": 1,
+      "inputs": {
+        "n": 13,
+        "a": 5,
+        "k": 3,
+        "q": 2,
+        "expr": "F(C(n,k)-C(n-a,k),C(n,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0053",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 3: From 14 people, 6 belong to a special group. A committee of 3 is chosen at random. Find the probability that at least one special-group member is included.",
+    "options": [
+      "11/13",
+      "-2/13",
+      "22/13",
+      "24/13"
+    ],
+    "correct_option": "A",
+    "correct_answer": "11/13",
+    "explanation": "Complement of choosing none from the special group gives 11/13.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_combination_group",
+      "variant": 2,
+      "inputs": {
+        "n": 14,
+        "a": 6,
+        "k": 3,
+        "q": 3,
+        "expr": "F(C(n,k)-C(n-a,k),C(n,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0054",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 4: From 15 people, 7 belong to a special group. A committee of 3 is chosen at random. Find the probability that at least one special-group member is included.",
+    "options": [
+      "57/65",
+      "114/65",
+      "-8/65",
+      "122/65"
+    ],
+    "correct_option": "A",
+    "correct_answer": "57/65",
+    "explanation": "Complement of choosing none from the special group gives 57/65.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_combination_group",
+      "variant": 3,
+      "inputs": {
+        "n": 15,
+        "a": 7,
+        "k": 3,
+        "q": 4,
+        "expr": "F(C(n,k)-C(n-a,k),C(n,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0055",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 5: From 16 people, 8 belong to a special group. A committee of 3 is chosen at random. Find the probability that at least one special-group member is included.",
+    "options": [
+      "9/5",
+      "19/10",
+      "9/10",
+      "-1/10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "9/10",
+    "explanation": "Complement of choosing none from the special group gives 9/10.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_combination_group",
+      "variant": 4,
+      "inputs": {
+        "n": 16,
+        "a": 8,
+        "k": 3,
+        "q": 5,
+        "expr": "F(C(n,k)-C(n-a,k),C(n,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0056",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 1: From 6 women and 5 men, a committee of 4 is formed. Find the probability that exactly 2 women are chosen.",
+    "options": [
+      "16/11",
+      "5/11",
+      "-6/11",
+      "10/11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/11",
+    "explanation": "Favourable committees are C(m,r)×C(men,k-r) out of all committees, giving 5/11.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_committee",
+      "variant": 0,
+      "inputs": {
+        "m": 6,
+        "men": 5,
+        "k": 4,
+        "r": 2,
+        "q": 1,
+        "expr": "F(C(m,r)*C(men,k-r),C(m+men,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0057",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 2: From 7 women and 6 men, a committee of 4 is formed. Find the probability that exactly 2 women are chosen.",
+    "options": [
+      "-80/143",
+      "126/143",
+      "206/143",
+      "63/143"
+    ],
+    "correct_option": "D",
+    "correct_answer": "63/143",
+    "explanation": "Favourable committees are C(m,r)×C(men,k-r) out of all committees, giving 63/143.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_committee",
+      "variant": 1,
+      "inputs": {
+        "m": 7,
+        "men": 6,
+        "k": 4,
+        "r": 2,
+        "q": 2,
+        "expr": "F(C(m,r)*C(men,k-r),C(m+men,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0058",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 3: From 8 women and 7 men, a committee of 4 is formed. Find the probability that exactly 2 women are chosen.",
+    "options": [
+      "-37/65",
+      "56/65",
+      "93/65",
+      "28/65"
+    ],
+    "correct_option": "D",
+    "correct_answer": "28/65",
+    "explanation": "Favourable committees are C(m,r)×C(men,k-r) out of all committees, giving 28/65.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_committee",
+      "variant": 2,
+      "inputs": {
+        "m": 8,
+        "men": 7,
+        "k": 4,
+        "r": 2,
+        "q": 3,
+        "expr": "F(C(m,r)*C(men,k-r),C(m+men,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0059",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 4: From 9 women and 8 men, a committee of 4 is formed. Find the probability that exactly 2 women are chosen.",
+    "options": [
+      "72/85",
+      "121/85",
+      "-49/85",
+      "36/85"
+    ],
+    "correct_option": "D",
+    "correct_answer": "36/85",
+    "explanation": "Favourable committees are C(m,r)×C(men,k-r) out of all committees, giving 36/85.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_committee",
+      "variant": 3,
+      "inputs": {
+        "m": 9,
+        "men": 8,
+        "k": 4,
+        "r": 2,
+        "q": 4,
+        "expr": "F(C(m,r)*C(men,k-r),C(m+men,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0060",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 5: From 10 women and 9 men, a committee of 4 is formed. Find the probability that exactly 2 women are chosen.",
+    "options": [
+      "-188/323",
+      "458/323",
+      "270/323",
+      "135/323"
+    ],
+    "correct_option": "D",
+    "correct_answer": "135/323",
+    "explanation": "Favourable committees are C(m,r)×C(men,k-r) out of all committees, giving 135/323.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_committee",
+      "variant": 4,
+      "inputs": {
+        "m": 10,
+        "men": 9,
+        "k": 4,
+        "r": 2,
+        "q": 5,
+        "expr": "F(C(m,r)*C(men,k-r),C(m+men,k))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0061",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 1: Two independent events have probabilities 1/2 and 1/3. Find the probability that both occur.",
+    "options": [
+      "1/3",
+      "1/6",
+      "7/6",
+      "-5/6"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/6",
+    "explanation": "Independence gives product 1/2×1/3 = 1/6.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_independent_events",
+      "variant": 0,
+      "inputs": {
+        "p": "1/2",
+        "q2": "1/3",
+        "case": 1,
+        "expr": "p*q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0062",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 2: Two independent events have probabilities 2/5 and 1/4. Find the probability that both occur.",
+    "options": [
+      "1/5",
+      "-9/10",
+      "1/10",
+      "11/10"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/10",
+    "explanation": "Independence gives product 2/5×1/4 = 1/10.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_independent_events",
+      "variant": 1,
+      "inputs": {
+        "p": "2/5",
+        "q2": "1/4",
+        "case": 2,
+        "expr": "p*q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0063",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 3: Two independent events have probabilities 3/5 and 1/2. Find the probability that both occur.",
+    "options": [
+      "13/10",
+      "-7/10",
+      "3/10",
+      "3/5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/10",
+    "explanation": "Independence gives product 3/5×1/2 = 3/10.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_independent_events",
+      "variant": 2,
+      "inputs": {
+        "p": "3/5",
+        "q2": "1/2",
+        "case": 3,
+        "expr": "p*q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0064",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 4: Two independent events have probabilities 1/4 and 2/3. Find the probability that both occur.",
+    "options": [
+      "-5/6",
+      "1/3",
+      "7/6",
+      "1/6"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/6",
+    "explanation": "Independence gives product 1/4×2/3 = 1/6.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_independent_events",
+      "variant": 3,
+      "inputs": {
+        "p": "1/4",
+        "q2": "2/3",
+        "case": 4,
+        "expr": "p*q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0065",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 3,
+    "section": "probability_mains_part_3",
+    "question_text": "Case 5: Two independent events have probabilities 3/4 and 1/5. Find the probability that both occur.",
+    "options": [
+      "-17/20",
+      "3/20",
+      "3/10",
+      "23/20"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3/20",
+    "explanation": "Independence gives product 3/4×1/5 = 3/20.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_independent_events",
+      "variant": 4,
+      "inputs": {
+        "p": "3/4",
+        "q2": "1/5",
+        "case": 5,
+        "expr": "p*q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0066",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: Two mutually exclusive events have probabilities 1/5 and 1/4. Find the probability that either occurs.",
+    "options": [
+      "9/20",
+      "29/20",
+      "9/10",
+      "-11/20"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9/20",
+    "explanation": "Mutual exclusion allows addition: 9/20.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_mutually_exclusive",
+      "variant": 0,
+      "inputs": {
+        "p": "1/5",
+        "q2": "1/4",
+        "case": 1,
+        "expr": "p+q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0067",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: Two mutually exclusive events have probabilities 1/6 and 1/3. Find the probability that either occurs.",
+    "options": [
+      "3/2",
+      "-1/2",
+      "1",
+      "1/2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/2",
+    "explanation": "Mutual exclusion allows addition: 1/2.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_mutually_exclusive",
+      "variant": 1,
+      "inputs": {
+        "p": "1/6",
+        "q2": "1/3",
+        "case": 2,
+        "expr": "p+q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0068",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: Two mutually exclusive events have probabilities 1/8 and 1/4. Find the probability that either occurs.",
+    "options": [
+      "3/8",
+      "-5/8",
+      "11/8",
+      "3/4"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/8",
+    "explanation": "Mutual exclusion allows addition: 3/8.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_mutually_exclusive",
+      "variant": 2,
+      "inputs": {
+        "p": "1/8",
+        "q2": "1/4",
+        "case": 3,
+        "expr": "p+q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0069",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: Two mutually exclusive events have probabilities 1/3 and 1/6. Find the probability that either occurs.",
+    "options": [
+      "-1/2",
+      "3/2",
+      "1/2",
+      "1"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1/2",
+    "explanation": "Mutual exclusion allows addition: 1/2.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_mutually_exclusive",
+      "variant": 3,
+      "inputs": {
+        "p": "1/3",
+        "q2": "1/6",
+        "case": 4,
+        "expr": "p+q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0070",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: Two mutually exclusive events have probabilities 1/10 and 1/5. Find the probability that either occurs.",
+    "options": [
+      "13/10",
+      "3/5",
+      "-7/10",
+      "3/10"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3/10",
+    "explanation": "Mutual exclusion allows addition: 3/10.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_mutually_exclusive",
+      "variant": 4,
+      "inputs": {
+        "p": "1/10",
+        "q2": "1/5",
+        "case": 5,
+        "expr": "p+q2",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0071",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: The odds in favour of an event are 2:3. Find its probability.",
+    "options": [
+      "7/5",
+      "-3/5",
+      "2/5",
+      "4/5"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/5",
+    "explanation": "Probability = a/(a+b) = 2/5.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_odds_conversion",
+      "variant": 0,
+      "inputs": {
+        "a": 2,
+        "b": 3,
+        "q": 1,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0072",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: The odds in favour of an event are 3:4. Find its probability.",
+    "options": [
+      "10/7",
+      "6/7",
+      "3/7",
+      "-4/7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/7",
+    "explanation": "Probability = a/(a+b) = 3/7.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_odds_conversion",
+      "variant": 1,
+      "inputs": {
+        "a": 3,
+        "b": 4,
+        "q": 2,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0073",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: The odds in favour of an event are 4:5. Find its probability.",
+    "options": [
+      "8/9",
+      "4/9",
+      "13/9",
+      "-5/9"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4/9",
+    "explanation": "Probability = a/(a+b) = 4/9.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_odds_conversion",
+      "variant": 2,
+      "inputs": {
+        "a": 4,
+        "b": 5,
+        "q": 3,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0074",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: The odds in favour of an event are 5:6. Find its probability.",
+    "options": [
+      "16/11",
+      "5/11",
+      "-6/11",
+      "10/11"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/11",
+    "explanation": "Probability = a/(a+b) = 5/11.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_odds_conversion",
+      "variant": 3,
+      "inputs": {
+        "a": 5,
+        "b": 6,
+        "q": 4,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0075",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: The odds in favour of an event are 6:7. Find its probability.",
+    "options": [
+      "19/13",
+      "6/13",
+      "12/13",
+      "-7/13"
+    ],
+    "correct_option": "B",
+    "correct_answer": "6/13",
+    "explanation": "Probability = a/(a+b) = 6/13.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_odds_conversion",
+      "variant": 4,
+      "inputs": {
+        "a": 6,
+        "b": 7,
+        "q": 5,
+        "expr": "F(a,a+b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0076",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: A trial succeeds with probability 1/5. If it is repeated 10 times, find the expected number of successes.",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2",
+    "explanation": "Expected value = n×p = 2.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_expected_value",
+      "variant": 0,
+      "inputs": {
+        "n": 10,
+        "p": "1/5",
+        "case": 1,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0077",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: A trial succeeds with probability 1/4. If it is repeated 12 times, find the expected number of successes.",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3",
+    "explanation": "Expected value = n×p = 3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_expected_value",
+      "variant": 1,
+      "inputs": {
+        "n": 12,
+        "p": "1/4",
+        "case": 2,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0078",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: A trial succeeds with probability 1/2. If it is repeated 20 times, find the expected number of successes.",
+    "options": [
+      "9",
+      "11",
+      "10",
+      "20"
+    ],
+    "correct_option": "C",
+    "correct_answer": "10",
+    "explanation": "Expected value = n×p = 10.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_expected_value",
+      "variant": 2,
+      "inputs": {
+        "n": 20,
+        "p": "1/2",
+        "case": 3,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0079",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: A trial succeeds with probability 2/5. If it is repeated 15 times, find the expected number of successes.",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "12"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Expected value = n×p = 6.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_expected_value",
+      "variant": 3,
+      "inputs": {
+        "n": 15,
+        "p": "2/5",
+        "case": 4,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0080",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: A trial succeeds with probability 1/3. If it is repeated 18 times, find the expected number of successes.",
+    "options": [
+      "5",
+      "12",
+      "6",
+      "7"
+    ],
+    "correct_option": "C",
+    "correct_answer": "6",
+    "explanation": "Expected value = n×p = 6.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_expected_value",
+      "variant": 4,
+      "inputs": {
+        "n": 18,
+        "p": "1/3",
+        "case": 5,
+        "expr": "F(n)*p",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0081",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: In 5 independent trials with success probability 1/2, find the probability of exactly 2 successes.",
+    "options": [
+      "5/8",
+      "21/16",
+      "-11/16",
+      "5/16"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5/16",
+    "explanation": "Binomial probability C(n,k)p^k(1-p)^(n-k) = 5/16.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_binomial",
+      "variant": 0,
+      "inputs": {
+        "n": 5,
+        "k": 2,
+        "p": "1/2",
+        "case": 1,
+        "expr": "F(C(n,k)*p**k*(1-p)**(n-k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0082",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: In 6 independent trials with success probability 1/3, find the probability of exactly 2 successes.",
+    "options": [
+      "323/243",
+      "160/243",
+      "80/243",
+      "-163/243"
+    ],
+    "correct_option": "C",
+    "correct_answer": "80/243",
+    "explanation": "Binomial probability C(n,k)p^k(1-p)^(n-k) = 80/243.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_binomial",
+      "variant": 1,
+      "inputs": {
+        "n": 6,
+        "k": 2,
+        "p": "1/3",
+        "case": 2,
+        "expr": "F(C(n,k)*p**k*(1-p)**(n-k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0083",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: In 4 independent trials with success probability 1/4, find the probability of exactly 1 successes.",
+    "options": [
+      "27/64",
+      "27/32",
+      "91/64",
+      "-37/64"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27/64",
+    "explanation": "Binomial probability C(n,k)p^k(1-p)^(n-k) = 27/64.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_binomial",
+      "variant": 2,
+      "inputs": {
+        "n": 4,
+        "k": 1,
+        "p": "1/4",
+        "case": 3,
+        "expr": "F(C(n,k)*p**k*(1-p)**(n-k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0084",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: In 6 independent trials with success probability 1/2, find the probability of exactly 3 successes.",
+    "options": [
+      "5/16",
+      "-11/16",
+      "21/16",
+      "5/8"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5/16",
+    "explanation": "Binomial probability C(n,k)p^k(1-p)^(n-k) = 5/16.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_binomial",
+      "variant": 3,
+      "inputs": {
+        "n": 6,
+        "k": 3,
+        "p": "1/2",
+        "case": 4,
+        "expr": "F(C(n,k)*p**k*(1-p)**(n-k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0085",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: In 5 independent trials with success probability 2/5, find the probability of exactly 1 successes.",
+    "options": [
+      "324/625",
+      "-463/625",
+      "162/625",
+      "787/625"
+    ],
+    "correct_option": "C",
+    "correct_answer": "162/625",
+    "explanation": "Binomial probability C(n,k)p^k(1-p)^(n-k) = 162/625.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_binomial",
+      "variant": 4,
+      "inputs": {
+        "n": 5,
+        "k": 1,
+        "p": "2/5",
+        "case": 5,
+        "expr": "F(C(n,k)*p**k*(1-p)**(n-k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0086",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: An urn has 6 red and 4 blue balls. Two red balls are added. Find the probability of drawing a red ball now.",
+    "options": [
+      "5/3",
+      "-1/3",
+      "2/3",
+      "4/3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2/3",
+    "explanation": "New red count is 6+2 and total is 6+4+2, giving 2/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_urn_transfer",
+      "variant": 0,
+      "inputs": {
+        "r": 6,
+        "b": 4,
+        "q": 1,
+        "expr": "F(r+2,r+b+2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0087",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: An urn has 7 red and 5 blue balls. Two red balls are added. Find the probability of drawing a red ball now.",
+    "options": [
+      "-5/14",
+      "23/14",
+      "9/7",
+      "9/14"
+    ],
+    "correct_option": "D",
+    "correct_answer": "9/14",
+    "explanation": "New red count is 7+2 and total is 7+5+2, giving 9/14.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_urn_transfer",
+      "variant": 1,
+      "inputs": {
+        "r": 7,
+        "b": 5,
+        "q": 2,
+        "expr": "F(r+2,r+b+2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0088",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: An urn has 8 red and 6 blue balls. Two red balls are added. Find the probability of drawing a red ball now.",
+    "options": [
+      "-3/8",
+      "13/8",
+      "5/8",
+      "5/4"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5/8",
+    "explanation": "New red count is 8+2 and total is 8+6+2, giving 5/8.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_urn_transfer",
+      "variant": 2,
+      "inputs": {
+        "r": 8,
+        "b": 6,
+        "q": 3,
+        "expr": "F(r+2,r+b+2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0089",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: An urn has 9 red and 7 blue balls. Two red balls are added. Find the probability of drawing a red ball now.",
+    "options": [
+      "-7/18",
+      "11/18",
+      "11/9",
+      "29/18"
+    ],
+    "correct_option": "B",
+    "correct_answer": "11/18",
+    "explanation": "New red count is 9+2 and total is 9+7+2, giving 11/18.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_urn_transfer",
+      "variant": 3,
+      "inputs": {
+        "r": 9,
+        "b": 7,
+        "q": 4,
+        "expr": "F(r+2,r+b+2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0090",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: An urn has 10 red and 8 blue balls. Two red balls are added. Find the probability of drawing a red ball now.",
+    "options": [
+      "8/5",
+      "3/5",
+      "-2/5",
+      "6/5"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3/5",
+    "explanation": "New red count is 10+2 and total is 10+8+2, giving 3/5.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_urn_transfer",
+      "variant": 4,
+      "inputs": {
+        "r": 10,
+        "b": 8,
+        "q": 5,
+        "expr": "F(r+2,r+b+2)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0091",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: A deck has 52 cards, 13 of a chosen suit. Two cards are drawn without replacement. Find the probability that neither is of that suit.",
+    "options": [
+      "19/17",
+      "-15/34",
+      "53/34",
+      "19/34"
+    ],
+    "correct_option": "D",
+    "correct_answer": "19/34",
+    "explanation": "Both must come from 52-13 cards: 19/34.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_card_suit",
+      "variant": 0,
+      "inputs": {
+        "suit": 13,
+        "total": 52,
+        "q": 1,
+        "expr": "F(C(total-suit,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0092",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: A deck has 56 cards, 14 of a chosen suit. Two cards are drawn without replacement. Find the probability that neither is of that suit.",
+    "options": [
+      "-97/220",
+      "343/220",
+      "123/220",
+      "123/110"
+    ],
+    "correct_option": "C",
+    "correct_answer": "123/220",
+    "explanation": "Both must come from 56-14 cards: 123/220.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_card_suit",
+      "variant": 1,
+      "inputs": {
+        "suit": 14,
+        "total": 56,
+        "q": 2,
+        "expr": "F(C(total-suit,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0093",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: A deck has 48 cards, 12 of a chosen suit. Two cards are drawn without replacement. Find the probability that neither is of that suit.",
+    "options": [
+      "105/188",
+      "-83/188",
+      "293/188",
+      "105/94"
+    ],
+    "correct_option": "A",
+    "correct_answer": "105/188",
+    "explanation": "Both must come from 48-12 cards: 105/188.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_card_suit",
+      "variant": 2,
+      "inputs": {
+        "suit": 12,
+        "total": 48,
+        "q": 3,
+        "expr": "F(C(total-suit,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0094",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: A deck has 60 cards, 15 of a chosen suit. Two cards are drawn without replacement. Find the probability that neither is of that suit.",
+    "options": [
+      "33/59",
+      "92/59",
+      "-26/59",
+      "66/59"
+    ],
+    "correct_option": "A",
+    "correct_answer": "33/59",
+    "explanation": "Both must come from 60-15 cards: 33/59.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_card_suit",
+      "variant": 3,
+      "inputs": {
+        "suit": 15,
+        "total": 60,
+        "q": 4,
+        "expr": "F(C(total-suit,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0095",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: A deck has 40 cards, 10 of a chosen suit. Two cards are drawn without replacement. Find the probability that neither is of that suit.",
+    "options": [
+      "-23/52",
+      "29/26",
+      "81/52",
+      "29/52"
+    ],
+    "correct_option": "D",
+    "correct_answer": "29/52",
+    "explanation": "Both must come from 40-10 cards: 29/52.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_card_suit",
+      "variant": 4,
+      "inputs": {
+        "suit": 10,
+        "total": 40,
+        "q": 5,
+        "expr": "F(C(total-suit,2),C(total,2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0096",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: An integer is chosen from 10 to 99 inclusive. Find the probability that it is divisible by 3.",
+    "options": [
+      "1/3",
+      "4/3",
+      "2/3",
+      "-2/3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/3",
+    "explanation": "Multiples of 3 in the range divided by total count gives 1/3.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_divisible_number",
+      "variant": 0,
+      "inputs": {
+        "start": 10,
+        "end": 99,
+        "q": 1,
+        "expr": "F((end-start)//3+1,end-start+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0097",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: An integer is chosen from 20 to 99 inclusive. Find the probability that it is divisible by 3.",
+    "options": [
+      "27/80",
+      "107/80",
+      "-53/80",
+      "27/40"
+    ],
+    "correct_option": "A",
+    "correct_answer": "27/80",
+    "explanation": "Multiples of 3 in the range divided by total count gives 27/80.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_divisible_number",
+      "variant": 1,
+      "inputs": {
+        "start": 20,
+        "end": 99,
+        "q": 2,
+        "expr": "F((end-start)//3+1,end-start+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0098",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: An integer is chosen from 10 to 89 inclusive. Find the probability that it is divisible by 3.",
+    "options": [
+      "27/40",
+      "107/80",
+      "27/80",
+      "-53/80"
+    ],
+    "correct_option": "C",
+    "correct_answer": "27/80",
+    "explanation": "Multiples of 3 in the range divided by total count gives 27/80.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_divisible_number",
+      "variant": 2,
+      "inputs": {
+        "start": 10,
+        "end": 89,
+        "q": 3,
+        "expr": "F((end-start)//3+1,end-start+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0099",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: An integer is chosen from 30 to 99 inclusive. Find the probability that it is divisible by 3.",
+    "options": [
+      "12/35",
+      "47/35",
+      "24/35",
+      "-23/35"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12/35",
+    "explanation": "Multiples of 3 in the range divided by total count gives 12/35.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_divisible_number",
+      "variant": 3,
+      "inputs": {
+        "start": 30,
+        "end": 99,
+        "q": 4,
+        "expr": "F((end-start)//3+1,end-start+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0100",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: An integer is chosen from 10 to 79 inclusive. Find the probability that it is divisible by 3.",
+    "options": [
+      "-23/35",
+      "47/35",
+      "12/35",
+      "24/35"
+    ],
+    "correct_option": "C",
+    "correct_answer": "12/35",
+    "explanation": "Multiples of 3 in the range divided by total count gives 12/35.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_divisible_number",
+      "variant": 4,
+      "inputs": {
+        "start": 10,
+        "end": 79,
+        "q": 5,
+        "expr": "F((end-start)//3+1,end-start+1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0101",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: Three balls are drawn without replacement from 6 distinctly numbered balls. Find the probability of one specified ordered sequence.",
+    "options": [
+      "1/120",
+      "-119/120",
+      "1/60",
+      "121/120"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/120",
+    "explanation": "Each ordered triple has probability 1/(6×(6-1)×(6-2)) = 1/120.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_ball_sequence",
+      "variant": 0,
+      "inputs": {
+        "n": 6,
+        "q": 1,
+        "expr": "F(1,n*(n-1)*(n-2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0102",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: Three balls are drawn without replacement from 8 distinctly numbered balls. Find the probability of one specified ordered sequence.",
+    "options": [
+      "337/336",
+      "1/336",
+      "1/168",
+      "-335/336"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/336",
+    "explanation": "Each ordered triple has probability 1/(8×(8-1)×(8-2)) = 1/336.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_ball_sequence",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "q": 2,
+        "expr": "F(1,n*(n-1)*(n-2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0103",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: Three balls are drawn without replacement from 10 distinctly numbered balls. Find the probability of one specified ordered sequence.",
+    "options": [
+      "-719/720",
+      "1/720",
+      "721/720",
+      "1/360"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1/720",
+    "explanation": "Each ordered triple has probability 1/(10×(10-1)×(10-2)) = 1/720.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_ball_sequence",
+      "variant": 2,
+      "inputs": {
+        "n": 10,
+        "q": 3,
+        "expr": "F(1,n*(n-1)*(n-2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0104",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: Three balls are drawn without replacement from 12 distinctly numbered balls. Find the probability of one specified ordered sequence.",
+    "options": [
+      "1/1320",
+      "-1319/1320",
+      "1/660",
+      "1321/1320"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1/1320",
+    "explanation": "Each ordered triple has probability 1/(12×(12-1)×(12-2)) = 1/1320.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_ball_sequence",
+      "variant": 3,
+      "inputs": {
+        "n": 12,
+        "q": 4,
+        "expr": "F(1,n*(n-1)*(n-2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0105",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: Three balls are drawn without replacement from 14 distinctly numbered balls. Find the probability of one specified ordered sequence.",
+    "options": [
+      "1/1092",
+      "-2183/2184",
+      "2185/2184",
+      "1/2184"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1/2184",
+    "explanation": "Each ordered triple has probability 1/(14×(14-1)×(14-2)) = 1/2184.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_ball_sequence",
+      "variant": 4,
+      "inputs": {
+        "n": 14,
+        "q": 5,
+        "expr": "F(1,n*(n-1)*(n-2))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0106",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: Two fair dice are rolled. Find the probability that their product is even.",
+    "options": [
+      "3/4",
+      "7/4",
+      "-1/4",
+      "3/2"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/4",
+    "explanation": "Complement of both odd gives 3/4.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_product",
+      "variant": 0,
+      "inputs": {
+        "q": 1,
+        "expr": "F(3,4)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0107",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: Two fair dice are rolled. Find the probability that their product is even.",
+    "options": [
+      "7/4",
+      "-1/4",
+      "3/2",
+      "3/4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3/4",
+    "explanation": "Complement of both odd gives 3/4.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_product",
+      "variant": 1,
+      "inputs": {
+        "q": 2,
+        "expr": "F(3,4)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0108",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: Two fair dice are rolled. Find the probability that their product is even.",
+    "options": [
+      "-1/4",
+      "7/4",
+      "3/4",
+      "3/2"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3/4",
+    "explanation": "Complement of both odd gives 3/4.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_product",
+      "variant": 2,
+      "inputs": {
+        "q": 3,
+        "expr": "F(3,4)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0109",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: Two fair dice are rolled. Find the probability that their product is even.",
+    "options": [
+      "-1/4",
+      "7/4",
+      "3/2",
+      "3/4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3/4",
+    "explanation": "Complement of both odd gives 3/4.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_product",
+      "variant": 3,
+      "inputs": {
+        "q": 4,
+        "expr": "F(3,4)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0110",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: Two fair dice are rolled. Find the probability that their product is even.",
+    "options": [
+      "7/4",
+      "3/4",
+      "-1/4",
+      "3/2"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3/4",
+    "explanation": "Complement of both odd gives 3/4.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_dice_product",
+      "variant": 4,
+      "inputs": {
+        "q": 5,
+        "expr": "F(3,4)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0111",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: Find the number of ordered arrangements of 3 objects chosen from 7 distinct objects.",
+    "options": [
+      "211",
+      "420",
+      "209",
+      "210"
+    ],
+    "correct_option": "D",
+    "correct_answer": "210",
+    "explanation": "Permutation P(7,3) = 210.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_arrangement",
+      "variant": 0,
+      "inputs": {
+        "n": 7,
+        "k": 3,
+        "q": 1,
+        "expr": "F(P(n,k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0112",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: Find the number of ordered arrangements of 4 objects chosen from 8 distinct objects.",
+    "options": [
+      "3360",
+      "1679",
+      "1680",
+      "1681"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1680",
+    "explanation": "Permutation P(8,4) = 1680.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_arrangement",
+      "variant": 1,
+      "inputs": {
+        "n": 8,
+        "k": 4,
+        "q": 2,
+        "expr": "F(P(n,k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0113",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: Find the number of ordered arrangements of 5 objects chosen from 9 distinct objects.",
+    "options": [
+      "15119",
+      "15121",
+      "30240",
+      "15120"
+    ],
+    "correct_option": "D",
+    "correct_answer": "15120",
+    "explanation": "Permutation P(9,5) = 15120.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_arrangement",
+      "variant": 2,
+      "inputs": {
+        "n": 9,
+        "k": 5,
+        "q": 3,
+        "expr": "F(P(n,k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0114",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: Find the number of ordered arrangements of 6 objects chosen from 10 distinct objects.",
+    "options": [
+      "151201",
+      "302400",
+      "151200",
+      "151199"
+    ],
+    "correct_option": "C",
+    "correct_answer": "151200",
+    "explanation": "Permutation P(10,6) = 151200.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_arrangement",
+      "variant": 3,
+      "inputs": {
+        "n": 10,
+        "k": 6,
+        "q": 4,
+        "expr": "F(P(n,k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0115",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: Find the number of ordered arrangements of 7 objects chosen from 11 distinct objects.",
+    "options": [
+      "1663199",
+      "1663201",
+      "3326400",
+      "1663200"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1663200",
+    "explanation": "Permutation P(11,7) = 1663200.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_arrangement",
+      "variant": 4,
+      "inputs": {
+        "n": 11,
+        "k": 7,
+        "q": 5,
+        "expr": "F(P(n,k),1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0116",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 1: A population has 20 items, 8 of which are special. If 5 items are sampled without replacement, find the probability of exactly 2 special items.",
+    "options": [
+      "385/969",
+      "-584/969",
+      "770/969",
+      "1354/969"
+    ],
+    "correct_option": "A",
+    "correct_answer": "385/969",
+    "explanation": "Hypergeometric count C(K,k)C(N-K,n-k) divided by C(N,n) = 385/969.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_hypergeometric",
+      "variant": 0,
+      "inputs": {
+        "N": 20,
+        "K": 8,
+        "n": 5,
+        "k": 2,
+        "case": 1,
+        "expr": "F(C(K,k)*C(N-K,n-k),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0117",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 2: A population has 18 items, 6 of which are special. If 4 items are sampled without replacement, find the probability of exactly 1 special items.",
+    "options": [
+      "22/51",
+      "44/51",
+      "-29/51",
+      "73/51"
+    ],
+    "correct_option": "A",
+    "correct_answer": "22/51",
+    "explanation": "Hypergeometric count C(K,k)C(N-K,n-k) divided by C(N,n) = 22/51.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_hypergeometric",
+      "variant": 1,
+      "inputs": {
+        "N": 18,
+        "K": 6,
+        "n": 4,
+        "k": 1,
+        "case": 2,
+        "expr": "F(C(K,k)*C(N-K,n-k),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0118",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 3: A population has 25 items, 10 of which are special. If 6 items are sampled without replacement, find the probability of exactly 3 special items.",
+    "options": [
+      "78/253",
+      "-175/253",
+      "331/253",
+      "156/253"
+    ],
+    "correct_option": "A",
+    "correct_answer": "78/253",
+    "explanation": "Hypergeometric count C(K,k)C(N-K,n-k) divided by C(N,n) = 78/253.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_hypergeometric",
+      "variant": 2,
+      "inputs": {
+        "N": 25,
+        "K": 10,
+        "n": 6,
+        "k": 3,
+        "case": 3,
+        "expr": "F(C(K,k)*C(N-K,n-k),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0119",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 4: A population has 15 items, 5 of which are special. If 4 items are sampled without replacement, find the probability of exactly 2 special items.",
+    "options": [
+      "-61/91",
+      "60/91",
+      "30/91",
+      "121/91"
+    ],
+    "correct_option": "C",
+    "correct_answer": "30/91",
+    "explanation": "Hypergeometric count C(K,k)C(N-K,n-k) divided by C(N,n) = 30/91.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_hypergeometric",
+      "variant": 3,
+      "inputs": {
+        "N": 15,
+        "K": 5,
+        "n": 4,
+        "k": 2,
+        "case": 4,
+        "expr": "F(C(K,k)*C(N-K,n-k),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "probability_mains-0120",
+    "chapter": "Probability (Mains)",
+    "chapter_key": "probability_mains",
+    "part": 4,
+    "section": "probability_mains_part_4",
+    "question_text": "Case 5: A population has 30 items, 12 of which are special. If 5 items are sampled without replacement, find the probability of exactly 2 special items.",
+    "options": [
+      "-4925/7917",
+      "2992/7917",
+      "10909/7917",
+      "5984/7917"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2992/7917",
+    "explanation": "Hypergeometric count C(K,k)C(N-K,n-k) divided by C(N,n) = 2992/7917.",
+    "difficulty": "HARD",
+    "source_name": "106c989f-3149-4b18-8084-66e351389c37.pdf",
+    "source_url": "",
+    "source_page": "106c989f-3149-4b18-8084-66e351389c37.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "pm_hypergeometric",
+      "variant": 4,
+      "inputs": {
+        "N": 30,
+        "K": 12,
+        "n": 5,
+        "k": 2,
+        "case": 5,
+        "expr": "F(C(K,k)*C(N-K,n-k),C(N,n))",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

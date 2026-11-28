@@ -1,0 +1,4552 @@
+[
+  {
+    "id": "trains_mains-0001",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 1: A train of length 180 m crosses a pole in 12 s. Find its speed in km/h.",
+    "options": [
+      "53 km/h",
+      "55 km/h",
+      "54 km/h",
+      "108 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "54 km/h",
+    "explanation": "Speed = length/time = 180/12 m/s = 54 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_pole",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "t": 12,
+        "q": 1,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0002",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 2: A train of length 182 m crosses a pole in 13 s. Find its speed in km/h.",
+    "options": [
+      "257/5 km/h",
+      "504/5 km/h",
+      "247/5 km/h",
+      "252/5 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "252/5 km/h",
+    "explanation": "Speed = length/time = 182/13 m/s = 252/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_pole",
+      "variant": 1,
+      "inputs": {
+        "l": 182,
+        "t": 13,
+        "q": 2,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0003",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 3: A train of length 184 m crosses a pole in 14 s. Find its speed in km/h.",
+    "options": [
+      "1621/35 km/h",
+      "1691/35 km/h",
+      "1656/35 km/h",
+      "3312/35 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1656/35 km/h",
+    "explanation": "Speed = length/time = 184/14 m/s = 1656/35 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_pole",
+      "variant": 2,
+      "inputs": {
+        "l": 184,
+        "t": 14,
+        "q": 3,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0004",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 4: A train of length 186 m crosses a pole in 15 s. Find its speed in km/h.",
+    "options": [
+      "1116/25 km/h",
+      "2232/25 km/h",
+      "1141/25 km/h",
+      "1091/25 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1116/25 km/h",
+    "explanation": "Speed = length/time = 186/15 m/s = 1116/25 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_pole",
+      "variant": 3,
+      "inputs": {
+        "l": 186,
+        "t": 15,
+        "q": 4,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0005",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 5: A train of length 188 m crosses a pole in 16 s. Find its speed in km/h.",
+    "options": [
+      "433/10 km/h",
+      "423/10 km/h",
+      "413/10 km/h",
+      "423/5 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "423/10 km/h",
+    "explanation": "Speed = length/time = 188/16 m/s = 423/10 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_pole",
+      "variant": 4,
+      "inputs": {
+        "l": 188,
+        "t": 16,
+        "q": 5,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0006",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 1: A 180 m train clears a 120 m platform in 20 s. Find the train's speed in km/h.",
+    "options": [
+      "108 km/h",
+      "53 km/h",
+      "55 km/h",
+      "54 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "54 km/h",
+    "explanation": "Total distance is 180 + 120 = 54 km/h when converted from m/s to km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_platform",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "p": 120,
+        "t": 20,
+        "q": 1,
+        "expr": "F((l+p)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0007",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 2: A 182 m train clears a 121 m platform in 21 s. Find the train's speed in km/h.",
+    "options": [
+      "1783/35 km/h",
+      "1818/35 km/h",
+      "1853/35 km/h",
+      "3636/35 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1818/35 km/h",
+    "explanation": "Total distance is 182 + 121 = 1818/35 km/h when converted from m/s to km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_platform",
+      "variant": 1,
+      "inputs": {
+        "l": 182,
+        "p": 121,
+        "t": 21,
+        "q": 2,
+        "expr": "F((l+p)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0008",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 3: A 184 m train clears a 122 m platform in 22 s. Find the train's speed in km/h.",
+    "options": [
+      "5508/55 km/h",
+      "2699/55 km/h",
+      "2809/55 km/h",
+      "2754/55 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2754/55 km/h",
+    "explanation": "Total distance is 184 + 122 = 2754/55 km/h when converted from m/s to km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_platform",
+      "variant": 2,
+      "inputs": {
+        "l": 184,
+        "p": 122,
+        "t": 22,
+        "q": 3,
+        "expr": "F((l+p)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0009",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 4: A 186 m train clears a 123 m platform in 23 s. Find the train's speed in km/h.",
+    "options": [
+      "11124/115 km/h",
+      "5677/115 km/h",
+      "5562/115 km/h",
+      "5447/115 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5562/115 km/h",
+    "explanation": "Total distance is 186 + 123 = 5562/115 km/h when converted from m/s to km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_platform",
+      "variant": 3,
+      "inputs": {
+        "l": 186,
+        "p": 123,
+        "t": 23,
+        "q": 4,
+        "expr": "F((l+p)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0010",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 5: A 188 m train clears a 124 m platform in 24 s. Find the train's speed in km/h.",
+    "options": [
+      "234/5 km/h",
+      "239/5 km/h",
+      "468/5 km/h",
+      "229/5 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "234/5 km/h",
+    "explanation": "Total distance is 188 + 124 = 234/5 km/h when converted from m/s to km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_cross_platform",
+      "variant": 4,
+      "inputs": {
+        "l": 188,
+        "p": 124,
+        "t": 24,
+        "q": 5,
+        "expr": "F((l+p)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0011",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 1: Two trains of lengths 120 m and 150 m run towards each other at 45 km/h and 36 km/h. Find the crossing time.",
+    "options": [
+      "12 s",
+      "13 s",
+      "24 s",
+      "11 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "12 s",
+    "explanation": "Relative speed is 45+36 km/h, so crossing time is 12 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_opposite_trains",
+      "variant": 0,
+      "inputs": {
+        "l1": 120,
+        "l2": 150,
+        "s1": 45,
+        "s2": 36,
+        "q": 1,
+        "expr": "F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0012",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 2: Two trains of lengths 130 m and 160 m run towards each other at 46 km/h and 37 km/h. Find the crossing time.",
+    "options": [
+      "1127/83 s",
+      "2088/83 s",
+      "961/83 s",
+      "1044/83 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1044/83 s",
+    "explanation": "Relative speed is 46+37 km/h, so crossing time is 1044/83 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_opposite_trains",
+      "variant": 1,
+      "inputs": {
+        "l1": 130,
+        "l2": 160,
+        "s1": 46,
+        "s2": 37,
+        "q": 2,
+        "expr": "F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0013",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 3: Two trains of lengths 140 m and 170 m run towards each other at 47 km/h and 38 km/h. Find the crossing time.",
+    "options": [
+      "1201/85 s",
+      "2232/85 s",
+      "1116/85 s",
+      "1031/85 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1116/85 s",
+    "explanation": "Relative speed is 47+38 km/h, so crossing time is 1116/85 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_opposite_trains",
+      "variant": 2,
+      "inputs": {
+        "l1": 140,
+        "l2": 170,
+        "s1": 47,
+        "s2": 38,
+        "q": 3,
+        "expr": "F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0014",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 4: Two trains of lengths 150 m and 180 m run towards each other at 48 km/h and 39 km/h. Find the crossing time.",
+    "options": [
+      "367/29 s",
+      "396/29 s",
+      "792/29 s",
+      "425/29 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "396/29 s",
+    "explanation": "Relative speed is 48+39 km/h, so crossing time is 396/29 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_opposite_trains",
+      "variant": 3,
+      "inputs": {
+        "l1": 150,
+        "l2": 180,
+        "s1": 48,
+        "s2": 39,
+        "q": 4,
+        "expr": "F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0015",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 1,
+    "section": "trains_mains_part_1",
+    "question_text": "Case 5: Two trains of lengths 160 m and 190 m run towards each other at 49 km/h and 40 km/h. Find the crossing time.",
+    "options": [
+      "1349/89 s",
+      "1260/89 s",
+      "1171/89 s",
+      "2520/89 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1260/89 s",
+    "explanation": "Relative speed is 49+40 km/h, so crossing time is 1260/89 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_opposite_trains",
+      "variant": 4,
+      "inputs": {
+        "l1": 160,
+        "l2": 190,
+        "s1": 49,
+        "s2": 40,
+        "q": 5,
+        "expr": "F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0016",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 1: Trains of lengths 120 m and 150 m move in the same direction at 72 km/h and 54 km/h. Find the time for the faster to clear the slower.",
+    "options": [
+      "54 s",
+      "55 s",
+      "108 s",
+      "53 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "54 s",
+    "explanation": "Relative speed is 72-54 km/h, giving 54 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_same_direction",
+      "variant": 0,
+      "inputs": {
+        "l1": 120,
+        "l2": 150,
+        "s1": 72,
+        "s2": 54,
+        "q": 1,
+        "expr": "F((l1+l2)*18,5*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0017",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 2: Trains of lengths 130 m and 160 m move in the same direction at 73 km/h and 55 km/h. Find the time for the faster to clear the slower.",
+    "options": [
+      "57 s",
+      "116 s",
+      "58 s",
+      "59 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "58 s",
+    "explanation": "Relative speed is 73-55 km/h, giving 58 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_same_direction",
+      "variant": 1,
+      "inputs": {
+        "l1": 130,
+        "l2": 160,
+        "s1": 73,
+        "s2": 55,
+        "q": 2,
+        "expr": "F((l1+l2)*18,5*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0018",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 3: Trains of lengths 140 m and 170 m move in the same direction at 74 km/h and 56 km/h. Find the time for the faster to clear the slower.",
+    "options": [
+      "124 s",
+      "61 s",
+      "63 s",
+      "62 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "62 s",
+    "explanation": "Relative speed is 74-56 km/h, giving 62 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_same_direction",
+      "variant": 2,
+      "inputs": {
+        "l1": 140,
+        "l2": 170,
+        "s1": 74,
+        "s2": 56,
+        "q": 3,
+        "expr": "F((l1+l2)*18,5*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0019",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 4: Trains of lengths 150 m and 180 m move in the same direction at 75 km/h and 57 km/h. Find the time for the faster to clear the slower.",
+    "options": [
+      "65 s",
+      "132 s",
+      "66 s",
+      "67 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "66 s",
+    "explanation": "Relative speed is 75-57 km/h, giving 66 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_same_direction",
+      "variant": 3,
+      "inputs": {
+        "l1": 150,
+        "l2": 180,
+        "s1": 75,
+        "s2": 57,
+        "q": 4,
+        "expr": "F((l1+l2)*18,5*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0020",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 5: Trains of lengths 160 m and 190 m move in the same direction at 76 km/h and 58 km/h. Find the time for the faster to clear the slower.",
+    "options": [
+      "71 s",
+      "70 s",
+      "140 s",
+      "69 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "70 s",
+    "explanation": "Relative speed is 76-58 km/h, giving 70 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_same_direction",
+      "variant": 4,
+      "inputs": {
+        "l1": 160,
+        "l2": 190,
+        "s1": 76,
+        "s2": 58,
+        "q": 5,
+        "expr": "F((l1+l2)*18,5*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0021",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 1: Two trains start 60 km apart and move in the same direction at 50 km/h and 30 km/h. How long until they meet?",
+    "options": [
+      "4 h",
+      "2 h",
+      "3 h",
+      "6 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3 h",
+    "explanation": "Closure speed is 50-30 km/h, so time is 3 h hours.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_gap_closure",
+      "variant": 0,
+      "inputs": {
+        "gap": 60,
+        "s1": 50,
+        "s2": 30,
+        "q": 1,
+        "expr": "F(gap,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0022",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 2: Two trains start 62 km apart and move in the same direction at 51 km/h and 31 km/h. How long until they meet?",
+    "options": [
+      "31/10 h",
+      "31/5 h",
+      "41/10 h",
+      "21/10 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "31/10 h",
+    "explanation": "Closure speed is 51-31 km/h, so time is 31/10 h hours.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_gap_closure",
+      "variant": 1,
+      "inputs": {
+        "gap": 62,
+        "s1": 51,
+        "s2": 31,
+        "q": 2,
+        "expr": "F(gap,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0023",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 3: Two trains start 64 km apart and move in the same direction at 52 km/h and 32 km/h. How long until they meet?",
+    "options": [
+      "32/5 h",
+      "16/5 h",
+      "21/5 h",
+      "11/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16/5 h",
+    "explanation": "Closure speed is 52-32 km/h, so time is 16/5 h hours.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_gap_closure",
+      "variant": 2,
+      "inputs": {
+        "gap": 64,
+        "s1": 52,
+        "s2": 32,
+        "q": 3,
+        "expr": "F(gap,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0024",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 4: Two trains start 66 km apart and move in the same direction at 53 km/h and 33 km/h. How long until they meet?",
+    "options": [
+      "23/10 h",
+      "43/10 h",
+      "33/10 h",
+      "33/5 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "33/10 h",
+    "explanation": "Closure speed is 53-33 km/h, so time is 33/10 h hours.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_gap_closure",
+      "variant": 3,
+      "inputs": {
+        "gap": 66,
+        "s1": 53,
+        "s2": 33,
+        "q": 4,
+        "expr": "F(gap,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0025",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 5: Two trains start 68 km apart and move in the same direction at 54 km/h and 34 km/h. How long until they meet?",
+    "options": [
+      "22/5 h",
+      "17/5 h",
+      "12/5 h",
+      "34/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "17/5 h",
+    "explanation": "Closure speed is 54-34 km/h, so time is 17/5 h hours.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_gap_closure",
+      "variant": 4,
+      "inputs": {
+        "gap": 68,
+        "s1": 54,
+        "s2": 34,
+        "q": 5,
+        "expr": "F(gap,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0026",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 1: A train crosses a pole in 15 s and its length is 200 m. What is its speed in km/h?",
+    "options": [
+      "49 km/h",
+      "96 km/h",
+      "47 km/h",
+      "48 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48 km/h",
+    "explanation": "Pole crossing uses only the train length: 200/15 m/s = 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_ratio",
+      "variant": 0,
+      "inputs": {
+        "l": 200,
+        "t": 15,
+        "q": 1,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0027",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 2: A train crosses a pole in 16 s and its length is 202 m. What is its speed in km/h?",
+    "options": [
+      "929/20 km/h",
+      "889/20 km/h",
+      "909/10 km/h",
+      "909/20 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "909/20 km/h",
+    "explanation": "Pole crossing uses only the train length: 202/16 m/s = 909/20 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_ratio",
+      "variant": 1,
+      "inputs": {
+        "l": 202,
+        "t": 16,
+        "q": 2,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0028",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 3: A train crosses a pole in 17 s and its length is 204 m. What is its speed in km/h?",
+    "options": [
+      "432/5 km/h",
+      "211/5 km/h",
+      "216/5 km/h",
+      "221/5 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "216/5 km/h",
+    "explanation": "Pole crossing uses only the train length: 204/17 m/s = 216/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_ratio",
+      "variant": 2,
+      "inputs": {
+        "l": 204,
+        "t": 17,
+        "q": 3,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0029",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 4: A train crosses a pole in 18 s and its length is 206 m. What is its speed in km/h?",
+    "options": [
+      "412/5 km/h",
+      "211/5 km/h",
+      "201/5 km/h",
+      "206/5 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "206/5 km/h",
+    "explanation": "Pole crossing uses only the train length: 206/18 m/s = 206/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_ratio",
+      "variant": 3,
+      "inputs": {
+        "l": 206,
+        "t": 18,
+        "q": 4,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0030",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 5: A train crosses a pole in 19 s and its length is 208 m. What is its speed in km/h?",
+    "options": [
+      "3649/95 km/h",
+      "7488/95 km/h",
+      "3839/95 km/h",
+      "3744/95 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3744/95 km/h",
+    "explanation": "Pole crossing uses only the train length: 208/19 m/s = 3744/95 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_ratio",
+      "variant": 4,
+      "inputs": {
+        "l": 208,
+        "t": 19,
+        "q": 5,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0031",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 1: A 160 m train takes 24 s to cross a 240 m bridge. Find its speed in km/h.",
+    "options": [
+      "60 km/h",
+      "59 km/h",
+      "120 km/h",
+      "61 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60 km/h",
+    "explanation": "Distance covered is 160+240 m; converting m/s to km/h gives 60 km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_bridge_cross",
+      "variant": 0,
+      "inputs": {
+        "l": 160,
+        "b": 240,
+        "t": 24,
+        "q": 1,
+        "expr": "F((l+b)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0032",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 2: A 162 m train takes 25 s to cross a 241 m bridge. Find its speed in km/h.",
+    "options": [
+      "7254/125 km/h",
+      "14508/125 km/h",
+      "7379/125 km/h",
+      "7129/125 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "7254/125 km/h",
+    "explanation": "Distance covered is 162+241 m; converting m/s to km/h gives 7254/125 km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_bridge_cross",
+      "variant": 1,
+      "inputs": {
+        "l": 162,
+        "b": 241,
+        "t": 25,
+        "q": 2,
+        "expr": "F((l+b)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0033",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 3: A 164 m train takes 26 s to cross a 242 m bridge. Find its speed in km/h.",
+    "options": [
+      "7308/65 km/h",
+      "3719/65 km/h",
+      "3589/65 km/h",
+      "3654/65 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3654/65 km/h",
+    "explanation": "Distance covered is 164+242 m; converting m/s to km/h gives 3654/65 km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_bridge_cross",
+      "variant": 2,
+      "inputs": {
+        "l": 164,
+        "b": 242,
+        "t": 26,
+        "q": 3,
+        "expr": "F((l+b)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0034",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 4: A 166 m train takes 27 s to cross a 243 m bridge. Find its speed in km/h.",
+    "options": [
+      "1636/15 km/h",
+      "833/15 km/h",
+      "803/15 km/h",
+      "818/15 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "818/15 km/h",
+    "explanation": "Distance covered is 166+243 m; converting m/s to km/h gives 818/15 km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_bridge_cross",
+      "variant": 3,
+      "inputs": {
+        "l": 166,
+        "b": 243,
+        "t": 27,
+        "q": 4,
+        "expr": "F((l+b)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0035",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 2,
+    "section": "trains_mains_part_2",
+    "question_text": "Case 5: A 168 m train takes 28 s to cross a 244 m bridge. Find its speed in km/h.",
+    "options": [
+      "1854/35 km/h",
+      "1819/35 km/h",
+      "1889/35 km/h",
+      "3708/35 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1854/35 km/h",
+    "explanation": "Distance covered is 168+244 m; converting m/s to km/h gives 1854/35 km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_bridge_cross",
+      "variant": 4,
+      "inputs": {
+        "l": 168,
+        "b": 244,
+        "t": 28,
+        "q": 5,
+        "expr": "F((l+b)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0036",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 1: A 240 m train enters a 160 m tunnel and clears it in 30 s. Find the speed in km/h.",
+    "options": [
+      "47 km/h",
+      "96 km/h",
+      "48 km/h",
+      "49 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "48 km/h",
+    "explanation": "The engine travels 240+160 m, so the speed is 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_tunnel_cross",
+      "variant": 0,
+      "inputs": {
+        "l": 240,
+        "tun": 160,
+        "t": 30,
+        "q": 1,
+        "expr": "F((l+tun)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0037",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 2: A 242 m train enters a 161 m tunnel and clears it in 31 s. Find the speed in km/h.",
+    "options": [
+      "239/5 km/h",
+      "234/5 km/h",
+      "229/5 km/h",
+      "468/5 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "234/5 km/h",
+    "explanation": "The engine travels 242+161 m, so the speed is 234/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_tunnel_cross",
+      "variant": 1,
+      "inputs": {
+        "l": 242,
+        "tun": 161,
+        "t": 31,
+        "q": 2,
+        "expr": "F((l+tun)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0038",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 3: A 244 m train enters a 162 m tunnel and clears it in 32 s. Find the speed in km/h.",
+    "options": [
+      "1827/20 km/h",
+      "1827/40 km/h",
+      "1867/40 km/h",
+      "1787/40 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1827/40 km/h",
+    "explanation": "The engine travels 244+162 m, so the speed is 1827/40 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_tunnel_cross",
+      "variant": 2,
+      "inputs": {
+        "l": 244,
+        "tun": 162,
+        "t": 32,
+        "q": 3,
+        "expr": "F((l+tun)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0039",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 4: A 246 m train enters a 163 m tunnel and clears it in 33 s. Find the speed in km/h.",
+    "options": [
+      "2399/55 km/h",
+      "2509/55 km/h",
+      "2454/55 km/h",
+      "4908/55 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2454/55 km/h",
+    "explanation": "The engine travels 246+163 m, so the speed is 2454/55 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_tunnel_cross",
+      "variant": 3,
+      "inputs": {
+        "l": 246,
+        "tun": 163,
+        "t": 33,
+        "q": 4,
+        "expr": "F((l+tun)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0040",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 5: A 248 m train enters a 164 m tunnel and clears it in 34 s. Find the speed in km/h.",
+    "options": [
+      "3793/85 km/h",
+      "7416/85 km/h",
+      "3623/85 km/h",
+      "3708/85 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3708/85 km/h",
+    "explanation": "The engine travels 248+164 m, so the speed is 3708/85 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_tunnel_cross",
+      "variant": 4,
+      "inputs": {
+        "l": 248,
+        "tun": 164,
+        "t": 34,
+        "q": 5,
+        "expr": "F((l+tun)*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0041",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 1: Two stations are 80 km apart. A train leaves one at 50 km/h; 1 h later another leaves the other at 40 km/h. When do they meet, measured from the first departure?",
+    "options": [
+      "7/3 h",
+      "1/3 h",
+      "4/3 h",
+      "8/3 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "4/3 h",
+    "explanation": "The first train gains 40×1 km before the second starts, so meeting time is 4/3 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_delay_meet",
+      "variant": 0,
+      "inputs": {
+        "gap": 80,
+        "s1": 50,
+        "s2": 40,
+        "d": 1,
+        "q": 1,
+        "expr": "F(gap+s2*d,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0042",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 2: Two stations are 90 km apart. A train leaves one at 51 km/h; 2 h later another leaves the other at 41 km/h. When do they meet, measured from the first departure?",
+    "options": [
+      "20/23 h",
+      "66/23 h",
+      "43/23 h",
+      "86/23 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "43/23 h",
+    "explanation": "The first train gains 41×2 km before the second starts, so meeting time is 43/23 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_delay_meet",
+      "variant": 1,
+      "inputs": {
+        "gap": 90,
+        "s1": 51,
+        "s2": 41,
+        "d": 2,
+        "q": 2,
+        "expr": "F(gap+s2*d,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0043",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 3: Two stations are 100 km apart. A train leaves one at 52 km/h; 3 h later another leaves the other at 42 km/h. When do they meet, measured from the first departure?",
+    "options": [
+      "226/47 h",
+      "66/47 h",
+      "113/47 h",
+      "160/47 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "113/47 h",
+    "explanation": "The first train gains 42×3 km before the second starts, so meeting time is 113/47 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_delay_meet",
+      "variant": 2,
+      "inputs": {
+        "gap": 100,
+        "s1": 52,
+        "s2": 42,
+        "d": 3,
+        "q": 3,
+        "expr": "F(gap+s2*d,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0044",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 4: Two stations are 110 km apart. A train leaves one at 53 km/h; 4 h later another leaves the other at 43 km/h. When do they meet, measured from the first departure?",
+    "options": [
+      "47/16 h",
+      "47/8 h",
+      "31/16 h",
+      "63/16 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "47/16 h",
+    "explanation": "The first train gains 43×4 km before the second starts, so meeting time is 47/16 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_delay_meet",
+      "variant": 3,
+      "inputs": {
+        "gap": 110,
+        "s1": 53,
+        "s2": 43,
+        "d": 4,
+        "q": 4,
+        "expr": "F(gap+s2*d,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0045",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 5: Two stations are 120 km apart. A train leaves one at 54 km/h; 5 h later another leaves the other at 44 km/h. When do they meet, measured from the first departure?",
+    "options": [
+      "121/49 h",
+      "170/49 h",
+      "219/49 h",
+      "340/49 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "170/49 h",
+    "explanation": "The first train gains 44×5 km before the second starts, so meeting time is 170/49 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_delay_meet",
+      "variant": 4,
+      "inputs": {
+        "gap": 120,
+        "s1": 54,
+        "s2": 44,
+        "d": 5,
+        "q": 5,
+        "expr": "F(gap+s2*d,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0046",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 1: A train's running speed is 80 km/h, but it stops for 12 minutes each hour. Find its average speed including stops.",
+    "options": [
+      "64 km/h",
+      "63 km/h",
+      "128 km/h",
+      "65 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "64 km/h",
+    "explanation": "Only 60-12 minutes per hour are moving, giving 64 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_stoppage_loss",
+      "variant": 0,
+      "inputs": {
+        "v": 80,
+        "stop": 12,
+        "q": 1,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0047",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 2: A train's running speed is 82 km/h, but it stops for 13 minutes each hour. Find its average speed including stops.",
+    "options": [
+      "1927/15 km/h",
+      "1927/30 km/h",
+      "1897/30 km/h",
+      "1957/30 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1927/30 km/h",
+    "explanation": "Only 60-13 minutes per hour are moving, giving 1927/30 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_stoppage_loss",
+      "variant": 1,
+      "inputs": {
+        "v": 82,
+        "stop": 13,
+        "q": 2,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0048",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 3: A train's running speed is 84 km/h, but it stops for 14 minutes each hour. Find its average speed including stops.",
+    "options": [
+      "322/5 km/h",
+      "317/5 km/h",
+      "327/5 km/h",
+      "644/5 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "322/5 km/h",
+    "explanation": "Only 60-14 minutes per hour are moving, giving 322/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_stoppage_loss",
+      "variant": 2,
+      "inputs": {
+        "v": 84,
+        "stop": 14,
+        "q": 3,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0049",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 4: A train's running speed is 86 km/h, but it stops for 15 minutes each hour. Find its average speed including stops.",
+    "options": [
+      "129 km/h",
+      "129/2 km/h",
+      "131/2 km/h",
+      "127/2 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "129/2 km/h",
+    "explanation": "Only 60-15 minutes per hour are moving, giving 129/2 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_stoppage_loss",
+      "variant": 3,
+      "inputs": {
+        "v": 86,
+        "stop": 15,
+        "q": 4,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0050",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 5: A train's running speed is 88 km/h, but it stops for 16 minutes each hour. Find its average speed including stops.",
+    "options": [
+      "1936/15 km/h",
+      "968/15 km/h",
+      "953/15 km/h",
+      "983/15 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "968/15 km/h",
+    "explanation": "Only 60-16 minutes per hour are moving, giving 968/15 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_stoppage_loss",
+      "variant": 4,
+      "inputs": {
+        "v": 88,
+        "stop": 16,
+        "q": 5,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0051",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 1: A train moves at 18 m/s. Convert this speed to km/h.",
+    "options": [
+      "648/5 km/h",
+      "319/5 km/h",
+      "329/5 km/h",
+      "324/5 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "324/5 km/h",
+    "explanation": "Multiplying m/s by 18/5 gives 324/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_speed_conversion",
+      "variant": 0,
+      "inputs": {
+        "v": 18,
+        "q": 1,
+        "expr": "F(v*18,5)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0052",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 2: A train moves at 20 m/s. Convert this speed to km/h.",
+    "options": [
+      "73 km/h",
+      "144 km/h",
+      "72 km/h",
+      "71 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "72 km/h",
+    "explanation": "Multiplying m/s by 18/5 gives 72 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_speed_conversion",
+      "variant": 1,
+      "inputs": {
+        "v": 20,
+        "q": 2,
+        "expr": "F(v*18,5)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0053",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 3: A train moves at 22 m/s. Convert this speed to km/h.",
+    "options": [
+      "792/5 km/h",
+      "401/5 km/h",
+      "396/5 km/h",
+      "391/5 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "396/5 km/h",
+    "explanation": "Multiplying m/s by 18/5 gives 396/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_speed_conversion",
+      "variant": 2,
+      "inputs": {
+        "v": 22,
+        "q": 3,
+        "expr": "F(v*18,5)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0054",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 4: A train moves at 24 m/s. Convert this speed to km/h.",
+    "options": [
+      "427/5 km/h",
+      "432/5 km/h",
+      "437/5 km/h",
+      "864/5 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "432/5 km/h",
+    "explanation": "Multiplying m/s by 18/5 gives 432/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_speed_conversion",
+      "variant": 3,
+      "inputs": {
+        "v": 24,
+        "q": 4,
+        "expr": "F(v*18,5)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0055",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 5: A train moves at 26 m/s. Convert this speed to km/h.",
+    "options": [
+      "468/5 km/h",
+      "936/5 km/h",
+      "463/5 km/h",
+      "473/5 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "468/5 km/h",
+    "explanation": "Multiplying m/s by 18/5 gives 468/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_speed_conversion",
+      "variant": 4,
+      "inputs": {
+        "v": 26,
+        "q": 5,
+        "expr": "F(v*18,5)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0056",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 1: A train running at 72 km/h passes a pole in 10 s and a platform in 14 s. Find the platform length.",
+    "options": [
+      "160 m",
+      "81 m",
+      "80 m",
+      "79 m"
+    ],
+    "correct_option": "C",
+    "correct_answer": "80 m",
+    "explanation": "Extra time 14-10 at 72 km/h corresponds to 80 m m.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_length_from_two",
+      "variant": 0,
+      "inputs": {
+        "v": 72,
+        "t1": 10,
+        "t2": 14,
+        "q": 1,
+        "expr": "F(v*5*(t2-t1),18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0057",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 2: A train running at 74 km/h passes a pole in 11 s and a platform in 15 s. Find the platform length.",
+    "options": [
+      "740/9 m",
+      "749/9 m",
+      "1480/9 m",
+      "731/9 m"
+    ],
+    "correct_option": "A",
+    "correct_answer": "740/9 m",
+    "explanation": "Extra time 15-11 at 74 km/h corresponds to 740/9 m m.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_length_from_two",
+      "variant": 1,
+      "inputs": {
+        "v": 74,
+        "t1": 11,
+        "t2": 15,
+        "q": 2,
+        "expr": "F(v*5*(t2-t1),18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0058",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 3: A train running at 76 km/h passes a pole in 12 s and a platform in 16 s. Find the platform length.",
+    "options": [
+      "751/9 m",
+      "769/9 m",
+      "1520/9 m",
+      "760/9 m"
+    ],
+    "correct_option": "D",
+    "correct_answer": "760/9 m",
+    "explanation": "Extra time 16-12 at 76 km/h corresponds to 760/9 m m.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_length_from_two",
+      "variant": 2,
+      "inputs": {
+        "v": 76,
+        "t1": 12,
+        "t2": 16,
+        "q": 3,
+        "expr": "F(v*5*(t2-t1),18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0059",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 4: A train running at 78 km/h passes a pole in 13 s and a platform in 17 s. Find the platform length.",
+    "options": [
+      "260/3 m",
+      "520/3 m",
+      "263/3 m",
+      "257/3 m"
+    ],
+    "correct_option": "A",
+    "correct_answer": "260/3 m",
+    "explanation": "Extra time 17-13 at 78 km/h corresponds to 260/3 m m.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_length_from_two",
+      "variant": 3,
+      "inputs": {
+        "v": 78,
+        "t1": 13,
+        "t2": 17,
+        "q": 4,
+        "expr": "F(v*5*(t2-t1),18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0060",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 5: A train running at 80 km/h passes a pole in 14 s and a platform in 18 s. Find the platform length.",
+    "options": [
+      "1600/9 m",
+      "800/9 m",
+      "791/9 m",
+      "809/9 m"
+    ],
+    "correct_option": "B",
+    "correct_answer": "800/9 m",
+    "explanation": "Extra time 18-14 at 80 km/h corresponds to 800/9 m m.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_length_from_two",
+      "variant": 4,
+      "inputs": {
+        "v": 80,
+        "t1": 14,
+        "t2": 18,
+        "q": 5,
+        "expr": "F(v*5*(t2-t1),18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0061",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 1: A goods train of length 200 m at 60 km/h overtakes a 160 m passenger train at 42 km/h. How long does the overtaking take?",
+    "options": [
+      "71 s",
+      "73 s",
+      "72 s",
+      "144 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "72 s",
+    "explanation": "Relative speed is 60-42 km/h and distance is 200+160 m, so time is 72 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_goods_passenger",
+      "variant": 0,
+      "inputs": {
+        "lg": 200,
+        "lp": 160,
+        "sg": 60,
+        "sp": 42,
+        "q": 1,
+        "expr": "F((lg+lp)*18,5*(sg-sp))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0062",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 2: A goods train of length 210 m at 61 km/h overtakes a 170 m passenger train at 43 km/h. How long does the overtaking take?",
+    "options": [
+      "75 s",
+      "152 s",
+      "76 s",
+      "77 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "76 s",
+    "explanation": "Relative speed is 61-43 km/h and distance is 210+170 m, so time is 76 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_goods_passenger",
+      "variant": 1,
+      "inputs": {
+        "lg": 210,
+        "lp": 170,
+        "sg": 61,
+        "sp": 43,
+        "q": 2,
+        "expr": "F((lg+lp)*18,5*(sg-sp))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0063",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 3: A goods train of length 220 m at 62 km/h overtakes a 180 m passenger train at 44 km/h. How long does the overtaking take?",
+    "options": [
+      "81 s",
+      "80 s",
+      "160 s",
+      "79 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "80 s",
+    "explanation": "Relative speed is 62-44 km/h and distance is 220+180 m, so time is 80 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_goods_passenger",
+      "variant": 2,
+      "inputs": {
+        "lg": 220,
+        "lp": 180,
+        "sg": 62,
+        "sp": 44,
+        "q": 3,
+        "expr": "F((lg+lp)*18,5*(sg-sp))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0064",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 4: A goods train of length 230 m at 63 km/h overtakes a 190 m passenger train at 45 km/h. How long does the overtaking take?",
+    "options": [
+      "84 s",
+      "85 s",
+      "168 s",
+      "83 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "84 s",
+    "explanation": "Relative speed is 63-45 km/h and distance is 230+190 m, so time is 84 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_goods_passenger",
+      "variant": 3,
+      "inputs": {
+        "lg": 230,
+        "lp": 190,
+        "sg": 63,
+        "sp": 45,
+        "q": 4,
+        "expr": "F((lg+lp)*18,5*(sg-sp))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0065",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 3,
+    "section": "trains_mains_part_3",
+    "question_text": "Case 5: A goods train of length 240 m at 64 km/h overtakes a 200 m passenger train at 46 km/h. How long does the overtaking take?",
+    "options": [
+      "87 s",
+      "176 s",
+      "89 s",
+      "88 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "88 s",
+    "explanation": "Relative speed is 64-46 km/h and distance is 240+200 m, so time is 88 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_goods_passenger",
+      "variant": 4,
+      "inputs": {
+        "lg": 240,
+        "lp": 200,
+        "sg": 64,
+        "sp": 46,
+        "q": 5,
+        "expr": "F((lg+lp)*18,5*(sg-sp))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0066",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: A faster train is 30 km behind a slower one and travels at 90 km/h versus 60 km/h. How many hours until it catches up?",
+    "options": [
+      "2 h",
+      "1 h",
+      "0 h",
+      "3 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1 h",
+    "explanation": "The gap closes at 90-60 km/h, giving 1 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_overtake_time",
+      "variant": 0,
+      "inputs": {
+        "gap": 30,
+        "f": 90,
+        "s": 60,
+        "q": 1,
+        "expr": "F(gap,f-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0067",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: A faster train is 32 km behind a slower one and travels at 91 km/h versus 61 km/h. How many hours until it catches up?",
+    "options": [
+      "1/15 h",
+      "16/15 h",
+      "31/15 h",
+      "32/15 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16/15 h",
+    "explanation": "The gap closes at 91-61 km/h, giving 16/15 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_overtake_time",
+      "variant": 1,
+      "inputs": {
+        "gap": 32,
+        "f": 91,
+        "s": 61,
+        "q": 2,
+        "expr": "F(gap,f-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0068",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: A faster train is 34 km behind a slower one and travels at 92 km/h versus 62 km/h. How many hours until it catches up?",
+    "options": [
+      "32/15 h",
+      "2/15 h",
+      "17/15 h",
+      "34/15 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "17/15 h",
+    "explanation": "The gap closes at 92-62 km/h, giving 17/15 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_overtake_time",
+      "variant": 2,
+      "inputs": {
+        "gap": 34,
+        "f": 92,
+        "s": 62,
+        "q": 3,
+        "expr": "F(gap,f-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0069",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: A faster train is 36 km behind a slower one and travels at 93 km/h versus 63 km/h. How many hours until it catches up?",
+    "options": [
+      "6/5 h",
+      "11/5 h",
+      "12/5 h",
+      "1/5 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "6/5 h",
+    "explanation": "The gap closes at 93-63 km/h, giving 6/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_overtake_time",
+      "variant": 3,
+      "inputs": {
+        "gap": 36,
+        "f": 93,
+        "s": 63,
+        "q": 4,
+        "expr": "F(gap,f-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0070",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: A faster train is 38 km behind a slower one and travels at 94 km/h versus 64 km/h. How many hours until it catches up?",
+    "options": [
+      "38/15 h",
+      "34/15 h",
+      "19/15 h",
+      "4/15 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "19/15 h",
+    "explanation": "The gap closes at 94-64 km/h, giving 19/15 h h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_overtake_time",
+      "variant": 4,
+      "inputs": {
+        "gap": 38,
+        "f": 94,
+        "s": 64,
+        "q": 5,
+        "expr": "F(gap,f-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0071",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: Telegraph poles are 40 m apart. A train at 60 km/h passes 12 consecutive poles. How many seconds elapse from the first to the last?",
+    "options": [
+      "137/5 s",
+      "132/5 s",
+      "127/5 s",
+      "264/5 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "132/5 s",
+    "explanation": "There are 12-1 intervals, so the elapsed time is 132/5 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_telegraph_poles",
+      "variant": 0,
+      "inputs": {
+        "n": 12,
+        "d": 40,
+        "v": 60,
+        "q": 1,
+        "expr": "F((n-1)*d*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0072",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: Telegraph poles are 45 m apart. A train at 61 km/h passes 13 consecutive poles. How many seconds elapse from the first to the last?",
+    "options": [
+      "2005/61 s",
+      "3888/61 s",
+      "1883/61 s",
+      "1944/61 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1944/61 s",
+    "explanation": "There are 13-1 intervals, so the elapsed time is 1944/61 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_telegraph_poles",
+      "variant": 1,
+      "inputs": {
+        "n": 13,
+        "d": 45,
+        "v": 61,
+        "q": 2,
+        "expr": "F((n-1)*d*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0073",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: Telegraph poles are 50 m apart. A train at 62 km/h passes 14 consecutive poles. How many seconds elapse from the first to the last?",
+    "options": [
+      "2340/31 s",
+      "1170/31 s",
+      "1139/31 s",
+      "1201/31 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1170/31 s",
+    "explanation": "There are 14-1 intervals, so the elapsed time is 1170/31 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_telegraph_poles",
+      "variant": 2,
+      "inputs": {
+        "n": 14,
+        "d": 50,
+        "v": 62,
+        "q": 3,
+        "expr": "F((n-1)*d*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0074",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: Telegraph poles are 55 m apart. A train at 63 km/h passes 15 consecutive poles. How many seconds elapse from the first to the last?",
+    "options": [
+      "88 s",
+      "44 s",
+      "45 s",
+      "43 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "44 s",
+    "explanation": "There are 15-1 intervals, so the elapsed time is 44 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_telegraph_poles",
+      "variant": 3,
+      "inputs": {
+        "n": 15,
+        "d": 55,
+        "v": 63,
+        "q": 4,
+        "expr": "F((n-1)*d*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0075",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: Telegraph poles are 60 m apart. A train at 64 km/h passes 16 consecutive poles. How many seconds elapse from the first to the last?",
+    "options": [
+      "405/8 s",
+      "413/8 s",
+      "397/8 s",
+      "405/4 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "405/8 s",
+    "explanation": "There are 16-1 intervals, so the elapsed time is 405/8 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_telegraph_poles",
+      "variant": 4,
+      "inputs": {
+        "n": 16,
+        "d": 60,
+        "v": 64,
+        "q": 5,
+        "expr": "F((n-1)*d*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0076",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: Two cities are 180 km apart. Trains leave simultaneously towards each other at 60 km/h and 48 km/h. How far from the first city do they meet?",
+    "options": [
+      "99 km",
+      "100 km",
+      "101 km",
+      "200 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "100 km",
+    "explanation": "The first train covers 60/(60+48) of 180 km, i.e. 100 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_meeting_point",
+      "variant": 0,
+      "inputs": {
+        "D": 180,
+        "s1": 60,
+        "s2": 48,
+        "q": 1,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0077",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: Two cities are 182 km apart. Trains leave simultaneously towards each other at 61 km/h and 49 km/h. How far from the first city do they meet?",
+    "options": [
+      "5496/55 km",
+      "5606/55 km",
+      "11102/55 km",
+      "5551/55 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5551/55 km",
+    "explanation": "The first train covers 61/(61+49) of 182 km, i.e. 5551/55 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_meeting_point",
+      "variant": 1,
+      "inputs": {
+        "D": 182,
+        "s1": 61,
+        "s2": 49,
+        "q": 2,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0078",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: Two cities are 184 km apart. Trains leave simultaneously towards each other at 62 km/h and 50 km/h. How far from the first city do they meet?",
+    "options": [
+      "706/7 km",
+      "720/7 km",
+      "713/7 km",
+      "1426/7 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "713/7 km",
+    "explanation": "The first train covers 62/(62+50) of 184 km, i.e. 713/7 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_meeting_point",
+      "variant": 2,
+      "inputs": {
+        "D": 184,
+        "s1": 62,
+        "s2": 50,
+        "q": 3,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0079",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: Two cities are 186 km apart. Trains leave simultaneously towards each other at 63 km/h and 51 km/h. How far from the first city do they meet?",
+    "options": [
+      "1972/19 km",
+      "1934/19 km",
+      "1953/19 km",
+      "3906/19 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1953/19 km",
+    "explanation": "The first train covers 63/(63+51) of 186 km, i.e. 1953/19 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_meeting_point",
+      "variant": 3,
+      "inputs": {
+        "D": 186,
+        "s1": 63,
+        "s2": 51,
+        "q": 4,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0080",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: Two cities are 188 km apart. Trains leave simultaneously towards each other at 64 km/h and 52 km/h. How far from the first city do they meet?",
+    "options": [
+      "2979/29 km",
+      "3037/29 km",
+      "6016/29 km",
+      "3008/29 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3008/29 km",
+    "explanation": "The first train covers 64/(64+52) of 188 km, i.e. 3008/29 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_meeting_point",
+      "variant": 4,
+      "inputs": {
+        "D": 188,
+        "s1": 64,
+        "s2": 52,
+        "q": 5,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0081",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: Two trains of lengths 180 m and 220 m have speeds 72 km/h and 54 km/h. Find the difference between their same-direction and opposite-direction crossing times.",
+    "options": [
+      "473/7 s",
+      "487/7 s",
+      "960/7 s",
+      "480/7 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "480/7 s",
+    "explanation": "The reciprocal relative-speed difference is 480/7 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_crossing_difference",
+      "variant": 0,
+      "inputs": {
+        "l1": 180,
+        "l2": 220,
+        "s1": 72,
+        "s2": 54,
+        "q": 1,
+        "expr": "F((l1+l2)*18,5*(s1-s2))-F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0082",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: Two trains of lengths 190 m and 230 m have speeds 73 km/h and 55 km/h. Find the difference between their same-direction and opposite-direction crossing times.",
+    "options": [
+      "1155/16 s",
+      "1155/8 s",
+      "1171/16 s",
+      "1139/16 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1155/16 s",
+    "explanation": "The reciprocal relative-speed difference is 1155/16 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_crossing_difference",
+      "variant": 1,
+      "inputs": {
+        "l1": 190,
+        "l2": 230,
+        "s1": 73,
+        "s2": 55,
+        "q": 2,
+        "expr": "F((l1+l2)*18,5*(s1-s2))-F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0083",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: Two trains of lengths 200 m and 240 m have speeds 74 km/h and 56 km/h. Find the difference between their same-direction and opposite-direction crossing times.",
+    "options": [
+      "9856/65 s",
+      "4928/65 s",
+      "4863/65 s",
+      "4993/65 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4928/65 s",
+    "explanation": "The reciprocal relative-speed difference is 4928/65 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_crossing_difference",
+      "variant": 2,
+      "inputs": {
+        "l1": 200,
+        "l2": 240,
+        "s1": 74,
+        "s2": 56,
+        "q": 3,
+        "expr": "F((l1+l2)*18,5*(s1-s2))-F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0084",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: Two trains of lengths 210 m and 250 m have speeds 75 km/h and 57 km/h. Find the difference between their same-direction and opposite-direction crossing times.",
+    "options": [
+      "1748/11 s",
+      "874/11 s",
+      "863/11 s",
+      "885/11 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "874/11 s",
+    "explanation": "The reciprocal relative-speed difference is 874/11 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_crossing_difference",
+      "variant": 3,
+      "inputs": {
+        "l1": 210,
+        "l2": 250,
+        "s1": 75,
+        "s2": 57,
+        "q": 4,
+        "expr": "F((l1+l2)*18,5*(s1-s2))-F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0085",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: Two trains of lengths 220 m and 260 m have speeds 76 km/h and 58 km/h. Find the difference between their same-direction and opposite-direction crossing times.",
+    "options": [
+      "5568/67 s",
+      "11136/67 s",
+      "5635/67 s",
+      "5501/67 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5568/67 s",
+    "explanation": "The reciprocal relative-speed difference is 5568/67 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_crossing_difference",
+      "variant": 4,
+      "inputs": {
+        "l1": 220,
+        "l2": 260,
+        "s1": 76,
+        "s2": 58,
+        "q": 5,
+        "expr": "F((l1+l2)*18,5*(s1-s2))-F((l1+l2)*18,5*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0086",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: A train travelling at 60 km/h arrives 1 h later than one travelling at 75 km/h over the same route. Find the route length.",
+    "options": [
+      "301 km",
+      "600 km",
+      "299 km",
+      "300 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "300 km",
+    "explanation": "Equal-distance relation gives length = 60×75×1/(75-60) = 300 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_early_late",
+      "variant": 0,
+      "inputs": {
+        "v1": 60,
+        "v2": 75,
+        "dt": 1,
+        "q": 1,
+        "expr": "F(v1*v2*dt,v2-v1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0087",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: A train travelling at 62 km/h arrives 2 h later than one travelling at 76 km/h over the same route. Find the route length.",
+    "options": [
+      "4712/7 km",
+      "4719/7 km",
+      "9424/7 km",
+      "4705/7 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "4712/7 km",
+    "explanation": "Equal-distance relation gives length = 62×76×2/(76-62) = 4712/7 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_early_late",
+      "variant": 1,
+      "inputs": {
+        "v1": 62,
+        "v2": 76,
+        "dt": 2,
+        "q": 2,
+        "expr": "F(v1*v2*dt,v2-v1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0088",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: A train travelling at 64 km/h arrives 3 h later than one travelling at 77 km/h over the same route. Find the route length.",
+    "options": [
+      "14797/13 km",
+      "29568/13 km",
+      "14771/13 km",
+      "14784/13 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "14784/13 km",
+    "explanation": "Equal-distance relation gives length = 64×77×3/(77-64) = 14784/13 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_early_late",
+      "variant": 2,
+      "inputs": {
+        "v1": 64,
+        "v2": 77,
+        "dt": 3,
+        "q": 3,
+        "expr": "F(v1*v2*dt,v2-v1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0089",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: A train travelling at 66 km/h arrives 4 h later than one travelling at 78 km/h over the same route. Find the route length.",
+    "options": [
+      "1715 km",
+      "3432 km",
+      "1717 km",
+      "1716 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1716 km",
+    "explanation": "Equal-distance relation gives length = 66×78×4/(78-66) = 1716 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_early_late",
+      "variant": 3,
+      "inputs": {
+        "v1": 66,
+        "v2": 78,
+        "dt": 4,
+        "q": 4,
+        "expr": "F(v1*v2*dt,v2-v1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0090",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: A train travelling at 68 km/h arrives 5 h later than one travelling at 79 km/h over the same route. Find the route length.",
+    "options": [
+      "26860/11 km",
+      "26871/11 km",
+      "53720/11 km",
+      "26849/11 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "26860/11 km",
+    "explanation": "Equal-distance relation gives length = 68×79×5/(79-68) = 26860/11 km km.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_early_late",
+      "variant": 4,
+      "inputs": {
+        "v1": 68,
+        "v2": 79,
+        "dt": 5,
+        "q": 5,
+        "expr": "F(v1*v2*dt,v2-v1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0091",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: Two trains move towards each other at 60 km/h and 48 km/h. Find their relative speed in m/s.",
+    "options": [
+      "30 m/s",
+      "60 m/s",
+      "29 m/s",
+      "31 m/s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "30 m/s",
+    "explanation": "Relative speed 60+48 km/h converts to 30 m/s m/s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_relative_speed",
+      "variant": 0,
+      "inputs": {
+        "s1": 60,
+        "s2": 48,
+        "q": 1,
+        "expr": "F((s1+s2)*5,18)",
+        "unit": " m/s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0092",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: Two trains move towards each other at 62 km/h and 49 km/h. Find their relative speed in m/s.",
+    "options": [
+      "185/6 m/s",
+      "191/6 m/s",
+      "185/3 m/s",
+      "179/6 m/s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "185/6 m/s",
+    "explanation": "Relative speed 62+49 km/h converts to 185/6 m/s m/s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_relative_speed",
+      "variant": 1,
+      "inputs": {
+        "s1": 62,
+        "s2": 49,
+        "q": 2,
+        "expr": "F((s1+s2)*5,18)",
+        "unit": " m/s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0093",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: Two trains move towards each other at 64 km/h and 50 km/h. Find their relative speed in m/s.",
+    "options": [
+      "190/3 m/s",
+      "98/3 m/s",
+      "92/3 m/s",
+      "95/3 m/s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "95/3 m/s",
+    "explanation": "Relative speed 64+50 km/h converts to 95/3 m/s m/s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_relative_speed",
+      "variant": 2,
+      "inputs": {
+        "s1": 64,
+        "s2": 50,
+        "q": 3,
+        "expr": "F((s1+s2)*5,18)",
+        "unit": " m/s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0094",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: Two trains move towards each other at 66 km/h and 51 km/h. Find their relative speed in m/s.",
+    "options": [
+      "63/2 m/s",
+      "67/2 m/s",
+      "65 m/s",
+      "65/2 m/s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "65/2 m/s",
+    "explanation": "Relative speed 66+51 km/h converts to 65/2 m/s m/s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_relative_speed",
+      "variant": 3,
+      "inputs": {
+        "s1": 66,
+        "s2": 51,
+        "q": 4,
+        "expr": "F((s1+s2)*5,18)",
+        "unit": " m/s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0095",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: Two trains move towards each other at 68 km/h and 52 km/h. Find their relative speed in m/s.",
+    "options": [
+      "200/3 m/s",
+      "103/3 m/s",
+      "100/3 m/s",
+      "97/3 m/s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "100/3 m/s",
+    "explanation": "Relative speed 68+52 km/h converts to 100/3 m/s m/s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_relative_speed",
+      "variant": 4,
+      "inputs": {
+        "s1": 68,
+        "s2": 52,
+        "q": 5,
+        "expr": "F((s1+s2)*5,18)",
+        "unit": " m/s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0096",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: A train covers the first half of a journey at 40 km/h and the second half at 60 km/h. Find the average speed for the whole journey.",
+    "options": [
+      "96 km/h",
+      "49 km/h",
+      "47 km/h",
+      "48 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48 km/h",
+    "explanation": "For equal distances the harmonic mean is 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_half_journey",
+      "variant": 0,
+      "inputs": {
+        "v1": 40,
+        "v2": 60,
+        "q": 1,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0097",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: A train covers the first half of a journey at 42 km/h and the second half at 61 km/h. Find the average speed for the whole journey.",
+    "options": [
+      "5124/103 km/h",
+      "5227/103 km/h",
+      "10248/103 km/h",
+      "5021/103 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5124/103 km/h",
+    "explanation": "For equal distances the harmonic mean is 5124/103 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_half_journey",
+      "variant": 1,
+      "inputs": {
+        "v1": 42,
+        "v2": 61,
+        "q": 2,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0098",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: A train covers the first half of a journey at 44 km/h and the second half at 62 km/h. Find the average speed for the whole journey.",
+    "options": [
+      "2675/53 km/h",
+      "2728/53 km/h",
+      "2781/53 km/h",
+      "5456/53 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2728/53 km/h",
+    "explanation": "For equal distances the harmonic mean is 2728/53 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_half_journey",
+      "variant": 2,
+      "inputs": {
+        "v1": 44,
+        "v2": 62,
+        "q": 3,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0099",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: A train covers the first half of a journey at 46 km/h and the second half at 63 km/h. Find the average speed for the whole journey.",
+    "options": [
+      "5796/109 km/h",
+      "5905/109 km/h",
+      "5687/109 km/h",
+      "11592/109 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5796/109 km/h",
+    "explanation": "For equal distances the harmonic mean is 5796/109 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_half_journey",
+      "variant": 3,
+      "inputs": {
+        "v1": 46,
+        "v2": 63,
+        "q": 4,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0100",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: A train covers the first half of a journey at 48 km/h and the second half at 64 km/h. Find the average speed for the whole journey.",
+    "options": [
+      "377/7 km/h",
+      "768/7 km/h",
+      "384/7 km/h",
+      "391/7 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "384/7 km/h",
+    "explanation": "For equal distances the harmonic mean is 384/7 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_half_journey",
+      "variant": 4,
+      "inputs": {
+        "v1": 48,
+        "v2": 64,
+        "q": 5,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0101",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: After doubling its speed, a 180 m train clears a 120 m platform in 20 s. Find the original speed in km/h.",
+    "options": [
+      "26 km/h",
+      "27 km/h",
+      "28 km/h",
+      "54 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "27 km/h",
+    "explanation": "Doubled speed equals (180+120)/20 m/s, so the original speed is 27 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_speed",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "p": 120,
+        "t": 20,
+        "q": 1,
+        "expr": "F((l+p)*18,10*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0102",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: After doubling its speed, a 182 m train clears a 121 m platform in 21 s. Find the original speed in km/h.",
+    "options": [
+      "1818/35 km/h",
+      "909/35 km/h",
+      "944/35 km/h",
+      "874/35 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "909/35 km/h",
+    "explanation": "Doubled speed equals (182+121)/21 m/s, so the original speed is 909/35 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_speed",
+      "variant": 1,
+      "inputs": {
+        "l": 182,
+        "p": 121,
+        "t": 21,
+        "q": 2,
+        "expr": "F((l+p)*18,10*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0103",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: After doubling its speed, a 184 m train clears a 122 m platform in 22 s. Find the original speed in km/h.",
+    "options": [
+      "1377/55 km/h",
+      "2754/55 km/h",
+      "1322/55 km/h",
+      "1432/55 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1377/55 km/h",
+    "explanation": "Doubled speed equals (184+122)/22 m/s, so the original speed is 1377/55 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_speed",
+      "variant": 2,
+      "inputs": {
+        "l": 184,
+        "p": 122,
+        "t": 22,
+        "q": 3,
+        "expr": "F((l+p)*18,10*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0104",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: After doubling its speed, a 186 m train clears a 123 m platform in 23 s. Find the original speed in km/h.",
+    "options": [
+      "2781/115 km/h",
+      "2896/115 km/h",
+      "5562/115 km/h",
+      "2666/115 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2781/115 km/h",
+    "explanation": "Doubled speed equals (186+123)/23 m/s, so the original speed is 2781/115 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_speed",
+      "variant": 3,
+      "inputs": {
+        "l": 186,
+        "p": 123,
+        "t": 23,
+        "q": 4,
+        "expr": "F((l+p)*18,10*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0105",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: After doubling its speed, a 188 m train clears a 124 m platform in 24 s. Find the original speed in km/h.",
+    "options": [
+      "117/5 km/h",
+      "112/5 km/h",
+      "234/5 km/h",
+      "122/5 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "117/5 km/h",
+    "explanation": "Doubled speed equals (188+124)/24 m/s, so the original speed is 117/5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_platform_speed",
+      "variant": 4,
+      "inputs": {
+        "l": 188,
+        "p": 124,
+        "t": 24,
+        "q": 5,
+        "expr": "F((l+p)*18,10*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0106",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: Signals are 500 m apart. A 180 m train travels at 72 km/h. How long after the engine passes the first signal does the guard clear the second?",
+    "options": [
+      "32 s",
+      "15 s",
+      "17 s",
+      "16 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16 s",
+    "explanation": "The guard travels 500-180 m at 72 km/h, taking 16 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_signal_gap",
+      "variant": 0,
+      "inputs": {
+        "d": 500,
+        "l": 180,
+        "v": 72,
+        "q": 1,
+        "expr": "F((d-l)*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0107",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: Signals are 502 m apart. A 181 m train travels at 73 km/h. How long after the engine passes the first signal does the guard clear the second?",
+    "options": [
+      "6143/365 s",
+      "5413/365 s",
+      "5778/365 s",
+      "11556/365 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5778/365 s",
+    "explanation": "The guard travels 502-181 m at 73 km/h, taking 5778/365 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_signal_gap",
+      "variant": 1,
+      "inputs": {
+        "d": 502,
+        "l": 181,
+        "v": 73,
+        "q": 2,
+        "expr": "F((d-l)*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0108",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: Signals are 504 m apart. A 182 m train travels at 74 km/h. How long after the engine passes the first signal does the guard clear the second?",
+    "options": [
+      "2898/185 s",
+      "3083/185 s",
+      "2713/185 s",
+      "5796/185 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "2898/185 s",
+    "explanation": "The guard travels 504-182 m at 74 km/h, taking 2898/185 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_signal_gap",
+      "variant": 2,
+      "inputs": {
+        "d": 504,
+        "l": 182,
+        "v": 74,
+        "q": 3,
+        "expr": "F((d-l)*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0109",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: Signals are 506 m apart. A 183 m train travels at 75 km/h. How long after the engine passes the first signal does the guard clear the second?",
+    "options": [
+      "1938/125 s",
+      "2063/125 s",
+      "1813/125 s",
+      "3876/125 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1938/125 s",
+    "explanation": "The guard travels 506-183 m at 75 km/h, taking 1938/125 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_signal_gap",
+      "variant": 3,
+      "inputs": {
+        "d": 506,
+        "l": 183,
+        "v": 75,
+        "q": 4,
+        "expr": "F((d-l)*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0110",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: Signals are 508 m apart. A 184 m train travels at 76 km/h. How long after the engine passes the first signal does the guard clear the second?",
+    "options": [
+      "1458/95 s",
+      "1363/95 s",
+      "2916/95 s",
+      "1553/95 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1458/95 s",
+    "explanation": "The guard travels 508-184 m at 76 km/h, taking 1458/95 s s.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_signal_gap",
+      "variant": 4,
+      "inputs": {
+        "d": 508,
+        "l": 184,
+        "v": 76,
+        "q": 5,
+        "expr": "F((d-l)*18,5*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0111",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: A train takes 12 s to cross a 120 m bridge and 18 s to cross a 200 m bridge. Find its speed in km/h.",
+    "options": [
+      "49 km/h",
+      "48 km/h",
+      "47 km/h",
+      "96 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48 km/h",
+    "explanation": "The extra 200-120 m is covered in 18-12 s, giving 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_two_bridge",
+      "variant": 0,
+      "inputs": {
+        "l1": 120,
+        "l2": 200,
+        "t1": 12,
+        "t2": 18,
+        "q": 1,
+        "expr": "F((l2-l1)*18,5*(t2-t1))",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0112",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: A train takes 13 s to cross a 125 m bridge and 19 s to cross a 205 m bridge. Find its speed in km/h.",
+    "options": [
+      "96 km/h",
+      "48 km/h",
+      "49 km/h",
+      "47 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48 km/h",
+    "explanation": "The extra 205-125 m is covered in 19-13 s, giving 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_two_bridge",
+      "variant": 1,
+      "inputs": {
+        "l1": 125,
+        "l2": 205,
+        "t1": 13,
+        "t2": 19,
+        "q": 2,
+        "expr": "F((l2-l1)*18,5*(t2-t1))",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0113",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: A train takes 14 s to cross a 130 m bridge and 20 s to cross a 210 m bridge. Find its speed in km/h.",
+    "options": [
+      "48 km/h",
+      "96 km/h",
+      "49 km/h",
+      "47 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "48 km/h",
+    "explanation": "The extra 210-130 m is covered in 20-14 s, giving 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_two_bridge",
+      "variant": 2,
+      "inputs": {
+        "l1": 130,
+        "l2": 210,
+        "t1": 14,
+        "t2": 20,
+        "q": 3,
+        "expr": "F((l2-l1)*18,5*(t2-t1))",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0114",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: A train takes 15 s to cross a 135 m bridge and 21 s to cross a 215 m bridge. Find its speed in km/h.",
+    "options": [
+      "96 km/h",
+      "49 km/h",
+      "47 km/h",
+      "48 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48 km/h",
+    "explanation": "The extra 215-135 m is covered in 21-15 s, giving 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_two_bridge",
+      "variant": 3,
+      "inputs": {
+        "l1": 135,
+        "l2": 215,
+        "t1": 15,
+        "t2": 21,
+        "q": 4,
+        "expr": "F((l2-l1)*18,5*(t2-t1))",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0115",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: A train takes 16 s to cross a 140 m bridge and 22 s to cross a 220 m bridge. Find its speed in km/h.",
+    "options": [
+      "96 km/h",
+      "48 km/h",
+      "49 km/h",
+      "47 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "48 km/h",
+    "explanation": "The extra 220-140 m is covered in 22-16 s, giving 48 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_two_bridge",
+      "variant": 4,
+      "inputs": {
+        "l1": 140,
+        "l2": 220,
+        "t1": 16,
+        "t2": 22,
+        "q": 5,
+        "expr": "F((l2-l1)*18,5*(t2-t1))",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0116",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 1: Two trains cover the same distance at 40 km/h and 60 km/h. Find the ratio of the first journey's time to the second's.",
+    "options": [
+      "4:2",
+      "3:3",
+      "2:3",
+      "3:2"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3:2",
+    "explanation": "Times are inversely proportional to speeds, so the ratio is 60:40 = 3:2.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_time_ratio",
+      "variant": 0,
+      "inputs": {
+        "s1": 40,
+        "s2": 60,
+        "q": 1,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0117",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 2: Two trains cover the same distance at 42 km/h and 61 km/h. Find the ratio of the first journey's time to the second's.",
+    "options": [
+      "61:42",
+      "42:61",
+      "62:42",
+      "61:43"
+    ],
+    "correct_option": "A",
+    "correct_answer": "61:42",
+    "explanation": "Times are inversely proportional to speeds, so the ratio is 61:42 = 61:42.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_time_ratio",
+      "variant": 1,
+      "inputs": {
+        "s1": 42,
+        "s2": 61,
+        "q": 2,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0118",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 3: Two trains cover the same distance at 44 km/h and 62 km/h. Find the ratio of the first journey's time to the second's.",
+    "options": [
+      "32:22",
+      "31:23",
+      "31:22",
+      "22:31"
+    ],
+    "correct_option": "C",
+    "correct_answer": "31:22",
+    "explanation": "Times are inversely proportional to speeds, so the ratio is 62:44 = 31:22.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_time_ratio",
+      "variant": 2,
+      "inputs": {
+        "s1": 44,
+        "s2": 62,
+        "q": 3,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0119",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 4: Two trains cover the same distance at 46 km/h and 63 km/h. Find the ratio of the first journey's time to the second's.",
+    "options": [
+      "64:46",
+      "63:47",
+      "63:46",
+      "46:63"
+    ],
+    "correct_option": "C",
+    "correct_answer": "63:46",
+    "explanation": "Times are inversely proportional to speeds, so the ratio is 63:46 = 63:46.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_time_ratio",
+      "variant": 3,
+      "inputs": {
+        "s1": 46,
+        "s2": 63,
+        "q": 4,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_mains-0120",
+    "chapter": "Trains (Mains)",
+    "chapter_key": "trains_mains",
+    "part": 4,
+    "section": "trains_mains_part_4",
+    "question_text": "Case 5: Two trains cover the same distance at 48 km/h and 64 km/h. Find the ratio of the first journey's time to the second's.",
+    "options": [
+      "4:4",
+      "4:3",
+      "3:4",
+      "5:3"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4:3",
+    "explanation": "Times are inversely proportional to speeds, so the ratio is 64:48 = 4:3.",
+    "difficulty": "HARD",
+    "source_name": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf",
+    "source_url": "",
+    "source_page": "98b402b7-32a0-4ce4-bed3-b059242c8e14.pdf, pp. 4-8",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tm_time_ratio",
+      "variant": 4,
+      "inputs": {
+        "s1": 48,
+        "s2": 64,
+        "q": 5,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

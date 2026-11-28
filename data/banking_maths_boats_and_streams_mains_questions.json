@@ -1,0 +1,4532 @@
+[
+  {
+    "id": "boats_and_streams_mains-0001",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 1: A boat's still-water speed is 20 km/h and the stream is 5 km/h. Find the total time for 24 km upstream and back.",
+    "options": [
+      "39/25 h",
+      "64/25 h",
+      "89/25 h",
+      "128/25 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "64/25 h",
+    "explanation": "Upstream speed is 20-5 and downstream speed is 20+5; total time is 64/25 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_up_down_time",
+      "variant": 0,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "D": 24,
+        "q": 1,
+        "expr": "F(D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0002",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 2: A boat's still-water speed is 22 km/h and the stream is 6 km/h. Find the total time for 26 km upstream and back.",
+    "options": [
+      "199/56 h",
+      "143/56 h",
+      "87/56 h",
+      "143/28 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "143/56 h",
+    "explanation": "Upstream speed is 22-6 and downstream speed is 22+6; total time is 143/56 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_up_down_time",
+      "variant": 1,
+      "inputs": {
+        "b": 22,
+        "s": 6,
+        "D": 26,
+        "q": 2,
+        "expr": "F(D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0003",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 3: A boat's still-water speed is 24 km/h and the stream is 7 km/h. Find the total time for 28 km upstream and back.",
+    "options": [
+      "1344/527 h",
+      "817/527 h",
+      "2688/527 h",
+      "1871/527 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1344/527 h",
+    "explanation": "Upstream speed is 24-7 and downstream speed is 24+7; total time is 1344/527 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_up_down_time",
+      "variant": 2,
+      "inputs": {
+        "b": 24,
+        "s": 7,
+        "D": 28,
+        "q": 3,
+        "expr": "F(D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0004",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 4: A boat's still-water speed is 26 km/h and the stream is 8 km/h. Find the total time for 30 km upstream and back.",
+    "options": [
+      "79/51 h",
+      "130/51 h",
+      "181/51 h",
+      "260/51 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "130/51 h",
+    "explanation": "Upstream speed is 26-8 and downstream speed is 26+8; total time is 130/51 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_up_down_time",
+      "variant": 3,
+      "inputs": {
+        "b": 26,
+        "s": 8,
+        "D": 30,
+        "q": 4,
+        "expr": "F(D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0005",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 5: A boat's still-water speed is 28 km/h and the stream is 9 km/h. Find the total time for 32 km upstream and back.",
+    "options": [
+      "2495/703 h",
+      "1792/703 h",
+      "1089/703 h",
+      "3584/703 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1792/703 h",
+    "explanation": "Upstream speed is 28-9 and downstream speed is 28+9; total time is 1792/703 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_up_down_time",
+      "variant": 4,
+      "inputs": {
+        "b": 28,
+        "s": 9,
+        "D": 32,
+        "q": 5,
+        "expr": "F(D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0006",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 1: A boat moves at 12 km/h upstream and 20 km/h downstream. Find the stream speed.",
+    "options": [
+      "5 km/h",
+      "8 km/h",
+      "3 km/h",
+      "4 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4 km/h",
+    "explanation": "Stream speed = (downstream - upstream)/2 = 4 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_speed",
+      "variant": 0,
+      "inputs": {
+        "up": 12,
+        "down": 20,
+        "q": 1,
+        "expr": "F(down-up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0007",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 2: A boat moves at 14 km/h upstream and 21 km/h downstream. Find the stream speed.",
+    "options": [
+      "5/2 km/h",
+      "9/2 km/h",
+      "7 km/h",
+      "7/2 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7/2 km/h",
+    "explanation": "Stream speed = (downstream - upstream)/2 = 7/2 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_speed",
+      "variant": 1,
+      "inputs": {
+        "up": 14,
+        "down": 21,
+        "q": 2,
+        "expr": "F(down-up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0008",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 3: A boat moves at 16 km/h upstream and 22 km/h downstream. Find the stream speed.",
+    "options": [
+      "6 km/h",
+      "3 km/h",
+      "4 km/h",
+      "2 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3 km/h",
+    "explanation": "Stream speed = (downstream - upstream)/2 = 3 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_speed",
+      "variant": 2,
+      "inputs": {
+        "up": 16,
+        "down": 22,
+        "q": 3,
+        "expr": "F(down-up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0009",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 4: A boat moves at 18 km/h upstream and 23 km/h downstream. Find the stream speed.",
+    "options": [
+      "5 km/h",
+      "3/2 km/h",
+      "5/2 km/h",
+      "7/2 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5/2 km/h",
+    "explanation": "Stream speed = (downstream - upstream)/2 = 5/2 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_speed",
+      "variant": 3,
+      "inputs": {
+        "up": 18,
+        "down": 23,
+        "q": 4,
+        "expr": "F(down-up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0010",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 5: A boat moves at 20 km/h upstream and 24 km/h downstream. Find the stream speed.",
+    "options": [
+      "3 km/h",
+      "4 km/h",
+      "1 km/h",
+      "2 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2 km/h",
+    "explanation": "Stream speed = (downstream - upstream)/2 = 2 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_speed",
+      "variant": 4,
+      "inputs": {
+        "up": 20,
+        "down": 24,
+        "q": 5,
+        "expr": "F(down-up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0011",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 1: A boat's upstream speed is 12 km/h and downstream speed is 20 km/h. Find its still-water speed.",
+    "options": [
+      "15 km/h",
+      "17 km/h",
+      "32 km/h",
+      "16 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "16 km/h",
+    "explanation": "Still-water speed = (downstream + upstream)/2 = 16 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_boat_speed",
+      "variant": 0,
+      "inputs": {
+        "up": 12,
+        "down": 20,
+        "q": 1,
+        "expr": "F(down+up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0012",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 2: A boat's upstream speed is 14 km/h and downstream speed is 21 km/h. Find its still-water speed.",
+    "options": [
+      "37/2 km/h",
+      "35/2 km/h",
+      "35 km/h",
+      "33/2 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "35/2 km/h",
+    "explanation": "Still-water speed = (downstream + upstream)/2 = 35/2 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_boat_speed",
+      "variant": 1,
+      "inputs": {
+        "up": 14,
+        "down": 21,
+        "q": 2,
+        "expr": "F(down+up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0013",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 3: A boat's upstream speed is 16 km/h and downstream speed is 22 km/h. Find its still-water speed.",
+    "options": [
+      "19 km/h",
+      "38 km/h",
+      "20 km/h",
+      "18 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "19 km/h",
+    "explanation": "Still-water speed = (downstream + upstream)/2 = 19 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_boat_speed",
+      "variant": 2,
+      "inputs": {
+        "up": 16,
+        "down": 22,
+        "q": 3,
+        "expr": "F(down+up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0014",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 4: A boat's upstream speed is 18 km/h and downstream speed is 23 km/h. Find its still-water speed.",
+    "options": [
+      "43/2 km/h",
+      "41 km/h",
+      "39/2 km/h",
+      "41/2 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "41/2 km/h",
+    "explanation": "Still-water speed = (downstream + upstream)/2 = 41/2 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_boat_speed",
+      "variant": 3,
+      "inputs": {
+        "up": 18,
+        "down": 23,
+        "q": 4,
+        "expr": "F(down+up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0015",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 1,
+    "section": "boats_and_streams_mains_part_1",
+    "question_text": "Case 5: A boat's upstream speed is 20 km/h and downstream speed is 24 km/h. Find its still-water speed.",
+    "options": [
+      "23 km/h",
+      "44 km/h",
+      "21 km/h",
+      "22 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "22 km/h",
+    "explanation": "Still-water speed = (downstream + upstream)/2 = 22 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_boat_speed",
+      "variant": 4,
+      "inputs": {
+        "up": 20,
+        "down": 24,
+        "q": 5,
+        "expr": "F(down+up,2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0016",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 1: Two boats start towards each other 60 km apart with still-water speeds 18 km/h and 12 km/h. Find the meeting time.",
+    "options": [
+      "3 h",
+      "1 h",
+      "4 h",
+      "2 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2 h",
+    "explanation": "The stream helps one and hinders the other equally, so closure speed is 18+12 km/h and time is 2 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_boats",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "p": 18,
+        "q1": 12,
+        "q": 1,
+        "expr": "F(D,p+q1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0017",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 2: Two boats start towards each other 70 km apart with still-water speeds 19 km/h and 13 km/h. Find the meeting time.",
+    "options": [
+      "35/16 h",
+      "19/16 h",
+      "51/16 h",
+      "35/8 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "35/16 h",
+    "explanation": "The stream helps one and hinders the other equally, so closure speed is 19+13 km/h and time is 35/16 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_boats",
+      "variant": 1,
+      "inputs": {
+        "D": 70,
+        "p": 19,
+        "q1": 13,
+        "q": 2,
+        "expr": "F(D,p+q1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0018",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 3: Two boats start towards each other 80 km apart with still-water speeds 20 km/h and 14 km/h. Find the meeting time.",
+    "options": [
+      "57/17 h",
+      "40/17 h",
+      "23/17 h",
+      "80/17 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "40/17 h",
+    "explanation": "The stream helps one and hinders the other equally, so closure speed is 20+14 km/h and time is 40/17 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_boats",
+      "variant": 2,
+      "inputs": {
+        "D": 80,
+        "p": 20,
+        "q1": 14,
+        "q": 3,
+        "expr": "F(D,p+q1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0019",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 4: Two boats start towards each other 90 km apart with still-water speeds 21 km/h and 15 km/h. Find the meeting time.",
+    "options": [
+      "5 h",
+      "7/2 h",
+      "3/2 h",
+      "5/2 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "5/2 h",
+    "explanation": "The stream helps one and hinders the other equally, so closure speed is 21+15 km/h and time is 5/2 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_boats",
+      "variant": 3,
+      "inputs": {
+        "D": 90,
+        "p": 21,
+        "q1": 15,
+        "q": 4,
+        "expr": "F(D,p+q1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0020",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 5: Two boats start towards each other 100 km apart with still-water speeds 22 km/h and 16 km/h. Find the meeting time.",
+    "options": [
+      "50/19 h",
+      "31/19 h",
+      "100/19 h",
+      "69/19 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "50/19 h",
+    "explanation": "The stream helps one and hinders the other equally, so closure speed is 22+16 km/h and time is 50/19 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_boats",
+      "variant": 4,
+      "inputs": {
+        "D": 100,
+        "p": 22,
+        "q1": 16,
+        "q": 5,
+        "expr": "F(D,p+q1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0021",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 1: Two boats start 48 km apart and travel towards each other with effective upstream speeds 18 km/h and 14 km/h. Find the meeting time.",
+    "options": [
+      "5/2 h",
+      "3/2 h",
+      "3 h",
+      "1/2 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3/2 h",
+    "explanation": "Effective speeds add while approaching, giving 3/2 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_meet",
+      "variant": 0,
+      "inputs": {
+        "D": 48,
+        "u1": 18,
+        "u2": 14,
+        "q": 1,
+        "expr": "F(D,u1+u2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0022",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 2: Two boats start 54 km apart and travel towards each other with effective upstream speeds 19 km/h and 15 km/h. Find the meeting time.",
+    "options": [
+      "10/17 h",
+      "54/17 h",
+      "44/17 h",
+      "27/17 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "27/17 h",
+    "explanation": "Effective speeds add while approaching, giving 27/17 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_meet",
+      "variant": 1,
+      "inputs": {
+        "D": 54,
+        "u1": 19,
+        "u2": 15,
+        "q": 2,
+        "expr": "F(D,u1+u2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0023",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 3: Two boats start 60 km apart and travel towards each other with effective upstream speeds 20 km/h and 16 km/h. Find the meeting time.",
+    "options": [
+      "8/3 h",
+      "2/3 h",
+      "5/3 h",
+      "10/3 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5/3 h",
+    "explanation": "Effective speeds add while approaching, giving 5/3 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_meet",
+      "variant": 2,
+      "inputs": {
+        "D": 60,
+        "u1": 20,
+        "u2": 16,
+        "q": 3,
+        "expr": "F(D,u1+u2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0024",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 4: Two boats start 66 km apart and travel towards each other with effective upstream speeds 21 km/h and 17 km/h. Find the meeting time.",
+    "options": [
+      "14/19 h",
+      "33/19 h",
+      "66/19 h",
+      "52/19 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "33/19 h",
+    "explanation": "Effective speeds add while approaching, giving 33/19 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_meet",
+      "variant": 3,
+      "inputs": {
+        "D": 66,
+        "u1": 21,
+        "u2": 17,
+        "q": 4,
+        "expr": "F(D,u1+u2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0025",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 5: Two boats start 72 km apart and travel towards each other with effective upstream speeds 22 km/h and 18 km/h. Find the meeting time.",
+    "options": [
+      "14/5 h",
+      "4/5 h",
+      "18/5 h",
+      "9/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "9/5 h",
+    "explanation": "Effective speeds add while approaching, giving 9/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_meet",
+      "variant": 4,
+      "inputs": {
+        "D": 72,
+        "u1": 22,
+        "u2": 18,
+        "q": 5,
+        "expr": "F(D,u1+u2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0026",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 1: A boat has still-water speed 20 km/h in a stream of 5 km/h. Find its average speed for an equal-distance round trip.",
+    "options": [
+      "79/4 km/h",
+      "71/4 km/h",
+      "75/2 km/h",
+      "75/4 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "75/4 km/h",
+    "explanation": "Average speed is 2uv/(u+v) with u=20-5 and v=20+5, giving 75/4 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_round_trip",
+      "variant": 0,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0027",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 2: A boat has still-water speed 22 km/h in a stream of 6 km/h. Find its average speed for an equal-distance round trip.",
+    "options": [
+      "224/11 km/h",
+      "235/11 km/h",
+      "213/11 km/h",
+      "448/11 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "224/11 km/h",
+    "explanation": "Average speed is 2uv/(u+v) with u=22-6 and v=22+6, giving 224/11 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_round_trip",
+      "variant": 1,
+      "inputs": {
+        "b": 22,
+        "s": 6,
+        "q": 2,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0028",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 3: A boat has still-water speed 24 km/h in a stream of 7 km/h. Find its average speed for an equal-distance round trip.",
+    "options": [
+      "503/24 km/h",
+      "527/24 km/h",
+      "527/12 km/h",
+      "551/24 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "527/24 km/h",
+    "explanation": "Average speed is 2uv/(u+v) with u=24-7 and v=24+7, giving 527/24 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_round_trip",
+      "variant": 2,
+      "inputs": {
+        "b": 24,
+        "s": 7,
+        "q": 3,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0029",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 4: A boat has still-water speed 26 km/h in a stream of 8 km/h. Find its average speed for an equal-distance round trip.",
+    "options": [
+      "319/13 km/h",
+      "293/13 km/h",
+      "306/13 km/h",
+      "612/13 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "306/13 km/h",
+    "explanation": "Average speed is 2uv/(u+v) with u=26-8 and v=26+8, giving 306/13 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_round_trip",
+      "variant": 3,
+      "inputs": {
+        "b": 26,
+        "s": 8,
+        "q": 4,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0030",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 5: A boat has still-water speed 28 km/h in a stream of 9 km/h. Find its average speed for an equal-distance round trip.",
+    "options": [
+      "703/14 km/h",
+      "731/28 km/h",
+      "703/28 km/h",
+      "675/28 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "703/28 km/h",
+    "explanation": "Average speed is 2uv/(u+v) with u=28-9 and v=28+9, giving 703/28 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_round_trip",
+      "variant": 4,
+      "inputs": {
+        "b": 28,
+        "s": 9,
+        "q": 5,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0031",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 1: Two towns are 60 km apart. A boat starts downstream at 20 km/h in a 5 km/h stream; 1 h later another starts from the far end at the same still-water speed. Find the meeting time from the first start.",
+    "options": [
+      "-1/8 h",
+      "7/4 h",
+      "7/8 h",
+      "15/8 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "7/8 h",
+    "explanation": "The first boat covers 20+5 km/h before the second starts, so the remaining gap closes at 2×20 km/h: 7/8 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_delay_start",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s": 5,
+        "d": 1,
+        "q": 1,
+        "expr": "F(D-(b+s)*d,2*b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0032",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 2: Two towns are 65 km apart. A boat starts downstream at 21 km/h in a 5 km/h stream; 2 h later another starts from the far end at the same still-water speed. Find the meeting time from the first start.",
+    "options": [
+      "55/42 h",
+      "13/21 h",
+      "-29/42 h",
+      "13/42 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "13/42 h",
+    "explanation": "The first boat covers 21+5 km/h before the second starts, so the remaining gap closes at 2×21 km/h: 13/42 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_delay_start",
+      "variant": 1,
+      "inputs": {
+        "D": 65,
+        "b": 21,
+        "s": 5,
+        "d": 2,
+        "q": 2,
+        "expr": "F(D-(b+s)*d,2*b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0033",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 3: Two towns are 70 km apart. A boat starts downstream at 22 km/h in a 5 km/h stream; 3 h later another starts from the far end at the same still-water speed. Find the meeting time from the first start.",
+    "options": [
+      "-5/4 h",
+      "-1/2 h",
+      "-1/4 h",
+      "3/4 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-1/4 h",
+    "explanation": "The first boat covers 22+5 km/h before the second starts, so the remaining gap closes at 2×22 km/h: -1/4 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_delay_start",
+      "variant": 2,
+      "inputs": {
+        "D": 70,
+        "b": 22,
+        "s": 5,
+        "d": 3,
+        "q": 3,
+        "expr": "F(D-(b+s)*d,2*b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0034",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 4: Two towns are 75 km apart. A boat starts downstream at 23 km/h in a 5 km/h stream; 4 h later another starts from the far end at the same still-water speed. Find the meeting time from the first start.",
+    "options": [
+      "9/46 h",
+      "-83/46 h",
+      "-37/46 h",
+      "-37/23 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "-37/46 h",
+    "explanation": "The first boat covers 23+5 km/h before the second starts, so the remaining gap closes at 2×23 km/h: -37/46 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_delay_start",
+      "variant": 3,
+      "inputs": {
+        "D": 75,
+        "b": 23,
+        "s": 5,
+        "d": 4,
+        "q": 4,
+        "expr": "F(D-(b+s)*d,2*b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0035",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 2,
+    "section": "boats_and_streams_mains_part_2",
+    "question_text": "Case 5: Two towns are 80 km apart. A boat starts downstream at 24 km/h in a 5 km/h stream; 5 h later another starts from the far end at the same still-water speed. Find the meeting time from the first start.",
+    "options": [
+      "-113/48 h",
+      "-65/24 h",
+      "-17/48 h",
+      "-65/48 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "-65/48 h",
+    "explanation": "The first boat covers 24+5 km/h before the second starts, so the remaining gap closes at 2×24 km/h: -65/48 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_delay_start",
+      "variant": 4,
+      "inputs": {
+        "D": 80,
+        "b": 24,
+        "s": 5,
+        "d": 5,
+        "q": 5,
+        "expr": "F(D-(b+s)*d,2*b)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0036",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 1: A 60 km upstream trip is made when the stream is 4 km/h and again when it is 6 km/h. The boat's still-water speed is 20 km/h. Find the increase in journey time.",
+    "options": [
+      "15/14 h",
+      "-13/28 h",
+      "15/28 h",
+      "43/28 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "15/28 h",
+    "explanation": "Compare upstream times at the two stream speeds: 15/28 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_change",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s1": 4,
+        "s2": 6,
+        "q": 1,
+        "expr": "F(D,b-s2)-F(D,b-s1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0037",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 2: A 65 km upstream trip is made when the stream is 5 km/h and again when it is 7 km/h. The boat's still-water speed is 21 km/h. Find the increase in journey time.",
+    "options": [
+      "65/56 h",
+      "-47/112 h",
+      "65/112 h",
+      "177/112 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "65/112 h",
+    "explanation": "Compare upstream times at the two stream speeds: 65/112 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_change",
+      "variant": 1,
+      "inputs": {
+        "D": 65,
+        "b": 21,
+        "s1": 5,
+        "s2": 7,
+        "q": 2,
+        "expr": "F(D,b-s2)-F(D,b-s1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0038",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 3: A 70 km upstream trip is made when the stream is 6 km/h and again when it is 8 km/h. The boat's still-water speed is 22 km/h. Find the increase in journey time.",
+    "options": [
+      "13/8 h",
+      "5/8 h",
+      "-3/8 h",
+      "5/4 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5/8 h",
+    "explanation": "Compare upstream times at the two stream speeds: 5/8 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_change",
+      "variant": 2,
+      "inputs": {
+        "D": 70,
+        "b": 22,
+        "s1": 6,
+        "s2": 8,
+        "q": 3,
+        "expr": "F(D,b-s2)-F(D,b-s1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0039",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 4: A 75 km upstream trip is made when the stream is 7 km/h and again when it is 9 km/h. The boat's still-water speed is 23 km/h. Find the increase in journey time.",
+    "options": [
+      "-37/112 h",
+      "187/112 h",
+      "75/56 h",
+      "75/112 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "75/112 h",
+    "explanation": "Compare upstream times at the two stream speeds: 75/112 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_change",
+      "variant": 3,
+      "inputs": {
+        "D": 75,
+        "b": 23,
+        "s1": 7,
+        "s2": 9,
+        "q": 4,
+        "expr": "F(D,b-s2)-F(D,b-s1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0040",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 5: A 80 km upstream trip is made when the stream is 8 km/h and again when it is 10 km/h. The boat's still-water speed is 24 km/h. Find the increase in journey time.",
+    "options": [
+      "-2/7 h",
+      "10/7 h",
+      "5/7 h",
+      "12/7 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5/7 h",
+    "explanation": "Compare upstream times at the two stream speeds: 5/7 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_change",
+      "variant": 4,
+      "inputs": {
+        "D": 80,
+        "b": 24,
+        "s1": 8,
+        "s2": 10,
+        "q": 5,
+        "expr": "F(D,b-s2)-F(D,b-s1)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0041",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 1: A boat with still-water speed 20 km/h travels 60 km in a 5 km/h stream. Find how much longer the upstream journey takes than the downstream journey.",
+    "options": [
+      "16/5 h",
+      "13/5 h",
+      "3/5 h",
+      "8/5 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "8/5 h",
+    "explanation": "Difference of upstream and downstream times is 8/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_time_difference",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0042",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 2: A boat with still-water speed 21 km/h travels 62 km in a 7 km/h stream. Find how much longer the upstream journey takes than the downstream journey.",
+    "options": [
+      "31/7 h",
+      "31/14 h",
+      "45/14 h",
+      "17/14 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "31/14 h",
+    "explanation": "Difference of upstream and downstream times is 31/14 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_time_difference",
+      "variant": 1,
+      "inputs": {
+        "D": 62,
+        "b": 21,
+        "s": 7,
+        "q": 2,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0043",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 3: A boat with still-water speed 22 km/h travels 64 km in a 9 km/h stream. Find how much longer the upstream journey takes than the downstream journey.",
+    "options": [
+      "1152/403 h",
+      "749/403 h",
+      "2304/403 h",
+      "1555/403 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1152/403 h",
+    "explanation": "Difference of upstream and downstream times is 1152/403 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_time_difference",
+      "variant": 2,
+      "inputs": {
+        "D": 64,
+        "b": 22,
+        "s": 9,
+        "q": 3,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0044",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 4: A boat with still-water speed 23 km/h travels 66 km in a 11 km/h stream. Find how much longer the upstream journey takes than the downstream journey.",
+    "options": [
+      "155/34 h",
+      "87/34 h",
+      "121/34 h",
+      "121/17 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "121/34 h",
+    "explanation": "Difference of upstream and downstream times is 121/34 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_time_difference",
+      "variant": 3,
+      "inputs": {
+        "D": 66,
+        "b": 23,
+        "s": 11,
+        "q": 4,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0045",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 5: A boat with still-water speed 24 km/h travels 68 km in a 13 km/h stream. Find how much longer the upstream journey takes than the downstream journey.",
+    "options": [
+      "2175/407 h",
+      "1768/407 h",
+      "3536/407 h",
+      "1361/407 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1768/407 h",
+    "explanation": "Difference of upstream and downstream times is 1768/407 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_time_difference",
+      "variant": 4,
+      "inputs": {
+        "D": 68,
+        "b": 24,
+        "s": 13,
+        "q": 5,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0046",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 1: A boat's still-water speed is 20 km/h and the stream speed is 5 km/h. Find the ratio of downstream to upstream speeds.",
+    "options": [
+      "3:5",
+      "5:3",
+      "6:3",
+      "5:4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5:3",
+    "explanation": "The ratio is (20+5):(20-5) = 5:3.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_speed_ratio",
+      "variant": 0,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0047",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 2: A boat's still-water speed is 22 km/h and the stream speed is 6 km/h. Find the ratio of downstream to upstream speeds.",
+    "options": [
+      "4:7",
+      "8:4",
+      "7:5",
+      "7:4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7:4",
+    "explanation": "The ratio is (22+6):(22-6) = 7:4.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_speed_ratio",
+      "variant": 1,
+      "inputs": {
+        "b": 22,
+        "s": 6,
+        "q": 2,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0048",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 3: A boat's still-water speed is 24 km/h and the stream speed is 7 km/h. Find the ratio of downstream to upstream speeds.",
+    "options": [
+      "32:17",
+      "31:17",
+      "31:18",
+      "17:31"
+    ],
+    "correct_option": "B",
+    "correct_answer": "31:17",
+    "explanation": "The ratio is (24+7):(24-7) = 31:17.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_speed_ratio",
+      "variant": 2,
+      "inputs": {
+        "b": 24,
+        "s": 7,
+        "q": 3,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0049",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 4: A boat's still-water speed is 26 km/h and the stream speed is 8 km/h. Find the ratio of downstream to upstream speeds.",
+    "options": [
+      "18:9",
+      "9:17",
+      "17:10",
+      "17:9"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17:9",
+    "explanation": "The ratio is (26+8):(26-8) = 17:9.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_speed_ratio",
+      "variant": 3,
+      "inputs": {
+        "b": 26,
+        "s": 8,
+        "q": 4,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0050",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 5: A boat's still-water speed is 28 km/h and the stream speed is 9 km/h. Find the ratio of downstream to upstream speeds.",
+    "options": [
+      "19:37",
+      "37:20",
+      "38:19",
+      "37:19"
+    ],
+    "correct_option": "D",
+    "correct_answer": "37:19",
+    "explanation": "The ratio is (28+9):(28-9) = 37:19.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_speed_ratio",
+      "variant": 4,
+      "inputs": {
+        "b": 28,
+        "s": 9,
+        "q": 5,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0051",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 1: A stream flows at 5 km/h. Find the difference between a boat's downstream and upstream speeds in still water of the same value.",
+    "options": [
+      "9 km/h",
+      "10 km/h",
+      "11 km/h",
+      "20 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "10 km/h",
+    "explanation": "Downstream minus upstream speed is 2×5 = 10 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_relative_drift",
+      "variant": 0,
+      "inputs": {
+        "s": 5,
+        "q": 1,
+        "expr": "F(2*s,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0052",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 2: A stream flows at 6 km/h. Find the difference between a boat's downstream and upstream speeds in still water of the same value.",
+    "options": [
+      "13 km/h",
+      "12 km/h",
+      "24 km/h",
+      "11 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12 km/h",
+    "explanation": "Downstream minus upstream speed is 2×6 = 12 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_relative_drift",
+      "variant": 1,
+      "inputs": {
+        "s": 6,
+        "q": 2,
+        "expr": "F(2*s,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0053",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 3: A stream flows at 7 km/h. Find the difference between a boat's downstream and upstream speeds in still water of the same value.",
+    "options": [
+      "14 km/h",
+      "28 km/h",
+      "15 km/h",
+      "13 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "14 km/h",
+    "explanation": "Downstream minus upstream speed is 2×7 = 14 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_relative_drift",
+      "variant": 2,
+      "inputs": {
+        "s": 7,
+        "q": 3,
+        "expr": "F(2*s,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0054",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 4: A stream flows at 8 km/h. Find the difference between a boat's downstream and upstream speeds in still water of the same value.",
+    "options": [
+      "15 km/h",
+      "16 km/h",
+      "17 km/h",
+      "32 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "16 km/h",
+    "explanation": "Downstream minus upstream speed is 2×8 = 16 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_relative_drift",
+      "variant": 3,
+      "inputs": {
+        "s": 8,
+        "q": 4,
+        "expr": "F(2*s,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0055",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 5: A stream flows at 9 km/h. Find the difference between a boat's downstream and upstream speeds in still water of the same value.",
+    "options": [
+      "19 km/h",
+      "18 km/h",
+      "17 km/h",
+      "36 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18 km/h",
+    "explanation": "Downstream minus upstream speed is 2×9 = 18 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_relative_drift",
+      "variant": 4,
+      "inputs": {
+        "s": 9,
+        "q": 5,
+        "expr": "F(2*s,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0056",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 1: A boat travels upstream for 2 h and then downstream for the rest of a 10 h journey. Its still-water speed is 20 km/h in a 5 km/h stream. Find the total distance.",
+    "options": [
+      "229 km",
+      "231 km",
+      "460 km",
+      "230 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "230 km",
+    "explanation": "Upstream distance plus downstream distance equals 230 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_distance_split",
+      "variant": 0,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "t": 2,
+        "T": 10,
+        "q": 1,
+        "expr": "F((b-s)*t+(b+s)*(T-t),1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0057",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 2: A boat travels upstream for 3 h and then downstream for the rest of a 11 h journey. Its still-water speed is 21 km/h in a 5 km/h stream. Find the total distance.",
+    "options": [
+      "512 km",
+      "255 km",
+      "257 km",
+      "256 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "256 km",
+    "explanation": "Upstream distance plus downstream distance equals 256 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_distance_split",
+      "variant": 1,
+      "inputs": {
+        "b": 21,
+        "s": 5,
+        "t": 3,
+        "T": 11,
+        "q": 2,
+        "expr": "F((b-s)*t+(b+s)*(T-t),1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0058",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 3: A boat travels upstream for 4 h and then downstream for the rest of a 12 h journey. Its still-water speed is 22 km/h in a 5 km/h stream. Find the total distance.",
+    "options": [
+      "568 km",
+      "285 km",
+      "283 km",
+      "284 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "284 km",
+    "explanation": "Upstream distance plus downstream distance equals 284 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_distance_split",
+      "variant": 2,
+      "inputs": {
+        "b": 22,
+        "s": 5,
+        "t": 4,
+        "T": 12,
+        "q": 3,
+        "expr": "F((b-s)*t+(b+s)*(T-t),1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0059",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 4: A boat travels upstream for 5 h and then downstream for the rest of a 13 h journey. Its still-water speed is 23 km/h in a 5 km/h stream. Find the total distance.",
+    "options": [
+      "314 km",
+      "315 km",
+      "313 km",
+      "628 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "314 km",
+    "explanation": "Upstream distance plus downstream distance equals 314 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_distance_split",
+      "variant": 3,
+      "inputs": {
+        "b": 23,
+        "s": 5,
+        "t": 5,
+        "T": 13,
+        "q": 4,
+        "expr": "F((b-s)*t+(b+s)*(T-t),1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0060",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 5: A boat travels upstream for 6 h and then downstream for the rest of a 14 h journey. Its still-water speed is 24 km/h in a 5 km/h stream. Find the total distance.",
+    "options": [
+      "347 km",
+      "346 km",
+      "692 km",
+      "345 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "346 km",
+    "explanation": "Upstream distance plus downstream distance equals 346 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_distance_split",
+      "variant": 4,
+      "inputs": {
+        "b": 24,
+        "s": 5,
+        "t": 6,
+        "T": 14,
+        "q": 5,
+        "expr": "F((b-s)*t+(b+s)*(T-t),1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0061",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 1: A boat takes 6 h upstream and 3 h downstream for the same 60 km stretch. Find the stream speed.",
+    "options": [
+      "4 km/h",
+      "6 km/h",
+      "5 km/h",
+      "10 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5 km/h",
+    "explanation": "Stream speed = D(t1-t2)/(2t1t2) = 5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_from_times",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "t1": 6,
+        "t2": 3,
+        "q": 1,
+        "expr": "F(D*(t1-t2),2*t1*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0062",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 2: A boat takes 7 h upstream and 3 h downstream for the same 70 km stretch. Find the stream speed.",
+    "options": [
+      "17/3 km/h",
+      "40/3 km/h",
+      "23/3 km/h",
+      "20/3 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "20/3 km/h",
+    "explanation": "Stream speed = D(t1-t2)/(2t1t2) = 20/3 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_from_times",
+      "variant": 1,
+      "inputs": {
+        "D": 70,
+        "t1": 7,
+        "t2": 3,
+        "q": 2,
+        "expr": "F(D*(t1-t2),2*t1*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0063",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 3: A boat takes 8 h upstream and 4 h downstream for the same 80 km stretch. Find the stream speed.",
+    "options": [
+      "5 km/h",
+      "6 km/h",
+      "10 km/h",
+      "4 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5 km/h",
+    "explanation": "Stream speed = D(t1-t2)/(2t1t2) = 5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_from_times",
+      "variant": 2,
+      "inputs": {
+        "D": 80,
+        "t1": 8,
+        "t2": 4,
+        "q": 3,
+        "expr": "F(D*(t1-t2),2*t1*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0064",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 4: A boat takes 9 h upstream and 4 h downstream for the same 90 km stretch. Find the stream speed.",
+    "options": [
+      "29/4 km/h",
+      "21/4 km/h",
+      "25/4 km/h",
+      "25/2 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "25/4 km/h",
+    "explanation": "Stream speed = D(t1-t2)/(2t1t2) = 25/4 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_from_times",
+      "variant": 3,
+      "inputs": {
+        "D": 90,
+        "t1": 9,
+        "t2": 4,
+        "q": 4,
+        "expr": "F(D*(t1-t2),2*t1*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0065",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 3,
+    "section": "boats_and_streams_mains_part_3",
+    "question_text": "Case 5: A boat takes 10 h upstream and 5 h downstream for the same 100 km stretch. Find the stream speed.",
+    "options": [
+      "5 km/h",
+      "4 km/h",
+      "10 km/h",
+      "6 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5 km/h",
+    "explanation": "Stream speed = D(t1-t2)/(2t1t2) = 5 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_current_from_times",
+      "variant": 4,
+      "inputs": {
+        "D": 100,
+        "t1": 10,
+        "t2": 5,
+        "q": 5,
+        "expr": "F(D*(t1-t2),2*t1*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0066",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat switches off its engine for 2 h in a stream flowing at 6 km/h. How far does it drift?",
+    "options": [
+      "11 km",
+      "24 km",
+      "13 km",
+      "12 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "12 km",
+    "explanation": "Drift = stream speed × time = 12 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stop_in_stream",
+      "variant": 0,
+      "inputs": {
+        "s": 6,
+        "t": 2,
+        "q": 1,
+        "expr": "F(s*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0067",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat switches off its engine for 3 h in a stream flowing at 8 km/h. How far does it drift?",
+    "options": [
+      "24 km",
+      "25 km",
+      "48 km",
+      "23 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24 km",
+    "explanation": "Drift = stream speed × time = 24 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stop_in_stream",
+      "variant": 1,
+      "inputs": {
+        "s": 8,
+        "t": 3,
+        "q": 2,
+        "expr": "F(s*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0068",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat switches off its engine for 4 h in a stream flowing at 10 km/h. How far does it drift?",
+    "options": [
+      "40 km",
+      "39 km",
+      "41 km",
+      "80 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "40 km",
+    "explanation": "Drift = stream speed × time = 40 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stop_in_stream",
+      "variant": 2,
+      "inputs": {
+        "s": 10,
+        "t": 4,
+        "q": 3,
+        "expr": "F(s*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0069",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat switches off its engine for 5 h in a stream flowing at 12 km/h. How far does it drift?",
+    "options": [
+      "60 km",
+      "120 km",
+      "61 km",
+      "59 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "60 km",
+    "explanation": "Drift = stream speed × time = 60 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stop_in_stream",
+      "variant": 3,
+      "inputs": {
+        "s": 12,
+        "t": 5,
+        "q": 4,
+        "expr": "F(s*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0070",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat switches off its engine for 6 h in a stream flowing at 14 km/h. How far does it drift?",
+    "options": [
+      "84 km",
+      "168 km",
+      "85 km",
+      "83 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "84 km",
+    "explanation": "Drift = stream speed × time = 84 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stop_in_stream",
+      "variant": 4,
+      "inputs": {
+        "s": 14,
+        "t": 6,
+        "q": 5,
+        "expr": "F(s*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0071",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat makes an equal-distance round trip with still-water speed 18 km/h in a 4 km/h stream. Find the average speed for the trip.",
+    "options": [
+      "145/9 km/h",
+      "308/9 km/h",
+      "154/9 km/h",
+      "163/9 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "154/9 km/h",
+    "explanation": "The harmonic mean of upstream and downstream speeds is 154/9 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_trip_average",
+      "variant": 0,
+      "inputs": {
+        "b": 18,
+        "s": 4,
+        "q": 1,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0072",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat makes an equal-distance round trip with still-water speed 20 km/h in a 5 km/h stream. Find the average speed for the trip.",
+    "options": [
+      "71/4 km/h",
+      "79/4 km/h",
+      "75/2 km/h",
+      "75/4 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "75/4 km/h",
+    "explanation": "The harmonic mean of upstream and downstream speeds is 75/4 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_trip_average",
+      "variant": 1,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "q": 2,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0073",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat makes an equal-distance round trip with still-water speed 22 km/h in a 6 km/h stream. Find the average speed for the trip.",
+    "options": [
+      "448/11 km/h",
+      "213/11 km/h",
+      "235/11 km/h",
+      "224/11 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "224/11 km/h",
+    "explanation": "The harmonic mean of upstream and downstream speeds is 224/11 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_trip_average",
+      "variant": 2,
+      "inputs": {
+        "b": 22,
+        "s": 6,
+        "q": 3,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0074",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat makes an equal-distance round trip with still-water speed 24 km/h in a 7 km/h stream. Find the average speed for the trip.",
+    "options": [
+      "527/24 km/h",
+      "527/12 km/h",
+      "551/24 km/h",
+      "503/24 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "527/24 km/h",
+    "explanation": "The harmonic mean of upstream and downstream speeds is 527/24 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_trip_average",
+      "variant": 3,
+      "inputs": {
+        "b": 24,
+        "s": 7,
+        "q": 4,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0075",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat makes an equal-distance round trip with still-water speed 26 km/h in a 8 km/h stream. Find the average speed for the trip.",
+    "options": [
+      "293/13 km/h",
+      "612/13 km/h",
+      "319/13 km/h",
+      "306/13 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "306/13 km/h",
+    "explanation": "The harmonic mean of upstream and downstream speeds is 306/13 km/h km/h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_trip_average",
+      "variant": 4,
+      "inputs": {
+        "b": 26,
+        "s": 8,
+        "q": 5,
+        "expr": "F(2*(b-s)*(b+s),2*b)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0076",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat covers 30 km upstream and then 40 km downstream with still-water speed 20 km/h in a 5 km/h stream. Find the total time.",
+    "options": [
+      "23/5 h",
+      "18/5 h",
+      "13/5 h",
+      "36/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "18/5 h",
+    "explanation": "Add the two leg times using upstream 20-5 and downstream 20+5: 18/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_legs",
+      "variant": 0,
+      "inputs": {
+        "D1": 30,
+        "D2": 40,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(D1,b-s)+F(D2,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0077",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat covers 35 km upstream and then 45 km downstream with still-water speed 21 km/h in a 5 km/h stream. Find the total time.",
+    "options": [
+      "1023/208 h",
+      "815/104 h",
+      "607/208 h",
+      "815/208 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "815/208 h",
+    "explanation": "Add the two leg times using upstream 21-5 and downstream 21+5: 815/208 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_legs",
+      "variant": 1,
+      "inputs": {
+        "D1": 35,
+        "D2": 45,
+        "b": 21,
+        "s": 5,
+        "q": 2,
+        "expr": "F(D1,b-s)+F(D2,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0078",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat covers 40 km upstream and then 50 km downstream with still-water speed 22 km/h in a 5 km/h stream. Find the total time.",
+    "options": [
+      "1930/459 h",
+      "3860/459 h",
+      "2389/459 h",
+      "1471/459 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1930/459 h",
+    "explanation": "Add the two leg times using upstream 22-5 and downstream 22+5: 1930/459 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_legs",
+      "variant": 2,
+      "inputs": {
+        "D1": 40,
+        "D2": 50,
+        "b": 22,
+        "s": 5,
+        "q": 3,
+        "expr": "F(D1,b-s)+F(D2,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0079",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat covers 45 km upstream and then 55 km downstream with still-water speed 23 km/h in a 5 km/h stream. Find the total time.",
+    "options": [
+      "125/28 h",
+      "153/28 h",
+      "125/14 h",
+      "97/28 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "125/28 h",
+    "explanation": "Add the two leg times using upstream 23-5 and downstream 23+5: 125/28 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_legs",
+      "variant": 3,
+      "inputs": {
+        "D1": 45,
+        "D2": 55,
+        "b": 23,
+        "s": 5,
+        "q": 4,
+        "expr": "F(D1,b-s)+F(D2,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0080",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat covers 50 km upstream and then 60 km downstream with still-water speed 24 km/h in a 5 km/h stream. Find the total time.",
+    "options": [
+      "5180/551 h",
+      "2590/551 h",
+      "2039/551 h",
+      "3141/551 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2590/551 h",
+    "explanation": "Add the two leg times using upstream 24-5 and downstream 24+5: 2590/551 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_two_legs",
+      "variant": 4,
+      "inputs": {
+        "D1": 50,
+        "D2": 60,
+        "b": 24,
+        "s": 5,
+        "q": 5,
+        "expr": "F(D1,b-s)+F(D2,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0081",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A river's current falls to half its usual 6 km/h. A boat with still-water speed 20 km/h travels 60 km upstream. Find the new time.",
+    "options": [
+      "120/17 h",
+      "60/17 h",
+      "77/17 h",
+      "43/17 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "60/17 h",
+    "explanation": "New upstream speed is 20-6/2, so time is 60/17 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_half_current",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s": 6,
+        "q": 1,
+        "expr": "F(D,b-F(s,2))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0082",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A river's current falls to half its usual 8 km/h. A boat with still-water speed 21 km/h travels 62 km upstream. Find the new time.",
+    "options": [
+      "124/17 h",
+      "45/17 h",
+      "62/17 h",
+      "79/17 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "62/17 h",
+    "explanation": "New upstream speed is 21-8/2, so time is 62/17 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_half_current",
+      "variant": 1,
+      "inputs": {
+        "D": 62,
+        "b": 21,
+        "s": 8,
+        "q": 2,
+        "expr": "F(D,b-F(s,2))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0083",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A river's current falls to half its usual 10 km/h. A boat with still-water speed 22 km/h travels 64 km upstream. Find the new time.",
+    "options": [
+      "47/17 h",
+      "81/17 h",
+      "64/17 h",
+      "128/17 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "64/17 h",
+    "explanation": "New upstream speed is 22-10/2, so time is 64/17 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_half_current",
+      "variant": 2,
+      "inputs": {
+        "D": 64,
+        "b": 22,
+        "s": 10,
+        "q": 3,
+        "expr": "F(D,b-F(s,2))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0084",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A river's current falls to half its usual 12 km/h. A boat with still-water speed 23 km/h travels 66 km upstream. Find the new time.",
+    "options": [
+      "83/17 h",
+      "132/17 h",
+      "66/17 h",
+      "49/17 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "66/17 h",
+    "explanation": "New upstream speed is 23-12/2, so time is 66/17 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_half_current",
+      "variant": 3,
+      "inputs": {
+        "D": 66,
+        "b": 23,
+        "s": 12,
+        "q": 4,
+        "expr": "F(D,b-F(s,2))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0085",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A river's current falls to half its usual 14 km/h. A boat with still-water speed 24 km/h travels 68 km upstream. Find the new time.",
+    "options": [
+      "4 h",
+      "8 h",
+      "5 h",
+      "3 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "4 h",
+    "explanation": "New upstream speed is 24-14/2, so time is 4 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_half_current",
+      "variant": 4,
+      "inputs": {
+        "D": 68,
+        "b": 24,
+        "s": 14,
+        "q": 5,
+        "expr": "F(D,b-F(s,2))",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0086",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat goes 60 km downstream first and returns the same distance. Its still-water speed is 20 km/h and the stream is 5 km/h. Find the total time.",
+    "options": [
+      "64/5 h",
+      "32/5 h",
+      "27/5 h",
+      "37/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "32/5 h",
+    "explanation": "Downstream and upstream times add to 32/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_downstream_first",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(D,b+s)+F(D,b-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0087",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat goes 62 km downstream first and returns the same distance. Its still-water speed is 21 km/h and the stream is 7 km/h. Find the total time.",
+    "options": [
+      "107/14 h",
+      "93/14 h",
+      "93/7 h",
+      "79/14 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "93/14 h",
+    "explanation": "Downstream and upstream times add to 93/14 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_downstream_first",
+      "variant": 1,
+      "inputs": {
+        "D": 62,
+        "b": 21,
+        "s": 7,
+        "q": 2,
+        "expr": "F(D,b+s)+F(D,b-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0088",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat goes 64 km downstream first and returns the same distance. Its still-water speed is 22 km/h and the stream is 9 km/h. Find the total time.",
+    "options": [
+      "5632/403 h",
+      "3219/403 h",
+      "2816/403 h",
+      "2413/403 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2816/403 h",
+    "explanation": "Downstream and upstream times add to 2816/403 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_downstream_first",
+      "variant": 2,
+      "inputs": {
+        "D": 64,
+        "b": 22,
+        "s": 9,
+        "q": 3,
+        "expr": "F(D,b+s)+F(D,b-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0089",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat goes 66 km downstream first and returns the same distance. Its still-water speed is 23 km/h and the stream is 11 km/h. Find the total time.",
+    "options": [
+      "219/34 h",
+      "287/34 h",
+      "253/17 h",
+      "253/34 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "253/34 h",
+    "explanation": "Downstream and upstream times add to 253/34 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_downstream_first",
+      "variant": 3,
+      "inputs": {
+        "D": 66,
+        "b": 23,
+        "s": 11,
+        "q": 4,
+        "expr": "F(D,b+s)+F(D,b-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0090",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat goes 68 km downstream first and returns the same distance. Its still-water speed is 24 km/h and the stream is 13 km/h. Find the total time.",
+    "options": [
+      "3264/407 h",
+      "2857/407 h",
+      "3671/407 h",
+      "6528/407 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3264/407 h",
+    "explanation": "Downstream and upstream times add to 3264/407 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_downstream_first",
+      "variant": 4,
+      "inputs": {
+        "D": 68,
+        "b": 24,
+        "s": 13,
+        "q": 5,
+        "expr": "F(D,b+s)+F(D,b-s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0091",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat travels 60 km upstream and then returns. With still-water speed 20 km/h in a 5 km/h stream, how much longer is the upstream leg?",
+    "options": [
+      "3/5 h",
+      "8/5 h",
+      "13/5 h",
+      "16/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8/5 h",
+    "explanation": "The time difference is 8/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_first",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0092",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat travels 62 km upstream and then returns. With still-water speed 21 km/h in a 7 km/h stream, how much longer is the upstream leg?",
+    "options": [
+      "17/14 h",
+      "31/7 h",
+      "45/14 h",
+      "31/14 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "31/14 h",
+    "explanation": "The time difference is 31/14 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_first",
+      "variant": 1,
+      "inputs": {
+        "D": 62,
+        "b": 21,
+        "s": 7,
+        "q": 2,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0093",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat travels 64 km upstream and then returns. With still-water speed 22 km/h in a 9 km/h stream, how much longer is the upstream leg?",
+    "options": [
+      "749/403 h",
+      "2304/403 h",
+      "1555/403 h",
+      "1152/403 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1152/403 h",
+    "explanation": "The time difference is 1152/403 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_first",
+      "variant": 2,
+      "inputs": {
+        "D": 64,
+        "b": 22,
+        "s": 9,
+        "q": 3,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0094",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat travels 66 km upstream and then returns. With still-water speed 23 km/h in a 11 km/h stream, how much longer is the upstream leg?",
+    "options": [
+      "87/34 h",
+      "121/34 h",
+      "121/17 h",
+      "155/34 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "121/34 h",
+    "explanation": "The time difference is 121/34 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_first",
+      "variant": 3,
+      "inputs": {
+        "D": 66,
+        "b": 23,
+        "s": 11,
+        "q": 4,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0095",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat travels 68 km upstream and then returns. With still-water speed 24 km/h in a 13 km/h stream, how much longer is the upstream leg?",
+    "options": [
+      "1361/407 h",
+      "2175/407 h",
+      "1768/407 h",
+      "3536/407 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1768/407 h",
+    "explanation": "The time difference is 1768/407 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_upstream_first",
+      "variant": 4,
+      "inputs": {
+        "D": 68,
+        "b": 24,
+        "s": 13,
+        "q": 5,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0096",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat completes an upstream-and-back trip in 10 h total. Its still-water speed is 20 km/h in a 5 km/h stream. Find the one-way distance.",
+    "options": [
+      "379/4 km",
+      "375/2 km",
+      "375/4 km",
+      "371/4 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "375/4 km",
+    "explanation": "Distance = T×u×v/(u+v) = 375/4 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_meet_return",
+      "variant": 0,
+      "inputs": {
+        "T": 10,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(T*(b-s)*(b+s),2*b)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0097",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat completes an upstream-and-back trip in 12 h total. Its still-water speed is 21 km/h in a 7 km/h stream. Find the one-way distance.",
+    "options": [
+      "111 km",
+      "113 km",
+      "224 km",
+      "112 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "112 km",
+    "explanation": "Distance = T×u×v/(u+v) = 112 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_meet_return",
+      "variant": 1,
+      "inputs": {
+        "T": 12,
+        "b": 21,
+        "s": 7,
+        "q": 2,
+        "expr": "F(T*(b-s)*(b+s),2*b)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0098",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat completes an upstream-and-back trip in 14 h total. Its still-water speed is 22 km/h in a 9 km/h stream. Find the one-way distance.",
+    "options": [
+      "2821/11 km",
+      "2799/22 km",
+      "2821/22 km",
+      "2843/22 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "2821/22 km",
+    "explanation": "Distance = T×u×v/(u+v) = 2821/22 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_meet_return",
+      "variant": 2,
+      "inputs": {
+        "T": 14,
+        "b": 22,
+        "s": 9,
+        "q": 3,
+        "expr": "F(T*(b-s)*(b+s),2*b)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0099",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat completes an upstream-and-back trip in 16 h total. Its still-water speed is 23 km/h in a 11 km/h stream. Find the one-way distance.",
+    "options": [
+      "3287/23 km",
+      "3264/23 km",
+      "6528/23 km",
+      "3241/23 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3264/23 km",
+    "explanation": "Distance = T×u×v/(u+v) = 3264/23 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_meet_return",
+      "variant": 3,
+      "inputs": {
+        "T": 16,
+        "b": 23,
+        "s": 11,
+        "q": 4,
+        "expr": "F(T*(b-s)*(b+s),2*b)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0100",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat completes an upstream-and-back trip in 18 h total. Its still-water speed is 24 km/h in a 13 km/h stream. Find the one-way distance.",
+    "options": [
+      "1229/8 km",
+      "1221/8 km",
+      "1221/4 km",
+      "1213/8 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1221/8 km",
+    "explanation": "Distance = T×u×v/(u+v) = 1221/8 km km.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_meet_return",
+      "variant": 4,
+      "inputs": {
+        "T": 18,
+        "b": 24,
+        "s": 13,
+        "q": 5,
+        "expr": "F(T*(b-s)*(b+s),2*b)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0101",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat's still-water speed is 20 km/h and the stream is 5 km/h. Find the ratio of upstream time to downstream time for the same distance.",
+    "options": [
+      "3:5",
+      "5:4",
+      "5:3",
+      "6:3"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5:3",
+    "explanation": "Time ratio is inverse of speed ratio: (20+5):(20-5) = 5:3.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_ratio_times",
+      "variant": 0,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0102",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat's still-water speed is 22 km/h and the stream is 6 km/h. Find the ratio of upstream time to downstream time for the same distance.",
+    "options": [
+      "7:5",
+      "4:7",
+      "8:4",
+      "7:4"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7:4",
+    "explanation": "Time ratio is inverse of speed ratio: (22+6):(22-6) = 7:4.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_ratio_times",
+      "variant": 1,
+      "inputs": {
+        "b": 22,
+        "s": 6,
+        "q": 2,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0103",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat's still-water speed is 24 km/h and the stream is 7 km/h. Find the ratio of upstream time to downstream time for the same distance.",
+    "options": [
+      "17:31",
+      "32:17",
+      "31:18",
+      "31:17"
+    ],
+    "correct_option": "D",
+    "correct_answer": "31:17",
+    "explanation": "Time ratio is inverse of speed ratio: (24+7):(24-7) = 31:17.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_ratio_times",
+      "variant": 2,
+      "inputs": {
+        "b": 24,
+        "s": 7,
+        "q": 3,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0104",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat's still-water speed is 26 km/h and the stream is 8 km/h. Find the ratio of upstream time to downstream time for the same distance.",
+    "options": [
+      "17:10",
+      "18:9",
+      "17:9",
+      "9:17"
+    ],
+    "correct_option": "C",
+    "correct_answer": "17:9",
+    "explanation": "Time ratio is inverse of speed ratio: (26+8):(26-8) = 17:9.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_ratio_times",
+      "variant": 3,
+      "inputs": {
+        "b": 26,
+        "s": 8,
+        "q": 4,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0105",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat's still-water speed is 28 km/h and the stream is 9 km/h. Find the ratio of upstream time to downstream time for the same distance.",
+    "options": [
+      "38:19",
+      "19:37",
+      "37:20",
+      "37:19"
+    ],
+    "correct_option": "D",
+    "correct_answer": "37:19",
+    "explanation": "Time ratio is inverse of speed ratio: (28+9):(28-9) = 37:19.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_ratio_times",
+      "variant": 4,
+      "inputs": {
+        "b": 28,
+        "s": 9,
+        "q": 5,
+        "expr": "ratio(b+s,b-s)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0106",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: Replacing a 60 km downstream leg with the same distance upstream adds how much time? The boat's still-water speed is 20 km/h in a 5 km/h stream.",
+    "options": [
+      "3/5 h",
+      "8/5 h",
+      "16/5 h",
+      "13/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "8/5 h",
+    "explanation": "The added time is upstream minus downstream time = 8/5 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_walk_replace",
+      "variant": 0,
+      "inputs": {
+        "D": 60,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0107",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: Replacing a 62 km downstream leg with the same distance upstream adds how much time? The boat's still-water speed is 21 km/h in a 7 km/h stream.",
+    "options": [
+      "31/7 h",
+      "31/14 h",
+      "45/14 h",
+      "17/14 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "31/14 h",
+    "explanation": "The added time is upstream minus downstream time = 31/14 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_walk_replace",
+      "variant": 1,
+      "inputs": {
+        "D": 62,
+        "b": 21,
+        "s": 7,
+        "q": 2,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0108",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: Replacing a 64 km downstream leg with the same distance upstream adds how much time? The boat's still-water speed is 22 km/h in a 9 km/h stream.",
+    "options": [
+      "1555/403 h",
+      "2304/403 h",
+      "1152/403 h",
+      "749/403 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1152/403 h",
+    "explanation": "The added time is upstream minus downstream time = 1152/403 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_walk_replace",
+      "variant": 2,
+      "inputs": {
+        "D": 64,
+        "b": 22,
+        "s": 9,
+        "q": 3,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0109",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: Replacing a 66 km downstream leg with the same distance upstream adds how much time? The boat's still-water speed is 23 km/h in a 11 km/h stream.",
+    "options": [
+      "87/34 h",
+      "155/34 h",
+      "121/34 h",
+      "121/17 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "121/34 h",
+    "explanation": "The added time is upstream minus downstream time = 121/34 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_walk_replace",
+      "variant": 3,
+      "inputs": {
+        "D": 66,
+        "b": 23,
+        "s": 11,
+        "q": 4,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0110",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: Replacing a 68 km downstream leg with the same distance upstream adds how much time? The boat's still-water speed is 24 km/h in a 13 km/h stream.",
+    "options": [
+      "1361/407 h",
+      "3536/407 h",
+      "1768/407 h",
+      "2175/407 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "1768/407 h",
+    "explanation": "The added time is upstream minus downstream time = 1768/407 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_walk_replace",
+      "variant": 4,
+      "inputs": {
+        "D": 68,
+        "b": 24,
+        "s": 13,
+        "q": 5,
+        "expr": "F(D,b-s)-F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0111",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat's still-water speed is 20 km/h and the stream speed is 5 km/h. Find the ratio of stream speed to still-water speed.",
+    "options": [
+      "1:5",
+      "1:4",
+      "4:1",
+      "2:4"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1:4",
+    "explanation": "The required ratio is 5:20 = 1:4.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_ratio",
+      "variant": 0,
+      "inputs": {
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "ratio(s,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0112",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat's still-water speed is 22 km/h and the stream speed is 6 km/h. Find the ratio of stream speed to still-water speed.",
+    "options": [
+      "11:3",
+      "4:11",
+      "3:11",
+      "3:12"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3:11",
+    "explanation": "The required ratio is 6:22 = 3:11.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_ratio",
+      "variant": 1,
+      "inputs": {
+        "b": 22,
+        "s": 6,
+        "q": 2,
+        "expr": "ratio(s,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0113",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat's still-water speed is 24 km/h and the stream speed is 7 km/h. Find the ratio of stream speed to still-water speed.",
+    "options": [
+      "8:24",
+      "7:25",
+      "24:7",
+      "7:24"
+    ],
+    "correct_option": "D",
+    "correct_answer": "7:24",
+    "explanation": "The required ratio is 7:24 = 7:24.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_ratio",
+      "variant": 2,
+      "inputs": {
+        "b": 24,
+        "s": 7,
+        "q": 3,
+        "expr": "ratio(s,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0114",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat's still-water speed is 26 km/h and the stream speed is 8 km/h. Find the ratio of stream speed to still-water speed.",
+    "options": [
+      "5:13",
+      "4:14",
+      "13:4",
+      "4:13"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4:13",
+    "explanation": "The required ratio is 8:26 = 4:13.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_ratio",
+      "variant": 3,
+      "inputs": {
+        "b": 26,
+        "s": 8,
+        "q": 4,
+        "expr": "ratio(s,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0115",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat's still-water speed is 28 km/h and the stream speed is 9 km/h. Find the ratio of stream speed to still-water speed.",
+    "options": [
+      "9:28",
+      "28:9",
+      "9:29",
+      "10:28"
+    ],
+    "correct_option": "A",
+    "correct_answer": "9:28",
+    "explanation": "The required ratio is 9:28 = 9:28.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_stream_ratio",
+      "variant": 4,
+      "inputs": {
+        "b": 28,
+        "s": 9,
+        "q": 5,
+        "expr": "ratio(s,b)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0116",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 1: A boat makes two 40 km upstream legs and one 40 km downstream leg with still-water speed 20 km/h in a 5 km/h stream. Find total time.",
+    "options": [
+      "208/15 h",
+      "89/15 h",
+      "104/15 h",
+      "119/15 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "104/15 h",
+    "explanation": "Total time is 2D/(b-s) + D/(b+s) = 104/15 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_multi_leg",
+      "variant": 0,
+      "inputs": {
+        "D": 40,
+        "b": 20,
+        "s": 5,
+        "q": 1,
+        "expr": "F(2*D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0117",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 2: A boat makes two 42 km upstream legs and one 42 km downstream leg with still-water speed 21 km/h in a 7 km/h stream. Find total time.",
+    "options": [
+      "17/2 h",
+      "15/2 h",
+      "15 h",
+      "13/2 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "15/2 h",
+    "explanation": "Total time is 2D/(b-s) + D/(b+s) = 15/2 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_multi_leg",
+      "variant": 1,
+      "inputs": {
+        "D": 42,
+        "b": 21,
+        "s": 7,
+        "q": 2,
+        "expr": "F(2*D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0118",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 3: A boat makes two 44 km upstream legs and one 44 km downstream leg with still-water speed 22 km/h in a 9 km/h stream. Find total time.",
+    "options": [
+      "6600/403 h",
+      "3300/403 h",
+      "3703/403 h",
+      "2897/403 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3300/403 h",
+    "explanation": "Total time is 2D/(b-s) + D/(b+s) = 3300/403 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_multi_leg",
+      "variant": 2,
+      "inputs": {
+        "D": 44,
+        "b": 22,
+        "s": 9,
+        "q": 3,
+        "expr": "F(2*D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0119",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 4: A boat makes two 46 km upstream legs and one 46 km downstream leg with still-water speed 23 km/h in a 11 km/h stream. Find total time.",
+    "options": [
+      "920/51 h",
+      "511/51 h",
+      "460/51 h",
+      "409/51 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "460/51 h",
+    "explanation": "Total time is 2D/(b-s) + D/(b+s) = 460/51 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_multi_leg",
+      "variant": 3,
+      "inputs": {
+        "D": 46,
+        "b": 23,
+        "s": 11,
+        "q": 4,
+        "expr": "F(2*D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "boats_and_streams_mains-0120",
+    "chapter": "Boats and Streams (Mains)",
+    "chapter_key": "boats_and_streams_mains",
+    "part": 4,
+    "section": "boats_and_streams_mains_part_4",
+    "question_text": "Case 5: A boat makes two 48 km upstream legs and one 48 km downstream leg with still-water speed 24 km/h in a 13 km/h stream. Find total time.",
+    "options": [
+      "4080/407 h",
+      "3673/407 h",
+      "4487/407 h",
+      "8160/407 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "4080/407 h",
+    "explanation": "Total time is 2D/(b-s) + D/(b+s) = 4080/407 h h.",
+    "difficulty": "HARD",
+    "source_name": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf",
+    "source_url": "",
+    "source_page": "ce7bd62e-b49c-41dc-9441-23cfd6cc40f8.pdf, pp. 4-9",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "bm_multi_leg",
+      "variant": 4,
+      "inputs": {
+        "D": 48,
+        "b": 24,
+        "s": 13,
+        "q": 5,
+        "expr": "F(2*D,b-s)+F(D,b+s)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]

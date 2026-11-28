@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "trains_data_interpretation-0001",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=1; length=180 m; pole time=12 s. Find the train's speed in km/h.",
+    "options": [
+      "55 km/h",
+      "54 km/h",
+      "108 km/h",
+      "53 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "54 km/h",
+    "explanation": "Length divided by pole time gives m/s; multiplying by 18/5 gives 54 km/h km/h.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_table",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "t": 12,
+        "q": 1,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0002",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=2; length=182 m; pole time=13 s. Find the train's speed in km/h.",
+    "options": [
+      "247/5 km/h",
+      "504/5 km/h",
+      "257/5 km/h",
+      "252/5 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "252/5 km/h",
+    "explanation": "Length divided by pole time gives m/s; multiplying by 18/5 gives 252/5 km/h km/h.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_table",
+      "variant": 1,
+      "inputs": {
+        "l": 182,
+        "t": 13,
+        "q": 2,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0003",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=3; length=184 m; pole time=14 s. Find the train's speed in km/h.",
+    "options": [
+      "1621/35 km/h",
+      "1691/35 km/h",
+      "3312/35 km/h",
+      "1656/35 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1656/35 km/h",
+    "explanation": "Length divided by pole time gives m/s; multiplying by 18/5 gives 1656/35 km/h km/h.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_table",
+      "variant": 2,
+      "inputs": {
+        "l": 184,
+        "t": 14,
+        "q": 3,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0004",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=4; length=186 m; pole time=15 s. Find the train's speed in km/h.",
+    "options": [
+      "1116/25 km/h",
+      "2232/25 km/h",
+      "1141/25 km/h",
+      "1091/25 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1116/25 km/h",
+    "explanation": "Length divided by pole time gives m/s; multiplying by 18/5 gives 1116/25 km/h km/h.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_table",
+      "variant": 3,
+      "inputs": {
+        "l": 186,
+        "t": 15,
+        "q": 4,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0005",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=5; length=188 m; pole time=16 s. Find the train's speed in km/h.",
+    "options": [
+      "423/10 km/h",
+      "423/5 km/h",
+      "413/10 km/h",
+      "433/10 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "423/10 km/h",
+    "explanation": "Length divided by pole time gives m/s; multiplying by 18/5 gives 423/10 km/h km/h.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_table",
+      "variant": 4,
+      "inputs": {
+        "l": 188,
+        "t": 16,
+        "q": 5,
+        "expr": "F(l*18,5*t)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0006",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=1; speed=72 km/h; pole time=10 s. Find the train length in metres.",
+    "options": [
+      "201 m",
+      "400 m",
+      "200 m",
+      "199 m"
+    ],
+    "correct_option": "C",
+    "correct_answer": "200 m",
+    "explanation": "Length = speed × time = 200 m m.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_length_table",
+      "variant": 0,
+      "inputs": {
+        "v": 72,
+        "t": 10,
+        "q": 1,
+        "expr": "F(v*5*t,18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0007",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=2; speed=74 km/h; pole time=11 s. Find the train length in metres.",
+    "options": [
+      "2026/9 m",
+      "4070/9 m",
+      "2044/9 m",
+      "2035/9 m"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2035/9 m",
+    "explanation": "Length = speed × time = 2035/9 m m.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_length_table",
+      "variant": 1,
+      "inputs": {
+        "v": 74,
+        "t": 11,
+        "q": 2,
+        "expr": "F(v*5*t,18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0008",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=3; speed=76 km/h; pole time=12 s. Find the train length in metres.",
+    "options": [
+      "1520/3 m",
+      "760/3 m",
+      "763/3 m",
+      "757/3 m"
+    ],
+    "correct_option": "B",
+    "correct_answer": "760/3 m",
+    "explanation": "Length = speed × time = 760/3 m m.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_length_table",
+      "variant": 2,
+      "inputs": {
+        "v": 76,
+        "t": 12,
+        "q": 3,
+        "expr": "F(v*5*t,18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0009",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=4; speed=78 km/h; pole time=13 s. Find the train length in metres.",
+    "options": [
+      "845/3 m",
+      "1690/3 m",
+      "842/3 m",
+      "848/3 m"
+    ],
+    "correct_option": "A",
+    "correct_answer": "845/3 m",
+    "explanation": "Length = speed × time = 845/3 m m.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_length_table",
+      "variant": 3,
+      "inputs": {
+        "v": 78,
+        "t": 13,
+        "q": 4,
+        "expr": "F(v*5*t,18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0010",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=5; speed=80 km/h; pole time=14 s. Find the train length in metres.",
+    "options": [
+      "2809/9 m",
+      "2800/9 m",
+      "2791/9 m",
+      "5600/9 m"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2800/9 m",
+    "explanation": "Length = speed × time = 2800/9 m m.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_length_table",
+      "variant": 4,
+      "inputs": {
+        "v": 80,
+        "t": 14,
+        "q": 5,
+        "expr": "F(v*5*t,18)",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0011",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=1; length=180 m; speed=60 km/h. How many seconds does the train take to cross a pole?",
+    "options": [
+      "-1/6 s",
+      "11/6 s",
+      "5/6 s",
+      "5/3 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "5/6 s",
+    "explanation": "Convert 60 km/h to m/s and divide 180 m by it: 5/6 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cross_pole",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "v": 60,
+        "q": 1,
+        "expr": "F(l*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0012",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=2; length=182 m; speed=61 km/h. How many seconds does the train take to cross a pole?",
+    "options": [
+      "1004/549 s",
+      "910/549 s",
+      "-94/549 s",
+      "455/549 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "455/549 s",
+    "explanation": "Convert 61 km/h to m/s and divide 182 m by it: 455/549 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cross_pole",
+      "variant": 1,
+      "inputs": {
+        "l": 182,
+        "v": 61,
+        "q": 2,
+        "expr": "F(l*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0013",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=3; length=184 m; speed=62 km/h. How many seconds does the train take to cross a pole?",
+    "options": [
+      "230/279 s",
+      "460/279 s",
+      "-49/279 s",
+      "509/279 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "230/279 s",
+    "explanation": "Convert 62 km/h to m/s and divide 184 m by it: 230/279 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cross_pole",
+      "variant": 2,
+      "inputs": {
+        "l": 184,
+        "v": 62,
+        "q": 3,
+        "expr": "F(l*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0014",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=4; length=186 m; speed=63 km/h. How many seconds does the train take to cross a pole?",
+    "options": [
+      "-34/189 s",
+      "310/189 s",
+      "344/189 s",
+      "155/189 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "155/189 s",
+    "explanation": "Convert 63 km/h to m/s and divide 186 m by it: 155/189 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cross_pole",
+      "variant": 3,
+      "inputs": {
+        "l": 186,
+        "v": 63,
+        "q": 4,
+        "expr": "F(l*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0015",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 1,
+    "section": "trains_data_interpretation_part_1",
+    "question_text": "Data: Case=5; length=188 m; speed=64 km/h. How many seconds does the train take to cross a pole?",
+    "options": [
+      "235/144 s",
+      "523/288 s",
+      "-53/288 s",
+      "235/288 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "235/288 s",
+    "explanation": "Convert 64 km/h to m/s and divide 188 m by it: 235/288 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cross_pole",
+      "variant": 4,
+      "inputs": {
+        "l": 188,
+        "v": 64,
+        "q": 5,
+        "expr": "F(l*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0016",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=1; train length=180 m; platform=120 m; speed=60 km/h. Find the time to clear the platform.",
+    "options": [
+      "43/18 s",
+      "25/9 s",
+      "25/18 s",
+      "7/18 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "25/18 s",
+    "explanation": "Distance is 180+120 m at 60 km/h, so time is 25/18 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_time",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "p": 120,
+        "v": 60,
+        "q": 1,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0017",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=2; train length=181 m; platform=121 m; speed=61 km/h. Find the time to clear the platform.",
+    "options": [
+      "1304/549 s",
+      "755/549 s",
+      "1510/549 s",
+      "206/549 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "755/549 s",
+    "explanation": "Distance is 181+121 m at 61 km/h, so time is 755/549 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_time",
+      "variant": 1,
+      "inputs": {
+        "l": 181,
+        "p": 121,
+        "v": 61,
+        "q": 2,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0018",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=3; train length=182 m; platform=122 m; speed=62 km/h. Find the time to clear the platform.",
+    "options": [
+      "659/279 s",
+      "101/279 s",
+      "760/279 s",
+      "380/279 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "380/279 s",
+    "explanation": "Distance is 182+122 m at 62 km/h, so time is 380/279 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_time",
+      "variant": 2,
+      "inputs": {
+        "l": 182,
+        "p": 122,
+        "v": 62,
+        "q": 3,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0019",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=4; train length=183 m; platform=123 m; speed=63 km/h. Find the time to clear the platform.",
+    "options": [
+      "170/63 s",
+      "22/63 s",
+      "148/63 s",
+      "85/63 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "85/63 s",
+    "explanation": "Distance is 183+123 m at 63 km/h, so time is 85/63 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_time",
+      "variant": 3,
+      "inputs": {
+        "l": 183,
+        "p": 123,
+        "v": 63,
+        "q": 4,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0020",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=5; train length=184 m; platform=124 m; speed=64 km/h. Find the time to clear the platform.",
+    "options": [
+      "673/288 s",
+      "385/288 s",
+      "97/288 s",
+      "385/144 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "385/288 s",
+    "explanation": "Distance is 184+124 m at 64 km/h, so time is 385/288 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_time",
+      "variant": 4,
+      "inputs": {
+        "l": 184,
+        "p": 124,
+        "v": 64,
+        "q": 5,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0021",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=1; length A=140 m; length B=160 m; speed A=50 km/h; speed B=40 km/h. Find the crossing time when they move towards each other.",
+    "options": [
+      "52/27 s",
+      "25/27 s",
+      "50/27 s",
+      "-2/27 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "25/27 s",
+    "explanation": "Opposite-direction relative speed is 50+40 km/h, giving 25/27 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_opposite_meet",
+      "variant": 0,
+      "inputs": {
+        "l1": 140,
+        "l2": 160,
+        "s1": 50,
+        "s2": 40,
+        "q": 1,
+        "expr": "F((l1+l2)*5,18*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0022",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=2; length A=150 m; length B=170 m; speed A=51 km/h; speed B=41 km/h. Find the crossing time when they move towards each other.",
+    "options": [
+      "-7/207 s",
+      "407/207 s",
+      "400/207 s",
+      "200/207 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "200/207 s",
+    "explanation": "Opposite-direction relative speed is 51+41 km/h, giving 200/207 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_opposite_meet",
+      "variant": 1,
+      "inputs": {
+        "l1": 150,
+        "l2": 170,
+        "s1": 51,
+        "s2": 41,
+        "q": 2,
+        "expr": "F((l1+l2)*5,18*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0023",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=3; length A=160 m; length B=180 m; speed A=52 km/h; speed B=42 km/h. Find the crossing time when they move towards each other.",
+    "options": [
+      "425/423 s",
+      "2/423 s",
+      "850/423 s",
+      "848/423 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "425/423 s",
+    "explanation": "Opposite-direction relative speed is 52+42 km/h, giving 425/423 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_opposite_meet",
+      "variant": 2,
+      "inputs": {
+        "l1": 160,
+        "l2": 180,
+        "s1": 52,
+        "s2": 42,
+        "q": 3,
+        "expr": "F((l1+l2)*5,18*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0024",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=4; length A=170 m; length B=190 m; speed A=53 km/h; speed B=43 km/h. Find the crossing time when they move towards each other.",
+    "options": [
+      "1/24 s",
+      "25/12 s",
+      "49/24 s",
+      "25/24 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "25/24 s",
+    "explanation": "Opposite-direction relative speed is 53+43 km/h, giving 25/24 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_opposite_meet",
+      "variant": 3,
+      "inputs": {
+        "l1": 170,
+        "l2": 190,
+        "s1": 53,
+        "s2": 43,
+        "q": 4,
+        "expr": "F((l1+l2)*5,18*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0025",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=5; length A=180 m; length B=200 m; speed A=54 km/h; speed B=44 km/h. Find the crossing time when they move towards each other.",
+    "options": [
+      "34/441 s",
+      "916/441 s",
+      "475/441 s",
+      "950/441 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "475/441 s",
+    "explanation": "Opposite-direction relative speed is 54+44 km/h, giving 475/441 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_opposite_meet",
+      "variant": 4,
+      "inputs": {
+        "l1": 180,
+        "l2": 200,
+        "s1": 54,
+        "s2": 44,
+        "q": 5,
+        "expr": "F((l1+l2)*5,18*(s1+s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0026",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=1; faster length=140 m; slower length=160 m; faster speed=72 km/h; slower speed=54 km/h. Find the overtaking time in the same direction.",
+    "options": [
+      "152/27 s",
+      "98/27 s",
+      "125/27 s",
+      "250/27 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "125/27 s",
+    "explanation": "Same-direction relative speed is 72-54 km/h, giving 125/27 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_same_overtake",
+      "variant": 0,
+      "inputs": {
+        "l1": 140,
+        "l2": 160,
+        "s1": 72,
+        "s2": 54,
+        "q": 1,
+        "expr": "F((l1+l2)*5,18*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0027",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=2; faster length=150 m; slower length=170 m; faster speed=73 km/h; slower speed=55 km/h. Find the overtaking time in the same direction.",
+    "options": [
+      "400/81 s",
+      "481/81 s",
+      "319/81 s",
+      "800/81 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "400/81 s",
+    "explanation": "Same-direction relative speed is 73-55 km/h, giving 400/81 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_same_overtake",
+      "variant": 1,
+      "inputs": {
+        "l1": 150,
+        "l2": 170,
+        "s1": 73,
+        "s2": 55,
+        "q": 2,
+        "expr": "F((l1+l2)*5,18*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0028",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=3; faster length=160 m; slower length=180 m; faster speed=74 km/h; slower speed=56 km/h. Find the overtaking time in the same direction.",
+    "options": [
+      "506/81 s",
+      "425/81 s",
+      "850/81 s",
+      "344/81 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "425/81 s",
+    "explanation": "Same-direction relative speed is 74-56 km/h, giving 425/81 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_same_overtake",
+      "variant": 2,
+      "inputs": {
+        "l1": 160,
+        "l2": 180,
+        "s1": 74,
+        "s2": 56,
+        "q": 3,
+        "expr": "F((l1+l2)*5,18*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0029",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=4; faster length=170 m; slower length=190 m; faster speed=75 km/h; slower speed=57 km/h. Find the overtaking time in the same direction.",
+    "options": [
+      "59/9 s",
+      "100/9 s",
+      "41/9 s",
+      "50/9 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "50/9 s",
+    "explanation": "Same-direction relative speed is 75-57 km/h, giving 50/9 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_same_overtake",
+      "variant": 3,
+      "inputs": {
+        "l1": 170,
+        "l2": 190,
+        "s1": 75,
+        "s2": 57,
+        "q": 4,
+        "expr": "F((l1+l2)*5,18*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0030",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=5; faster length=180 m; slower length=200 m; faster speed=76 km/h; slower speed=58 km/h. Find the overtaking time in the same direction.",
+    "options": [
+      "556/81 s",
+      "475/81 s",
+      "394/81 s",
+      "950/81 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "475/81 s",
+    "explanation": "Same-direction relative speed is 76-58 km/h, giving 475/81 s s.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_same_overtake",
+      "variant": 4,
+      "inputs": {
+        "l1": 180,
+        "l2": 200,
+        "s1": 76,
+        "s2": 58,
+        "q": 5,
+        "expr": "F((l1+l2)*5,18*(s1-s2))",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0031",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=1; speed=60 km/h; time=4 h. Find the distance travelled.",
+    "options": [
+      "241 km",
+      "239 km",
+      "240 km",
+      "480 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "240 km",
+    "explanation": "Distance = speed × time = 240 km km.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_distance_table",
+      "variant": 0,
+      "inputs": {
+        "v": 60,
+        "t": 4,
+        "q": 1,
+        "expr": "F(v*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0032",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=2; speed=62 km/h; time=5 h. Find the distance travelled.",
+    "options": [
+      "310 km",
+      "620 km",
+      "311 km",
+      "309 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "310 km",
+    "explanation": "Distance = speed × time = 310 km km.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_distance_table",
+      "variant": 1,
+      "inputs": {
+        "v": 62,
+        "t": 5,
+        "q": 2,
+        "expr": "F(v*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0033",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=3; speed=64 km/h; time=6 h. Find the distance travelled.",
+    "options": [
+      "385 km",
+      "383 km",
+      "768 km",
+      "384 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "384 km",
+    "explanation": "Distance = speed × time = 384 km km.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_distance_table",
+      "variant": 2,
+      "inputs": {
+        "v": 64,
+        "t": 6,
+        "q": 3,
+        "expr": "F(v*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0034",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=4; speed=66 km/h; time=7 h. Find the distance travelled.",
+    "options": [
+      "924 km",
+      "461 km",
+      "462 km",
+      "463 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "462 km",
+    "explanation": "Distance = speed × time = 462 km km.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_distance_table",
+      "variant": 3,
+      "inputs": {
+        "v": 66,
+        "t": 7,
+        "q": 4,
+        "expr": "F(v*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0035",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 2,
+    "section": "trains_data_interpretation_part_2",
+    "question_text": "Data: Case=5; speed=68 km/h; time=8 h. Find the distance travelled.",
+    "options": [
+      "544 km",
+      "1088 km",
+      "545 km",
+      "543 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "544 km",
+    "explanation": "Distance = speed × time = 544 km km.",
+    "difficulty": "EASY",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_distance_table",
+      "variant": 4,
+      "inputs": {
+        "v": 68,
+        "t": 8,
+        "q": 5,
+        "expr": "F(v*t,1)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0036",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=1; running speed=75 km/h; stoppage=10 min/h. Find the effective average speed.",
+    "options": [
+      "127/2 km/h",
+      "123/2 km/h",
+      "125 km/h",
+      "125/2 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "125/2 km/h",
+    "explanation": "Effective moving time is 60-10 minutes per hour, giving 125/2 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_stoppage_table",
+      "variant": 0,
+      "inputs": {
+        "v": 75,
+        "stop": 10,
+        "q": 1,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0037",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=2; running speed=77 km/h; stoppage=11 min/h. Find the effective average speed.",
+    "options": [
+      "3713/60 km/h",
+      "3833/60 km/h",
+      "3773/60 km/h",
+      "3773/30 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3773/60 km/h",
+    "explanation": "Effective moving time is 60-11 minutes per hour, giving 3773/60 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_stoppage_table",
+      "variant": 1,
+      "inputs": {
+        "v": 77,
+        "stop": 11,
+        "q": 2,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0038",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=3; running speed=79 km/h; stoppage=12 min/h. Find the effective average speed.",
+    "options": [
+      "321/5 km/h",
+      "316/5 km/h",
+      "311/5 km/h",
+      "632/5 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "316/5 km/h",
+    "explanation": "Effective moving time is 60-12 minutes per hour, giving 316/5 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_stoppage_table",
+      "variant": 2,
+      "inputs": {
+        "v": 79,
+        "stop": 12,
+        "q": 3,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0039",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=4; running speed=81 km/h; stoppage=13 min/h. Find the effective average speed.",
+    "options": [
+      "1249/20 km/h",
+      "1269/20 km/h",
+      "1269/10 km/h",
+      "1289/20 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1269/20 km/h",
+    "explanation": "Effective moving time is 60-13 minutes per hour, giving 1269/20 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_stoppage_table",
+      "variant": 3,
+      "inputs": {
+        "v": 81,
+        "stop": 13,
+        "q": 4,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0040",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=5; running speed=83 km/h; stoppage=14 min/h. Find the effective average speed.",
+    "options": [
+      "1879/30 km/h",
+      "1909/15 km/h",
+      "1939/30 km/h",
+      "1909/30 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "1909/30 km/h",
+    "explanation": "Effective moving time is 60-14 minutes per hour, giving 1909/30 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_stoppage_table",
+      "variant": 4,
+      "inputs": {
+        "v": 83,
+        "stop": 14,
+        "q": 5,
+        "expr": "F(v*(60-stop),60)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0041",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=1; initial gap=240 km; chasing speed=70 km/h; leading speed=50 km/h. How long until the gap closes?",
+    "options": [
+      "13 h",
+      "12 h",
+      "24 h",
+      "11 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12 h",
+    "explanation": "Using the stated leading and chasing speeds gives closure time 12 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_gap_table",
+      "variant": 0,
+      "inputs": {
+        "D": 240,
+        "s1": 70,
+        "s2": 50,
+        "q": 1,
+        "expr": "F(D,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0042",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=2; initial gap=241 km; chasing speed=71 km/h; leading speed=51 km/h. How long until the gap closes?",
+    "options": [
+      "261/20 h",
+      "221/20 h",
+      "241/20 h",
+      "241/10 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "241/20 h",
+    "explanation": "Using the stated leading and chasing speeds gives closure time 241/20 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_gap_table",
+      "variant": 1,
+      "inputs": {
+        "D": 241,
+        "s1": 71,
+        "s2": 51,
+        "q": 2,
+        "expr": "F(D,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0043",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=3; initial gap=242 km; chasing speed=72 km/h; leading speed=52 km/h. How long until the gap closes?",
+    "options": [
+      "121/10 h",
+      "111/10 h",
+      "121/5 h",
+      "131/10 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "121/10 h",
+    "explanation": "Using the stated leading and chasing speeds gives closure time 121/10 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_gap_table",
+      "variant": 2,
+      "inputs": {
+        "D": 242,
+        "s1": 72,
+        "s2": 52,
+        "q": 3,
+        "expr": "F(D,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0044",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=4; initial gap=243 km; chasing speed=73 km/h; leading speed=53 km/h. How long until the gap closes?",
+    "options": [
+      "263/20 h",
+      "223/20 h",
+      "243/10 h",
+      "243/20 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "243/20 h",
+    "explanation": "Using the stated leading and chasing speeds gives closure time 243/20 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_gap_table",
+      "variant": 3,
+      "inputs": {
+        "D": 243,
+        "s1": 73,
+        "s2": 53,
+        "q": 4,
+        "expr": "F(D,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0045",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=5; initial gap=244 km; chasing speed=74 km/h; leading speed=54 km/h. How long until the gap closes?",
+    "options": [
+      "66/5 h",
+      "61/5 h",
+      "122/5 h",
+      "56/5 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "61/5 h",
+    "explanation": "Using the stated leading and chasing speeds gives closure time 61/5 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_gap_table",
+      "variant": 4,
+      "inputs": {
+        "D": 244,
+        "s1": 74,
+        "s2": 54,
+        "q": 5,
+        "expr": "F(D,s1-s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0046",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=1; distance=300 km; speed=60 km/h. Find the journey time.",
+    "options": [
+      "5 h",
+      "10 h",
+      "4 h",
+      "6 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5 h",
+    "explanation": "Time = distance / speed = 5 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_time_table",
+      "variant": 0,
+      "inputs": {
+        "D": 300,
+        "v": 60,
+        "q": 1,
+        "expr": "F(D,v)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0047",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=2; distance=302 km; speed=61 km/h. Find the journey time.",
+    "options": [
+      "604/61 h",
+      "241/61 h",
+      "302/61 h",
+      "363/61 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "302/61 h",
+    "explanation": "Time = distance / speed = 302/61 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_time_table",
+      "variant": 1,
+      "inputs": {
+        "D": 302,
+        "v": 61,
+        "q": 2,
+        "expr": "F(D,v)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0048",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=3; distance=304 km; speed=62 km/h. Find the journey time.",
+    "options": [
+      "152/31 h",
+      "304/31 h",
+      "121/31 h",
+      "183/31 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "152/31 h",
+    "explanation": "Time = distance / speed = 152/31 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_time_table",
+      "variant": 2,
+      "inputs": {
+        "D": 304,
+        "v": 62,
+        "q": 3,
+        "expr": "F(D,v)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0049",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=4; distance=306 km; speed=63 km/h. Find the journey time.",
+    "options": [
+      "41/7 h",
+      "68/7 h",
+      "34/7 h",
+      "27/7 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "34/7 h",
+    "explanation": "Time = distance / speed = 34/7 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_time_table",
+      "variant": 3,
+      "inputs": {
+        "D": 306,
+        "v": 63,
+        "q": 4,
+        "expr": "F(D,v)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0050",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=5; distance=308 km; speed=64 km/h. Find the journey time.",
+    "options": [
+      "77/8 h",
+      "61/16 h",
+      "93/16 h",
+      "77/16 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "77/16 h",
+    "explanation": "Time = distance / speed = 77/16 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_time_table",
+      "variant": 4,
+      "inputs": {
+        "D": 308,
+        "v": 64,
+        "q": 5,
+        "expr": "F(D,v)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0051",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=1; first-half speed=40 km/h; second-half speed=60 km/h. Find the average speed for equal halves.",
+    "options": [
+      "47 km/h",
+      "49 km/h",
+      "96 km/h",
+      "48 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "48 km/h",
+    "explanation": "Equal distances give harmonic mean 48 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_average_speed",
+      "variant": 0,
+      "inputs": {
+        "v1": 40,
+        "v2": 60,
+        "q": 1,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0052",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=2; first-half speed=42 km/h; second-half speed=61 km/h. Find the average speed for equal halves.",
+    "options": [
+      "5227/103 km/h",
+      "5124/103 km/h",
+      "5021/103 km/h",
+      "10248/103 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "5124/103 km/h",
+    "explanation": "Equal distances give harmonic mean 5124/103 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_average_speed",
+      "variant": 1,
+      "inputs": {
+        "v1": 42,
+        "v2": 61,
+        "q": 2,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0053",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=3; first-half speed=44 km/h; second-half speed=62 km/h. Find the average speed for equal halves.",
+    "options": [
+      "5456/53 km/h",
+      "2781/53 km/h",
+      "2675/53 km/h",
+      "2728/53 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "2728/53 km/h",
+    "explanation": "Equal distances give harmonic mean 2728/53 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_average_speed",
+      "variant": 2,
+      "inputs": {
+        "v1": 44,
+        "v2": 62,
+        "q": 3,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0054",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=4; first-half speed=46 km/h; second-half speed=63 km/h. Find the average speed for equal halves.",
+    "options": [
+      "5796/109 km/h",
+      "11592/109 km/h",
+      "5687/109 km/h",
+      "5905/109 km/h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "5796/109 km/h",
+    "explanation": "Equal distances give harmonic mean 5796/109 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_average_speed",
+      "variant": 3,
+      "inputs": {
+        "v1": 46,
+        "v2": 63,
+        "q": 4,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0055",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=5; first-half speed=48 km/h; second-half speed=64 km/h. Find the average speed for equal halves.",
+    "options": [
+      "377/7 km/h",
+      "384/7 km/h",
+      "768/7 km/h",
+      "391/7 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "384/7 km/h",
+    "explanation": "Equal distances give harmonic mean 384/7 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_average_speed",
+      "variant": 4,
+      "inputs": {
+        "v1": 48,
+        "v2": 64,
+        "q": 5,
+        "expr": "F(2*v1*v2,v1+v2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0056",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=1; train A=65 km/h; train B=55 km/h. Find their relative speed when moving towards each other.",
+    "options": [
+      "240 km/h",
+      "119 km/h",
+      "121 km/h",
+      "120 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "120 km/h",
+    "explanation": "Add the speeds to get 120 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_rel_speed",
+      "variant": 0,
+      "inputs": {
+        "s1": 65,
+        "s2": 55,
+        "q": 1,
+        "expr": "F(s1+s2,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0057",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=2; train A=67 km/h; train B=56 km/h. Find their relative speed when moving towards each other.",
+    "options": [
+      "122 km/h",
+      "123 km/h",
+      "246 km/h",
+      "124 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "123 km/h",
+    "explanation": "Add the speeds to get 123 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_rel_speed",
+      "variant": 1,
+      "inputs": {
+        "s1": 67,
+        "s2": 56,
+        "q": 2,
+        "expr": "F(s1+s2,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0058",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=3; train A=69 km/h; train B=57 km/h. Find their relative speed when moving towards each other.",
+    "options": [
+      "125 km/h",
+      "252 km/h",
+      "127 km/h",
+      "126 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "126 km/h",
+    "explanation": "Add the speeds to get 126 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_rel_speed",
+      "variant": 2,
+      "inputs": {
+        "s1": 69,
+        "s2": 57,
+        "q": 3,
+        "expr": "F(s1+s2,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0059",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=4; train A=71 km/h; train B=58 km/h. Find their relative speed when moving towards each other.",
+    "options": [
+      "128 km/h",
+      "258 km/h",
+      "130 km/h",
+      "129 km/h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "129 km/h",
+    "explanation": "Add the speeds to get 129 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_rel_speed",
+      "variant": 3,
+      "inputs": {
+        "s1": 71,
+        "s2": 58,
+        "q": 4,
+        "expr": "F(s1+s2,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0060",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=5; train A=73 km/h; train B=59 km/h. Find their relative speed when moving towards each other.",
+    "options": [
+      "264 km/h",
+      "132 km/h",
+      "133 km/h",
+      "131 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "132 km/h",
+    "explanation": "Add the speeds to get 132 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_rel_speed",
+      "variant": 4,
+      "inputs": {
+        "s1": 73,
+        "s2": 59,
+        "q": 5,
+        "expr": "F(s1+s2,1)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0061",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=1; train length=150 m; speed=60 km/h; platform time=18 s. Find the platform length.",
+    "options": [
+      "150 m",
+      "149 m",
+      "300 m",
+      "151 m"
+    ],
+    "correct_option": "A",
+    "correct_answer": "150 m",
+    "explanation": "Distance covered minus train length is 150 m m.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_length",
+      "variant": 0,
+      "inputs": {
+        "l": 150,
+        "v": 60,
+        "t": 18,
+        "q": 1,
+        "expr": "F(v*5*t,18)-l",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0062",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=2; train length=151 m; speed=61 km/h; platform time=19 s. Find the platform length.",
+    "options": [
+      "3095/18 m",
+      "3059/18 m",
+      "3077/9 m",
+      "3077/18 m"
+    ],
+    "correct_option": "D",
+    "correct_answer": "3077/18 m",
+    "explanation": "Distance covered minus train length is 3077/18 m m.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_length",
+      "variant": 1,
+      "inputs": {
+        "l": 151,
+        "v": 61,
+        "t": 19,
+        "q": 2,
+        "expr": "F(v*5*t,18)-l",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0063",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=3; train length=152 m; speed=62 km/h; platform time=20 s. Find the platform length.",
+    "options": [
+      "1732/9 m",
+      "3464/9 m",
+      "1741/9 m",
+      "1723/9 m"
+    ],
+    "correct_option": "A",
+    "correct_answer": "1732/9 m",
+    "explanation": "Distance covered minus train length is 1732/9 m m.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_length",
+      "variant": 2,
+      "inputs": {
+        "l": 152,
+        "v": 62,
+        "t": 20,
+        "q": 3,
+        "expr": "F(v*5*t,18)-l",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0064",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=4; train length=153 m; speed=63 km/h; platform time=21 s. Find the platform length.",
+    "options": [
+      "429 m",
+      "431/2 m",
+      "427/2 m",
+      "429/2 m"
+    ],
+    "correct_option": "D",
+    "correct_answer": "429/2 m",
+    "explanation": "Distance covered minus train length is 429/2 m m.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_length",
+      "variant": 3,
+      "inputs": {
+        "l": 153,
+        "v": 63,
+        "t": 21,
+        "q": 4,
+        "expr": "F(v*5*t,18)-l",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0065",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 3,
+    "section": "trains_data_interpretation_part_3",
+    "question_text": "Data: Case=5; train length=154 m; speed=64 km/h; platform time=22 s. Find the platform length.",
+    "options": [
+      "2143/9 m",
+      "2134/9 m",
+      "4268/9 m",
+      "2125/9 m"
+    ],
+    "correct_option": "B",
+    "correct_answer": "2134/9 m",
+    "explanation": "Distance covered minus train length is 2134/9 m m.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_length",
+      "variant": 4,
+      "inputs": {
+        "l": 154,
+        "v": 64,
+        "t": 22,
+        "q": 5,
+        "expr": "F(v*5*t,18)-l",
+        "unit": " m"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0066",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; distance apart=360 km; speed A=60 km/h; speed B=45 km/h. Find the meeting time if they start together.",
+    "options": [
+      "24/7 h",
+      "31/7 h",
+      "17/7 h",
+      "48/7 h"
+    ],
+    "correct_option": "A",
+    "correct_answer": "24/7 h",
+    "explanation": "Closing speed is 60+45 km/h, so they meet after 24/7 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_two_trains",
+      "variant": 0,
+      "inputs": {
+        "D": 360,
+        "s1": 60,
+        "s2": 45,
+        "q": 1,
+        "expr": "F(D,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0067",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; distance apart=361 km; speed A=61 km/h; speed B=46 km/h. Find the meeting time if they start together.",
+    "options": [
+      "254/107 h",
+      "361/107 h",
+      "468/107 h",
+      "722/107 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "361/107 h",
+    "explanation": "Closing speed is 61+46 km/h, so they meet after 361/107 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_two_trains",
+      "variant": 1,
+      "inputs": {
+        "D": 361,
+        "s1": 61,
+        "s2": 46,
+        "q": 2,
+        "expr": "F(D,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0068",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; distance apart=362 km; speed A=62 km/h; speed B=47 km/h. Find the meeting time if they start together.",
+    "options": [
+      "471/109 h",
+      "724/109 h",
+      "253/109 h",
+      "362/109 h"
+    ],
+    "correct_option": "D",
+    "correct_answer": "362/109 h",
+    "explanation": "Closing speed is 62+47 km/h, so they meet after 362/109 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_two_trains",
+      "variant": 2,
+      "inputs": {
+        "D": 362,
+        "s1": 62,
+        "s2": 47,
+        "q": 3,
+        "expr": "F(D,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0069",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; distance apart=363 km; speed A=63 km/h; speed B=48 km/h. Find the meeting time if they start together.",
+    "options": [
+      "158/37 h",
+      "121/37 h",
+      "84/37 h",
+      "242/37 h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "121/37 h",
+    "explanation": "Closing speed is 63+48 km/h, so they meet after 121/37 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_two_trains",
+      "variant": 3,
+      "inputs": {
+        "D": 363,
+        "s1": 63,
+        "s2": 48,
+        "q": 4,
+        "expr": "F(D,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0070",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; distance apart=364 km; speed A=64 km/h; speed B=49 km/h. Find the meeting time if they start together.",
+    "options": [
+      "477/113 h",
+      "251/113 h",
+      "364/113 h",
+      "728/113 h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "364/113 h",
+    "explanation": "Closing speed is 64+49 km/h, so they meet after 364/113 h h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_two_trains",
+      "variant": 4,
+      "inputs": {
+        "D": 364,
+        "s1": 64,
+        "s2": 49,
+        "q": 5,
+        "expr": "F(D,s1+s2)",
+        "unit": " h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0071",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; total time=48 min; trains observed=6. Find the average interval between trains.",
+    "options": [
+      "9 min",
+      "7 min",
+      "8 min",
+      "16 min"
+    ],
+    "correct_option": "C",
+    "correct_answer": "8 min",
+    "explanation": "Dividing total time by count gives 8 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_frequency",
+      "variant": 0,
+      "inputs": {
+        "T": 48,
+        "n": 6,
+        "q": 1,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0072",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; total time=50 min; trains observed=7. Find the average interval between trains.",
+    "options": [
+      "57/7 min",
+      "100/7 min",
+      "50/7 min",
+      "43/7 min"
+    ],
+    "correct_option": "C",
+    "correct_answer": "50/7 min",
+    "explanation": "Dividing total time by count gives 50/7 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_frequency",
+      "variant": 1,
+      "inputs": {
+        "T": 50,
+        "n": 7,
+        "q": 2,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0073",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; total time=52 min; trains observed=8. Find the average interval between trains.",
+    "options": [
+      "15/2 min",
+      "11/2 min",
+      "13/2 min",
+      "13 min"
+    ],
+    "correct_option": "C",
+    "correct_answer": "13/2 min",
+    "explanation": "Dividing total time by count gives 13/2 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_frequency",
+      "variant": 2,
+      "inputs": {
+        "T": 52,
+        "n": 8,
+        "q": 3,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0074",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; total time=54 min; trains observed=9. Find the average interval between trains.",
+    "options": [
+      "7 min",
+      "5 min",
+      "12 min",
+      "6 min"
+    ],
+    "correct_option": "D",
+    "correct_answer": "6 min",
+    "explanation": "Dividing total time by count gives 6 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_frequency",
+      "variant": 3,
+      "inputs": {
+        "T": 54,
+        "n": 9,
+        "q": 4,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0075",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; total time=56 min; trains observed=10. Find the average interval between trains.",
+    "options": [
+      "23/5 min",
+      "28/5 min",
+      "33/5 min",
+      "56/5 min"
+    ],
+    "correct_option": "B",
+    "correct_answer": "28/5 min",
+    "explanation": "Dividing total time by count gives 28/5 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_frequency",
+      "variant": 4,
+      "inputs": {
+        "T": 56,
+        "n": 10,
+        "q": 5,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0076",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; speed=80 km/h; delay=15 min. Find the distance lost due to the delay.",
+    "options": [
+      "19 km",
+      "21 km",
+      "20 km",
+      "40 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "20 km",
+    "explanation": "Distance lost is speed × delay hours = 20 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_delay_table",
+      "variant": 0,
+      "inputs": {
+        "v": 80,
+        "delay": 15,
+        "q": 1,
+        "expr": "F(v*delay,60)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0077",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; speed=82 km/h; delay=16 min. Find the distance lost due to the delay.",
+    "options": [
+      "313/15 km",
+      "343/15 km",
+      "328/15 km",
+      "656/15 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "328/15 km",
+    "explanation": "Distance lost is speed × delay hours = 328/15 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_delay_table",
+      "variant": 1,
+      "inputs": {
+        "v": 82,
+        "delay": 16,
+        "q": 2,
+        "expr": "F(v*delay,60)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0078",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; speed=84 km/h; delay=17 min. Find the distance lost due to the delay.",
+    "options": [
+      "119/5 km",
+      "238/5 km",
+      "124/5 km",
+      "114/5 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "119/5 km",
+    "explanation": "Distance lost is speed × delay hours = 119/5 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_delay_table",
+      "variant": 2,
+      "inputs": {
+        "v": 84,
+        "delay": 17,
+        "q": 3,
+        "expr": "F(v*delay,60)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0079",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; speed=86 km/h; delay=18 min. Find the distance lost due to the delay.",
+    "options": [
+      "134/5 km",
+      "129/5 km",
+      "258/5 km",
+      "124/5 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "129/5 km",
+    "explanation": "Distance lost is speed × delay hours = 129/5 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_delay_table",
+      "variant": 3,
+      "inputs": {
+        "v": 86,
+        "delay": 18,
+        "q": 4,
+        "expr": "F(v*delay,60)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0080",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; speed=88 km/h; delay=19 min. Find the distance lost due to the delay.",
+    "options": [
+      "418/15 km",
+      "403/15 km",
+      "836/15 km",
+      "433/15 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "418/15 km",
+    "explanation": "Distance lost is speed × delay hours = 418/15 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_delay_table",
+      "variant": 4,
+      "inputs": {
+        "v": 88,
+        "delay": 19,
+        "q": 5,
+        "expr": "F(v*delay,60)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0081",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; train length=160 m; bridge=240 m; speed=72 km/h. Find the bridge-crossing time.",
+    "options": [
+      "206/81 s",
+      "44/81 s",
+      "125/81 s",
+      "250/81 s"
+    ],
+    "correct_option": "C",
+    "correct_answer": "125/81 s",
+    "explanation": "The train covers 160+240 m at 72 km/h, taking 125/81 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_bridge_table",
+      "variant": 0,
+      "inputs": {
+        "l": 160,
+        "b": 240,
+        "v": 72,
+        "q": 1,
+        "expr": "F((l+b)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0082",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; train length=161 m; bridge=241 m; speed=73 km/h. Find the bridge-crossing time.",
+    "options": [
+      "335/219 s",
+      "670/219 s",
+      "554/219 s",
+      "116/219 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "335/219 s",
+    "explanation": "The train covers 161+241 m at 73 km/h, taking 335/219 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_bridge_table",
+      "variant": 1,
+      "inputs": {
+        "l": 161,
+        "b": 241,
+        "v": 73,
+        "q": 2,
+        "expr": "F((l+b)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0083",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; train length=162 m; bridge=242 m; speed=74 km/h. Find the bridge-crossing time.",
+    "options": [
+      "838/333 s",
+      "172/333 s",
+      "1010/333 s",
+      "505/333 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "505/333 s",
+    "explanation": "The train covers 162+242 m at 74 km/h, taking 505/333 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_bridge_table",
+      "variant": 2,
+      "inputs": {
+        "l": 162,
+        "b": 242,
+        "v": 74,
+        "q": 3,
+        "expr": "F((l+b)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0084",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; train length=163 m; bridge=243 m; speed=75 km/h. Find the bridge-crossing time.",
+    "options": [
+      "203/135 s",
+      "406/135 s",
+      "338/135 s",
+      "68/135 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "203/135 s",
+    "explanation": "The train covers 163+243 m at 75 km/h, taking 203/135 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_bridge_table",
+      "variant": 3,
+      "inputs": {
+        "l": 163,
+        "b": 243,
+        "v": 75,
+        "q": 4,
+        "expr": "F((l+b)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0085",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; train length=164 m; bridge=244 m; speed=76 km/h. Find the bridge-crossing time.",
+    "options": [
+      "142/57 s",
+      "85/57 s",
+      "28/57 s",
+      "170/57 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "85/57 s",
+    "explanation": "The train covers 164+244 m at 76 km/h, taking 85/57 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_bridge_table",
+      "variant": 4,
+      "inputs": {
+        "l": 164,
+        "b": 244,
+        "v": 76,
+        "q": 5,
+        "expr": "F((l+b)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0086",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; time A=45 min; time B=60 min. Find the ratio of speeds of A to B for the same route.",
+    "options": [
+      "3:4",
+      "5:3",
+      "4:4",
+      "4:3"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4:3",
+    "explanation": "Speeds are inverse to times, so the ratio is 60:45 = 4:3.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_ratio_table",
+      "variant": 0,
+      "inputs": {
+        "s1": 45,
+        "s2": 60,
+        "q": 1,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0087",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; time A=47 min; time B=61 min. Find the ratio of speeds of A to B for the same route.",
+    "options": [
+      "61:48",
+      "61:47",
+      "62:47",
+      "47:61"
+    ],
+    "correct_option": "B",
+    "correct_answer": "61:47",
+    "explanation": "Speeds are inverse to times, so the ratio is 61:47 = 61:47.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_ratio_table",
+      "variant": 1,
+      "inputs": {
+        "s1": 47,
+        "s2": 61,
+        "q": 2,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0088",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; time A=49 min; time B=62 min. Find the ratio of speeds of A to B for the same route.",
+    "options": [
+      "63:49",
+      "62:49",
+      "62:50",
+      "49:62"
+    ],
+    "correct_option": "B",
+    "correct_answer": "62:49",
+    "explanation": "Speeds are inverse to times, so the ratio is 62:49 = 62:49.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_ratio_table",
+      "variant": 2,
+      "inputs": {
+        "s1": 49,
+        "s2": 62,
+        "q": 3,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0089",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; time A=51 min; time B=63 min. Find the ratio of speeds of A to B for the same route.",
+    "options": [
+      "22:17",
+      "21:17",
+      "21:18",
+      "17:21"
+    ],
+    "correct_option": "B",
+    "correct_answer": "21:17",
+    "explanation": "Speeds are inverse to times, so the ratio is 63:51 = 21:17.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_ratio_table",
+      "variant": 3,
+      "inputs": {
+        "s1": 51,
+        "s2": 63,
+        "q": 4,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0090",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; time A=53 min; time B=64 min. Find the ratio of speeds of A to B for the same route.",
+    "options": [
+      "64:53",
+      "53:64",
+      "64:54",
+      "65:53"
+    ],
+    "correct_option": "A",
+    "correct_answer": "64:53",
+    "explanation": "Speeds are inverse to times, so the ratio is 64:53 = 64:53.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_ratio_table",
+      "variant": 4,
+      "inputs": {
+        "s1": 53,
+        "s2": 64,
+        "q": 5,
+        "expr": "ratio(s2,s1)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0091",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; route length=180 km; speed A=50 km/h; speed B=40 km/h. Find the distance from A's start where they meet.",
+    "options": [
+      "100 km",
+      "101 km",
+      "200 km",
+      "99 km"
+    ],
+    "correct_option": "A",
+    "correct_answer": "100 km",
+    "explanation": "A covers 50/(50+40) of the route, i.e. 100 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_meet_point",
+      "variant": 0,
+      "inputs": {
+        "D": 180,
+        "s1": 50,
+        "s2": 40,
+        "q": 1,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0092",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; route length=181 km; speed A=51 km/h; speed B=41 km/h. Find the distance from A's start where they meet.",
+    "options": [
+      "9323/92 km",
+      "9231/92 km",
+      "9139/92 km",
+      "9231/46 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "9231/92 km",
+    "explanation": "A covers 51/(51+41) of the route, i.e. 9231/92 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_meet_point",
+      "variant": 1,
+      "inputs": {
+        "D": 181,
+        "s1": 51,
+        "s2": 41,
+        "q": 2,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0093",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; route length=182 km; speed A=52 km/h; speed B=42 km/h. Find the distance from A's start where they meet.",
+    "options": [
+      "4779/47 km",
+      "4732/47 km",
+      "4685/47 km",
+      "9464/47 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "4732/47 km",
+    "explanation": "A covers 52/(52+42) of the route, i.e. 4732/47 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_meet_point",
+      "variant": 2,
+      "inputs": {
+        "D": 182,
+        "s1": 52,
+        "s2": 42,
+        "q": 3,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0094",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; route length=183 km; speed A=53 km/h; speed B=43 km/h. Find the distance from A's start where they meet.",
+    "options": [
+      "3233/16 km",
+      "3201/32 km",
+      "3233/32 km",
+      "3265/32 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3233/32 km",
+    "explanation": "A covers 53/(53+43) of the route, i.e. 3233/32 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_meet_point",
+      "variant": 3,
+      "inputs": {
+        "D": 183,
+        "s1": 53,
+        "s2": 43,
+        "q": 4,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0095",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; route length=184 km; speed A=54 km/h; speed B=44 km/h. Find the distance from A's start where they meet.",
+    "options": [
+      "5017/49 km",
+      "9936/49 km",
+      "4919/49 km",
+      "4968/49 km"
+    ],
+    "correct_option": "D",
+    "correct_answer": "4968/49 km",
+    "explanation": "A covers 54/(54+44) of the route, i.e. 4968/49 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_meet_point",
+      "variant": 4,
+      "inputs": {
+        "D": 184,
+        "s1": 54,
+        "s2": 44,
+        "q": 5,
+        "expr": "F(D*s1,s1+s2)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0096",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; total fare=₹360; distance=240 km. Find the fare per kilometre.",
+    "options": [
+      "3/2",
+      "1/2",
+      "5/2",
+      "3"
+    ],
+    "correct_option": "A",
+    "correct_answer": "3/2",
+    "explanation": "Fare per kilometre is ₹360/240 = ₹3/2.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cost_per_km",
+      "variant": 0,
+      "inputs": {
+        "fare": 360,
+        "D": 240,
+        "q": 1,
+        "expr": "F(fare,D)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0097",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; total fare=₹362; distance=241 km. Find the fare per kilometre.",
+    "options": [
+      "724/241",
+      "603/241",
+      "121/241",
+      "362/241"
+    ],
+    "correct_option": "D",
+    "correct_answer": "362/241",
+    "explanation": "Fare per kilometre is ₹362/241 = ₹362/241.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cost_per_km",
+      "variant": 1,
+      "inputs": {
+        "fare": 362,
+        "D": 241,
+        "q": 2,
+        "expr": "F(fare,D)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0098",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; total fare=₹364; distance=242 km. Find the fare per kilometre.",
+    "options": [
+      "303/121",
+      "182/121",
+      "364/121",
+      "61/121"
+    ],
+    "correct_option": "B",
+    "correct_answer": "182/121",
+    "explanation": "Fare per kilometre is ₹364/242 = ₹182/121.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cost_per_km",
+      "variant": 2,
+      "inputs": {
+        "fare": 364,
+        "D": 242,
+        "q": 3,
+        "expr": "F(fare,D)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0099",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; total fare=₹366; distance=243 km. Find the fare per kilometre.",
+    "options": [
+      "122/81",
+      "41/81",
+      "244/81",
+      "203/81"
+    ],
+    "correct_option": "A",
+    "correct_answer": "122/81",
+    "explanation": "Fare per kilometre is ₹366/243 = ₹122/81.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cost_per_km",
+      "variant": 3,
+      "inputs": {
+        "fare": 366,
+        "D": 243,
+        "q": 4,
+        "expr": "F(fare,D)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0100",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; total fare=₹368; distance=244 km. Find the fare per kilometre.",
+    "options": [
+      "184/61",
+      "153/61",
+      "31/61",
+      "92/61"
+    ],
+    "correct_option": "D",
+    "correct_answer": "92/61",
+    "explanation": "Fare per kilometre is ₹368/244 = ₹92/61.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_cost_per_km",
+      "variant": 4,
+      "inputs": {
+        "fare": 368,
+        "D": 244,
+        "q": 5,
+        "expr": "F(fare,D)",
+        "unit": ""
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0101",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; observation window=60 min; departures=5. Find the average headway between departures.",
+    "options": [
+      "11 min",
+      "12 min",
+      "24 min",
+      "13 min"
+    ],
+    "correct_option": "B",
+    "correct_answer": "12 min",
+    "explanation": "Average headway is 60/5 = 12 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_headway",
+      "variant": 0,
+      "inputs": {
+        "T": 60,
+        "n": 5,
+        "q": 1,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0102",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; observation window=62 min; departures=6. Find the average headway between departures.",
+    "options": [
+      "34/3 min",
+      "28/3 min",
+      "62/3 min",
+      "31/3 min"
+    ],
+    "correct_option": "D",
+    "correct_answer": "31/3 min",
+    "explanation": "Average headway is 62/6 = 31/3 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_headway",
+      "variant": 1,
+      "inputs": {
+        "T": 62,
+        "n": 6,
+        "q": 2,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0103",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; observation window=64 min; departures=7. Find the average headway between departures.",
+    "options": [
+      "64/7 min",
+      "57/7 min",
+      "71/7 min",
+      "128/7 min"
+    ],
+    "correct_option": "A",
+    "correct_answer": "64/7 min",
+    "explanation": "Average headway is 64/7 = 64/7 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_headway",
+      "variant": 2,
+      "inputs": {
+        "T": 64,
+        "n": 7,
+        "q": 3,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0104",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; observation window=66 min; departures=8. Find the average headway between departures.",
+    "options": [
+      "33/2 min",
+      "33/4 min",
+      "29/4 min",
+      "37/4 min"
+    ],
+    "correct_option": "B",
+    "correct_answer": "33/4 min",
+    "explanation": "Average headway is 66/8 = 33/4 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_headway",
+      "variant": 3,
+      "inputs": {
+        "T": 66,
+        "n": 8,
+        "q": 4,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0105",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; observation window=68 min; departures=9. Find the average headway between departures.",
+    "options": [
+      "68/9 min",
+      "77/9 min",
+      "136/9 min",
+      "59/9 min"
+    ],
+    "correct_option": "A",
+    "correct_answer": "68/9 min",
+    "explanation": "Average headway is 68/9 = 68/9 min minutes.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_headway",
+      "variant": 4,
+      "inputs": {
+        "T": 68,
+        "n": 9,
+        "q": 5,
+        "expr": "F(T,n)",
+        "unit": " min"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0106",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; platforms=8; average length=180 m. Find the total platform length in kilometres.",
+    "options": [
+      "11/25 km",
+      "61/25 km",
+      "36/25 km",
+      "72/25 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "36/25 km",
+    "explanation": "Total length is 8×180 m = 36/25 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_count",
+      "variant": 0,
+      "inputs": {
+        "n": 8,
+        "p": 180,
+        "q": 1,
+        "expr": "F(n*p,1000)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0107",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; platforms=10; average length=181 m. Find the total platform length in kilometres.",
+    "options": [
+      "281/100 km",
+      "81/100 km",
+      "181/100 km",
+      "181/50 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "181/100 km",
+    "explanation": "Total length is 10×181 m = 181/100 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_count",
+      "variant": 1,
+      "inputs": {
+        "n": 10,
+        "p": 181,
+        "q": 2,
+        "expr": "F(n*p,1000)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0108",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; platforms=12; average length=182 m. Find the total platform length in kilometres.",
+    "options": [
+      "546/125 km",
+      "273/125 km",
+      "398/125 km",
+      "148/125 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "273/125 km",
+    "explanation": "Total length is 12×182 m = 273/125 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_count",
+      "variant": 2,
+      "inputs": {
+        "n": 12,
+        "p": 182,
+        "q": 3,
+        "expr": "F(n*p,1000)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0109",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; platforms=14; average length=183 m. Find the total platform length in kilometres.",
+    "options": [
+      "781/500 km",
+      "1281/500 km",
+      "1781/500 km",
+      "1281/250 km"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1281/500 km",
+    "explanation": "Total length is 14×183 m = 1281/500 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_count",
+      "variant": 3,
+      "inputs": {
+        "n": 14,
+        "p": 183,
+        "q": 4,
+        "expr": "F(n*p,1000)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0110",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; platforms=16; average length=184 m. Find the total platform length in kilometres.",
+    "options": [
+      "493/125 km",
+      "243/125 km",
+      "368/125 km",
+      "736/125 km"
+    ],
+    "correct_option": "C",
+    "correct_answer": "368/125 km",
+    "explanation": "Total length is 16×184 m = 368/125 km km.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_platform_count",
+      "variant": 4,
+      "inputs": {
+        "n": 16,
+        "p": 184,
+        "q": 5,
+        "expr": "F(n*p,1000)",
+        "unit": " km"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0111",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; length=180 m; old pole time=12 s; new pole time=15 s. Find the new speed in km/h.",
+    "options": [
+      "211/5 km/h",
+      "221/5 km/h",
+      "216/5 km/h",
+      "432/5 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "216/5 km/h",
+    "explanation": "Using the new pole time, speed = 180/15 m/s = 216/5 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_gap",
+      "variant": 0,
+      "inputs": {
+        "l": 180,
+        "t1": 12,
+        "t2": 15,
+        "q": 1,
+        "expr": "F(l*18,5*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0112",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; length=181 m; old pole time=13 s; new pole time=16 s. Find the new speed in km/h.",
+    "options": [
+      "1669/40 km/h",
+      "1629/40 km/h",
+      "1629/20 km/h",
+      "1589/40 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "1629/40 km/h",
+    "explanation": "Using the new pole time, speed = 181/16 m/s = 1629/40 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_gap",
+      "variant": 1,
+      "inputs": {
+        "l": 181,
+        "t1": 13,
+        "t2": 16,
+        "q": 2,
+        "expr": "F(l*18,5*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0113",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; length=182 m; old pole time=14 s; new pole time=17 s. Find the new speed in km/h.",
+    "options": [
+      "6552/85 km/h",
+      "3191/85 km/h",
+      "3276/85 km/h",
+      "3361/85 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "3276/85 km/h",
+    "explanation": "Using the new pole time, speed = 182/17 m/s = 3276/85 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_gap",
+      "variant": 2,
+      "inputs": {
+        "l": 182,
+        "t1": 14,
+        "t2": 17,
+        "q": 3,
+        "expr": "F(l*18,5*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0114",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; length=183 m; old pole time=15 s; new pole time=18 s. Find the new speed in km/h.",
+    "options": [
+      "178/5 km/h",
+      "188/5 km/h",
+      "183/5 km/h",
+      "366/5 km/h"
+    ],
+    "correct_option": "C",
+    "correct_answer": "183/5 km/h",
+    "explanation": "Using the new pole time, speed = 183/18 m/s = 183/5 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_gap",
+      "variant": 3,
+      "inputs": {
+        "l": 183,
+        "t1": 15,
+        "t2": 18,
+        "q": 4,
+        "expr": "F(l*18,5*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0115",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; length=184 m; old pole time=16 s; new pole time=19 s. Find the new speed in km/h.",
+    "options": [
+      "6624/95 km/h",
+      "3312/95 km/h",
+      "3407/95 km/h",
+      "3217/95 km/h"
+    ],
+    "correct_option": "B",
+    "correct_answer": "3312/95 km/h",
+    "explanation": "Using the new pole time, speed = 184/19 m/s = 3312/95 km/h km/h.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_speed_gap",
+      "variant": 4,
+      "inputs": {
+        "l": 184,
+        "t1": 16,
+        "t2": 19,
+        "q": 5,
+        "expr": "F(l*18,5*t2)",
+        "unit": " km/h"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0116",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=1; length=160 m; speed=72 km/h; crossing object=140 m. Find the crossing time for the moving object.",
+    "options": [
+      "233/108 s",
+      "125/108 s",
+      "17/108 s",
+      "125/54 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "125/108 s",
+    "explanation": "Relative distance is 160+140 m; at 72 km/h the time is 125/108 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_crossing_order",
+      "variant": 0,
+      "inputs": {
+        "l": 160,
+        "v": 72,
+        "p": 140,
+        "q": 1,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0117",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=2; length=161 m; speed=73 km/h; crossing object=141 m. Find the crossing time for the moving object.",
+    "options": [
+      "755/657 s",
+      "1510/657 s",
+      "98/657 s",
+      "1412/657 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "755/657 s",
+    "explanation": "Relative distance is 161+141 m; at 73 km/h the time is 755/657 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_crossing_order",
+      "variant": 1,
+      "inputs": {
+        "l": 161,
+        "v": 73,
+        "p": 141,
+        "q": 2,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0118",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=3; length=162 m; speed=74 km/h; crossing object=142 m. Find the crossing time for the moving object.",
+    "options": [
+      "380/333 s",
+      "47/333 s",
+      "713/333 s",
+      "760/333 s"
+    ],
+    "correct_option": "A",
+    "correct_answer": "380/333 s",
+    "explanation": "Relative distance is 162+142 m; at 74 km/h the time is 380/333 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_crossing_order",
+      "variant": 2,
+      "inputs": {
+        "l": 162,
+        "v": 74,
+        "p": 142,
+        "q": 3,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0119",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=4; length=163 m; speed=75 km/h; crossing object=143 m. Find the crossing time for the moving object.",
+    "options": [
+      "32/15 s",
+      "2/15 s",
+      "34/15 s",
+      "17/15 s"
+    ],
+    "correct_option": "D",
+    "correct_answer": "17/15 s",
+    "explanation": "Relative distance is 163+143 m; at 75 km/h the time is 17/15 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_crossing_order",
+      "variant": 3,
+      "inputs": {
+        "l": 163,
+        "v": 75,
+        "p": 143,
+        "q": 4,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  },
+  {
+    "id": "trains_data_interpretation-0120",
+    "chapter": "Trains – Data Interpretation",
+    "chapter_key": "trains_data_interpretation",
+    "part": 4,
+    "section": "trains_data_interpretation_part_4",
+    "question_text": "Data: Case=5; length=164 m; speed=76 km/h; crossing object=144 m. Find the crossing time for the moving object.",
+    "options": [
+      "385/171 s",
+      "385/342 s",
+      "727/342 s",
+      "43/342 s"
+    ],
+    "correct_option": "B",
+    "correct_answer": "385/342 s",
+    "explanation": "Relative distance is 164+144 m; at 76 km/h the time is 385/342 s s.",
+    "difficulty": "MEDIUM",
+    "source_name": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf",
+    "source_url": "",
+    "source_page": "207b546a-6d75-4080-8b00-114f9d7c977d.pdf, pp. 4-11",
+    "source_type": "ORIGINAL_VERIFIED",
+    "exam_year": null,
+    "verification_status": "VERIFIED",
+    "verification_method": "Independent recomputation in verify_banking_maths_set9_questions.py",
+    "verification_data": {
+      "family": "tdi_crossing_order",
+      "variant": 4,
+      "inputs": {
+        "l": 164,
+        "v": 76,
+        "p": 144,
+        "q": 5,
+        "expr": "F((l+p)*5,18*v)",
+        "unit": " s"
+      }
+    },
+    "provenance_note": "Original question written for this bank. Topic scope is aligned with the cited source pages; it is not an extracted PDF MCQ and is not a previous-year question."
+  }
+]
